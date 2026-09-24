@@ -19,16 +19,16 @@ cp .env.example .env   # isi token Meta + kredensial Cloudinary
 
 ```bash
 # 1. Dry-run: lihat apa yang akan dibuat (tidak mengubah apa pun di Meta)
-python -m metads config/umroh-premium-1448.yaml
+python -m metads config/aini-umroh-1448.yaml
 
 # 2. Buat beneran (semua PAUSED)
-python -m metads config/umroh-premium-1448.yaml --apply
+python -m metads config/aini-umroh-1448.yaml --apply
 ```
 
 ## Preview sebelum dibuat
 
 ```bash
-python -m metads.preview config/*.yaml -o preview.html
+python -m metads.preview config/aini-umroh-1448.yaml -o preview.html
 ```
 
 Perintah ini membuat file HTML berisi mockup iklan ala feed Facebook, dengan satu kartu per judul dan gambar asli dari Cloudinary.
@@ -45,7 +45,7 @@ Setiap ad set dibatasi maksimal 50 iklan.
 
 ## Config
 
-Lihat `config/umroh-premium-1448.yaml` sebagai template. Poin penting:
+Lihat `config/aini-umroh-1448.yaml` sebagai template. Poin penting:
 
 | Field | Keterangan |
 |---|---|
@@ -54,6 +54,7 @@ Lihat `config/umroh-premium-1448.yaml` sebagai template. Poin penting:
 | `daily_budget` | Untuk IDR tulis rupiah langsung (mis. `150000`). |
 | `source.folder` / `source.tag` | Sumber aset di Cloudinary (fixed dan dynamic folder didukung). |
 | `copies` | Daftar variasi `primary_text`, `headline`, `description`. Pakai `headlines: [a, b]` untuk test beberapa judul dengan copy yang sama. |
+| `destination: whatsapp` | Iklan membuka chat WhatsApp Page (optimasi *Conversations*). `link`, `call_to_action`, dan `optimization_goal` terisi otomatis. |
 | `call_to_action` | `LEARN_MORE`, `SHOP_NOW`, `SIGN_UP`, `CONTACT_US`, `WHATSAPP_MESSAGE`, dll. |
 
 Kalau proses gagal di tengah jalan, jalankan ulang saja. Objek yang sudah dibuat tidak akan diduplikasi.

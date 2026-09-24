@@ -1,0 +1,252 @@
+# Akun iklan AIni (act_814396810761205) — Umroh musim 1448 H
+# Mengikuti struktur akun: 1 campaign (budget di campaign) + 1 ad set per paket,
+# tujuan WhatsApp (tombol "Kirim Pesan WhatsApp"), Page "Elharamain wisata".
+#
+#   python -m metads.preview config/aini-umroh-1448.yaml           # lihat mockup
+#   python -m metads config/aini-umroh-1448.yaml                   # dry-run
+#   python -m metads config/aini-umroh-1448.yaml --apply           # buat di Meta, semua PAUSED
+
+name: aini-umroh-1448
+page_id: "588336968031663"          # Elharamain wisata
+page_name: "Elharamain wisata"      # hanya untuk preview
+instagram_user_id: null             # belum ada akun IG yang terhubung ke akun iklan ini
+
+campaign:
+  name: "[AUTO] AIni Umroh 1448H"
+  objective: OUTCOME_SALES          # sama dengan campaign WhatsApp yang sudah ada di akun
+  special_ad_categories: []
+  daily_budget: 150000              # rupiah/hari untuk seluruh campaign (dibagi otomatis ke 4 ad set)
+
+# Targeting dari ad set "Januari" (CPR terbaik di akun: Rp37.364/chat WhatsApp, 90 hari terakhir)
+x-targeting: &targeting
+  age_min: 25
+  age_max: 65
+  geo_locations:
+    regions:
+      - {key: "1664"}               # Jakarta
+      - {key: "1685"}               # Jawa Barat
+      - {key: "4143"}               # Banten
+    location_types: [home, recent]
+  targeting_automation:
+    advantage_audience: 0
+
+adsets:
+  - name: "November"
+    destination: whatsapp
+    targeting: *targeting
+    source:
+      folder: "Elharamainwisata/Umroh/November"
+      max_assets: 25
+    ad_name_template: "{adset} | {asset} | judul{copy}"
+    copies:
+      - headlines:
+          - "✈️ Tiket Sudah Confirm, Jadwal Pasti"
+          - "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
+        description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
+        primary_text: |
+          🕋✨Promo Paket Umroh Eksklusif By Riyadh AIr - Elharamain Wisata musim 1448 H✨
+
+          Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elharamain Wisata
+
+          ✅Manasik umroh & Vip Lounge umroh
+          ✅Perlengkapan Umroh Ekslusif
+          ✅Fasilitas Hotel Bintang 5
+          ✅Menggunakan Transportasi Bus terbaru
+          ✅Dibimbing ustadz -ustadz lulusan Timur Tengah
+          ✅Membimbing umroh sesuai tuntunan Sunnah
+          ✅Mengedepankan Pelayanan
+          ✅Free Ziarah Thaif & Kuliner Arab Saudi (Nasi Mandi 2x + Albaik 3x)
+          ✅Free Kunafa di Madinah & Thaif
+          ✅Free Cable Car Thaif
+          ✅Free Naik Unta & Atv di Madinah
+          ✅Free Kereta Cepat Madinah-makkah
+          ✅Free oleh-oleh Ekslusif saat kepulangan
+
+          🕋 Berangkat s/d 20x per bulan
+          🕋 Umroh 3x (dibimbing)
+          🕋 Program Tahajjud & Kajian
+          🕋 Kuliner Arab Saudi
+          🕋 Team Handling Profesional
+
+          👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
+
+          Umroh dengan Fasilitas bintang 5 bersama Elharamain Wisata , dibimbing & dilayani sepenuh hati.
+
+          Seat Terbatas hanya 45 Seat / Keberangkatan & Alhamdulillah Selalu Full
+
+          Masih ada yang mau ditanyakan ? Atau Mau main ke 6 Kantor Elharamain wisata ?
+
+          Umrah, Haji & Halal Tour
+          ☑️ PT Dhiyaa El Haramain El Mubarakah
+          ☑️ IZIN UMRAH SK KEMENAG NO.63 2020
+          🎬 Elharamain Wisata Official Youtube
+          ☑️ @elharamainwisata (ig)
+          ☑️ www.elharamainwisata.com
+          📍 Kantor Bekasi 📍 Kantor jakarta 📍 Kantor Depok 📍 Kantor Bandung 📍 Kantor Tangerang 📍 Kantor Bogor
+
+  - name: "Desember"
+    destination: whatsapp
+    targeting: *targeting
+    source:
+      folder: "Elharamainwisata/Umroh/desember"
+      max_assets: 25
+    ad_name_template: "{adset} | {asset} | judul{copy}"
+    copies:
+      - headlines:
+          - "✈️ Tiket Sudah Confirm, Jadwal Pasti"
+          - "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
+        description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
+        primary_text: |
+          ✈️ Ekslusif Paket Umroh Akhir Tahun Premium By Saudia Airlines Elharamain Wisata musim 1448 H✨
+
+          Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elharamain Wisata
+
+          ✅Manasik umroh & Vip Lounge umroh
+          ✅Perlengkapan Umroh Ekslusif
+          ✅Pesawat Direct Flight by Saudia
+          ✅Fasilitas Hotel Bintang 5
+          ✅Menggunakan Transportasi Bus terbaru
+          ✅Dibimbing ustadz -ustadz lulusan Timur Tengah
+          ✅Membimbing umroh sesuai tuntunan Sunnah
+          ✅Mengedepankan Pelayanan
+          ✅Free Ziarah Thaif & Kuliner Arab Saudi (Nasi Mandi 2x + Albaik 3x)
+          ✅Free Kunafa di Madinah & Thaif
+          ✅Free Cable Car Thaif
+          ✅Free Naik Unta & Atv di Madinah
+          ✅Free Kereta Cepat Madinah-makkah
+          ✅Free oleh-oleh Ekslusif saat kepulangan
+
+          🕋 Berangkat s/d 20x per bulan
+          🕋 Umroh 3x (dibimbing)
+          🕋 Program Tahajjud & Kajian
+          🕋 Kuliner Arab Saudi
+          🕋 Team Handling Profesional
+
+          👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
+
+          Umroh dengan Fasilitas bintang 5 bersama Elharamain Wisata , dibimbing & dilayani sepenuh hati.
+
+          Seat Terbatas hanya 45 Seat / Keberangkatan & Alhamdulillah Selalu Full
+
+          Masih ada yang mau ditanyakan ? Atau Mau main ke 6 Kantor Elharamain wisata ?
+
+          Umrah, Haji & Halal Tour
+          ☑️ PT Dhiyaa El Haramain El Mubarakah
+          ☑️ IZIN UMRAH SK KEMENAG NO.63 2020
+          🎬 Elharamain Wisata Official Youtube
+          ☑️ @elharamainwisata (ig)
+          ☑️ www.elharamainwisata.com
+          📍 Kantor Bekasi 📍 Kantor jakarta 📍 Kantor Depok 📍 Kantor Bandung 📍 Kantor Tangerang 📍 Kantor Bogor
+
+          #Elharamainwisata #Umroh #PaketUmroh #Travelumroh
+
+  - name: "9 Hari Januari"
+    destination: whatsapp
+    targeting: *targeting
+    source:
+      folder: "Elharamainwisata/Umroh/januari 9 hari"
+      max_assets: 25
+    ad_name_template: "{adset} | {asset} | judul{copy}"
+    copies:
+      - headlines:
+          - "✈️ Tiket Sudah Confirm, Jadwal Pasti"
+          - "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
+        description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
+        primary_text: |
+          ✈️ Ekslusif Paket Umroh Premium By Saudia Airlines - Elharamain Wisata musim 1448 H✨
+
+          Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elharamain Wisata
+
+          ✅Manasik umroh & Vip Lounge umroh
+          ✅Perlengkapan Umroh Ekslusif
+          ✅Fasilitas Hotel Bintang 5
+          ✅Menggunakan Transportasi Bus terbaru
+          ✅Dibimbing ustadz -ustadz lulusan Timur Tengah
+          ✅Membimbing umroh sesuai tuntunan Sunnah
+          ✅Mengedepankan Pelayanan
+          ✅Free Ziarah Thaif & Kuliner Arab Saudi (Nasi Mandi 2x + Albaik 3x)
+          ✅Free Kunafa di Madinah & Thaif
+          ✅Free Cable Car Thaif
+          ✅Free Naik Unta & Atv di Madinah
+          ✅Free Kereta Cepat Madinah-makkah
+          ✅Free oleh-oleh Ekslusif saat kepulangan
+
+          🕋 Berangkat s/d 20x per bulan
+          🕋 Umroh 3x (dibimbing)
+          🕋 Program Tahajjud & Kajian
+          🕋 Kuliner Arab Saudi
+          🕋 Team Handling Profesional
+
+          👍 6800 + ulasan di google Review 🌟 5
+
+          👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
+
+          Umroh dengan Fasilitas bintang 5 bersama Elharamain Wisata , dibimbing & dilayani sepenuh hati.
+
+          Seat Terbatas hanya 45 Seat / Keberangkatan & Alhamdulillah Selalu Full
+
+          Masih ada yang mau ditanyakan ? Atau Mau main ke 6 Kantor Elharamain wisata ?
+
+          Umrah, Haji & Halal Tour
+          ☑️ PT Dhiyaa El Haramain El Mubarakah
+          ☑️ IZIN UMRAH SK KEMENAG NO.63 2020
+          🎬 Elharamain Wisata Official Youtube
+          ☑️ @elharamainwisata (ig)
+          ☑️ www.elharamainwisata.com
+          📍 Kantor Bekasi 📍 Kantor jakarta 📍 Kantor Depok 📍 Kantor Bandung 📍 Kantor Tanggerang 📍 Kantor Bogor
+
+  - name: "12 Hari Januari"
+    destination: whatsapp
+    targeting: *targeting
+    source:
+      folder: "Elharamainwisata/Umroh/12 hari januari"
+      max_assets: 25
+    ad_name_template: "{adset} | {asset} | judul{copy}"
+    copies:
+      - headlines:
+          - "✈️ Tiket Sudah Confirm, Jadwal Pasti"
+          - "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
+        description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
+        primary_text: |
+          ✈️ Ekslusif Paket Umroh 12 Hari Premium By Saudia Airlines Elharamain Wisata musim 1448 H✨
+
+          Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elharamain Wisata
+
+          ✅Manasik umroh & Vip Lounge umroh
+          ✅Perlengkapan Umroh Ekslusif
+          ✅Pesawat Direct Flight by Saudia
+          ✅Fasilitas Hotel Bintang 5
+          ✅Menggunakan Transportasi Bus terbaru
+          ✅Dibimbing ustadz -ustadz lulusan Timur Tengah
+          ✅Membimbing umroh sesuai tuntunan Sunnah
+          ✅Mengedepankan Pelayanan
+          ✅Free Ziarah Thaif & Kuliner Arab Saudi (Nasi Mandi 2x + Albaik 3x)
+          ✅Free Kunafa di Madinah & Thaif
+          ✅Free Cable Car Thaif
+          ✅Free Naik Unta & Atv di Madinah
+          ✅Free Kereta Cepat Madinah-makkah
+          ✅Free oleh-oleh Ekslusif saat kepulangan
+
+          🕋 Berangkat s/d 20x per bulan
+          🕋 Umroh 3x (dibimbing)
+          🕋 Program Tahajjud & Kajian
+          🕋 Kuliner Arab Saudi
+          🕋 Team Handling Profesional
+
+          👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
+
+          Umroh dengan Fasilitas bintang 5 bersama Elharamain Wisata , dibimbing & dilayani sepenuh hati.
+
+          Seat Terbatas hanya 45 Seat / Keberangkatan & Alhamdulillah Selalu Full
+
+          Masih ada yang mau ditanyakan ? Atau Mau main ke 6 Kantor Elharamain wisata ?
+
+          Umrah, Haji & Halal Tour
+          ☑️ PT Dhiyaa El Haramain El Mubarakah
+          ☑️ IZIN UMRAH SK KEMENAG NO.63 2020
+          🎬 Elharamain Wisata Official Youtube
+          ☑️ @elharamainwisata (ig)
+          ☑️ www.elharamainwisata.com
+          📍 Kantor Bekasi 📍 Kantor jakarta 📍 Kantor Depok 📍 Kantor Bandung 📍 Kantor Tangerang 📍 Kantor Bogor
+
+          #Elharamainwisata #Umroh #PaketUmroh #Travelumroh

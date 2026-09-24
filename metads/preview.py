@@ -42,7 +42,7 @@ def _feed_card(cfg: dict, adset: dict, copy: dict, asset: Asset | None, label: s
     text = copy["primary_text"].strip()
     lines = text.split("\n")
     teaser, rest = "\n".join(lines[:3]), "\n".join(lines[3:])
-    domain = urlparse(adset["link"]).netloc.removeprefix("www.").upper()
+    domain = "WHATSAPP" if adset.get("destination") == "whatsapp" else urlparse(adset["link"]).netloc.removeprefix("www.").upper()
     cta = CTA_LABELS.get(adset.get("call_to_action", "LEARN_MORE"), adset.get("call_to_action", ""))
     page = cfg.get("page_name", "Elharamain Wisata")
     initials = "".join(w[0] for w in page.split()[:2]).upper()

@@ -21,6 +21,7 @@ log = logging.getLogger("metads")
 
 STATUS = "PAUSED"
 MAX_ADS_PER_ADSET = 50
+WHATSAPP_LINK = "https://api.whatsapp.com/send"
 
 
 class ConfigError(ValueError):
@@ -32,8 +33,17 @@ def load_config(path: str | Path) -> dict:
         cfg = yaml.safe_load(f) or {}
     for adset in cfg.get("adsets") or []:
         adset["copies"] = expand_copies(adset.get("copies") or [])
+        if is_whatsapp(adset):
+            # Click-to-WhatsApp: iklan membuka chat WhatsApp milik Page.
+            adset.setdefault("optimization_goal", "CONVERSATIONS")
+            adset.setdefault("link", WHATSAPP_LINK)
+            adset.setdefault("call_to_action", "WHATSAPP_MESSAGE")
     validate_config(cfg)
     return cfg
+
+
+def is_whatsapp(adset: dict) -> bool:
+    return str(adset.get("destination", "")).lower() == "whatsapp"
 
 
 def expand_copies(copies: list[dict]) -> list[dict]:
@@ -123,7 +133,7 @@ def campaign_params(cfg: dict) -> dict:
     return params
 
 
-def adset_params(adset: dict, campaign_id: str, cbo: bool) -> dict:
+def adset_params(adset: dict, campaign_id: str, cbo: bool, page_id: str | None = None) -> dict:
     params: dict[str, Any] = {
         "name": adset["name"],
         "campaign_id": campaign_id,
@@ -135,6 +145,9 @@ def adset_params(adset: dict, campaign_id: str, cbo: bool) -> dict:
         "start_time": adset.get("start_time"),
         "end_time": adset.get("end_time"),
     }
+    if is_whatsapp(adset):
+        params["destination_type"] = "WHATSAPP"
+        params["promoted_object"] = {"page_id": str(page_id), **(adset.get("promoted_object") or {})}
     if not cbo:
         params["daily_budget"] = adset.get("daily_budget")
         params["lifetime_budget"] = adset.get("lifetime_budget")
@@ -145,6 +158,8 @@ def adset_params(adset: dict, campaign_id: str, cbo: bool) -> dict:
 
 def creative_params(cfg: dict, adset: dict, asset: Asset, media_id: str, copy: dict, name: str) -> dict:
     cta = {"type": adset.get("call_to_action", "LEARN_MORE"), "value": {"link": adset["link"]}}
+    if is_whatsapp(adset):
+        cta["value"]["app_destination"] = "WHATSAPP"
     spec: dict[str, Any] = {"page_id": str(cfg["page_id"])}
     if cfg.get("instagram_user_id"):
         spec["instagram_user_id"] = str(cfg["instagram_user_id"])
@@ -242,7 +257,7 @@ def run(
         if not adset_id:
             step(f"  ad set '{adset['name']}'")
             if apply:
-                adset_id = meta.create_adset(adset_params(adset, campaign_id, cbo))
+                adset_id = meta.create_adset(adset_params(adset, campaign_id, cbo, cfg["page_id"]))
                 ad_state["id"] = adset_id
                 state.save()
 

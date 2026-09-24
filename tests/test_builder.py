@@ -49,6 +49,7 @@ class FakeMeta:
     ("umroh-premium-1448.yaml", "Saudia Airlines"),
     ("umroh-riyadh-air-1448.yaml", "Riyadh AIr"),
     ("umroh-saudia-12hari-1448.yaml", "12 Hari Premium By Saudia"),
+    ("umroh-saudia-akhir-tahun-1448.yaml", "Akhir Tahun Premium By Saudia"),
 ])
 def test_configs_are_valid(filename, airline):
     cfg = load_config(CONFIG.parent / filename)

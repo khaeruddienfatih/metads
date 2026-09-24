@@ -25,6 +25,15 @@ python -m metads config/umroh-premium-1448.yaml
 python -m metads config/umroh-premium-1448.yaml --apply
 ```
 
+## Preview sebelum dibuat
+
+```bash
+python -m metads.preview config/*.yaml -o preview.html
+```
+
+Perintah ini membuat file HTML berisi mockup iklan ala feed Facebook, dengan satu kartu per judul dan gambar asli dari Cloudinary.
+Halaman itu juga menampilkan jumlah iklan dan budget per campaign. Buka file-nya di browser. Tidak ada yang dibuat di Meta.
+
 ## Alur kerja harian
 
 1. Upload creative baru (gambar/video) ke folder Cloudinary yang ada di config, misalnya `Elharamainwisata/Umroh/desember`.

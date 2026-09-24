@@ -122,3 +122,15 @@ def test_image_and_video_with_same_public_id_are_separate_ads(tmp_path):
     assert meta.kinds().count("image") == 1 and meta.kinds().count("video") == 1
     names = [p["name"] for k, p in meta.calls if k == "ad"]
     assert len(set(names)) == 4
+
+
+def test_preview_renders_both_headlines_and_counts():
+    from metads.preview import render
+
+    cfg = load_config(CONFIG)
+    assets = [make_asset("a"), make_asset("a", "video"), make_asset("b")]
+    page = render([(cfg, {cfg["adsets"][0]["name"]: assets})])
+    assert "1 campaign, 6 iklan" in page
+    assert "Tiket Sudah Confirm, Jadwal Pasti" in page and "6700+ Google Review" in page
+    assert "/video/upload/so_0," in page
+    assert "Rp150.000" in page

@@ -45,9 +45,13 @@ class FakeMeta:
         return [k for k, _ in self.calls]
 
 
-def test_example_config_is_valid():
-    cfg = load_config(CONFIG)
-    assert "Saudia Airlines" in cfg["adsets"][0]["copies"][0]["primary_text"]
+@pytest.mark.parametrize("filename,airline", [
+    ("umroh-premium-1448.yaml", "Saudia Airlines"),
+    ("umroh-riyadh-air-1448.yaml", "Riyadh AIr"),
+])
+def test_configs_are_valid(filename, airline):
+    cfg = load_config(CONFIG.parent / filename)
+    assert airline in cfg["adsets"][0]["copies"][0]["primary_text"]
 
 
 def test_dry_run_does_not_call_meta(tmp_path):

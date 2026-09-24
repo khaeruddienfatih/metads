@@ -36,7 +36,7 @@ adsets:
     ad_name_template: "{asset} | copy{copy}"
     copies:
       - headlines:                 # tiap judul = varian iklan terpisah untuk di-test
-          - "✈️ Tiket Sudah Confirm, Jadwal Pasti - Daftar Umroh Sekarang!"
+          - "✈️ Tiket Sudah Confirm, Jadwal Pasti"
           - "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
         description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
         primary_text: |

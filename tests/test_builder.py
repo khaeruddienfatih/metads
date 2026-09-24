@@ -106,7 +106,7 @@ def test_headlines_expand_into_variants(tmp_path):
     cfg = load_config(CONFIG)
     copies = cfg["adsets"][0]["copies"]
     assert [c["headline"] for c in copies] == [
-        "✈️ Tiket Sudah Confirm, Jadwal Pasti - Daftar Umroh Sekarang!",
+        "✈️ Tiket Sudah Confirm, Jadwal Pasti",
         "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)",
     ]
     assert copies[0]["primary_text"] == copies[1]["primary_text"]

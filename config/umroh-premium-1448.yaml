@@ -1,0 +1,81 @@
+# Campaign Umroh Premium Saudia Airlines — Elharamain Wisata, musim 1448 H
+# Jalankan:  python -m metads config/umroh-premium-1448.yaml          (dry-run)
+#            python -m metads config/umroh-premium-1448.yaml --apply  (buat di Meta, semua PAUSED)
+
+name: umroh-premium-1448           # kunci unik untuk file state (state/umroh-premium-1448.json)
+page_id: "ISI_PAGE_ID"             # ID Facebook Page Elharamain Wisata
+instagram_user_id: null            # opsional: ID akun IG @elharamainwisata
+
+campaign:
+  name: "[AUTO] Umroh Premium Saudia 1448H"
+  objective: OUTCOME_TRAFFIC       # OUTCOME_LEADS / OUTCOME_SALES / OUTCOME_ENGAGEMENT juga bisa
+  special_ad_categories: []
+  # daily_budget: 300000           # isi di sini untuk CBO; kosongkan kalau budget per ad set
+
+adsets:
+  - name: "Umroh | Jabodetabek+Bandung | 30-60"
+    daily_budget: 150000           # rupiah (IDR tidak punya satuan sen di Meta)
+    optimization_goal: LANDING_PAGE_VIEWS
+    billing_event: IMPRESSIONS
+    targeting:
+      geo_locations:
+        # Sekitar 6 kantor: Jakarta, Bekasi, Depok, Tangerang, Bogor, Bandung.
+        # Ganti dengan key kota dari Targeting Search API bila perlu.
+        countries: [ID]
+      age_min: 30
+      age_max: 60
+      targeting_automation:
+        advantage_audience: 1
+    source:
+      folder: "elharamain/umroh-1448"  # folder di Cloudinary; tiap gambar/video baru = iklan baru
+      # tag: umroh-1448                # atau pakai tag
+      max_assets: 20
+    link: "https://www.elharamainwisata.com"
+    call_to_action: LEARN_MORE
+    url_tags: "utm_source=meta&utm_medium=paid&utm_campaign=umroh-premium-1448"
+    ad_name_template: "{asset} | copy{copy}"
+    copies:
+      - headline: "Umroh Premium Saudia Airlines 1448 H"
+        description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
+        primary_text: |
+          ✈️ Ekslusif Paket Umroh Premium By Saudia Airlines - Elharamain Wisata musim 1448 H✨
+
+          Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elharamain Wisata
+
+          ✅Manasik umroh & Vip Lounge umroh
+          ✅Perlengkapan Umroh Ekslusif
+          ✅Fasilitas Hotel Bintang 5
+          ✅Menggunakan Transportasi Bus terbaru
+          ✅Dibimbing ustadz -ustadz lulusan Timur Tengah
+          ✅Membimbing umroh sesuai tuntunan Sunnah
+          ✅Mengedepankan Pelayanan
+          ✅Free Ziarah Thaif & Kuliner Arab Saudi (Nasi Mandi 2x + Albaik 3x)
+          ✅Free Kunafa di Madinah & Thaif
+          ✅Free Cable Car Thaif
+          ✅Free Naik Unta & Atv di Madinah
+          ✅Free Kereta Cepat Madinah-makkah
+          ✅Free oleh-oleh Ekslusif saat kepulangan
+
+          🕋 Berangkat s/d 20x per bulan
+          🕋 Umroh 3x (dibimbing)
+          🕋 Program Tahajjud & Kajian
+          🕋 Kuliner Arab Saudi
+          🕋 Team Handling Profesional
+
+          👍 6800 + ulasan di google Review 🌟 5
+
+          👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
+
+          Umroh dengan Fasilitas bintang 5 bersama Elharamain Wisata , dibimbing & dilayani sepenuh hati.
+
+          Seat Terbatas hanya 45 Seat / Keberangkatan & Alhamdulillah Selalu Full
+
+          Masih ada yang mau ditanyakan ? Atau Mau main ke 6 Kantor Elharamain wisata ?
+
+          Umrah, Haji & Halal Tour
+          ☑️ PT Dhiyaa El Haramain El Mubarakah
+          ☑️ IZIN UMRAH SK KEMENAG NO.63 2020
+          🎬 Elharamain Wisata Official Youtube
+          ☑️ @elharamainwisata (ig)
+          ☑️ www.elharamainwisata.com
+          📍 Kantor Bekasi 📍 Kantor jakarta 📍 Kantor Depok 📍 Kantor Bandung 📍 Kantor Tanggerang 📍 Kantor Bogor

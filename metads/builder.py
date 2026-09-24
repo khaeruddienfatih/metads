@@ -227,7 +227,7 @@ def run(
             (asset, i, copy)
             for asset in assets
             for i, copy in enumerate(adset["copies"])
-            if f"{asset.public_id}#{i}" not in ad_state["ads"]
+            if f"{asset.key}#{i}" not in ad_state["ads"]
         ]
         room = MAX_ADS_PER_ADSET - len(ad_state["ads"])
         if len(pending) > room:
@@ -251,7 +251,7 @@ def run(
             step(f"    ad '{name}' [{asset.resource_type}: {asset.public_id}]")
             if not apply:
                 continue
-            media_id = state.data["media"].get(asset.public_id)
+            media_id = state.data["media"].get(asset.key)
             if not media_id:
                 if asset.is_video:
                     media_id = meta.upload_video(asset.url, asset.short_name)
@@ -259,13 +259,13 @@ def run(
                         meta.wait_video_ready(media_id)
                 else:
                     media_id = meta.upload_image(cloudinary.download(asset.url), asset.short_name)
-                state.data["media"][asset.public_id] = media_id
+                state.data["media"][asset.key] = media_id
                 state.save()
             creative_id = meta.create_creative(creative_params(cfg, adset, asset, media_id, copy, name))
             ad_id = meta.create_ad(
                 {"name": name, "adset_id": adset_id, "creative": {"creative_id": creative_id}, "status": STATUS}
             )
-            ad_state["ads"][f"{asset.public_id}#{i}"] = ad_id
+            ad_state["ads"][f"{asset.key}#{i}"] = ad_id
             state.save()
 
     return result

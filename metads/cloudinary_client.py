@@ -27,8 +27,14 @@ class Asset:
         return f"https://res.cloudinary.com/{self.cloud_name}/video/upload/so_0/{self.public_id}.jpg"
 
     @property
+    def key(self) -> str:
+        """ID unik: gambar dan video di Cloudinary boleh punya public_id yang sama."""
+        return f"{self.resource_type}/{self.public_id}"
+
+    @property
     def short_name(self) -> str:
-        return self.public_id.rsplit("/", 1)[-1]
+        name = self.public_id.rsplit("/", 1)[-1]
+        return f"{name}.{self.format}" if self.format else name
 
 
 class CloudinaryClient:

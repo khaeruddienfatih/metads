@@ -9,7 +9,8 @@ CONFIG = Path(__file__).resolve().parent.parent / "config" / "umroh-premium-1448
 
 
 def make_asset(pid, rtype="image"):
-    return Asset(pid, rtype, f"https://res.cloudinary.com/demo/{rtype}/upload/{pid}.jpg", "jpg", "demo")
+    ext = "mp4" if rtype == "video" else "jpg"
+    return Asset(pid, rtype, f"https://res.cloudinary.com/demo/{rtype}/upload/{pid}.{ext}", ext, "demo")
 
 
 class FakeCloudinary:
@@ -110,3 +111,14 @@ def test_headlines_expand_into_variants(tmp_path):
         "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)",
     ]
     assert copies[0]["primary_text"] == copies[1]["primary_text"]
+
+
+def test_image_and_video_with_same_public_id_are_separate_ads(tmp_path):
+    cfg = load_config(CONFIG)
+    meta = FakeMeta()
+    cld = FakeCloudinary([make_asset("saudia_9_hari_4"), make_asset("saudia_9_hari_4", "video")])
+    run(cfg, cld, meta, State.load(tmp_path, "x"), apply=True)
+    assert meta.kinds().count("ad") == 4
+    assert meta.kinds().count("image") == 1 and meta.kinds().count("video") == 1
+    names = [p["name"] for k, p in meta.calls if k == "ad"]
+    assert len(set(names)) == 4

@@ -27,9 +27,9 @@ adsets:
       targeting_automation:
         advantage_audience: 1
     source:
-      folder: "elharamain/umroh-saudia-akhir-tahun-1448"  # folder di Cloudinary; tiap gambar/video baru = iklan baru
+      folder: "Elharamainwisata/Umroh/desember"  # folder di Cloudinary; tiap gambar/video baru = iklan baru
       # tag: umroh-saudia-akhir-tahun-1448                # atau pakai tag
-      max_assets: 20
+      max_assets: 25
     link: "https://www.elharamainwisata.com"
     call_to_action: LEARN_MORE
     url_tags: "utm_source=meta&utm_medium=paid&utm_campaign=umroh-saudia-akhir-tahun-1448"

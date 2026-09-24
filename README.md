@@ -27,7 +27,7 @@ python -m metads config/umroh-premium-1448.yaml --apply
 
 ## Alur kerja harian
 
-1. Upload creative baru (gambar/video) ke folder Cloudinary yang ada di config, misalnya `elharamain/umroh-1448`.
+1. Upload creative baru (gambar/video) ke folder Cloudinary yang ada di config, misalnya `Elharamainwisata/Umroh/desember`.
 2. Jalankan `--apply`. Script hanya membuat iklan untuk **aset baru**, karena aset lama sudah tercatat di `state/<name>.json`.
 3. Review di Ads Manager, lalu aktifkan.
 

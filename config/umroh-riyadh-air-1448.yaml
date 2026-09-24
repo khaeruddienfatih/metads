@@ -35,7 +35,9 @@ adsets:
     url_tags: "utm_source=meta&utm_medium=paid&utm_campaign=umroh-riyadh-air-1448"
     ad_name_template: "{asset} | copy{copy}"
     copies:
-      - headline: "✈️ Tiket Sudah Confirm, Jadwal Pasti - Daftar Umroh Sekarang!"
+      - headlines:                 # tiap judul = varian iklan terpisah untuk di-test
+          - "✈️ Tiket Sudah Confirm, Jadwal Pasti - Daftar Umroh Sekarang!"
+          - "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
         description: "Hotel Bintang 5 · Seat terbatas 45/keberangkatan"
         primary_text: |
           🕋✨Promo Paket Umroh Eksklusif By Riyadh AIr - Elharamain Wisata musim 1448 H✨

@@ -44,7 +44,7 @@ Lihat `config/umroh-premium-1448.yaml` sebagai template. Poin penting:
 | `campaign.daily_budget` | Isi untuk CBO. Kalau kosong, isi `daily_budget` di tiap ad set. |
 | `daily_budget` | Untuk IDR tulis rupiah langsung (mis. `150000`). |
 | `source.folder` / `source.tag` | Sumber aset di Cloudinary (fixed dan dynamic folder didukung). |
-| `copies` | Daftar variasi `primary_text`, `headline`, `description`. |
+| `copies` | Daftar variasi `primary_text`, `headline`, `description`. Pakai `headlines: [a, b]` untuk test beberapa judul dengan copy yang sama. |
 | `call_to_action` | `LEARN_MORE`, `SHOP_NOW`, `SIGN_UP`, `CONTACT_US`, `WHATSAPP_MESSAGE`, dll. |
 
 Kalau proses gagal di tengah jalan, jalankan ulang saja. Objek yang sudah dibuat tidak akan diduplikasi.

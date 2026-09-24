@@ -59,7 +59,7 @@ def test_configs_are_valid(filename, airline):
 def test_dry_run_does_not_call_meta(tmp_path):
     cfg = load_config(CONFIG)
     result = run(cfg, FakeCloudinary([make_asset("a"), make_asset("b")]), None, State.load(tmp_path, "x"))
-    assert len(result.planned) == 4  # campaign + adset + 2 ads
+    assert len(result.planned) == 6  # campaign + adset + 2 aset x 2 judul
     assert not (tmp_path / "x.json").exists()
 
 
@@ -68,7 +68,12 @@ def test_apply_creates_everything_paused_and_is_idempotent(tmp_path):
     meta = FakeMeta()
     cld = FakeCloudinary([make_asset("a"), make_asset("v", "video")])
     run(cfg, cld, meta, State.load(tmp_path, "x"), apply=True)
-    assert meta.kinds() == ["campaign", "adset", "image", "creative", "ad", "video", "creative", "ad"]
+    # 2 judul per aset -> 2 iklan per aset, media cukup di-upload sekali.
+    assert meta.kinds() == [
+        "campaign", "adset",
+        "image", "creative", "ad", "creative", "ad",
+        "video", "creative", "ad", "creative", "ad",
+    ]
     for kind, params in meta.calls:
         if kind in ("campaign", "adset", "ad"):
             assert params["status"] == "PAUSED"
@@ -77,7 +82,7 @@ def test_apply_creates_everything_paused_and_is_idempotent(tmp_path):
     cld.assets.append(make_asset("c"))
     meta2 = FakeMeta()
     run(cfg, cld, meta2, State.load(tmp_path, "x"), apply=True)
-    assert meta2.kinds() == ["image", "creative", "ad"]
+    assert meta2.kinds() == ["image", "creative", "ad", "creative", "ad"]
     assert meta2.calls[-1][1]["adset_id"] == "adset_2"
 
 
@@ -95,3 +100,13 @@ def test_missing_budget_rejected():
     del cfg["adsets"][0]["daily_budget"]
     with pytest.raises(ConfigError):
         validate_config(cfg)
+
+
+def test_headlines_expand_into_variants(tmp_path):
+    cfg = load_config(CONFIG)
+    copies = cfg["adsets"][0]["copies"]
+    assert [c["headline"] for c in copies] == [
+        "✈️ Tiket Sudah Confirm, Jadwal Pasti - Daftar Umroh Sekarang!",
+        "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)",
+    ]
+    assert copies[0]["primary_text"] == copies[1]["primary_text"]

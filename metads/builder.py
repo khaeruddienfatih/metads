@@ -30,8 +30,23 @@ class ConfigError(ValueError):
 def load_config(path: str | Path) -> dict:
     with open(path, encoding="utf-8") as f:
         cfg = yaml.safe_load(f) or {}
+    for adset in cfg.get("adsets") or []:
+        adset["copies"] = expand_copies(adset.get("copies") or [])
     validate_config(cfg)
     return cfg
+
+
+def expand_copies(copies: list[dict]) -> list[dict]:
+    """Copy dengan `headlines: [a, b]` dipecah jadi satu varian per headline."""
+    out = []
+    for copy in copies:
+        headlines = copy.get("headlines")
+        if not headlines:
+            out.append(copy)
+            continue
+        base = {k: v for k, v in copy.items() if k != "headlines"}
+        out.extend({**base, "headline": h} for h in headlines)
+    return out
 
 
 def validate_config(cfg: dict) -> None:

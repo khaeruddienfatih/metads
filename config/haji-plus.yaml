@@ -1,0 +1,93 @@
+# Paket Haji Plus — persiapan iklan baru (akun & campaign belum ditentukan)
+# Materi: Cloudinary folder Elharamainwisata/Haji (18 gambar + 18 video Hajj_2025).
+# Tujuan WhatsApp (tombol "Kirim Pesan WhatsApp"), Page "Elharamain wisata".
+#
+#   python -m metads.preview config/haji-plus.yaml     # lihat mockup
+#   python -m metads config/haji-plus.yaml             # dry-run
+#   python -m metads config/haji-plus.yaml --apply     # buat di Meta, semua PAUSED
+#
+# Sebelum --apply: isi META_AD_ACCOUNT_ID akun Haji yang dituju, lalu cek
+# nama campaign, budget, dan targeting di bawah.
+
+name: haji-plus
+page_id: "588336968031663"          # Elharamain wisata
+page_name: "Elharamain wisata"      # hanya untuk preview
+instagram_user_id: null
+
+campaign:
+  name: "[AUTO] Haji Plus"
+  objective: OUTCOME_SALES          # sama dengan campaign WhatsApp Umroh
+  special_ad_categories: []
+  daily_budget: 150000              # rupiah/hari — sesuaikan
+
+x-targeting: &targeting
+  age_min: 30
+  age_max: 65
+  geo_locations:
+    countries: [ID]
+    location_types: [home, recent]
+  targeting_automation:
+    advantage_audience: 0
+
+adsets:
+  - name: "Haji Plus"
+    destination: whatsapp
+    targeting: *targeting
+    source:
+      folder: "Elharamainwisata/Haji"
+      max_assets: 50
+    ad_name_template: "{adset} | {asset} | judul{copy}"
+    copies:
+      - headlines:
+          - "6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"
+          - "✈️Berangkat Haji Lebih Cepat Bersama Elharamain Wisata"
+        description: "Pendaftaran 4000 USD · Masa tunggu 6-10 tahun"
+        primary_text: |
+          🕋✨PAKET HAJI PLUS EKSKLUSIF BERSAMA ELHARAMAIN WISATA✨🤲
+
+          Visa Resmi Haji Pemerintah Indonesia - Masa Tunggu 6-10 Tahun
+
+          Masa tunggu Haji Reguler 25-40 Tahun , Semakin menunda , masa tunggu semakin lama
+
+          Kenapa harus mendaftar sekarang ?
+
+          ✅ Saat ini Masa Tunggu Haji plus sudah 6-10 tahun , semakin menunda masa tunggu akan semakin Panjang
+          ✅ Jika mendaftar sekarang , InsyaAllah akan berangkat Haji di Musim Dingin (6-10 tahun mendatang)
+          ✅ Visi Arab Saudi 2030 , yang akan menambah kouta haji menjadi 2x lipat dari 2jt ke 4jt jamaah , yang memungkinkan masa tunggu menjadi lebih cepat dari yang dijadualkan
+
+          Mengapa Mendaftar Haji Plus di Elharamain Wisata ?
+
+          ✅ Pendaftaran 4000 Usd (Paling Ringan se-Indonesia)
+          ✅ Mendapatkan Voucher Umroh 5Jt (Bisa digunakan selama masa tunggu) S&K Berlaku
+          ✅ Variasi Paket & Biaya yang Kompetitif
+          ✅ 12 Program Ibadah Terarah & Terbimbing
+          ✅ Banyak Kajian-Kajian Selama Perjalanan Ibadah Haji
+          ✅ Dibimbing oleh Asatidz Berilmu dan Berpengalaman
+          ✅ Layanan Kesehatan Haji oleh Dokter Berpengalaman
+          ✅ Transparansi Dana Manfaat
+          ✅ Team yang Profesional
+          ✅ Fasilitas & Layanan Terbaik
+          ✅ Tenda Mina Dekat
+          ✅ Kajian Bulanan selama Masa Tunggu
+
+          Nikmati Perjalanan Ibadah Haji Bernilai & Bermakna bersama Elharamain Wisata
+
+          👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Belasan Ribu Jamaah
+
+          Sekali Ber-Haji , Bernilai & Bermakna
+          Bersama Elharamain Wisata
+
+          ✅ 🇮🇩 Elharamain Wisata
+          ✅Terakreditasi A
+          ✅ PT Dhiyaa El Haramain El Mubarakah
+          ✅ IZIN HAJI SK KEMENAG NO.846 2020
+          ▶️ Elharamain Wisata Official Youtube
+          ✅ elharamainwisata (IG)
+          ✅ www.elharamainwisata.com
+          📍 Kantor Bekasi
+          📍 Kantor Jakarta
+          📍 Kantor Depok
+          📍 Kantor Bogor
+          📍 Kantor Bandung
+          📍 Kantor Tanggerang
+          #elharamainwisata #hajiplus #onhplus #hajikhusus #elharamainhaji

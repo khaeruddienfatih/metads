@@ -80,11 +80,10 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | Tira | Rp402.500 |
 | Hanif | Rp287.500 |
 
-Permintaan "naikin anggaran elharamain haji 15%" (2 Okt) **belum dieksekusi** — tertunda karena
-user meminta simpan memory ini dulu.
+Kenaikan 15% kedua (2 Okt) **dilakukan manual oleh user** di Ads Manager — angka di atas adalah
+nilai sebelum kenaikan itu.
 
 ## Pending / pertanyaan terbuka
 
-- Konfirmasi: kenaikan 15% kedua di Elharamain Haji (termasuk kampanye Diana baru?).
 - Diana: 5 ad set IG ARCHIVED — disengaja?
 - Nida desember lama: 4 iklan — ditunda atas permintaan user.

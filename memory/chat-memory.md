@@ -103,7 +103,9 @@ Hasil scan semua akun (ad set bernama "Riyadh Air"). Ad set kosong diisi 3 iklan
 | Diana | 1076195694707828 | 3 ad set diisi (9 draft) |
 | Fikri | 1676215979752437 | 3 ad set baru diisi (9 draft); 3 ad set lain sudah 5 iklan |
 | Fifi | 521083143750270 | 1 ad set diisi (3 iklan); 2 lain sudah 5 iklan |
+| Nida | 1019832712800468 | campaign Riyadh Air (`120251511582700004`), 3 ad set "Riyad Air" diisi (9 draft) |
+| Allif | 4678183395742010 | campaign Riyadh Air (`120252087342810228`), 3 ad set "Riyad Air" diisi (9 iklan, live). Ad set "Riyad AIr" di campaign Alif/Alif INDO tidak disentuh |
 | CloseF | 1050343302646341 | 1 ad set, sudah 5 iklan (tidak disentuh) |
 
-Akun tanpa ad set Riyadh Air: Nida, Allif, Elharamain Haji, dll. Akun Ads MCP belum dibuka
+**Ejaan ad set bervariasi** ("Riyadh Air", "Riyad Air", "Riyad AIr") — scan pakai kata kunci `Riyad`. Rescan 3 Okt: tidak ada tambahan selain tabel ini. Akun tanpa ad set Riyadh Air: Elharamain Haji, dll. Akun Ads MCP belum dibuka
 (Elharamainclose, Umroh Plus, Elharamainwisata, dll.) tidak bisa dicek.

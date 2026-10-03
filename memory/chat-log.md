@@ -56,3 +56,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Draft di AIni, Diana, Fikri sudah di-set PAUSED satu per satu. Irfan & Fifi live (langsung PAUSED).
 - Gambar Desain 2 #1–6 dimasukkan lewat creative dummy `upload Riyadh Air Desain 2 - N` (abaikan).
 - Tertunda (manual user): template WA `10 hari`, matikan Media terkait, aktifkan.
+
+### 2026-10-03 — Nida & Allif belum (ejaan "Riyad Air")
+- Scan awal pakai kata kunci "Riyadh" melewatkan ad set bernama "Riyad Air" → Nida & Allif terlewat.
+- Nida (1019832712800468): campaign Riyadh Air `120251511582700004`, 3 ad set kosong → 9 draft, di-set PAUSED.
+- Allif (4678183395742010): campaign Riyadh Air `120252087342810228`, 3 ad set kosong → 9 iklan, akun live, langsung PAUSED. Ad set "Riyad AIr" di campaign Alif/Alif INDO tidak disentuh (bukan campaign Riyadh Air).
+- Rescan ~30 akun dengan kata kunci "Riyad": tidak ada tambahan lain (CloseF sudah 5 iklan).
+- Tertunda (manual user): template WA `10 hari`, matikan Media terkait, aktifkan.

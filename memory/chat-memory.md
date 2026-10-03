@@ -41,7 +41,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 ## Catatan teknis Meta Ads MCP
 
 - `client_conversation_id` yang dipakai: `Hn4fT8qLz2WcP7xR1bVk` (`client_model`: `claude-sonnet-5-5`).
-- **Akun mode draft** (Diana, Hanif, Fifi): iklan dibuat sebagai DRAFT, status spec ACTIVE → setelah
+- **Akun mode draft** (Diana, Hanif, AIni, Fikri; Fifi & Irfan & Tira ternyata live, langsung PAUSED): iklan dibuat sebagai DRAFT, status spec ACTIVE → setelah
   dibuat, set `status: PAUSED` via `ads_update_entity`. Draft tidak bisa dihapus lewat tool; yang
   rusak di-rename `XXX HAPUS - ERROR` + PAUSED, user discard manual.
 - Di draft, creative **harus pakai `image_hash`** (bukan `image_url`) → kalau tidak, error
@@ -88,3 +88,22 @@ nilai sebelum kenaikan itu.
 
 - Diana: 5 ad set IG ARCHIVED — disengaja?
 - Nida desember lama: 4 iklan — ditunda atas permintaan user.
+
+## Riyadh Air — sebaran per akun (3 Okt 2026)
+
+Hasil scan semua akun (ad set bernama "Riyadh Air"). Ad set kosong diisi 3 iklan PAUSED
+(Desain 2 #1–3, #4–6, 10 Hari 1–3). Ad set yang sudah 5 iklan tidak disentuh.
+
+| Akun | ID | Status |
+|---|---|---|
+| Hanif | 482252744648260 | 3 ad set diisi (9 draft) |
+| Tira | 868364731529534 | 3 ad set diisi (9 iklan) |
+| AIni | 814396810761205 | 3 ad set diisi (9 draft) |
+| Irfan | 1060984719243481 | 3 ad set baru diisi (9 iklan); 3 ad set lain sudah 5 iklan |
+| Diana | 1076195694707828 | 3 ad set diisi (9 draft) |
+| Fikri | 1676215979752437 | 3 ad set baru diisi (9 draft); 3 ad set lain sudah 5 iklan |
+| Fifi | 521083143750270 | 1 ad set diisi (3 iklan); 2 lain sudah 5 iklan |
+| CloseF | 1050343302646341 | 1 ad set, sudah 5 iklan (tidak disentuh) |
+
+Akun tanpa ad set Riyadh Air: Nida, Allif, Elharamain Haji, dll. Akun Ads MCP belum dibuka
+(Elharamainclose, Umroh Plus, Elharamainwisata, dll.) tidak bisa dicek.

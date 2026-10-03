@@ -48,3 +48,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - ad set `120252381981230584`: 10 Hari 1–3 (`…644400584`, `…644870584`, `…645100584`)
 - Tertunda (manual user): template WA `10 hari`, matikan Media terkait, aktifkan.
 - Catatan: ad set/iklan lama Tira terlihat berstatus ACTIVE di query, tidak diubah.
+
+### 2026-10-03 — Cek semua akun, isi iklan khusus kampanye Riyadh Air
+- Scan semua akun Ads MCP yang bisa di-query (~35 akun) untuk ad set bernama "Riyadh Air".
+- Ditemukan di: CloseF, AIni, Fifi, Fikri, Irfan, Diana (selain Hanif & Tira yang sudah dikerjakan).
+- Ad set kosong diisi 3 iklan PAUSED: AIni 9, Irfan 9, Diana 9, Fikri 9, Fifi 3 = 39 iklan. Ad set yang sudah 5 iklan dilewati (CloseF 5, Fikri 3 set, Irfan 3 set, Fifi 2 set).
+- Draft di AIni, Diana, Fikri sudah di-set PAUSED satu per satu. Irfan & Fifi live (langsung PAUSED).
+- Gambar Desain 2 #1–6 dimasukkan lewat creative dummy `upload Riyadh Air Desain 2 - N` (abaikan).
+- Tertunda (manual user): template WA `10 hari`, matikan Media terkait, aktifkan.

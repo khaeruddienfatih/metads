@@ -38,3 +38,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-03 — Wajib pakai Sonnet, bukan Opus
 - User mengganti model sesi ke `claude-sonnet-5-5` dan minta selalu pakai Sonnet.
 - Aturan dicatat di `memory/chat-memory.md` (Aturan tetap + catatan teknis `client_model`).
+
+### 2026-10-03 — Akun Tira: 3 iklan Riyadh Air per ad set
+- Akun Tira (868364731529534), campaign **November** `120252381981140584`; 3 ad set "Riyadh Air" sebelumnya kosong.
+- Gambar Desain 2 #1–6 dan 10_Hari_Riyad_Air 2–3 dimasukkan ke library lewat 8 creative dummy `upload Riyadh Air ...` (abaikan). 10_Hari_1 sudah ada.
+- 9 iklan dibuat (inline object_story_spec, CTA WhatsApp), langsung PAUSED (akun live, tidak perlu langkah pause):
+  - ad set `120252381981390584`: Desain 2 #1–3 (ad `120252411640090584`, `…643820584`, `…643940584`)
+  - ad set `120252381981370584`: Desain 2 #4–6 (`…644060584`, `…644180584`, `…644250584`)
+  - ad set `120252381981230584`: 10 Hari 1–3 (`…644400584`, `…644870584`, `…645100584`)
+- Tertunda (manual user): template WA `10 hari`, matikan Media terkait, aktifkan.
+- Catatan: ad set/iklan lama Tira terlihat berstatus ACTIVE di query, tidak diubah.

@@ -25,3 +25,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat `memory/chat-memory.md`, `memory/primary-texts.md`, `CLAUDE.md`.
 - Repo sekarang hanya punya cabang `main` (cabang lama dihapus user).
 - Aturan baru: setiap chat disimpan ke `memory/chat-log.md` dan di-push ke `main`.
+
+### 2026-10-03 — Akun Hanif: 3 iklan Riyadh per ad set di kampanye Riyadh Air
+- Akun Hanif (482252744648260), campaign Riyadh Air `120254662875790427`; 3 ad set sebelumnya kosong.
+- Dibuat 9 draft iklan (inline object_story_spec, CTA WhatsApp), semua di-set PAUSED, tanpa error:
+  - ad set `120254662875880427`: Desain 2 #1–3
+  - ad set `120254662875850427`: Desain 2 #4–6
+  - ad set `120254662875840427`: 10_Hari_Riyad_Air 1–3
+- 6 creative dummy "upload Riyadh Air Desain 2" boleh diabaikan.
+- Tertunda (manual user): template WA `10 hari`, matikan Media terkait, publish.

@@ -62,7 +62,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | Diana | 1076195694707828 | 35 iklan non-IG ACTIVE; 5 ad set campaign IG ARCHIVED (belum dikonfirmasi user) |
 | Tira | 868364731529534 | 85 iklan PAUSED di 17 ad set |
 | Nida | 1019832712800468 | 30 iklan PAUSED di 6 ad set. Ad set desember lama (`120251397671600004`, campaign "Nida") hanya 4 iklan — **user minta stop dulu, jangan diubah** |
-| Hanif | 482252744648260 | 25 draft dibuat ulang (fix CTA), PAUSED; 24 draft lama `XXX HAPUS - ERROR` perlu discard manual |
+| Hanif | 482252744648260 | 25 draft dibuat ulang (fix CTA), PAUSED; 24 draft lama `XXX HAPUS - ERROR` perlu discard manual. 3 Okt: campaign **Riyadh Air** (`120254662875790427`) +9 draft PAUSED (3/ad set: Desain 2 #1–3, Desain 2 #4–6, 10_Hari_Riyad_Air 1–3) |
 | Elharamain Wisata (bisnis Elharamain Haji) | 4678183395742010 | Campaign **Alif**: 25 iklan PAUSED (gambar+video dari Cloudinary) |
 | Elharamain Fifi | 1676215979752437 | Campaign **Fikri** (draft): 25 iklan gambar-only PAUSED; Riyadh Air pakai desain baru 1–5 |
 | Elharamain Haji | 947788760498911 | 29 Sep: budget 6 kampanye aktif +15% lalu diaktifkan lagi |

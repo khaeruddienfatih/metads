@@ -63,3 +63,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Allif (4678183395742010): campaign Riyadh Air `120252087342810228`, 3 ad set kosong → 9 iklan, akun live, langsung PAUSED. Ad set "Riyad AIr" di campaign Alif/Alif INDO tidak disentuh (bukan campaign Riyadh Air).
 - Rescan ~30 akun dengan kata kunci "Riyad": tidak ada tambahan lain (CloseF sudah 5 iklan).
 - Tertunda (manual user): template WA `10 hari`, matikan Media terkait, aktifkan.
+
+### 2026-10-03 — Diana & AIni belum ada iklan Riyadh Air
+- Cek: 9 draft lama Diana & AIni (dibuat sebelumnya) ternyata berstatus ARCHIVED (kemungkinan di-discard di Ads Manager); ad set Riyadh Air-nya kosong dan ACTIVE.
+- Dibuat ulang 9 draft di AIni (campaign `120253531841440019`) dan 9 draft di Diana (campaign `120251891639300294`), semua di-set PAUSED.
+- Temuan: draft Nida (9 iklan) saat dicek berstatus ACTIVE di query live — kemungkinan ikut ter-publish (oleh user) dan tampil ACTIVE; tidak diubah, perlu konfirmasi user apakah sengaja.
+- Catatan: draft harus dipublish/dibiarkan di Ads Manager, jangan di-discard. Tertunda manual: template WA `10 hari`, matikan Media terkait.

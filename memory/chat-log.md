@@ -34,3 +34,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - ad set `120254662875840427`: 10_Hari_Riyad_Air 1–3
 - 6 creative dummy "upload Riyadh Air Desain 2" boleh diabaikan.
 - Tertunda (manual user): template WA `10 hari`, matikan Media terkait, publish.
+
+### 2026-10-03 — Wajib pakai Sonnet, bukan Opus
+- User mengganti model sesi ke `claude-sonnet-5-5` dan minta selalu pakai Sonnet.
+- Aturan dicatat di `memory/chat-memory.md` (Aturan tetap + catatan teknis `client_model`).

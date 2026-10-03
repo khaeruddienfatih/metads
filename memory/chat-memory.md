@@ -6,6 +6,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 ## Aturan tetap dari user
 
 - **Iklan harus PAUSE.** Jangan aktifkan/publish tanpa perintah eksplisit.
+- **Model: selalu pakai Sonnet** (`claude-sonnet-5-5`), jangan Opus. Kirim `client_model` `claude-sonnet-5-5` di panggilan Meta Ads.
 - **Maksimal 5 iklan per ad set.**
 - **CTA WhatsApp** (`WHATSAPP_MESSAGE`), link `https://api.whatsapp.com/send`.
 - **Page** `588336968031663` (Elharamain wisata), **IG user** `17841405431328414`.
@@ -39,7 +40,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 ## Catatan teknis Meta Ads MCP
 
-- `client_conversation_id` yang dipakai: `Hn4fT8qLz2WcP7xR1bVk`.
+- `client_conversation_id` yang dipakai: `Hn4fT8qLz2WcP7xR1bVk` (`client_model`: `claude-sonnet-5-5`).
 - **Akun mode draft** (Diana, Hanif, Fifi): iklan dibuat sebagai DRAFT, status spec ACTIVE → setelah
   dibuat, set `status: PAUSED` via `ads_update_entity`. Draft tidak bisa dihapus lewat tool; yang
   rusak di-rename `XXX HAPUS - ERROR` + PAUSED, user discard manual.

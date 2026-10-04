@@ -74,3 +74,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Fifi (521083143750270) punya campaign terpisah "Riyad Air" (`120252308382230365`) dengan 3 ad set kosong (`120252308382330365`, `…310365`, `…300365`) yang terlewat sebelumnya (sebelumnya hanya ad set "Riyadh Air" di campaign lain yang diisi).
 - Gambar Desain 2 #4–6 diunggah via creative dummy; dibuat 9 iklan (Desain 2 #1–3, #4–6, 10 Hari 1–3), akun live → langsung PAUSED.
 - Tertunda manual: template WA `10 hari`, matikan Media terkait, aktifkan.
+
+### 2026-10-04 — Tira: isi ad set yang masih kosong
+- Scan Tira (868364731529534): semua ad set berisi kecuali campaign **Desember** (`120252435431070584`) — 3 ad set "Desember" (`120252435431060584`, `…040584`, `…030584`) kosong.
+- Diisi 5 iklan per ad set (total 15, PAUSED): Img 5, 6, 7, Vid 3, Vid 13, memakai `creative_id` dari iklan Desember yang sudah ada (`source_ad_id` ditolak di akun live; harus kirim `creative`).
+- Catatan: iklan Riyadh Air Tira (9) kini terbaca ACTIVE; tidak diubah.
+- Tertunda manual: template WA `9hari` untuk Desember, matikan Media terkait.

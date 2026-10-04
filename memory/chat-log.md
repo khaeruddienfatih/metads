@@ -69,3 +69,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat ulang 9 draft di AIni (campaign `120253531841440019`) dan 9 draft di Diana (campaign `120251891639300294`), semua di-set PAUSED.
 - Temuan: draft Nida (9 iklan) saat dicek berstatus ACTIVE di query live — kemungkinan ikut ter-publish (oleh user) dan tampil ACTIVE; tidak diubah, perlu konfirmasi user apakah sengaja.
 - Catatan: draft harus dipublish/dibiarkan di Ads Manager, jangan di-discard. Tertunda manual: template WA `10 hari`, matikan Media terkait.
+
+### 2026-10-04 — Akun Fifi: isi kampanye "Riyad Air"
+- Fifi (521083143750270) punya campaign terpisah "Riyad Air" (`120252308382230365`) dengan 3 ad set kosong (`120252308382330365`, `…310365`, `…300365`) yang terlewat sebelumnya (sebelumnya hanya ad set "Riyadh Air" di campaign lain yang diisi).
+- Gambar Desain 2 #4–6 diunggah via creative dummy; dibuat 9 iklan (Desain 2 #1–3, #4–6, 10 Hari 1–3), akun live → langsung PAUSED.
+- Tertunda manual: template WA `10 hari`, matikan Media terkait, aktifkan.

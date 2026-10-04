@@ -80,3 +80,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diisi 5 iklan per ad set (total 15, PAUSED): Img 5, 6, 7, Vid 3, Vid 13, memakai `creative_id` dari iklan Desember yang sudah ada (`source_ad_id` ditolak di akun live; harus kirim `creative`).
 - Catatan: iklan Riyadh Air Tira (9) kini terbaca ACTIVE; tidak diubah.
 - Tertunda manual: template WA `9hari` untuk Desember, matikan Media terkait.
+
+### 2026-10-04 — Tira Desember: ganti 15 iklan kembar jadi 3 iklan/ad set, gambar beda
+- User menghapus 15 iklan salinan (gambar hampir sama antar ad set). Ad set `120252435431060584`, `…040584`, `…030584` kosong lagi.
+- Diisi ulang 3 iklan per ad set (total 9, PAUSED), tiap iklan gambar berbeda: `saudia_9_hari_1–3`, `4–6`, `7–9` (folder Cloudinary `Umroh/desember`), teks Desember, headline selang-seling.
+- Aturan baru: antar ad set dalam satu campaign jangan pakai gambar yang sama persis; pakai gambar unik.
+- Tertunda manual: template WA `9hari`, matikan Media terkait.

@@ -8,6 +8,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Iklan harus PAUSE.** Jangan aktifkan/publish tanpa perintah eksplisit.
 - **Model: selalu pakai Sonnet** (`claude-sonnet-5-5`), jangan Opus. Kirim `client_model` `claude-sonnet-5-5` di panggilan Meta Ads.
 - **Maksimal 5 iklan per ad set.**
+- **Gambar unik antar ad set** dalam satu campaign — jangan duplikasi iklan/gambar yang sama persis (user menghapus yang kembar). Default isi ad set kosong: 3 iklan, gambar berbeda-beda.
 - **CTA WhatsApp** (`WHATSAPP_MESSAGE`), link `https://api.whatsapp.com/send`.
 - **Page** `588336968031663` (Elharamain wisata), **IG user** `17841405431328414`.
 - **Headline** berselang-seling:
@@ -61,7 +62,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | Akun | ID | Hasil |
 |---|---|---|
 | Diana | 1076195694707828 | 35 iklan non-IG ACTIVE; 5 ad set campaign IG ARCHIVED (belum dikonfirmasi user) |
-| Tira | 868364731529534 | 85 iklan PAUSED di 17 ad set. 4 Okt: campaign **Desember** (`120252435431070584`) 3 ad set "Desember" kosong diisi 15 iklan PAUSED (salin creative Desember Img 5/6/7, Vid 3/13 lewat `creative_id`). Iklan Riyadh Air Tira terbaca ACTIVE (kemungkinan diaktifkan user). 3 Okt: campaign **November** (`120252381981140584`) +9 iklan Riyadh Air PAUSED (akun live, bukan draft), 3/ad set |
+| Tira | 868364731529534 | 85 iklan PAUSED di 17 ad set. 4 Okt: campaign **Desember** (`120252435431070584`) 3 ad set "Desember" kosong: 15 iklan salinan sempat dibuat lalu **dihapus user (gambar kembar)**; diisi ulang 3 iklan/ad set dengan gambar beda (saudia_9_hari_1–9, PAUSED). Iklan Riyadh Air Tira terbaca ACTIVE (kemungkinan diaktifkan user). 3 Okt: campaign **November** (`120252381981140584`) +9 iklan Riyadh Air PAUSED (akun live, bukan draft), 3/ad set |
 | Nida | 1019832712800468 | 30 iklan PAUSED di 6 ad set. Ad set desember lama (`120251397671600004`, campaign "Nida") hanya 4 iklan — **user minta stop dulu, jangan diubah** |
 | Hanif | 482252744648260 | 25 draft dibuat ulang (fix CTA), PAUSED; 24 draft lama `XXX HAPUS - ERROR` perlu discard manual. 3 Okt: campaign **Riyadh Air** (`120254662875790427`) +9 draft PAUSED (3/ad set: Desain 2 #1–3, Desain 2 #4–6, 10_Hari_Riyad_Air 1–3) |
 | Elharamain Wisata (bisnis Elharamain Haji) | 4678183395742010 | Campaign **Alif**: 25 iklan PAUSED (gambar+video dari Cloudinary) |

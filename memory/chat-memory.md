@@ -41,7 +41,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 ## Catatan teknis Meta Ads MCP
 
-- **Akun Elharamain Haji (947788760498911):** Page iklan = `637020022834756` (Elharamain Haji), bukan Page Umroh; tidak ada IG user. Materi Haji di Cloudinary `Elharamainwisata/Haji` (gambar Desain/Premium + video Hajj_2025-46..63). **User minta iklan baru, jangan salin/pakai ulang iklan atau creative yang sudah ada** (5 Okt). Creative lama di akun ini terikat Page; creative Irfan tidak cocok untuk ad set lain.
+- **Akun Elharamain Haji (947788760498911):** Page iklan beda per kampanye — **tiru Page/IG dari iklan lama kampanye itu** (cek `ads_get_creatives` → `effective_object_story_id`). Kampanye **Irfan** pakai Page `588336968031663` + IG `17841405431328414` (bukan Page Haji `637020022834756`); Diana pakai Page Haji tanpa IG. Cara yang disukai user untuk kampanye Irfan: duplikat iklan yang ada lalu ganti gambar. Materi Haji di Cloudinary `Elharamainwisata/Haji` (gambar Desain/Premium + video Hajj_2025-46..63). **User minta iklan baru, jangan salin/pakai ulang iklan atau creative yang sudah ada** (5 Okt). Creative lama di akun ini terikat Page; creative Irfan tidak cocok untuk ad set lain.
 
 - `client_conversation_id` yang dipakai: `Hn4fT8qLz2WcP7xR1bVk` (`client_model`: `claude-sonnet-5-5`).
 - **Akun mode draft** (Diana, Hanif, AIni, Fikri; Fifi & Irfan & Tira ternyata live, langsung PAUSED): iklan dibuat sebagai DRAFT, status spec ACTIVE → setelah

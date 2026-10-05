@@ -155,3 +155,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Ad set yang <3 iklan diisi **iklan baru** (bukan salinan), PAUSED, materi folder Haji, Page `637020022834756`: AIni Broud2 +1, Nida Retargeting +1, Hanif Interest (`...421335780739`) +1, Fikri Broud +1, Tira Interest +2, Tira Retargeting +3, Tira Broud +3, Irfan Interest +2 (Page Haji diterima, tidak ada error Page), Irfan Retargeting +3 = 17 iklan.
 - Gambar dipilih dari folder Haji dengan cek hash agar tidak sama dengan gambar iklan yang sudah ada di campaign yang sama (Desain 6 #1–3, Desain 4 #1–4, Premium #1). Teks/headline sama dengan iklan Haji lama.
 - Semua ad set Haji kini ≥3 iklan.
+
+### 2026-10-05 — "khusus kampanye irfan kamu duplikate terus ganti gambarnya"
+- Kampanye Irfan (Haji, `120250374507530739`): iklan Irfan lama memakai **Page `588336968031663` (Elharamain wisata) + IG `17841405431328414`**, bukan Page Haji `637020022834756`. 5 iklan Irfan buatan saya sebelumnya (Page Haji) sudah tidak ada (dihapus user).
+- Dibuat ulang 5 iklan PAUSED dengan meniru iklan Irfan yang ada (Page, IG, teks, headline, CTA WA sama; tanpa deskripsi) tapi gambar baru dari folder Haji: Interest `120250374507830739` +2 (Desain 6 #1, #2); Retargeting `120250695786990739` +3 (Desain 6 #3, Desain 4 #1, #2). Hash gambar tidak sama dengan gambar iklan Irfan lain.
+- Hasil: Interest 3 iklan, Broud 5, Retargeting 3.
+- Catatan: untuk kampanye lain di akun Haji, cek dulu Page iklan lama per kampanye (kemungkinan sama pola) sebelum membuat iklan baru.

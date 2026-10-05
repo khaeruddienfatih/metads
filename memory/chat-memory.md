@@ -97,13 +97,13 @@ Hasil scan semua akun (ad set bernama "Riyadh Air"). Ad set kosong diisi 3 iklan
 
 | Akun | ID | Status |
 |---|---|---|
-| Hanif | 482252744648260 | 3 ad set diisi (9 draft) |
+| Hanif | 482252744648260 | 3 ad set diisi (9 draft). 5 Okt: campaign Desember (`120254685722760427`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |
 | Tira | 868364731529534 | 3 ad set diisi (9 iklan) |
 | AIni | 814396810761205 | 3 ad set diisi (9 draft). 5 Okt: campaign Riyadh Air direstruktur (`120253589562730019`); +21 draft PAUSED di 7 ad set kosong lain (Desember ×5, 9 Hari Januari, LAT), 3/ad set gambar unik |
 | Irfan | 1060984719243481 | 3 ad set baru diisi (9 iklan); 3 ad set lain sudah 5 iklan. 5 Okt: campaign Desember (`120253231255400414`) 3 ad set kosong diisi 9 iklan PAUSED (saudia 1–9) |
 | Diana | 1076195694707828 | 3 ad set diisi (9 draft). 5 Okt: campaign Desember (`120251937346180294`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |
 | Fikri | 1676215979752437 | 3 ad set baru diisi (9 draft); 3 ad set lain sudah 5 iklan. 5 Okt: campaign Desember (`120249501856030470`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |
-| Fifi | 521083143750270 | 1 ad set diisi (3 iklan); 2 lain sudah 5 iklan. 4 Okt: campaign "Riyad Air" (`120252308382230365`), 3 ad set diisi (9 iklan, live PAUSED) |
+| Fifi | 521083143750270 | 1 ad set diisi (3 iklan); 2 lain sudah 5 iklan. 4 Okt: campaign "Riyad Air" (`120252308382230365`), 3 ad set diisi (9 iklan, live PAUSED). 5 Okt: campaign Saudia (`120252109559290365`) 2 ad set "Desember" kosong diisi 6 iklan PAUSED (saudia 1–6) |
 | Nida | 1019832712800468 | campaign Riyadh Air (`120251511582700004`), 3 ad set "Riyad Air" diisi (9 draft). 5 Okt: campaign Desember (`120251555363950004`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |
 | Allif | 4678183395742010 | campaign Riyadh Air (`120252087342810228`), 3 ad set "Riyad Air" diisi (9 iklan, live). Ad set "Riyad AIr" di campaign Alif/Alif INDO tidak disentuh |
 | CloseF | 1050343302646341 | 1 ad set, sudah 5 iklan (tidak disentuh) |

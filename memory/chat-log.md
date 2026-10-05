@@ -116,3 +116,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Akun Fikri (1676215979752437, mode draft): scan 19 ad set. Hanya 3 ad set kosong: campaign Desember `120249501856030470` (ad set "Desember" `120249501856110470`, "Desember - 2" `...090470`, "Desember - 1" `...050470`).
 - Diisi 3 iklan/ad set, gambar unik (saudia 1–9, teks Desember, headline berselang-seling), DRAFT lalu PAUSED (9 draft). Gambar saudia 6–9 diupload ke library lewat creative dummy `upload saudia_9_hari_N`. Draft jangan di-discard.
 - Ad set lain sudah berisi 3–5 iklan (Riyadh Air 3 ad set @2–3 iklan), tidak disentuh. Iklan lama terbaca ACTIVE.
+
+### 2026-10-05 — "akun diana" (isi ad set kosong akun Diana)
+- Akun Diana (1076195694707828, mode draft): scan 19 ad set. Hanya 3 ad set kosong: campaign Desember `120251937346180294` (ad set `120251937346260294`, `...250294`, `...240294`).
+- Diisi 3 iklan/ad set, gambar unik (saudia 1–9, teks Desember, headline berselang-seling), DRAFT lalu PAUSED (9 draft). Hash gambar sudah ada di library. Draft jangan di-discard.
+- Ad set lain sudah berisi 3–9 iklan (Riyadh Air 3 ad set @3 iklan), tidak disentuh. Iklan lama terbaca ACTIVE; ad set campaign IG yang dulu ARCHIVED tidak muncul lagi di scan.

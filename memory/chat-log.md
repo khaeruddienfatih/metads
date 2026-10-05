@@ -149,3 +149,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Pembagian: LLA ← Desain 6 #1–3; Interest ← Desain 4 #1–3; broud ← Desain 4 #4 + Premium #1–2; Retargeting ← Premium #4–6. (Premium #3 dilewati: gambarnya sama dengan "Haji Plus - Desain-3" yang sudah dipakai.)
 - Verifikasi: tiap ad set tepat 3 iklan, semua PAUSED (effective PENDING_REVIEW).
 - Belum dikerjakan: 9 iklan salinan di ad set Haji lain (Tira Interest, Tira Retargeting, Fikri Broud, Hanif Interest, Nida Retargeting, AIni Broud2) tetap pakai creative lama — menunggu keputusan user apakah diganti.
+
+### 2026-10-05 — "cek kampanye lain" (kampanye Haji selain Diana, akun 947788760498911)
+- Scan ulang: 9 iklan salinan yang sempat saya buat (Tira Interest/Retargeting, Fikri Broud, Hanif Interest, Nida Retargeting, AIni Broud2) sudah tidak ada (dihapus user). Kampanye Diana kini bernama ad set "… - Salin" (user menyalin; 3 iklan tiap ad set, OK). Ada 2 ad set kosong baru buatan user: Tira "Broud" `120250695823180739` dan Irfan "Retargeting" `120250695786990739`.
+- Ad set yang <3 iklan diisi **iklan baru** (bukan salinan), PAUSED, materi folder Haji, Page `637020022834756`: AIni Broud2 +1, Nida Retargeting +1, Hanif Interest (`...421335780739`) +1, Fikri Broud +1, Tira Interest +2, Tira Retargeting +3, Tira Broud +3, Irfan Interest +2 (Page Haji diterima, tidak ada error Page), Irfan Retargeting +3 = 17 iklan.
+- Gambar dipilih dari folder Haji dengan cek hash agar tidak sama dengan gambar iklan yang sudah ada di campaign yang sama (Desain 6 #1–3, Desain 4 #1–4, Premium #1). Teks/headline sama dengan iklan Haji lama.
+- Semua ad set Haji kini ≥3 iklan.

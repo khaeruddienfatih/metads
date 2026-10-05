@@ -126,3 +126,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **Hanif** (482252744648260, mode draft): scan 19 ad set. 3 ad set kosong: campaign Desember `120254685722760427` (ad set `120254685722850427`, `...820427`, `...740427`). Diisi 9 iklan (saudia 1–9, 3/ad set, teks Desember, headline berselang-seling), DRAFT lalu PAUSED. Jangan di-discard.
 - **Fifi** (521083143750270, live): scan 20 ad set. 2 ad set kosong: campaign Saudia/Desember `120252109559290365` (ad set "Desember" `120252277010450365` dan `120252277010440365`). Diisi 6 iklan (saudia 1–6, 3/ad set), live langsung PAUSED. Gambar saudia 5 diupload ke library via creative dummy. Ad set "Saudia" di campaign yang sama (2 iklan) tidak disentuh.
 - Ad set lain di kedua akun sudah berisi, tidak disentuh.
+
+### 2026-10-05 — "masuk ke akun elharamain haji" (scan akun Elharamain Haji)
+- Akun Elharamain Haji (947788760498911): scan 7 campaign (AIni, Nida, Hanif, Diana, Irfan, Fikri, Tira — semua ACTIVE) dan 20 ad set (Interest/Broud/Retargeting/LLA, konten Haji).
+- Hanya 2 ad set kosong, keduanya PAUSED: "Retargeting" campaign Irfan (`120250374507530739`, ad set `120250374508170739`) dan "Retargeting" campaign Tira (`120250199511380739`, ad set `120250199511480739`).
+- TIDAK ada iklan dibuat: akun ini konten Haji, sedangkan primary text & materi Cloudinary di memory khusus Umroh. Menunggu keputusan user (materi/teks yang dipakai).

@@ -137,3 +137,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Berhasil (9 iklan): Tira Interest +2 (jadi 3), Fikri Broud +1 (3), Hanif Interest PAUSED +1 (3), Nida Retargeting +1 (3), AIni Broud2 +1 (3), Tira Retargeting kosong +3 (3).
 - Gagal/tidak diisi: Diana "Interest - Salin" `120250635703380739` (2 iklan) dan Irfan Retargeting `120250374508170739` (0 iklan) = ad set ARCHIVED (Meta menolak iklan baru); tidak diubah. Irfan Interest `120250374507830739` (1 iklan): creative dari campaign lain ditolak "Pages Don't Match" (Irfan pakai Page lain) — butuh materi Page Irfan atau pakai ulang creative Irfan (duplikat dalam campaign).
 - Catatan teknis: akun Haji LIVE (bukan draft) → `source_ad_id` tidak cukup, pakai `creative: {"creative_id": ...}`. Creative Irfan hanya cocok untuk ad set Irfan (Page beda).
+
+### 2026-10-05 — "cek kampanye diana" (kampanye Diana di akun Elharamain Haji)
+- Kampanye **Diana** (`120250519255890739`, akun 947788760498911): ACTIVE, budget Rp270.000/hari, objective OUTCOME_SALES. Isinya 4 ad set baru, semua PAUSED dan kosong: LLA `120250695687210739`, Interest `120250695719660739`, broud `120250695706320739`, Retargeting `120250695719700739`. Ad set "Interest - Salin" lama sudah tidak terlihat.
+- Diisi 12 iklan PAUSED (3/ad set, creative unik antar ad set, tanpa creative Irfan karena beda Page): LLA ← Tira LLA 3/1 + Fikri LLA 4; Interest ← Fikri Interest 3/2/1; Broud ← Fikri Broud 3/1 + AIni Broud 2; Retargeting ← Hanif/Nida retargeting. Nama "Haji - Diana <tipe> N".
+- Catatan: kampanye ACTIVE tapi semua ad set PAUSED (belum jalan).

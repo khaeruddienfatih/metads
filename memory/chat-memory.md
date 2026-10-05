@@ -65,7 +65,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | Tira | 868364731529534 | 85 iklan PAUSED di 17 ad set. 4 Okt: campaign **Desember** (`120252435431070584`) 3 ad set "Desember" kosong: 15 iklan salinan sempat dibuat lalu **dihapus user (gambar kembar)**; diisi ulang 3 iklan/ad set dengan gambar beda (saudia_9_hari_1–9, PAUSED). Iklan Riyadh Air Tira terbaca ACTIVE (kemungkinan diaktifkan user). 3 Okt: campaign **November** (`120252381981140584`) +9 iklan Riyadh Air PAUSED (akun live, bukan draft), 3/ad set |
 | Nida | 1019832712800468 | 30 iklan PAUSED di 6 ad set. Ad set desember lama (`120251397671600004`, campaign "Nida") hanya 4 iklan — **user minta stop dulu, jangan diubah** |
 | Hanif | 482252744648260 | 25 draft dibuat ulang (fix CTA), PAUSED; 24 draft lama `XXX HAPUS - ERROR` perlu discard manual. 3 Okt: campaign **Riyadh Air** (`120254662875790427`) +9 draft PAUSED (3/ad set: Desain 2 #1–3, Desain 2 #4–6, 10_Hari_Riyad_Air 1–3) |
-| Elharamain Wisata (bisnis Elharamain Haji) | 4678183395742010 | Campaign **Alif**: 25 iklan PAUSED (gambar+video dari Cloudinary) |
+| Elharamain Wisata / Allif (bisnis Elharamain Haji) | 4678183395742010 | Campaign **Alif**: 25 iklan PAUSED (gambar+video dari Cloudinary). 5 Okt: campaign Desember (`120252148895910228`) 3 ad set kosong diisi 9 iklan PAUSED (saudia 1–9); akun live |
 | Elharamain Fifi | 1676215979752437 | Campaign **Fikri** (draft): 25 iklan gambar-only PAUSED; Riyadh Air pakai desain baru 1–5 |
 | Elharamain Haji | 947788760498911 | 29 Sep: budget 6 kampanye aktif +15% lalu diaktifkan lagi |
 | Elharamainclose | 1401255787216018 | Ads MCP belum dibuka |

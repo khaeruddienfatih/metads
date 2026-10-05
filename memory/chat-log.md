@@ -94,3 +94,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Aini Kota (`120253543192080019`): Desember saudia 1–3; 9 Hari Januari: januari 1–3.
 - Aini (`120253509388750019`): Desember saudia 4–6; LAT: Desain 1–3.
 - Pending: Nida 9 iklan Riyadh Air terbaca ACTIVE — belum ditanyakan jadi dipause atau tidak. Ingatkan user: jangan discard draft di Ads Manager.
+
+### 2026-10-05 — "sekarang akun allif" (isi ad set kosong akun Allif)
+- Akun Allif (4678183395742010, live): scan 15 ad set. Hanya 3 ad set kosong: campaign Desember `120252148895910228` (ad set `120252148896030228`, `...020228`, `...010228`).
+- Diisi 3 iklan/ad set, gambar unik (saudia 1–3, 4–6, 7–9, Desember text), headline berselang-seling, live langsung PAUSED (9 iklan). Gambar saudia 4–8 diupload ke library lewat creative dummy `upload saudia_9_hari_N`.
+- Tidak disentuh: ad set non-kosong (Riyadh Air 3 ad set @3 iklan; 12 Hari/LAT/Riyad yang sudah 4–5 iklan; "Desember" di campaign `120252083784770228` baru 2 iklan Vid; "12 Hari Januari" & "AKhir Tahun" di campaign yang sama 4 iklan). Semua iklan lama Allif terbaca ACTIVE.
+- Pending: tanya user apakah ad set yang belum 5 iklan perlu ditambah.

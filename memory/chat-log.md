@@ -105,3 +105,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Akun Irfan (1060984719243481, live): scan 22 ad set. Hanya 3 ad set kosong: campaign Desember `120253231255400414` (ad set `120253231255520414`, `...510414`, `...500414`).
 - Diisi 3 iklan/ad set, gambar unik (saudia 1–9, teks Desember, headline berselang-seling), live langsung PAUSED (9 iklan). Hash gambar sudah ada di library Irfan.
 - Ad set lain sudah berisi, tidak disentuh (Riyadh Air campaign `120253182746210414` 3 ad set masing-masing 2–3 iklan; sisanya 3–5 iklan).
+
+### 2026-10-05 — "masuk ke akun nida" (isi ad set kosong akun Nida)
+- Akun Nida (1019832712800468, mode draft): scan 23 ad set. Hanya 3 ad set kosong: campaign Desember `120251555363950004` (ad set `120251555364080004`, `...070004`, `...060004`).
+- Diisi 3 iklan/ad set, gambar unik (saudia 1–9, teks Desember, headline berselang-seling), DRAFT lalu di-set PAUSED (9 draft). Jangan di-discard.
+- Ad set lain sudah berisi 4–5 iklan (Riyad Air 3 ad set @3 iklan), tidak disentuh. Ad set "desember" lama (`120251397671600004`) tidak muncul lagi di scan.
+- Iklan lama Nida (termasuk Riyadh Air) terbaca ACTIVE — belum dijawab user apakah perlu dipause.

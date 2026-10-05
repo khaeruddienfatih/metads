@@ -86,3 +86,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diisi ulang 3 iklan per ad set (total 9, PAUSED), tiap iklan gambar berbeda: `saudia_9_hari_1–3`, `4–6`, `7–9` (folder Cloudinary `Umroh/desember`), teks Desember, headline selang-seling.
 - Aturan baru: antar ad set dalam satu campaign jangan pakai gambar yang sama persis; pakai gambar unik.
 - Tertunda manual: template WA `9hari`, matikan Media terkait.
+
+### 2026-10-05 — "sekarang masuk ke aini" (isi ad set kosong akun AIni)
+- Akun AIni (814396810761205, mode draft): scan menemukan 10 ad set kosong → diisi 3 iklan/ad set, gambar unik antar ad set, semua DRAFT lalu di-set PAUSED (30 iklan).
+- Riyadh Air (campaign `120253589562730019`, 3 ad set): Desain 2 #1–3, #4–6, 10 Hari 1–3.
+- Desember (campaign `120253595774980019`, 3 ad set): saudia 1–3, 4–6, 7–9.
+- Aini Kota (`120253543192080019`): Desember saudia 1–3; 9 Hari Januari: januari 1–3.
+- Aini (`120253509388750019`): Desember saudia 4–6; LAT: Desain 1–3.
+- Pending: Nida 9 iklan Riyadh Air terbaca ACTIVE — belum ditanyakan jadi dipause atau tidak. Ingatkan user: jangan discard draft di Ads Manager.

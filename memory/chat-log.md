@@ -100,3 +100,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diisi 3 iklan/ad set, gambar unik (saudia 1–3, 4–6, 7–9, Desember text), headline berselang-seling, live langsung PAUSED (9 iklan). Gambar saudia 4–8 diupload ke library lewat creative dummy `upload saudia_9_hari_N`.
 - Tidak disentuh: ad set non-kosong (Riyadh Air 3 ad set @3 iklan; 12 Hari/LAT/Riyad yang sudah 4–5 iklan; "Desember" di campaign `120252083784770228` baru 2 iklan Vid; "12 Hari Januari" & "AKhir Tahun" di campaign yang sama 4 iklan). Semua iklan lama Allif terbaca ACTIVE.
 - Pending: tanya user apakah ad set yang belum 5 iklan perlu ditambah.
+
+### 2026-10-05 — "masuk akun irfan" (isi ad set kosong akun Irfan)
+- Akun Irfan (1060984719243481, live): scan 22 ad set. Hanya 3 ad set kosong: campaign Desember `120253231255400414` (ad set `120253231255520414`, `...510414`, `...500414`).
+- Diisi 3 iklan/ad set, gambar unik (saudia 1–9, teks Desember, headline berselang-seling), live langsung PAUSED (9 iklan). Hash gambar sudah ada di library Irfan.
+- Ad set lain sudah berisi, tidak disentuh (Riyadh Air campaign `120253182746210414` 3 ad set masing-masing 2–3 iklan; sisanya 3–5 iklan).

@@ -131,3 +131,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Akun Elharamain Haji (947788760498911): scan 7 campaign (AIni, Nida, Hanif, Diana, Irfan, Fikri, Tira — semua ACTIVE) dan 20 ad set (Interest/Broud/Retargeting/LLA, konten Haji).
 - Hanya 2 ad set kosong, keduanya PAUSED: "Retargeting" campaign Irfan (`120250374507530739`, ad set `120250374508170739`) dan "Retargeting" campaign Tira (`120250199511380739`, ad set `120250199511480739`).
 - TIDAK ada iklan dibuat: akun ini konten Haji, sedangkan primary text & materi Cloudinary di memory khusus Umroh. Menunggu keputusan user (materi/teks yang dipakai).
+
+### 2026-10-05 — "cek setiap adset isi tiap adset 3 iklan" (akun Elharamain Haji, 947788760498911)
+- Akun live. Cek 20 ad set; ad set <3 iklan ditambah dengan menyalin creative yang ada (`creative_id`), langsung PAUSED, creative dipilih yang belum dipakai di campaign tujuan.
+- Berhasil (9 iklan): Tira Interest +2 (jadi 3), Fikri Broud +1 (3), Hanif Interest PAUSED +1 (3), Nida Retargeting +1 (3), AIni Broud2 +1 (3), Tira Retargeting kosong +3 (3).
+- Gagal/tidak diisi: Diana "Interest - Salin" `120250635703380739` (2 iklan) dan Irfan Retargeting `120250374508170739` (0 iklan) = ad set ARCHIVED (Meta menolak iklan baru); tidak diubah. Irfan Interest `120250374507830739` (1 iklan): creative dari campaign lain ditolak "Pages Don't Match" (Irfan pakai Page lain) — butuh materi Page Irfan atau pakai ulang creative Irfan (duplikat dalam campaign).
+- Catatan teknis: akun Haji LIVE (bukan draft) → `source_ad_id` tidak cukup, pakai `creative: {"creative_id": ...}`. Creative Irfan hanya cocok untuk ad set Irfan (Page beda).

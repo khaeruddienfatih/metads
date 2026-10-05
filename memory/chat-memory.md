@@ -67,7 +67,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | Hanif | 482252744648260 | 25 draft dibuat ulang (fix CTA), PAUSED; 24 draft lama `XXX HAPUS - ERROR` perlu discard manual. 3 Okt: campaign **Riyadh Air** (`120254662875790427`) +9 draft PAUSED (3/ad set: Desain 2 #1–3, Desain 2 #4–6, 10_Hari_Riyad_Air 1–3) |
 | Elharamain Wisata / Allif (bisnis Elharamain Haji) | 4678183395742010 | Campaign **Alif**: 25 iklan PAUSED (gambar+video dari Cloudinary). 5 Okt: campaign Desember (`120252148895910228`) 3 ad set kosong diisi 9 iklan PAUSED (saudia 1–9); akun live |
 | Elharamain Fifi | 1676215979752437 | Campaign **Fikri** (draft): 25 iklan gambar-only PAUSED; Riyadh Air pakai desain baru 1–5 |
-| Elharamain Haji | 947788760498911 | 29 Sep: budget 6 kampanye aktif +15% lalu diaktifkan lagi |
+| Elharamain Haji | 947788760498911 | 29 Sep: budget 6 kampanye aktif +15% lalu diaktifkan lagi. Akun LIVE, konten Haji. 5 Okt: ad set <3 iklan diisi dengan salinan creative (PAUSED) → 9 iklan baru; belum 3: Diana "Interest - Salin" `120250635703380739` & Irfan Retargeting `120250374508170739` (ARCHIVED), Irfan Interest `120250374507830739` (1 iklan, creative Page lain ditolak) |
 | Elharamainclose | 1401255787216018 | Ads MCP belum dibuka |
 
 ### Budget Elharamain Haji (947788760498911), per 2 Okt 2026

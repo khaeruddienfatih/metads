@@ -142,3 +142,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Kampanye **Diana** (`120250519255890739`, akun 947788760498911): ACTIVE, budget Rp270.000/hari, objective OUTCOME_SALES. Isinya 4 ad set baru, semua PAUSED dan kosong: LLA `120250695687210739`, Interest `120250695719660739`, broud `120250695706320739`, Retargeting `120250695719700739`. Ad set "Interest - Salin" lama sudah tidak terlihat.
 - Diisi 12 iklan PAUSED (3/ad set, creative unik antar ad set, tanpa creative Irfan karena beda Page): LLA ← Tira LLA 3/1 + Fikri LLA 4; Interest ← Fikri Interest 3/2/1; Broud ← Fikri Broud 3/1 + AIni Broud 2; Retargeting ← Hanif/Nida retargeting. Nama "Haji - Diana <tipe> N".
 - Catatan: kampanye ACTIVE tapi semua ad set PAUSED (belum jalan).
+
+### 2026-10-05 — "buat iklan baru jangan pakai iklan yang sudah ada" (kampanye Diana, akun Haji)
+- User tidak mau iklan/creative yang sudah ada dipakai ulang. 12 iklan salinan sebelumnya di kampanye Diana (`120250519255890739`) dihapus (status DELETED) dan diganti 12 iklan BARU dari materi Cloudinary `Elharamainwisata/Haji` (gambar baru diupload ke library via creative dummy `upload Haji …`).
+- Iklan baru: inline `object_story_spec` dengan **Page Haji `637020022834756` (Elharamain Haji)**, tanpa IG user (akun tidak punya IG terdaftar), CTA WHATSAPP_MESSAGE, link wa, primary text Haji Plus (sama dengan teks iklan Haji yang ada), headline "✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang", deskripsi "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)". Status PAUSED (live).
+- Pembagian: LLA ← Desain 6 #1–3; Interest ← Desain 4 #1–3; broud ← Desain 4 #4 + Premium #1–2; Retargeting ← Premium #4–6. (Premium #3 dilewati: gambarnya sama dengan "Haji Plus - Desain-3" yang sudah dipakai.)
+- Verifikasi: tiap ad set tepat 3 iklan, semua PAUSED (effective PENDING_REVIEW).
+- Belum dikerjakan: 9 iklan salinan di ad set Haji lain (Tira Interest, Tira Retargeting, Fikri Broud, Hanif Interest, Nida Retargeting, AIni Broud2) tetap pakai creative lama — menunggu keputusan user apakah diganti.

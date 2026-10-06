@@ -161,3 +161,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat ulang 5 iklan PAUSED dengan meniru iklan Irfan yang ada (Page, IG, teks, headline, CTA WA sama; tanpa deskripsi) tapi gambar baru dari folder Haji: Interest `120250374507830739` +2 (Desain 6 #1, #2); Retargeting `120250695786990739` +3 (Desain 6 #3, Desain 4 #1, #2). Hash gambar tidak sama dengan gambar iklan Irfan lain.
 - Hasil: Interest 3 iklan, Broud 5, Retargeting 3.
 - Catatan: untuk kampanye lain di akun Haji, cek dulu Page iklan lama per kampanye (kemungkinan sama pola) sebelum membuat iklan baru.
+
+### 2026-10-06 — akses akun fifi
+- Scan akun Elharamain Fifi (521083143750270): 26 ad set; ada 2 campaign baru dengan 6 ad set kosong.
+- Campaign Liburan Akhir Tahun (`120252329548970365`) 3 ad set diisi 9 iklan PAUSED (LAT 1–9, gambar folder Liburan Akhir Tahun, teks LAT, headline berselang-seling).
+- Campaign Desember (`120252329530240365`) 3 ad set diisi 9 iklan PAUSED (saudia 1–9, teks Desember). Page 588336968031663 + IG 17841405431328414, CTA WHATSAPP_MESSAGE.
+- Tertunda: ad set dengan 1–2 iklan (Januari 120252109488250365 =1; Saudia 12 Hari 120252109306440365, Saudia 120252109239810365, Saudia 120252109559410365 =2) belum ditambah — tunggu perintah user.

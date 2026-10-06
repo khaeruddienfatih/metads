@@ -101,7 +101,7 @@ Hasil scan semua akun (ad set bernama "Riyadh Air"). Ad set kosong diisi 3 iklan
 |---|---|---|
 | Hanif | 482252744648260 | 3 ad set diisi (9 draft). 5 Okt: campaign Desember (`120254685722760427`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |
 | Tira | 868364731529534 | 3 ad set diisi (9 iklan) |
-| AIni | 814396810761205 | 3 ad set diisi (9 draft). 5 Okt: campaign Riyadh Air direstruktur (`120253589562730019`); +21 draft PAUSED di 7 ad set kosong lain (Desember ×5, 9 Hari Januari, LAT), 3/ad set gambar unik |
+| AIni | 814396810761205 | 3 ad set diisi (9 draft). 5 Okt: campaign Riyadh Air direstruktur (`120253589562730019`); +21 draft PAUSED di 7 ad set kosong lain (Desember ×5, 9 Hari Januari, LAT), 3/ad set gambar unik; 6 Okt: 6 ad set kosong lagi diisi 18 draft PAUSED (3/ad set): campaign 9 Januari (`120253612138060019`, ad set …138100019/…138080019/…138070019, 9 gambar januari) dan Liburan AKhir Tahun (`120253612013570019`, ad set …013690019/…013680019/…013620019, 9 gambar LAT). Semua ad set AIni sekarang ≥3 iklan |
 | Irfan | 1060984719243481 | 3 ad set baru diisi (9 iklan); 3 ad set lain sudah 5 iklan. 5 Okt: campaign Desember (`120253231255400414`) 3 ad set kosong diisi 9 iklan PAUSED (saudia 1–9) |
 | Diana | 1076195694707828 | 3 ad set diisi (9 draft). 5 Okt: campaign Desember (`120251937346180294`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |
 | Fikri | 1676215979752437 | 3 ad set baru diisi (9 draft); 3 ad set lain sudah 5 iklan. 5 Okt: campaign Desember (`120249501856030470`) 3 ad set kosong diisi 9 draft PAUSED (saudia 1–9) |

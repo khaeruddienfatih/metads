@@ -167,3 +167,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Campaign Liburan Akhir Tahun (`120252329548970365`) 3 ad set diisi 9 iklan PAUSED (LAT 1–9, gambar folder Liburan Akhir Tahun, teks LAT, headline berselang-seling).
 - Campaign Desember (`120252329530240365`) 3 ad set diisi 9 iklan PAUSED (saudia 1–9, teks Desember). Page 588336968031663 + IG 17841405431328414, CTA WHATSAPP_MESSAGE.
 - Tertunda: ad set dengan 1–2 iklan (Januari 120252109488250365 =1; Saudia 12 Hari 120252109306440365, Saudia 120252109239810365, Saudia 120252109559410365 =2) belum ditambah — tunggu perintah user.
+
+### 2026-10-06 — masuk akun allif
+- Scan akun Allif (4678183395742010): 21 ad set; 6 ad set kosong (campaign 9 Januari `120252169243440228` ×3, Liburan Akhir Tahun `120252169205320228` ×3).
+- Diisi 18 iklan PAUSED (3/ad set, gambar unik per campaign): 9 Januari pakai januari_1–8 + Desain_3 #1 dengan teks Januari; LAT pakai 9 desain LAT dengan teks LAT. Headline berselang-seling, CTA WhatsApp, Page 588336968031663 + IG 17841405431328414.
+- Catatan: iklan lama di akun Allif berstatus ACTIVE (bukan dari saya); iklan baru PAUSED.
+- Tertunda: ad set Desember `120252083784810228` baru 2 iklan (video) — tunggu perintah user.

@@ -179,3 +179,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diisi 18 draft (3/ad set, 9 gambar unik per campaign, teks Januari / LAT, headline berselang-seling, image_hash) lalu semuanya di-set PAUSED. Gambar baru diunggah lewat creative dummy `upload …` (tidak dipakai).
 - Ad set lain sudah ≥3 iklan (tidak disentuh). Iklan lama AIni banyak yang ACTIVE (bukan dari saya).
 - Tertunda: tidak ada untuk AIni. Masih terbuka: Fifi (4 ad set <3 iklan), Allif (ad set Desember 2 iklan).
+
+### 2026-10-07 — masuk akun allif
+- Rescan Allif (4678183395742010): ada campaign baru `120252189006530228` dengan 3 ad set kosong (Riyad AIr, Desember, AKhir Tahun).
+- Diisi 9 iklan PAUSED (3/ad set, gambar beda): Riyad AIr = Desain 2 #1–3 + teks Riyadh; Desember = saudia_9_hari_4–6 + teks Desember; AKhir Tahun = LAT 1–3 + teks LAT. Headline berselang-seling, CTA WhatsApp, Page 588336968031663 + IG.
+- Catatan: ad set 9 Januari `120252169243460228` kini PAUSED (bukan oleh saya). Ad set Desember `120252083784810228` masih 2 iklan (video) — belum disentuh.

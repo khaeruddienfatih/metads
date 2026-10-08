@@ -216,3 +216,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Atas perintah user, sumber materi Cloudinary diganti ke cloud **`q2xuhm0o`** (aturan di chat-memory diperbarui). Cloud lama `v6gwkqrb` tidak dipakai lagi.
 - Iklan yang sudah ada (termasuk 9 iklan Ramadhan Tira) tidak perlu diubah: gambarnya sudah tersimpan di Meta saat iklan dibuat.
 - Catatan: materi Umroh selain Ramadhan belum ada di cloud baru.
+
+### 2026-10-09 — "masuk ke akun nida dan buatkan iklanya" (Ramadhan)
+- Akun Nida (1019832712800468, mode draft): campaign baru **Ramadhan** `120251621058780004` (dibuat user 9 Okt), 3 ad set "Ramadhan" kosong.
+- Gambar Ramadhan dari Cloudinary `q2xuhm0o` (`Elharamainwisata/ramadhan`) diunggah ke library lewat 9 creative dummy `upload Ramadhan D2-1..5 / D3-1..4` (tidak dipakai) → image_hash.
+- Dibuat 9 draft (inline object_story_spec, image_hash), lalu semua di-set PAUSED (active_errors kosong):
+  - `120251621058850004`: Desain 2 #1, #2, #3
+  - `120251621058880004`: Desain 2 #4, #5, Desain 3 #1
+  - `120251621058840004`: Desain 3 #2, #3, #4
+- Teks Ramadhan, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG.
+- Tertunda: draft perlu dipublish user di Ads Manager (tetap PAUSED); template WA Ramadhan & "Media terkait" manual.

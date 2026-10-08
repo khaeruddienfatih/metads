@@ -32,6 +32,8 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 ## Folder Cloudinary (cloud `v6gwkqrb`)
 
+> **9 Okt:** connector Cloudinary sesi ini tersambung ke cloud **`q2xuhm0o`** (akun lain). Isinya hanya: `Elharamainwisata/ramadhan` (11 gambar Ramadhan, nama sama: Desain_2 #1–5, Desain_3 #1–6), `Elharamainwisata/Haji` (folder kosong), 9 gambar Haji di root (`1..6._Desain_Haji_Plus_Premium_...`, `1..3._Design_14_Haji_Plus_2027_...`), `main-sample`. Folder Umroh lain (desember, januari, LAT, November) **tidak ada** di cloud ini. Cek cloud name dari `secure_url` sebelum pakai URL.
+
 | Folder | Isi |
 |---|---|
 | `Umroh/November` | `10_Hari_Riyad_Air_1..5` + desain baru `1..6._Desain_2_Paket_Umroh_Musim_Sejuk_Premium_Umroh_10_Hari_By_Riyadh_Air_...` (30 Sep) |

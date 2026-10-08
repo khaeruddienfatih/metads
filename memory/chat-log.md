@@ -205,3 +205,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - `120252500197260584`: Desain 3 #2, #3, #4
 - Teks Ramadhan, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG 17841405431328414. Status cek: PAUSED (IN_PROCESS/PENDING_REVIEW).
 - Tertunda: template WA Ramadhan & matikan "Media terkait" (manual oleh user); Desain_3 #5–#6 belum dipakai.
+
+### 2026-10-09 — "cek claudinary"
+- Connector Cloudinary sekarang menunjuk ke cloud `q2xuhm0o` (bukan `v6gwkqrb`). Folder: `Elharamainwisata`, `Elharamainwisata/Haji` (kosong), `Elharamainwisata/ramadhan` (baru, 23:16 UTC 8 Okt).
+- Isi: 11 gambar Ramadhan (Desain_2 #1–5, Desain_3 #1–6; nama sama dengan yang dipakai di iklan Tira), 9 gambar Haji di root (Desain Haji Plus Premium 1–6, Design 14 Haji Plus 2027 1–3), `main-sample`.
+- Materi Umroh lama (saudia, januari, 12 hari, LAT, Riyadh Air) tidak ada di cloud ini. Iklan Ramadhan Tira tetap memakai URL cloud `v6gwkqrb`.
+- Tidak ada perubahan iklan.

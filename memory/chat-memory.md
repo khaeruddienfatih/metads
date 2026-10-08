@@ -38,6 +38,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | `Umroh/januari 9 hari` | gambar+video `januari_1..8`, desain `Desain_3/Desain_4_Paket_Umroh_Januari...` |
 | `Umroh/12 hari januari` | gambar `12_hari_januari_1..5`, video `12_hari_januari_1..4` |
 | `Umroh/Liburan Akhir Tahun` | `Desain_Paket 1..4`, `Desain_2_Paket 1..4`, `Desain_3_Paket 1..4` |
+| `Umroh/Ramadhan` | (8 Okt) 11 gambar: `1..5._Desain_2_Paket_Umroh_Ramadhan_Musim_Dingin_By_Saudia_Airlines_...` + `1..6._Desain_3_Paket_Umroh_Ramadhan_...`. Teks iklan: bagian **Ramadhan** di `primary-texts.md` |
 
 ## Catatan teknis Meta Ads MCP
 

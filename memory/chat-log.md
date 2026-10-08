@@ -190,3 +190,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - SELESAI di-PAUSED: AIni (814396810761205) 34 iklan; Tira (868364731529534) 16 iklan; Irfan (1060984719243481) 8 iklan pertama (Riyadh Air ad set 120253085928210414 dan LAT ad set 120253085202240414).
 - BELUM: Irfan sisa (LAT ad set 120253100040430414 ×5 iklan, Riyadh Air ad set 120253085202230414 ×2 iklan ACTIVE); Diana 1076195694707828; Fikri 1676215979752437; Fifi 521083143750270; Nida 1019832712800468; Hanif 482252744648260; CloseF 1050343302646341; Allif 4678183395742010. Perlu scan ulang (ambil iklan ACTIVE di ad set bernama tsb lalu PAUSED).
 - Catatan: akun Haji dan akun lain (Depok, Bekasi, dll.) tidak disentuh.
+
+### 2026-10-08 — "lanjut" + ad copy Ramadhan
+- "lanjut": mulai lanjutkan tertunda Fifi (521083143750270) — ad set Januari `120252109488250365` (1 iklan), Saudia 12 Hari `120252109306440365`, Saudia `120252109239810365`, Saudia/Desember `120252109559410365` (masing-masing 2). Baru dicek (gambar yang sudah dipakai: januari6, 12 hari januari 3 & 5, Desain Saudia 2/3/5, 1 video). **Belum ada iklan dibuat.** Catatan: entri 7 Okt di atas (pause Riyadh Air/November/LAT) baru terlihat setelah sinkron main — "lanjut" kemungkinan maksudnya itu; dilanjutkan sesudahnya.
+- User kirim primary text **Umroh Ramadhan** → disimpan di `primary-texts.md` bagian "Ramadhan" (sama dengan teks LAT, kata "Liburan Akhir Tahun" → "Ramadhan").
+- Ditemukan folder Cloudinary baru `Elharamainwisata/Umroh/Ramadhan` (11 gambar Desain_2 #1–5, Desain_3 #1–6), dicatat di chat-memory.
+- Tertunda: akun/ad set mana yang diisi iklan Ramadhan; headline/template WA untuk Ramadhan; Fifi 4 ad set & Allif Desember `120252083784810228` masih <3 iklan.

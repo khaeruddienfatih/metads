@@ -226,3 +226,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - `120251621058840004`: Desain 3 #2, #3, #4
 - Teks Ramadhan, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG.
 - Tertunda: draft perlu dipublish user di Ads Manager (tetap PAUSED); template WA Ramadhan & "Media terkait" manual.
+
+### 2026-10-09 — "masuk ke akun fikri dannbuatkan iklan" (Ramadhan)
+- Akun Fikri (1676215979752437, mode draft): campaign baru **Ramadhan** `120249566336610470`, 3 ad set kosong: "Ramadhan - 1" `120249566336690470`, "Ramadhan - 2" `120249566336700470`, "Ramadhan" `120249566336710470`.
+- 9 gambar Ramadhan (cloud q2xuhm0o) diunggah lewat creative dummy `upload Ramadhan …`; hash sama dengan di Nida.
+- Dibuat 9 draft lalu semua di-set PAUSED (active_errors kosong):
+  - Ramadhan - 1: Desain 2 #1, #2, #3
+  - Ramadhan - 2: Desain 2 #4, #5, Desain 3 #1
+  - Ramadhan: Desain 3 #2, #3, #4
+- Teks Ramadhan, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG.
+- Tertunda: user publish draft di Ads Manager; template WA Ramadhan & "Media terkait" manual.

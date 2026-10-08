@@ -112,3 +112,7 @@ Hasil scan semua akun (ad set bernama "Riyadh Air"). Ad set kosong diisi 3 iklan
 
 **Ejaan ad set bervariasi** ("Riyadh Air", "Riyad Air", "Riyad AIr") — scan pakai kata kunci `Riyad`. Rescan 3 Okt: tidak ada tambahan selain tabel ini. Akun tanpa ad set Riyadh Air: Elharamain Haji, dll. Akun Ads MCP belum dibuka
 (Elharamainclose, Umroh Plus, Elharamainwisata, dll.) tidak bisa dicek.
+
+## Pending (8 Okt 2026)
+
+- Tugas "matikan iklan Riyadh Air + November + Liburan Akhir Tahun di semua akun Umroh" baru selesai untuk AIni, Tira, dan sebagian Irfan. Sisa akun ada di `chat-log.md` (entri 7 Okt).

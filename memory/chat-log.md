@@ -184,3 +184,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Rescan Allif (4678183395742010): ada campaign baru `120252189006530228` dengan 3 ad set kosong (Riyad AIr, Desember, AKhir Tahun).
 - Diisi 9 iklan PAUSED (3/ad set, gambar beda): Riyad AIr = Desain 2 #1–3 + teks Riyadh; Desember = saudia_9_hari_4–6 + teks Desember; AKhir Tahun = LAT 1–3 + teks LAT. Headline berselang-seling, CTA WhatsApp, Page 588336968031663 + IG.
 - Catatan: ad set 9 Januari `120252169243460228` kini PAUSED (bukan oleh saya). Ad set Desember `120252083784810228` masih 2 iklan (video) — belum disentuh.
+
+### 2026-10-07 — matikan semua iklan Riyadh Air, November, dan Liburan Akhir Tahun (SEBAGIAN, user menutup sesi)
+- User pilih: semua akun Umroh, level iklan (ad set tetap). Ad set dicocokkan lewat nama: Riyad/Riyadh Air, November, Liburan Akhir Tahun / AKhir Tahun / LAT.
+- SELESAI di-PAUSED: AIni (814396810761205) 34 iklan; Tira (868364731529534) 16 iklan; Irfan (1060984719243481) 8 iklan pertama (Riyadh Air ad set 120253085928210414 dan LAT ad set 120253085202240414).
+- BELUM: Irfan sisa (LAT ad set 120253100040430414 ×5 iklan, Riyadh Air ad set 120253085202230414 ×2 iklan ACTIVE); Diana 1076195694707828; Fikri 1676215979752437; Fifi 521083143750270; Nida 1019832712800468; Hanif 482252744648260; CloseF 1050343302646341; Allif 4678183395742010. Perlu scan ulang (ambil iklan ACTIVE di ad set bernama tsb lalu PAUSED).
+- Catatan: akun Haji dan akun lain (Depok, Bekasi, dll.) tidak disentuh.

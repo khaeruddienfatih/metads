@@ -196,3 +196,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User kirim primary text **Umroh Ramadhan** → disimpan di `primary-texts.md` bagian "Ramadhan" (sama dengan teks LAT, kata "Liburan Akhir Tahun" → "Ramadhan").
 - Ditemukan folder Cloudinary baru `Elharamainwisata/Umroh/Ramadhan` (11 gambar Desain_2 #1–5, Desain_3 #1–6), dicatat di chat-memory.
 - Tertunda: akun/ad set mana yang diisi iklan Ramadhan; headline/template WA untuk Ramadhan; Fifi 4 ad set & Allif Desember `120252083784810228` masih <3 iklan.
+
+### 2026-10-08 — pause lanjutan (ditolak) + "sekarang masuk iklan tira" / "kamu buatkan iklanya ya" (Ramadhan)
+- Mencoba lanjut pause 5 iklan LAT Irfan (ad set `120253100040430414`, ad set-nya sendiri sudah PAUSED); **user menolak** → tidak ada perubahan. Riyadh Air ad set Irfan `120253085202230414` tidak muncul lagi di scan. Pause untuk akun lain tidak dilanjutkan.
+- Akun Tira (868364731529534, live): campaign baru **Ramadhan** `120252500197150584`, 3 ad set "Ramadhan" kosong (PAUSED) diisi 9 iklan PAUSED, 3/ad set, gambar unik dari Cloudinary `Umroh/Ramadhan` (via `link_data.picture`):
+  - `120252500197250584`: Desain 2 #1, #2, #3
+  - `120252500197270584`: Desain 2 #4, #5, Desain 3 #1
+  - `120252500197260584`: Desain 3 #2, #3, #4
+- Teks Ramadhan, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG 17841405431328414. Status cek: PAUSED (IN_PROCESS/PENDING_REVIEW).
+- Tertunda: template WA Ramadhan & matikan "Media terkait" (manual oleh user); Desain_3 #5–#6 belum dipakai.

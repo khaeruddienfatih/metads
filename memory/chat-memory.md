@@ -15,7 +15,9 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
   - `6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`
   - `✈️ Tiket Sudah Confirm, Jadwal Pasti`
 - **Deskripsi:** `Hotel Bintang 5 · Seat terbatas 45/keberangkatan`
-- **Materi hanya dari folder Cloudinary** `Elharamainwisata/Umroh/<folder>`; jangan ambil dari folder lain
+- **Cloudinary aktif (sejak 9 Okt, perintah user): cloud `q2xuhm0o`** — URL `https://res.cloudinary.com/q2xuhm0o/image/upload/<public_id>.jpg`. Cloud lama `v6gwkqrb` tidak dipakai lagi.
+  Materi Ramadhan: `Elharamainwisata/ramadhan`. Materi Haji: 9 gambar di root cloud ini. Materi Umroh lain (desember, januari, LAT, November) belum ada di cloud ini — minta user upload dulu.
+- **Materi hanya dari folder Cloudinary** `Elharamainwisata/<folder>` (dulu `Elharamainwisata/Umroh/<folder>` di cloud lama); jangan ambil dari folder lain
   (mis. `Elharamainwisata/Fasilitas/fasilitas-maskapai-riyadh-air` **bukan** materi iklan).
 - **Template WA** (diset manual oleh user di Ads Manager — tool tidak bisa):
   | Ad set | Template |
@@ -30,7 +32,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Naik anggaran:** update budget lewat tool memaksa kampanye aktif jadi PAUSED; user memilih
   "naikkan lalu aktifkan lagi".
 
-## Folder Cloudinary (cloud `v6gwkqrb`)
+## Folder Cloudinary (cloud lama `v6gwkqrb` — tidak dipakai lagi sejak 9 Okt; lihat catatan `q2xuhm0o` di bawah)
 
 > **9 Okt:** connector Cloudinary sesi ini tersambung ke cloud **`q2xuhm0o`** (akun lain). Isinya hanya: `Elharamainwisata/ramadhan` (11 gambar Ramadhan, nama sama: Desain_2 #1–5, Desain_3 #1–6), `Elharamainwisata/Haji` (folder kosong), 9 gambar Haji di root (`1..6._Desain_Haji_Plus_Premium_...`, `1..3._Design_14_Haji_Plus_2027_...`), `main-sample`. Folder Umroh lain (desember, januari, LAT, November) **tidak ada** di cloud ini. Cek cloud name dari `secure_url` sebelum pakai URL.
 

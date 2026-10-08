@@ -211,3 +211,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Isi: 11 gambar Ramadhan (Desain_2 #1–5, Desain_3 #1–6; nama sama dengan yang dipakai di iklan Tira), 9 gambar Haji di root (Desain Haji Plus Premium 1–6, Design 14 Haji Plus 2027 1–3), `main-sample`.
 - Materi Umroh lama (saudia, januari, 12 hari, LAT, Riyadh Air) tidak ada di cloud ini. Iklan Ramadhan Tira tetap memakai URL cloud `v6gwkqrb`.
 - Tidak ada perubahan iklan.
+
+### 2026-10-09 — "rubah ke akun ini" (Cloudinary)
+- Atas perintah user, sumber materi Cloudinary diganti ke cloud **`q2xuhm0o`** (aturan di chat-memory diperbarui). Cloud lama `v6gwkqrb` tidak dipakai lagi.
+- Iklan yang sudah ada (termasuk 9 iklan Ramadhan Tira) tidak perlu diubah: gambarnya sudah tersimpan di Meta saat iklan dibuat.
+- Catatan: materi Umroh selain Ramadhan belum ada di cloud baru.

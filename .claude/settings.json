@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Meta_Ads__ads_get_ad_accounts",
+      "mcp__Meta_Ads__ads_get_ad_entities",
+      "mcp__Meta_Ads__ads_get_creatives",
+      "mcp__Meta_Ads__ads_get_ad_images",
+      "mcp__Meta_Ads__ads_get_ad_videos",
+      "mcp__Meta_Ads__ads_get_field_context",
+      "mcp__Meta_Ads__ads_create_creative",
+      "mcp__Meta_Ads__ads_create_ad",
+      "mcp__Meta_Ads__ads_update_entity",
+      "mcp__Cloudinary__search-assets",
+      "mcp__Cloudinary__search-folders",
+      "mcp__Cloudinary__list-images",
+      "mcp__Cloudinary__list-videos",
+      "mcp__Cloudinary__get-asset-details",
+      "Bash(git:*)"
+    ]
+  }
+}

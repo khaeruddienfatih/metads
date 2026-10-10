@@ -286,3 +286,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Catatan: gambar Desember (10) & 12 Hari Januari (5) tidak cukup untuk 15 slot, jadi ada pengulangan gambar antar ad set dalam campaign itu (minim).
 - Campaign Ramadhan (lama) `120252500197150584` dan ad set lama Tira tidak terbaca lagi di listing (kemungkinan dihapus user).
 - Tertunda: template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan) & matikan "Media terkait" (manual).
+
+### 2026-10-10 — "masuk akun allif isi adset yang kosong per adset 3 iklan"
+- Akun Allif (4678183395742010, live). Ad set lama (campaign Alif, Desember/9 Hari Januari/12 Hari Januari/Ramadhan …2233…) sudah berisi iklan, tidak disentuh.
+- 20 ad set kosong = 4 campaign baru × 5 wilayah (prefix 120252243):
+  - Desember `…406360228`: jakarta …406420228 (saudia 1–3), jabar …406450228 (4–6), jateng …406510228 (7–9), jatim …406490228 (10,1,2), banten …406390228 (3–5)
+  - 9 Hari januari `…406350228`: jakarta …406410228 (januari 1–3), jabar …406400228 (4–6), jateng …406430228 (7,8 + Desain 3 #1), jatim …406480228 (Desain 3 #2–4), banten …406380228 (Desain 4 #1–3)
+  - 12 Hari Januari `…346130228`: jakarta …346310228 (12 hari 1–3), jabar …346240228 (4,5,1), jateng …394100228 (2–4), jatim …394090228 (5,1,2), banten …346230228 (3–5)
+  - Ramadhan `…406370228`: jakarta …406470228 (D2 #1–3), jabar …406460228 (D2 #4,#5, D3 #1), jateng …406520228 (D3 #2–4), jatim …406500228 (D3 #5,#6, D2 #1), banten …406440228 (D2 #2–4)
+- 60 iklan BARU (inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o), teks sesuai campaign, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG. Semua PAUSED (sebagian PENDING_REVIEW/IN_PROCESS). Terverifikasi 3/ad set.
+- Catatan: gambar Desember (10) & 12 Hari Januari (5) terulang antar ad set dalam campaign (stok gambar kurang).
+- Tertunda: template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan) & matikan "Media terkait" (manual).

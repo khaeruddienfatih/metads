@@ -257,3 +257,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Teks Ramadhan, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG. Status: PAUSED (IN_PROCESS/PENDING_REVIEW).
 - Catatan: campaign & ad set sudah ACTIVE, jadi iklan akan tayang begitu user mengaktifkannya.
 - Tertunda: template WA Ramadhan & matikan "Media terkait" (manual).
+
+### 2026-10-10 — "masuk akun fikri dan buatkan iklanya per adset 3 iklan" (+ "semua iklan harus dibuat baru dengan adcopy sesuai adset")
+- Akun Fikri (1676215979752437, mode draft). 6 campaign baru (dibuat user 10 Okt) × 3 ad set kosong (Desember / 9 Hari Januari / 12 Hari Januari) = 18 ad set:
+  - Jakarta `120249581857220470`: Des …857050470 (saudia 1–3), 9J …857180470 (januari 1–3), 12J …857080470 (12 hari 1–3)
+  - Jawa barat `120249581857140470`: Des …857160470 (saudia 4–6), 9J …857040470 (januari 4–6), 12J …857210470 (12 hari 4,5,1)
+  - Jawa Tengah `120249581857110470`: Des …857170470 (saudia 7–9), 9J …857070470 (januari 7,8, Desain 3 #1), 12J …857200470 (12 hari 2–4)
+  - Jawa Timur `120249581857090470`: Des …857060470 (saudia 10,1,2), 9J …857130470 (Desain 3 #2–4), 12J …857190470 (12 hari 5,1,2)
+  - Banten `120249581857100470`: Des …857150470 (saudia 3–5), 9J …857120470 (Desain 4 #1–3), 12J …857030470 (12 hari 3–5)
+  - indonesia `120249581832210470`: Des …840210470 (saudia 6–8), 9J …840220470 (Desain 4 #4, januari 1–2), 12J …832200470 (12 hari 1–3)
+- 54 iklan BARU (inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o — di draft ini picture URL ternyata bisa, tanpa image_hash), primary text sesuai ad set (Desember / 9 Hari Januari / 12 Hari Januari), headline berselang-seling, deskripsi standar, CTA WA, Page + IG. Semua active_errors kosong.
+- Cloudinary q2xuhm0o sekarang punya folder `Elharamainwisata/Desember` (saudia_9_hari 1–10), `Elharamainwisata/9 Hari Januari` (januari 1–8, Desain_3 #1–4, Desain_4 #1–4), `Elharamainwisata/12 Hari Januari` (12_hari_januari 1–5) + video, dan `Elharamainwisata/Haji` terisi.
+- Set PAUSED: 44 dari 54 berhasil. **10 draft masih status ACTIVE di draft** (set PAUSED ditolak di dialog izin): Banten 12J `120249581940180470` + semua 9 iklan indonesia (120249581945610470, …46070470, …46420470, …46540470, …46950470, …47340470, …47540470, …48130470, …48390470). Draft tidak tayang sampai dipublish, tapi kalau dipublish 10 iklan ini langsung ACTIVE.
+- Tertunda: PAUSED 10 draft di atas; user publish draft; template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`) & "Media terkait" manual.

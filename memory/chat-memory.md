@@ -80,20 +80,19 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | Elharamain Haji | 947788760498911 | 29 Sep: budget 6 kampanye aktif +15% lalu diaktifkan lagi. Akun LIVE, konten Haji. 5 Okt: ad set <3 iklan diisi dengan salinan creative (PAUSED) → 9 iklan baru; 5 Okt: kampanye Diana (`120250519255890739`, budget Rp270.000) 4 ad set baru (LLA/Interest/broud/Retargeting, semua PAUSED) diisi 12 iklan BARU PAUSED (materi folder Haji, bukan salinan); 5 Okt (lanjutan): semua ad set di semua kampanye (AIni, Nida, Hanif, Fikri, Tira, Irfan) diisi iklan BARU PAUSED sampai ≥3 iklan (17 iklan); ad set kosong baru Tira Broud `120250695823180739` & Irfan Retargeting `120250695786990739` ikut terisi. Iklan salinan lama sudah dihapus user. Page `637020022834756` bisa dipakai di ad set Irfan juga |
 | Elharamainclose | 1401255787216018 | Ads MCP belum dibuka |
 
-### Budget Elharamain Haji (947788760498911), per 2 Okt 2026
+### Budget Elharamain Haji (947788760498911), terbaca 10 Okt 2026
 
-| Kampanye | Budget harian |
-|---|---|
-| Diana (baru) | Rp250.000 |
-| Irfan | Rp230.000 |
-| AIni | Rp287.500 |
-| Nida | Rp287.500 |
-| Fikri | Rp287.500 |
-| Tira | Rp402.500 |
-| Hanif | Rp287.500 |
+| Kampanye | ID | Budget harian |
+|---|---|---|
+| Diana | 120250519255890739 | Rp200.000 |
+| Irfan | 120250374507530739 | Rp200.000 |
+| AIni | 120250253985700739 | Rp310.000 |
+| Nida | 120250253542250739 | Rp310.000 |
+| Fikri | 120250201672230739 | Rp250.000 |
+| Tira | 120250199511380739 | Rp302.500 |
+| Hanif | 120250198674100739 | Rp310.000 |
 
-Kenaikan 15% kedua (2 Okt) **dilakukan manual oleh user** di Ads Manager — angka di atas adalah
-nilai sebelum kenaikan itu.
+Semua 7 kampanye ACTIVE. Angka berubah dari catatan 2 Okt (diubah manual oleh user di Ads Manager).
 
 ## Pending / pertanyaan terbuka
 

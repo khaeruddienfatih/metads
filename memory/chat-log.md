@@ -297,3 +297,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 60 iklan BARU (inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o), teks sesuai campaign, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG. Semua PAUSED (sebagian PENDING_REVIEW/IN_PROCESS). Terverifikasi 3/ad set.
 - Catatan: gambar Desember (10) & 12 Hari Januari (5) terulang antar ad set dalam campaign (stok gambar kurang).
 - Tertunda: template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan) & matikan "Media terkait" (manual).
+
+### 2026-10-10 — "masuk akun elharamain haji"
+- Akun Elharamain Haji (947788760498911) dibuka; 7 kampanye semua ACTIVE.
+- Budget harian & spend 7 hari: Diana Rp200.000 (Rp1.054.288), AIni Rp310.000 (Rp1.899.588), Nida Rp310.000 (Rp2.108.346), Fikri Rp250.000 (Rp1.279.030), Tira Rp302.500 (Rp1.622.732), Hanif Rp310.000 (Rp2.039.406), Irfan Rp200.000 (Rp970.762). Total spend 7 hari ±Rp10,97 jt.
+- Budget berbeda dari catatan 2 Okt → tabel budget di chat-memory diperbarui. Belum ada perubahan apa pun; menunggu perintah user.

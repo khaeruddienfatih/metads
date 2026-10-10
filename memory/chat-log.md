@@ -270,3 +270,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Cloudinary q2xuhm0o sekarang punya folder `Elharamainwisata/Desember` (saudia_9_hari 1–10), `Elharamainwisata/9 Hari Januari` (januari 1–8, Desain_3 #1–4, Desain_4 #1–4), `Elharamainwisata/12 Hari Januari` (12_hari_januari 1–5) + video, dan `Elharamainwisata/Haji` terisi.
 - Set PAUSED: 44 dari 54 berhasil. **10 draft masih status ACTIVE di draft** (set PAUSED ditolak di dialog izin): Banten 12J `120249581940180470` + semua 9 iklan indonesia (120249581945610470, …46070470, …46420470, …46540470, …46950470, …47340470, …47540470, …48130470, …48390470). Draft tidak tayang sampai dipublish, tapi kalau dipublish 10 iklan ini langsung ACTIVE.
 - Tertunda: PAUSED 10 draft di atas; user publish draft; template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`) & "Media terkait" manual.
+
+### 2026-10-10 — "terlalu lama harus klik terus" (pop-up izin)
+- Allow-list di `.claude/settings.json` sudah mencakup create_ad, create_creative, update_entity, baca Meta Ads/Cloudinary, git. Sesi ini dimulai sebelum file itu di-commit, jadi pop-up masih muncul.
+- Saran: pilih mode **Auto** di dropdown mode dekat kolom chat, atau mulai **sesi baru** (allow-list otomatis berlaku).
+- Tertunda: 10 draft Fikri belum PAUSED (lihat entri sebelumnya).

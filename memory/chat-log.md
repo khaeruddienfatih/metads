@@ -313,3 +313,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan: Page `588336968031663` + IG `17841405431328414`, tanpa deskripsi (meniru iklan Irfan lama).
 - Nama iklan: "Haji - <campaign> <wilayah> - <desain>/Video Hajj_2025-NN".
 - Tertunda: aktivasi (menunggu perintah user), matikan "Media terkait" & template WA (manual).
+
+### 2026-10-10 — "masuk akun hanif buatkan iklan di adset yang kosong buat 3 iklan" (akun Hanif 482252744648260, mode draft)
+- Ad set kosong = 20 ad set wilayah (Jakarta, jabar, Jateng-Jatim, Banten, Indonesia) di 4 campaign: Desember `120254774741090427`-an, 9 Hari Januari, 12 Hari Januari, Ramadhan `120254754061360427`. Draft Ramadhan 9 Okt sudah tidak ada (daftar draft kosong).
+- 60 draft iklan BARU dibuat (3/ad set), inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o (upload media belum dibuka untuk Hanif); video Desember pakai video library `saudia 9 hari (1..5)` + thumbnail `so_1`. Page 588336968031663 + IG, CTA WA, headline berselang-seling, deskripsi standar, teks sesuai paket.
+  - Desember & 9 Hari Januari: materi unik antar ad set. 12 Hari Januari (5 gambar) & Ramadhan (11 gambar) ada gambar terulang antar ad set.
+- **Status: baru 1 draft PAUSED (120254783710450427).** Pause 59 draft lain terputus (error 502 lalu panggilan ditolak). Draft tidak jalan sebelum di-publish, tapi spec-nya ACTIVE → jangan publish sebelum di-PAUSE.
+- Tertunda: pause 59 draft (tunggu konfirmasi user), publish manual di Ads Manager, template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

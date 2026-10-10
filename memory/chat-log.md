@@ -302,3 +302,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Akun Elharamain Haji (947788760498911) dibuka; 7 kampanye semua ACTIVE.
 - Budget harian & spend 7 hari: Diana Rp200.000 (Rp1.054.288), AIni Rp310.000 (Rp1.899.588), Nida Rp310.000 (Rp2.108.346), Fikri Rp250.000 (Rp1.279.030), Tira Rp302.500 (Rp1.622.732), Hanif Rp310.000 (Rp2.039.406), Irfan Rp200.000 (Rp970.762). Total spend 7 hari ±Rp10,97 jt.
 - Budget berbeda dari catatan 2 Okt → tabel budget di chat-memory diperbarui. Belum ada perubahan apa pun; menunggu perintah user.
+
+### 2026-10-10 — "coba buat iklan di adset kosong peradset 3 iklan dan harus iklan baru variasi iklan gambar dan vidio" (akun Elharamain Haji 947788760498911)
+- Ad set kosong = 25 ad set wilayah baru (Jakarta, Jawa Barat, Jateng & Jatim, Banten, Indonesia) di 5 campaign: Tira, Nida, AIni, Irfan, Diana. Hanif & Fikri tidak punya ad set kosong.
+- 75 iklan BARU dibuat (bukan salinan), status PAUSED (sebagian PENDING_REVIEW/IN_PROCESS). Terverifikasi 3 iklan per ad set. Komposisi per ad set: 2 gambar + 1 video.
+- Materi dari Cloudinary q2xuhm0o `Elharamainwisata/Haji`: 21 gambar (Desain 3 #1–4, Desain 4 #1–4, Desain 6 #1–3, Premium #1–8, Design 14 #1–2) di-upload ke library via `ads_creative_upload_media` (pakai image_hash). 16 video Hajj_2025-46..63 di-upload sebagai video Meta (video_id baru); thumbnail dari Cloudinary `video/upload/so_1/<nama>.jpg`.
+- Gambar & video unik antar ad set dalam satu campaign (rotasi berbeda per campaign).
+- Teks: primary text Haji Plus (sama dengan iklan Haji lama), headline "✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang", CTA WhatsApp.
+  - Tira/Nida/AIni/Diana: Page Haji `637020022834756`, deskripsi "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)".
+  - Irfan: Page `588336968031663` + IG `17841405431328414`, tanpa deskripsi (meniru iklan Irfan lama).
+- Nama iklan: "Haji - <campaign> <wilayah> - <desain>/Video Hajj_2025-NN".
+- Tertunda: aktivasi (menunggu perintah user), matikan "Media terkait" & template WA (manual).

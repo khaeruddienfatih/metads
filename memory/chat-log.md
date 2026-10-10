@@ -275,3 +275,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Allow-list di `.claude/settings.json` sudah mencakup create_ad, create_creative, update_entity, baca Meta Ads/Cloudinary, git. Sesi ini dimulai sebelum file itu di-commit, jadi pop-up masih muncul.
 - Saran: pilih mode **Auto** di dropdown mode dekat kolom chat, atau mulai **sesi baru** (allow-list otomatis berlaku).
 - Tertunda: 10 draft Fikri belum PAUSED (lihat entri sebelumnya).
+
+### 2026-10-10 — "masuk akun tira isi iklan di adset yang kosong per adset 3 iklan"
+- Akun Tira (868364731529534, live). 4 campaign baru × 5 ad set wilayah (jakarta, jawa barat, jawa tengah, jawa timur, banten), semua kosong = 20 ad set:
+  - Desember `120252538070950584`: jakarta …0940584 (saudia 1–3), jabar …0830584 (4–6), jateng …0810584 (7–9), jatim …0930584 (10,1,2), banten …0790584 (3–5)
+  - 9 Hari Januari `120252538070720584`: jakarta …0740584 (januari 1–3), jabar …0920584 (januari 4–6), jateng …0800584 (januari 7,8 + Desain 3 #1), jatim …0850584 (Desain 3 #2–4), banten …0780584 (Desain 4 #1–3)
+  - 12 Hari Januari `120252538070730584`: jakarta …0890584 (12 hari 1–3), jabar …0880584 (4,5,1), jateng …0840584 (2–4), jatim …0910584 (5,1,2), banten …0820584 (3–5)
+  - Ramadhan `120252538070750584`: jakarta …0860584 (Desain 2 #1–3), jabar …0870584 (D2 #4,#5, D3 #1), jateng …0760584 (D3 #2–4), jatim …0900584 (D3 #5,#6, D2 #1), banten …0770584 (D2 #2–4)
+- 60 iklan BARU dibuat (inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o), primary text sesuai campaign, headline berselang-seling, deskripsi standar, CTA WhatsApp, Page 588336968031663 + IG. Semua status PAUSED (sebagian masih PENDING_REVIEW/IN_PROCESS). Terverifikasi 3 iklan per ad set.
+- Catatan: gambar Desember (10) & 12 Hari Januari (5) tidak cukup untuk 15 slot, jadi ada pengulangan gambar antar ad set dalam campaign itu (minim).
+- Campaign Ramadhan (lama) `120252500197150584` dan ad set lama Tira tidak terbaca lagi di listing (kemungkinan dihapus user).
+- Tertunda: template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan) & matikan "Media terkait" (manual).

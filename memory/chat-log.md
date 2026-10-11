@@ -336,3 +336,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - **Belum PAUSED (spec ACTIVE): 6 draft** — 120251651390440004 (Jateng-Jatim Desain 3 #1), 120251651390950004, 120251652937030004, 120251652943010004 (Banten Desain 3 #2–4), 120251652944260004, 120251652945080004 (Indonesia Desain 4 #1–2). Pause ditolak di izin.
 - Belum dibuat: 9 Januari Indonesia Desain 4 #3, semua 12 hari januari (15), semua Ramadhan (15) = 31 iklan.
 - Tertunda: konfirmasi user untuk pause 6 draft + lanjut 31 iklan; jangan publish sebelum semuanya PAUSED.
+
+### 2026-10-11 — "lanjutkan" (lanjutan akun Nida 1019832712800468, mode draft) — SELESAI
+- 6 draft 9 Hari Januari yang belum PAUSED (…651390440004, …651390950004, …652937030004, …652943010004, …652944260004, …652945080004) sudah di-PAUSE.
+- 31 draft baru dibuat lalu langsung di-PAUSE (semua `active_errors` kosong):
+  - 9 Hari Januari Indonesia …656950004: Desain 4 #3 (`120251652986380004`).
+  - 12 hari januari `120251650657020004` (teks 12 Hari Januari): jakarta …656910004 (12 hari 1–3), jawa barat …657050004 (4,5,1), jawa timur & tengah …656990004 (2–4), banten …656940004 (5,1,2), indonesia …657040004 (3–5).
+  - Ramadhan `120251650656920004` (teks Ramadhan): jakarta …656930004 (D2 #1–3), jawa barat …657060004 (D2 #4,#5, D3 #1), jawa timur & tengah …657010004 (D3 #2–4), banten …657030004 (D3 #5,#6, D2 #1), indonesia …656960004 (D2 #2–4).
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, Page 588336968031663 + IG, CTA WA, headline berselang-seling, deskripsi standar.
+- Total Nida 11 Okt: 60 draft di 20 ad set wilayah (3/ad set), semua PAUSED. Gambar 12 Hari (5) & Ramadhan (11) terulang antar ad set.
+- Tertunda: publish manual di Ads Manager (draft), template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+

@@ -351,3 +351,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-11 — "kamu simpan jadi allow all"
 - `.claude/settings.json` diganti jadi allow semua tool (Meta Ads penuh termasuk aktivasi/hapus, Cloudinary, Google Drive/Sheets, Canva, Elharamain, Bash, Read/Edit/Write/Glob/Grep, WebFetch/WebSearch). Berlaku mulai sesi baru.
 - Aturan tetap: iklan dibuat PAUSED; aktivasi/hapus hanya atas perintah eksplisit user.
+
+### 2026-10-11 — "kamu jangan buat branch baru cukup 1 main aja"
+- Branch lokal `claude/determined-gauss-xzmj11` dihapus; sesi sekarang kerja di `main`. Hapus branch remote ditolak (403) — user hapus manual di GitHub (isinya sudah ada di `main`). Aturan baru: hanya pakai `main`.

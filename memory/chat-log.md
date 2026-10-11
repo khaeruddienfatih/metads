@@ -327,3 +327,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Format sama dengan Hanif 10 Okt: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, Page 588336968031663 + IG, CTA WA, headline berselang-seling, deskripsi standar, teks sesuai paket.
 - Desember semua gambar (akun Irfan tidak punya video saudia di library): saudia 1–3, 4–6, 7–9, 10+1+2, 3–5 → saudia 1–5 terulang. 12 Hari Januari (5 gambar) & Ramadhan (11 gambar) juga ada gambar terulang antar ad set. 9 Hari Januari unik.
 - Tertunda: template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan) & matikan "Media terkait" (manual). Aktivasi menunggu perintah user.
+
+### 2026-10-11 — "masuk akun Nida isi 3 iklan di 1 adset" (akun Nida 1019832712800468, mode draft) — BELUM SELESAI
+- Ad set kosong = 20 ad set wilayah di 4 campaign: Desember `120251650566380004`, 9 hari januari `120251650656890004`, 12 hari januari `120251650657020004`, Ramadhan `120251650656920004`. Ad set lama (Desember …686950004/…686960004, 9 Hari Januari …044800004/…810004/…820004) sudah berisi, tidak disentuh.
+- Format sama dengan Irfan 11 Okt (`link_data.picture` Cloudinary q2xuhm0o, tanpa error di draft).
+- Dibuat 29 draft: Desember 5 ad set penuh (15), 9 Hari Januari Jakarta/jabar/Jateng-Jatim + Banten 3 + Indonesia 2 (14).
+  - PAUSED: 23 draft (Desember semua + 9 Januari januari_1–8).
+  - **Belum PAUSED (spec ACTIVE): 6 draft** — 120251651390440004 (Jateng-Jatim Desain 3 #1), 120251651390950004, 120251652937030004, 120251652943010004 (Banten Desain 3 #2–4), 120251652944260004, 120251652945080004 (Indonesia Desain 4 #1–2). Pause ditolak di izin.
+- Belum dibuat: 9 Januari Indonesia Desain 4 #3, semua 12 hari januari (15), semua Ramadhan (15) = 31 iklan.
+- Tertunda: konfirmasi user untuk pause 6 draft + lanjut 31 iklan; jangan publish sebelum semuanya PAUSED.

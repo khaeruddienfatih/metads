@@ -354,3 +354,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-11 — "kamu jangan buat branch baru cukup 1 main aja"
 - Branch lokal `claude/determined-gauss-xzmj11` dihapus; sesi sekarang kerja di `main`. Hapus branch remote ditolak (403) — user hapus manual di GitHub (isinya sudah ada di `main`). Aturan baru: hanya pakai `main`.
+
+### 2026-10-11 — "masuk akun iklan aini buatkan iklannya untuk adset kosong" (akun AIni 814396810761205, mode draft)
+- Ad set kosong hanya 5, semua di campaign baru **Desember** `120253697773610019`: jakarta …773820019, jawa barat …773810019, jawa tengah & Timur …773800019, Indonesia …773790019, banten …773780019. Ad set lain (9 Hari Januari, 12 Hari Januari, Ramadhan wilayah, Desember lama, 9 Januari) sudah berisi iklan — tidak disentuh.
+- 15 draft BARU dibuat (3/ad set) lalu langsung di-PAUSE, semua `active_errors` kosong. Gambar saudia_9_hari: jakarta 1–3, jabar 4–6, jateng-timur 7–9, Indonesia 10+1+2, banten 3–5 (stok 10 gambar → saudia 1–5 terulang antar ad set).
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks Desember (primary-texts), headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG. Nama iklan "Desember <wilayah> | saudia N".
+- Tertunda: publish manual (draft), template WA `9hari`, matikan "Media terkait".

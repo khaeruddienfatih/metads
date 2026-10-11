@@ -347,3 +347,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Total Nida 11 Okt: 60 draft di 20 ad set wilayah (3/ad set), semua PAUSED. Gambar 12 Hari (5) & Ramadhan (11) terulang antar ad set.
 - Tertunda: publish manual di Ads Manager (draft), template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
 
+
+### 2026-10-11 — "kamu simpan jadi allow all"
+- `.claude/settings.json` diganti jadi allow semua tool (Meta Ads penuh termasuk aktivasi/hapus, Cloudinary, Google Drive/Sheets, Canva, Elharamain, Bash, Read/Edit/Write/Glob/Grep, WebFetch/WebSearch). Berlaku mulai sesi baru.
+- Aturan tetap: iklan dibuat PAUSED; aktivasi/hapus hanya atas perintah eksplisit user.

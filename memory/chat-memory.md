@@ -47,7 +47,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 ## Catatan teknis Meta Ads MCP
 
-- **Izin otomatis (9 Okt):** user menambahkan `.claude/settings.json` (allow-list: baca Meta Ads, buat creative/iklan, `ads_update_entity`, baca Cloudinary, git). Aktivasi & hapus iklan sengaja tidak di-allow. Berlaku mulai sesi baru.
+- **Izin otomatis (11 Okt, perintah user "allow all"):** `.claude/settings.json` sekarang allow semua tool (seluruh Meta Ads, Cloudinary, Google Drive/Sheets, Canva, Elharamain, Bash, Read/Edit/Write, web). Berlaku mulai sesi baru. Aturan "iklan harus PAUSE" tetap: aktivasi/hapus hanya kalau user perintah eksplisit.
 
 - **Akun Elharamain Haji (947788760498911):** Page iklan beda per kampanye — **tiru Page/IG dari iklan lama kampanye itu** (cek `ads_get_creatives` → `effective_object_story_id`). Kampanye **Irfan** pakai Page `588336968031663` + IG `17841405431328414` (bukan Page Haji `637020022834756`); Diana pakai Page Haji tanpa IG. Cara yang disukai user untuk kampanye Irfan: duplikat iklan yang ada lalu ganti gambar. Materi Haji di Cloudinary `Elharamainwisata/Haji` (gambar Desain/Premium + video Hajj_2025-46..63). **User minta iklan baru, jangan salin/pakai ulang iklan atau creative yang sudah ada** (5 Okt). Creative lama di akun ini terikat Page; creative Irfan tidak cocok untuk ad set lain.
 

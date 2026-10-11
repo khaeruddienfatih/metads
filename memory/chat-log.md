@@ -320,3 +320,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Desember & 9 Hari Januari: materi unik antar ad set. 12 Hari Januari (5 gambar) & Ramadhan (11 gambar) ada gambar terulang antar ad set.
 - **Status: baru 1 draft PAUSED (120254783710450427).** Pause 59 draft lain terputus (error 502 lalu panggilan ditolak). Draft tidak jalan sebelum di-publish, tapi spec-nya ACTIVE → jangan publish sebelum di-PAUSE.
 - Tertunda: pause 59 draft (tunggu konfirmasi user), publish manual di Ads Manager, template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-11 — "masuk akun irfan isi 3 iklan di 1 adset" (akun Irfan 1060984719243481, live)
+- Ad set kosong = 20 ad set wilayah (Jakarta, jawa barat, jawa tengah & jawa timur, Banten, Indonesia) di 4 campaign: Desember `120253330234750414`, 9 Hari Januari `120253330258830414`, 12 Hari Januari `120253330258820414`, Ramadhan `120253330258840414`.
+- 60 iklan BARU dibuat (3/ad set), langsung PAUSED (akun live; sebagian status review PENDING_REVIEW/IN_PROCESS). Terverifikasi 3 iklan per ad set.
+- Format sama dengan Hanif 10 Okt: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, Page 588336968031663 + IG, CTA WA, headline berselang-seling, deskripsi standar, teks sesuai paket.
+- Desember semua gambar (akun Irfan tidak punya video saudia di library): saudia 1–3, 4–6, 7–9, 10+1+2, 3–5 → saudia 1–5 terulang. 12 Hari Januari (5 gambar) & Ramadhan (11 gambar) juga ada gambar terulang antar ad set. 9 Hari Januari unik.
+- Tertunda: template WA (Desember/9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan) & matikan "Media terkait" (manual). Aktivasi menunggu perintah user.

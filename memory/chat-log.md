@@ -360,3 +360,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 15 draft BARU dibuat (3/ad set) lalu langsung di-PAUSE, semua `active_errors` kosong. Gambar saudia_9_hari: jakarta 1–3, jabar 4–6, jateng-timur 7–9, Indonesia 10+1+2, banten 3–5 (stok 10 gambar → saudia 1–5 terulang antar ad set).
 - Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks Desember (primary-texts), headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG. Nama iklan "Desember <wilayah> | saudia N".
 - Tertunda: publish manual (draft), template WA `9hari`, matikan "Media terkait".
+
+### 2026-10-12 — "masuk akun diana isi iklan untuk adset yang kosong" (akun Diana 1076195694707828, mode draft)
+- Ad set kosong ada 6: 5 ad set wilayah di campaign baru **Desember** `120252054758190294` (jakarta …758280294, Jawa barat …758180294, Jawa Tengah & Jawa Timur …763820294, Indonesia …763810294, Banten …758290294) + ad set **Ramadhan** `120252054785660294` di campaign "Diana" `120251832398630294`. Ad set lain sudah berisi iklan dan tidak disentuh (ad set Desember lama 3 buah ARCHIVED).
+- Dibuat 18 draft BARU (3/ad set), lalu semuanya di-PAUSE; `active_errors` kosong semua:
+  - Desember (teks Desember): jakarta saudia 1–3, Jawa barat 4–6, Jateng-Jatim 7–9, Indonesia 10+1+2, Banten 3–5 (stok cuma 10 gambar, jadi saudia 1–5 terulang antar ad set).
+  - Ramadhan (teks Ramadhan): Desain 3 #6, Desain 2 #1, Desain 2 #2.
+- Format: inline object_story_spec, `link_data.picture` dari Cloudinary q2xuhm0o, Page 588336968031663 + IG 17841405431328414, CTA WA, headline berselang-seling, deskripsi standar. Nama iklan "Desember <wilayah> | saudia N" / "Ramadhan | Desain X #N".
+- Tertunda: publish draft manual di Ads Manager, template WA (Desember → `9hari`, Ramadhan belum ditentukan), matikan "Media terkait".

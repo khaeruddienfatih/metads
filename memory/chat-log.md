@@ -368,3 +368,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Ramadhan (teks Ramadhan): Desain 3 #6, Desain 2 #1, Desain 2 #2.
 - Format: inline object_story_spec, `link_data.picture` dari Cloudinary q2xuhm0o, Page 588336968031663 + IG 17841405431328414, CTA WA, headline berselang-seling, deskripsi standar. Nama iklan "Desember <wilayah> | saudia N" / "Ramadhan | Desain X #N".
 - Tertunda: publish draft manual di Ads Manager, template WA (Desember → `9hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-17 — "masuk akun tira isi iklan di adset kosong" (akun Tira 868364731529534, live)
+- Ad set kosong ada 6, semuanya di 2 campaign baru **Bandung**: `120252670489510584` (9 hari januari …489530584, 12 hari januari …489540584, Ramadhan …489520584) dan `120252670451460584` (9 hari januari …451560584, 12 hari januari …451530584, Ramadhan …451520584). Ad set lain sudah berisi iklan, tidak disentuh.
+- Dibuat 18 iklan BARU (3/ad set), langsung PAUSED (akun live; status review IN_PROCESS/PENDING_REVIEW). Terverifikasi 3 iklan per ad set.
+  - Bandung …489510584: 9J Desain 7 #1–3, 12J Desain 2 (12 Hari) #1–3, Ramadhan Desain 2 #1–3.
+  - Bandung …451460584: 9J Desain 7 #4–5 + Desain 4 Musim Dingin #1, 12J Desain 2 #4–5 + 12_hari_januari_1, Ramadhan Desain 3 #1–3.
+- Materi baru di Cloudinary q2xuhm0o (diupload 15 & 17 Okt): `9 Hari Januari` → `1..5._Desain_7_Paket_Umroh_Januari_...` + `1..5._Desain_4_Paket_Umroh_Musim_Dingin_Premium_...2026`; `12 Hari Januari` → `1..5._Desain_2_Paket_Umroh_12_Hari_Januari_2027_...`.
+- Format: inline object_story_spec, `link_data.picture`, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Tertunda: template WA (9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

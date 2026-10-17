@@ -387,3 +387,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Ramadhan Diana: Desain 2 #4, Desain 2 #5, Desain 3 #4.
 - Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
 - Tertunda: publish draft manual, template WA (12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-17 — "sekarang masuk akun aini isi iklan di adset kosong" (akun AIni 814396810761205, mode draft)
+- Ad set kosong ada 6, di 2 campaign baru: **Indonesia** `120253795157220019` (9 hari januari …157200019, 12 hari januari …157210019, Ramadhan …157240019) dan **Depok** `120253795113850019` (9 hari januari …113960019, 12 hari januari …113970019, Ramadhan …113990019). Ad set lain sudah berisi, tidak disentuh.
+- Dibuat 18 draft BARU (3/ad set) lalu semuanya di-PAUSE, `active_errors` kosong:
+  - Indonesia: 9J Desain 7 #1–3, 12J Desain 2 (12 Hari) #1–3, Ramadhan Desain 2 #1–3.
+  - Depok: 9J Desain 7 #4–5 + Desain 4 Musim Dingin #1, 12J Desain 2 #4–5 + 12_hari_januari_1, Ramadhan Desain 3 #1–3.
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Tertunda: publish draft manual, template WA (9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

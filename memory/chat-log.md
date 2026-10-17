@@ -377,3 +377,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Materi baru di Cloudinary q2xuhm0o (diupload 15 & 17 Okt): `9 Hari Januari` → `1..5._Desain_7_Paket_Umroh_Januari_...` + `1..5._Desain_4_Paket_Umroh_Musim_Dingin_Premium_...2026`; `12 Hari Januari` → `1..5._Desain_2_Paket_Umroh_12_Hari_Januari_2027_...`.
 - Format: inline object_story_spec, `link_data.picture`, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
 - Tertunda: template WA (9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-17 — "masuk akun diana isi iklan di adset yang kosong" (akun Diana 1076195694707828, mode draft)
+- Ad set kosong ada 3: "12 hari januari" `120252144566080294` (campaign Diana new), "Ramadhan" `120252144450720294` (campaign Diana IG), "Ramadhan" `120252143936570294` (campaign Diana).
+- Catatan: sebagian ad set yang diisi 12 Okt sudah tidak ada lagi di akun (Desember jakarta/Jawa barat/Indonesia dan Ramadhan `…785660294`); Desember Banten & Jateng-Jatim masih ada (PAUSED). Kemungkinan dihapus user.
+- Dibuat 9 draft BARU (3/ad set) lalu semuanya di-PAUSE, `active_errors` kosong:
+  - 12 hari januari: Desain 2 (12 Hari) #1–3 (desain baru).
+  - Ramadhan Diana IG: Desain 3 #6, Desain 3 #1, Desain 2 #3.
+  - Ramadhan Diana: Desain 2 #4, Desain 2 #5, Desain 3 #4.
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Tertunda: publish draft manual, template WA (12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

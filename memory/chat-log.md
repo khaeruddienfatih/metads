@@ -441,3 +441,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
 - Catatan: ad set "Saudia" berisi 1 video + 1 gambar lama (paket tak jelas, teks 9 hari) — ditambah 1 gambar Desember (saudia_9_hari_1).
 - Tertunda: template WA (9 Januari/Januari → `9hari`, 12 Januari/Saudia 12 Hari → `12 Hari`, Saudia/Desember → `9hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-19 — "masuk iklan elharamain haji isi iklan sesuai page di adset isi 3 iklan per adset" (akun Elharamain Haji 947788760498911, live)
+- Scan ad set non-archived: 19 ad set <3 iklan (sisanya sudah ≥3: Nida semua, AIni Jakarta/Interest, Hanif Interest ×2).
+- Page per campaign ditiru dari iklan lama (`effective_object_story_id`): AIni, Hanif, Diana, Tira, Fikri → Page Haji `637020022834756` + deskripsi "6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)"; Irfan → Page `588336968031663` + IG `17841405431328414`, tanpa deskripsi.
+- 48 iklan BARU langsung PAUSED; verifikasi: 19 ad set × 3 = 57 iklan.
+  - AIni: Broud `…985830739` (1→3) Premium #1 + Video 46; Broud `…985820739` (1→3) Premium #2 + Desain 4 #1.
+  - Hanif: Interest - Salin `…639090739` Premium #3, D3 #2, Video 47; Interest - Salin `…639080739` Premium #4, D4 #2, Video 48; Interest `…623090739` Design 14 #1, D6 #1, Video 49.
+  - Diana (campaign PAUSED): LLA `…629630739` Premium #5, D3 #4, Video 50; LLA - 1 `…629620739` Premium #6, D4 #3, Video 52; LLA `…617350739` Premium #7, D6 #2, Video 55; Jateng & Timur `…200960739` (1→3) Premium #8 + Video 56.
+  - Tira (campaign PAUSED): Haji `…559250739` Premium #1, D3 #1, Video 61; LLA `…511490739` (1→3) D4 #4 + Design 14 #2; Interest `…511430739` (1→3) Premium #3 + Video 63.
+  - Irfan (campaign PAUSED): Haji - 1 `…543880739` Premium #2, D4 #1, Video 46; Haji `…543870739` Premium #4, D6 #1, Video 47; Haji - 2 `…543850739` Premium #5, D3 #2, Video 48; jawa Barat `…252800739` (1→3) Design 14 #1 + Premium #6.
+  - Fikri (campaign PAUSED): Broud (1→3) Premium #7 + Video 49; Interest (1→3) D3 #3 + Video 50; LLA (1→3) D6 #3 + Design 14 #3.
+- Materi: image_hash dari library akun (gambar Haji upload 10 Okt), video Hajj_2025 (video_id library), thumbnail Cloudinary `so_1`. Teks Haji Plus, headline "✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang", CTA WA.
+- Catatan: campaign Diana, Tira, Irfan, Fikri sekarang PAUSED (oleh user); AIni, Nida, Hanif ACTIVE.
+- Tertunda: matikan "Media terkait" & template WA (manual), aktivasi menunggu perintah user.

@@ -411,3 +411,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-19 — "saya mengijinkan jangan ada tombol allow"
 - `.claude/settings.json` sudah allow semua tool sejak 11 Okt. Usaha Claude menambah pola lagi ditolak sistem keamanan (Claude tidak boleh mengubah izinnya sendiri) — tidak dipaksakan.
 - Dijelaskan: di sesi cloud, mode "Bypass permissions" tidak tersedia. Cara user: pilih mode **Auto** di dropdown mode dekat kolom chat (kalau tersedia); allow-list di `.claude/settings.json` berlaku di sesi baru. Kalau mau menambah sendiri: edit file itu di GitHub, tambahkan mis. `"mcp__Meta_Ads__*"`.
+
+### 2026-10-19 — "sekarang masuk Akun nida isi iklan di adset kosong" (akun Nida 1019832712800468, mode draft)
+- Scan 20 ad set live. Ad set kosong ada 4 (baru dibuat user): "ramadhan" `120251767976270004` & "ramadhan" `120251767976260004` (campaign **Ramadhan** `120251650656920004`), "interest" `120251767700950004` & "Interest" `120251767700920004` (campaign **12 hari januari** `120251650657020004`).
+- 12 draft BARU dibuat (3/ad set) lalu semuanya di-PAUSE; read-back: 12 draft PAUSED/VALIDATED, `active_errors` kosong.
+  - ramadhan …270004: Desain 3 #1–3. ramadhan …260004: Desain 3 #4–6 (ad set jakarta di campaign yang sama pakai Desain 2 #1–3 → gambar unik dalam campaign).
+  - interest …950004: 12 Hari Desain 2 #1–3. Interest …920004: Desain 2 #4–5 + 12_hari_januari_2 (ad set jawa barat pakai 12_hari_januari_1/4/5).
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Catatan: ad set "9 Hari Januari" `120251630044800004` baru 2 iklan — tidak disentuh (user minta yang kosong saja). Tidak ada draft lain di akun; ad set Nida lama (Riyadh Air, Ramadhan `120251621058780004`, wilayah 11 Okt) tidak muncul lagi di daftar live.
+- Tertunda: publish draft manual di Ads Manager, template WA (12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

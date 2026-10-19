@@ -420,3 +420,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
 - Catatan: ad set "9 Hari Januari" `120251630044800004` baru 2 iklan — tidak disentuh (user minta yang kosong saja). Tidak ada draft lain di akun; ad set Nida lama (Riyadh Air, Ramadhan `120251621058780004`, wilayah 11 Okt) tidak muncul lagi di daftar live.
 - Tertunda: publish draft manual di Ads Manager, template WA (12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-19 — "masuk akun irfan isi iklan di adset maksimal 3 iklan" (akun Irfan 1060984719243481, live)
+- Ditafsirkan: isi ad set non-archived yang <3 iklan sampai jadi 3. Ada 9 ad set:
+  - Campaign **Irfan Indonesia** `120252989463000414`: 9 januari `…448429060414` (0), 12 januari `…448429070414` (0), ramadhan `…448429040414` (0), 9 januari `…463080414` (1 iklan "Saudia"), Umroh `…463100414` (1 iklan "Januari"), ramadhan `…463040414` (1 iklan "Saudia", ad set PAUSED).
+  - Campaign **Kota** `120253448467910414` (baru): 9 januari `…467880414`, 12 januari `…467920414`, ramadhan `…467970414` (semua 0).
+- Dibuat 24 iklan BARU langsung PAUSED (akun live; status review IN_PROCESS/PENDING_REVIEW). Terverifikasi: 9 ad set masing-masing 3 iklan.
+  - Irfan Indonesia: 9 januari (0→3) Desain 7 #1–3; 9 januari (1→3) Desain 7 #4–5; Umroh (1→3) Desain 4 Musim Dingin #1–2; 12 januari 12H Desain 2 #1–3; ramadhan (0→3) Ramadhan Desain 2 #1–3; ramadhan (1→3) Desain 2 #4–5.
+  - Kota: 9 januari Desain 4 Musim Dingin #3–5; 12 januari Desain 2 #4–5 + 12_hari_januari_1; ramadhan Desain 3 #1–3.
+- Ad set campaign 9 Hari Januari wilayah `120253330258830414` (4 ad set) sudah 3 iklan — tidak disentuh. Campaign Desember/12 Hari Januari/Ramadhan wilayah (11 Okt) sekarang ARCHIVED.
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Tertunda: template WA (9 Januari & Umroh → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

@@ -431,3 +431,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Ad set campaign 9 Hari Januari wilayah `120253330258830414` (4 ad set) sudah 3 iklan — tidak disentuh. Campaign Desember/12 Hari Januari/Ramadhan wilayah (11 Okt) sekarang ARCHIVED.
 - Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
 - Tertunda: template WA (9 Januari & Umroh → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-19 — "sekarang masuk akun fifi" (akun Fifi 521083143750270, live) — lanjutan pola "isi ad set sampai 3 iklan"
+- Scan ad set non-archived: 10 ad set <3 iklan (7 kosong + 3 berisi 1–2). Ad set lain (Ramadhan wilayah Banten/jabar/jakarta, Saudia Fifi Kota, Saudia 12 Hari Fifi Kota, Januari Fifi, Desember/9 Hari/12 Hari Fifi lama) sudah ≥3 — tidak disentuh.
+- Dibuat 25 iklan BARU langsung PAUSED (status review IN_PROCESS/PENDING_REVIEW). Terverifikasi: 10 ad set masing-masing 3 iklan.
+  - Campaign **Fifi Kota** `120252109488130365`: Januari `…488250365` (1→3) Desain 4 Musim Dingin #1–2; Ramadhan `…512262570365` (0→3) Ramadhan D2 #1–3.
+  - Campaign **Fifi** `120252109239850365`: Saudia 12 Hari `…306440365` (2→3, ad set kini ADSET_PAUSED) 12H Desain 2 #4; Saudia `…239810365` (2→3) saudia_9_hari_1 teks Desember; 9 Januari `…512253140365` Desain 7 #1–3; Ramadhan `…512253120365` D2 #4–5 + D3 #6; 12 Januari `…512253110365` 12H D2 #1–3.
+  - Campaign **Fifi** `120252201111990365`: ramadhan `…512245710365` D3 #1–3; 9 Januari `…512245690365` Desain 7 #4–5 + Desain 4 Musim Dingin #3; 12 Januari `…512245580365` 12H D2 #4–5 + 12_hari_januari_1.
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Catatan: ad set "Saudia" berisi 1 video + 1 gambar lama (paket tak jelas, teks 9 hari) — ditambah 1 gambar Desember (saudia_9_hari_1).
+- Tertunda: template WA (9 Januari/Januari → `9hari`, 12 Januari/Saudia 12 Hari → `12 Hari`, Saudia/Desember → `9hari`, Ramadhan belum ditentukan), matikan "Media terkait".

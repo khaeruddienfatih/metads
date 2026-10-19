@@ -395,3 +395,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Depok: 9J Desain 7 #4–5 + Desain 4 Musim Dingin #1, 12J Desain 2 #4–5 + 12_hari_januari_1, Ramadhan Desain 3 #1–3.
 - Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
 - Tertunda: publish draft manual, template WA (9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-19 — "masuk iklan fikri isi iklan di adset kosong dan isi iklan di adset yang iklanya kurang dari 3" (akun Fikri 1676215979752437, mode draft)
+- Ad set kosong ada 6 (dibuat user): 12 Hari Januari & Ramadhan di campaign **Fikri kota** `120249450711700470` (…697373270470 / …697373280470), **Fikri Prov** `120249450685560470` (…683330240470 / …683330250470), dan **Fikri** `120249450572870470` (…683321210470 / …683321220470).
+- Ad set dengan <3 iklan: campaign Ramadhan `120249566336610470` → "Ramadhan - 1" …690470 (2 iklan) dan "Ramadhan" …710470 (2 iklan). Masing-masing ditambah 1 iklan supaya jadi 3.
+- 20 draft BARU dibuat lalu semuanya di-PAUSE; hasil read-back draft: 20 draft PAUSED/VALIDATED.
+  - Ramadhan - 1: +Desain 2 #3. Ramadhan: +Desain 3 #3.
+  - Fikri kota: 12J Desain 2 (12 Hari) #1–3, Ramadhan D3 #5, #6, D2 #4.
+  - Fikri Prov: 12J Desain 2 #4, #5 + 12_hari_januari_2, Ramadhan D2 #1–3.
+  - Fikri: 12J 12_hari_januari_3–5, Ramadhan D3 #1–3.
+- Ad set lain (9 Hari Januari, Desember, Desember - Salin, Ramadhan - 2) sudah ≥3 iklan, tidak disentuh.
+- Format: inline object_story_spec, `link_data.picture` Cloudinary q2xuhm0o, teks sesuai paket, headline berselang-seling, deskripsi standar, CTA WA, Page 588336968031663 + IG.
+- Tertunda: publish draft manual, template WA (12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

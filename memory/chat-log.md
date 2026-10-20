@@ -455,3 +455,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Materi: image_hash dari library akun (gambar Haji upload 10 Okt), video Hajj_2025 (video_id library), thumbnail Cloudinary `so_1`. Teks Haji Plus, headline "✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang", CTA WA.
 - Catatan: campaign Diana, Tira, Irfan, Fikri sekarang PAUSED (oleh user); AIni, Nida, Hanif ACTIVE.
 - Tertunda: matikan "Media terkait" & template WA (manual), aktivasi menunggu perintah user.
+
+### 2026-10-20 — Tira: isi ad set yang kosong
+- Diminta: "Masuk akun tira isi adset yang kosong" (Tira 868364731529534, akun live).
+- Dikerjakan: 4 ad set kosong diisi 12 iklan BARU PAUSED (3/ad set). Page 588336968031663 + IG 17841405431328414, `link_data.picture` Cloudinary q2xuhm0o, headline berselang-seling, deskripsi standar, CTA WhatsApp, teks sesuai paket.
+  - Ramadhan banten `120252538070770584` (campaign Ramadhan `120252538070750584`): Ramadhan Desain 3 #5, #6, Desain 2 #1.
+  - Campaign Tira pusat `120251586630690584`:
+    - ramadhan `120252705645070584`: Ramadhan Desain 2 #2–4.
+    - 9 januari `120252705645000584`: Desain 7 #1–3.
+    - 12 januari `120252705644980584`: 12 Hari Desain 2 #1–3.
+- Hasil: diverifikasi 12 iklan status PAUSED (efektif PENDING_REVIEW/IN_PROCESS = sedang review Meta).
+- Tidak disentuh: ad set 9 Hari Januari wilayah (campaign `120252538070720584`: jawa barat …920584, jawa timur …850584, jakarta …740584) masing-masing baru 2 iklan (bukan kosong).
+- Tertunda (manual user): template WA (9 januari → `9hari`, 12 januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".

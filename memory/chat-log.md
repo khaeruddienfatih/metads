@@ -483,3 +483,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: cek status repo di GitHub (`khaeruddienfatih/metads`).
 - Hasil: `main` lokal sama persis dengan `origin/main` (commit terakhir `2f94c49` Fifi 20 Okt), tidak ada perubahan belum di-push/pull. Hanya ada branch `main` di remote. CLI `gh` tidak terpasang, jadi PR/issue tidak dicek.
 - Push sempat gagal (`could not read Username`, login GitHub di Keychain tidak terbaca). User login ulang di Terminal → push berhasil (`c6ec268`).
+
+### 2026-10-20 — Cek adcopy iklan
+- Diminta: cek adcopy iklan. Tool Meta Ads tidak tersambung di sesi ini → yang dicek hanya `memory/primary-texts.md` (6 paket), bukan iklan live.
+- Temuan: 9 Hari Januari tulis "6800 + ulasan" vs headline "6700+ Google Review"; 9 Hari Januari tidak ada "Pesawat Direct Flight by Saudia" & hashtag; "Tanggerang" (9HJ) vs "Tangerang"; typo "Ekslusif" (5 teks) + "Riyadh AIr"; format kecil (spasi sebelum koma/tanda tanya, "Atv", "jakarta", "Madinah-makkah").
+- Belum ada perubahan file — menunggu keputusan user.

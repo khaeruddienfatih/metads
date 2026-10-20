@@ -518,3 +518,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-20 — Cek folder Canva (9 Hari Januari, 12 Hari Januari, Haji, Ramadhan)
 - Keempat folder ditemukan di Canva; isi dicatat di `chat-memory.md` (30 / 10 / 25 / 11 gambar). Baru: Desain 8 Januari #1–4 (9 Hari Januari) dan Haji Desain 3/4/6/7.
 - Isi folder berupa gambar upload (bukan desain Canva). Upload ke Meta Ads menunggu sesi baru (tool Meta Ads belum muncul) + user tentukan akun/ad set.
+
+### 2026-10-20 — Buka folder metaads
+- User kirim gambar ikon folder lalu minta "masuk ke folder desktop folder metaads". Dibuka `~/Desktop/metaads`, memory (`chat-memory.md`, `chat-log.md`) dibaca. Belum ada tugas iklan baru — menunggu perintah user.

@@ -508,3 +508,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-20 — "MCP Elharamain itu apa"
 - Dicek: `mcp__Elharamain_id` & `mcp__Elharamainhaji` hanya ada di allowlist `.claude/settings.json` (ditambah 11 Okt, sesi web claude.ai/code, saat "allow all"). Tidak pernah dipakai di chat-log, tidak ada konfigurasinya di komputer ini → kemungkinan custom connector claude.ai milik user (nama mirip domain elharamain.id / Elharamain Haji). Fungsinya belum diketahui; **tidak dibutuhkan untuk kerja iklan** (cukup Meta Ads + Cloudinary).
+
+### 2026-10-20 — Cek email akun Canva
+- Canva MCP tersambung, tapi tool Canva tidak menampilkan email/nama akun (list-brand-kits hanya 1 brand kit `kAFFyAtUlxo`, tanpa nama). Email dicek manual oleh user di canva.com → Settings atau claude.ai → Connectors.

@@ -501,3 +501,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-20 — Cek akses MCP
 - `claude mcp list`: tersambung Claude Docs, Canva, Gmail, Google Drive, Google Calendar, Higgsfield, Wispr Flow. **Meta Ads, Cloudinary, Elharamain tidak muncul sama sekali** (padahal di-allow di `.claude/settings.json`) → connector claude.ai itu belum aktif/tersambung di sesi ini. Perlu user sambungkan ulang (claude.ai → Settings → Connectors / `/mcp`) lalu buka sesi baru.
 - Alternatif: script lokal `python -m metads` (token di `.env`).
+
+### 2026-10-20 — Cek MCP setelah disambungkan
+- `claude mcp list`: **Meta Ads (`mcp.facebook.com/ads`) ✔ Connected** di akun claude.ai. Cloudinary & Elharamain masih tidak terdaftar.
+- Tool Meta Ads belum muncul di sesi ini (sesi lama) → perlu buka sesi Claude Code baru.

@@ -514,3 +514,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-20 — Cara ambil gambar dari Canva
 - Dijelaskan: Canva MCP bisa cari desain (`search-designs`) lalu export PNG/JPG (`export-design`) → dapat link download sementara. Untuk iklan: link itu dipakai langsung ke Meta (`image_url`/`link_data.picture`, akun live) atau di-upload dulu ke Cloudinary supaya permanen. Belum dijalankan — menunggu user sebut nama desain.
+
+### 2026-10-20 — Cek folder Canva (9 Hari Januari, 12 Hari Januari, Haji, Ramadhan)
+- Keempat folder ditemukan di Canva; isi dicatat di `chat-memory.md` (30 / 10 / 25 / 11 gambar). Baru: Desain 8 Januari #1–4 (9 Hari Januari) dan Haji Desain 3/4/6/7.
+- Isi folder berupa gambar upload (bukan desain Canva). Upload ke Meta Ads menunggu sesi baru (tool Meta Ads belum muncul) + user tentukan akun/ad set.

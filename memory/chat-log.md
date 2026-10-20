@@ -467,3 +467,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Hasil: diverifikasi 12 iklan status PAUSED (efektif PENDING_REVIEW/IN_PROCESS = sedang review Meta).
 - Tidak disentuh: ad set 9 Hari Januari wilayah (campaign `120252538070720584`: jawa barat …920584, jawa timur …850584, jakarta …740584) masing-masing baru 2 iklan (bukan kosong).
 - Tertunda (manual user): template WA (9 januari → `9hari`, 12 januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait".
+
+### 2026-10-20 — Fifi: isi iklan di ad set kosong
+- Diminta: "Masuk akun fifi isi iklan di adset kosong" (Fifi 521083143750270, akun live).
+- Temuan: 3 ad set ACTIVE yang semua iklannya sudah ARCHIVED (kemungkinan diarsip user) → kosong.
+- Dikerjakan: 9 iklan BARU PAUSED (3/ad set), Page 588336968031663 + IG, `link_data.picture` Cloudinary q2xuhm0o, headline berselang-seling, deskripsi standar, CTA WhatsApp.
+  - jawa barat `120252429755530365` (campaign Ramadhan `120252429755430365`): Ramadhan Desain 3 #2–4, teks Ramadhan.
+  - Desember `120252201112050365` (campaign Fifi `120252201111990365`): saudia_9_hari_2, 3, 5, teks Desember.
+  - Saudia `120252109488240365` (campaign Fifi Kota `120252109488130365`): saudia_9_hari_6, 7, 10, teks Desember.
+- Hasil: diverifikasi 9 iklan status PAUSED.
+- Tidak disentuh (tidak kosong, 1–2 iklan): Saudia 12 Hari Fifi Kota `…488220365` (2), Januari Fifi `…327300365` (2), Saudia Fifi `…239810365` (1), jakarta Ramadhan `…755520365` (2), 9 Hari `…112110365` (2), 12 Hari `…112080365` (1). Iklan baru 19 Okt kini terbaca ACTIVE (diaktifkan user).
+- Tertunda (manual user): template WA (Desember/Saudia → `9hari`, Ramadhan belum ditentukan), matikan "Media terkait".

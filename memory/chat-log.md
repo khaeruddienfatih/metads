@@ -497,3 +497,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-20 — Semua paket pakai pesawat Saudia
 - User: semua paket pakai pesawat Saudia. Dicek: 5 adcopy (Desember, 9HJ, 12HJ, LAT, Ramadhan) sudah semua `By Saudia Airlines` + `✅Pesawat Direct Flight by Saudia` — tidak perlu ubah teks. Dicatat sebagai aturan di `chat-memory.md`.
+
+### 2026-10-20 — Cek akses MCP
+- `claude mcp list`: tersambung Claude Docs, Canva, Gmail, Google Drive, Google Calendar, Higgsfield, Wispr Flow. **Meta Ads, Cloudinary, Elharamain tidak muncul sama sekali** (padahal di-allow di `.claude/settings.json`) → connector claude.ai itu belum aktif/tersambung di sesi ini. Perlu user sambungkan ulang (claude.ai → Settings → Connectors / `/mcp`) lalu buka sesi baru.
+- Alternatif: script lokal `python -m metads` (token di `.env`).

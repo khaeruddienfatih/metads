@@ -505,3 +505,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-20 — Cek MCP setelah disambungkan
 - `claude mcp list`: **Meta Ads (`mcp.facebook.com/ads`) ✔ Connected** di akun claude.ai. Cloudinary & Elharamain masih tidak terdaftar.
 - Tool Meta Ads belum muncul di sesi ini (sesi lama) → perlu buka sesi Claude Code baru.
+
+### 2026-10-20 — "MCP Elharamain itu apa"
+- Dicek: `mcp__Elharamain_id` & `mcp__Elharamainhaji` hanya ada di allowlist `.claude/settings.json` (ditambah 11 Okt, sesi web claude.ai/code, saat "allow all"). Tidak pernah dipakai di chat-log, tidak ada konfigurasinya di komputer ini → kemungkinan custom connector claude.ai milik user (nama mirip domain elharamain.id / Elharamain Haji). Fungsinya belum diketahui; **tidak dibutuhkan untuk kerja iklan** (cukup Meta Ads + Cloudinary).

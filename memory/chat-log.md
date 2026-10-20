@@ -530,3 +530,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - 12 Januari `120252532813160365`: 12 Hari Desain 2 #1–3, teks 12 Hari Januari.
 - Format: inline object_story_spec, `image_hash` dari library akun (gambar yang sama dengan iklan 19 Okt), Page 588336968031663 + IG 17841405431328414, headline berselang-seling, deskripsi standar, CTA WhatsApp.
 - Tertunda (manual user): template WA (9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait", aktivasi.
+
+### 2026-10-20 — "hapus iklan yang sudah menghabiskan 35ribu dengan hasil 0 sepanjang iklan berjalan" (Fifi 521083143750270)
+- Scan iklan Fifi, periode maksimum, spend ≥ Rp35.000: 19 iklan; 3 dengan hasil (percakapan WA) 0. User pilih **hapus permanen** (bukan arsip).
+- DELETED (terverifikasi), semuanya campaign Fifi `120252109239850365`, iklan 19 Okt:
+  - 9 Hari Januari | Desain 7 #2 `120252512320370365` — Rp51.921 (ad set 9 Januari, sisa 2 iklan)
+  - Ramadhan Fifi | Desain 2 #5 `120252512320790365` — Rp45.612 (ad set Ramadhan, sisa 2)
+  - 12 Hari Januari | Desain 2 #2 `120252512321400365` — Rp39.080 (ad set 12 Januari, sisa 2)
+- Aturan baru: iklan spend ≥Rp35rb & hasil 0 (lifetime) → hapus.

@@ -511,3 +511,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-20 — Cek email akun Canva
 - Canva MCP tersambung, tapi tool Canva tidak menampilkan email/nama akun (list-brand-kits hanya 1 brand kit `kAFFyAtUlxo`, tanpa nama). Email dicek manual oleh user di canva.com → Settings atau claude.ai → Connectors.
+
+### 2026-10-20 — Cara ambil gambar dari Canva
+- Dijelaskan: Canva MCP bisa cari desain (`search-designs`) lalu export PNG/JPG (`export-design`) → dapat link download sementara. Untuk iklan: link itu dipakai langsung ke Meta (`image_url`/`link_data.picture`, akun live) atau di-upload dulu ke Cloudinary supaya permanen. Belum dijalankan — menunggu user sebut nama desain.

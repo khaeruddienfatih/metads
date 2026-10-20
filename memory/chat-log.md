@@ -538,3 +538,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Ramadhan Fifi | Desain 2 #5 `120252512320790365` — Rp45.612 (ad set Ramadhan, sisa 2)
   - 12 Hari Januari | Desain 2 #2 `120252512321400365` — Rp39.080 (ad set 12 Januari, sisa 2)
 - Aturan baru: iklan spend ≥Rp35rb & hasil 0 (lifetime) → hapus.
+
+### 2026-10-20 — "cek di semua akun iklan" (lanjutan aturan spend ≥Rp35rb & hasil 0 → hapus)
+- Scan 9 akun kerja (Diana, Tira, Nida, Hanif, Allif, Fikri 1676215979752437, Elharamain Haji, AIni, Irfan), periode maksimum. Bersih: Diana, Tira, Hanif, Fikri, AIni.
+- 10 iklan ketemu, user setuju hapus permanen. 9 terverifikasi DELETED:
+  - Allif: Ramadhan jawa timur | Desain 2 #1 `120252243615350228` (Rp48.413, tadinya ACTIVE)
+  - Elharamain Haji: Nida Indonesia Video Hajj_2025-60 `120250782806970739` (Rp52.138); Diana LLA-1 Desain 4 #3 `120250897702210739` (Rp49.547, tadinya ACTIVE); Fikri LLA Design 14 #3 `120250897755620739` (Rp49.428); AIni Interest 3 `120250512376560739` (Rp42.301); Diana LLA B Desain 6 #2 `120250897726090739` (Rp38.816); Hanif Interest Salin A Video 47 `120250897666860739` (Rp37.755)
+  - Irfan: 9 Hari Januari Banten Desain 3 #2 `120253330348550414` (Rp64.940); 9 Hari Januari | Desain 7 #5 `120253448504290414` (Rp39.035, tadinya ACTIVE)
+- **Tertunda — Nida (akun mode draft):** 12 Hari Januari jawa barat - 12_hari_januari_4 `120251731135440004` (Rp46.981): hapus hanya masuk draft, live masih ACTIVE (ad set PAUSED, tidak tayang). User perlu publish draft / hapus manual di Ads Manager.
+- Belum di-scan: akun lain di daftar (Elharamain Jakarta, Depok, Bekasi, Haji 2/3/4, HAJI, Elharamainhaji, dll.) — tidak pernah dikerjakan di memory.

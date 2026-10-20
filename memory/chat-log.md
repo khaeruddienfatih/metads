@@ -494,3 +494,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dikerjakan di `primary-texts.md`: bagian Riyadh Air/November dihapus; `Ekslusif`→`Eksklusif`, `Tanggerang`→`Tangerang`, `ustadz -ustadz`→`ustadz-ustadz`, `Atv`→`ATV`, `Madinah-makkah`→`Madinah-Makkah`, `Kantor jakarta`→`Kantor Jakarta`, spasi sebelum koma/tanda tanya dihapus. 9 Hari Januari: ulasan disamakan dgn headline `6700+ ulasan di Google Review`, ditambah `✅Pesawat Direct Flight by Saudia` + hashtag.
 - `chat-memory.md`: aturan baru "paket Riyadh Air sudah tidak ada".
 - Tertunda: iklan live di Meta masih pakai teks lama (tool Meta Ads tidak tersambung di sesi ini).
+
+### 2026-10-20 — Semua paket pakai pesawat Saudia
+- User: semua paket pakai pesawat Saudia. Dicek: 5 adcopy (Desember, 9HJ, 12HJ, LAT, Ramadhan) sudah semua `By Saudia Airlines` + `✅Pesawat Direct Flight by Saudia` — tidak perlu ubah teks. Dicatat sebagai aturan di `chat-memory.md`.

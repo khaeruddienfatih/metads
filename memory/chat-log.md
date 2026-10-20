@@ -488,3 +488,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: cek adcopy iklan. Tool Meta Ads tidak tersambung di sesi ini → yang dicek hanya `memory/primary-texts.md` (6 paket), bukan iklan live.
 - Temuan: 9 Hari Januari tulis "6800 + ulasan" vs headline "6700+ Google Review"; 9 Hari Januari tidak ada "Pesawat Direct Flight by Saudia" & hashtag; "Tanggerang" (9HJ) vs "Tangerang"; typo "Ekslusif" (5 teks) + "Riyadh AIr"; format kecil (spasi sebelum koma/tanda tanya, "Atv", "jakarta", "Madinah-makkah").
 - Belum ada perubahan file — menunggu keputusan user.
+
+### 2026-10-20 — Hapus adcopy Riyadh Air & perbaiki typo
+- Diminta: paket Riyadh Air sudah tidak ada → hapus; perbaiki kesalahan adcopy.
+- Dikerjakan di `primary-texts.md`: bagian Riyadh Air/November dihapus; `Ekslusif`→`Eksklusif`, `Tanggerang`→`Tangerang`, `ustadz -ustadz`→`ustadz-ustadz`, `Atv`→`ATV`, `Madinah-makkah`→`Madinah-Makkah`, `Kantor jakarta`→`Kantor Jakarta`, spasi sebelum koma/tanda tanya dihapus. 9 Hari Januari: ulasan disamakan dgn headline `6700+ ulasan di Google Review`, ditambah `✅Pesawat Direct Flight by Saudia` + hashtag.
+- `chat-memory.md`: aturan baru "paket Riyadh Air sudah tidak ada".
+- Tertunda: iklan live di Meta masih pakai teks lama (tool Meta Ads tidak tersambung di sesi ini).

@@ -5,6 +5,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 ## Aturan tetap dari user
 
+- **Paket Riyadh Air / November sudah tidak ada (20 Okt).** Teksnya dihapus dari `primary-texts.md`; jangan buat iklan Riyadh Air lagi.
 - **Git: hanya pakai branch `main`.** Jangan buat branch baru (11 Okt) — commit & push langsung ke `main`.
 - **Iklan harus PAUSE.** Jangan aktifkan/publish tanpa perintah eksplisit.
 - **Model: selalu pakai Sonnet** (`claude-sonnet-5-5`), jangan Opus. Kirim `client_model` `claude-sonnet-5-5` di panggilan Meta Ads.

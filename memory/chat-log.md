@@ -521,3 +521,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-20 — Buka folder metaads
 - User kirim gambar ikon folder lalu minta "masuk ke folder desktop folder metaads". Dibuka `~/Desktop/metaads`, memory (`chat-memory.md`, `chat-log.md`) dibaca. Belum ada tugas iklan baru — menunggu perintah user.
+
+### 2026-10-20 — "cuma masuk akun fifi buat 3 iklan di adset yang kosong" (Fifi 521083143750270, live)
+- Scan: ad set kosong hanya 3, semuanya di campaign baru **Fifi - Salin** `120252532813180365` (ad set PAUSED). Ad set lain sudah ≥1 iklan — tidak disentuh.
+- Dibuat 9 iklan BARU PAUSED (3/ad set), terverifikasi status PAUSED (review IN_PROCESS/PENDING_REVIEW):
+  - 9 Januari `120252532813270365`: Desain 7 #1–3, teks 9 Hari Januari.
+  - Ramadhan `120252532813170365`: Ramadhan Desain 2 #1–3, teks Ramadhan.
+  - 12 Januari `120252532813160365`: 12 Hari Desain 2 #1–3, teks 12 Hari Januari.
+- Format: inline object_story_spec, `image_hash` dari library akun (gambar yang sama dengan iklan 19 Okt), Page 588336968031663 + IG 17841405431328414, headline berselang-seling, deskripsi standar, CTA WhatsApp.
+- Tertunda (manual user): template WA (9 Januari → `9hari`, 12 Januari → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait", aktivasi.

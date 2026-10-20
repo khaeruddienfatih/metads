@@ -11,7 +11,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Iklan harus PAUSE.** Jangan aktifkan/publish tanpa perintah eksplisit.
 - **Model: selalu pakai Sonnet** (`claude-sonnet-5-5`), jangan Opus. Kirim `client_model` `claude-sonnet-5-5` di panggilan Meta Ads.
 - **Maksimal 5 iklan per ad set.**
-- **Iklan boros (20 Okt):** iklan yang total spend ≥ Rp35.000 dengan hasil 0 sepanjang tayang → dihapus (DELETED, user pilih hapus permanen). Sudah dijalankan di Fifi (3 iklan).
+- **Iklan boros (20 Okt):** iklan yang total spend ≥ Rp35.000 dengan hasil 0 sepanjang tayang → dihapus (DELETED, user pilih hapus permanen). Sudah dijalankan di Fifi (3 iklan), 9 akun kerja, dan akun haji (20 Okt). Akun mode draft: stage DELETED lalu publish hanya iklan itu.
 - **Gambar unik antar ad set** dalam satu campaign — jangan duplikasi iklan/gambar yang sama persis (user menghapus yang kembar). Default isi ad set kosong: 3 iklan, gambar berbeda-beda.
 - **CTA WhatsApp** (`WHATSAPP_MESSAGE`), link `https://api.whatsapp.com/send`.
 - **Page** `588336968031663` (Elharamain wisata), **IG user** `17841405431328414`.

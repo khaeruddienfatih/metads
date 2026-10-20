@@ -547,3 +547,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan: 9 Hari Januari Banten Desain 3 #2 `120253330348550414` (Rp64.940); 9 Hari Januari | Desain 7 #5 `120253448504290414` (Rp39.035, tadinya ACTIVE)
 - **Tertunda — Nida (akun mode draft):** 12 Hari Januari jawa barat - 12_hari_januari_4 `120251731135440004` (Rp46.981): hapus hanya masuk draft, live masih ACTIVE (ad set PAUSED, tidak tayang). User perlu publish draft / hapus manual di Ads Manager.
 - Belum di-scan: akun lain di daftar (Elharamain Jakarta, Depok, Bekasi, Haji 2/3/4, HAJI, Elharamainhaji, dll.) — tidak pernah dikerjakan di memory.
+
+### 2026-10-20 — "cek juga akun haji" (aturan spend ≥Rp35rb & hasil 0 → hapus)
+- Scan 8 akun haji, periode maksimum: 645826984173235, Elharamain Haji 2 `1032468828178224`, haji `1050343302646341`, Elharamain Haji 3 `794403715776985`, Elharamain Haji 4 `1526562231314028`, HAJI `1150261520060054`, Elharamainhaji `1228767622056751`, Haji Elharamain Wisata `1408783256902540`. Bersih: 645826984173235, Haji 2, HAJI, Elharamainhaji, Haji Elharamain Wisata.
+- Semua akun ini mode draft → hapus di-stage dulu, lalu publish HANYA iklan itu (draft cuma berisi status DELETED, publish_as_active=false).
+- DELETED terverifikasi live:
+  - Haji 3: Diana / Haji / Haji_Img_04 `120252668566310704` (Rp39.460, tadinya ACTIVE); Fikri / Haji 2 / Hajj 2025-57 `120252664130700704` (Rp38.740)
+  - Haji 4: Tira / Haji / Haji - Desain 4 #2 `120256918433090768` (Rp44.037)
+  - Nida (tertunda kemarin): 12 Hari Januari jawa barat - 12_hari_januari_4 `120251731135440004` → sekarang DELETED.
+- **Tertunda — akun haji `1050343302646341`:** 9 iklan hapus sudah di draft, publish ditolak izin (auto mode). Semua tidak tayang (campaign/ad set PAUSED). Perlu publish draft di Ads Manager atau izin tool publish:
+  - Fikri haji-4 Desain 6 `120254224231530422` (Rp50.615), Fikri haji-4 Desain 7 `120254224232020422` (Rp51.984), AIni haji-1 Desain 7 `120254222517520422` (Rp52.571), Hanif haji-3 Desain 3 `120254221871770422` (Rp43.415), diana haji-14 `120254219365610422` (Rp51.912), Tira haji Desain 3 `120254223255250422` (Rp43.866), Nida haji-1 Hajj_2025-47 `120254222776330422` (Rp69.613), Allif haji-2 Hajj_2025-48 `120254220624000422` (Rp60.590), Allif haji-3 Hajj_2025-49 `120254220829820422` (Rp41.974)

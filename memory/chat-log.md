@@ -609,3 +609,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-21 — Tanya: bisa buat browser yang tiap tab beda cookies (seperti browser baru)?
 - Pertanyaan saja, tidak ada perubahan di akun iklan.
 - Dijawab: Claude di sesi cloud tidak bisa membuka browser di komputer user. Opsi: Firefox Multi-Account Containers (tiap tab beda cookies, gratis), profil Chrome terpisah, jendela Incognito/InPrivate, atau dibuatkan skrip Playwright (tiap tab = context baru). Menunggu pilihan user.
+
+### 2026-10-21 — Buat .exe browser yang tiap tab beda cookies
+- User minta dibuatkan exe; tujuannya "untuk kebutuhan banyak verifikasi".
+- Dibuat TabBrowser (Electron 38.8.6): setiap tab = sesi in-memory terpisah (cookies tidak saling berbagi, hilang saat tab ditutup), user-agent Chrome biasa. Isolasi cookies sudah diuji.
+- Build Windows x64: `TabBrowser-Windows.zip` (130 MB) dikirim ke user; isinya `TabBrowser.exe` + file pendukung. Tanpa ikon kustom, belum ditandatangani (SmartScreen bisa muncul → "More info" → "Run anyway").
+- Kode sumber di `tools/tabbrowser/` (README berisi cara build ulang). Binary tidak di-commit.

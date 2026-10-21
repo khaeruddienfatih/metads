@@ -1,0 +1,11 @@
+{
+  "name": "tab-browser",
+  "productName": "TabBrowser",
+  "version": "1.0.0",
+  "description": "Browser: setiap tab punya cookies sendiri",
+  "main": "main.js",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^38.8.6"
+  }
+}

@@ -615,3 +615,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat TabBrowser (Electron 38.8.6): setiap tab = sesi in-memory terpisah (cookies tidak saling berbagi, hilang saat tab ditutup), user-agent Chrome biasa. Isolasi cookies sudah diuji.
 - Build Windows x64: `TabBrowser-Windows.zip` (130 MB) dikirim ke user; isinya `TabBrowser.exe` + file pendukung. Tanpa ikon kustom, belum ditandatangani (SmartScreen bisa muncul → "More info" → "Run anyway").
 - Kode sumber di `tools/tabbrowser/` (README berisi cara build ulang). Binary tidak di-commit.
+
+### 2026-10-21 — TabBrowser zip rusak saat diunduh (terpotong 32 MB) → kirim ulang 5 bagian
+- Zip 130 MB terpotong di komputer user (WinRAR: archive corrupt, file 32 MB). Kemungkinan ada batas ukuran per file unduhan.
+- Dibuat ulang: locale dikurangi (hanya en-US & id), dikemas 7z multi-volume `TabBrowser-Windows.7z.001`–`.005` (masing-masing ≤19 MB, total ±80 MB), sudah dites ekstrak OK lalu dikirim.
+- Cara pakai: unduh kelimanya ke satu folder (mis. Downloads), klik kanan `.7z.001` → WinRAR "Extract Here", buka `TabBrowser-win32-x64\TabBrowser.exe`.
+- Claude tidak bisa menyimpan langsung ke folder Download user; lokasi simpan dipilih saat mengunduh.

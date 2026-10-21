@@ -13,6 +13,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Maksimal 5 iklan per ad set.**
 - **Iklan boros (20 Okt):** iklan yang total spend ≥ Rp35.000 dengan hasil 0 sepanjang tayang → dihapus (DELETED, user pilih hapus permanen). Sudah dijalankan di Fifi (3 iklan), 9 akun kerja, dan akun haji (20 Okt). Akun mode draft: stage DELETED lalu publish hanya iklan itu.
 - **Pakai ulang iklan bagus (21 Okt):** bisa pakai post iklan lain via `object_story_id` (`ads_get_creatives` → `effective_object_story_id`) + `instagram_user_id`, juga lintas akun asal Page sama (588336968031663). Hanya kalau teks post sudah sesuai aturan (By Saudia + Direct Flight); kalau belum, buat iklan baru dengan gambar pemenang + teks terbaru.
+- **Iklan mahal (21 Okt):** biaya per chat WA > Rp50rb sepanjang tayang → hapus, KECUALI yang sudah ≥5 chat (pilihan user).
 - **Gambar unik antar ad set** dalam satu campaign — jangan duplikasi iklan/gambar yang sama persis (user menghapus yang kembar). Default isi ad set kosong: 3 iklan, gambar berbeda-beda.
 - **CTA WhatsApp** (`WHATSAPP_MESSAGE`), link `https://api.whatsapp.com/send`.
 - **Page** `588336968031663` (Elharamain wisata), **IG user** `17841405431328414`.

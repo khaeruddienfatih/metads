@@ -581,3 +581,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fikri Prov / 9 Hari Januari `…721533920470` (tadinya kosong): januari_5 (`120249728456980470`), Desain 3 #3 (`120249728457550470`), januari_2 `096a2ce2…` (`120249728457730470`)
   - Fikri Prov / 9 hari Januari `…685390470`: januari_1 `1c575314…` (`120249728458620470`), januari_6 `229ce12a…` (`120249728459060470`)
 - Postingan Diana (12_hari_januari_4, Ramadhan D3#5) tidak dipakai karena Page lain (`375988732273375`).
+
+### 2026-10-21 — "hapus iklan yang biaya hasil pesan di atas 50ribu"
+- Scan 17 akun (9 kerja + 8 haji), periode maksimum, biaya per chat WA (messaging_conversation_started). Filter `cost_per_result` di tool tidak jalan → disaring manual. 25 iklan > Rp50rb.
+- User pilih **hapus kecuali yang ≥5 chat**. Disimpan 5: Fifi "Saudia 12 Hari" `120252109306430365` (24 chat, Rp50.050), Allif "Ramadhan jawa timur | Desain 3 #5" `120252243611280228` (9, Rp50.130), Hanif "Ramadhan Jateng Jatim - Desain 3 #3" `120254793259110427` (5, Rp51.984), Hanif "12 Hari Januari Indonesia - 12_hari_januari_4" `120254783786660427` (5, Rp57.014), Haji 4 Nida "haji" `120256622022900768` (5, Rp52.149).
+- 20 iklan DELETED, terverifikasi (akun draft: stage DELETED → publish hanya iklan itu):
+  - Tira: januari gambar - Salin 3 `120252517857200584` (Rp55.828)
+  - Allif: 9 Hari Januari jakarta | januari 1 `120252268692190228` (Rp86.720)
+  - Irfan: Ramadhan | Desain 2 #1 `120253448526970414` (Rp56.728); 9 Hari Januari Kota | Desain 4 Musim Dingin #5 `120253448507060414` (Rp70.249)
+  - Fifi: 9 Hari Januari | Desain 7 #3 `120252512320520365` (Rp58.409); 12 Hari | 12_hari_januari_2.mp4 `120252201112120365` (Rp50.147)
+  - haji `1050343302646341`: haji - 7 `…219373250422`, Fikri Desain 3 `…223894280422`, AIni Desain 3 `…222513250422`, AIni haji-4 Desain 7 `…222673370422`, haji - 3 `…219592260422`, Tira Hajj_2025-49 `…223630120422`, Fikri Hajj_2025-49 `…224161390422`, Hanif Hajj_2025-47 `…221690260422` (Rp51–89rb, 1–2 chat)
+  - Haji 3: Aini Haji_Img_18 `120252664146130704` (Rp80rb), Aini "Haji 1" `120252557031710704` (4 chat, Rp50,8rb), Fikri Hajj 2025-54 `120252664087750704` (Rp71,7rb)
+  - Haji 4: Tira Haji - Desain 3 #1 `120256918437280768` (Rp68rb), Haji - Desain 4 #3 `120256918433790768` (Rp116rb)
+  - Haji Elharamain Wisata: Haji Fifi "Hajj" `120231693671420327` (Rp86,7rb)
+- Tidak disentuh: Diana "Ramadhan IG | Desain 3 #1" (Rp63rb, sudah ARCHIVED); Elharamainhaji 2 iklan (hasil = pixel "Click to Chat", bukan chat WA; campaign PAUSED); Haji 4 & Haji Elharamain Wisata iklan hasil add-to-cart.

@@ -625,3 +625,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-21 — TabBrowser: 5 bagian 7z tetap gagal, user minta "langsung simpan di Download"
 - Claude tidak punya akses ke komputer user, jadi tidak bisa menyimpan langsung ke folder Download.
 - Rencana: taruh 1 file `TabBrowser-Windows.7z` (±80 MB) di GitHub supaya user mengunduh lewat browser. Push ke branch sesi ditolak izin otomatis → menunggu izin/pilihan user.
+
+### 2026-10-21 — Upload TabBrowser ke GitHub (izin user "boleh")
+- `download/TabBrowser-Windows.7z` (79,8 MB, sudah dites "Everything is Ok") di-push ke branch `claude/great-cerf-6vtjky` (bukan main, agar repo main tetap ringan).
+- Link unduh: https://github.com/khaeruddienfatih/metads/blob/claude/great-cerf-6vtjky/download/TabBrowser-Windows.7z → tombol Download (perlu login GitHub, repo privat).

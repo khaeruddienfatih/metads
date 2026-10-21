@@ -566,3 +566,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni: Ramadhan Depok | Desain 3 #1 `120253795266540019` (Rp35.286, draft → publish khusus iklan itu)
   - Irfan: Ramadhan Kota | Desain 3 #1 `120253448528900414` (Rp37.939, langsung live)
 - Akun lain bersih. Elharamain Haji 2 (230 iklan) dicek lewat file hasil, bersih.
+
+### 2026-10-21 — "coba kamu masuk ke akun fikri dan isi adset yang iklanya kurang dari 3 kamu cari iklan yang bagus dan isi dengan itu" (Fikri 1676215979752437, mode draft)
+- 11 ad set <3 iklan → diisi 15 draft, semua status PAUSED, VALIDATED tanpa error. Belum di-publish (menunggu user).
+- "Iklan bagus" = hasil terbanyak & biaya/hasil rendah sepanjang tayang di semua akun kerja. Gambar tetap unik per campaign.
+- **Pakai ulang postingan pemenang** (`object_story_id` + IG 17841405431328414; like/komen ikut terkumpul), hanya yang teksnya sudah sesuai aturan 20 Okt (By Saudia + Direct Flight):
+  - Fikri / Ramadhan `…321220470` ← post AIni Ramadhan D3#6 `588336968031663_1961172848429386` (9 hasil, ~Rp28rb/hasil) → ad `120249728442720470`
+  - Fikri / 12 Hari Januari `…321210470` ← post Hanif 12_hari_januari_1 `…_1945339156679422` (67 hasil, ~Rp36rb) → `120249728448710470`
+  - Fikri Prov / Ramadhan `…330250470` ← post Tira Ramadhan D3#3 `…_1960908921789112` (9 hasil) → `120249728449080470`
+  - Fikri Prov / 12 Hari Januari `…330240470` (ad set PAUSED) ← post Hanif 12_hari_januari_1 → `120249728449400470`; post Hanif 12_hari_januari_5 `…_1961903538356317` (19 hasil) → `120249728449640470`
+  - Ramadhan / Ramadhan `…336710470` ← post AIni D3#6 → `120249728449800470`; Ramadhan - 2 ← post Tira D3#3 → `120249728450530470`; Ramadhan - 1 ← post Tira D3#1 `…_1960909005122437` → `120249728451130470`
+- **9 Hari Januari**: semua postingan pemenang belum ada "Direct Flight" → dibuat iklan BARU dengan gambar pemenang + teks 9 Hari terbaru, headline berselang-seling:
+  - Fikri kota / 9 Hari Januari `…711830470`: januari_5 `ed3b6b39…` (`120249728452050470`), Desain 3 #3 `0c17164e…` (`120249728456550470`)
+  - Fikri Prov / 9 Hari Januari `…721533920470` (tadinya kosong): januari_5 (`120249728456980470`), Desain 3 #3 (`120249728457550470`), januari_2 `096a2ce2…` (`120249728457730470`)
+  - Fikri Prov / 9 hari Januari `…685390470`: januari_1 `1c575314…` (`120249728458620470`), januari_6 `229ce12a…` (`120249728459060470`)
+- Postingan Diana (12_hari_januari_4, Ramadhan D3#5) tidak dipakai karena Page lain (`375988732273375`).

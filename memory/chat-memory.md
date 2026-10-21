@@ -19,6 +19,18 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Gambar unik antar ad set** dalam satu campaign — jangan duplikasi iklan/gambar yang sama persis (user menghapus yang kembar). Default isi ad set kosong: 3 iklan, gambar berbeda-beda.
 - **CTA WhatsApp** (`WHATSAPP_MESSAGE`), link `https://api.whatsapp.com/send`.
 - **Page** `588336968031663` (Elharamain wisata), **IG user** `17841405431328414`.
+- **Nomor WhatsApp iklan per akun (22 Okt)** — iklan tiap akun memakai nomor sesuai nama akun, Page utama Elharamain wisata `588336968031663`:
+  | Akun | No. WA |
+  |---|---|
+  | Fifi | 0812-8729-2422 |
+  | AIni | 0851-7998-8198 |
+  | Diana | 0856-9388-3208 |
+  | Nida | 0812-1417-8056 |
+  | Tira | 0813-2212-344 (memang 11 digit, dikonfirmasi user) |
+  | Hanif | 0822-6012-6394 |
+  | Fikri | 0858-4337-2026 |
+  | Irfan | 0851-9938-1590 |
+  | Alif / Allif | 0851-2631-4084 |
 - **Headline** berselang-seling:
   - `6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`
   - `✈️ Tiket Sudah Confirm, Jadwal Pasti`

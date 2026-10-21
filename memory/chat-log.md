@@ -665,3 +665,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Percobaan pertama error "IG Explore Placement Is Deprecated" → `explore` dihapus, sukses tanpa error.
 - Hasil: tersimpan sebagai **DRAFT** (is_draft=true), ad set live tetap ACTIVE dengan penempatan lama. **Belum di-publish — menunggu perintah user.**
 - Aturan penempatan disimpan di `chat-memory.md` + `target-kota.md`.
+
+### 2026-10-22 — Simpan nomor WhatsApp iklan per akun
+- User kirim nomor WA per akun (Fifi, AIni, Diana, Nida, Tira, Hanif, Fikri, Irfan, Alif) = nomor untuk iklan sesuai nama akun, Page utama Elharamain wisata.
+- Konfirmasi user: Tira memang 11 digit; Fikri ditambah 0 di depan (0858-4337-2026). User minta simpan di main.
+- Disimpan di `chat-memory.md` (Aturan tetap). Tidak ada perubahan di akun iklan. Draft penempatan Sales AIni masih menunggu publish.

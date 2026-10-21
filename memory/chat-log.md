@@ -629,3 +629,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-21 — Upload TabBrowser ke GitHub (izin user "boleh")
 - `download/TabBrowser-Windows.7z` (79,8 MB, sudah dites "Everything is Ok") di-push ke branch `claude/great-cerf-6vtjky` (bukan main, agar repo main tetap ringan).
 - Link unduh: https://github.com/khaeruddienfatih/metads/blob/claude/great-cerf-6vtjky/download/TabBrowser-Windows.7z → tombol Download (perlu login GitHub, repo privat).
+
+### 2026-10-22 — "coba masuk akun AIni"
+- Tool Meta Ads masih belum muncul di sesi ini (sesi lama; connector sudah tersambung di claude.ai). Alternatif script lokal juga tidak bisa: `.env` belum diisi (`META_ACCESS_TOKEN` kosong, akun masih contoh `act_1234567890`).
+- Belum ada yang dibaca/diubah di AIni (`814396810761205`). Perlu buka sesi Claude Code baru.

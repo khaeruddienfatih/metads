@@ -557,3 +557,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Nida (tertunda kemarin): 12 Hari Januari jawa barat - 12_hari_januari_4 `120251731135440004` → sekarang DELETED.
 - **Tertunda — akun haji `1050343302646341`:** 9 iklan hapus sudah di draft, publish ditolak izin (auto mode). Semua tidak tayang (campaign/ad set PAUSED). Perlu publish draft di Ads Manager atau izin tool publish:
   - Fikri haji-4 Desain 6 `120254224231530422` (Rp50.615), Fikri haji-4 Desain 7 `120254224232020422` (Rp51.984), AIni haji-1 Desain 7 `120254222517520422` (Rp52.571), Hanif haji-3 Desain 3 `120254221871770422` (Rp43.415), diana haji-14 `120254219365610422` (Rp51.912), Tira haji Desain 3 `120254223255250422` (Rp43.866), Nida haji-1 Hajj_2025-47 `120254222776330422` (Rp69.613), Allif haji-2 Hajj_2025-48 `120254220624000422` (Rp60.590), Allif haji-3 Hajj_2025-49 `120254220829820422` (Rp41.974)
+
+### 2026-10-21 — "coba cek lagi hari ini" (aturan spend ≥Rp35rb & hasil 0 → hapus)
+- Akun haji `1050343302646341`: 9 iklan yang kemarin tertahan di draft → publish khusus iklan itu (draft hanya status DELETED, publish_as_active=false). Ke-9 terverifikasi DELETED.
+- Scan ulang 17 akun (9 akun kerja + 8 akun haji), periode maksimum. Catatan: filter spend di tool tidak benar-benar menyaring, jadi disaring manual (spend ≥35.000 & hasil kosong).
+- 3 iklan baru kena aturan, semuanya tadinya ACTIVE, terverifikasi DELETED:
+  - Fikri `1676215979752437`: 12 Hari Januari Fikri | 12 hari 4 `120249697395840470` (Rp36.549, draft → publish khusus iklan itu)
+  - AIni: Ramadhan Depok | Desain 3 #1 `120253795266540019` (Rp35.286, draft → publish khusus iklan itu)
+  - Irfan: Ramadhan Kota | Desain 3 #1 `120253448528900414` (Rp37.939, langsung live)
+- Akun lain bersih. Elharamain Haji 2 (230 iklan) dicek lewat file hasil, bersih.

@@ -658,3 +658,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat `memory/target-kota.md` (25 kota + key, 5 subcity Jakarta, JSON `geo_locations` siap pakai).
 - Aturan baru di `chat-memory.md` + rujukan di `CLAUDE.md`: setiap iklan baru → lokasi ad set disamakan dengan daftar ini; ad set bernama wilayah tertentu ditanyakan dulu; publish draft hanya atas perintah user.
 - Tidak ada perubahan di akun iklan.
+
+### 2026-10-22 — Penempatan ad set Sales AIni: semua Instagram + FB Story + WhatsApp + Threads (jadi default)
+- User pilih: semua Instagram, Facebook Story, WhatsApp Status, Threads; dijadikan aturan default setiap iklan baru.
+- 3 ad set Sales (`120253855545300019` Ramadhan, `…280019` 12 hari januari, `…270019` 9 hari januari) di-update targeting: placement baru + lokasi default (25 kota + 5 subcity Jakarta), umur & targeting_automation tetap.
+- Percobaan pertama error "IG Explore Placement Is Deprecated" → `explore` dihapus, sukses tanpa error.
+- Hasil: tersimpan sebagai **DRAFT** (is_draft=true), ad set live tetap ACTIVE dengan penempatan lama. **Belum di-publish — menunggu perintah user.**
+- Aturan penempatan disimpan di `chat-memory.md` + `target-kota.md`.

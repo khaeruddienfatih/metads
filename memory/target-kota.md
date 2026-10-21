@@ -60,3 +60,19 @@ Kode lain (tidak dipakai di daftar): Cikarang 955995, Serang 989841, region Jaka
 
 Catatan: `targeting` di `ads_update_entity` mengganti seluruh targeting → ambil targeting ad set yang ada,
 ganti hanya `geo_locations` (hapus `regions` jika ada), sisanya (umur, placement, `targeting_automation`) tetap.
+
+## Penempatan default (aturan user 22 Okt 2026)
+
+Semua Instagram + Facebook Story + WhatsApp Status + Threads:
+
+```json
+{"publisher_platforms":["facebook","instagram","whatsapp","threads"],
+ "facebook_positions":["story"],
+ "instagram_positions":["stream","story","explore_home","reels","profile_feed","ig_search","profile_reels"],
+ "whatsapp_positions":["status"],
+ "threads_positions":["threads_stream"],
+ "device_platforms":["mobile","desktop"]}
+```
+
+Jangan pakai `explore` (error "IG Explore Placement Is Deprecated"); `explore_home` boleh.
+Hapus `page_types`/`effective_*` saat mengirim targeting.

@@ -638,3 +638,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Tool Meta Ads sudah tersedia di sesi ini → akun AIni (`814396810761205`) berhasil dibaca (hanya baca, tidak ada perubahan).
 - 6 campaign: kota `120253855611200019` (ACTIVE, Rp150rb/hari, belum ada spend 7 hari), Depok `120253795113850019` (ACTIVE, Rp150rb, spend 7 hari Rp605.274), 9 Hari Januari `120253679159070019` (ACTIVE, Rp200rb, Rp906.328), Ramadhan `120253660019930019` (ACTIVE, Rp100rb, Rp1.334.200), Sales `120253855545180019` (ACTIVE, Rp150rb, Rp0), Indonesia `120253795157220019` (PAUSED, Rp150rb, Rp541.452).
 - Menunggu perintah user berikutnya untuk akun AIni.
+
+### 2026-10-22 — AIni campaign Sales (`120253855545180019`): ganti kota ke daftar 20 kota/kab user
+- User kirim daftar 20 kota/kab (Jakarta Timur/Selatan/Pusat/Barat/Utara, Bekasi, Bandung, Bogor, Depok, Tangerang, Tangsel, Karawang, Garut, Cirebon, Sukabumi, Tasikmalaya; daftar terpotong di #20).
+- Tidak ada tool pencari kode lokasi Meta. Kode yang diketahui: region Jakarta `1664`; kota Bandung 949797, Bekasi 951390, Bogor 953142, Cibinong 955404, Cikarang 955995, Cirebon 956891, Depok 957890, Garut 960633, Karawang 966167, Serang 989841, Serpong 989923, Tangerang 994587. Sukabumi & Tasikmalaya belum diketahui.
+- Cek ulang (user sudah ubah manual): 3 ad set Sales (Ramadhan …545300019, 12 hari januari …545280019, 9 hari januari …545270019), live, tanpa draft, isi sama: 18 kota radius 40 km — Bandung, Banjarmasin, Bekasi, Bogor, Cibinong, Cirebon, Depok, Garut, Karawang, Makassar, Medan, Palembang, Pekanbaru, Samarinda, Semarang, Serpong, Surakarta, Tangerang.
+- Selisih dengan daftar user: Jakarta, Sukabumi, Tasikmalaya belum ada; 8 kota luar daftar (Banjarmasin, Makassar, Medan, Palembang, Pekanbaru, Samarinda, Semarang, Surakarta). Belum diubah — menunggu konfirmasi user.

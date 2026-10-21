@@ -644,3 +644,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Tidak ada tool pencari kode lokasi Meta. Kode yang diketahui: region Jakarta `1664`; kota Bandung 949797, Bekasi 951390, Bogor 953142, Cibinong 955404, Cikarang 955995, Cirebon 956891, Depok 957890, Garut 960633, Karawang 966167, Serang 989841, Serpong 989923, Tangerang 994587. Sukabumi & Tasikmalaya belum diketahui.
 - Cek ulang (user sudah ubah manual): 3 ad set Sales (Ramadhan …545300019, 12 hari januari …545280019, 9 hari januari …545270019), live, tanpa draft, isi sama: 18 kota radius 40 km — Bandung, Banjarmasin, Bekasi, Bogor, Cibinong, Cirebon, Depok, Garut, Karawang, Makassar, Medan, Palembang, Pekanbaru, Samarinda, Semarang, Serpong, Surakarta, Tangerang.
 - Selisih dengan daftar user: Jakarta, Sukabumi, Tasikmalaya belum ada; 8 kota luar daftar (Banjarmasin, Makassar, Medan, Palembang, Pekanbaru, Samarinda, Semarang, Surakarta). Belum diubah — menunggu konfirmasi user.
+
+### 2026-10-22 — Cek lagi kota ad set Sales AIni
+- User sudah ubah manual lagi. 3 ad set Sales sekarang IN_PROCESS (perubahan sedang diproses Meta), tanpa draft, isi sama: 25 kota radius 40 km + 5 subcity Jakarta (Selatan/Pusat/Timur/Utara/Barat).
+- Semua 20 lokasi di daftar user sudah tercakup (Jakarta 962899 + subcity 2727916/2998930–2998933, Sukabumi 992117, Tasikmalaya 995230 kini ada).
+- Tambahan di luar daftar (12): Balikpapan, Banjarmasin, Bandar Lampung, Makassar, Malang, Medan, Padang, Palembang, Pekanbaru, Samarinda, Semarang, Surakarta. Tidak diubah Claude — tanya user apakah disengaja.

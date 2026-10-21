@@ -621,3 +621,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat ulang: locale dikurangi (hanya en-US & id), dikemas 7z multi-volume `TabBrowser-Windows.7z.001`–`.005` (masing-masing ≤19 MB, total ±80 MB), sudah dites ekstrak OK lalu dikirim.
 - Cara pakai: unduh kelimanya ke satu folder (mis. Downloads), klik kanan `.7z.001` → WinRAR "Extract Here", buka `TabBrowser-win32-x64\TabBrowser.exe`.
 - Claude tidak bisa menyimpan langsung ke folder Download user; lokasi simpan dipilih saat mengunduh.
+
+### 2026-10-21 — TabBrowser: 5 bagian 7z tetap gagal, user minta "langsung simpan di Download"
+- Claude tidak punya akses ke komputer user, jadi tidak bisa menyimpan langsung ke folder Download.
+- Rencana: taruh 1 file `TabBrowser-Windows.7z` (±80 MB) di GitHub supaya user mengunduh lewat browser. Push ke branch sesi ditolak izin otomatis → menunggu izin/pilihan user.

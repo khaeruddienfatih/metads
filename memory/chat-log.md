@@ -670,3 +670,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User kirim nomor WA per akun (Fifi, AIni, Diana, Nida, Tira, Hanif, Fikri, Irfan, Alif) = nomor untuk iklan sesuai nama akun, Page utama Elharamain wisata.
 - Konfirmasi user: Tira memang 11 digit; Fikri ditambah 0 di depan (0858-4337-2026). User minta simpan di main.
 - Disimpan di `chat-memory.md` (Aturan tetap). Tidak ada perubahan di akun iklan. Draft penempatan Sales AIni masih menunggu publish.
+
+### 2026-10-22 — AIni: 4 campaign baru (Penjualan/Prospek/Interaksi/Traffic) × 3 ad set, iklan PAUSED
+- Permintaan: campaign baru di AIni dengan objective penjualan, prospek, interaksi, traffic; budget Rp100rb/campaign; 3 ad set (Ramadhan, 9 Hari Januari, 12 Hari Januari); adcopy & gambar sesuai aturan; semua tujuan "percakapan pesan dimulai"; hasil akhir PAUSE.
+- Dibuat (mode draft, CBO Rp100.000/hari, LOWEST_COST_WITHOUT_CAP):
+  - Penjualan `120253865195650019` (OUTCOME_SALES): Ramadhan `…197190019`, 9 Hari Januari `…202950019`, 12 Hari Januari `…202980019`
+  - Prospek `120253865195780019` (OUTCOME_LEADS): `…203250019` / `…203330019` / `…203400019`
+  - Interaksi `120253865195970019` (OUTCOME_ENGAGEMENT): `…203440019` / `…203580019` / `…203790019`
+  - Traffic `120253865196170019` (OUTCOME_TRAFFIC): `…203870019` / `…203960019` / `…204170019` (awalnya LINK_CLICKS, diubah ke CONVERSATIONS atas permintaan user)
+- Semua ad set: CONVERSATIONS + destinasi WHATSAPP, Page 588336968031663, target kota default (25 kota + 5 subcity Jakarta, 25–65, A+A off seperti campaign Sales), penempatan default (semua IG + FB Story + WA Status + Threads).
+- 36 iklan (3/ad set), inline object_story_spec + image_hash, teks primary-texts (By Saudia + Direct Flight), headline berselang-seling, deskripsi standar, CTA WhatsApp, IG 17841405431328414. Semua di-set **PAUSED**.
+  - Set gambar A (Penjualan & Interaksi): Ramadhan D2#1, D3#6, D2#2 · 9J D7#1, D7#3, januari_5 · 12J 12_hari_januari_1, D2#1, D2#3.
+  - Set gambar B (Prospek & Traffic): Ramadhan D3#4, D2#5, D3#2 · 9J D4 Musim Dingin #1, D7#5, januari_2 · 12J 12_hari_januari_5, D2#5, D2#4.
+- Validasi: 33 iklan OK. **Ad set Traffic 12 Hari Januari `…204170019` + 3 iklannya error "You do not have access to the WhatsApp Business Phone Number"** (setting sama dengan ad set lain) → cek/pilih nomor WA di Ads Manager.
+- Tertunda: publish draft (belum diperintah), template WA (9J → `9hari`, 12J → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait". Draft penempatan 3 ad set Sales lama juga belum dipublish.

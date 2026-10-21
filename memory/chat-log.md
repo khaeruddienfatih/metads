@@ -605,3 +605,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Ad set kosong yang isinya dulu Desember/Saudia (diarsip) diisi sesuai nama ad set/campaign (9 Hari/12 Hari): Diana campaign "9 Hari Januari" (3 ad set), Nida "9 hari januari", Fifi 4 ad set, Irfan 9H Banten & jawa barat, AIni 9H.
 - **Dilewati:** Tira pusat / LLA `120251586630760584` (paket campuran tidak jelas); Elharamainhaji "Vidio"/"Gambar" (optimasi pixel Click to Chat, link CTA tidak terbaca); Haji 4 "haji - Salin", "Saudia Retargeting - Salin", "Saudia LLA - Salin" (website conversion, link tidak terbaca) → butuh link dari user.
 - Manual user: publish draft, template WA, matikan "Media terkait".
+
+### 2026-10-21 — Tanya: bisa buat browser yang tiap tab beda cookies (seperti browser baru)?
+- Pertanyaan saja, tidak ada perubahan di akun iklan.
+- Dijawab: Claude di sesi cloud tidak bisa membuka browser di komputer user. Opsi: Firefox Multi-Account Containers (tiap tab beda cookies, gratis), profil Chrome terpisah, jendela Incognito/InPrivate, atau dibuatkan skrip Playwright (tiap tab = context baru). Menunggu pilihan user.

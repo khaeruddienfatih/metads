@@ -5,6 +5,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 ## Aturan tetap dari user
 
+- **Target kota default (22 Okt):** setiap iklan baru → lokasi ad set-nya diganti sesuai daftar di [`target-kota.md`](target-kota.md) (25 kota radius 40 km + 5 subcity Jakarta, dari campaign Sales AIni). Ganti hanya `geo_locations`, bagian targeting lain tetap. Ad set yang namanya menunjuk wilayah tertentu (jakarta/jabar/jatim/banten/Depok/Bandung, dll.) — tanyakan dulu sebelum diganti. Perubahan targeting di akun draft tersimpan sebagai draft → publish hanya dengan perintah user.
 - **Paket Riyadh Air / November sudah tidak ada (20 Okt).** Teksnya dihapus dari `primary-texts.md`; jangan buat iklan Riyadh Air lagi.
 - **Semua paket pakai pesawat Saudia Airlines (20 Okt).** Setiap adcopy wajib ada `By Saudia Airlines` di judul + `✅Pesawat Direct Flight by Saudia`.
 - **Git: hanya pakai branch `main`.** Jangan buat branch baru (11 Okt) — commit & push langsung ke `main`.

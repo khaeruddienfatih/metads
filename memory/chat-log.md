@@ -653,3 +653,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-22 — Konfirmasi: 12 kota tambahan di ad set Sales AIni disengaja
 - User: 12 kota di luar daftar (Balikpapan, Banjarmasin, Bandar Lampung, Makassar, Malang, Medan, Padang, Palembang, Pekanbaru, Samarinda, Semarang, Surakarta) **memang sengaja**. Tidak ada perubahan di akun.
 - Target final 3 ad set Sales (`120253855545300019`, `…280019`, `…270019`): 25 kota radius 40 km + 5 subcity Jakarta. Dicatat di chat-memory.
+
+### 2026-10-22 — Simpan daftar kota Sales AIni sebagai target default setiap iklan baru
+- Dibuat `memory/target-kota.md` (25 kota + key, 5 subcity Jakarta, JSON `geo_locations` siap pakai).
+- Aturan baru di `chat-memory.md` + rujukan di `CLAUDE.md`: setiap iklan baru → lokasi ad set disamakan dengan daftar ini; ad set bernama wilayah tertentu ditanyakan dulu; publish draft hanya atas perintah user.
+- Tidak ada perubahan di akun iklan.

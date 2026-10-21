@@ -7,6 +7,7 @@ Repo ini dipakai untuk mengelola iklan Meta (Umroh/Haji) Elharamain Wisata.
 @memory/chat-memory.md
 
 Teks iklan (primary text) per paket ada di `memory/primary-texts.md`.
+Target kota default untuk setiap iklan baru ada di `memory/target-kota.md`.
 Riwayat percakapan ada di `memory/chat-log.md`.
 
 ## Wajib: simpan setiap chat

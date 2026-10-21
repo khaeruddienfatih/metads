@@ -595,3 +595,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 4: Tira Haji - Desain 3 #1 `120256918437280768` (Rp68rb), Haji - Desain 4 #3 `120256918433790768` (Rp116rb)
   - Haji Elharamain Wisata: Haji Fifi "Hajj" `120231693671420327` (Rp86,7rb)
 - Tidak disentuh: Diana "Ramadhan IG | Desain 3 #1" (Rp63rb, sudah ARCHIVED); Elharamainhaji 2 iklan (hasil = pixel "Click to Chat", bukan chat WA; campaign PAUSED); Haji 4 & Haji Elharamain Wisata iklan hasil add-to-cart.
+
+### 2026-10-21 — "sekarang buat iklan di adset yang isi iklan kurang dari 3 semua pakai iklan baru" (17 akun)
+- Dikerjakan paralel per kelompok akun. Semua ad set <3 iklan (tidak termasuk ARCHIVED/DELETED, Riyadh Air) diisi sampai 3 dengan iklan BARU (inline object_story_spec, bukan pakai ulang post). Total **168 iklan**, semua PAUSED; tidak ada yang di-publish/aktifkan. Gambar unik per campaign.
+- Teks: Umroh dari primary-texts.md (9H/12H/Ramadhan); Haji pakai body iklan terbaik di campaign yang sama. Headline berselang-seling, deskripsi standar, CTA WA.
+- **Akun live (PAUSED):** Tira 3 (9 Hari Januari jabar/jatim/jakarta) · Allif 5 · Irfan 12 · Fifi 20 · Elharamain Haji 20 (8 ad set Page Haji 637020022834756; campaign Allif 4 ad set 0→3 di Page 588+IG — 12 iklan pertama salah Page "Pages Don't Match", sudah di-DELETED & dibuat ulang).
+- **Akun draft (draft PAUSED, VALIDATED, belum publish):** Diana 19 · Nida 15 · Hanif 7 (upload 12 Hari Desain 2 #1–3 ke library) · AIni 18 · haji 17 · Haji 3 12 (Haji_Img_*) · Haji 4 19 (campaign Irfan pakai Page `122104184780003541` tanpa IG, sesuai iklan lama) · Haji Elharamain Wisata 1 (gambar "Haji Plus DP 4000 USD", WhatsApp Image 2025-08-06).
+- Fikri: sudah penuh (15 draft pagi ini). Haji 2: semua ad set 5 iklan. HAJI & 645826984173235: tidak ada ad set.
+- Ad set kosong yang isinya dulu Desember/Saudia (diarsip) diisi sesuai nama ad set/campaign (9 Hari/12 Hari): Diana campaign "9 Hari Januari" (3 ad set), Nida "9 hari januari", Fifi 4 ad set, Irfan 9H Banten & jawa barat, AIni 9H.
+- **Dilewati:** Tira pusat / LLA `120251586630760584` (paket campuran tidak jelas); Elharamainhaji "Vidio"/"Gambar" (optimasi pixel Click to Chat, link CTA tidak terbaca); Haji 4 "haji - Salin", "Saudia Retargeting - Salin", "Saudia LLA - Salin" (website conversion, link tidak terbaca) → butuh link dari user.
+- Manual user: publish draft, template WA, matikan "Media terkait".

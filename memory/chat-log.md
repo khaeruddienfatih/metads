@@ -818,3 +818,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diperbaiki 51 ad set PAUSED (Tira 12, Allif 12, Fifi 12, Irfan 15): targeting diganti lokasi + penempatan default; umur, advantage_audience, brand_safety & `individual_setting.geo` tetap seperti semula. Verifikasi read-back: 51/51 benar, status tetap PAUSED (1 sedang IN_PROCESS review Meta).
 - Irfan "Prospek (baru) - Salin" (ad set `120253512142960414`, `…143010414`, `…143020414`) tujuan LEAD_GENERATION → tidak bisa diubah ke CONVERSATIONS (Meta: atribusi tidak bisa diubah setelah ad set dibuat). Irfan juga punya "Prospek (baru) - Salin - Salin" yang sudah CONVERSATIONS → salah satu sebaiknya dihapus user.
 - Catatan: Allif & Fifi punya `targeting_automation.individual_setting.geo = 1` (bawaan salinan user) — dibiarkan.
+
+### 2026-10-22 — "untuk kampanye baru semua harus sesuai arahan kota dan penempatanya"
+- Aturan: semua campaign baru wajib target kota & penempatan default (`target-kota.md`), termasuk yang sudah ACTIVE selama belum ada iklan berjalan.
+- 12 ad set **Prospek (baru)** di Fikri/Nida/Diana/Hanif (ACTIVE, 0 iklan) diubah dari "seluruh Indonesia + penempatan otomatis" ke 25 kota + 5 subcity Jakarta + penempatan default; brand_safety & advantage_audience 0 tetap. Karena akun mode draft, perubahan **tersimpan sebagai draft (belum terbit)**, tanpa error:
+  Fikri `120249750704100470`/`…705340470`/`…706190470`; Nida `120251824247910004`/`…252110004`/`…253960004`; Diana `120252216305950294`/`…312470294`/`…318260294`; Hanif `120254963577110427`/`…577850427`/`…578940427`.
+- Tujuan LEAD_GENERATION di Prospek Nida/Diana/Hanif tidak bisa diubah (Meta: atribusi tidak bisa diubah setelah ad set dibuat).
+- Tertunda: perubahan draft perlu diterbitkan (user di Ads Manager, atau Claude dengan perintah user).

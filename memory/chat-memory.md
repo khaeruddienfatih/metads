@@ -12,6 +12,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Paket Riyadh Air / November sudah tidak ada (20 Okt).** Teksnya dihapus dari `primary-texts.md`; jangan buat iklan Riyadh Air lagi.
 - **Semua paket pakai pesawat Saudia Airlines (20 Okt).** Setiap adcopy wajib ada `By Saudia Airlines` di judul + `✅Pesawat Direct Flight by Saudia`.
 - **Git: hanya pakai branch `main`.** Jangan buat branch baru (11 Okt) — commit & push langsung ke `main`.
+- **Semua campaign baru wajib sesuai target kota & penempatan default (22 Okt)** — termasuk ad set ACTIVE yang belum punya iklan berjalan; cek ulang setelah user menyalin/menerbitkan (Meta bisa mengubah Prospek jadi Hong Kong/Indonesia + penempatan otomatis).
 - **Jangan sentuh iklan/ad set yang sedang berjalan (ACTIVE) (22 Okt).** Perbaikan (lokasi, penempatan, dll.) hanya untuk yang PAUSED/draft; yang ACTIVE dilaporkan saja.
 - **Iklan harus PAUSE.** Jangan aktifkan/publish tanpa perintah eksplisit.
 - **Model: selalu pakai Sonnet** (`claude-sonnet-5-5`), jangan Opus. Kirim `client_model` `claude-sonnet-5-5` di panggilan Meta Ads.

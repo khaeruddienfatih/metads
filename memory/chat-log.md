@@ -790,3 +790,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Penyebab: subagent berjalan di auto mode Claude Code. Setiap panggilan tool dinilai classifier keamanan, dan aksi tulis ke Meta Ads (mengeluarkan uang sungguhan) tanpa konfirmasi langsung user ditolak.
 - Penyebab kedua: allow rule di `.claude/settings.json` masih bernama `mcp__Meta_Ads` (dan Cloudinary, Canva, Google Drive, dll.). Nama tool sekarang `mcp__claude_ai_Meta_Ads__…`, jadi rule itu tidak cocok dan tidak berlaku.
 - Belum diubah. Menunggu user memilih: settings diperbaiki, atau sisa pekerjaan dijalankan di sesi utama dengan izin per langkah.
+
+### 2026-10-22 — User pilih A: perbaiki nama izin tool di settings
+- `.claude/settings.json` lokal ditambah allow `mcp__claude_ai_Meta_Ads`, `mcp__claude_ai_Canva`, `mcp__claude_ai_Google_Drive`, `mcp__claude_ai_Cloudinary`, `mcp__claude_ai_Google_Sheets` (nama lama tetap ada).
+- Commit/push file settings ditolak auto mode classifier → perubahan hanya ada di komputer ini, belum di GitHub.
+- Berikutnya: lanjutkan pembuatan campaign yang tertunda (lihat entri "Buat 4 campaign … di 8 akun").

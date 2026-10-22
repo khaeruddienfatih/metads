@@ -831,3 +831,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User sudah mengganti Prospek LEAD_GENERATION di Nida/Diana/Hanif dengan salinan "Prospek (baru) - Salin" (CONVERSATIONS, ACTIVE, 0 iklan) — salinan ini belum sesuai: Nida & Diana IG kurang profile_reels, Hanif penempatan otomatis.
 - Diperbaiki (draft, tanpa error, menunggu publish): Nida `120251824647170004`/`…180004`/`…190004`, Diana `120252216710030294`/`…040294`/`…050294`, Hanif `120254963922420427`/`…430427`/`…440427`. Fikri Prospek (3) live masih Indonesia + penempatan otomatis; perbaikan draftnya dari sebelumnya masih menunggu publish.
 - Tertunda: publish draft perbaikan 12 ad set Prospek (Fikri 3, Nida 3, Diana 3, Hanif 3).
+
+### 2026-10-22 — "tinggal kamu ganti lokasi dan penempatanya": publish perbaikan 12 Prospek
+- Draft perbaikan diterbitkan (publish_as_active=false, hanya 12 ad set itu): Fikri Prospek (baru) 3, Nida/Diana/Hanif Prospek (baru) - Salin 3 per akun.
+- Verifikasi live: 12/12 lokasi 25 kota + 5 subcity Jakarta radius 40 km, penempatan IG semua + FB Story + WA Status + Threads, tujuan CONVERSATIONS/WhatsApp. Status IN_PROCESS (review Meta setelah edit), belum ada iklan.
+- Kini semua ad set "(baru)" di 9 akun sesuai kota & penempatan default.

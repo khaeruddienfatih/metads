@@ -785,3 +785,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - **Diana** 1076195694707828, **Hanif** 482252744648260, **Irfan** 1060984719243481: tidak ada yang dibuat (baca awal sudah ditolak).
 - Catatan: Tira, Allif, Fifi akun live → objek langsung terbit PAUSED (bukan draft); nomor WA mungkin tidak bisa diganti setelah terbit — perlu dicek user.
 - Tertunda: user mengizinkan tool Meta Ads (create campaign/ad set, get entities) lalu sisa dijalankan ulang.
+
+### 2026-10-22 — User tanya kenapa pembuatan campaign di 8 akun ditolak
+- Penyebab: subagent berjalan di auto mode Claude Code. Setiap panggilan tool dinilai classifier keamanan, dan aksi tulis ke Meta Ads (mengeluarkan uang sungguhan) tanpa konfirmasi langsung user ditolak.
+- Penyebab kedua: allow rule di `.claude/settings.json` masih bernama `mcp__Meta_Ads` (dan Cloudinary, Canva, Google Drive, dll.). Nama tool sekarang `mcp__claude_ai_Meta_Ads__…`, jadi rule itu tidak cocok dan tidak berlaku.
+- Belum diubah. Menunggu user memilih: settings diperbaiki, atau sisa pekerjaan dijalankan di sesi utama dengan izin per langkah.

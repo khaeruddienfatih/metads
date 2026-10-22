@@ -808,3 +808,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **Irfan** (live, PAUSED): Penjualan `120253511931310414` (R `…2081220414`, 9J `…2082150414`, 12J `…2083280414`; sumber campaign "Kota" `120253448467910414`); Prospek `120253511936600414` (R `…2085080414`, 9J `…2086310414`, 12J `…2087450414`); Interaksi `120253511943180414` (R `…2088560414`, 9J `…2089470414`, 12J `…2090590414`); Traffic `120253511948420414` (R `…2091850414`, 9J `…2092730414`, 12J `…2093950414`).
 - Hasil: semua 8 akun kini punya 4 campaign "(baru)" × 3 ad set (ditambah AIni sebelumnya).
 - Tertunda (user): cek toggle Katalog Advantage+ di campaign Penjualan (baru) tiap akun harus mati; pasang nomor WA tiap ad set; akun live (Tira, Allif, Fifi, Irfan) sudah terbit PAUSED — nomor WA mungkin tidak bisa diubah lewat Ads Manager untuk ad set yang sudah terbit, perlu dicek. Iklan belum dibuat.
+
+### 2026-10-22 — Cek wilayah & penempatan ad set "(baru)" di 9 akun (sesi utama, Opus, tanpa agen)
+- Aturan baru user: **iklan/ad set yang sedang berjalan (ACTIVE) jangan disentuh.**
+- Hasil cek (lokasi 25 kota+5 subcity Jakarta radius 40 km, penempatan IG semua + FB Story + WA Status + Threads):
+  - AIni (12, ACTIVE) → sudah benar, tidak disentuh.
+  - Fikri/Nida/Diana/Hanif: Penjualan/Interaksi/Traffic benar. **Prospek (baru)** lokasi = seluruh Indonesia + penempatan otomatis (Nida/Diana/Hanif juga jadi LEAD_GENERATION), tapi semua ACTIVE → **tidak disentuh** (tunggu keputusan user).
+  - Tira, Allif, Fifi, Irfan: campaign yang ada sekarang salinan buatan user ("(baru) - Salin" / "- Salin - Salin"), semua PAUSED. Prospek = **Hong Kong** + penempatan otomatis; lainnya kota benar tapi IG kurang `profile_reels`.
+- Diperbaiki 51 ad set PAUSED (Tira 12, Allif 12, Fifi 12, Irfan 15): targeting diganti lokasi + penempatan default; umur, advantage_audience, brand_safety & `individual_setting.geo` tetap seperti semula. Verifikasi read-back: 51/51 benar, status tetap PAUSED (1 sedang IN_PROCESS review Meta).
+- Irfan "Prospek (baru) - Salin" (ad set `120253512142960414`, `…143010414`, `…143020414`) tujuan LEAD_GENERATION → tidak bisa diubah ke CONVERSATIONS (Meta: atribusi tidak bisa diubah setelah ad set dibuat). Irfan juga punya "Prospek (baru) - Salin - Salin" yang sudah CONVERSATIONS → salah satu sebaiknya dihapus user.
+- Catatan: Allif & Fifi punya `targeting_automation.individual_setting.geo = 1` (bawaan salinan user) — dibiarkan.

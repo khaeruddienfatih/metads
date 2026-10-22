@@ -124,6 +124,7 @@ Semua 7 kampanye ACTIVE. Angka berubah dari catatan 2 Okt (diubah manual oleh us
 
 ## Pending / pertanyaan terbuka
 
+- 22 Okt: 4 campaign "(baru)" (Penjualan/Prospek/Interaksi/Traffic) × 3 ad set sudah ada di semua 9 akun Umroh (lihat chat-log 22 Okt "lanjut"). Belum ada iklan; nomor WA & toggle Katalog Advantage+ (Penjualan) dicek/diisi user.
 - Diana: 5 ad set IG ARCHIVED — disengaja?
 - Nida desember lama: 4 iklan — ditunda atas permintaan user.
 - 8 Okt: user **menolak** pause lanjutan iklan Riyadh Air/November/LAT di Irfan (5 iklan LAT ad set `120253100040430414`) — jangan lanjutkan pause tanpa perintah baru.

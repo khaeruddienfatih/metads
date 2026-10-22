@@ -698,3 +698,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-22 — Tanya: di mana melihat Phone number ID WhatsApp
 - Dijelaskan: WhatsApp Manager (business.facebook.com/wa/manage/phone-numbers) → pilih nomor → "Phone number ID"; alternatif developers.facebook.com → App → WhatsApp → API Setup. Nomor yang hanya tersambung lewat WhatsApp Business App ke Page mungkin tidak punya Phone number ID → pilih manual di Ads Manager.
 - Menunggu user kirim ID untuk nomor AIni 0851-7998-8198.
+
+### 2026-10-22 — Pasang nomor WA AIni ke 12 ad set campaign baru
+- User kirim Phone number ID semua akun (disimpan di chat-memory; Tira belum ada).
+- 12 ad set Penjualan/Prospek/Interaksi/Traffic: promoted_object di-set `{page_id 588336968031663, whats_app_business_phone_number_id 897107583479313}` → tervalidasi tanpa error, tapi **publish tidak masuk**: dicoba 2x, status PUBLISHING lalu draft tetap EDITING (kemungkinan nomor WA tidak bisa diubah lewat API setelah ad set terbit). Perubahan masih tersimpan sebagai draft di Ads Manager.
+- Terlihat juga edit draft dari Ads Manager (bukan dari Claude): ad set Penjualan 9J & Prospek 9J (Threads + sebagian penempatan IG dihapus) dan 1 iklan Prospek Ramadhan D3#4 (welcome message/ice breakers WA). Tidak disentuh.
+- Semua campaign tetap PAUSED. Tertunda: user cek/publish nomor WA manual di Ads Manager.

@@ -734,3 +734,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-22 — Konfirmasi: konversi "percakapan pesan dimulai", user hanya ganti nomor HP
 - Dikonfirmasi ke user: 12 ad set draft "(baru)" sudah optimization CONVERSATIONS (percakapan pesan dimulai) + lokasi konversi WhatsApp; user cukup pilih nomor WA di Ads Manager. Tidak ada perubahan di akun.
+
+### 2026-10-22 — "di penjualan kamu belum ganti": perbaikan ad set draft "(baru)"
+- Cek draft: user sudah pasang nomor WA 897107583479313 di Prospek/Interaksi/Traffic (baru) lewat Ads Manager.
+- Penjualan (baru) 3 ad set ternyata berubah ke OFFSITE_CONVERSIONS + conversion_locations WEB_AND_APP + penempatan hilang (error "Peristiwa konversi tidak ada") → dikembalikan: CONVERSATIONS, destination WHATSAPP, conversion_locations WHATSAPP, promoted_object page_id, targeting/penempatan default → tanpa error. Nomor WA Penjualan belum diisi (user).
+- Prospek (baru) 3 ad set berubah jadi LEAD_GENERATION + lokasi Hong Kong (countries HK) + penempatan hilang → dikembalikan ke CONVERSATIONS + targeting/penempatan default; promoted_object (nomor WA user) tidak disentuh. Setelah diedit Claude, validasi atas nama Claude memunculkan error akses nomor WA (karena akun connector tak punya akses) — kemungkinan hilang saat user simpan/publish dari Ads Manager.
+- Interaksi & Traffic (baru) tidak disentuh (sudah benar). Catatan: draft campaign Traffic (baru) terbaca objective LINK_CLICKS (legacy) — dibiarkan.

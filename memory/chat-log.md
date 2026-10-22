@@ -744,3 +744,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-22 — User hapus campaign Penjualan (baru) draft
 - User: "di penjualan kamu masih gagal, sudah saya hapus". Draft Penjualan (baru) `120253865729660019` dihapus user di Ads Manager.
 - Catatan: campaign objective Penjualan (OUTCOME_SALES) + tujuan WhatsApp buatan API tampil di Ads Manager sebagai lokasi konversi "Situs web & aplikasi" → gagal. Prospek/Interaksi/Traffic (baru) tetap ada. Menunggu keputusan user: buat ulang Penjualan atau tidak.
+
+### 2026-10-22 — Buat lagi Penjualan (baru) draft, "jangan pernah pakai katalog"
+- Campaign Penjualan (baru) `120253865883140019` (OUTCOME_SALES, CBO Rp100.000, campaign_optimization_type NONE, tanpa katalog/product set) — DRAFT.
+- 3 ad set DRAFT: Ramadhan `120253865889540019`, 9 Hari Januari `120253865889660019`, 12 Hari Januari `120253865890400019`; CONVERSATIONS, destination WHATSAPP, **conversion_locations WHATSAPP diset sejak dibuat**, promoted_object page_id, target/penempatan default. Read-back draft: conversion_locations WHATSAPP, VALIDATED, tanpa error.
+- Nomor WA belum diisi (user pasang manual). Belum ada iklan.

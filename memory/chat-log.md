@@ -720,3 +720,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Traffic: `…663050019` / `…663120019` / `…663280019`
 - Campaign lama (Penjualan/Prospek/Interaksi/Traffic tanpa "(baru)") tidak disentuh, masih PAUSED. Draft uji "XXX HAPUS - ERROR (uji nomor WA)" di campaign Penjualan lama perlu discard manual.
 - Tertunda: user atur nomor WA di 12 ad set baru (manual), lalu Claude buat iklan (dengan pesan pembuka/ice breakers) atas perintah user.
+
+### 2026-10-22 — "jangan pause, posisi draf saja" (karena nomor WA tidak bisa diganti setelah terbit)
+- User pilih: hapus 4 campaign "(baru)" yang sudah terbit lalu buat ulang sebagai draft.
+- Dihapus (DELETED, terverifikasi live): `120253865657360019`, `…657420019`, `…657460019`, `…657600019` (kosong, Rp0).
+- Dibuat ulang sebagai **DRAFT (tidak dipublish)**, CBO Rp100.000/hari, CONVERSATIONS → WhatsApp, promoted_object hanya page_id (nomor WA kosong untuk diisi user), target kota & penempatan default:
+  - Penjualan (baru) `120253865729660019`: Ramadhan `…742020019`, 9 Hari Januari `…742350019`, 12 Hari Januari `…742510019`
+  - Prospek (baru) `120253865729800019`: `…742630019` / `…742710019` / `…742780019`
+  - Interaksi (baru) `120253865729830019`: `…743210019` / `…743620019` / `…744530019`
+  - Traffic (baru) `120253865729890019`: `…744760019` / `…744970019` / `…745200019`
+- Semua validasi tanpa error. Tertunda: user pilih nomor WA 0851-7998-8198 di 12 ad set draft; lalu Claude buat 36 iklan (dengan pesan pembuka) atas perintah user.
+- Aturan baru: untuk akun yang nomor WA-nya diatur manual, biarkan campaign/ad set di DRAFT (jangan publish) sampai user pasang nomor.

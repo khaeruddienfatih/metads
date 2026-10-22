@@ -709,3 +709,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Pesan pembuka dari user (ice breakers): "Assalamualaikum info paket umrah Elharamain Wisata Terimakasih" / "... umrah 9 Hari ..." / "... umrah 12 Hari ...". Teks sambutan di draft user: "Assalamualaikum Warahmatullahi Wabarakatuh, Elharamain Wisata Siap Melayani Anda". Disimpan di chat-memory.
 - Uji buat ulang 1 ad set (Penjualan, `120253865645080019`) dengan whats_app_business_phone_number_id 897107583479313 → error **"You do not have access to the WhatsApp Business Phone Number"**. Akar masalah: akun Facebook yang tersambung ke connector Claude tidak punya akses ke aset nomor WA AIni (ini juga sebab publish nomor WA sebelumnya gagal diam-diam). Draft uji di-rename "XXX HAPUS - ERROR (uji nomor WA)" + PAUSED → user discard manual.
 - Pembuatan ulang dihentikan. Menunggu user beri akses (Business Settings → Akun WhatsApp → tambah orang/akses penuh) atau atur nomor + pesan pembuka manual di Ads Manager.
+
+### 2026-10-22 — Buat ulang AIni sampai ad set saja, tanpa menyentuh nomor WA
+- User: "buat ulang dan jangan sentuh bagian no, cukup sampai adset saja dulu".
+- Dibuat 4 campaign baru (CBO Rp100.000/hari, live PAUSED): Penjualan (baru) `120253865657360019`, Prospek (baru) `120253865657420019`, Interaksi (baru) `120253865657460019`, Traffic (baru) `120253865657600019`.
+- 12 ad set (live, status ACTIVE di bawah campaign PAUSED, belum ada iklan), CONVERSATIONS → WhatsApp, promoted_object hanya page_id (nomor WA tidak diisi), target kota & penempatan default:
+  - Penjualan: Ramadhan `…662350019`, 9 Hari Januari `…662400019`, 12 Hari Januari `…662450019`
+  - Prospek: `…662500019` / `…662550019` / `…662700019`
+  - Interaksi: `…662840019` / `…662940019` / `…663000019`
+  - Traffic: `…663050019` / `…663120019` / `…663280019`
+- Campaign lama (Penjualan/Prospek/Interaksi/Traffic tanpa "(baru)") tidak disentuh, masih PAUSED. Draft uji "XXX HAPUS - ERROR (uji nomor WA)" di campaign Penjualan lama perlu discard manual.
+- Tertunda: user atur nomor WA di 12 ad set baru (manual), lalu Claude buat iklan (dengan pesan pembuka/ice breakers) atas perintah user.

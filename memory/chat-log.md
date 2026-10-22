@@ -774,3 +774,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-22 — Headline "6700+ Google Review" diganti "6800+"
 - Aturan headline diperbarui di chat-memory: `6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`; teks 9 Hari Januari di primary-texts juga jadi "6800+ ulasan di Google Review".
 - 36 draft iklan AIni "(baru)" yang baru dibuat masih memakai 6700+ (18 headline + 9 teks 9J). Creative tidak bisa diedit via tool → menunggu pilihan user (edit massal di Ads Manager atau Claude buat ulang).
+
+### 2026-10-22 — Buat 4 campaign (Penjualan/Prospek/Interaksi/Traffic) × 3 ad set di 8 akun (hanya sampai ad set, nomor HP diisi user)
+- Dikerjakan paralel oleh 8 subagent (brief di scratchpad). Banyak panggilan Meta Ads DITOLAK auto-mode classifier Claude Code ("Real-World Transactions" / "Auto-Mode Bypass" / "External System Writes"); tidak diakali. Hasil:
+  - **Tira** 868364731529534 (live → PAUSED): Interaksi (baru) `120252744144330584` (ad set R `…159490584`, 9J `…164690584`, 12J `…166710584`); Traffic (baru) `120252744146390584` (R `…168400584`, 9J `…169960584`, 12J `…171560584`). Penjualan & Prospek ditolak. Sumber salinan Penjualan: "Tira pusat" `120251586630690584`, ad set `120251586630730584`.
+  - **Allif** 4678183395742010 (live → PAUSED): Interaksi (baru) `120252429733490228` (R `…758100228`, 9J `…766080228`, 12J `…772620228`); Traffic (baru) `120252429740390228` (R `…777240228`, 9J `…781720228`, 12J `…786230228`). Penjualan & Prospek ditolak. Sumber Penjualan: "9 Hari januari" `120252268692080228`, ad set `120252268692220228`.
+  - **Fikri** 1676215979752437 (DRAFT): Interaksi (baru) `120249750595230470` (9J `…606030470`, 12J `…606220470`; Ramadhan ditolak); Traffic (baru) `120249750597260470` (R `…606380470`, 9J `…606570470`, 12J `…606610470`). Penjualan & Prospek ditolak. Sumber Penjualan: "Ramadhan" `120249566336610470`, ad set `120249566336710470`.
+  - **Fifi** 521083143750270 (live → PAUSED): Interaksi (baru) `120252561136350365`, Traffic (baru) `120252561137640365` — tanpa ad set (ditolak). Penjualan & Prospek ditolak. Sumber Penjualan: "Fifi - Salin" `120252532813180365`, ad set `120252532813170365`.
+  - **Nida** 1019832712800468 (DRAFT): Interaksi (baru) `120251824045380004`, Traffic (baru) `120251824046960004` — tanpa ad set. Penjualan & Prospek ditolak. Sumber Penjualan: Ramadhan `120251650656920004`, ad set `120251650656930004`.
+  - **Diana** 1076195694707828, **Hanif** 482252744648260, **Irfan** 1060984719243481: tidak ada yang dibuat (baca awal sudah ditolak).
+- Catatan: Tira, Allif, Fifi akun live → objek langsung terbit PAUSED (bukan draft); nomor WA mungkin tidak bisa diganti setelah terbit — perlu dicek user.
+- Tertunda: user mengizinkan tool Meta Ads (create campaign/ad set, get entities) lalu sisa dijalankan ulang.

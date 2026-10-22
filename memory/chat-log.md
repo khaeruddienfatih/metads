@@ -836,3 +836,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Draft perbaikan diterbitkan (publish_as_active=false, hanya 12 ad set itu): Fikri Prospek (baru) 3, Nida/Diana/Hanif Prospek (baru) - Salin 3 per akun.
 - Verifikasi live: 12/12 lokasi 25 kota + 5 subcity Jakarta radius 40 km, penempatan IG semua + FB Story + WA Status + Threads, tujuan CONVERSATIONS/WhatsApp. Status IN_PROCESS (review Meta setelah edit), belum ada iklan.
 - Kini semua ad set "(baru)" di 9 akun sesuai kota & penempatan default.
+
+### 2026-10-22 — "buatkan iklannya, khusus iklan Ramadhan ada tambahan ice breaker Ramadhan"
+- Dibuat **288 iklan** = 3 iklan × 12 ad set "(baru)" (Penjualan/Prospek/Interaksi/Traffic × Ramadhan/9 Hari Januari/12 Hari Januari) × 8 akun: Tira, Allif, Fifi, Irfan (live → langsung PAUSED) dan Fikri, Nida, Diana, Hanif (mode draft → draft, lalu semua di-set PAUSED, 36/36 per akun sukses). AIni tidak disentuh (sudah punya 36 iklan sebelumnya).
+- Creative: Page 588336968031663 + IG 17841405431328414, CTA WHATSAPP_MESSAGE, teks per paket dari `primary-texts.md` (By Saudia + Direct Flight), headline berselang-seling `6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)` / `✈️ Tiket Sudah Confirm, Jadwal Pasti`, deskripsi `Hotel Bintang 5 · Seat terbatas 45/keberangkatan`.
+- Ice breakers: iklan Ramadhan = **"Assalamualaikum info paket umrah Ramadhan Elharamain Wisata Terimakasih"** (paling atas) + 3 pesan dasar; 9J/12J = 3 pesan dasar. Sambutan tetap.
+- Gambar: 6 gambar per paket per akun (Ramadhan Desain 2/3, 9 Hari Januari Desain 4 Musim Dingin/Desain 7/januari_x, 12 Hari Januari Desain 2/12_hari_januari_x), gambar berbeda antar ad set dalam campaign; tiap gambar dipakai di 2 campaign berbeda.
+- Status semua iklan baru: PAUSED. Campaign/ad set tidak diubah.
+- Tertunda: 36 iklan AIni sebelumnya masih headline 6700+ & tanpa ice breaker Ramadhan (tanya user mau diperbarui?). Draft di Fikri/Nida/Diana/Hanif belum dipublish. Nomor WA, toggle katalog Advantage+, "Media terkait" → manual user.

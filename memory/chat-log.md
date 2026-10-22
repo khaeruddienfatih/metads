@@ -684,3 +684,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Set gambar B (Prospek & Traffic): Ramadhan D3#4, D2#5, D3#2 · 9J D4 Musim Dingin #1, D7#5, januari_2 · 12J 12_hari_januari_5, D2#5, D2#4.
 - Validasi: 33 iklan OK. **Ad set Traffic 12 Hari Januari `…204170019` + 3 iklannya error "You do not have access to the WhatsApp Business Phone Number"** (setting sama dengan ad set lain) → cek/pilih nomor WA di Ads Manager.
 - Tertunda: publish draft (belum diperintah), template WA (9J → `9hari`, 12J → `12 Hari`, Ramadhan belum ditentukan), matikan "Media terkait". Draft penempatan 3 ad set Sales lama juga belum dipublish.
+
+### 2026-10-22 — "posisi pause bukan draf": 4 campaign baru AIni dipublish dalam keadaan PAUSED
+- 4 campaign (Penjualan/Prospek/Interaksi/Traffic) di-set PAUSED dulu, lalu dipublish (publish_as_active=false). Hasil live: 4 campaign PAUSED, 12 ad set (status ACTIVE di bawah campaign PAUSED), 36 iklan PAUSED. Draft kosong. Tidak ada yang tayang/spend.
+- Error ad set Traffic 12 Hari Januari `…204170019`: promoted_object terisi otomatis `whats_app_business_phone_number_id` 1229512063584833 yang tidak bisa diakses → diperbaiki dengan set promoted_object hanya `page_id` 588336968031663 → lolos & ikut dipublish.
+- Catatan teknis: publish dengan ignore_validation_errors hanya menerbitkan campaign; ad set & iklan perlu dipublish ulang (object_ids ad set + iklan).
+- Tertunda: template WA, matikan "Media terkait", aktivasi (menunggu perintah). Draft penempatan 3 ad set Sales lama masih belum dipublish.

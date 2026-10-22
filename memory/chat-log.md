@@ -749,3 +749,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Campaign Penjualan (baru) `120253865883140019` (OUTCOME_SALES, CBO Rp100.000, campaign_optimization_type NONE, tanpa katalog/product set) — DRAFT.
 - 3 ad set DRAFT: Ramadhan `120253865889540019`, 9 Hari Januari `120253865889660019`, 12 Hari Januari `120253865890400019`; CONVERSATIONS, destination WHATSAPP, **conversion_locations WHATSAPP diset sejak dibuat**, promoted_object page_id, target/penempatan default. Read-back draft: conversion_locations WHATSAPP, VALIDATED, tanpa error.
 - Nomor WA belum diisi (user pasang manual). Belum ada iklan.
+
+### 2026-10-22 — Penyebab error Penjualan: "Katalog Advantage+" menyala
+- User: toggle Katalog Advantage+ di campaign Penjualan buatan Claude menyala → bikin error, harus mati.
+- Draft campaign `120253865883140019` terbaca `automation_unified_campaign_type: UNIFIED_SALES_PROXY` (Advantage+ sales, otomatis dari Meta untuk OUTCOME_SALES via API). Ad set otomatis kembali ke WEB_AND_APP + OFFSITE_CONVERSIONS saat dibuka di Ads Manager.
+- Dicoba set `smart_promotion_type: GUIDED_CREATION` → diterima tapi UNIFIED_SALES_PROXY tetap. Tool tidak punya field untuk mematikan toggle katalog → user matikan manual di Ads Manager, lalu pilih lokasi konversi WhatsApp + nomor.

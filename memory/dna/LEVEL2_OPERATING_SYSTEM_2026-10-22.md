@@ -54,7 +54,7 @@ Delivery hari ini hampir seluruhnya dari iklan baru → CPR beberapa hari ke dep
 | Diana Ramadhan "Desain 3 #2" (120252015366940294) ACTIVE | **MONITOR (jangan diganggu)** | Rp22,8rb, 9 chat | Aturan 10 | Ya | — | — | ✓ |
 | Fifi "Januari" & "Saudia 12 Hari" ACTIVE | MONITOR | Rp31–37rb | — | Ya | frequency | cek > 2,0 | ✓ |
 | 288 iklan "(baru)" | **MONITOR — BELUM CUKUP DATA** | baru mulai | Gerbang volume | Tidak | CPR tinggi minggu 1 | nilai di Rp39rb | ✓ |
-| Fikri Ramadhan "Desain 3 #2 \| judul1" (120249566352930470) ACTIVE | **KILL** | Rp84rb 7 hari, 0 chat | Aturan user Rp35rb + Otak Rp78,6rb | Ya | — | — | ✓ |
+| Fikri Ramadhan "Desain 3 #2 \| judul1" (120249566352930470) ACTIVE | MONITOR (koreksi) | 7 hari Rp84rb/0 chat, tapi lifetime Rp200rb/5 chat | — | Ya | — | — | ✓ |
 | Fifi Ramadhan Banten "Desain 2 #1" (120252430638990365) | KILL (sudah paused) | Rp141rb, 0 chat | Kill | Ya | — | — | ✓ |
 | Nida Ramadhan Jakarta "Desain 2 #2" (120251653146380004) | KILL (campaign paused) | Rp133rb, 0 chat | Kill | Ya | — | — | ✓ |
 | Diana Tangerang "12_hari_januari_3.jpg" (120251822584330294) | KILL | Rp96rb, 0 chat | Kill | Ya | — | — | ✓ |

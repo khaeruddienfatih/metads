@@ -859,3 +859,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Temuan utama: CPR lifetime Rp41.169 (16.516 chat, Rp680 jt); baseline Rp27,9–39,3rb, safe Rp54,9rb, kill > Rp73,8rb; 5,7% iklan = 70% chat; CPM driver #1 (9/9 akun); 12 Hari > 9 Hari di 9/9 akun; LAT termahal; WA Status < IG Feed (7/8 akun); CPR naik Mar Rp23rb → Okt Rp48rb; Nida Rp151,9 jt di objective non-chat.
 - Usulan (menunggu user): aktifkan lagi ad set winner yang di-pause (Allif Ramadhan Rp24rb, Allif 9 Hari jatim Rp19,7rb, Fikri Desember-4 Rp16,2rb, dll.), hapus 5 kandidat kill (Fikri Ramadhan Desain 3 #2 judul1 ACTIVE Rp84rb/0 chat, dll.), aktifkan ad set "(baru)" Irfan, uji ambang kill Rp50rb, CS catat closing per akun.
 - Tertunda: jawaban 5 pertanyaan di akhir `memory/dna/LEVEL2_OPERATING_SYSTEM_2026-10-22.md`. Log budget akun lain gagal (502).
+
+### 2026-10-22 — Hapus iklan spend > Rp35rb tanpa chat sama sekali
+- Diminta: hapus iklan yang sudah menghabiskan > Rp35rb tapi tidak ada chat sama sekali.
+- Dicek (lifetime, iklan belum dihapus/diarsip, objective chat WA) di 9 akun Umroh + akun Haji: 23 iklan memenuhi.
+- **Dihapus (DELETED, terverifikasi) 21 iklan:**
+  - Allif: 120252411502210228 (9H jakarta januari_5 Rp47,6rb), 120252268692060228 (9H jateng januari 8 Rp35,7rb), 120252243618850228 (Ramadhan banten D2#4 Rp36,2rb).
+  - Fifi: 120252532976040365 (12H Fifi Salin D2#2 Rp37,5rb), 120252512333570365 (12H D2#5 Rp44,7rb).
+  - Irfan: 120253487757780414 (9H Banten januari_1 Rp37,9rb).
+  - Fikri (draft → publish): 120249728450530470, 120249728451130470, 120249566353160470 (Ramadhan, ketiganya ACTIVE, Rp40–46rb), 120249728448710470 (12H post Hanif Rp80,2rb), 120249697384120470 (Ramadhan kota D2#4 Rp75,6rb), 120249697396040470 (12 hari 5 Rp35,6rb).
+  - Nida (draft → publish): 120251731135420004 (12H Indonesia 12_4 Rp37,8rb).
+  - Diana (draft → publish): 120251812124770294 (Diana IG 9hari januari_7 Rp39,8rb).
+  - Haji: 120250897730340739 (Tira Haji Premium #1 ACTIVE Rp86,7rb), 120250897749110739, 120250897755400739, 120250897700530739, 120250897701830739 (LLA Rp39–51rb).
+- **Gagal 2 iklan Tira** (120252588317790584 12H jakarta "12 hari 3" Rp44,9rb; 120252538334370584 Ramadhan jateng D3#2 Rp36,9rb): error "Ad account status is ineligible to manage ads" (subcode 2490592) → **akun Tira tidak bisa diedit**, cek status akun/pembayaran di Ads Manager.
+- AIni & Hanif: tidak ada iklan yang memenuhi.
+- Koreksi Level 2: Fikri "Ramadhan | Desain 3 #2 | judul1" lifetime 5 chat (Rp200rb) → bukan kandidat kill (angka 0 chat sebelumnya hanya 7 hari).

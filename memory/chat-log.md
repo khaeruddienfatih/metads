@@ -760,3 +760,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Campaign Penjualan (baru) `120253866004320019` dibuat dengan `source_campaign_id` = Sales `120253855545180019` (campaign manual user, GUIDED_CREATION, tidak bermasalah), CBO Rp100.000 — DRAFT. Read-back: tidak ada automation_unified_campaign_type.
 - 3 ad set DRAFT disalin dari ad set Sales (`source_adset_id`): Ramadhan `120253866011660019` (dari …545300019), 9 Hari Januari `120253866014590019` (dari …545270019), 12 Hari Januari `120253866014630019` (dari …545280019); CONVERSATIONS, WHATSAPP, conversion_locations WHATSAPP, target/penempatan default; tanpa error.
 - Belum terverifikasi apakah toggle Katalog Advantage+ di Ads Manager mati — user diminta cek. Nomor WA belum diisi.
+
+### 2026-10-22 — Isi iklan 4 campaign "(baru)" AIni (36 draft PAUSED, dengan pesan pembuka WA)
+- User publish 12 ad set "(baru)" sendiri (live, ACTIVE, nomor WA diatur user). Penjualan (baru) live = `120253866004320019`.
+- Dibuat 36 iklan DRAFT (3/ad set), semua `active_errors` kosong, lalu di-set **PAUSED** (draft, belum dipublish):
+  - Penjualan (set gambar A): ad set `120253866011660019` R / `…014590019` 9J / `…014630019` 12J
+  - Prospek (set B): `120253865742630019` / `…742710019` / `…742780019`
+  - Interaksi (set A): `120253865743210019` / `…743620019` / `…744530019`
+  - Traffic (set B): `120253865744760019` / `…744970019` / `…745200019`
+- Creative: inline object_story_spec, Page 588336968031663, IG 17841405431328414 (user minta profil IG @elharamainwisata — tool tak bisa baca username, ID ini yang selalu dipakai; minta user cek di preview), image_hash, teks primary-texts sesuai paket (By Saudia + Direct Flight), headline berselang-seling, deskripsi standar, CTA WhatsApp, **page_welcome_message ice breakers** (3 pesan pembuka user + sambutan "Assalamualaikum Warahmatullahi Wabarakatuh, Elharamain Wisata Siap Melayani Anda").
+- Tertunda: user cek di Ads Manager (profil IG, nomor WA, pesan pembuka), lalu publish; matikan "Media terkait".

@@ -844,3 +844,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Gambar: 6 gambar per paket per akun (Ramadhan Desain 2/3, 9 Hari Januari Desain 4 Musim Dingin/Desain 7/januari_x, 12 Hari Januari Desain 2/12_hari_januari_x), gambar berbeda antar ad set dalam campaign; tiap gambar dipakai di 2 campaign berbeda.
 - Status semua iklan baru: PAUSED. Campaign/ad set tidak diubah.
 - Tertunda: 36 iklan AIni sebelumnya masih headline 6700+ & tanpa ice breaker Ramadhan (tanya user mau diperbarui?). Draft di Fikri/Nida/Diana/Hanif belum dipublish. Nomor WA, toggle katalog Advantage+, "Media terkait" → manual user.
+
+### 2026-10-22 — Cek akun mana yang iklan (baru) belum jalan
+- Diminta: cek akun mana yang belum.
+- Dicek (live, campaign nama mengandung "(baru)"): semua 9 akun punya 36 iklan.
+- AIni, Tira, Allif, Fifi, Fikri, Nida, Diana, Hanif: 36 iklan status ACTIVE (sudah dipublish/diaktifkan user; sebagian campaign bernama "(baru) - Salin").
+- **Irfan (1060984719243481): 36 iklan ada, tapi ad set masih PAUSED (ADSET_PAUSED) → belum jalan.**
+- Tertunda: aktifkan ad set Irfan hanya kalau user perintah.

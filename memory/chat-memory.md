@@ -72,6 +72,8 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 | `Umroh/Liburan Akhir Tahun` | `Desain_Paket 1..4`, `Desain_2_Paket 1..4`, `Desain_3_Paket 1..4` |
 | `Umroh/Ramadhan` | (8 Okt) 11 gambar: `1..5._Desain_2_Paket_Umroh_Ramadhan_Musim_Dingin_By_Saudia_Airlines_...` + `1..6._Desain_3_Paket_Umroh_Ramadhan_...`. Teks iklan: bagian **Ramadhan** di `primary-texts.md` |
 
+- **Meta Ads DNA / Blueprint (22 Okt):** hasil skill Build DNA + Operating System ada di [`dna/`](dna/README.md). Untuk analisis/keputusan harian baca dulu Quick Reference Card di [`dna/05_BLUEPRINT_META_ADS_ELHARAMAIN_UMROH.md`](dna/05_BLUEPRINT_META_ADS_ELHARAMAIN_UMROH.md) (CPR baseline Rp27,9–39,3rb, safe Rp54,9rb, kill > Rp73,8rb, winner ≥5 chat & ≤ Rp39,3rb). Aturan user di file ini tetap menang.
+
 ## Catatan teknis Meta Ads MCP
 
 - **Izin otomatis (11 Okt, perintah user "allow all"):** `.claude/settings.json` sekarang allow semua tool (seluruh Meta Ads, Cloudinary, Google Drive/Sheets, Canva, Elharamain, Bash, Read/Edit/Write, web). Berlaku mulai sesi baru. Aturan "iklan harus PAUSE" tetap: aktivasi/hapus hanya kalau user perintah eksplisit.

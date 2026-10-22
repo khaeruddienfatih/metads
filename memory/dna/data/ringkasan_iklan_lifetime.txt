@@ -1,0 +1,168 @@
+=== AD LEVEL (lifetime, iklan dengan spend>0, objective WA) ===
+AIni ads_total 3000 ads_WA 2652 spendWA Rp99.936.801 chat 2388 CPR Rp41.850 spend_nonWA Rp1.011.381 WA from 2026-03-19 to 2026-10-22
+Allif ads_total 731 ads_WA 677 spendWA Rp37.780.282 chat 723 CPR Rp52.255 spend_nonWA Rp3.305.759 WA from 2025-07-23 to 2026-10-22
+Diana ads_total 2000 ads_WA 1710 spendWA Rp80.355.045 chat 2149 CPR Rp37.392 spend_nonWA Rp1.265.673 WA from 2026-04-10 to 2026-10-22
+Fifi ads_total 2000 ads_WA 1771 spendWA Rp89.464.143 chat 2602 CPR Rp34.383 spend_nonWA Rp3.597.520 WA from 2026-03-25 to 2026-10-22
+Fikri ads_total 786 ads_WA 778 spendWA Rp75.432.639 chat 1749 CPR Rp43.129 spend_nonWA Rp202.969 WA from 2025-05-30 to 2026-10-22
+Hanif ads_total 2000 ads_WA 1612 spendWA Rp89.139.369 chat 2158 CPR Rp41.306 spend_nonWA Rp10.018.194 WA from 2025-12-22 to 2026-10-22
+Irfan ads_total 2000 ads_WA 1824 spendWA Rp85.554.462 chat 1863 CPR Rp45.923 spend_nonWA Rp224.194 WA from 2025-09-11 to 2026-10-22
+Nida ads_total 2000 ads_WA 1522 spendWA Rp65.617.350 chat 1546 CPR Rp42.443 spend_nonWA Rp151.883.476 WA from 2026-04-25 to 2026-10-22
+Tira ads_total 1700 ads_WA 1399 spendWA Rp56.671.344 chat 1338 CPR Rp42.355 spend_nonWA Rp32.944 WA from 2026-07-21 to 2026-10-22
+TOTAL WA ads 13945 spend Rp679.951.435 chat 16516 CPR Rp41.169
+
+--- Distribusi per iklan (spend>=20rb, n=5558) P25/Med/P75/P90 ---
+s 5558 [31810.0, 51187.0, 98624.0, 231585.4]
+r 5558 [0.0, 1.0, 2.0, 7.0]
+cpr 3322 [27882.5, 39284.75, 54912.25, 73835.8]
+ctr 5558 [0.42, 0.68, 1.03, 1.47]
+cpm 5558 [45228.41, 77899.72, 118078.47, 163544.55]
+cvr 5224 [0.0, 12.5, 25.0, 50.0]
+freq 5558 [1.06, 1.09, 1.15, 1.24]
+zero-result share among spend>=20k: 40.2 %
+
+--- Spend bucket iklan vs hasil ---
+Rp0-Rp10.000 n=6525 zero=6245 (96%) CPR=Rp75.227 medCTR=0.00
+Rp10.000-Rp20.000 n=1862 zero=1530 (82%) CPR=Rp71.434 medCTR=0.61
+Rp20.000-Rp35.000 n=1657 zero=1220 (74%) CPR=Rp84.284 medCTR=0.61
+Rp35.000-Rp50.000 n=1046 zero=615 (59%) CPR=Rp76.147 medCTR=0.67
+Rp50.000-Rp75.000 n=999 zero=310 (31%) CPR=Rp58.672 medCTR=0.71
+Rp75.000-Rp100.000 n=482 zero=67 (14%) CPR=Rp49.558 medCTR=0.76
+Rp100.000-Rp150.000 n=456 zero=19 (4%) CPR=Rp42.594 medCTR=0.72
+Rp150.000-Rp250.000 n=408 zero=5 (1%) CPR=Rp36.568 medCTR=0.66
+Rp250.000-Rp500.000 n=327 zero=0 (0%) CPR=Rp32.519 medCTR=0.67
+Rp500.000-Rp1.000.000.000 n=183 zero=0 (0%) CPR=Rp32.584 medCTR=0.70
+
+--- Per paket (dari nama iklan+adset+campaign) ---
+Lain/umum ads 4899 spend Rp241.924.243 chat 6568 CPR Rp36.834 CTR 0.65 chat/klik 15.0
+9 Hari Januari ads 2266 spend Rp140.118.091 chat 3387 CPR Rp41.369 CTR 0.61 chat/klik 17.0
+12 Hari Januari ads 2133 spend Rp82.341.991 chat 1740 CPR Rp47.323 CTR 0.61 chat/klik 14.5
+Qatar ads 1087 spend Rp66.605.149 chat 1603 CPR Rp41.550 CTR 0.66 chat/klik 15.3
+Desember ads 1410 spend Rp65.588.840 chat 1471 CPR Rp44.588 CTR 0.6 chat/klik 12.6
+Turki ads 564 spend Rp22.279.977 chat 446 CPR Rp49.955 CTR 0.52 chat/klik 25.5
+Ramadhan ads 385 spend Rp21.327.117 chat 507 CPR Rp42.065 CTR 0.71 chat/klik 17.3
+LAT ads 601 spend Rp16.732.871 chat 282 CPR Rp59.336 CTR 0.58 chat/klik 8.8
+Riyadh Air ads 425 spend Rp15.954.773 chat 348 CPR Rp45.847 CTR 0.65 chat/klik 16.1
+Haji ads 175 spend Rp7.078.383 chat 164 CPR Rp43.161 CTR 0.77 chat/klik 20.6
+
+--- Per keluarga creative (nama iklan) ---
+lain ads 10997 spend Rp535.733.091 chat 12813 CPR Rp41.812 CTR 0.62 chat/klik 15.5
+post ads 1101 spend Rp52.950.515 chat 1569 CPR Rp33.748 CTR 0.84 chat/klik 13.7
+januari_ ads 481 spend Rp31.821.604 chat 784 CPR Rp40.589 CTR 0.6 chat/klik 14.3
+Desain 2 ads 464 spend Rp17.894.714 chat 395 CPR Rp45.303 CTR 0.74 chat/klik 17.2
+Desain 3 ads 291 spend Rp14.167.870 chat 316 CPR Rp44.835 CTR 0.55 chat/klik 13.0
+saudia_9_hari ads 191 spend Rp11.868.354 chat 311 CPR Rp38.162 CTR 0.47 chat/klik 13.4
+10_hari_riyad ads 115 spend Rp6.433.750 chat 177 CPR Rp36.349 CTR 0.71 chat/klik 18.2
+testi ads 89 spend Rp3.908.468 chat 61 CPR Rp64.073 CTR 1.15 chat/klik 11.8
+Desain 4 ads 34 spend Rp1.993.699 chat 33 CPR Rp60.415 CTR 0.71 chat/klik 12.2
+Desain 7 ads 81 spend Rp1.484.641 chat 29 CPR Rp51.195 CTR 0.82 chat/klik 17.1
+Desain 4 Musim Dingin ads 33 spend Rp733.454 chat 17 CPR Rp43.144 CTR 0.9 chat/klik 20.2
+Desain 1 ads 54 spend Rp631.878 chat 10 CPR Rp63.188 CTR 0.75 chat/klik 12.5
+video ads 11 spend Rp316.747 chat 0 CPR - CTR 0.35 chat/klik 0.0
+
+--- Video vs gambar ---
+video 8771 Rp466.996.237 11543 Rp40.457
+gambar 5174 Rp212.955.198 4973 Rp42.822
+video spend>=50k n 1950 median p25/impr % 5.17
+
+--- Korelasi (iklan spend>=50rb & chat>0, n=2454) terhadap CPR ---
+ctr -0.107
+cpm 0.169
+cvr -0.231
+freq -0.115
+s -0.161
+cvr Q1[1.11-12.50] CPR Rp37.114 | Q2[12.50-20.00] CPR Rp35.755 | Q3[20.00-30.00] CPR Rp33.303 | Q4[30.00-200.00] CPR Rp34.045
+ctr Q1[0.10-0.48] CPR Rp35.902 | Q2[0.48-0.72] CPR Rp34.307 | Q3[0.72-1.02] CPR Rp35.853 | Q4[1.03-5.32] CPR Rp33.898
+cpm Q1[1468.48-36518.01] CPR Rp28.757 | Q2[36531.97-66489.01] CPR Rp36.447 | Q3[66524.31-104058.80] CPR Rp38.573 | Q4[104074.28-403900.00] CPR Rp44.761
+freq Q1[1.00-1.07] CPR Rp35.994 | Q2[1.07-1.11] CPR Rp37.384 | Q3[1.11-1.19] CPR Rp38.078 | Q4[1.19-2.20] CPR Rp32.309
+
+--- Per bulan iklan dibuat ---
+2025-05 ads 27 Rp2.312.367 26 Rp88.937
+2025-06 ads 196 Rp8.937.519 148 Rp60.389
+2025-07 ads 61 Rp4.237.628 57 Rp74.344
+2025-08 ads 317 Rp18.354.233 331 Rp55.451
+2025-09 ads 307 Rp16.434.935 237 Rp69.346
+2025-10 ads 424 Rp14.080.149 212 Rp66.416
+2025-12 ads 7 Rp16.443 0 -
+2026-02 ads 111 Rp3.142.654 35 Rp89.790
+2026-03 ads 63 Rp15.153.276 658 Rp23.029
+2026-04 ads 1728 Rp81.166.296 2574 Rp31.533
+2026-05 ads 975 Rp73.143.100 2074 Rp35.267
+2026-06 ads 2086 Rp92.358.140 2254 Rp40.975
+2026-07 ads 1855 Rp68.618.234 1471 Rp46.647
+2026-08 ads 822 Rp50.593.710 1303 Rp38.829
+2026-09 ads 3072 Rp140.741.570 3251 Rp43.292
+2026-10 ads 1894 Rp90.661.181 1885 Rp48.096
+
+--- Status iklan WA ---
+ARCHIVED 13284 Rp621.623.459 14873 Rp41.795
+ACTIVE 360 Rp15.330.397 449 Rp34.143
+ADSET_PAUSED 234 Rp30.820.488 848 Rp36.345
+DELETED 20 Rp1.076.730 12 Rp89.728
+CAMPAIGN_PAUSED 32 Rp5.166.814 130 Rp39.745
+PAUSED 15 Rp5.933.547 204 Rp29.086
+
+--- TOP 25 iklan (chat>=5) CPR terendah ---
+Fifi | new - Salin | paket - Salin | spend Rp48.262 chat 11 CPR Rp4.387 CTR 1.07 chat/klik 22
+Diana | new - Salin - Salin | Dubai - Salin | spend Rp147.567 chat 28 CPR Rp5.270 CTR 0.46 chat/klik 11
+Fifi | new - Salin - Salin | paket - Salin | spend Rp166.157 chat 26 CPR Rp6.391 CTR 0.97 chat/klik 17
+Diana | new - Salin - Salin | Dubai - Salin | spend Rp342.847 chat 49 CPR Rp6.997 CTR 0.40 chat/klik 11
+Fifi | new - Salin - Salin | paket | spend Rp370.166 chat 52 CPR Rp7.119 CTR 0.98 chat/klik 14
+Fifi | Paket - Salin | paket | spend Rp71.341 chat 10 CPR Rp7.134 CTR 0.76 chat/klik 19
+Fifi | Post - Salin | Post - Salin | spend Rp45.785 chat 6 CPR Rp7.631 CTR 0.81 chat/klik 13
+Fifi | new - Salin - Salin | paket | spend Rp99.785 chat 12 CPR Rp8.315 CTR 0.64 chat/klik 15
+Diana | new - Salin - Salin | Dubai - Salin | spend Rp143.785 chat 17 CPR Rp8.458 CTR 0.36 chat/klik 13
+AIni | new - Salin | New | spend Rp117.503 chat 13 CPR Rp9.039 CTR 0.94 chat/klik 31
+Fifi | Post | Post - Salin | spend Rp63.565 chat 7 CPR Rp9.081 CTR 0.93 chat/klik 29
+Fifi | Paket - Salin | paket - Salin | spend Rp361.552 chat 39 CPR Rp9.271 CTR 0.67 chat/klik 12
+Fifi | Paket - Salin | paket | spend Rp340.358 chat 35 CPR Rp9.725 CTR 0.59 chat/klik 9
+Diana | new - Salin | Dubai | spend Rp157.100 chat 16 CPR Rp9.819 CTR 0.32 chat/klik 13
+Fifi | new - Salin - Salin | paket | spend Rp59.022 chat 6 CPR Rp9.837 CTR 0.93 chat/klik 12
+Fifi | Post | Post - Salin | spend Rp49.904 chat 5 CPR Rp9.981 CTR 1.09 chat/klik 17
+Fifi | Gmabra 2 - Salin | post | spend Rp72.046 chat 7 CPR Rp10.292 CTR 2.52 chat/klik 39
+Diana | new - Salin - Salin | Dubai - Salin | spend Rp184.919 chat 17 CPR Rp10.878 CTR 0.34 chat/klik 9
+AIni | new - Salin | New - Salin | spend Rp56.395 chat 5 CPR Rp11.279 CTR 1.30 chat/klik 100
+Fifi | Post | Post | spend Rp82.138 chat 7 CPR Rp11.734 CTR 0.93 chat/klik 16
+Nida | desember | saudia_9_hari_4.jpg | judul1 | desember | spend Rp463.300 chat 39 CPR Rp11.879 CTR 0.37 chat/klik 8
+AIni | new - Salin | New - Salin | spend Rp183.560 chat 15 CPR Rp12.237 CTR 0.32 chat/klik 39
+AIni | new - Salin | New - Salin | spend Rp75.431 chat 6 CPR Rp12.572 CTR 0.31 chat/klik 21
+AIni | new - Salin | New - Salin | spend Rp154.660 chat 12 CPR Rp12.888 CTR 1.36 chat/klik 27
+Hanif | post | new - Salin | spend Rp77.343 chat 6 CPR Rp12.890 CTR 1.17 chat/klik 100
+
+--- TOP 15 iklan by chat ---
+Fifi | Januari | spend Rp5.086.218 chat 156 CPR Rp32.604 CTR 0.57 freq 1.36 2026-09-21
+Fikri | Post | spend Rp5.202.619 chat 153 CPR Rp34.004 CTR 0.82 freq 1.69 2026-05-20
+Diana | new | spend Rp2.820.042 chat 136 CPR Rp20.736 CTR 0.66 freq 1.49 2026-04-10
+Allif | Aqsa | spend Rp4.205.165 chat 135 CPR Rp31.149 CTR 0.53 freq 1.88 2025-08-26
+Tira | Saudia  Gambar - Salin | spend Rp3.607.546 chat 115 CPR Rp31.370 CTR 1.31 freq 1.42 2026-08-17
+Irfan | post - Salin | spend Rp2.397.875 chat 110 CPR Rp21.799 CTR 1.43 freq 1.69 2026-06-23
+Fikri | Post | spend Rp4.360.953 chat 109 CPR Rp40.009 CTR 0.86 freq 1.69 2026-05-20
+Tira | qatar gambar | spend Rp2.950.768 chat 98 CPR Rp30.110 CTR 0.57 freq 1.07 2026-08-17
+Fikri | 9 Hari | spend Rp3.113.234 chat 95 CPR Rp32.771 CTR 0.71 freq 1.67 2026-05-25
+Fikri | 9 Hari | spend Rp3.588.581 chat 94 CPR Rp38.176 CTR 0.48 freq 1.28 2026-05-25
+Tira | Saudia  Gambar - Salin | spend Rp2.766.466 chat 92 CPR Rp30.070 CTR 0.65 freq 1.10 2026-08-17
+Fifi | Paket - Salin | spend Rp1.430.365 chat 77 CPR Rp18.576 CTR 0.70 freq 1.73 2026-03-25
+Fifi | Paket - Salin | spend Rp1.154.598 chat 70 CPR Rp16.494 CTR 0.62 freq 1.58 2026-03-25
+Hanif | 12 Hari Januari | 12_hari_januari_1.jpg | judul1 | spend Rp2.447.451 chat 67 CPR Rp36.529 CTR 0.82 freq 1.19 2026-09-26
+Tira | januari gambar - Salin - Salin | spend Rp1.668.337 chat 64 CPR Rp26.068 CTR 0.63 freq 1.06 2026-09-24
+
+--- BOTTOM 20 (spend tertinggi dengan chat 0-1) ---
+Hanif | new - Salin | spend Rp241.078 chat 1 CTR 0.67 CPM Rp76.363
+AIni | 12 Hari | spend Rp232.594 chat 1 CTR 0.38 CPM Rp96.995
+Fifi | Saudia - Salin | spend Rp203.548 chat 1 CTR 0.49 CPM Rp13.734
+AIni | Saudia | spend Rp197.921 chat 0 CTR 0.58 CPM Rp19.425
+Allif | Turki | spend Rp197.834 chat 1 CTR 0.45 CPM Rp110.275
+Fifi | 12 Hari - Salin | spend Rp190.701 chat 1 CTR 0.63 CPM Rp100.001
+Irfan | Testimoni | spend Rp185.192 chat 1 CTR 0.23 CPM Rp17.797
+Fikri | gambar | spend Rp181.485 chat 1 CTR 0.64 CPM Rp115.302
+Fikri | reg | spend Rp176.402 chat 0 CTR 0.51 CPM Rp100.686
+Diana | 9 Hari | spend Rp173.714 chat 0 CTR 0.64 CPM Rp158.498
+AIni | 9 Hari | spend Rp170.705 chat 1 CTR 0.64 CPM Rp90.704
+AIni | 9 Hari | spend Rp159.656 chat 1 CTR 0.10 CPM Rp39.218
+Fikri | new | spend Rp157.509 chat 1 CTR 0.66 CPM Rp115.391
+AIni | 9 hari | spend Rp157.207 chat 0 CTR 0.45 CPM Rp78.998
+Fifi | 12 Hari - Video Saudia | spend Rp156.422 chat 0 CTR 0.45 CPM Rp50.055
+Fifi | Qatar New - Salin | spend Rp154.898 chat 1 CTR 0.93 CPM Rp84.969
+Allif | Dubai | spend Rp154.714 chat 1 CTR 0.24 CPM Rp61.224
+AIni | 12 hari | spend Rp154.532 chat 1 CTR 0.50 CPM Rp97.251
+Irfan | 9 Hari - Salin | spend Rp154.209 chat 1 CTR 0.32 CPM Rp25.926
+Hanif | haji | spend Rp154.201 chat 1 CTR 0.70 CPM Rp135.860

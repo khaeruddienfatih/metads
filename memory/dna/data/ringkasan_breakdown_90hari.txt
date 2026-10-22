@@ -1,0 +1,127 @@
+=== JAM (90 hari, campaign WA, semua akun digabung) ===
+  00 spend Rp883.890 chat 33 CPR Rp26.785 CPM Rp45.983 CTR 0.76 chat/klik 22.4
+  01 spend Rp448.160 chat 22 CPR Rp20.371 CPM Rp45.050 CTR 0.73 chat/klik 30.1
+  02 spend Rp331.330 chat 7 CPR Rp47.333 CPM Rp50.346 CTR 0.93 chat/klik 11.5
+  03 spend Rp651.480 chat 18 CPR Rp36.193 CPM Rp45.507 CTR 0.80 chat/klik 15.7
+  04 spend Rp2.285.345 chat 40 CPR Rp57.134 CPM Rp37.108 CTR 0.63 chat/klik 10.4
+  05 spend Rp4.082.022 chat 84 CPR Rp48.596 CPM Rp32.834 CTR 0.59 chat/klik 11.4
+  06 spend Rp4.410.632 chat 141 CPR Rp31.281 CPM Rp36.132 CTR 0.63 chat/klik 18.4
+  07 spend Rp5.132.777 chat 134 CPR Rp38.304 CPM Rp43.645 CTR 0.59 chat/klik 19.2
+  08 spend Rp4.954.483 chat 127 CPR Rp39.012 CPM Rp52.476 CTR 0.71 chat/klik 19.0
+  09 spend Rp3.765.986 chat 117 CPR Rp32.188 CPM Rp47.290 CTR 0.67 chat/klik 22.0
+  10 spend Rp3.704.994 chat 78 CPR Rp47.500 CPM Rp46.099 CTR 0.61 chat/klik 16.0
+  11 spend Rp3.480.451 chat 77 CPR Rp45.201 CPM Rp41.252 CTR 0.65 chat/klik 14.0
+  12 spend Rp3.480.969 chat 84 CPR Rp41.440 CPM Rp36.262 CTR 0.60 chat/klik 14.6
+  13 spend Rp3.552.283 chat 96 CPR Rp37.003 CPM Rp37.282 CTR 0.63 chat/klik 16.1
+  14 spend Rp3.606.991 chat 108 CPR Rp33.398 CPM Rp39.738 CTR 0.62 chat/klik 19.2
+  15 spend Rp3.959.126 chat 109 CPR Rp36.322 CPM Rp40.445 CTR 0.67 chat/klik 16.5
+  16 spend Rp4.171.557 chat 89 CPR Rp46.871 CPM Rp40.737 CTR 0.55 chat/klik 15.7
+  17 spend Rp4.082.347 chat 100 CPR Rp40.823 CPM Rp38.191 CTR 0.64 chat/klik 14.7
+  18 spend Rp4.083.969 chat 91 CPR Rp44.879 CPM Rp36.976 CTR 0.63 chat/klik 13.0
+  19 spend Rp3.969.883 chat 96 CPR Rp41.353 CPM Rp37.931 CTR 0.66 chat/klik 13.8
+  20 spend Rp3.846.253 chat 111 CPR Rp34.651 CPM Rp41.141 CTR 0.69 chat/klik 17.1
+  21 spend Rp3.274.122 chat 90 CPR Rp36.379 CPM Rp47.715 CTR 0.79 chat/klik 16.6
+  22 spend Rp2.226.880 chat 54 CPR Rp41.239 CPM Rp49.566 CTR 0.84 chat/klik 14.3
+  23 spend Rp1.298.850 chat 41 CPR Rp31.679 CPM Rp47.605 CTR 0.74 chat/klik 20.2
+per akun jam CPR terbaik/terburuk:
+  AIni best [] worst []
+  Allif best [('17', 'Rp23.094'), ('07', 'Rp23.798'), ('18', 'Rp27.624')] worst [('13', 'Rp32.430'), ('09', 'Rp34.776'), ('08', 'Rp35.193')]
+  Diana best [('13', 'Rp25.204'), ('09', 'Rp26.254'), ('20', 'Rp28.986')] worst [('18', 'Rp48.437'), ('22', 'Rp48.754'), ('11', 'Rp54.393')]
+  Fifi best [('23', 'Rp24.898'), ('00', 'Rp26.965'), ('19', 'Rp28.204')] worst [('10', 'Rp55.411'), ('18', 'Rp59.868'), ('05', 'Rp63.396')]
+  Fikri best [('09', 'Rp29.664'), ('20', 'Rp31.804'), ('14', 'Rp32.104')] worst [('06', 'Rp48.447'), ('17', 'Rp53.911'), ('11', 'Rp72.270')]
+  Hanif best [('21', 'Rp21.673'), ('14', 'Rp31.394'), ('06', 'Rp34.087')] worst [('06', 'Rp34.087'), ('07', 'Rp40.519'), ('18', 'Rp40.950')]
+  Irfan best [('11', 'Rp18.029'), ('06', 'Rp19.851'), ('21', 'Rp23.322')] worst [('20', 'Rp35.410'), ('16', 'Rp41.399'), ('08', 'Rp43.861')]
+  Nida best [('06', 'Rp23.244')] worst [('06', 'Rp23.244')]
+  Tira best [('06', 'Rp18.148'), ('08', 'Rp26.224'), ('07', 'Rp30.674')] worst [('08', 'Rp26.224'), ('07', 'Rp30.674'), ('05', 'Rp33.483')]
+blok jam:
+  00-04 spend Rp4.600.205 chat 120 CPR Rp38.335 CPM Rp41.201 CTR 0.70 chat/klik 15.4
+  05-09 spend Rp22.345.900 chat 603 CPR Rp37.058 CPM Rp41.531 CTR 0.63 chat/klik 17.7
+  10-14 spend Rp17.825.688 chat 443 CPR Rp40.239 CPM Rp39.898 CTR 0.62 chat/klik 16.0
+  15-19 spend Rp20.266.882 chat 485 CPR Rp41.787 CPM Rp38.804 CTR 0.63 chat/klik 14.7
+  20-23 spend Rp10.646.105 chat 296 CPR Rp35.967 CPM Rp45.434 CTR 0.76 chat/klik 16.7
+
+=== PENEMPATAN (90 hari; AIni,Tira,Irfan,Nida,Diana,Hanif) ===
+  instagram/feed spend Rp26.863.635 chat 596 CPR Rp45.073 CPM Rp93.294 CTR 0.84 chat/klik 24.7
+  instagram/instagram_reels spend Rp10.834.531 chat 316 CPR Rp34.286 CPM Rp67.155 CTR 1.26 chat/klik 15.6
+  instagram/instagram_stories spend Rp10.159.508 chat 255 CPR Rp39.841 CPM Rp65.847 CTR 0.91 chat/klik 18.3
+  whatsapp/status spend Rp7.173.235 chat 270 CPR Rp26.568 CPM Rp8.239 CTR 0.39 chat/klik 7.9
+  facebook/feed spend Rp1.098.818 chat 27 CPR Rp40.697 CPM Rp46.342 CTR 1.13 chat/klik 10.1
+  facebook/facebook_stories spend Rp883.885 chat 26 CPR Rp33.996 CPM Rp72.414 CTR 1.90 chat/klik 11.2
+  facebook/facebook_reels spend Rp590.952 chat 20 CPR Rp29.548 CPM Rp76.173 CTR 1.12 chat/klik 23.0
+  facebook/facebook_reels_overlay spend Rp154.347 chat 12 CPR Rp12.862 CPM Rp15.758 CTR 1.04 chat/klik 11.8
+per akun:
+  AIni {'instagram/feed': ('Rp45.337', 27), 'instagram/instagram_reels': ('Rp31.932', 17), 'instagram/instagram_stories': ('Rp39.098', 12)}
+  Diana {'instagram/feed': ('Rp42.634', 211), 'instagram/instagram_stories': ('Rp41.277', 101), 'instagram/instagram_reels': ('Rp28.441', 121), 'whatsapp/status': ('Rp32.560', 47), 'facebook/facebook_stories': ('Rp20.312', 5)}
+  Hanif {'instagram/feed': ('Rp55.362', 58), 'instagram/instagram_stories': ('Rp36.104', 34), 'instagram/instagram_reels': ('Rp31.274', 38), 'whatsapp/status': ('Rp38.487', 29), 'facebook/facebook_stories': ('Rp32.116', 5)}
+  Irfan {'instagram/feed': ('Rp45.478', 81), 'instagram/instagram_stories': ('Rp34.970', 35), 'instagram/instagram_reels': ('Rp38.874', 26), 'whatsapp/status': ('Rp26.901', 24), 'facebook/feed': ('Rp26.656', 6), 'facebook/facebook_stories': ('Rp33.366', 4)}
+  Nida {'instagram/feed': ('Rp45.405', 50), 'whatsapp/status': ('Rp30.554', 52), 'instagram/instagram_reels': ('Rp58.511', 21), 'instagram/instagram_stories': ('Rp42.179', 23)}
+  Tira {'instagram/feed': ('Rp44.253', 169), 'instagram/instagram_reels': ('Rp36.801', 93), 'whatsapp/status': ('Rp19.413', 118), 'instagram/instagram_stories': ('Rp41.995', 50), 'facebook/feed': ('Rp44.709', 21), 'facebook/facebook_reels': ('Rp31.200', 17), 'facebook/facebook_stories': ('Rp48.429', 8), 'facebook/facebook_reels_overlay': ('Rp17.862', 6)}
+inline (Allif/Fifi/Fikri):
+  ig_feed Rp19.772.345 466 Rp42.430
+  ig_stories Rp7.731.621 190 Rp40.693
+  ig_reels Rp6.870.009 177 Rp38.814
+  wa_status Rp4.903.029 144 Rp34.049
+  facebook_stories Rp355.530 11 Rp32.321
+
+=== USIA x GENDER (90 hari, sampel 1000 baris/akun) ===
+  female spend Rp155.391.794 chat 3435 CPR Rp45.238 CPM Rp41.166 CTR 0.61 chat/klik 14.9
+  male spend Rp40.862.336 chat 1021 CPR Rp40.022 CPM Rp24.972 CTR 0.51 chat/klik 12.2
+  unknown spend Rp438.949 chat 11 CPR Rp39.904 CPM Rp11.448 CTR 0.39 chat/klik 7.4
+  25-34 spend Rp57.965.219 chat 1455 CPR Rp39.839 CPM Rp19.789 CTR 0.43 chat/klik 11.6
+  35-44 spend Rp78.981.699 chat 1775 CPR Rp44.497 CPM Rp45.773 CTR 0.64 chat/klik 16.0
+  45-54 spend Rp45.667.983 chat 927 CPR Rp49.264 CPM Rp69.456 CTR 0.91 chat/klik 15.5
+  55-64 spend Rp12.782.004 chat 282 CPR Rp45.326 CPM Rp106.858 CTR 1.53 chat/klik 15.4
+  65+ spend Rp1.295.078 chat 28 CPR Rp46.253 CPM Rp73.322 CTR 1.21 chat/klik 13.1
+  Unknown spend Rp1.096 chat 0 CPR - CPM Rp109.600 CTR 0.00 chat/klik 0.0
+  35-44/female spend Rp61.361.195 chat 1359 CPR Rp45.152 CPM Rp51.280 CTR 0.67 chat/klik 16.9
+  25-34/female spend Rp45.312.742 chat 1098 CPR Rp41.268 CPM Rp22.678 CTR 0.44 chat/klik 12.5
+  45-54/female spend Rp37.150.046 chat 729 CPR Rp50.960 CPM Rp77.971 CTR 0.96 chat/klik 16.0
+  35-44/male spend Rp17.466.277 chat 410 CPR Rp42.601 CPM Rp33.608 CTR 0.57 chat/klik 13.8
+  25-34/male spend Rp12.479.751 chat 353 CPR Rp35.353 CPM Rp13.803 CTR 0.40 chat/klik 9.8
+  55-64/female spend Rp10.548.466 chat 229 CPR Rp46.063 CPM Rp114.025 CTR 1.59 chat/klik 15.5
+  45-54/male spend Rp8.426.666 chat 197 CPR Rp42.775 CPM Rp47.042 CTR 0.79 chat/klik 14.0
+  55-64/male spend Rp2.218.857 chat 53 CPR Rp41.865 CPM Rp82.519 CTR 1.34 chat/klik 14.8
+  65+/female spend Rp1.018.439 chat 20 CPR Rp50.922 CPM Rp91.315 CTR 1.43 chat/klik 12.6
+
+=== WILAYAH (90 hari; AIni,Tira,Fifi,Fikri,Hanif,Nida) ===
+  Jakarta spend Rp26.200.005 chat 0 CPR - CPM Rp72.160 CTR 0.78 chat/klik 0.0
+  West Java spend Rp19.546.048 chat 0 CPR - CPM Rp48.583 CTR 0.71 chat/klik 0.0
+  Banten spend Rp19.201.335 chat 0 CPR - CPM Rp46.886 CTR 0.65 chat/klik 0.0
+  Central Java spend Rp8.493.614 chat 0 CPR - CPM Rp24.628 CTR 0.49 chat/klik 0.0
+  East Java spend Rp7.080.357 chat 0 CPR - CPM Rp34.379 CTR 0.59 chat/klik 0.0
+  East Kalimantan spend Rp2.866.790 chat 0 CPR - CPM Rp48.250 CTR 0.77 chat/klik 0.0
+  Lampung spend Rp1.157.224 chat 0 CPR - CPM Rp25.785 CTR 0.57 chat/klik 0.0
+
+=== AD SET (lifetime) ===
+n adset WA 5468
+  CONVERSATIONS spend Rp954.622.991 chat 21217 CPR Rp44.993 CPM Rp42.585 CTR 0.63 chat/klik 15.1
+  MESSAGING_INSTAGRAM_DIRECT_WHATSAPP spend Rp4.014.650 chat 52 CPR Rp77.205 CPM Rp90.942 CTR 0.52 chat/klik 22.8
+  WHATSAPP spend Rp950.608.341 chat 21165 CPR Rp44.914 CPM Rp42.489 CTR 0.63 chat/klik 15.1
+budget harian ad set:
+  <=100k spend Rp2.713.546 chat 47 CPR Rp57.735 CPM Rp97.824 CTR 1.02 chat/klik 16.6
+  <=50k spend Rp13.666.950 chat 172 CPR Rp79.459 CPM Rp75.995 CTR 0.50 chat/klik 19.3
+  CBO/none spend Rp938.242.495 chat 20998 CPR Rp44.682 CPM Rp42.245 CTR 0.63 chat/klik 15.1
+frekuensi ad set (spend>=100k):
+  freq<=1.1 spend Rp135.395.201 chat 3276 CPR Rp41.329 CPM Rp27.895 CTR 0.49 chat/klik 13.7
+  freq<=1.2 spend Rp233.461.635 chat 5277 CPR Rp44.241 CPM Rp49.960 CTR 0.68 chat/klik 16.7
+  freq<=1.4 spend Rp259.036.591 chat 6136 CPR Rp42.216 CPM Rp52.287 CTR 0.70 chat/klik 17.8
+  freq<=1.6 spend Rp89.013.572 chat 2312 CPR Rp38.501 CPM Rp40.647 CTR 0.62 chat/klik 17.0
+  freq<=2.0 spend Rp77.145.902 chat 2362 CPR Rp32.661 CPM Rp27.335 CTR 0.66 chat/klik 12.6
+  freq<=3.0 spend Rp11.924.163 chat 256 CPR Rp46.579 CPM Rp24.286 CTR 0.46 chat/klik 11.4
+total spend ad set:
+  spend<=Rp1.000.000 spend Rp189.913.617 chat 4981 CPR Rp38.128 CPM Rp35.691 CTR 0.59 chat/klik 15.9
+  spend<=Rp100.000 spend Rp148.645.927 chat 1598 CPR Rp93.020 CPM Rp61.099 CTR 0.66 chat/klik 9.9
+  spend<=Rp2.000.000 spend Rp141.869.507 chat 4042 CPR Rp35.099 CPM Rp39.482 CTR 0.66 chat/klik 17.0
+  spend<=Rp250.000 spend Rp172.267.914 chat 3063 CPR Rp56.242 CPM Rp50.811 CTR 0.65 chat/klik 13.9
+  spend<=Rp5.000.000 spend Rp100.479.614 chat 2840 CPR Rp35.380 CPM Rp38.833 CTR 0.67 chat/klik 16.4
+  spend<=Rp500.000 spend Rp179.782.655 chat 4006 CPR Rp44.878 CPM Rp40.615 CTR 0.58 chat/klik 15.5
+  spend>5jt spend Rp21.663.757 chat 687 CPR Rp31.534 CPM Rp32.554 CTR 0.65 chat/klik 15.8
+
+=== JUMLAH IKLAN PER AD SET (grup adset+tgl buat, spend>=100rb) ===
+  1 iklan grup 58 CPR Rp32.890 median porsi spend iklan teratas 100%
+  2 iklan grup 56 CPR Rp36.698 median porsi spend iklan teratas 81%
+  3 iklan grup 433 CPR Rp39.268 median porsi spend iklan teratas 68%
+  4 iklan grup 31 CPR Rp38.390 median porsi spend iklan teratas 54%
+  5 iklan grup 194 CPR Rp41.214 median porsi spend iklan teratas 55%
+  6 iklan grup 66 CPR Rp35.747 median porsi spend iklan teratas 44%
+  7+ iklan grup 376 CPR Rp40.423 median porsi spend iklan teratas 32%

@@ -851,3 +851,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - AIni, Tira, Allif, Fifi, Fikri, Nida, Diana, Hanif: 36 iklan status ACTIVE (sudah dipublish/diaktifkan user; sebagian campaign bernama "(baru) - Salin").
 - **Irfan (1060984719243481): 36 iklan ada, tapi ad set masih PAUSED (ADSET_PAUSED) → belum jalan.**
 - Tertunda: aktifkan ad set Irfan hanya kalau user perintah.
+
+### 2026-10-22 — Jalankan semua skill dari Google Doc "Build DNA Meta Ads & Operating System"
+- Diminta: user kirim link Google Doc (panduan Bisnis Underground: 5 skill Build DNA + 15 skill harian) lalu "jalankan semua skliknya".
+- Dikerjakan (read-only, tidak ada perubahan ke Meta): tarik data 9 akun Umroh — ±13.945 iklan WA lifetime, breakdown 90 hari (jam, penempatan, usia/gender, wilayah), ad set lifetime, data 7 hari per iklan, benchmark & tren Meta (Tira, Irfan), log budget (Fikri).
+- Hasil: folder `memory/dna/` — 01–04 discovery, **05 Blueprint (Otak Meta Ads)**, Level 2 (15 skill) 22 Okt, data + script.
+- Temuan utama: CPR lifetime Rp41.169 (16.516 chat, Rp680 jt); baseline Rp27,9–39,3rb, safe Rp54,9rb, kill > Rp73,8rb; 5,7% iklan = 70% chat; CPM driver #1 (9/9 akun); 12 Hari > 9 Hari di 9/9 akun; LAT termahal; WA Status < IG Feed (7/8 akun); CPR naik Mar Rp23rb → Okt Rp48rb; Nida Rp151,9 jt di objective non-chat.
+- Usulan (menunggu user): aktifkan lagi ad set winner yang di-pause (Allif Ramadhan Rp24rb, Allif 9 Hari jatim Rp19,7rb, Fikri Desember-4 Rp16,2rb, dll.), hapus 5 kandidat kill (Fikri Ramadhan Desain 3 #2 judul1 ACTIVE Rp84rb/0 chat, dll.), aktifkan ad set "(baru)" Irfan, uji ambang kill Rp50rb, CS catat closing per akun.
+- Tertunda: jawaban 5 pertanyaan di akhir `memory/dna/LEVEL2_OPERATING_SYSTEM_2026-10-22.md`. Log budget akun lain gagal (502).

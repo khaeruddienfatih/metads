@@ -36,7 +36,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
   **Phone number ID WhatsApp (22 Okt, dari WhatsApp Manager)** — dipakai di ad set `promoted_object.whats_app_business_phone_number_id`:
   Fikri 960847667109740 · Nida ("elharamain wisata jakarta") 965627883291461 · Diana 106153078857883 · Fifi (Profil Telepon) 103673662442851 · Hanif 737761806076654 · Alif 893984207120814 · AIni ("Elharamain Wisata Depok") 897107583479313 · Irfan 1049088094963016 · Tira: belum ada.
 - **Headline** berselang-seling:
-  - `6700+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`
+  - `6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)` (22 Okt: diganti dari 6700+ atas perintah user)
   - `✈️ Tiket Sudah Confirm, Jadwal Pasti`
 - **Deskripsi:** `Hotel Bintang 5 · Seat terbatas 45/keberangkatan`
 - **Cloudinary aktif (sejak 9 Okt, perintah user): cloud `q2xuhm0o`** — URL `https://res.cloudinary.com/q2xuhm0o/image/upload/<public_id>.jpg`. Cloud lama `v6gwkqrb` tidak dipakai lagi.

@@ -75,7 +75,7 @@ Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elhar
 🕋 Kuliner Arab Saudi
 🕋 Team Handling Profesional
 
-👍 6700+ ulasan di Google Review 🌟 5
+👍 6800+ ulasan di Google Review 🌟 5
 
 👍Track Record Jelas, berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
 

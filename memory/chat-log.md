@@ -770,3 +770,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Traffic (set B): `120253865744760019` / `…744970019` / `…745200019`
 - Creative: inline object_story_spec, Page 588336968031663, IG 17841405431328414 (user minta profil IG @elharamainwisata — tool tak bisa baca username, ID ini yang selalu dipakai; minta user cek di preview), image_hash, teks primary-texts sesuai paket (By Saudia + Direct Flight), headline berselang-seling, deskripsi standar, CTA WhatsApp, **page_welcome_message ice breakers** (3 pesan pembuka user + sambutan "Assalamualaikum Warahmatullahi Wabarakatuh, Elharamain Wisata Siap Melayani Anda").
 - Tertunda: user cek di Ads Manager (profil IG, nomor WA, pesan pembuka), lalu publish; matikan "Media terkait".
+
+### 2026-10-22 — Headline "6700+ Google Review" diganti "6800+"
+- Aturan headline diperbarui di chat-memory: `6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`; teks 9 Hari Januari di primary-texts juga jadi "6800+ ulasan di Google Review".
+- 36 draft iklan AIni "(baru)" yang baru dibuat masih memakai 6700+ (18 headline + 9 teks 9J). Creative tidak bisa diedit via tool → menunggu pilihan user (edit massal di Ads Manager atau Claude buat ulang).

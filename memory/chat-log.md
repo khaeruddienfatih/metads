@@ -754,3 +754,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User: toggle Katalog Advantage+ di campaign Penjualan buatan Claude menyala → bikin error, harus mati.
 - Draft campaign `120253865883140019` terbaca `automation_unified_campaign_type: UNIFIED_SALES_PROXY` (Advantage+ sales, otomatis dari Meta untuk OUTCOME_SALES via API). Ad set otomatis kembali ke WEB_AND_APP + OFFSITE_CONVERSIONS saat dibuka di Ads Manager.
 - Dicoba set `smart_promotion_type: GUIDED_CREATION` → diterima tapi UNIFIED_SALES_PROXY tetap. Tool tidak punya field untuk mematikan toggle katalog → user matikan manual di Ads Manager, lalu pilih lokasi konversi WhatsApp + nomor.
+
+### 2026-10-22 — Buat ulang Penjualan (baru) dengan menyalin campaign Sales buatan user
+- Draft lama `120253865883140019` di-rename "XXX HAPUS - Penjualan error katalog" + PAUSED → user discard manual.
+- Campaign Penjualan (baru) `120253866004320019` dibuat dengan `source_campaign_id` = Sales `120253855545180019` (campaign manual user, GUIDED_CREATION, tidak bermasalah), CBO Rp100.000 — DRAFT. Read-back: tidak ada automation_unified_campaign_type.
+- 3 ad set DRAFT disalin dari ad set Sales (`source_adset_id`): Ramadhan `120253866011660019` (dari …545300019), 9 Hari Januari `120253866014590019` (dari …545270019), 12 Hari Januari `120253866014630019` (dari …545280019); CONVERSATIONS, WHATSAPP, conversion_locations WHATSAPP, target/penempatan default; tanpa error.
+- Belum terverifikasi apakah toggle Katalog Advantage+ di Ads Manager mati — user diminta cek. Nomor WA belum diisi.

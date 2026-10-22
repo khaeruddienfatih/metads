@@ -825,3 +825,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   Fikri `120249750704100470`/`…705340470`/`…706190470`; Nida `120251824247910004`/`…252110004`/`…253960004`; Diana `120252216305950294`/`…312470294`/`…318260294`; Hanif `120254963577110427`/`…577850427`/`…578940427`.
 - Tujuan LEAD_GENERATION di Prospek Nida/Diana/Hanif tidak bisa diubah (Meta: atribusi tidak bisa diubah setelah ad set dibuat).
 - Tertunda: perubahan draft perlu diterbitkan (user di Ads Manager, atau Claude dengan perintah user).
+
+### 2026-10-22 — "cek lagi": cek ulang kota & penempatan semua ad set "(baru)" 9 akun
+- Live: Tira/Allif/Fifi/Irfan (12 ad set masing-masing, PAUSED) dan AIni (12, ACTIVE) semua sesuai. Irfan kini 12 ad set (Prospek LEAD_GENERATION sudah dihapus user).
+- User sudah mengganti Prospek LEAD_GENERATION di Nida/Diana/Hanif dengan salinan "Prospek (baru) - Salin" (CONVERSATIONS, ACTIVE, 0 iklan) — salinan ini belum sesuai: Nida & Diana IG kurang profile_reels, Hanif penempatan otomatis.
+- Diperbaiki (draft, tanpa error, menunggu publish): Nida `120251824647170004`/`…180004`/`…190004`, Diana `120252216710030294`/`…040294`/`…050294`, Hanif `120254963922420427`/`…430427`/`…440427`. Fikri Prospek (3) live masih Indonesia + penempatan otomatis; perbaikan draftnya dari sebelumnya masih menunggu publish.
+- Tertunda: publish draft perbaikan 12 ad set Prospek (Fikri 3, Nida 3, Diana 3, Hanif 3).

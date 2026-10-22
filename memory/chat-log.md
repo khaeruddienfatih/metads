@@ -731,3 +731,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Traffic (baru) `120253865729890019`: `…744760019` / `…744970019` / `…745200019`
 - Semua validasi tanpa error. Tertunda: user pilih nomor WA 0851-7998-8198 di 12 ad set draft; lalu Claude buat 36 iklan (dengan pesan pembuka) atas perintah user.
 - Aturan baru: untuk akun yang nomor WA-nya diatur manual, biarkan campaign/ad set di DRAFT (jangan publish) sampai user pasang nomor.
+
+### 2026-10-22 — Konfirmasi: konversi "percakapan pesan dimulai", user hanya ganti nomor HP
+- Dikonfirmasi ke user: 12 ad set draft "(baru)" sudah optimization CONVERSATIONS (percakapan pesan dimulai) + lokasi konversi WhatsApp; user cukup pilih nomor WA di Ads Manager. Tidak ada perubahan di akun.

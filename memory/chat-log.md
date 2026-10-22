@@ -874,3 +874,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **Gagal 2 iklan Tira** (120252588317790584 12H jakarta "12 hari 3" Rp44,9rb; 120252538334370584 Ramadhan jateng D3#2 Rp36,9rb): error "Ad account status is ineligible to manage ads" (subcode 2490592) → **akun Tira tidak bisa diedit**, cek status akun/pembayaran di Ads Manager.
 - AIni & Hanif: tidak ada iklan yang memenuhi.
 - Koreksi Level 2: Fikri "Ramadhan | Desain 3 #2 | judul1" lifetime 5 chat (Rp200rb) → bukan kandidat kill (angka 0 chat sebelumnya hanya 7 hari).
+
+### 2026-10-22 — Index project (codebase-memory)
+- Diminta: "index this project".
+- Dikerjakan: `codebase-memory-mcp cli index_repository` untuk repo ini → project `Users-macbookairm1-Desktop-metaads`, 509 node, 1.132 edge (Python 11 file, YAML 2, JS 2, HTML 1; entry point `metads/cli.py` & `metads/preview.py`). `.env` tidak diindex (gitignore).

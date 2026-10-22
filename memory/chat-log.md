@@ -704,3 +704,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 12 ad set Penjualan/Prospek/Interaksi/Traffic: promoted_object di-set `{page_id 588336968031663, whats_app_business_phone_number_id 897107583479313}` → tervalidasi tanpa error, tapi **publish tidak masuk**: dicoba 2x, status PUBLISHING lalu draft tetap EDITING (kemungkinan nomor WA tidak bisa diubah lewat API setelah ad set terbit). Perubahan masih tersimpan sebagai draft di Ads Manager.
 - Terlihat juga edit draft dari Ads Manager (bukan dari Claude): ad set Penjualan 9J & Prospek 9J (Threads + sebagian penempatan IG dihapus) dan 1 iklan Prospek Ramadhan D3#4 (welcome message/ice breakers WA). Tidak disentuh.
 - Semua campaign tetap PAUSED. Tertunda: user cek/publish nomor WA manual di Ads Manager.
+
+### 2026-10-22 — "buat ulang" + pesan pembuka WA (ice breakers)
+- Pesan pembuka dari user (ice breakers): "Assalamualaikum info paket umrah Elharamain Wisata Terimakasih" / "... umrah 9 Hari ..." / "... umrah 12 Hari ...". Teks sambutan di draft user: "Assalamualaikum Warahmatullahi Wabarakatuh, Elharamain Wisata Siap Melayani Anda". Disimpan di chat-memory.
+- Uji buat ulang 1 ad set (Penjualan, `120253865645080019`) dengan whats_app_business_phone_number_id 897107583479313 → error **"You do not have access to the WhatsApp Business Phone Number"**. Akar masalah: akun Facebook yang tersambung ke connector Claude tidak punya akses ke aset nomor WA AIni (ini juga sebab publish nomor WA sebelumnya gagal diam-diam). Draft uji di-rename "XXX HAPUS - ERROR (uji nomor WA)" + PAUSED → user discard manual.
+- Pembuatan ulang dihentikan. Menunggu user beri akses (Business Settings → Akun WhatsApp → tambah orang/akses penuh) atau atur nomor + pesan pembuka manual di Ads Manager.

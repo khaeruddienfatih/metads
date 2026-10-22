@@ -690,3 +690,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Error ad set Traffic 12 Hari Januari `…204170019`: promoted_object terisi otomatis `whats_app_business_phone_number_id` 1229512063584833 yang tidak bisa diakses → diperbaiki dengan set promoted_object hanya `page_id` 588336968031663 → lolos & ikut dipublish.
 - Catatan teknis: publish dengan ignore_validation_errors hanya menerbitkan campaign; ad set & iklan perlu dipublish ulang (object_ids ad set + iklan).
 - Tertunda: template WA, matikan "Media terkait", aktivasi (menunggu perintah). Draft penempatan 3 ad set Sales lama masih belum dipublish.
+
+### 2026-10-22 — User: nomor WA tidak sesuai nama akun; penempatan hanya IG semua + FB Story + Threads + WA
+- Cek 12 ad set campaign baru AIni: penempatan sudah sesuai (publisher facebook/instagram/whatsapp/threads; FB story; IG semua; WA status; Threads stream). Meta menampilkan effective_publisher_platforms tanpa Threads (kemungkinan Threads tidak didukung untuk iklan percakapan WhatsApp).
+- Nomor WA: promoted_object tiap ad set terisi otomatis oleh Meta (draft Traffic 12J sempat berisi whats_app_business_phone_number_id 1229512063584833). Tool tidak bisa melihat/daftar nomor WA & ID-nya, jadi nomor AIni (0851-7998-8198) belum bisa dipasang lewat tool. Menunggu: user pilih nomor manual di Ads Manager (12 ad set) ATAU kirim "Phone number ID" dari WhatsApp Manager.

@@ -878,3 +878,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-22 — Index project (codebase-memory)
 - Diminta: "index this project".
 - Dikerjakan: `codebase-memory-mcp cli index_repository` untuk repo ini → project `Users-macbookairm1-Desktop-metaads`, 509 node, 1.132 edge (Python 11 file, YAML 2, JS 2, HTML 1; entry point `metads/cli.py` & `metads/preview.py`). `.env` tidak diindex (gitignore).
+
+### 2026-10-23 — "lanjut": coba lagi hapus 2 iklan boros Tira
+- Dicoba ulang DELETED untuk 120252588317790584 (12H jakarta "12 hari 3" Rp44,9rb) dan 120252538334370584 (Ramadhan jateng D3#2 Rp36,9rb).
+- Hasil: **masih gagal** — "Ad account status is ineligible to manage ads" (subcode 2490592). Akun Tira tetap tidak bisa diedit lewat tool; user perlu cek status akun/pembayaran Tira di Ads Manager, atau hapus 2 iklan itu manual.
+- Pending lain (menunggu perintah user): aktifkan ad set "(baru)" Irfan; usulan DNA Level 2 (aktifkan winner yang di-pause, hapus kandidat kill); update 36 iklan AIni (headline 6800+ & ice breaker Ramadhan).

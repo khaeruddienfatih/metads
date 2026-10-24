@@ -929,3 +929,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 54 draft salinan lama hilang (dibuang user di Ads Manager); 15 iklan baru ikut terbuang → dibuat ulang lagi.
 - Hasil cek draft akhir: 54 iklan, 3 per ad set × 18 ad set, semua VALIDATED tanpa error. Status staged: 51 ACTIVE, 3 PAUSED. Belum diterbitkan.
 - Catatan: ad set & campaign ACTIVE → kalau diterbitkan apa adanya, iklan langsung tayang. Tertunda: user terbitkan (atau minta saya set PAUSED dulu).
+
+### 2026-10-24 — Cek kota ad set ACTIVE di 9 akun Umroh (read-only)
+- 197 ad set ACTIVE dicek. Sesuai default 25 kota: AIni 12, Tira 12, Allif 6, Fifi 12 (+3 versi 30 kota campaign Banten), Fikri 15/15, Nida 18 (6 JB/6 Jakarta/6 Banten), Diana 15, Hanif 20, Irfan 17.
+- Belum sesuai (seluruh Indonesia / provinsi): AIni 4 (campaign Ramadhan: Indonesia, banten, jakarta, jateng&jatim); Tira 15 (Penjualan 9 ad set Indonesia spend 0, Tira pusat 6); Allif 9 (9 Hari januari & Ramadhan per provinsi/Indonesia); Fifi 14 (Fifi 8 Indonesia, Fifi Kota 4 = region Jakarta + Bandung/Bekasi/Bogor/Depok/Serpong/Tangerang, Ramadhan Banten & Jabar); Nida 11; Diana 6 (5 Indonesia + Tangerang: Serpong & Tangerang saja); Hanif 2; Irfan 6 (Irfan Indonesia).
+- Tidak ada perubahan (aturan: ad set ACTIVE tidak disentuh tanpa perintah).

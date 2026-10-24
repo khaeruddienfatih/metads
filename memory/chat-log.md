@@ -905,3 +905,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Nida (1019832712800468): user membuat hari ini 08:00 **6 campaign salinan** (ACTIVE, CBO Rp100rb/hari masing-masing): "Penjualan (baru) - Salin" ×3 (`120251865299700004`, `…299710004`, `…299730004`) dan "Prospek (baru) - Salin - Salin" ×3 (`120251865308290004`, `…308300004`, `…308330004`), masing-masing 3 ad set (Ramadhan/9 Hari Januari/12 Hari Januari) = 18 ad set ACTIVE, CONVERSATIONS→WhatsApp, umur 25–65.
 - Lokasi 18 ad set: 25 kota default radius 40 km + 5 subcity Jakarta — **belum ada kota tambahan Banten** (Serang/Cilegon/Balaraja/Cikarang/Karawang 966166) seperti di Fifi. IG tanpa `profile_reels`.
 - Tidak diubah (ACTIVE). Campaign lama "Prospek (baru) - Salin" kini CAMPAIGN_PAUSED.
+
+### 2026-10-24 — Nida: 3 Penjualan + 3 Prospek baru dibagi Jawa Barat / Jakarta / Banten
+- Perintah user: "kampanye baru 3 penjualan 3 prospek kamu set jadi jawa barat, jakarta, banten" (izin eksplisit ubah ad set ACTIVE).
+- Pembagian (urut ID campaign): Penjualan (baru) - Salin `120251865299700004` = **Jawa Barat**, `…299710004` = **Jakarta**, `…299730004` = **Banten**; Prospek (baru) - Salin - Salin `120251865308290004` = **Jawa Barat**, `…308300004` = **Jakarta**, `…308330004` = **Banten**. Masing-masing 3 ad set (Ramadhan/9 Hari Januari/12 Hari Januari) → 18 ad set.
+- Lokasi radius 40 km: Jabar 12 key (Bekasi, Bandung, Bogor, Cibinong, Depok, Karawang 966167+966166, Garut, Cirebon, Sukabumi, Tasikmalaya, Cikarang); Jakarta 962899 + 5 subcity; Banten 5 (Tangerang, Serpong, Serang, Cilegon 956300, Balaraja 949353). Penempatan default + `profile_reels`; umur 25–65, advantage_audience 0, brand_safety tetap.
+- Draft (akun Nida) → dipublish hanya 18 ad set (publish_as_active=false). Verifikasi live 18/18 lokasi benar, status IN_PROCESS (review Meta). Nama campaign belum diganti (masih "- Salin").

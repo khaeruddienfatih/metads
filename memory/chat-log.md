@@ -1019,3 +1019,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-24 — "yang belum tersentuh akun mana"
 - Dijawab: sudah dikerjakan hari ini Tira, Nida, AIni, Fikri, Hanif, Diana, Fifi, Irfan. Belum disentuh: Allif (4678183395742010, cek terakhir tidak ada campaign baru hari ini), Elharamain Haji (947788760498911, belum dicek), CloseF (1050343302646341, belum dicek), Elharamainclose (Ads MCP belum dibuka). Ad set lama di semua akun sengaja dibiarkan.
+
+### 2026-10-24 — Akun Haji: ad set jadi per kota
+- Permintaan: "masuk ke akun iklan haji perbaiki adset jadi per kota"; dijawab user: hanya "yang dibuat hari ini", kota default 25 kota untuk ad set non-wilayah.
+- Cek akun Haji (947788760498911): 36 ad set, terbaru dibuat 22 Okt (Irfan "… - Salin"); **tidak ada ad set yang dibuat hari ini** → tidak ada perubahan.
+- Kalau user membuat ad set Haji baru: ad set bernama wilayah → kota wilayah; lainnya (Broud/Interest/LLA/Haji/Indonesia) → 25 kota default.

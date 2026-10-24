@@ -76,3 +76,20 @@ Semua Instagram + Facebook Story + WhatsApp Status + Threads:
 
 Jangan pakai `explore` (error "IG Explore Placement Is Deprecated"); `explore_home` boleh.
 Hapus `page_types`/`effective_*` saat mengirim targeting.
+
+## Pembagian 5 kelompok wilayah (permintaan user 24 Okt 2026)
+
+Dari 25 kota + 5 subcity Jakarta yang sedang berjalan (radius 40 km). Untuk ad set per wilayah,
+pakai key kelompok itu saja di `geo_locations.cities` (radius 40 km; subcity Jakarta tanpa radius).
+
+| Kelompok | Kota (key) | Jumlah |
+|---|---|---|
+| **Jakarta** | Jakarta 962899 + subcity South 2727916, Central 2998930, East 2998931, North 2998932, West 2998933 | 1 kota + 5 subcity |
+| **Jawa Barat** | Bekasi 951390, Bandung 949797, Bogor 953142, Cibinong 955404, Depok 957890, Karawang 966167, Garut 960633, Cirebon 956891, Sukabumi 992117, Tasikmalaya 995230 | 10 |
+| **Banten** | Tangerang 994587, Serpong 989923 | 2 |
+| **Pulau Jawa** (Jateng & Jatim) | Semarang 989399, Surakarta 992961, Malang 973850 | 3 |
+| **Luar Pulau Jawa** | Medan 975253, Padang 979675, Pekanbaru 982868, Palembang 980311, Bandar Lampung 950016, Balikpapan 949414, Samarinda 988013, Banjarmasin 950015, Makassar 973751 | 9 |
+
+Catatan: radius 40 km dari Jakarta ikut menjangkau Tangerang, Depok, dan Bekasi. Kalau ad set per wilayah
+jalan bersamaan, audiens Jakarta–Jabar–Banten bisa tumpang tindih. Serang (989841) dan Cikarang (955995)
+punya key tapi tidak dipakai di daftar yang berjalan.

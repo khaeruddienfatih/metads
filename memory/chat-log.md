@@ -883,3 +883,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicoba ulang DELETED untuk 120252588317790584 (12H jakarta "12 hari 3" Rp44,9rb) dan 120252538334370584 (Ramadhan jateng D3#2 Rp36,9rb).
 - Hasil: **masih gagal** — "Ad account status is ineligible to manage ads" (subcode 2490592). Akun Tira tetap tidak bisa diedit lewat tool; user perlu cek status akun/pembayaran Tira di Ads Manager, atau hapus 2 iklan itu manual.
 - Pending lain (menunggu perintah user): aktifkan ad set "(baru)" Irfan; usulan DNA Level 2 (aktifkan winner yang di-pause, hapus kandidat kill); update 36 iklan AIni (headline 6800+ & ice breaker Ramadhan).
+
+### 2026-10-24 — Bagi kota yang berjalan jadi 5 kelompok
+- Diminta: bagi kota target Meta Ads yang sedang berjalan jadi Jakarta, Jawa Barat, Banten, Pulau Jawa, Luar Pulau Jawa.
+- Dikerjakan: tabel kelompok + key lokasi ditambahkan di `memory/target-kota.md`. Jakarta 1 kota + 5 subcity; Jabar 10; Banten 2 (Tangerang, Serpong); Pulau Jawa 3 (Semarang, Surakarta, Malang); Luar Jawa 9. Tidak ada perubahan ke Meta.
+- Catatan: (23 Okt) push ke repo baru `elharamainwisata/ads` diblokir izin, remote masih `khaeruddienfatih/metads`.

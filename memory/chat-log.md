@@ -951,3 +951,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 9 ad set: "9 januari - 25 Kota" ×3, "ramadhan - 25 Kota" ×2, "12 januari - 25 Kota" ×2, "LLA - 25 Kota", "25 Kota (dulu Indonesia)".
 - Rename tidak memaksa PAUSED; semua tetap ACTIVE. Campaign/ad set lama Tira tidak disentuh.
 - Penanda: nama berakhiran "25 Kota" = lokasi sudah default 25 kota.
+
+### 2026-10-24 — Cek ulang Tira setelah user rename
+- User rename 3 campaign "Penjualan - 25 Kota 1/2/3" → `…685970584` **jawa barat**, `…686510584` **banten**, `…685820584` **jakarta**. Ada juga campaign lain bernama sama (`…651060584` jawa barat, `…651070584` banten, `…651130584` jakarta; ad set 9 Hari/12 Hari/Ramadhan).
+- Semua ad set di 6 campaign wilayah + Interaksi/Prospek (baru) - Salin: lokasi masih DEFAULT 25 kota + 5 subcity (belum per wilayah). Tira pusat 6 ad set masih Indonesia (lama, tidak disentuh).
+- Ditanyakan ke user: lokasi ad set mau disamakan dengan wilayah nama campaign (Jabar/Banten/Jakarta) atau tetap 25 kota. Belum ada perubahan.

@@ -984,3 +984,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-24 — "yang sudah berjalan biarkan"
 - User: yang sudah berjalan dibiarkan → 27 iklan Sales yang ACTIVE (review) tetap ACTIVE; 6 ad set Tira pusat (lokasi Indonesia, umur 30–60) tidak diubah.
 - Tidak ada perubahan di akun.
+
+### 2026-10-24 — Cek akun lain (8 akun): campaign wilayah baru hari ini
+- Permintaan: "sekarang kamu cek akun lainya juga" / "cek". Hanya laporan, tidak ada perubahan.
+- Campaign wilayah baru (dibuat 24 Okt, ACTIVE):
+  - AIni 5 campaign (banten/jakarta/jawa barat/jawa/luar pulau) × 2 ad set aktif: iklan ada (3/ad set); lokasi masih 25 kota (belum per wilayah); penempatan OTOMATIS. Ad set 9 Hari Januari di tiap campaign PAUSED.
+  - Fifi 5 campaign (Banten/Jakarta/Jawa Barat/Jawa/Luar Pulau) × 3 ad set: **0 iklan (kosong)**; lokasi 25 kota (Banten 30 kota); penempatan sudah manual (kurang profile_reels).
+  - Fikri 6 campaign (Sales/Prospek × banten/jakarta/jawa barat): iklan ada; lokasi 25 kota; penempatan OTOMATIS.
+  - Nida 6 campaign: SUDAH sesuai (lokasi per wilayah, umur 25–65, penempatan, 3 iklan/ad set).
+  - Diana 4 campaign (banten/jakarta/jawa barat/luar pulau): iklan ada; lokasi 25 kota; penempatan manual (kurang profile_reels).
+  - Hanif 6 campaign (banten/jakarta/jawa barat/"jawa barta"): iklan ada; lokasi 25 kota; penempatan OTOMATIS; ad set 9 Hari di Sales PAUSED.
+  - Irfan 5 campaign "Kota" × 3 ad set: **0 iklan (kosong)**; lokasi 25 kota (sesuai); penempatan manual (kurang profile_reels).
+  - Allif: tidak ada campaign baru hari ini.
+- Ad set lama (jalan > 1 hari, lokasi Indonesia/provinsi) di AIni, Allif, Fifi, Nida, Diana, Hanif, Irfan → dibiarkan sesuai aturan.
+- Menunggu perintah user untuk memperbaiki campaign baru hari ini.

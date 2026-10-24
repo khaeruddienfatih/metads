@@ -914,3 +914,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-24 — Nida: nama campaign diganti sesuai wilayah
 - 6 campaign di-rename lalu dipublish (publish_as_active=false): `120251865299700004` Penjualan (baru) - Jawa Barat, `…299710004` Penjualan (baru) - Jakarta, `…299730004` Penjualan (baru) - Banten, `120251865308290004` Prospek (baru) - Jawa Barat, `…308300004` Prospek (baru) - Jakarta, `…308330004` Prospek (baru) - Banten. Verifikasi live: nama benar, status ACTIVE.
+
+### 2026-10-24 — Nida: "kamu isi iklanya" (6 campaign wilayah)
+- Dibuat **54 iklan draft** (3 per ad set × 18 ad set) di 6 campaign wilayah Nida, lalu semua di-set **PAUSED** (54/54 sukses, tanpa error). Belum dipublish.
+- Cara: salin iklan "(baru)" lama Nida via `source_ad_id` + `creative_id` yang sama (post sama, nomor WA/template ikut). Sumber: Penjualan JB ← Penjualan (baru); Penjualan Jakarta ← Interaksi (baru); Penjualan Banten ← Traffic (baru); Prospek JB ← Prospek (baru) - Salin; Prospek Jakarta ← Penjualan (baru); Prospek Banten ← Interaksi (baru). Gambar beda antar ad set dalam satu campaign; nama iklan "<Objektif> <Wilayah> <Paket> | <Desain>".
+- ID iklan baru: 1202518653xxxxx0004 dengan akhiran 77840–90080 (lihat sesi).
+- Catatan: iklan Ramadhan yang bersumber dari Penjualan/Traffic/Prospek (baru) masih ice breaker 3 pesan dasar (tanpa "paket umrah Ramadhan"); yang dari Interaksi sudah ada. Sumber Prospek (baru) - Salin punya "Media terkait" (related media) aktif → matikan manual.
+- Tertunda: publish (paused/aktif) atas perintah user.

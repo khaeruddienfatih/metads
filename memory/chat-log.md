@@ -998,3 +998,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Allif: tidak ada campaign baru hari ini.
 - Ad set lama (jalan > 1 hari, lokasi Indonesia/provinsi) di AIni, Allif, Fifi, Nida, Diana, Hanif, Irfan → dibiarkan sesuai aturan.
 - Menunggu perintah user untuk memperbaiki campaign baru hari ini.
+
+### 2026-10-24 — "lanjut": perbaiki campaign wilayah baru di 6 akun + isi iklan Fifi & Irfan
+- Hanya campaign yang dibuat 24 Okt; ad set lama tidak disentuh. Semua diverifikasi live.
+- Semua ad set: umur 25–65, penempatan FB story + IG (7 posisi) + WA status + Threads, mobile+desktop. Lokasi per nama campaign (radius 40 km): jawa barat 11 kota, banten 5 kota, jakarta + 5 subcity, jawa = Semarang/Surakarta/Malang, luar pulau = 9 kota luar Jawa.
+- AIni: 5 campaign (luar pulau/jakarta/banten/jawa barat/jawa) × 3 ad set = 15 (10 ACTIVE, 5 "9 Hari Januari" tetap PAUSED). Draft → publish publish_as_active=false.
+- Fikri: 6 campaign → rename Sales/Prospek banten/jawa barat/jakarta; 18 ad set ACTIVE. Draft → publish.
+- Hanif: 6 campaign → Sales banten, Sales jawa barat (dulu "jawa barta"), Sales jakarta, Prospek jakarta/jawa barat/banten; 18 ad set (15 ACTIVE, 3 9-Hari Sales PAUSED). Draft → publish.
+- Diana: 4 campaign → Sales jakarta/banten/luar pulau/jawa barat; 12 ad set ACTIVE.
+- Fifi (live): 5 campaign (Luar Pulau/Banten/Jawa Barat/Jawa/Jakarta) × 3 ad set = 15, lokasi per wilayah (Banten dari 30 kota → 5 kota Banten); ter-pause otomatis → diaktifkan lagi; **45 iklan baru PAUSED** (3/ad set).
+- Irfan (live): 5 campaign "Kota" × 3 ad set = 15, lokasi tetap 25 kota; penempatan+umur; diaktifkan lagi; **45 iklan baru PAUSED**.
+- Catatan: Meta tidak menerapkan IG profile_reels (dan kadang ig_search di Prospek) walau sudah diset — tanpa error.
+- Tertunda: 90 iklan baru Fifi & Irfan masih PAUSED (menunggu perintah aktifkan).

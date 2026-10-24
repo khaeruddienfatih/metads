@@ -892,3 +892,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-24 — "serang dan cilegon termasuk"
 - Kelompok Banten di `target-kota.md` ditambah Serang (989841) + Cilegon → 4 kota. Key Cilegon tidak ditemukan (tidak ada tool pencari lokasi; ad set "banten" AIni pakai region Banten 4143) → Cilegon dijangkau lewat radius 40 km Serang (±15 km).
 - Serang/Cilegon belum ada di ad set yang berjalan; tidak ada perubahan ke Meta.
+
+### 2026-10-24 — "apakah kamu bisa set menjadi hanya kota"
+- Dijawab: bisa (kirim key kota tanpa `radius` = hanya wilayah kota). Belum dikerjakan; menunggu konfirmasi user soal cakupan (ad set mana) dan key Cilegon (tanpa radius, Serang tidak lagi menjangkau Cilegon). Ad set ACTIVE tetap tidak disentuh sesuai aturan.

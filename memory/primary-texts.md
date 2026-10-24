@@ -236,3 +236,62 @@ Umrah, Haji & Halal Tour
 
 #Elharamainwisata #Umroh #PaketUmroh #Travelumroh
 ```
+
+
+## Haji Plus (akun Haji — disalin dari iklan Haji aktif, 24 Okt 2026)
+
+- Headline: `✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang`
+- Deskripsi: `6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`
+- CTA: WHATSAPP_MESSAGE, link https://api.whatsapp.com/send
+- Page: Haji `637020022834756` (iklan Irfan di akun 947788760498911 pakai `588336968031663` + IG)
+
+```
+🕋✨HAJI PLUS ELHARAMAIN WISATA✨🤲
+
+Visa Resmi Haji Pemerintah Indonesia - Masa Tunggu 6-10 Tahun
+
+Masa tunggu Haji Reguler 25-40 Tahun , Semakin menunda , masa tunggu semakin lama
+
+Kenapa harus mendaftar sekarang ?
+
+✅ Saat ini Masa Tunggu Haji plus sudah 6-10 tahun , semakin menunda masa tunggu akan semakin Panjang
+✅ Jika mendaftar sekarang , InsyaAllah akan berangkat Haji di Musim Dingin (6-10 tahun mendatang)
+✅ Visi Arab Saudi 2030 , yang akan menambah kouta haji menjadi 2x lipat dari 2jt ke 4jt jamaah , yang memungkinkan masa tunggu menjadi lebih cepat dari yang dijadualkan
+
+Mengapa Mendaftar Haji Plus di Elharamain Wisata ?
+
+✅ Pendaftaran 4000 Usd (Paling Ringan se-Indonesia)
+✅ Mendapatkan Voucher Umroh 5Jt (Bisa digunakan selama masa tunggu) S&K Berlaku
+✅ Variasi Paket & Biaya yang Kompetitif
+✅ 12 Program Ibadah Terarah & Terbimbing
+✅ Banyak Kajian-Kajian Selama Perjalanan Ibadah Haji 
+✅ Dibimbing oleh Asatidz Berilmu dan Berpengalaman
+✅ Layanan Kesehatan Haji oleh Dokter Berpengalaman
+✅ Transparansi Dana Manfaat
+✅ Team yang Profesional
+✅ Fasilitas & Layanan Terbaik
+✅ Tenda Mina Dekat
+✅ Kajian Bulanan selama Masa Tunggu
+
+Nikmati Perjalanan Ibadah Haji Bernilai & Bermakna bersama Elharamain Wisata
+
+👍Track Record Jelas , berpengalaman & Profesional memberangkatkan Belasan Ribu Jamaah
+
+Sekali Ber-Haji , Bernilai & Bermakna
+Bersama Elharamain Wisata
+
+✅ 🇮🇩 Elharamain Wisata
+✅Terakreditasi A
+✅ PT Dhiyaa El Haramain El Mubarakah
+✅ IZIN HAJI SK KEMENAG NO.846 2020
+▶️ Elharamain Wisata Official Youtube
+✅ elharamainwisata (IG)
+✅ www.elharamainwisata.com
+📍 Kantor Bekasi
+📍 Kantor Jakarta
+📍 Kantor Depok
+📍 Kantor Bogor
+📍 Kantor Bandung
+📍 Kantor Tangerang
+#elharamainwisata #hajiplus #onhplus #hajikhusus #elharamainhaji
+```

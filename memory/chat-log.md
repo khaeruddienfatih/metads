@@ -1030,3 +1030,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Lokasi: provinsi Jakarta + 7 kota → 25 kota default (40 km) + 5 subcity Jakarta. Penempatan otomatis → default (FB story, IG 7 posisi, WA status, Threads, mobile+desktop).
 - Umur 30–50 (perintah user): ditolak error 1870188 selama individual_setting.age=1 (Advantage umur). Solusi: targeting_automation.individual_setting.age=0 + age_min 30/age_max 50 (tanpa age_range) → berhasil.
 - Semua 45 diterbitkan publish_as_active=false; verifikasi live 45/45: umur 30–50 batas keras, 25 kota + 5 subcity, ad set ACTIVE (campaign tetap PAUSED). Iklan & campaign tidak disentuh.
+
+### 2026-10-24 — Haji 1050343302646341: buat iklan gambar + video di 45 ad set
+- Diminta: "sekarang buatkan iklan nya baik gambar dan vidio".
+- Dikerjakan: 135 iklan BARU (inline object_story_spec, bukan salinan) — 2 gambar + 1 video per ad set, 9 campaign "- Salin" × 5 ad set. Teks Haji Plus (primary-texts.md), headline "✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang", deskripsi "6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)", CTA WhatsApp, ice breaker "Assalamualaikum info Haji Plus Elharamain Wisata Terimakasih". Gambar: 15 desain Haji (10 berbeda per campaign); video Hajj_2025-46..50 (thumbnail pakai gambar desain Haji).
+- Page: 588336968031663 + IG 17841405431328414 — Page Haji 637020022834756 ditolak di akun ini (error 1885029 "Pages Don't Match").
+- Hasil: semua 135 terbit PAUSED (dalam review Meta); campaign tetap PAUSED.
+- Tertunda: 1 draft rusak `120254366036240422` (AIni - Salin, "XXX HAPUS - ERROR (Pages Don't Match)") — discard manual di Ads Manager; penggantinya `120254366055880422`. Pembagian 5 wilayah per campaign (Jakarta/Jawa Barat/Banten/Jawa+Surabaya/Luar Pulau) sedang dikerjakan.

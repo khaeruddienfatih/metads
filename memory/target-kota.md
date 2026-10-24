@@ -95,3 +95,9 @@ jalan bersamaan, audiens Jakarta–Jabar–Banten bisa tumpang tindih. Kota tamb
 Cikarang, Karawang 966166) ditambahkan manual oleh user di Fifi campaign **Banten** (`120252597264440365` Ramadhan,
 `…263870365` 9 Hari Januari, `…264430365` 12 Hari Januari, ACTIVE) → di sana total 30 kota radius 40 km + 5 subcity.
 Belum jadi default akun lain sampai user perintah.
+
+## Akun Haji (1050343302646341) — 5 wilayah per campaign (24 Okt 2026)
+
+Setiap campaign Haji punya 5 ad set: Jakarta, Jawa Barat, Banten, Jawa, Luar Pulau (kota sama seperti tabel di atas, radius 40 km).
+**Khusus Haji, Jawa = Semarang 989399, Surakarta 992961, Malang 973850 + Surabaya 992951** (key Surabaya dari ad set yang diisi manual user).
+Umur Haji 30–50 dengan `targeting_automation.individual_setting.age=0`.

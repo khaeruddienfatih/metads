@@ -921,3 +921,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - ID iklan baru: 1202518653xxxxx0004 dengan akhiran 77840–90080 (lihat sesi).
 - Catatan: iklan Ramadhan yang bersumber dari Penjualan/Traffic/Prospek (baru) masih ice breaker 3 pesan dasar (tanpa "paket umrah Ramadhan"); yang dari Interaksi sudah ada. Sumber Prospek (baru) - Salin punya "Media terkait" (related media) aktif → matikan manual.
 - Tertunda: publish (paused/aktif) atas perintah user.
+
+### 2026-10-24 — Nida: "kamu perbaiki saya tidak bisa menerbitkan" + aturan "buat ulang dengan yang baru jangan duplicate"
+- Penyebab gagal terbit: 54 iklan salinan (source_ad_id/creative_id) kena error 1815589 "Creative Call To Action's Link Title and Link Description Are Deprecated".
+- Aturan baru user dicatat di chat-memory: isi/perbaiki ad set selalu dengan iklan BARU (inline object_story_spec), jangan duplikat/salin.
+- Dibuat ulang 54 iklan baru (inline object_story_spec: teks primary-texts 12H/9H/Ramadhan, headline berselang-seling, deskripsi standar, image_hash sama, CTA WHATSAPP_MESSAGE tanpa link_title/description, Page+IG+Threads). Iklan Ramadhan kini pakai ice breaker Ramadhan di urutan pertama. Tanpa media terkait.
+- 54 draft salinan lama hilang (dibuang user di Ads Manager); 15 iklan baru ikut terbuang → dibuat ulang lagi.
+- Hasil cek draft akhir: 54 iklan, 3 per ad set × 18 ad set, semua VALIDATED tanpa error. Status staged: 51 ACTIVE, 3 PAUSED. Belum diterbitkan.
+- Catatan: ad set & campaign ACTIVE → kalau diterbitkan apa adanya, iklan langsung tayang. Tertunda: user terbitkan (atau minta saya set PAUSED dulu).

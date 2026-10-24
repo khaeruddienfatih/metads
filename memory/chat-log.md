@@ -888,3 +888,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: bagi kota target Meta Ads yang sedang berjalan jadi Jakarta, Jawa Barat, Banten, Pulau Jawa, Luar Pulau Jawa.
 - Dikerjakan: tabel kelompok + key lokasi ditambahkan di `memory/target-kota.md`. Jakarta 1 kota + 5 subcity; Jabar 10; Banten 2 (Tangerang, Serpong); Pulau Jawa 3 (Semarang, Surakarta, Malang); Luar Jawa 9. Tidak ada perubahan ke Meta.
 - Catatan: (23 Okt) push ke repo baru `elharamainwisata/ads` diblokir izin, remote masih `khaeruddienfatih/metads`.
+
+### 2026-10-24 — "serang dan cilegon termasuk"
+- Kelompok Banten di `target-kota.md` ditambah Serang (989841) + Cilegon → 4 kota. Key Cilegon tidak ditemukan (tidak ada tool pencari lokasi; ad set "banten" AIni pakai region Banten 4143) → Cilegon dijangkau lewat radius 40 km Serang (±15 km).
+- Serang/Cilegon belum ada di ad set yang berjalan; tidak ada perubahan ke Meta.

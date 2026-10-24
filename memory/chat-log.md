@@ -1010,3 +1010,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Irfan (live): 5 campaign "Kota" × 3 ad set = 15, lokasi tetap 25 kota; penempatan+umur; diaktifkan lagi; **45 iklan baru PAUSED**.
 - Catatan: Meta tidak menerapkan IG profile_reels (dan kadang ig_search di Prospek) walau sudah diset — tanpa error.
 - Tertunda: 90 iklan baru Fifi & Irfan masih PAUSED (menunggu perintah aktifkan).
+
+### 2026-10-24 — Irfan: cek lagi
+- User rename 5 campaign "Kota" → jawa barat/banten/Jawa/Luar Pulau/jakarta dan mengaktifkan 45 iklan baru (status ACTIVE, review).
+- Lokasi 15 ad set diganti per wilayah (sebelumnya 25 kota): jawa barat 11 kota, banten 5 kota, Jawa = Semarang/Surakarta/Malang, Luar Pulau 9 kota, jakarta + 5 subcity. Umur & penempatan tetap. Tidak ada forced pause; verifikasi live 15/15 ACTIVE.
+- Campaign diberi awalan: `…708560414` Sales jawa barat, `…708550414` Sales banten, `…708540414` Sales jawa, `…708530414` Sales luar pulau, `…708520414` Sales jakarta.
+- Campaign lama Irfan (Irfan Indonesia, 9 Hari Januari, Penjualan (baru) - Salin) tidak disentuh.

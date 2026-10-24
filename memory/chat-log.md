@@ -900,3 +900,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Fifi (521083143750270) campaign "Banten", 3 ad set ACTIVE (Ramadhan `120252597264440365`, 9 Hari Januari `120252597263870365`, 12 Hari Januari `120252597264430365`), diubah user 24 Okt 07:55.
 - Lokasi: 25 kota default + tambahan **Balaraja 949353, Cilegon 956300, Serang 989841, Cikarang 955995, Karawang 966166** (Karawang kedua) = 30 kota radius 40 km + 5 subcity Jakarta. Ketiga ad set sama.
 - Catatan: IG belum ada `profile_reels` (beda dari default). Tidak diubah (ACTIVE). Key baru dicatat di `target-kota.md`.
+
+### 2026-10-24 — "coba masuk akun nida"
+- Nida (1019832712800468): user membuat hari ini 08:00 **6 campaign salinan** (ACTIVE, CBO Rp100rb/hari masing-masing): "Penjualan (baru) - Salin" ×3 (`120251865299700004`, `…299710004`, `…299730004`) dan "Prospek (baru) - Salin - Salin" ×3 (`120251865308290004`, `…308300004`, `…308330004`), masing-masing 3 ad set (Ramadhan/9 Hari Januari/12 Hari Januari) = 18 ad set ACTIVE, CONVERSATIONS→WhatsApp, umur 25–65.
+- Lokasi 18 ad set: 25 kota default radius 40 km + 5 subcity Jakarta — **belum ada kota tambahan Banten** (Serang/Cilegon/Balaraja/Cikarang/Karawang 966166) seperti di Fifi. IG tanpa `profile_reels`.
+- Tidak diubah (ACTIVE). Campaign lama "Prospek (baru) - Salin" kini CAMPAIGN_PAUSED.

@@ -1037,3 +1037,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Page: 588336968031663 + IG 17841405431328414 — Page Haji 637020022834756 ditolak di akun ini (error 1885029 "Pages Don't Match").
 - Hasil: semua 135 terbit PAUSED (dalam review Meta); campaign tetap PAUSED.
 - Tertunda: 1 draft rusak `120254366036240422` (AIni - Salin, "XXX HAPUS - ERROR (Pages Don't Match)") — discard manual di Ads Manager; penggantinya `120254366055880422`. Pembagian 5 wilayah per campaign (Jakarta/Jawa Barat/Banten/Jawa+Surabaya/Luar Pulau) sedang dikerjakan.
+
+### 2026-10-24 — Haji 1050343302646341: 1 campaign = 5 ad set wilayah (Jawa + Surabaya)
+- Diminta: "1 kampanye itu ada 5 adset kamu ganti, jakarta,jawa barat,banten,jawa, luar pulau, khusus haji jawa tambah surabaya" (Surabaya sudah dimasukkan manual user di diana - Salin → key 992951).
+- Dikerjakan: 45 ad set (9 campaign "- Salin" × 5) diganti nama + lokasi per wilayah: Jakarta (Jakarta + 5 subcity), Jawa Barat (11 kota), Banten (5), Jawa (Semarang, Surakarta, Malang, Surabaya), Luar Pulau (9); radius 40 km, umur 30–50 (individual_setting.age=0), penempatan default tetap.
+- Hasil: semua 45 terbit tanpa error (publish_as_active=false), dicek live; ad set ACTIVE di bawah campaign PAUSED, iklan PAUSED — belum tayang.

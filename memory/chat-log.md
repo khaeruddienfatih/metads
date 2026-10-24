@@ -980,3 +980,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Cek semua ad set Tira: 24 ad set (Sales ×9, Prospek wilayah ×9, Interaksi/Prospek (baru) - Salin ×6) SUDAH sesuai (lokasi, umur, penempatan, 3 iklan/ad set). BELUM: Tira pusat 6 ad set (lama, sejak Agt–20 Okt) masih lokasi Indonesia, umur 30–60, penempatan tanpa Threads ("Indonesia - Salin" penempatan otomatis) — tidak disentuh sesuai aturan "jangan ganggu ad set yang sudah jalan beberapa hari".
 - TEMUAN: 27 iklan baru di 3 campaign Sales sekarang status ACTIVE (sedang review), padahal dibuat PAUSED; log aktivitas kosong, pelaku tidak diketahui. Ditanyakan ke user: biarkan atau pause.
 - Prospek (baru) - Salin campaign masih PAUSED.
+
+### 2026-10-24 — "yang sudah berjalan biarkan"
+- User: yang sudah berjalan dibiarkan → 27 iklan Sales yang ACTIVE (review) tetap ACTIVE; 6 ad set Tira pusat (lokasi Indonesia, umur 30–60) tidak diubah.
+- Tidak ada perubahan di akun.

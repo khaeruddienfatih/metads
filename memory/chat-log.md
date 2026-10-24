@@ -940,3 +940,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Cek created_time 66 ad set: yang dibuat/aktif hari ini (24 Okt) hanya **9 ad set Tira** (868364731529534) di 3 campaign Penjualan (`120252779685970584`, `…686510584`, `…685820584`; spend 0): 9 januari ×3, ramadhan ×2, 12 januari ×2, Indonesia, LLA. 57 lainnya dibuat 17 Agt–21 Okt → tidak disentuh.
 - Lokasi diganti ke default 25 kota radius 40 km + 5 subcity Jakarta (umur, penempatan, custom audience LLA 20 lookalike tetap). Update Meta memaksa ad set jadi PAUSED → diaktifkan lagi (kembali ACTIVE seperti sebelumnya). Terverifikasi live: 9/9 ACTIVE, 25 kota + 5 subcity, tanpa negara/provinsi.
 - Catatan: akun Tira ternyata bisa diubah lagi (sebelumnya hapus iklan gagal "ineligible").
+
+### 2026-10-24 — Aturan: jangan ganggu ad set yang sudah jalan beberapa hari
+- User: "jangan di ganggu adset yang sudah jalan beberapa hari".
+- Dicatat sebagai aturan di `chat-memory.md`. Perubahan lokasi sebelumnya hanya kena 9 ad set Tira yang baru dibuat hari ini; 57 ad set lama (17 Agt–21 Okt) tidak diubah dan tidak akan disentuh.

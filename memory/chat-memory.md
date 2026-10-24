@@ -14,6 +14,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - **Git: hanya pakai branch `main`.** Jangan buat branch baru (11 Okt) — commit & push langsung ke `main`.
 - **Semua campaign baru wajib sesuai target kota & penempatan default (22 Okt)** — termasuk ad set ACTIVE yang belum punya iklan berjalan; cek ulang setelah user menyalin/menerbitkan (Meta bisa mengubah Prospek jadi Hong Kong/Indonesia + penempatan otomatis).
 - **Jangan sentuh iklan/ad set yang sedang berjalan (ACTIVE) (22 Okt).** Perbaikan (lokasi, penempatan, dll.) hanya untuk yang PAUSED/draft; yang ACTIVE dilaporkan saja.
+  **24 Okt (perintah user): "jangan di ganggu adset yang sudah jalan beberapa hari"** — ad set yang sudah tayang >1 hari JANGAN diubah sama sekali (lokasi, penempatan, budget, iklan). Pengecualian hanya ad set yang baru aktif hari itu (created/start hari ini, spend ≈ 0) kalau user minta; setelah update yang memaksa PAUSED, aktifkan lagi ke status semula.
 - **Buat iklan BARU, jangan duplikat (24 Okt, perintah user).** Isi/perbaiki ad set selalu dengan iklan baru (inline `object_story_spec`: link_data message/name/description/image_hash + CTA tanpa link_title/link_description), JANGAN salin via `source_ad_id`/`creative_id` — salinan di akun draft gagal terbit (error 1815589 "Link Title and Link Description Are Deprecated").
 - **Iklan harus PAUSE.** Jangan aktifkan/publish tanpa perintah eksplisit.
 - **Model: selalu pakai Sonnet** (`claude-sonnet-5-5`), jangan Opus. Kirim `client_model` `claude-sonnet-5-5` di panggilan Meta Ads.

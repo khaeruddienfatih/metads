@@ -934,3 +934,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 197 ad set ACTIVE dicek. Sesuai default 25 kota: AIni 12, Tira 12, Allif 6, Fifi 12 (+3 versi 30 kota campaign Banten), Fikri 15/15, Nida 18 (6 JB/6 Jakarta/6 Banten), Diana 15, Hanif 20, Irfan 17.
 - Belum sesuai (seluruh Indonesia / provinsi): AIni 4 (campaign Ramadhan: Indonesia, banten, jakarta, jateng&jatim); Tira 15 (Penjualan 9 ad set Indonesia spend 0, Tira pusat 6); Allif 9 (9 Hari januari & Ramadhan per provinsi/Indonesia); Fifi 14 (Fifi 8 Indonesia, Fifi Kota 4 = region Jakarta + Bandung/Bekasi/Bogor/Depok/Serpong/Tangerang, Ramadhan Banten & Jabar); Nida 11; Diana 6 (5 Indonesia + Tangerang: Serpong & Tangerang saja); Hanif 2; Irfan 6 (Irfan Indonesia).
 - Tidak ada perubahan (aturan: ad set ACTIVE tidak disentuh tanpa perintah).
+
+### 2026-10-24 — Ubah kota ad set yang baru aktif hari ini
+- Permintaan: "iya rubah" → "yang hari ini baru aktip ya" — ubah lokasi hanya ad set yang baru aktif hari ini (dari 66 ad set ber-lokasi negara/provinsi hasil audit).
+- Cek created_time 66 ad set: yang dibuat/aktif hari ini (24 Okt) hanya **9 ad set Tira** (868364731529534) di 3 campaign Penjualan (`120252779685970584`, `…686510584`, `…685820584`; spend 0): 9 januari ×3, ramadhan ×2, 12 januari ×2, Indonesia, LLA. 57 lainnya dibuat 17 Agt–21 Okt → tidak disentuh.
+- Lokasi diganti ke default 25 kota radius 40 km + 5 subcity Jakarta (umur, penempatan, custom audience LLA 20 lookalike tetap). Update Meta memaksa ad set jadi PAUSED → diaktifkan lagi (kembali ACTIVE seperti sebelumnya). Terverifikasi live: 9/9 ACTIVE, 25 kota + 5 subcity, tanpa negara/provinsi.
+- Catatan: akun Tira ternyata bisa diubah lagi (sebelumnya hapus iklan gagal "ineligible").

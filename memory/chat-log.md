@@ -973,3 +973,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Nama 9 ad set Sales "- 25 Kota" → "- Jawa Barat/Banten/Jakarta" ("25 Kota (dulu Indonesia)" → "Umum - Jakarta", LLA → "LLA - Jakarta").
 - 9 ad set Prospek ter-pause otomatis oleh update → diaktifkan lagi (7 sempat error internal, retry berhasil). Verifikasi live: 18/18 ACTIVE, lokasi sesuai wilayah.
 - 27 iklan baru di ad set Sales masih PAUSED (belum tayang).
+
+### 2026-10-24 — Tira: umur 25–65+ & penempatan; cek semua
+- Permintaan: "umur kamu set 25-65+ penempatan ig thread whatsapp facebook story"; lalu "cek semua dan laporkan mana yang sudah dan yang belum".
+- 18 ad set Sales/Prospek wilayah → umur 25–65, penempatan semua IG (stream, story, explore_home, reels, profile_feed, ig_search, profile_reels) + FB story + WA status + Threads, mobile+desktop. 9 ad set Sales ter-pause otomatis → diaktifkan lagi.
+- Cek semua ad set Tira: 24 ad set (Sales ×9, Prospek wilayah ×9, Interaksi/Prospek (baru) - Salin ×6) SUDAH sesuai (lokasi, umur, penempatan, 3 iklan/ad set). BELUM: Tira pusat 6 ad set (lama, sejak Agt–20 Okt) masih lokasi Indonesia, umur 30–60, penempatan tanpa Threads ("Indonesia - Salin" penempatan otomatis) — tidak disentuh sesuai aturan "jangan ganggu ad set yang sudah jalan beberapa hari".
+- TEMUAN: 27 iklan baru di 3 campaign Sales sekarang status ACTIVE (sedang review), padahal dibuat PAUSED; log aktivitas kosong, pelaku tidak diketahui. Ditanyakan ke user: biarkan atau pause.
+- Prospek (baru) - Salin campaign masih PAUSED.

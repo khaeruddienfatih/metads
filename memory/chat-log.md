@@ -956,3 +956,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User rename 3 campaign "Penjualan - 25 Kota 1/2/3" → `…685970584` **jawa barat**, `…686510584` **banten**, `…685820584` **jakarta**. Ada juga campaign lain bernama sama (`…651060584` jawa barat, `…651070584` banten, `…651130584` jakarta; ad set 9 Hari/12 Hari/Ramadhan).
 - Semua ad set di 6 campaign wilayah + Interaksi/Prospek (baru) - Salin: lokasi masih DEFAULT 25 kota + 5 subcity (belum per wilayah). Tira pusat 6 ad set masih Indonesia (lama, tidak disentuh).
 - Ditanyakan ke user: lokasi ad set mau disamakan dengan wilayah nama campaign (Jabar/Banten/Jakarta) atau tetap 25 kota. Belum ada perubahan.
+
+### 2026-10-24 — Tira: isi iklan ad set kosong + awalan Sales/Prospek
+- Permintaan: "kamu isi iklannya jika adset tidak ada iklan"; lalu "cek semua cek kampanye kota sesuaikan alamat kantor dan isi iklan jika adsetnya kosong"; "tulis awalan prospek atau sales jika penjualan di kampanye".
+- Ad set kosong hanya 9 ad set "- 25 Kota" di 3 campaign Sales → diisi **27 iklan BARU PAUSED** (inline object_story_spec, 3/ad set, gambar unik per campaign, headline berselang-seling, teks + ice breaker sesuai paket; LLA & "25 Kota (dulu Indonesia)" campuran 9H/12H/Ramadhan). Akun live → langsung PAUSED.
+- Ad set lain (Prospek wilayah ×9, Interaksi/Prospek (baru) - Salin ×6, Tira pusat) sudah ada 2–3+ iklan → tidak disentuh. (Sempat salah ID prefix 120252779 vs 120252744 untuk Interaksi/Prospek Salin → 9 panggilan gagal, tidak ada yang terbuat.)
+- Rename campaign: `…685970584` Sales jawa barat, `…686510584` Sales banten, `…685820584` Sales jakarta, `…651060584` Prospek jawa barat, `…651070584` Prospek banten, `…651130584` Prospek jakarta. Tira pusat & Interaksi/Prospek (baru) - Salin tidak diubah.
+- Tertunda: maksud "sesuaikan alamat kantor" ditanyakan ke user; 27 iklan baru masih PAUSED (perlu diaktifkan user/perintah).

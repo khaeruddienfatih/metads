@@ -1024,3 +1024,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Permintaan: "masuk ke akun iklan haji perbaiki adset jadi per kota"; dijawab user: hanya "yang dibuat hari ini", kota default 25 kota untuk ad set non-wilayah.
 - Cek akun Haji (947788760498911): 36 ad set, terbaru dibuat 22 Okt (Irfan "… - Salin"); **tidak ada ad set yang dibuat hari ini** → tidak ada perubahan.
 - Kalau user membuat ad set Haji baru: ad set bernama wilayah → kota wilayah; lainnya (Broud/Interest/LLA/Haji/Indonesia) → 25 kota default.
+
+### 2026-10-24 — Akun Haji 1050343302646341: 45 ad set baru per kota, umur 30–50
+- User: akun Haji yang dimaksud = 1050343302646341 (mode DRAFT). 45 ad set dibuat hari ini (21:28) di 9 campaign "- Salin" (fifi/irfan/diana/Fikri/Hanif/Allif/Tira/Nida/AIni), campaign PAUSED.
+- Lokasi: provinsi Jakarta + 7 kota → 25 kota default (40 km) + 5 subcity Jakarta. Penempatan otomatis → default (FB story, IG 7 posisi, WA status, Threads, mobile+desktop).
+- Umur 30–50 (perintah user): ditolak error 1870188 selama individual_setting.age=1 (Advantage umur). Solusi: targeting_automation.individual_setting.age=0 + age_min 30/age_max 50 (tanpa age_range) → berhasil.
+- Semua 45 diterbitkan publish_as_active=false; verifikasi live 45/45: umur 30–50 batas keras, 25 kota + 5 subcity, ad set ACTIVE (campaign tetap PAUSED). Iklan & campaign tidak disentuh.

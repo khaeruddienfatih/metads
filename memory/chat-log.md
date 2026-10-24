@@ -944,3 +944,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-24 — Aturan: jangan ganggu ad set yang sudah jalan beberapa hari
 - User: "jangan di ganggu adset yang sudah jalan beberapa hari".
 - Dicatat sebagai aturan di `chat-memory.md`. Perubahan lokasi sebelumnya hanya kena 9 ad set Tira yang baru dibuat hari ini; 57 ad set lama (17 Agt–21 Okt) tidak diubah dan tidak akan disentuh.
+
+### 2026-10-24 — Tira: rename campaign & ad set yang sudah 25 kota
+- Permintaan: "rubah juga nama adsetnya sesuai kota agar tau mana yang sudah dan belum" + "nama kampanye nya".
+- 3 campaign Penjualan (semua bernama "Penjualan") → `120252779685970584` "Penjualan - 25 Kota 1", `…686510584` "Penjualan - 25 Kota 2", `…685820584` "Penjualan - 25 Kota 3".
+- 9 ad set: "9 januari - 25 Kota" ×3, "ramadhan - 25 Kota" ×2, "12 januari - 25 Kota" ×2, "LLA - 25 Kota", "25 Kota (dulu Indonesia)".
+- Rename tidak memaksa PAUSED; semua tetap ACTIVE. Campaign/ad set lama Tira tidak disentuh.
+- Penanda: nama berakhiran "25 Kota" = lokasi sudah default 25 kota.

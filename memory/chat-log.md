@@ -963,3 +963,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Ad set lain (Prospek wilayah ×9, Interaksi/Prospek (baru) - Salin ×6, Tira pusat) sudah ada 2–3+ iklan → tidak disentuh. (Sempat salah ID prefix 120252779 vs 120252744 untuk Interaksi/Prospek Salin → 9 panggilan gagal, tidak ada yang terbuat.)
 - Rename campaign: `…685970584` Sales jawa barat, `…686510584` Sales banten, `…685820584` Sales jakarta, `…651060584` Prospek jawa barat, `…651070584` Prospek banten, `…651130584` Prospek jakarta. Tira pusat & Interaksi/Prospek (baru) - Salin tidak diubah.
 - Tertunda: maksud "sesuaikan alamat kantor" ditanyakan ke user; 27 iklan baru masih PAUSED (perlu diaktifkan user/perintah).
+
+### 2026-10-24 — Tira: lokasi ad set disesuaikan dengan nama campaign wilayah
+- Permintaan: "sesuaikan nama misal kampanye jawa barat kamu set kota yang ada di jawa barat".
+- 18 ad set di 6 campaign (Sales/Prospek × jawa barat/banten/jakarta) diganti lokasinya (sisa targeting tetap):
+  - jawa barat → 11 kota (Bekasi, Bandung, Bogor, Cibinong, Depok, Karawang, Garut, Cirebon, Sukabumi, Tasikmalaya, Cikarang) radius 40 km
+  - banten → Tangerang, Serpong, Serang, Cilegon, Balaraja radius 40 km
+  - jakarta → Jakarta 40 km + 5 subcity
+- Nama 9 ad set Sales "- 25 Kota" → "- Jawa Barat/Banten/Jakarta" ("25 Kota (dulu Indonesia)" → "Umum - Jakarta", LLA → "LLA - Jakarta").
+- 9 ad set Prospek ter-pause otomatis oleh update → diaktifkan lagi (7 sempat error internal, retry berhasil). Verifikasi live: 18/18 ACTIVE, lokasi sesuai wilayah.
+- 27 iklan baru di ad set Sales masih PAUSED (belum tayang).

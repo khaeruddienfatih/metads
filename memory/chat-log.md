@@ -1016,3 +1016,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Lokasi 15 ad set diganti per wilayah (sebelumnya 25 kota): jawa barat 11 kota, banten 5 kota, Jawa = Semarang/Surakarta/Malang, Luar Pulau 9 kota, jakarta + 5 subcity. Umur & penempatan tetap. Tidak ada forced pause; verifikasi live 15/15 ACTIVE.
 - Campaign diberi awalan: `…708560414` Sales jawa barat, `…708550414` Sales banten, `…708540414` Sales jawa, `…708530414` Sales luar pulau, `…708520414` Sales jakarta.
 - Campaign lama Irfan (Irfan Indonesia, 9 Hari Januari, Penjualan (baru) - Salin) tidak disentuh.
+
+### 2026-10-24 — "yang belum tersentuh akun mana"
+- Dijawab: sudah dikerjakan hari ini Tira, Nida, AIni, Fikri, Hanif, Diana, Fifi, Irfan. Belum disentuh: Allif (4678183395742010, cek terakhir tidak ada campaign baru hari ini), Elharamain Haji (947788760498911, belum dicek), CloseF (1050343302646341, belum dicek), Elharamainclose (Ads MCP belum dibuka). Ad set lama di semua akun sengaja dibiarkan.

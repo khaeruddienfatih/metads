@@ -895,3 +895,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-24 — "apakah kamu bisa set menjadi hanya kota"
 - Dijawab: bisa (kirim key kota tanpa `radius` = hanya wilayah kota). Belum dikerjakan; menunggu konfirmasi user soal cakupan (ad set mana) dan key Cilegon (tanpa radius, Serang tidak lagi menjangkau Cilegon). Ad set ACTIVE tetap tidak disentuh sesuai aturan.
+
+### 2026-10-24 — Cek Fifi campaign Banten (kota tambahan dari user)
+- Fifi (521083143750270) campaign "Banten", 3 ad set ACTIVE (Ramadhan `120252597264440365`, 9 Hari Januari `120252597263870365`, 12 Hari Januari `120252597264430365`), diubah user 24 Okt 07:55.
+- Lokasi: 25 kota default + tambahan **Balaraja 949353, Cilegon 956300, Serang 989841, Cikarang 955995, Karawang 966166** (Karawang kedua) = 30 kota radius 40 km + 5 subcity Jakarta. Ketiga ad set sama.
+- Catatan: IG belum ada `profile_reels` (beda dari default). Tidak diubah (ACTIVE). Key baru dicatat di `target-kota.md`.

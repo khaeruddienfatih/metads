@@ -1079,3 +1079,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-25 — "elharamainwisata sudah belum"
 - Cek ulang: Elharamainwisata 1597121987849466 masih is_ads_mcp_enabled=false (rollout bertahap Meta), akun ACTIVE. Elharamain Haji 3 794403715776985 kini ACTIVE (bukan grace period lagi).
+
+### 2026-10-25 — Elharamainwisata ada kampanye "yoga"
+- User: masuk akun Elharamainwisata (1597121987849466) terlihat ada kampanye "yoga".
+- Dicek lewat ads_get_ad_entities: tetap ditolak, Ads MCP belum dibuka untuk akun ini → kampanye tidak bisa dilihat/diubah lewat tool.
+- Saran ke user: kampanye "yoga" tidak sesuai bisnis (Umroh/Haji), cek di Ads Manager siapa pembuatnya (Riwayat Aktivitas), pause/hapus kalau bukan milik tim, cek pengguna & partner akun, metode pembayaran, keamanan login.
+- Tertunda: menunggu konfirmasi user apakah kampanye itu sah.

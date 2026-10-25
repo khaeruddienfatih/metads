@@ -1072,3 +1072,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-25 — Haji 2: "kenapa ada yang gagal" / "cek lagi"
 - Dijelaskan: 1 draft gagal `120251141642010518` karena uji pertama pakai Page 588336968031663 (ad set terikat Page Haji 637020022834756) → "Pages Don't Match"; tidak diterbitkan, perlu discard manual.
 - Cek ulang live: 135 iklan — 45 video sudah lolos review (CAMPAIGN_PAUSED), 90 gambar masih PENDING_REVIEW; 0 ditolak, 0 error penayangan. 9 campaign tetap PAUSED.
+
+### 2026-10-25 — "Penerbitan tidak selesai" + "akun meta yang belum mcp mana saja"
+- Error terbit Haji 2 berasal dari 5 draft iklan lama "vidio"/"vidio - Salin" (ad set ARCHIVED 120246877349550518 & 120247197543460518, error 1487860) yang muncul saat iklan lama dibuka di Ads Manager — bukan dari 135 iklan baru. User diminta discard manual 5 draft itu.
+- Akun Ads MCP belum aktif (is_ads_mcp_enabled=false, "gradually being rolled out"): Elharamainclose 1401255787216018, PAUSE Elharamain Wisata 1148179620099730, Elharamainwisata 1597121987849466, Umroh Plus 973501104813091, Elharamain Wisata (Read-Only) 1420711015929771 / 782595041472700 / 1307336044677965 / 1034021988816633 (DISABLED) / 822021706895631 (DISABLED). Akun MCP aktif tapi tak bisa dipakai: Ngebakso, close ×2, Elharamain close (CLOSED); 2 Test WhatsApp + 24740260112241026 (DISABLED); Haji 3 794403715776985 IN_GRACE_PERIOD.

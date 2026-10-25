@@ -1047,3 +1047,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Cek live: 9 campaign "- Salin" (budget Rp120.000/hari masing-masing) semua PAUSED; tidak ada error penayangan di akun.
 - Pekerjaan 24 Okt (45 ad set 5 wilayah + 135 iklan PAUSED) sudah selesai; tidak ada perubahan hari ini.
 - Menunggu perintah user: aktifkan campaign/iklan Haji? rename campaign? (aturan: tanpa perintah eksplisit tetap PAUSED). Draft rusak `120254366036240422` masih perlu discard manual.
+
+### 2026-10-25 — "aktipkan": aktifkan akun Haji 1050343302646341
+- Perintah user: aktifkan campaign/iklan Haji.
+- Dikerjakan: 9 campaign "- Salin" (fifi/irfan/Allif/Hanif/Nida/Fikri/diana/Tira/AIni) diaktifkan via ads_activate_entity publish_as_active=true. Budget Rp120.000/hari per campaign (total Rp1.080.000/hari).
+- Verifikasi live: 45/45 ad set ACTIVE, 135/135 iklan status & effective_status ACTIVE. Tidak ada error.
+- Tertunda: draft rusak `120254366036240422` tetap perlu discard manual. Pantau biaya per chat (aturan boros/mahal).

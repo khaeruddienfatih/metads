@@ -1085,3 +1085,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicek lewat ads_get_ad_entities: tetap ditolak, Ads MCP belum dibuka untuk akun ini → kampanye tidak bisa dilihat/diubah lewat tool.
 - Saran ke user: kampanye "yoga" tidak sesuai bisnis (Umroh/Haji), cek di Ads Manager siapa pembuatnya (Riwayat Aktivitas), pause/hapus kalau bukan milik tim, cek pengguna & partner akun, metode pembayaran, keamanan login.
 - Tertunda: menunggu konfirmasi user apakah kampanye itu sah.
+
+### 2026-10-25 — Elharamain Haji: campaign "Yoga" diisi iklan Umroh + kota & penempatan
+- User: "Elharamain Haji 947788760498911 masuk akun ini ada yoga kamu isi umroh ya" + "kota dan pemepatan juga ya". (Catatan: kampanye yoga ternyata di akun Haji ini, bukan Elharamainwisata 1597121987849466.)
+- Campaign **Yoga** `120251004999570739` (OUTCOME_SALES, Rp250rb/hari, ACTIVE, dibuat user 25 Okt 12:03), 3 ad set CONVERSATIONS→WhatsApp: ramadhan `120251004999700739` (ACTIVE), 12 hari januari `120251004999680739` (ACTIVE), 9 hari januari `120251004999670739` (PAUSED). Awalnya lokasi Indonesia + penempatan otomatis, tanpa iklan.
+- Lokasi → default 25 kota radius 40 km + 5 subcity Jakarta; penempatan → default (semua IG + profile_reels, FB Story, WA Status, Threads). Umur 25–65, custom audience LLA (ramadhan & 9 hari) dan targeting_automation tetap. Update memaksa ramadhan & 12 hari PAUSED → diaktifkan lagi (ACTIVE seperti semula).
+- 9 gambar Umroh disalin dari library Nida ke akun Haji (upload_media). Hash baru di akun ini: Ramadhan D2#1 `ff829074139e5b991284d6e8847c3337`, 12H D2#5 `de51b929ce5ce30d2647b9a193717960`; lainnya sama dengan Nida.
+- 9 iklan BARU PAUSED (inline object_story_spec, Page 588336968031663 + IG, teks primary-texts, headline berselang-seling, deskripsi standar, CTA WA, ice breaker Umroh; Ramadhan + ice breaker Ramadhan): ramadhan (D2#1, D3#6, D2#5) `120251005038380739`/`…042000739`/`…045030739`; 12 hari (D2#1, Desain 1 #1, D2#5) `…046800739`/`…050020739`/`…051180739`; 9 hari (D7#1, D7#5, D4 Musim Dingin #1) `…052310739`/`…057130739`/`…057870739`. Status review Meta: PENDING_REVIEW/IN_PROCESS.
+- Tertunda: aktifkan iklan atas perintah user; nomor WA/template & "Media terkait" dicek manual di Ads Manager.

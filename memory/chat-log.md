@@ -1093,3 +1093,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 9 gambar Umroh disalin dari library Nida ke akun Haji (upload_media). Hash baru di akun ini: Ramadhan D2#1 `ff829074139e5b991284d6e8847c3337`, 12H D2#5 `de51b929ce5ce30d2647b9a193717960`; lainnya sama dengan Nida.
 - 9 iklan BARU PAUSED (inline object_story_spec, Page 588336968031663 + IG, teks primary-texts, headline berselang-seling, deskripsi standar, CTA WA, ice breaker Umroh; Ramadhan + ice breaker Ramadhan): ramadhan (D2#1, D3#6, D2#5) `120251005038380739`/`…042000739`/`…045030739`; 12 hari (D2#1, Desain 1 #1, D2#5) `…046800739`/`…050020739`/`…051180739`; 9 hari (D7#1, D7#5, D4 Musim Dingin #1) `…052310739`/`…057130739`/`…057870739`. Status review Meta: PENDING_REVIEW/IN_PROCESS.
 - Tertunda: aktifkan iklan atas perintah user; nomor WA/template & "Media terkait" dicek manual di Ads Manager.
+
+### 2026-10-25 — Cek Elharamain Haji 3 (794403715776985), read-only
+- Akun ACTIVE, live (bukan draft). 6 campaign ACTIVE, semua OUTCOME_SALES Rp120rb/hari: Alif, Diana, Aini, Fikri, Nida, Fifi.
+- 7 hari terakhir (chat WA / biaya per chat): Alif 9 / Rp36,8rb · Diana 25 / Rp41,9rb · Aini 21 / Rp46,3rb · Fikri 6 / Rp51,0rb · Nida 18 / Rp52,4rb · Fifi 23 / Rp41,4rb.
+- Ad set ACTIVE: Alif Haji 3, Diana Haji 2, Fikri Haji/Haji 2/Haji 3, Aini Haji 3, Nida Haji 2/Haji 3. Ad set lain PAUSED (sempat spend hari ini → kemungkinan dipause user hari ini). **Fifi: semua ad set PAUSED → campaign ACTIVE tapi tidak tayang.**
+- Dibuat user hari ini 12:25: Aini "Haji 2 - Salin" `120253090182010704` (PAUSED, 3 iklan PENDING_REVIEW) dan Fifi "Haji - Salin" ×2 `120253090179850704`/`…79840704` (PAUSED, **kosong tanpa iklan**).
+- Aturan iklan boros/mahal (lifetime): tidak ada iklan boros (spend ≥35rb & 0 chat). Mahal >50rb/chat: hanya Aini Hajj 2025-63 `120252664143850704` (Rp51,8rb, 3 chat) — ad set sudah PAUSED.
+- Iklan terbaik: Fikri Haji_Img_11 (56 chat, Rp24rb), Aini Haji_Img_01 (49, Rp30rb), Nida Hajj 2025-63 (18, Rp25rb), Diana Haji_Img_06 (18, Rp29,8rb).
+- Tidak ada perubahan. Tertunda: tanya user soal 2 ad set Fifi kosong & ad set Haji 2 - Salin.

@@ -1042,3 +1042,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: "1 kampanye itu ada 5 adset kamu ganti, jakarta,jawa barat,banten,jawa, luar pulau, khusus haji jawa tambah surabaya" (Surabaya sudah dimasukkan manual user di diana - Salin → key 992951).
 - Dikerjakan: 45 ad set (9 campaign "- Salin" × 5) diganti nama + lokasi per wilayah: Jakarta (Jakarta + 5 subcity), Jawa Barat (11 kota), Banten (5), Jawa (Semarang, Surakarta, Malang, Surabaya), Luar Pulau (9); radius 40 km, umur 30–50 (individual_setting.age=0), penempatan default tetap.
 - Hasil: semua 45 terbit tanpa error (publish_as_active=false), dicek live; ad set ACTIVE di bawah campaign PAUSED, iklan PAUSED — belum tayang.
+
+### 2026-10-25 — "lanjut": cek status akun Haji 1050343302646341
+- Cek live: 9 campaign "- Salin" (budget Rp120.000/hari masing-masing) semua PAUSED; tidak ada error penayangan di akun.
+- Pekerjaan 24 Okt (45 ad set 5 wilayah + 135 iklan PAUSED) sudah selesai; tidak ada perubahan hari ini.
+- Menunggu perintah user: aktifkan campaign/iklan Haji? rename campaign? (aturan: tanpa perintah eksplisit tetap PAUSED). Draft rusak `120254366036240422` masih perlu discard manual.

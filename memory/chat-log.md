@@ -1102,3 +1102,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Aturan iklan boros/mahal (lifetime): tidak ada iklan boros (spend ≥35rb & 0 chat). Mahal >50rb/chat: hanya Aini Hajj 2025-63 `120252664143850704` (Rp51,8rb, 3 chat) — ad set sudah PAUSED.
 - Iklan terbaik: Fikri Haji_Img_11 (56 chat, Rp24rb), Aini Haji_Img_01 (49, Rp30rb), Nida Hajj 2025-63 (18, Rp25rb), Diana Haji_Img_06 (18, Rp29,8rb).
 - Tidak ada perubahan. Tertunda: tanya user soal 2 ad set Fifi kosong & ad set Haji 2 - Salin.
+
+### 2026-10-25 — Haji 3: "isi iklan yang kosong" + "untuk yang baru hari ini lokasi dan penempatan sesuai aturan"
+- Akun Haji 3 (794403715776985) ternyata kini **mode DRAFT** (update/iklan tersimpan sebagai draft).
+- 3 ad set baru hari ini (semua PAUSED): Fifi "Haji - Salin" `120253090179850704` & `120253090179840704`, Aini "Haji 2 - Salin" `120253090182010704` → lokasi Indonesia + penempatan otomatis diganti 25 kota radius 40 km + 5 subcity Jakarta + penempatan default (IG semua + profile_reels, FB Story, WA Status, Threads), umur 25–65 & targeting_automation tetap. Staged draft, VALIDATED.
+- 2 ad set Fifi yang kosong diisi 6 iklan BARU (draft, PAUSED), Page 588336968031663 + IG, teks Haji Plus, judul "✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang", deskripsi 6800+ Google Review, CTA WA, ice breaker Haji Plus. Gambar paling jarang dipakai di akun: `…850704` Haji_Img_05/07/14 (`120253090191460704`/`…93230704`/`…95100704`); `…840704` Haji_Img_17/03/04 (`…95470704`/`…95870704`/`…96900704`).
+- **Belum diterbitkan** (aturan: publish hanya atas perintah). Tertunda: user minta "terbitkan" → publish 9 objek draft dengan publish_as_active=false (tetap PAUSED).

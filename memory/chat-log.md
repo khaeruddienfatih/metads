@@ -1068,3 +1068,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Aturan baru user: **habiskan stok materi dulu sebelum dipakai ulang**. Stok Haji yang dipakai: 24 gambar (desain Haji Plus Premium/Desain 3/4/6/7/Design 14/Premium #1–8) + 18 video Hajj_2025-46..63; disalin ke akun dari akun Haji 1050343302646341 & 947788760498911 (upload via download_url). Pemakaian merata: tiap gambar 3–4×, tiap video 2–4×. Desain 7 #3–#4 (Canva folder Haji) belum bisa diambil (Canva hanya beri thumbnail) → minta user upload ke Cloudinary/Meta.
 - Terbit: 45 ad set + 135 iklan (publish_as_active=false, per campaign — publish 180 objek sekaligus diam-diam gagal, per campaign 20 objek berhasil). Live: ad set CAMPAIGN_PAUSED/IN_PROCESS, iklan IN_PROCESS/PENDING_REVIEW; **9 campaign tetap PAUSED (belum tayang)**. Verifikasi live: 45/45 ad set umur 30–50, lokasi wilayah benar, penempatan default.
 - Tertunda: discard draft `120251141642010518`; aktifkan campaign Haji 2 menunggu perintah user; Desain 7 #3–#4 belum diupload.
+
+### 2026-10-25 — Haji 2: "kenapa ada yang gagal" / "cek lagi"
+- Dijelaskan: 1 draft gagal `120251141642010518` karena uji pertama pakai Page 588336968031663 (ad set terikat Page Haji 637020022834756) → "Pages Don't Match"; tidak diterbitkan, perlu discard manual.
+- Cek ulang live: 135 iklan — 45 video sudah lolos review (CAMPAIGN_PAUSED), 90 gambar masih PENDING_REVIEW; 0 ditolak, 0 error penayangan. 9 campaign tetap PAUSED.

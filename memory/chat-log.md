@@ -1053,3 +1053,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dikerjakan: 9 campaign "- Salin" (fifi/irfan/Allif/Hanif/Nida/Fikri/diana/Tira/AIni) diaktifkan via ads_activate_entity publish_as_active=true. Budget Rp120.000/hari per campaign (total Rp1.080.000/hari).
 - Verifikasi live: 45/45 ad set ACTIVE, 135/135 iklan status & effective_status ACTIVE. Tidak ada error.
 - Tertunda: draft rusak `120254366036240422` tetap perlu discard manual. Pantau biaya per chat (aturan boros/mahal).
+
+### 2026-10-25 — "elharamain haji 2 kamu bisa akses"
+- Cek akses: akun **Elharamain Haji 2 = `1032468828178224`** (bisnis Elharamain Wisata) — Ads MCP aktif, bisa dibaca & diubah.
+- Isi: 9 campaign Penjualan (Aini, Nida, Tira, Hanif, Irfan, Diana, Fifi, Alif, Fikri), dibuat 25 Sep, budget Rp100rb/hari masing-masing, semua PAUSED, spend 7 hari Rp0.
+- Akun Haji lain yang juga bisa diakses: Elharamain Haji 3 `794403715776985` (status IN_GRACE_PERIOD), Elharamain Haji 4 `1526562231314028`, HAJI `1150261520060054`, Elharamainhaji `1228767622056751`, Haji Elharamain Wisata `1408783256902540`.
+- Tidak ada perubahan; menunggu perintah user.

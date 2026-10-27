@@ -1177,3 +1177,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Status IN_GRACE_PERIOD (masalah pembayaran): Haji 3, AIni, Hanif, Fikri, Diana, Allif.
 - Tidak bisa dicek (Ads MCP belum dibuka): Elharamainclose, PAUSE Elharamain Wisata, Elharamainwisata, Umroh Plus, 3 akun Read-Only.
 - Catatan: sesi lain (commit e8633cd) sudah mencatat tagihan Meta 1–27 Okt = Rp268,77 jt (lihat entri "tagihan Meta Oktober" di atas); angka itu yang dipakai untuk "sudah dibayar".
+
+### 2026-10-27 — Biaya Oktober dipisah Haji vs Umroh
+- Diminta: "pisah haji dan umroh". Dicek per campaign di akun Haji yang berisi iklan Umroh (hanya baca).
+- Akun Haji 4 (1526562231314028) campaign `Saudia` `120256726380060768` = Umroh (iklan Januari/Desember), Rp5,23 jt; campaign lain (Nida/Diana/Hanif/Irfan/Tira/haji) dianggap Haji. Elharamain Haji: campaign Yoga (Umroh) Rp0,15 jt.
+- Terpakai 1–27 Okt: **Umroh Rp185,84 jt** (9 akun Umroh 180,45 + Saudia Haji 4 5,23 + Yoga 0,15); **Haji Rp88,13 jt** (Elharamain Haji 37,75; Haji 4 22,15; Haji 3 20,43; haji 5,98; Haji 2 1,82); CloseF 873443374652541 Rp0,05 jt.
+- Tagihan per akun (tidak bisa dipisah per campaign): akun Umroh Rp171,96 jt, akun Haji Rp96,60 jt, CloseF Rp0,19 jt.

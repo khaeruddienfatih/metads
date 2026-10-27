@@ -1147,3 +1147,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - TOTAL ±Rp234,5 jt, 7,13 jt impresi, 5.025 chat, rata-rata Rp46.671/chat.
 - Akun Elharamain Haji (947788760498911) status UNSETTLED (tagihan belum lunas) → data tidak bisa dibaca. Akun IN_GRACE_PERIOD: Haji 3, AIni, Hanif, Fikri, Diana, Allif — cek pembayaran.
 - Akun lain (Elharamain Fikri 2599…, Wisata Travel, Umroh, Jakarta, Depok, Bekasi, Elharamainhaji, dll.) belanja 0 bulan ini. Elharamainclose, Umroh Plus, Elharamainwisata, PAUSE Elharamain Wisata: Ads MCP belum dibuka.
+
+### 2026-10-27 — Lanjutan rekap: akun yang belum terbaca
+- User: "Ada akun yang belum terbaca".
+- Elharamain Haji (947788760498911) ternyata bisa dibaca di level campaign (level akun gagal karena status UNSETTLED): Rp37,73 jt, 2,08 jt impresi, 1.081 chat, Rp34.903/chat. Per campaign: Nida 6,87 jt/296, Hanif 6,89 jt/254, AIni 6,37 jt/192, Tira 5,83 jt/143, Diana 4,29 jt/62, Fikri 4,14 jt/85, Irfan 3,17 jt/47, Yoga 0,15 jt/2.
+- Cek ulang level campaign: Elharamain Wisata new, HAJI, 645826984173235 (tanpa campaign); Dhiyaa Elhaq, Elharamain Store & 3 akun Read-Only (campaign lama, tanpa belanja) → semua Rp0 bulan ini.
+- Tetap tak bisa dibaca (Ads MCP belum dibuka Meta): Elharamainclose, Umroh Plus, Elharamainwisata, PAUSE Elharamain Wisata.
+- TOTAL baru Okt 1–27: ±Rp272,3 jt, 9,21 jt impresi, 6.106 chat, Rp44.588/chat.

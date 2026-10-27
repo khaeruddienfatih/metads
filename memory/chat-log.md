@@ -1130,3 +1130,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dijelaskan: gambar di folder Canva berupa *upload* (aset); tool Canva hanya memberi thumbnail kecil (±160×200) untuk aset, tidak ada unduhan resolusi penuh. `export-design` hanya bisa untuk *desain* (ID diawali D).
 - Alternatif lewat Canva: user buka gambar sebagai **desain** (mis. "Gunakan dalam desain baru", ukuran 4:5 1080×1350) dan simpan di folder → Claude bisa export JPG resolusi penuh → upload ke Meta (upload_media via URL). Tidak wajib Cloudinary.
 - Tidak ada perubahan.
+
+### 2026-10-27 — "kenapa ga kamu saja" (ambil gambar Canva resolusi penuh)
+- Dikerjakan sendiri lewat Canva: salin desain 1080×1350 → desain kerja baru `DAHZKazbAWs` "Materi iklan export - Desain 9 Januari + Desain 7 Haji" (8 hlm; hlm 1 sisa template "isi berita", abaikan). Hlm 2–6 = Desain 9 Paket Umroh Januari #1–5 (asset MAHYr8Vngm4/MAHYryFZDr4/MAHYr77xE54/MAHYr4_mAyU/MAHYr59pG5Y), hlm 7–8 = Haji Plus Desain 7 #3–#4 (MAHZH_hjQeo/MAHZHzcSPSw).
+- Ekspor JPG 1080×1350 berhasil, tajam (500–656 KB/gambar). Belum diupload ke Meta (menunggu dipakai di iklan; ekspor ulang karena URL kedaluwarsa).
+- Catatan: Desain 9 menulis "7.000+ Google Reviews" di gambar (headline iklan tetap 6800+).

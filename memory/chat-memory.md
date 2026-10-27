@@ -139,7 +139,7 @@ Semua 7 kampanye ACTIVE. Angka berubah dari catatan 2 Okt (diubah manual oleh us
 
 ## Pending / pertanyaan terbuka
 
-- **27 Okt:** akun Elharamain Haji (947788760498911) UNSETTLED (tagihan belum lunas; level akun tak terbaca, tapi level campaign bisa: Rp37,73 jt/1.081 chat); Haji 3, AIni, Hanif, Fikri, Diana, Allif IN_GRACE_PERIOD. Rekap Okt (1–27): total ±Rp272,3 jt, 6.106 chat WA, Rp44.588/chat — detail di chat-log 27 Okt.
+- **27 Okt:** akun Elharamain Haji (947788760498911) UNSETTLED (tagihan belum lunas; level akun tak terbaca, tapi level campaign bisa: Rp37,73 jt/1.081 chat); Haji 3, AIni, Hanif, Fikri, Diana, Allif IN_GRACE_PERIOD. Rekap Okt (1–27): total ±Rp272,3 jt, 6.106 chat WA, Rp44.588/chat; sudah tertagih Meta 1–27 Okt Rp268,77 jt (belum tertagih terbesar: Hanif, Fikri, Diana, Allif, AIni) — detail di chat-log 27 Okt.
 
 - 22 Okt: 4 campaign "(baru)" (Penjualan/Prospek/Interaksi/Traffic) × 3 ad set sudah ada di semua 9 akun Umroh (lihat chat-log 22 Okt "lanjut"). Belum ada iklan; nomor WA & toggle Katalog Advantage+ (Penjualan) dicek/diisi user.
 - Diana: 5 ad set IG ARCHIVED — disengaja?

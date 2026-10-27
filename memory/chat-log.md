@@ -1154,3 +1154,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Cek ulang level campaign: Elharamain Wisata new, HAJI, 645826984173235 (tanpa campaign); Dhiyaa Elhaq, Elharamain Store & 3 akun Read-Only (campaign lama, tanpa belanja) → semua Rp0 bulan ini.
 - Tetap tak bisa dibaca (Ads MCP belum dibuka Meta): Elharamainclose, Umroh Plus, Elharamainwisata, PAUSE Elharamain Wisata.
 - TOTAL baru Okt 1–27: ±Rp272,3 jt, 9,21 jt impresi, 6.106 chat, Rp44.588/chat.
+
+### 2026-10-27 — Yang sudah dibayar bulan ini di Meta (log penagihan)
+- Diminta: "Coba baca yang sudah di bayar bulan ini di meta". Sumber: `ads_account_get_activity_logs` event_category=budget, 1–27 Okt, event "Account billed" (extra_data.new_value).
+- Total tertagih 15 akun: **Rp268,77 jt** (belanja Okt Rp272,26 jt → selisih ±Rp3,5 jt belum tertagih; tagihan Okt juga mencakup sisa belanja akhir Sep).
+- Per akun (tertagih / belanja Okt): Elharamain Haji 40,92/37,73 jt · Fifi 29,43/25,64 · Haji 4 27,56/27,18 · Haji 3 20,46/20,31 · Nida 19,82/19,64 · Diana 19,27/21,30 · Irfan 18,37/18,06 · Allif 18,03/19,67 · Hanif 17,97/21,57 · Fikri 16,89/20,42 · AIni 16,53/17,81 · Tira 15,65/15,24 · haji 5,75/5,82 · Haji 2 1,91/1,81 · CloseF 0,19/0,05.
+- Belum tertagih terbesar: Hanif ±3,6 jt, Fikri ±3,5 jt, Diana ±2,0 jt, Allif ±1,6 jt, AIni ±1,3 jt.
+- Tidak ada log penolakan/refund. Kartu kredit dihapus 15–16 Okt di Tira, Nida, Fifi, Hanif, AIni, Diana (oleh Muhammad Dhiyaa Elhaq). Haji 3: 12× tagihan kecil Rp18.017 pada 15 Okt (percobaan ulang). Irfan: 53 dari 69 tagihan = Rp300rb (ambang tagihan).
+- Kartu Jenius hanya ±Rp100,7 jt dari Rp268,8 jt → sisanya dari metode bayar lain.

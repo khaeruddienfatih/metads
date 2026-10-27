@@ -1125,3 +1125,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 26 Okt 22:26 WIB muncul salinan folder: `9 Hari Januari` `FAHZH4MWBLA`, `ramadhan` `FAHZH7_sMDw`, `Copy of ramadhan`, `Copy of 12 Hari Januari`, `Copy of Haji`, `Copy of Paket Umroh` (brosur PDF Januari 2027 13 hlm + Ramadhan 1448 H 11 hlm). Isinya duplikat folder asli.
 - Desain 7 Haji #3–#4 masih hanya di Canva (gambar upload; tool hanya beri thumbnail → perlu upload user ke Cloudinary/Meta).
 - Tidak ada perubahan.
+
+### 2026-10-27 — "kenapa harus ke cloudinary bukan upload via canva"
+- Dijelaskan: gambar di folder Canva berupa *upload* (aset); tool Canva hanya memberi thumbnail kecil (±160×200) untuk aset, tidak ada unduhan resolusi penuh. `export-design` hanya bisa untuk *desain* (ID diawali D).
+- Alternatif lewat Canva: user buka gambar sebagai **desain** (mis. "Gunakan dalam desain baru", ukuran 4:5 1080×1350) dan simpan di folder → Claude bisa export JPG resolusi penuh → upload ke Meta (upload_media via URL). Tidak wajib Cloudinary.
+- Tidak ada perubahan.

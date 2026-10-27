@@ -1135,3 +1135,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dikerjakan sendiri lewat Canva: salin desain 1080×1350 → desain kerja baru `DAHZKazbAWs` "Materi iklan export - Desain 9 Januari + Desain 7 Haji" (8 hlm; hlm 1 sisa template "isi berita", abaikan). Hlm 2–6 = Desain 9 Paket Umroh Januari #1–5 (asset MAHYr8Vngm4/MAHYryFZDr4/MAHYr77xE54/MAHYr4_mAyU/MAHYr59pG5Y), hlm 7–8 = Haji Plus Desain 7 #3–#4 (MAHZH_hjQeo/MAHZHzcSPSw).
 - Ekspor JPG 1080×1350 berhasil, tajam (500–656 KB/gambar). Belum diupload ke Meta (menunggu dipakai di iklan; ekspor ulang karena URL kedaluwarsa).
 - Catatan: Desain 9 menulis "7.000+ Google Reviews" di gambar (headline iklan tetap 6800+).
+
+### 2026-10-27 — Rekap bulan ini (Oktober) semua akun
+- Diminta: "Coba kanu rekap bulan ini semua akun".
+- Dikerjakan: tarik data 1–27 Okt per akun (belanja, impresi, chat WA dimulai = `actions:onsite_conversion.messaging_conversation_started_7d`, biaya/chat). Catatan: `results` tidak bisa dipakai (banyak campaign objektif Sales/Leads → "Not available"); metrik chat WA yang konsisten.
+- Hasil (Rp belanja / chat / Rp per chat):
+  - Elharamain Haji 4 27,18 jt / 550 / 49.424 · Fifi 25,64 jt / 543 / 47.222 · Hanif 21,57 jt / 486 / 44.384 · Diana 21,30 jt / 496 / 42.947
+  - Fikri 20,42 jt / 414 / 49.314 · Elharamain Haji 3 20,31 jt / 529 / 38.387 · Allif 19,67 jt / 406 / 48.457 · Nida 19,64 jt / 418 / 46.990
+  - Irfan 18,06 jt / 441 / 40.950 · AIni 17,81 jt / 344 / 51.785 · Tira 15,24 jt / 282 / 54.043 · haji 5,82 jt / 88 / 66.146
+  - Elharamain Haji 2 1,81 jt / 26 / 69.506 · CloseF 48 rb / 2
+  - TOTAL ±Rp234,5 jt, 7,13 jt impresi, 5.025 chat, rata-rata Rp46.671/chat.
+- Akun Elharamain Haji (947788760498911) status UNSETTLED (tagihan belum lunas) → data tidak bisa dibaca. Akun IN_GRACE_PERIOD: Haji 3, AIni, Hanif, Fikri, Diana, Allif — cek pembayaran.
+- Akun lain (Elharamain Fikri 2599…, Wisata Travel, Umroh, Jakarta, Depok, Bekasi, Elharamainhaji, dll.) belanja 0 bulan ini. Elharamainclose, Umroh Plus, Elharamainwisata, PAUSE Elharamain Wisata: Ads MCP belum dibuka.

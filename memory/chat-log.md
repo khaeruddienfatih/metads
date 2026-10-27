@@ -1176,3 +1176,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Total ±Rp274,0 jt: Umroh 9 akun Rp180,45 jt (Fifi 25,83; Hanif 21,65; Diana 21,41; Fikri 20,53; Nida 19,78; Allif 19,74; Irfan 18,22; AIni 17,92; Tira 15,38), Haji 5 akun Rp93,52 jt (Elharamain Haji 37,90; Haji 4 27,38; Haji 3 20,43; haji 1050343302646341 5,98; Haji 2 1,82), CloseF 873443374652541 Rp48rb. Akun lain Rp0.
 - Status IN_GRACE_PERIOD (masalah pembayaran): Haji 3, AIni, Hanif, Fikri, Diana, Allif.
 - Tidak bisa dicek (Ads MCP belum dibuka): Elharamainclose, PAUSE Elharamain Wisata, Elharamainwisata, Umroh Plus, 3 akun Read-Only.
+- Catatan: sesi lain (commit e8633cd) sudah mencatat tagihan Meta 1–27 Okt = Rp268,77 jt (lihat entri "tagihan Meta Oktober" di atas); angka itu yang dipakai untuk "sudah dibayar".

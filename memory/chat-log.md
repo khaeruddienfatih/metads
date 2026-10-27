@@ -1115,3 +1115,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **Aini "Haji 2 - Salin" ACTIVE tapi 3 iklannya ARCHIVED (Hajj 2025-63, Hajj 2025-46, Haji_Img_01) → spend Rp0, tidak tayang.**
 - Ad set lama 3 hari: terbaik Alif Haji (15 chat, Rp26,2rb), Fikri Haji 2 (13, Rp33,6rb), Nida Haji 3 (5, Rp25,1rb); mahal >Rp50rb/chat: Aini Haji 2 (Rp97,3rb), Aini Haji 3 (Rp103,8rb), Alif Haji 3 (Rp67,3rb), Fifi Haji (Rp67,9rb), Diana Haji (Rp68,8rb), Nida Haji 2/Haji, Fikri Haji. Alif Haji 2, Diana Haji 2, Fikri Haji 3 spend Rp53–78rb tanpa chat. Ad set sudah jalan >1 hari → tidak diubah (aturan 24 Okt), hanya dilaporkan.
 - Tidak ada perubahan. Tertunda: tanya user — isi iklan baru di ad set Aini "Haji 2 - Salin"?
+
+### 2026-10-27 — "ini pakai github yang mana ya"
+- Repo: https://github.com/khaeruddienfatih/metads (akun GitHub khaeruddienfatih, branch main). Git user.name/email lokal belum diset.
+
+### 2026-10-27 — "coba cek canva"
+- Canva tersambung. Folder materi: 9 Hari Januari `FAHYiSew1AM`, 12 Hari Januari `FAHYiWioa1g`, Haji `FAHYiYkarIo`, ramadhan `FAHYiTALT_k`, Paket Umroh `FAHYuYzSERQ`, Umroh `FAFOcH7PPug` (lama).
+- **Baru dibanding catatan:** folder 9 Hari Januari kini punya **Desain 9 #1–5** (upload 21 Okt) — belum ada di Cloudinary/Meta, belum pernah dipakai iklan.
+- 26 Okt 22:26 WIB muncul salinan folder: `9 Hari Januari` `FAHZH4MWBLA`, `ramadhan` `FAHZH7_sMDw`, `Copy of ramadhan`, `Copy of 12 Hari Januari`, `Copy of Haji`, `Copy of Paket Umroh` (brosur PDF Januari 2027 13 hlm + Ramadhan 1448 H 11 hlm). Isinya duplikat folder asli.
+- Desain 7 Haji #3–#4 masih hanya di Canva (gambar upload; tool hanya beri thumbnail → perlu upload user ke Cloudinary/Meta).
+- Tidak ada perubahan.

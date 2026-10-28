@@ -1249,3 +1249,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: "kita rubah sesuai keseluruhan akun mana saja yang mendapatkan chat" / "penempatannya sesuai kebiasaan akun yang mendapatkan banyak chat".
 - 5 ad set `7 Kota Jabar - Broad 25-65 #1–5` (campaign `Sales` `120252852311010584`) → penempatan: **IG Feed, IG Story, IG Reels, FB Feed, FB Story, FB Reels, WA Status** (mobile+desktop). Dibuang: IG Explore, IG Profile feed, IG Search, Threads (hampir tanpa chat / mahal). Dasar: data sepanjang masa (IG Feed 33–35% chat, IG Reels 23%, IG Stories 15–23%, FB Feed 6–10%, FB Reels 5–12%, WA Status termurah Rp24–27rb).
 - Lokasi/umur/targeting_automation tetap. Terverifikasi via ads_get_ad_entities (effective positions sesuai). Campaign masih PAUSED.
+
+### 2026-10-29 — Uji penempatan berbasis chat di beberapa akun
+- Diminta: "coba beberapa akun dulu". Ditanya: cakupan → user pilih "hanya ad set baru". Akun uji selain Tira belum dipilih (pertanyaan akun tidak dijawab). Tidak ada perubahan ke Meta.

@@ -1244,3 +1244,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-29 — Tira: cek penempatan ad set Sales
 - Diminta: "penempatan kamu set apa". Dijawab dari data ad set (tidak diubah Claude; diset user saat membuat): FB Story; IG Feed, Story, Reels, Explore home, Profile feed, IG Search; WA Status; Threads (tidak efektif — Meta tidak menayangkan Threads untuk iklan WA); mobile+desktop. Sama untuk 5 ad set. Tidak ada perubahan.
+
+### 2026-10-29 — Tira: penempatan ad set Sales diubah sesuai data chat semua akun
+- Diminta: "kita rubah sesuai keseluruhan akun mana saja yang mendapatkan chat" / "penempatannya sesuai kebiasaan akun yang mendapatkan banyak chat".
+- 5 ad set `7 Kota Jabar - Broad 25-65 #1–5` (campaign `Sales` `120252852311010584`) → penempatan: **IG Feed, IG Story, IG Reels, FB Feed, FB Story, FB Reels, WA Status** (mobile+desktop). Dibuang: IG Explore, IG Profile feed, IG Search, Threads (hampir tanpa chat / mahal). Dasar: data sepanjang masa (IG Feed 33–35% chat, IG Reels 23%, IG Stories 15–23%, FB Feed 6–10%, FB Reels 5–12%, WA Status termurah Rp24–27rb).
+- Lokasi/umur/targeting_automation tetap. Terverifikasi via ads_get_ad_entities (effective positions sesuai). Campaign masih PAUSED.

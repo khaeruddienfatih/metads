@@ -1255,3 +1255,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-29 — "untuk kampanye sales yang semalam buat"
 - Dicek semua akun (9 Umroh + Elharamain Haji, Haji 2/3/4, haji) ad set dibuat sejak 28 Okt: hanya Tira `Sales` `120252852311010584` (28 Okt 20:58) — penempatan berbasis chat SUDAH diterapkan ke 5 ad set-nya (lihat entri sebelumnya). Lainnya: Elharamain Haji campaign `Yoga - Salin` (3 ad set, 28 Okt 06:16, ACTIVE) — bukan Sales & sudah jalan → tidak disentuh. Tidak ada perubahan baru.
+
+### 2026-10-29 — Tira Sales: tambah Threads
+- Diminta: "masukan thread jika bisa, karna thread masih baru jadi belum maksimal".
+- 5 ad set `7 Kota Jabar - Broad 25-65 #1–5` → tambah publisher `threads` + `threads_stream` (penempatan lain tetap: IG Feed/Story/Reels, FB Feed/Story/Reels, WA Status).
+- Hasil cek: Threads tersimpan di setelan, tapi `effective_publisher_platforms` tetap facebook/instagram/whatsapp → Meta belum menayangkan Threads untuk iklan chat WhatsApp (sama seperti temuan 22 Okt).
+- Update targeting memaksa ad set ACTIVE → PAUSED; dikembalikan ke status semula (ACTIVE) via ads_activate_entity. Campaign `Sales` tetap PAUSED (Rp250rb/hari) → belum tayang, spend 0.

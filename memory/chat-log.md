@@ -1212,3 +1212,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Usia: 35–44 terbanyak (36%) Rp43,7rb; 55–64 Rp38,9rb; 65+ Rp33,1rb; L55–64 Rp31,6rb termurah. Perempuan 66% Rp43,6rb, laki-laki Rp37,2rb.
 - Keterbatasan: EH (UNSETTLED) & H4 dibaca level campaign, terpotong 4.000 baris; region EH/H4 tidak ditarik. Data mentah di scratchpad sesi (tidak disimpan di repo).
 - Tertunda: usulan (menunggu user) — porsi lebih ke FB Reels/WA Status/FB Feed, kurangi IG Feed/Explore/Threads; uji ad set laki-laki & 55+; tambah Tangerang/Bekasi, evaluasi Jakarta/Depok/Banten Umroh.
+
+### 2026-10-28 — Strategi 5 ad set baru
+- Diminta: "saya mau buat 5 adset menurutmu bagaimana strateginya".
+- Usulan (berdasar analisis sepanjang masa di atas): 1 campaign chat WA, 5 ad set — (1) Tangerang/Serpong, (2) Bekasi + Bandung, (3) 25 kota default (kontrol), (4) laki-laki saja 25 kota, (5) penempatan murah FB Feed/Reels/Story + WA Status (alternatif: usia 55–65+). Umur 25–65+, 3 iklan/ad set gambar unik, PAUSED. CBO Rp150–200rb/hari (atau ABO ≥Rp50rb/ad set); evaluasi 3 hari (kill > Rp50rb/chat; scale ≥5 chat & ≤Rp39rb).
+- Belum dibuat apa pun — menunggu user pilih akun, paket, budget, dan varian ad set #5.

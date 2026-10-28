@@ -1237,3 +1237,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-29 — Tira: ganti nama 5 ad set campaign Sales
 - Diminta: "nama adset kamu rubah". 5 ad set "new" di campaign `Sales` `120252852311010584` diganti jadi `Mix Paket 1 - Jawa Barat` … `Mix Paket 5 - Jawa Barat` (…316260584, …316250584, …311120584, …311080584, …311060584). Langsung live (bukan draft), status tetap PAUSED.
+
+### 2026-10-29 — Tira: nama ad set Sales berdasarkan audiens & kota
+- Diminta: "berdasarkan audiens dan kota". Ditanya dulu: targeting kelima ad set identik → user pilih "rename saja, targeting tetap".
+- 5 ad set campaign `Sales` `120252852311010584` kini `7 Kota Jabar - Broad 25-65 #1` … `#5` (urutan sama dengan Mix Paket 1–5). Targeting tidak diubah, status tetap PAUSED.

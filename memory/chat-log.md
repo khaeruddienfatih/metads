@@ -1269,3 +1269,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - > Rp73,8rb/chat (zona kill Blueprint): 27 ad set, Rp7,35 jt, 62 chat. Terparah: H4 Saudia Retargeting - Salin `120256803032040768` Rp1,02 jt/1 chat; EH Diana LLA `120250897617350739` Rp225rb/1; H4 Diana Vidio `120256622022480768` Rp188rb/1; H4 haji Retargeting `120256863068050768` Rp600rb/4 (Rp150rb); Fifi Ramadhan jakarta `120252429755520365` Rp383rb/3 (Rp128rb); EH Fikri Interest `120250201672240739` Rp616rb/6 (Rp103rb); H4 haji LLA `120256863096520768` Rp750rb/8 (Rp94rb).
 - Rp50–73,8rb/chat (waspada): 34 ad set, Rp7,41 jt, 125 chat.
 - Tidak ada perubahan (aturan: ad set yang sudah jalan tidak diubah tanpa perintah). Daftar lengkap: scratchpad sesi `mahal.py`.
+
+### 2026-10-29 — "fikri saya cek langsung tidak ada"
+- Dicek ulang: ad set Fikri yang dilaporkan mahal ADA dan ACTIVE di akun **Fikri `1676215979752437`** (bisnis Dhiyaa Elharamain Elmubarakah, IN_GRACE_PERIOD): campaign `Fikri` `120249450572870470` (12 Hari Januari `…683321210470` Rp122rb/1 chat; 9 Hari Januari `…450585120470` Rp162rb/2), campaign `Ramadhan` `120249566336610470` (Ramadhan - 1 `…566336690470` Rp139rb/2; Ramadhan `…566336710470` Rp113rb/2), campaign `Fikri Prov` `120249450685560470` (9 hari Januari `…450685390470` Rp186rb/3).
+- Kemungkinan user membuka akun lain bernama "Elharamain Fikri" `2599178060293404` (beda akun, belanja 0). Ad set "Fikri › Interest/Broud/LLA" dan "Fikri › Haji 2/3" ada di akun Elharamain Haji `947788760498911` dan Haji 3 `794403715776985` (campaign bernama Fikri), bukan di akun Fikri.
+- Catatan memory: tabel "Status per akun" sempat menulis Fifi = 1676215979752437 — yang benar akun **Fikri** = 1676215979752437, Fifi = 521083143750270.

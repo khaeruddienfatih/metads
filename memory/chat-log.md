@@ -1252,3 +1252,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-29 — Uji penempatan berbasis chat di beberapa akun
 - Diminta: "coba beberapa akun dulu". Ditanya: cakupan → user pilih "hanya ad set baru". Akun uji selain Tira belum dipilih (pertanyaan akun tidak dijawab). Tidak ada perubahan ke Meta.
+
+### 2026-10-29 — "untuk kampanye sales yang semalam buat"
+- Dicek semua akun (9 Umroh + Elharamain Haji, Haji 2/3/4, haji) ad set dibuat sejak 28 Okt: hanya Tira `Sales` `120252852311010584` (28 Okt 20:58) — penempatan berbasis chat SUDAH diterapkan ke 5 ad set-nya (lihat entri sebelumnya). Lainnya: Elharamain Haji campaign `Yoga - Salin` (3 ad set, 28 Okt 06:16, ACTIVE) — bukan Sales & sudah jalan → tidak disentuh. Tidak ada perubahan baru.

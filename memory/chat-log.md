@@ -1191,3 +1191,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Tidak ada tagihan gagal/ditolak. Elharamain Haji (947788760498911) kini ACTIVE (kemarin UNSETTLED) — tagihan sudah lunas.
 - Masih IN_GRACE_PERIOD & tanpa tagihan sejak 27 Okt: Fikri, Hanif, Diana, Allif, Haji 3 (Haji 3 ditagih 27 Okt Rp550.911). AIni sudah ACTIVE.
 - 27 Okt 06:55: budget campaign Irfan (Elharamain Haji) diturunkan user 250rb → 150rb/hari.
+
+### 2026-10-28 — Batas belanja Rp650rb per akun iklan
+- User tanya: tiap akun maks Rp65rb/hari, kalau sudah Rp650rb otomatis stop; dikonfirmasi "650rb satu akun iklan".
+- Jawaban: batas belanja akun (account spending limit) TIDAK bisa dipasang lewat tool Meta Ads MCP (tool hanya bisa campaign spend_cap & budget ad set). Diberi langkah manual: Ads Manager → Penagihan & pembayaran → Pengaturan pembayaran → Batas pembelanjaan akun → Tetapkan → Rp650.000. Batas dihitung sejak dipasang; kalau tercapai semua iklan akun berhenti sampai batas direset/dinaikkan.
+- Peringatan: belanja rata-rata akun Umroh ±Rp600rb–1jt/hari (Okt) → batas Rp650rb habis ±1 hari. Batas harian Rp65rb per akun tidak ada di Meta; hanya lewat jumlah budget campaign/ad set ≤ Rp65rb.
+- Belum ada perubahan di akun mana pun.

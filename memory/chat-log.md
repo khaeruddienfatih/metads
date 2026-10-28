@@ -1223,3 +1223,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Jawaban (data Haji sepanjang masa): Interest Rp38,0rb/chat · penonton video Rp38,5rb · LLA Rp40,9rb · Broad/umum Rp41–43rb · Retargeting Rp43,3rb (termahal). Beda kecil (±10%); lokasi & penempatan jauh lebih berpengaruh. Retargeting tidak perlu, LLA opsional, Interest layak 1 ad set uji.
 - Usulan revisi 5 ad set: Tangerang/Serpong · Bekasi+Bandung · 25 kota (kontrol) · laki-laki 25 kota · Interest (Umroh/Haji/Islam/perjalanan religi) 25 kota.
 - Belum dibuat — menunggu akun, paket, budget.
+
+### 2026-10-28 — Tira: isi 5 ad set campaign Sales baru (1 Ramadhan + 1 9 Hari + 1 12 Hari per ad set)
+- Diminta: "kita test di akun tira saya sudah buat tinggal kamu isi" — isi 1 Ramadhan, 1 9 Hari Januari, 1 12 Hari Januari; tujuan penjualan.
+- Campaign buatan user: `Sales` `120252852311010584` (Tira 868364731529534, akun live), 5 ad set semua bernama "new" (…316260584, …316250584, …311120584, …311080584, …311060584), CONVERSATIONS→WHATSAPP, umur 25–65, lokasi sama semua: 7 kota Jawa Barat radius 40 km (Bandung, Cianjur, Cirebon, Garut, Sukabumi, Sumedang, Tasikmalaya), penempatan default. Targeting tidak diubah.
+- Dibuat 15 iklan BARU (inline object_story_spec, Page 588336968031663 + IG 17841405431328414), semua PAUSED, nama `Sales <paket> | <desain> | adset1–5`:
+  - Ramadhan: Desain 2 #1, #2, #5, Desain 3 #4, #6 (hash dari creative Tira 23–25 Okt).
+  - 9 Hari Januari: **Desain 9 #1–5 (stok baru, pertama kali dipakai)** — ekspor Canva `DAHZKazbAWs` hlm 2–6 → upload ke Tira (hash f784…/c477…/dcc7…/aacc…/de2f…).
+  - 12 Hari Januari: Desain 2 12 Hari #1–4 + 12_hari_januari_1 (library Tira).
+  - Headline berselang-seling, deskripsi standar, CTA WhatsApp, page_welcome_message ice breakers (Ramadhan 4 pesan, lainnya 3) + sambutan.
+- ID iklan: 120252852440400584, …472220584, …473940584, …475080584, …475610584, …476920584, …497310584, …499170584, …501360584, …501870584, …502730584, …516610584, …517170584, …518210584, …519340584.
+- Catatan: 5 ad set targeting-nya identik (belum menerapkan usulan Tangerang/Bekasi/laki-laki/Interest); nomor WA Tira dipasang user manual (Tira belum punya phone number ID di catatan). Campaign & ad set tetap PAUSED.

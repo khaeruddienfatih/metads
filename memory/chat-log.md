@@ -1183,3 +1183,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Akun Haji 4 (1526562231314028) campaign `Saudia` `120256726380060768` = Umroh (iklan Januari/Desember), Rp5,23 jt; campaign lain (Nida/Diana/Hanif/Irfan/Tira/haji) dianggap Haji. Elharamain Haji: campaign Yoga (Umroh) Rp0,15 jt.
 - Terpakai 1–27 Okt: **Umroh Rp185,84 jt** (9 akun Umroh 180,45 + Saudia Haji 4 5,23 + Yoga 0,15); **Haji Rp88,13 jt** (Elharamain Haji 37,75; Haji 4 22,15; Haji 3 20,43; haji 5,98; Haji 2 1,82); CloseF 873443374652541 Rp0,05 jt.
 - Tagihan per akun (tidak bisa dipisah per campaign): akun Umroh Rp171,96 jt, akun Haji Rp96,60 jt, CloseF Rp0,19 jt.
+
+### 2026-10-28 — Cek tagihan hari ini
+- Sumber: log penagihan Meta (event_category=budget) 15 akun + status akun.
+- Hari ini (28 Okt, s/d pagi): 8 tagihan Rp4.119.065 — AIni 4× Rp1.556.416, Irfan 2× Rp413.645, Haji 4 1× Rp1.141.261, Elharamain Haji 1× Rp1.007.743. Akun lain belum ada tagihan.
+- Kemarin (27 Okt): 17 tagihan Rp22.416.505.
+- Tidak ada tagihan gagal/ditolak. Elharamain Haji (947788760498911) kini ACTIVE (kemarin UNSETTLED) — tagihan sudah lunas.
+- Masih IN_GRACE_PERIOD & tanpa tagihan sejak 27 Okt: Fikri, Hanif, Diana, Allif, Haji 3 (Haji 3 ditagih 27 Okt Rp550.911). AIni sudah ACTIVE.
+- 27 Okt 06:55: budget campaign Irfan (Elharamain Haji) diturunkan user 250rb → 150rb/hari.

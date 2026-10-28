@@ -1197,3 +1197,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Jawaban: batas belanja akun (account spending limit) TIDAK bisa dipasang lewat tool Meta Ads MCP (tool hanya bisa campaign spend_cap & budget ad set). Diberi langkah manual: Ads Manager → Penagihan & pembayaran → Pengaturan pembayaran → Batas pembelanjaan akun → Tetapkan → Rp650.000. Batas dihitung sejak dipasang; kalau tercapai semua iklan akun berhenti sampai batas direset/dinaikkan.
 - Peringatan: belanja rata-rata akun Umroh ±Rp600rb–1jt/hari (Okt) → batas Rp650rb habis ±1 hari. Batas harian Rp65rb per akun tidak ada di Meta; hanya lewat jumlah budget campaign/ad set ≤ Rp65rb.
 - Belum ada perubahan di akun mana pun.
+
+### 2026-10-28 — Kota, penempatan & audiens penghasil chat terbanyak (semua akun, sepanjang masa)
+- Diminta: "cek kota mana saja yang banyak menghasilkan chat, penempatan apa saja dan audiens apa saja" — "dari semua akun", "keseluruhan iklan maksimal". Hanya baca, tidak ada perubahan ke Meta.
+- Catatan: Meta tidak mengirim chat per provinsi/kota (breakdown region → chat null). Wilayah dibaca dari nama ad set (±75–82% belanja tanpa nama wilayah); provinsi hanya belanja & klik.
+- **Umroh (9 akun, tanpa Nida karena Rp1,24 M Nida di objective non-chat):** Rp1,89 M, 43.734 chat, Rp43,3rb/chat.
+  - Wilayah: Tangerang/Serpong 4.256 chat Rp31,2rb (Diana Tangerang 4.088 Rp29,6rb) · Bekasi 2.444 Rp40,5rb (Tira) · Bandung 1.862 Rp45,6rb (Fifi) · Luar Pulau 1.252 Rp39,5rb · Jakarta 475 Rp55,9rb · Depok 384 Rp52,7rb · Banten 151 Rp59,1rb. Irfan Bekasi Rp129rb & Depok Rp103rb/chat mahal.
+  - Penempatan: IG Feed 34,6% chat Rp51,6rb · IG Reels 23,7% Rp40,4rb · IG Stories 23,2% Rp41,4rb · FB Feed Rp40,5rb · WA Status Rp26,6rb (termurah) · FB Reels Rp30,1rb · IG Explore Rp52,1rb · Threads 1 chat (Rp2,4 jt).
+  - Audiens: perempuan 71% chat Rp45,0rb, laki-laki Rp39,0rb; 25–34 Rp35,9rb, 35–44 terbanyak Rp46,0rb, 45–54 Rp48,5rb, 65+ Rp34,9rb. Top P35–44 9.612 chat; termurah L25–34 Rp33,8rb.
+- **Haji (5 akun, ad set Umroh dikeluarkan):** Rp2,29 M, 55.344 chat, Rp41,4rb/chat.
+  - Wilayah: Indonesia 5.870 chat Rp38,6rb · Jawa Barat 3.751 Rp39,8rb · Jakarta (targeting) 1.738 Rp38,8rb / (nama) 1.519 Rp53,9rb · Banten/Tangerang 1.814 Rp48,6rb · Surabaya (H2) 67 chat Rp26rb.
+  - Audiens ad set: Interest Rp38,0rb · penonton video Rp38,5rb · LLA Rp40,9rb · Broad Rp41,0rb · Retargeting Rp43,3rb · umum Rp43,1rb.
+  - Penempatan: IG Feed 33% Rp47,7rb · IG Reels 23% Rp47,4rb · IG Stories Rp44,8rb · FB Reels 11,7% Rp23,6rb · FB Feed Rp33,9rb · FB Stories Rp30,6rb · WA Status Rp23,8rb · Threads/WA marketing messages ±0 chat.
+  - Usia: 35–44 terbanyak (36%) Rp43,7rb; 55–64 Rp38,9rb; 65+ Rp33,1rb; L55–64 Rp31,6rb termurah. Perempuan 66% Rp43,6rb, laki-laki Rp37,2rb.
+- Keterbatasan: EH (UNSETTLED) & H4 dibaca level campaign, terpotong 4.000 baris; region EH/H4 tidak ditarik. Data mentah di scratchpad sesi (tidak disimpan di repo).
+- Tertunda: usulan (menunggu user) — porsi lebih ke FB Reels/WA Status/FB Feed, kurangi IG Feed/Explore/Threads; uji ad set laki-laki & 55+; tambah Tangerang/Bekasi, evaluasi Jakarta/Depok/Banten Umroh.

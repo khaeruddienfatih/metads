@@ -1261,3 +1261,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 5 ad set `7 Kota Jabar - Broad 25-65 #1–5` → tambah publisher `threads` + `threads_stream` (penempatan lain tetap: IG Feed/Story/Reels, FB Feed/Story/Reels, WA Status).
 - Hasil cek: Threads tersimpan di setelan, tapi `effective_publisher_platforms` tetap facebook/instagram/whatsapp → Meta belum menayangkan Threads untuk iklan chat WhatsApp (sama seperti temuan 22 Okt).
 - Update targeting memaksa ad set ACTIVE → PAUSED; dikembalikan ke status semula (ACTIVE) via ads_activate_entity. Campaign `Sales` tetap PAUSED (Rp250rb/hari) → belum tayang, spend 0.
+
+### 2026-10-29 — Cek ad set mahal (semua akun, 7 hari terakhir)
+- Diminta: "coba kamu cek adset mana saja yang mahal". Hanya baca. Data 22–28 Okt, ad set ACTIVE dengan biaya, 9 akun Umroh + Elharamain Haji + Haji 3 + Haji 4 (Haji 2 & haji 1050… tidak ada ad set aktif berbiaya).
+- Total 167 ad set: Rp47,47 jt, 1.181 chat, rata-rata Rp40,2rb/chat.
+- 0 chat (≥Rp50rb): 8 ad set, Rp0,86 jt — EH Diana LLA-1 `120250897629620739` Rp189rb; Diana new 9 Januari `120251793201810294` Rp144rb; Fifi Kota Saudia 12 Hari `120252109488220365` Rp139rb; Irfan Sales banten 12H `120253548709090414` Rp97rb; EH Hanif Interest `120250848623090739` Rp94rb; H3 Alif Haji 2 `120252745117610704` Rp80rb; H4 Nida Gambar `120256622022540768` Rp60rb; EH AIni Jakarta `120250778435760739` Rp60rb.
+- > Rp73,8rb/chat (zona kill Blueprint): 27 ad set, Rp7,35 jt, 62 chat. Terparah: H4 Saudia Retargeting - Salin `120256803032040768` Rp1,02 jt/1 chat; EH Diana LLA `120250897617350739` Rp225rb/1; H4 Diana Vidio `120256622022480768` Rp188rb/1; H4 haji Retargeting `120256863068050768` Rp600rb/4 (Rp150rb); Fifi Ramadhan jakarta `120252429755520365` Rp383rb/3 (Rp128rb); EH Fikri Interest `120250201672240739` Rp616rb/6 (Rp103rb); H4 haji LLA `120256863096520768` Rp750rb/8 (Rp94rb).
+- Rp50–73,8rb/chat (waspada): 34 ad set, Rp7,41 jt, 125 chat.
+- Tidak ada perubahan (aturan: ad set yang sudah jalan tidak diubah tanpa perintah). Daftar lengkap: scratchpad sesi `mahal.py`.

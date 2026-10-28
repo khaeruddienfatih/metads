@@ -1217,3 +1217,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: "saya mau buat 5 adset menurutmu bagaimana strateginya".
 - Usulan (berdasar analisis sepanjang masa di atas): 1 campaign chat WA, 5 ad set — (1) Tangerang/Serpong, (2) Bekasi + Bandung, (3) 25 kota default (kontrol), (4) laki-laki saja 25 kota, (5) penempatan murah FB Feed/Reels/Story + WA Status (alternatif: usia 55–65+). Umur 25–65+, 3 iklan/ad set gambar unik, PAUSED. CBO Rp150–200rb/hari (atau ABO ≥Rp50rb/ad set); evaluasi 3 hari (kill > Rp50rb/chat; scale ≥5 chat & ≤Rp39rb).
 - Belum dibuat apa pun — menunggu user pilih akun, paket, budget, dan varian ad set #5.
+
+### 2026-10-28 — Perlu ad set Interest / LLA / Retargeting?
+- Diminta: "perlu buat adset interest atau lla atau retargeting".
+- Jawaban (data Haji sepanjang masa): Interest Rp38,0rb/chat · penonton video Rp38,5rb · LLA Rp40,9rb · Broad/umum Rp41–43rb · Retargeting Rp43,3rb (termahal). Beda kecil (±10%); lokasi & penempatan jauh lebih berpengaruh. Retargeting tidak perlu, LLA opsional, Interest layak 1 ad set uji.
+- Usulan revisi 5 ad set: Tangerang/Serpong · Bekasi+Bandung · 25 kota (kontrol) · laki-laki 25 kota · Interest (Umroh/Haji/Islam/perjalanan religi) 25 kota.
+- Belum dibuat — menunggu akun, paket, budget.

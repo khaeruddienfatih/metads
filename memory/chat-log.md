@@ -1234,3 +1234,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Headline berselang-seling, deskripsi standar, CTA WhatsApp, page_welcome_message ice breakers (Ramadhan 4 pesan, lainnya 3) + sambutan.
 - ID iklan: 120252852440400584, …472220584, …473940584, …475080584, …475610584, …476920584, …497310584, …499170584, …501360584, …501870584, …502730584, …516610584, …517170584, …518210584, …519340584.
 - Catatan: 5 ad set targeting-nya identik (belum menerapkan usulan Tangerang/Bekasi/laki-laki/Interest); nomor WA Tira dipasang user manual (Tira belum punya phone number ID di catatan). Campaign & ad set tetap PAUSED.
+
+### 2026-10-29 — Tira: ganti nama 5 ad set campaign Sales
+- Diminta: "nama adset kamu rubah". 5 ad set "new" di campaign `Sales` `120252852311010584` diganti jadi `Mix Paket 1 - Jawa Barat` … `Mix Paket 5 - Jawa Barat` (…316260584, …316250584, …311120584, …311080584, …311060584). Langsung live (bukan draft), status tetap PAUSED.

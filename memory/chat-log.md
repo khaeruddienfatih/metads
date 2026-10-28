@@ -1241,3 +1241,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-29 — Tira: nama ad set Sales berdasarkan audiens & kota
 - Diminta: "berdasarkan audiens dan kota". Ditanya dulu: targeting kelima ad set identik → user pilih "rename saja, targeting tetap".
 - 5 ad set campaign `Sales` `120252852311010584` kini `7 Kota Jabar - Broad 25-65 #1` … `#5` (urutan sama dengan Mix Paket 1–5). Targeting tidak diubah, status tetap PAUSED.
+
+### 2026-10-29 — Tira: cek penempatan ad set Sales
+- Diminta: "penempatan kamu set apa". Dijawab dari data ad set (tidak diubah Claude; diset user saat membuat): FB Story; IG Feed, Story, Reels, Explore home, Profile feed, IG Search; WA Status; Threads (tidak efektif — Meta tidak menayangkan Threads untuk iklan WA); mobile+desktop. Sama untuk 5 ad set. Tidak ada perubahan.

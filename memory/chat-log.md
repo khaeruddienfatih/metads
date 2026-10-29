@@ -1315,3 +1315,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-29 — "kamu cek nida saja"
 - Agen tambah-sampai-3 dibatasi ke akun Nida saja (instruksi dikirim).
 - Cek Nida: 3 iklan baru di `Indonesia - Broad 25-65 #1` PAUSED (2 pending review). Ad set aktif yang iklannya <3: 12 hari januari › indonesia `120251731135480004` (2), banten `…470004` (2), jawa timur & tengah `…360004` (1); 9 Hari Januari `120251630044820004` (2); new › 9 hari januari `120251572686950004` (1, top Rp1 jt/32 chat 7 hari), `120251572686960004` (0 iklan aktif). Butuh 10 iklan — dikerjakan agen.
+
+### 2026-10-29 — "kenapa ada yang isi 1 nida"
+- Penyebab: iklan di ad set Nida diarsipkan (ARCHIVED), bukan oleh Claude. new › 9 hari januari `…950004`: Desember Img 4 (Rp683rb/25 chat) diarsip 29 Okt 07:01, januari_7 28 Okt, Img 5/6 19 Okt. `…960004`: Desember Img 9 (Rp628rb/24 chat) & Img 8 (10 chat) diarsip 29 Okt 07:01, januari_1 28 Okt, Img 7 19 Okt. 12 hari januari › jateng&jatim: 12_hari_januari_3/4 diarsip 28 Okt 06:43. Arsip 29 Okt 07:01 bersamaan dengan pembuatan ad set baru di campaign "new" (07:01:42).

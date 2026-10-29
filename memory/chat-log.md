@@ -1304,3 +1304,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Cek ad set berbiaya hari ini (pagi, angka masih kecil) di 12 akun. Ditemukan 10 ad set baru "new" buatan user pagi ini (06:59–07:14), ACTIVE, KOSONG: AIni › Penjualan (baru) `120253866004320019` (…650290019, …650280019, …650270019); Irfan › new `120253330258830414` (…634491200414, …190414, …180414); Allif › Ramadhan `120252243406370228` (…538255100228, …070228, …050228); Nida › new `120251572686860004` (…938554630004).
 - Catatan: ad set Elharamain Haji hampir semua belum ada biaya hari ini (hanya Irfan jawa Barat Rp14rb) — perlu dipantau (status tagihan akun).
 - User pilih "Seperti Tira": agen sedang mengerjakan (penempatan berbasis chat + Threads, rename per kota/audiens, 3 iklan PAUSED per ad set; Allif Ramadhan = 3 iklan Ramadhan).
+
+### 2026-10-29 — 10 ad set "new" diisi seperti Tira (selesai)
+- AIni › Penjualan (baru) `120253866004320019`: 3 ad set → `25 Kota - Broad 25-65 #1–3`, 9 iklan PAUSED (terbit).
+- Irfan › new `120253330258830414`: 3 ad set → `Jateng & Jatim - Broad 25-65 #1–3` (lokasi region Jateng+Jatim; device kini mobile+desktop), 9 iklan PAUSED; ad set diaktifkan lagi setelah forced pause.
+- Allif › Ramadhan `120252243406370228`: 3 ad set → `Jawa Barat - Broad 25-65 #1–3`, 9 iklan Ramadhan PAUSED (D2#1–5, D3#1–4); ad set ACTIVE lagi.
+- Nida › new `120251572686860004`: ad set → `Indonesia - Broad 25-65 #1`, 3 iklan (ID 120251938773180004, …774560004, …774870004). Sempat terbit ACTIVE karena publish error-tapi-terbit; langsung di-PAUSE (masih review, belum tayang).
+- Semua: penempatan IG Feed/Story/Reels + FB Feed/Story/Reels + WA Status + Threads; lokasi/umur tetap; terverifikasi ad set ACTIVE, iklan PAUSED.

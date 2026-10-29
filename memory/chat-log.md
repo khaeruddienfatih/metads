@@ -1299,3 +1299,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-29 — "untuk haji di canva banyak yang baru ya"
 - Dicek Canva: folder `Haji` FAHYiYkarIo masih 25 gambar yang sama (Desain #1–8, Desain 3 #1–4, Desain 4 #1–4, Desain 6 #1–3, Desain 7 #1–4, Design 14 #1–2; semua diupload 20 Okt), `Copy of Haji` FAHZH5rI_Fs = salinan 26 Okt. Pencarian desain "Haji" & item root terbaru: tidak ada desain iklan Haji baru (hanya brosur, banner kota 9 Okt, carousel konten 13 Okt). Ditanyakan ke user lokasi/nama desain baru. Tidak ada perubahan.
+
+### 2026-10-29 — "coba kamu cek adset lagi"
+- Cek ad set berbiaya hari ini (pagi, angka masih kecil) di 12 akun. Ditemukan 10 ad set baru "new" buatan user pagi ini (06:59–07:14), ACTIVE, KOSONG: AIni › Penjualan (baru) `120253866004320019` (…650290019, …650280019, …650270019); Irfan › new `120253330258830414` (…634491200414, …190414, …180414); Allif › Ramadhan `120252243406370228` (…538255100228, …070228, …050228); Nida › new `120251572686860004` (…938554630004).
+- Catatan: ad set Elharamain Haji hampir semua belum ada biaya hari ini (hanya Irfan jawa Barat Rp14rb) — perlu dipantau (status tagihan akun).
+- User pilih "Seperti Tira": agen sedang mengerjakan (penempatan berbasis chat + Threads, rename per kota/audiens, 3 iklan PAUSED per ad set; Allif Ramadhan = 3 iklan Ramadhan).

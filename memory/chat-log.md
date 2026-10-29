@@ -1286,3 +1286,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - 15 iklan BARU PAUSED (1 Ramadhan + 1 9 Hari + 1 12 Hari per ad set): Ramadhan D2#1/D2#2/D2#5/D3#4/D3#6; 9 Hari Desain 9 #1–5 (diekspor ulang dari Canva DAHZKazbAWs & diupload ke AIni); 12 Hari **Desain 3 12 Hari #1–5** (Desain 2 12H belum ada di library AIni). ID: 120253979548810019, …554240019, …554490019, …554840019, …555240019, …555610019, …558740019, …559020019, …559710019, …559890019, …560630019, …580700019, …581410019, …583120019, …584120019.
   - Terverifikasi: semua iklan PAUSED (IN_PROCESS review). Campaign masih ACTIVE tapi iklan PAUSED → belum tayang.
 - Nama campaign tetap "Penjualan" (belum diganti ke awalan "Sales").
+
+### 2026-10-29 — Isi ad set kosong semua akun
+- Diminta: "sekarang kamu isi iklan yang adsetnya kosong". Dikerjakan agen: scan 14 akun (ad set ACTIVE/PAUSED tanpa iklan non-arsip, termasuk draft). 9 ad set kosong (iklannya sudah ARCHIVED/DELETED, kebanyakan 28 Okt) → diisi 27 iklan BARU PAUSED, 0 gagal.
+  - Fifi (live): Fifi › 12 Januari `120252512245580365` (12_hari_januari_4/3/2: 120252665444190365, …444580365, …445220365); Ramadhan › Banten `120252429759060365` (D2#1, D2#2, D3#6: …445480365, …445610365, …446050365).
+  - Diana (DRAFT, PAUSED): Diana new › 9 Januari `120251793201810294` (Desain 9 #1–3: 120252321836110294, …836480294, …836920294).
+  - Fikri (DRAFT, PAUSED): Fikri › 12 Hari Januari `120249683321210470` (12_hari_januari_3/5/4: 120249854676710470, …678140470, …679960470); Fikri Prov › 9 januari `120249534604840470` (Desain 9 #4/#5/#1: …689790470, …690670470, …691180470).
+  - Elharamain Haji (live): campaign Irfan, Haji - 1 - Salin `120250965370750739` / Haji - 2 - Salin `…370740739` / Haji - Salin `…370730739` → 9 iklan Haji Plus (Page 588336968031663 + IG): 120251069888370739, …888570739, …889200739, …905030739, …906100739, …907010739, …907980739, …908930739, …909800739.
+  - Haji 3 (DRAFT, PAUSED): Aini › Haji 2 - Salin `120253090182010704` (120253141179370704, …179800704, …180120704).
+- Tidak ada ad set kosong di AIni (selain campaign Penjualan yang diisi main), Nida, Tira, Hanif, Irfan, Allif, Haji 2, Haji 4, haji.
+- Tertunda: 12 iklan di Diana/Fikri/Haji 3 masih DRAFT — publish (tetap PAUSED) menunggu perintah user. Iklan Haji tanpa pesan pembuka WA (belum ada aturan Haji).

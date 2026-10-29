@@ -1311,3 +1311,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Allif › Ramadhan `120252243406370228`: 3 ad set → `Jawa Barat - Broad 25-65 #1–3`, 9 iklan Ramadhan PAUSED (D2#1–5, D3#1–4); ad set ACTIVE lagi.
 - Nida › new `120251572686860004`: ad set → `Indonesia - Broad 25-65 #1`, 3 iklan (ID 120251938773180004, …774560004, …774870004). Sempat terbit ACTIVE karena publish error-tapi-terbit; langsung di-PAUSE (masih review, belum tayang).
 - Semua: penempatan IG Feed/Story/Reels + FB Feed/Story/Reels + WA Status + Threads; lokasi/umur tetap; terverifikasi ad set ACTIVE, iklan PAUSED.
+
+### 2026-10-29 — "kamu cek nida saja"
+- Agen tambah-sampai-3 dibatasi ke akun Nida saja (instruksi dikirim).
+- Cek Nida: 3 iklan baru di `Indonesia - Broad 25-65 #1` PAUSED (2 pending review). Ad set aktif yang iklannya <3: 12 hari januari › indonesia `120251731135480004` (2), banten `…470004` (2), jawa timur & tengah `…360004` (1); 9 Hari Januari `120251630044820004` (2); new › 9 hari januari `120251572686950004` (1, top Rp1 jt/32 chat 7 hari), `120251572686960004` (0 iklan aktif). Butuh 10 iklan — dikerjakan agen.

@@ -1277,3 +1277,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-10-29 — Klarifikasi Fikri 12 Hari Januari (3 chat vs 1 chat)
 - User: di Ads Manager terlihat 3 chat. Dicek: ad set `120249683321210470` (akun Fikri) **sepanjang masa** Rp274rb / 3 chat (Rp91,4rb/chat); **7 hari 22–28 Okt** Rp122rb / 1 chat (chat pada 26 Okt). Perbedaan karena rentang tanggal; laporan "ad set mahal" memakai 7 hari terakhir. Tetap mahal di kedua periode.
+
+### 2026-10-29 — AIni: campaign baru dibuat seperti Tira
+- Diminta: "sekarang masuk akun aini itu kampanye baru buat seperti tira".
+- Campaign buatan user: `Penjualan` `120253979512770019` (AIni 814396810761205, OUTCOME_SALES, Rp250rb/hari, ACTIVE, dibuat 29 Okt 06:53), 5 ad set "new" (ACTIVE, spend 0), lokasi 25 kota default + 5 subcity Jakarta, umur 25–65, penempatan otomatis.
+- Dikerjakan (akun draft → diterbitkan dalam keadaan iklan PAUSED, sesuai catatan "pause, bukan draf"):
+  - 5 ad set diganti nama `25 Kota - Broad 25-65 #1–5` (…514710019, …514700019, …514690019, …512840019, …512830019) + penempatan seperti Tira: IG Feed/Story/Reels, FB Feed/Story/Reels, WA Status, Threads. Lokasi/umur tetap. Status ad set tetap ACTIVE.
+  - 15 iklan BARU PAUSED (1 Ramadhan + 1 9 Hari + 1 12 Hari per ad set): Ramadhan D2#1/D2#2/D2#5/D3#4/D3#6; 9 Hari Desain 9 #1–5 (diekspor ulang dari Canva DAHZKazbAWs & diupload ke AIni); 12 Hari **Desain 3 12 Hari #1–5** (Desain 2 12H belum ada di library AIni). ID: 120253979548810019, …554240019, …554490019, …554840019, …555240019, …555610019, …558740019, …559020019, …559710019, …559890019, …560630019, …580700019, …581410019, …583120019, …584120019.
+  - Terverifikasi: semua iklan PAUSED (IN_PROCESS review). Campaign masih ACTIVE tapi iklan PAUSED → belum tayang.
+- Nama campaign tetap "Penjualan" (belum diganti ke awalan "Sales").

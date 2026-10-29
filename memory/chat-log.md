@@ -1296,3 +1296,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 (DRAFT, PAUSED): Aini › Haji 2 - Salin `120253090182010704` (120253141179370704, …179800704, …180120704).
 - Tidak ada ad set kosong di AIni (selain campaign Penjualan yang diisi main), Nida, Tira, Hanif, Irfan, Allif, Haji 2, Haji 4, haji.
 - Tertunda: 12 iklan di Diana/Fikri/Haji 3 masih DRAFT — publish (tetap PAUSED) menunggu perintah user. Iklan Haji tanpa pesan pembuka WA (belum ada aturan Haji).
+
+### 2026-10-29 — "untuk haji di canva banyak yang baru ya"
+- Dicek Canva: folder `Haji` FAHYiYkarIo masih 25 gambar yang sama (Desain #1–8, Desain 3 #1–4, Desain 4 #1–4, Desain 6 #1–3, Desain 7 #1–4, Design 14 #1–2; semua diupload 20 Okt), `Copy of Haji` FAHZH5rI_Fs = salinan 26 Okt. Pencarian desain "Haji" & item root terbaru: tidak ada desain iklan Haji baru (hanya brosur, banner kota 9 Okt, carousel konten 13 Okt). Ditanyakan ke user lokasi/nama desain baru. Tidak ada perubahan.

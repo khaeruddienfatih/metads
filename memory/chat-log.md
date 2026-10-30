@@ -1378,3 +1378,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 5 iklan winner yang ternyata masih PAUSED langsung DIAKTIFKAN (perintah sebelumnya): AIni 120254000583890019, 120254000582120019; Nida 120251957401410004, 120251957402130004, 120251957401910004 → status ACTIVE, IN_PROCESS (review).
 - Sisa PAUSED di ad set aktif: Fifi Saudia 12 Hari `120252109306430365` (Rp1,22 jt/24 chat, Rp50,8rb — sengaja, > Rp50rb); Haji 4 Irfan › Vidio `120256248793210768` (14 chat Rp40,5rb) + 4 iklan pixel/add-to-cart; Fikri 2 iklan lama 0 chat (9 Hari - 5/ - 3).
 - Ad set PAUSED yang punya iklan bagus (≥5 chat ≤Rp39,3rb): Allif Ramadhan `120252223314630228` (D2#5 66 chat Rp23,9rb), Allif jawa barat `120252243406460228`, Allif jawa timur `120252268692220228`, EH Nida › Broud `120250253542190739` (reuse 220 chat Rp20,5rb), Tira Indonesia - Salin `120252158037690584` (januari gambar 65 chat Rp26rb), Hanif Ramadhan `120254963922420427` & jawa barat `120254774741200427`, Diana Tangerang Ramadhan `120252014879670294`, Fifi Jawa 9H `120252597263980365`, Fifi 9 Januari `120252512253140365`, Fifi Ramadhan jawa barat `120252429755530365`, Nida new 9 hari januari `120251572686950004`, Haji 4 Nida Vidio `120256622022600768`, Irfan 12 januari `120253448429070414`, dll. Tidak diubah — menunggu user.
+
+### 2026-10-30 14:00 — cek tiap jam: ad set dinyalakan lagi
+- Perintah user: nyalakan lagi ad set yang dimatikan auto rule hari ini dan CPR (chat WA) hari ini < Rp30.000 (≥1 chat). Prosedur `memory/auto-reaktivasi.md`, 14 akun dicek.
+- Dinyalakan (5 ad set, semua campaign ACTIVE, terverifikasi ACTIVE):
+  - Diana `120251793201810294` "9 Januari" (rule OFF 13:15): 1 chat, spend Rp23.108, CPR Rp23.108
+  - Tira `120252852311120584` "7 Kota Jabar - Broad 25-65 #3" (rule OFF 04:08): 1 chat, Rp20.909, CPR Rp20.909
+  - Nida `120251630044800004` "9 Hari Januari" (rule OFF 13:11): 1 chat, Rp29.979, CPR Rp29.979
+  - Allif `120252538255070228` "Jawa Barat - Broad 25-65 #2" (rule off 11:05): 1 chat, Rp23.627, CPR Rp23.627
+  - Fifi `120252429759060365` "Banten" (rule OFF 2 12:13): 2 chat, Rp56.191, CPR Rp28.096
+- Tidak dinyalakan: CPR >= Rp30rb atau 0 chat hari ini (mis. Fikri 9 Hari Januari Rp34.084/3 chat, Fikri Ramadhan Rp31.476, Haji Broud Rp58.725, Tira #1 Rp40.847, Tira Indonesia-Salin Rp42.109, Nida 9 Hari Januari `…044820004` Rp44.114, Allif jawa tengah Rp82.394). Hanif, AIni, Irfan, Haji 3, Haji 4: tidak ada yang memenuhi. Haji 2 dan 1050343302646341: tidak ada rule-off hari ini.
+- Catatan teknis: akun draft (Diana, Nida) menolak `object_ids`+`publish_as_active`; pakai `ads_activate_entity` tanpa `object_ids`.

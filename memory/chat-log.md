@@ -1477,3 +1477,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi: umur 25–34 lebih murah (Rp36,5rb) daripada 35–44 (Rp48rb).
   - Prospek Hanif Rp28,2rb termurah di Umroh. Haji: Nida Rp23,5rb, Hanif Rp27,4rb.
 - Belum: targeting per jenis dan agregat penempatan/umur semua akun. Disarankan export Ads Manager per akun, atau analisis per akun bertahap.
+
+### 2026-10-30 — "kirim dalam bentuk table ya" (email laporan pagi)
+- Email uji pertama terkirim (data 29 Okt) dalam format daftar:
+  - Umroh 149 chat, Rp6.236.895, Rp41,9rb/chat.
+  - Haji 76 chat, Rp3.090.049 (termasuk biaya pixel Rp494.176), Rp34,2rb/chat.
+  - Total 225 chat, Rp9,33 jt.
+- Prompt routine `trig_015kQ7xrGRj9ZWeKRnha6ia4` diubah ke 3 tabel: Ringkasan, Umroh per akun, Haji per akun.
+  - Pakai HTML kalau tool Gmail mendukung; kalau tidak, tabel teks rata kolom.
+- Email uji kedua (format tabel) dikirim.

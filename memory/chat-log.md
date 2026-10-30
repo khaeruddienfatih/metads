@@ -1438,3 +1438,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Lolos jika ≥1 chat dan < Rp50rb/chat, atau spend < Rp35rb.
   - Gagal jika 0 chat dengan spend ≥ Rp35rb.
 - Pertanyaan 1 (pause 10 ad set bengkak) belum dijawab user, jadi belum ada yang di-pause.
+
+### 2026-10-30 — "adset aturan perhari matikan adset yang habis 25ribu tapi tidak ada chat"
+- Aturan baru (Bagian B di `memory/auto-reaktivasi.md`): ad set ACTIVE dengan spend hari ini ≥ Rp25rb dan 0 chat WA → PAUSE.
+  - Ad set pixel/add-to-cart dikecualikan.
+  - Status saja yang diubah.
+- Routine cloud `trig_012Qu1YrebVhGGQCXMKv23y5` diganti nama jadi "Auto ad set: nyala ulang rule-off & pause boros".
+  - Isinya sekarang Bagian A (nyala ulang) dan Bagian B (pause boros), tiap jam di menit :13.
+- Routine langsung dijalankan sekali untuk menerapkan aturan hari ini; hasilnya dicatat oleh routine.

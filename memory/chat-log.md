@@ -1322,3 +1322,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-29 — Nida: ad set <3 iklan diisi sampai 3 (selesai)
 - 10 iklan BARU PAUSED (terbit, IN_PROCESS/PENDING_REVIEW): new › 9 hari januari `…950004` +Desain 7 #1 (120251938813900004), Desain 4 MD #1 (…813990004); `…960004` +Desain 7 #3/#5, januari_8 (…814420004, …814460004, …814670004); 12 hari januari › indonesia +D3 12H #1 (…819720004), banten +D3 12H #5 (…820040004), jateng&jatim +2 (…821680004, …822700004); 9 Hari Januari `…820004` +januari_6 (…824010004).
 - Belum dikerjakan (scan awal, ad set <3 iklan): Fifi 11 ad set (butuh 16 iklan), Diana 2, Tira 4, Fikri 4, Irfan 10, Allif 1, Elharamain Haji 5, Haji 3 3, Haji 4 13. AIni & Hanif lengkap. Menunggu perintah user.
+
+### 2026-10-30 — "ada evaluasi hari ini"
+- Hanya baca. Data kemarin 29 Okt (penuh) + hari ini 30 Okt (berjalan), 14 akun, level ad set.
+- Kemarin total (chat WA): Rp8,83 jt, 225 chat, Rp39,2rb/chat (batas atas baseline). Hari ini sementara Rp2,10 jt / 52 chat.
+- Per akun kemarin (Rp/chat): Haji 3 26,6rb · Allif 28,7rb · Irfan 29,8rb · Hanif 33,5rb · EH 35,5rb · Nida 38,8rb · Fikri 46,6rb · Diana 48,3rb · Fifi 49,6rb · Haji 4 56,6rb · Tira 66,3rb · AIni 105,8rb. Haji 2 & haji 1050343302646341 spend 0. Haji 4 juga punya campaign pixel (Rp494rb, 63 add-to-cart).
+- 0 chat ≥Rp50rb: hanya EH Fikri › LLA `120250201672190739` Rp64,8rb. Tidak ada ad set > Rp73,8rb/chat.
+- Ad set baru Broad 25-65 (kemarin): Allif Jawa Barat Rp295rb/14 chat (Rp21,1rb; #3 13 chat Rp18,8rb); Irfan Jateng&Jatim Rp188rb/9 chat (Rp20,9rb); AIni Penjualan 25 Kota Rp115rb/0 chat (hari ini 5 chat); Tira Sales 7 Kota Jabar Rp279rb/4 chat (Rp69,8rb), Tira new Rp168rb/4 chat (Rp41,9rb); Nida Indonesia #1 Rp26rb/0.
+- Winner kemarin yang kini PAUSED: Fifi Ramadhan jawa barat `120252429755530365` (9 chat Rp26,9rb), Fikri 12 Hari Januari `120249683321210470` (9 chat Rp34,2rb), Hanif Prospek Salin Ramadhan `120254963922420427` (8 chat Rp14,2rb), Allif Ramadhan `120252223314630228` (5 chat Rp26,3rb).
+- Tidak ada perubahan.

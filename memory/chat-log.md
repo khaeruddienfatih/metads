@@ -1345,3 +1345,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan (live): Kota Ramadhan D3#4 (10 chat Rp26,6rb) & Ramadhan D2#5 (6 chat Rp27,0rb) → Penjualan (baru) - Salin › Ramadhan `120253512142980414` (120253654173130414, …173340414).
 - Dilewati: Fikri Prov › 9 Hari Januari `120249721533920470` (pemenang 9 Hari sudah ada di ad set itu); Diana IG › 12hari januari `120251812124670294` (pemenang lain beda Page 375988732273375); Tira pusat › ramadhan `120252705645070584` (tak ada pemenang Ramadhan); Haji 4 Irfan › Vidio `120256248793240768` (ad set pakai Page 122104184780003541, pemenang Page 588336968031663).
 - Tertunda: semua 17 iklan PAUSED — aktifkan hanya dengan perintah user; 7 iklan Nida & AIni masih draft (perlu publish). Pause Fikri › LLA (pilihan 1) masih belum (izin ditolak).
+
+### 2026-10-30 — "cek maksimal tayang matikan iklan yang cprnya bengkak" + "cpr harus di bawah 50rb"
+- Kriteria (lifetime, iklan ACTIVE, chat WA): biaya/chat > Rp50rb (berapa pun jumlah chat) atau 0 chat dengan spend ≥ Rp35rb → PAUSE (bukan hapus). Aturan disimpan di chat-memory.
+- 45 iklan di-PAUSE (total ±Rp5,96 jt lifetime, 80 chat): EH 947788760498911 16 (termasuk Fikri Interest 2 `120250512613110739` Rp1,03 jt/19 chat, Diana LLA-1 Video 52 Rp317rb/4, AIni Broud Video 46 Rp312rb/6), Irfan 5, Fifi 4, Hanif 4, Allif 4, Tira 3, Haji 3 3, AIni 2, Diana 2, Haji 4 2 (Diana Vidio `120256622022870768` Rp650rb/12). Nida, Fikri, Haji 2, haji: tidak ada. Haji 4 iklan pixel/add-to-cart dilewati. Daftar lengkap ID di laporan agen sesi ini.
+- Ad set kini 0 iklan ACTIVE: Fifi `120252109488240365`, `120252512262570365`; Irfan `120253548709130414`, `120253548709150414`; EH Fikri › LLA `120250201672190739` & AIni › Jakarta `120250778435760739` (keduanya punya 2 iklan winner PAUSED dari tadi).
+- Tertunda: aktifkan iklan winner / isi ad set yang kosong — menunggu user.

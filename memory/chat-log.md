@@ -1422,3 +1422,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - mengikuti `memory/auto-reaktivasi.md`.
 - Cron lokal di sesi ini dihapus supaya tidak jalan dobel. Uji jalan pertama sudah dipicu.
 - Masih menunggu jawaban user: pause 10 ad set bengkak? tambah syarat CPR 3 hari < Rp50rb?
+
+### 2026-10-30 15:45 — cek tiap jam (cloud): ad set dinyalakan lagi
+- Nida (1019832712800468): `120251630044800004` "9 Hari Januari" — rule `OFF@` (14:11), 4 chat, spend Rp84.095, CPR hari ini Rp21.024; dinyalakan lagi ke-2 kali hari ini. Status terverifikasi ACTIVE.
+- Nida: `120251572686960004` "9 hari januari" — rule `OFF` (13:40), 2 chat, spend Rp37.807, CPR Rp18.904. Terverifikasi ACTIVE.
+- Allif (4678183395742010): `120252430673590228` "Ramadhan" — rule `off` (14:34), 1 chat, spend Rp24.122, CPR Rp24.122. Terverifikasi ACTIVE.
+- Elharamain Haji (947788760498911): `120250848639080739` "Interest - Salin" — rule `off` (14:16), 2 chat, spend Rp23.997, CPR Rp11.999. Terverifikasi ACTIVE.
+- Haji 4 (1526562231314028): `120256248793270768` "Gambar" — rule `off` (15:15), 1 chat, spend Rp20.530, CPR Rp20.530. Terverifikasi ACTIVE.
+- Aktivasi akun draft (Nida, Haji 4) lewat entity_type ad_set tanpa object_ids (object_ids ditolak "no staged changes").

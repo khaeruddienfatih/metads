@@ -1351,3 +1351,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 45 iklan di-PAUSE (total ±Rp5,96 jt lifetime, 80 chat): EH 947788760498911 16 (termasuk Fikri Interest 2 `120250512613110739` Rp1,03 jt/19 chat, Diana LLA-1 Video 52 Rp317rb/4, AIni Broud Video 46 Rp312rb/6), Irfan 5, Fifi 4, Hanif 4, Allif 4, Tira 3, Haji 3 3, AIni 2, Diana 2, Haji 4 2 (Diana Vidio `120256622022870768` Rp650rb/12). Nida, Fikri, Haji 2, haji: tidak ada. Haji 4 iklan pixel/add-to-cart dilewati. Daftar lengkap ID di laporan agen sesi ini.
 - Ad set kini 0 iklan ACTIVE: Fifi `120252109488240365`, `120252512262570365`; Irfan `120253548709130414`, `120253548709150414`; EH Fikri › LLA `120250201672190739` & AIni › Jakarta `120250778435760739` (keduanya punya 2 iklan winner PAUSED dari tadi).
 - Tertunda: aktifkan iklan winner / isi ad set yang kosong — menunggu user.
+
+### 2026-10-30 — "kamu cek tingkat iklan" (evaluasi per iklan)
+- Hanya baca. Iklan ACTIVE 14 akun, lifetime + 3 hari. Setelah pause tadi: tidak ada iklan ACTIVE ≥ Rp50rb/chat lifetime.
+- Lifetime iklan ACTIVE per akun (Rp/chat): EH 24,2rb (58 iklan, 1.418 chat) · Haji 4 26,3rb · Irfan 31,0rb · Tira 32,8rb · Haji 3 32,7rb · Diana 33,8rb · Allif 33,9rb · Nida 34,3rb · Hanif 34,6rb · AIni 35,0rb · Fifi 36,3rb · Fikri 40,0rb. Haji 2 & haji 1050… 0 iklan ACTIVE.
+- Per paket: Haji ±Rp26,5rb < 9 Hari Rp33,6rb < Ramadhan Rp34,5rb < 12 Hari Rp37,7rb.
+- Top: Haji 3 Fifi Haji_Img_03 `120253090195870704` 9 chat Rp13,1rb; Allif JB Broad #3 Sales Ramadhan D3#3 `120252538455260228` 5 chat Rp13,9rb; EH Hanif Interest vidio `120250421335790739` 190 chat Rp18,2rb; EH Nida Broud reuse `120250506904550739` 220 chat Rp20,5rb.
+- Zona waspada Rp40–50rb: 49 iklan. Memburuk (3 hari > Rp60rb/chat atau 0 chat ≥Rp35rb): ±33 iklan, mis. EH AIni Interest vidio `120250253985770739` 3 hari Rp203rb/2 chat.
+- Sudah lewat ambang 0 chat ≥Rp35rb tapi belum di-pause (muncul setelah pause tadi): Tira `120252852516610584` Rp35,8rb; EH Yoga - Salin › 9 hari januari D7#1 `120251054031270739` Rp40,8rb.
+- Tidak ada perubahan.

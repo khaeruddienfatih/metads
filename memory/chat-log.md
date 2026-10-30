@@ -1409,3 +1409,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - EH Fikri LLA `120250201672190739`
   - Haji 3 Diana `120252668566360704`, `120252668566420704`
 - Belum ada yang di-pause: menunggu perintah user.
+
+### 2026-10-30 14:30 — cek tiap jam: ad set dinyalakan lagi
+- Akun Elharamain Haji 947788760498911: ad set `Haji - 1 - Salin` (120250965370750739, campaign Irfan 120250374507530739 ACTIVE) dimatikan rule `off` jam 05:46; hari ini 1 chat WA, spend Rp23.155, CPR Rp23.155 (<Rp30rb). Diaktifkan lagi, terverifikasi ACTIVE. Aktivasi ke-1 hari ini.
+- Akun lain: tidak ada kandidat memenuhi syarat (CPR >= Rp30rb atau 0 chat; Fikri 9 Hari Januari Rp34.663, Ramadhan Rp31.476).

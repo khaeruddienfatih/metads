@@ -34,9 +34,24 @@ Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
    `ads_get_ad_entities` `object_ids`.
 5. Jangan ubah budget, targeting, iklan, atau apa pun selain status ad set itu.
 
+## Bagian B — matikan ad set boros hari ini (30 Okt, perintah user)
+
+Perintah user: "adset aturan perhari matikan adset yang habis 25ribu tapi tidak ada chat".
+
+1. Per akun: `ads_get_ad_entities` level `adset`, filter `effective_status IN [ACTIVE]`, `date_preset: today`,
+   field `name, campaign_name, optimization_goal, amount_spent, results, cost_per_result`.
+2. PAUSE jika: spend hari ini **≥ Rp25.000** dan **0 chat WA hari ini** (messaging conversation started;
+   kosong/"Not available" = 0).
+3. Kecualikan ad set yang hasilnya bukan chat WA (mis. Haji 4 campaign pixel/add-to-cart: optimization_goal
+   bukan CONVERSATIONS) — jangan di-pause.
+4. Pause: `ads_update_entity` `ad_account_id`, `entity_id` = ad set, `fields {"status":"PAUSED"}`. Verifikasi.
+   Ubah status saja, jangan sentuh budget/targeting/iklan.
+5. Bagian A tidak akan menyalakannya lagi hari itu (syarat A butuh ≥1 chat & CPR < Rp30rb). Besok (data
+   hari baru) ad set ini TIDAK otomatis dinyalakan — hanya ad set yang dimatikan auto rule yang diproses Bagian A.
+
 ## Pelaporan
 
-- Kalau ada ad set yang dinyalakan: tambah entri di akhir `memory/chat-log.md`
+- Kalau ada ad set yang dinyalakan (A) atau di-PAUSE (B): tambah entri di akhir `memory/chat-log.md`
   (`### YYYY-MM-DD HH:MM — cek tiap jam: ad set dinyalakan lagi`) berisi akun, ID, nama, rule,
   chat & CPR hari ini; lalu commit, `git pull origin main`, `git push origin main`.
 - Kalau tidak ada yang memenuhi syarat: tidak perlu menulis log/commit.

@@ -1413,3 +1413,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-30 14:30 — cek tiap jam: ad set dinyalakan lagi
 - Akun Elharamain Haji 947788760498911: ad set `Haji - 1 - Salin` (120250965370750739, campaign Irfan 120250374507530739 ACTIVE) dimatikan rule `off` jam 05:46; hari ini 1 chat WA, spend Rp23.155, CPR Rp23.155 (<Rp30rb). Diaktifkan lagi, terverifikasi ACTIVE. Aktivasi ke-1 hari ini.
 - Akun lain: tidak ada kandidat memenuhi syarat (CPR >= Rp30rb atau 0 chat; Fikri 9 Hari Januari Rp34.663, Ramadhan Rp31.476).
+
+### 2026-10-30 — "buatkan autonya" (cek tiap jam pindah ke cloud)
+- User pilih: pengecekan per jam (nyalakan lagi ad set yang dimatikan auto rule, CPR hari ini < Rp30rb) dipindah ke cloud.
+- Dibuat routine cloud `trig_012Qu1YrebVhGGQCXMKv23y5` "Nyalakan ulang ad set rule-off (CPR < 30rb)":
+  - jalan tiap jam di menit :13;
+  - model Sonnet, connector Meta-Ads, repo khaeruddienfatih/metads;
+  - mengikuti `memory/auto-reaktivasi.md`.
+- Cron lokal di sesi ini dihapus supaya tidak jalan dobel. Uji jalan pertama sudah dipicu.
+- Masih menunggu jawaban user: pause 10 ad set bengkak? tambah syarat CPR 3 hari < Rp50rb?

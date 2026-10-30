@@ -1446,3 +1446,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Routine cloud `trig_012Qu1YrebVhGGQCXMKv23y5` diganti nama jadi "Auto ad set: nyala ulang rule-off & pause boros".
   - Isinya sekarang Bagian A (nyala ulang) dan Bagian B (pause boros), tiap jam di menit :13.
 - Routine langsung dijalankan sekali untuk menerapkan aturan hari ini; hasilnya dicatat oleh routine.
+
+### 2026-10-30 — "oke naik ke 30ribu"
+- Batas pause ad set tanpa chat dinaikkan dari Rp25rb ke **Rp30rb** spend hari ini.
+- Diperbarui di 3 tempat: `auto-reaktivasi.md` (Bagian B), `chat-memory.md`, dan prompt routine cloud `trig_012Qu1YrebVhGGQCXMKv23y5`.
+- Uji jalan 15:33 masih memakai batas Rp25rb, jadi ad set dengan spend Rp25–30rb mungkin sudah ter-pause di run itu.

@@ -40,7 +40,7 @@ Perintah user: "adset aturan perhari matikan adset yang habis 25ribu tapi tidak 
 
 1. Per akun: `ads_get_ad_entities` level `adset`, filter `effective_status IN [ACTIVE]`, `date_preset: today`,
    field `name, campaign_name, optimization_goal, amount_spent, results, cost_per_result`.
-2. PAUSE jika: spend hari ini **≥ Rp25.000** dan **0 chat WA hari ini** (messaging conversation started;
+2. PAUSE jika: spend hari ini **≥ Rp30.000** (naik dari Rp25rb, 30 Okt) dan **0 chat WA hari ini** (messaging conversation started;
    kosong/"Not available" = 0).
 3. Kecualikan ad set yang hasilnya bukan chat WA (mis. Haji 4 campaign pixel/add-to-cart: optimization_goal
    bukan CONVERSATIONS) — jangan di-pause.

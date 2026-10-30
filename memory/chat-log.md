@@ -1389,3 +1389,23 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi `120252429759060365` "Banten" (rule OFF 2 12:13): 2 chat, Rp56.191, CPR Rp28.096
 - Tidak dinyalakan: CPR >= Rp30rb atau 0 chat hari ini (mis. Fikri 9 Hari Januari Rp34.084/3 chat, Fikri Ramadhan Rp31.476, Haji Broud Rp58.725, Tira #1 Rp40.847, Tira Indonesia-Salin Rp42.109, Nida 9 Hari Januari `…044820004` Rp44.114, Allif jawa tengah Rp82.394). Hanif, AIni, Irfan, Haji 3, Haji 4: tidak ada yang memenuhi. Haji 2 dan 1050343302646341: tidak ada rule-off hari ini.
 - Catatan teknis: akun draft (Diana, Nida) menolak `object_ids`+`publish_as_active`; pakai `ads_activate_entity` tanpa `object_ids`.
+
+### 2026-10-30 — "apakah ada adset yang bengkak"
+- Cek read-only ad set ACTIVE di 14 akun: data hari ini + 3 hari terakhir (27–29 Okt). Bengkak = lebih dari Rp50rb/chat, atau 0 chat dengan spend ≥ Rp35rb. Parah = lebih dari Rp73,8rb/chat, atau 0 chat dengan spend ≥ Rp70rb.
+- Hari ini semua akun sehat (CPR akun Rp15,5–42,8rb). Hanya Nida indonesia `120251731135480004` yang bengkak hari ini (Rp50,7rb).
+- 3 hari terakhir: 54 ad set bengkak, 15 di antaranya parah.
+  - Per akun: Fifi 12, Elharamain Haji 11, Irfan 6, Tira 4, Nida 4, Haji 3 4, Hanif 3, Fikri 3, AIni 3, Haji 4 3, Diana 1. Allif, Haji 2, dan haji 1050 bersih.
+- Usulan PAUSE 10 ad set yang 3 harinya parah dan hari ini belum membaik:
+  - Tira `120252705645070584`
+  - Nida `120251731135480004`
+  - Fikri `120249566336690470`
+  - Irfan `120252989463100414`, `120253548709130414`, `120253512142980414`
+  - EH Diana LLA-1 `120250897629620739`
+  - Haji 3 Fikri Haji 2 `120252557031820704`
+  - Haji 4 `120256622022480768`, `120256248793200768`
+- 5 ad set parah yang hari ini membaik, dipantau dulu:
+  - Fifi Kota Ramadhan `120252512262570365`
+  - EH Hanif Interest `120250848623090739`
+  - EH Fikri LLA `120250201672190739`
+  - Haji 3 Diana `120252668566360704`, `120252668566420704`
+- Belum ada yang di-pause: menunggu perintah user.

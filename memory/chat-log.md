@@ -1451,3 +1451,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Batas pause ad set tanpa chat dinaikkan dari Rp25rb ke **Rp30rb** spend hari ini.
 - Diperbarui di 3 tempat: `auto-reaktivasi.md` (Bagian B), `chat-memory.md`, dan prompt routine cloud `trig_012Qu1YrebVhGGQCXMKv23y5`.
 - Uji jalan 15:33 masih memakai batas Rp25rb, jadi ad set dengan spend Rp25–30rb mungkin sudah ter-pause di run itu.
+
+### 2026-10-30 — "biarkan biar besok lagi"
+- Ad set yang mungkin ter-pause oleh uji jalan 15:33 (batas lama Rp25rb) dibiarkan apa adanya; tidak dicek dan tidak dinyalakan lagi.
+- Catatan: ad set yang di-pause Bagian B tidak otomatis menyala besok. Perlu perintah user kalau mau dinyalakan lagi tiap pagi.

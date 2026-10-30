@@ -1486,3 +1486,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Prompt routine `trig_015kQ7xrGRj9ZWeKRnha6ia4` diubah ke 3 tabel: Ringkasan, Umroh per akun, Haji per akun.
   - Pakai HTML kalau tool Gmail mendukung; kalau tidak, tabel teks rata kolom.
 - Email uji kedua (format tabel) dikirim.
+
+### 2026-10-30 19:22 — cek tiap jam (cloud)
+- A (1 dinyalakan): Nida (1019832712800468) ad set `120251572686950004` "9 hari januari" (campaign "new" ACTIVE) — dimatikan rule OFF 10:40; hari ini 1 chat, Rp25.346/chat; 3 hari 15 chat, Rp25.492/chat; MCP reaktivasi hari ini 0×. Verifikasi: ACTIVE.
+- B: tidak ada ad set ACTIVE dengan spend ≥ Rp30rb dan 0 chat.

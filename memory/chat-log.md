@@ -1430,3 +1430,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Elharamain Haji (947788760498911): `120250848639080739` "Interest - Salin" — rule `off` (14:16), 2 chat, spend Rp23.997, CPR Rp11.999. Terverifikasi ACTIVE.
 - Haji 4 (1526562231314028): `120256248793270768` "Gambar" — rule `off` (15:15), 1 chat, spend Rp20.530, CPR Rp20.530. Terverifikasi ACTIVE.
 - Aktivasi akun draft (Nida, Haji 4) lewat entity_type ad_set tanpa object_ids (object_ids ditolak "no staged changes").
+
+### 2026-10-30 — "2 iya" (syarat CPR 3 hari untuk nyala ulang)
+- User setuju menambah syarat CPR 3 hari terakhir < Rp50rb sebelum ad set yang dimatikan rule dinyalakan lagi.
+- Syarat ditambahkan ke `memory/auto-reaktivasi.md` dan prompt routine cloud `trig_012Qu1YrebVhGGQCXMKv23y5`.
+  - Pakai data `last_3d`.
+  - Lolos jika ≥1 chat dan < Rp50rb/chat, atau spend < Rp35rb.
+  - Gagal jika 0 chat dengan spend ≥ Rp35rb.
+- Pertanyaan 1 (pause 10 ad set bengkak) belum dijawab user, jadi belum ada yang di-pause.

@@ -1455,3 +1455,25 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-30 — "biarkan biar besok lagi"
 - Ad set yang mungkin ter-pause oleh uji jalan 15:33 (batas lama Rp25rb) dibiarkan apa adanya; tidak dicek dan tidak dinyalakan lagi.
 - Catatan: ad set yang di-pause Bagian B tidak otomatis menyala besok. Perlu perintah user kalau mau dinyalakan lagi tiap pagi.
+
+### 2026-10-30 — "setiap pagi kirim ke email ... brp chat umroh dan haji per harinya" + "dan biaya yang dikeluarkan"
+- Dibuat routine cloud `trig_015kQ7xrGRj9ZWeKRnha6ia4` "Email pagi: chat Umroh & Haji kemarin".
+  - Jadwal: tiap hari 07:03 WIB. Model Sonnet, connector Meta-Ads + Gmail. Read-only.
+  - Penerima: khaeruddien@gmail.com.
+  - Isi: chat, biaya, dan CPR kemarin per akun, Umroh vs Haji, plus perbandingan dengan hari sebelumnya.
+  - Biaya pixel non-chat (Haji 4) dicatat terpisah.
+- Uji kirim pertama dipicu 30 Okt sore (data 29 Okt).
+
+### 2026-10-30 — "pelajari dari kota mana saja yang banyak chat" + penempatan/umur/wilayah/targeting (evaluasi bulanan)
+- Agent read-only, 1–30 Okt. Hasilnya parsial karena keterbatasan tool:
+  - breakdown `city` tidak didukung, hanya `region` (provinsi);
+  - chat per breakdown hanya terbaca di level ad set dan sering "Not available".
+- Chat Okt (hanya campaign > Rp500rb, jadi under-count):
+  - Umroh: Rp101,8 jt / 2.475 chat ≈ Rp41,1rb.
+  - Haji: Rp82,9 jt / 2.385 chat ≈ Rp34,7rb.
+  - Haji 4 punya biaya pixel non-chat Rp11,8 jt.
+- Temuan awal (sampel):
+  - Tira: 45% biaya ke Jawa Barat dan 15% ke Jakarta (CPM Rp54–75rb). Jatim/Jateng CPM ≈ Rp28–31rb.
+  - Fifi: umur 25–34 lebih murah (Rp36,5rb) daripada 35–44 (Rp48rb).
+  - Prospek Hanif Rp28,2rb termurah di Umroh. Haji: Nida Rp23,5rb, Hanif Rp27,4rb.
+- Belum: targeting per jenis dan agregat penempatan/umur semua akun. Disarankan export Ads Manager per akun, atau analisis per akun bertahap.

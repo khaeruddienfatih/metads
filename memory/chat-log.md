@@ -1490,3 +1490,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-30 19:22 — cek tiap jam (cloud)
 - A (1 dinyalakan): Nida (1019832712800468) ad set `120251572686950004` "9 hari januari" (campaign "new" ACTIVE) — dimatikan rule OFF 10:40; hari ini 1 chat, Rp25.346/chat; 3 hari 15 chat, Rp25.492/chat; MCP reaktivasi hari ini 0×. Verifikasi: ACTIVE.
 - B: tidak ada ad set ACTIVE dengan spend ≥ Rp30rb dan 0 chat.
+
+### 2026-10-31 — "kenapa g ada email masuk"
+- Dicek: 2 email uji 30 Okt (15:45 & 15:51 WIB) TERKIRIM dari **admin@elharamainwisata.com** ke khaeruddien@gmail.com.
+  - Berlabel SENT, tidak ada bounce.
+  - Gmail connector tersambung ke akun admin@elharamainwisata.com.
+- Kemungkinan email masuk Spam/Promosi di akun penerima. User diminta cek dan tandai "Bukan spam".
+- Email terjadwal pertama dikirim 31 Okt 07:03 WIB (saat dicek baru 06:38).

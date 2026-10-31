@@ -1544,3 +1544,20 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 2: Diana Haji …566360704 (Rp88rb), Nida Haji …941410704 (Rp80rb).
   - Haji 4 1: Diana Vidio …022620768 (0/Rp117rb).
 - Tidak ada yang diubah. Menunggu keputusan user (pause?).
+
+### 2026-10-31 — "cek iklan nya bukan adset" (CPR > 50rb minggu ini, level iklan)
+- Periode 26–31 Okt (this_week_mon_today), iklan ACTIVE, spend > Rp50rb, read-only. Haji 4 pixel dikecualikan; Haji 2 & haji 1050 tanpa belanja.
+- 55 iklan CPR > Rp50rb atau 0 chat (ID iklan, CPR minggu ini):
+  - Diana 4: …015366940294 (Rp126rb), …015368460294 (Rp88rb), …832398410294 (Rp204rb), …812124530294 (Rp54rb).
+  - Tira 2: …517856970584 (Rp80rb), …158001680584 (Rp116rb).
+  - Nida 4: …865474330004 (Rp51rb), …731135410004 (Rp63rb), …630313420004 (Rp114rb), …630237560004 (Rp57rb).
+  - Hanif 2: …964866980427 (Rp90rb), …783759040427 (Rp110rb).
+  - Allif 4: …268692150228 (Rp89rb), …268692120228 (0 chat/Rp78rb), …268692210228 (Rp58rb), …223492020228 (Rp56rb).
+  - Fikri 4: …728458620470 (Rp86rb), …566351820470 (0/Rp59rb), …697381410470 (Rp59rb), …697396850470 (Rp56rb).
+  - AIni 6: …001312040019 (0/Rp52rb), …979580700019 (Rp67rb), …900913220019 (Rp73rb), …866040330019 (Rp104rb), …679754970019 (Rp56rb), …679760140019 (Rp75rb).
+  - Irfan 7: …634661040414 (Rp53rb), …634660860414 (Rp51rb), …549834920414 (Rp83rb), …549823210414 (Rp108rb), …512754960414 (Rp67rb), …512751840414 (Rp53rb), …989463060414 (0/Rp125rb).
+  - Fifi 8: …665446050365 (Rp68rb), …598152150365 (Rp64rb), …598072840365 (Rp53rb), …598066950365 (Rp69rb), …543872780365 (Rp75rb), …543875590365 (Rp82rb), …512331580365 (Rp77rb), …430717780365 (Rp55rb).
+  - Elharamain Haji 8: …088659030739 (Rp55rb), …054031330739 (Rp52rb), …054031270739 (0/Rp57rb), …512609970739 (Rp64rb), …512344850739 (Rp53rb), …782906810739 (Rp85rb), …512696400739 (Rp56rb), …253985770739 (Rp70rb).
+  - Haji 3 5: …668566480704 (Rp53rb), …668566390704 (Rp82rb), …664192470704 (Rp75rb), …664129670704 (Rp83rb), …557032130704 (0/Rp50rb).
+  - Haji 4 1: …622022710768 (0/Rp100rb).
+- Tidak ada yang diubah; menunggu keputusan user.

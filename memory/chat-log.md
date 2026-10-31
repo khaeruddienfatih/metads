@@ -1650,3 +1650,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Routine `trig_01Tv4htgnxAiipP6ic38dc6X` diubah: OFF jam **22:00 WIB** (cron `0 15 * * *` UTC), nama "Jadwal malam: ad set OFF 22:00 WIB". Jalan pertama malam ini 31 Okt 22:00.
 - ON tetap 04:00 WIB (`trig_01ASjPaNeoNDjpJZaALrzVzy`). Cek tiap jam `trig_012Qu1YrebVhGGQCXMKv23y5` kini dilewati 22:00–03:59.
 - `jadwal-malam.md`, `auto-reaktivasi.md`, `chat-memory.md` diperbarui.
+
+### 2026-10-31 — "besok kirim juga ke dhiyaaelhaq01@gmail.com jam 8 pagi jam 6 pagi ke khaeruddien@gmail.com"
+- Routine email pagi `trig_015kQ7xrGRj9ZWeKRnha6ia4` (ke khaeruddien@gmail.com) dipindah dari 07:03 ke **06:00 WIB** (cron `0 23 * * *` UTC). Jalan pertama 1 Nov 06:00.
+- Routine baru `trig_017i6fP6AFjxsRDgiXSPN4nq` — laporan yang sama (tabel chat/biaya/CPR kemarin, Umroh vs Haji) ke **dhiyaaelhaq01@gmail.com** tiap **08:00 WIB** (cron `0 1 * * *` UTC). Jalan pertama 1 Nov 08:00. Read-only.

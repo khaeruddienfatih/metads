@@ -1589,3 +1589,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-31 15:13 — cek tiap jam (cloud)
 - A (nyala lagi): Tira (868364731529534) ad set `120252902799150584` "25 Kota Video #4" (campaign `120252902795820584` "januari 9 hari & 12 hari", ACTIVE) — dimatikan rule OFF2 jam 14:36. Hari ini 2 chat, spend Rp47.030, CPR Rp23.515; 3 hari terakhir spend Rp0 (<Rp35rb → lolos); reaktivasi MCP hari ini sebelumnya 1× → ini ke-2. Terverifikasi ACTIVE.
 - B (pause boros): tidak ada.
+
+### 2026-10-31 16:20 — cek tiap jam (cloud)
+- **A (dinyalakan, 2):**
+  - Fifi 521083143750270 — ad set `120252109327300365` "Januari" (campaign Fifi ACTIVE), dimatikan rule "OFF 1" jam 05:12. Hari ini 1 chat / Rp24.233 (CPR Rp24.233); 3 hari 12 chat / Rp269.506 (CPR Rp22.459). Verifikasi: ACTIVE.
+  - AIni 814396810761205 — ad set `120253924406900019` "9 Hari Januari" (campaign Prospek (baru) - Salin ACTIVE), dimatikan rule "off" jam 12:19. Hari ini 1 chat / Rp22.479; 3 hari 6 chat / Rp186.303 (CPR Rp31.050). Verifikasi: ACTIVE (lewat entity_type tanpa object_ids).
+- **B (di-pause):** tidak ada (semua ad set ACTIVE dengan spend ≥ Rp30rb punya ≥1 chat).
+- Ditolak A: CPR 3 hari ≥ Rp50rb / 0 chat spend ≥ Rp35rb (Diana, Nida, Irfan, Haji 947 ×2, Allif); hari ini CPR ≥ Rp30rb atau 0 chat (sisanya).

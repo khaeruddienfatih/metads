@@ -1684,3 +1684,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 794403715776985 · 120252745117570704 "Alif": Rp120.000 → Rp132.000 · CPR Rp23.484/9.318/10.526
   - Semua terverifikasi ACTIVE dengan budget baru. Tidak ada campaign di batas Rp300rb. Haji 2 & akun haji 1050… tanpa campaign ACTIVE.
 - PART 2: daftar 2026-10-31 valid. 87 ad set dinyalakan, 16 dilewati (Irfan 8 + Allif 8 sudah ACTIVE), 0 gagal.
+
+### 2026-11-01 — "coba cek habis budget berapa bulan oktober sama total chat ya"
+- Read-only, level akun (termasuk campaign yang sudah dihapus), 1–31 Okt 2026, 14 akun. Chat = messaging conversation started.
+- **Total Okt: Rp317.467.643 · 7.284 chat · CPR Rp41,9rb** (CPR tanpa biaya pixel non-chat Haji 4 Rp12,3 jt).
+- Umroh Rp208.037.557 · 4.536 chat · CPR Rp45,9rb: Fifi 676/Rp30,45jt, Diana 578/Rp24,71jt, Hanif 540/Rp23,50jt, Allif 520/Rp23,01jt, Irfan 506/Rp21,12jt, Nida 488/Rp22,39jt, Fikri 476/Rp23,03jt, AIni 405/Rp20,82jt, Tira 341/Rp18,65jt, Yoga 6/Rp0,37jt.
+- Haji Rp109.430.086 · 2.748 chat · CPR Rp35,3rb: Elharamain Haji 1.323/Rp45,76jt, Haji 4 653/Rp31,86jt (termasuk Rp12,3jt pixel), Haji 3 647/Rp23,53jt, haji 1050… 95/Rp6,29jt, Haji 2 30/Rp2,01jt.
+- Catatan: data level campaign (tanpa campaign terhapus) hanya Rp215,6jt/5.387 chat — angka level akun yang dipakai.

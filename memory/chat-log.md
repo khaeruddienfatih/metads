@@ -1576,3 +1576,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (dinyalakan 1):** Hanif `482252744648260` — ad set `120254963922430427` "12 Hari Januari" (campaign Prospek (baru) - Salin, ACTIVE). Dimatikan rule "OFF" 10:39. Hari ini 1 chat, Rp23.478/chat; 3 hari 2 chat, Rp42.097/chat (<50rb). Belum pernah dinyalakan MCP hari ini. Terverifikasi ACTIVE.
 - **B:** tidak ada ad set yang di-PAUSE.
 - Ditolak A: CPR 3 hari ≥50rb (Allif jawa timur `120252268692220228` 51,6rb; Irfan Indonesia `120253330258920414` 77,4rb); CPR hari ini ≥30rb (Fikri `120249721533920470` 31,2rb, `120249534604840470` 63rb); 0 chat hari ini (Diana ×3, Nida ×2, Hanif ×2, Fikri ×3, AIni ×3, Irfan ×3, Fifi `120252109327300365`, Haji `120250201672190739`, Haji4 ×2).
+
+### 2026-10-31 13:xx — cek tiap jam (cloud)
+- **A (nyala lagi): 1 ad set.** Akun Elharamain Haji 947788760498911 · ad set `120250253542190739` "Broud" (campaign Nida `120250253542250739`, ACTIVE) · dimatikan rule "OFF2" 11:15 · hari ini 3 chat, spend Rp77.109, CPR Rp25.703 · 3 hari 7 chat, Rp194.371, CPR Rp27.767 · dinyalakan 1× (belum pernah oleh MCP hari ini) · terverifikasi effective_status ACTIVE.
+- B (pause boros): tidak ada.
+- Ditolak A: CPR 3 hari ≥50rb (Nida 9 hari januari, Allif jawa timur, Irfan Indonesia, Haji LLA ×1), CPR hari ini ≥30rb / 0 chat (sisanya di Diana, Tira, Nida, Hanif, Allif, Fikri, AIni, Irfan, Fifi, Haji 3/4), pixel non-chat (Haji 4 Retargeting).

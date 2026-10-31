@@ -1706,3 +1706,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 — "iya masukan ke google ads dan tiktok ads 6660000"
 - Dibuat `memory/rekap-bulanan.md`: rekap Oktober semua platform. Meta Rp323.232.564 (dibayar ±Rp322,93 jt) + Google Ads Rp10.858.243 (dibayar Rp12.859.750) + TikTok Ads Rp6.660.000 (angka user) = **total biaya Rp340.750.807**, dibayar ±Rp342.452.368. Biaya semua platform ÷ 7.286 chat Meta = Rp46.768.
+
+### 2026-11-01 — "google ads dan tiktok ada pajak 12%"
+- `rekap-bulanan.md` diperbarui: Google Rp10.858.243 + pajak Rp1.302.989 = Rp12.161.232; TikTok Rp6.660.000 + pajak Rp799.200 = Rp7.459.200; Meta tanpa pajak (VAT 0%).
+- **Total Okt semua platform + pajak: Rp342.852.996** (pajak Rp2.102.189); dibayar ±Rp343.251.568; per chat Meta Rp47.056. Aturan pajak 12% Google/TikTok dicatat di `rekap-bulanan.md` & `chat-memory.md`.

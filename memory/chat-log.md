@@ -1602,3 +1602,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dikerjakan: `ads_get_ad_accounts` (read-only) — koneksi Meta Ads OK, semua akun kerja terbaca (Fifi, AIni, Diana, Nida, Tira, Hanif, Fikri, Irfan, Allif, Elharamain Haji, haji 1050343302646341, Haji 2, Haji 3).
 - Status: IN_GRACE_PERIOD masih Hanif, Allif, + Elharamain Haji 4 (1526562231314028). Belum bisa via MCP: Elharamainclose, Umroh Plus, Elharamainwisata, PAUSE Elharamain Wisata.
 - Tidak ada perubahan iklan.
+
+### 2026-10-31 — "agar bisa tersimpan juga di elharamainwisata"
+- Diminta: simpan repo memory juga di akun GitHub elharamainwisata.
+- Repo `elharamainwisata/ads` ternyata PUBLIC → user pilih buat repo baru private: `elharamainwisata/metads` (private, khaeruddienfatih punya akses push).
+- Dikerjakan: seluruh riwayat `main` di-push ke `https://github.com/elharamainwisata/metads`. Di Mac user, remote `origin` diberi 2 push URL (khaeruddienfatih/metads + elharamainwisata/metads) → `git push origin main` otomatis ke dua repo. `CLAUDE.md` langkah 3 ditambah: push juga ke elharamainwisata/metads.
+- Catatan: routine cloud (cek tiap jam / email pagi) push dari clone sendiri — hanya ikut ke repo kedua kalau mengikuti CLAUDE.md dan punya akses.

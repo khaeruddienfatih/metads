@@ -1620,3 +1620,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - `trig_01ASjPaNeoNDjpJZaALrzVzy` "Jadwal pagi: ad set ON 04:00 WIB" (cron `0 21 * * *` UTC) — nyalakan lagi hanya ad set di daftar (masih PAUSED & campaign ACTIVE).
 - Routine cek tiap jam `trig_012Qu1YrebVhGGQCXMKv23y5` diperbarui: dilewati jam 23:00–03:59 WIB. Prosedur baru `memory/jadwal-malam.md`; `auto-reaktivasi.md` ditambah catatan jendela malam.
 - Pertama jalan: malam ini 31 Okt 23:00 WIB, nyala lagi 1 Nov 04:00 WIB.
+
+### 2026-10-31 18:30 — "sekarang yang kena auto on ada g"
+- Hari ini 8 ad set dinyalakan lagi oleh cek tiap jam (Bagian A); dicek ulang jam 18:30 (data hari ini), semua masih ACTIVE:
+  - Fifi jawa barat `120252429755530365` 6 chat / Rp179rb (CPR Rp29,9rb) · Fifi Januari `120252109327300365` 2 / Rp35,5rb (Rp17,8rb)
+  - Hanif 12 Hari Januari `120254963922430427` 6 / Rp78rb (Rp13,1rb)
+  - Haji 947 Broud (Nida) `120250253542190739` 14 / Rp204rb (Rp14,6rb) · Jawa Tengah & Timur (Diana) `120250778200960739` 3 / Rp90rb (Rp30,0rb)
+  - Tira 25 Kota Video #5 `120252902799160584` 4 / Rp91rb (Rp22,7rb) · Video #4 `120252902799150584` 4 / Rp109rb (Rp27,2rb)
+  - AIni 9 Hari Januari `120253924406900019` 1 / Rp29rb (Rp29,3rb)
+- Read-only, tidak ada perubahan.

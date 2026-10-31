@@ -21,5 +21,8 @@ permintaan user yang selesai dikerjakan):
 2. Kalau ada aturan baru, status akun berubah, atau budget berubah, perbarui juga
    `memory/chat-memory.md`.
 3. Commit lalu push langsung ke `main` (`git pull origin main` dulu, lalu `git push origin main`).
+   Push juga ke cadangan private `https://github.com/elharamainwisata/metads.git` (branch `main`):
+   `git push https://github.com/elharamainwisata/metads.git main`. (Di komputer Mac user, `git push origin main`
+   sudah otomatis push ke dua repo.)
 
 Jangan simpan token, password, atau kredensial di file memory.

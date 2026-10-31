@@ -1607,3 +1607,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (nyala lagi):** akun Elharamain Haji 947788760498911, ad set `120250778200960739` "Jawa Tengah & Timur" (campaign Diana, ACTIVE). Dimatikan rule "off" 17:15 WIB. Hari ini 3 chat / Rp86.308 (CPR ≈ Rp28.769, <30rb); 3 hari 12 chat / Rp276.117 (CPR Rp23.010, <50rb). Reaktivasi oleh MCP 0× sebelumnya. Verifikasi: status ACTIVE.
 - **B (pause boros):** tidak ada (semua ad set ACTIVE dengan spend ≥Rp30rb punya ≥1 chat).
 - Kandidat ditolak: gagal CPR hari ini/0 chat atau CPR 3 hari ≥Rp50rb / 0 chat dengan spend ≥Rp35rb (mis. Diana Ramadhan, Nida 9 hari januari, Allif jawa timur, Irfan Indonesia, Haji LLA/Interest).
+
+### 2026-10-31 — "agar bisa tersimpan juga di elharamainwisata"
+- Diminta: simpan repo memory juga di akun GitHub elharamainwisata.
+- Repo `elharamainwisata/ads` ternyata PUBLIC → user pilih buat repo baru private: `elharamainwisata/metads` (private, khaeruddienfatih punya akses push).
+- Dikerjakan: seluruh riwayat `main` di-push ke `https://github.com/elharamainwisata/metads`. Di Mac user, remote `origin` diberi 2 push URL (khaeruddienfatih/metads + elharamainwisata/metads) → `git push origin main` otomatis ke dua repo. `CLAUDE.md` langkah 3 ditambah: push juga ke elharamainwisata/metads.
+- Catatan: routine cloud (cek tiap jam / email pagi) push dari clone sendiri — hanya ikut ke repo kedua kalau mengikuti CLAUDE.md dan punya akses.

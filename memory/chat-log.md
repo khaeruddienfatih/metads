@@ -1520,3 +1520,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 18 iklan video BARU, semua PAUSED (video_data, thumbnail Cloudinary so_1, teks primary-texts 9H/12H, headline berselang-seling, CTA WA, 3 ice breakers): campaign januari 12 iklan (#1: jan1, jan2, 12H1; #2: jan3, jan4, 12H2; #3: jan5, 12H3; #4: jan6, 12H4; #5: jan7, jan8 — video unik dalam campaign, hanya 12 video tersedia); Sales 6 iklan (#1: jan1, jan2, 12H1; #2: jan3, 12H2, 12H3).
 - ID iklan: 120252902828320584, …832980584, …835460584, …837040584, …839550584, …844700584, …847000584, …851380584, …854020584, …856840584, …859650584, …862430584, …863640584, …872010584, …875110584, …878490584, …882280584, …891780584.
 - Tertunda: iklan masih PAUSED — aktifkan kalau user perintah. Ad set #3–#5 campaign januari baru 2 iklan (stok video habis).
+
+### 2026-10-31 — Tira: "jika kurang pakai gambar"
+- Ad set campaign januari yang baru 2 video dilengkapi 1 iklan gambar (PAUSED) → semua 7 ad set kini 3 iklan:
+  - #3 `120252902795860584`: 9 Hari Desain 9 #1 (hash f784…) → iklan `120252902952870584`.
+  - #4 `120252902799150584`: 12 Hari Desain 2 12H #5 (Cloudinary, link_data.picture) → `120252902955560584`.
+  - #5 `120252902799160584`: 12 Hari 12_hari_januari_2 (Cloudinary) → `120252902957890584`.
+- Iklan masih PAUSED; aktifkan hanya dengan perintah user.

@@ -1581,3 +1581,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (nyala lagi): 1 ad set.** Akun Elharamain Haji 947788760498911 · ad set `120250253542190739` "Broud" (campaign Nida `120250253542250739`, ACTIVE) · dimatikan rule "OFF2" 11:15 · hari ini 3 chat, spend Rp77.109, CPR Rp25.703 · 3 hari 7 chat, Rp194.371, CPR Rp27.767 · dinyalakan 1× (belum pernah oleh MCP hari ini) · terverifikasi effective_status ACTIVE.
 - B (pause boros): tidak ada.
 - Ditolak A: CPR 3 hari ≥50rb (Nida 9 hari januari, Allif jawa timur, Irfan Indonesia, Haji LLA ×1), CPR hari ini ≥30rb / 0 chat (sisanya di Diana, Tira, Nida, Hanif, Allif, Fikri, AIni, Irfan, Fifi, Haji 3/4), pixel non-chat (Haji 4 Retargeting).
+
+### 2026-10-31 14:20 — cek tiap jam (cloud)
+- A (nyala lagi): Tira (868364731529534) ad set `120252902799160584` "25 Kota Video #5" (campaign "januari 9 hari & 12 hari" ACTIVE), dimatikan rule OFF jam 13:06. Hari ini 2 chat, spend Rp24.248, CPR Rp12.124; 3 hari: spend Rp0 (<35rb, lolos). Reaktivasi MCP hari ini baru 1×. Terverifikasi ACTIVE.
+- B (pause boros): tidak ada.

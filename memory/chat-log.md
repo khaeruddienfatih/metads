@@ -1635,3 +1635,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Umroh 159 chat · Rp5.342.944 · CPR Rp33,6rb (Fifi 37, Allif 36, Nida 20, Tira 16, AIni 12, Diana 10, Hanif 10, Irfan 9, Fikri 8, Yoga 1).
 - Haji 100 chat · Rp3.076.434 · CPR Rp28,0rb (Elharamain Haji 60, Haji 4 21, Haji 3 19; Haji 2 & haji 1050… Rp0). Biaya non-chat Haji 4 (pixel add-to-cart) Rp276.131 tidak masuk CPR.
 - Total 259 chat · Rp8.419.378 · CPR Rp31,4rb. CPR akun tertinggi: Irfan Rp62,2rb, AIni Rp54,7rb, Diana Rp53,9rb.
+
+### 2026-10-31 — "coba kamu bisa akses mcf akun apa saja"
+- `ads_get_ad_accounts` (2 halaman): 53 akun terlihat. MCP bisa dipakai: 14 akun kerja (Diana, Tira, Nida, Hanif, Allif, Fikri, AIni, Irfan, Fifi, Elharamain Haji, Haji 2, Haji 3, Haji 4, haji 1050…) + akun lain yang bukan akun kerja (Elharamain Umroh 1474506289983763, Elharamain Wisata Travel 5011535882290058, Elharamain Wisata new 2115913572095965, Elharamain Fikri 2599178060293404, CloseF 873443374652541, Dhiyaa Elhaq 1071117876833086, 645826984173235, HAJI 1150261520060054, Elharamainhaji 1228767622056751, Haji Elharamain Wisata 1408783256902540, Elharamain Jakarta 1268252008183727, Elharamain Depok 23939097282410228, Elharamain Bekasi 1959858701484796, 1406482803745165 tanpa pembayaran, + beberapa "Read-Only").
+- MCP belum dibuka: Elharamainclose, PAUSE Elharamain Wisata, Elharamainwisata 1597121987849466, Umroh Plus, beberapa Read-Only. CLOSED/DISABLED: Ngebakso, 3× close, Test WA ×2, beberapa Read-Only.
+- IN_GRACE_PERIOD: Hanif, Allif, Haji 4. Tidak ada perubahan.

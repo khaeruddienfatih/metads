@@ -1703,3 +1703,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Invoice PDF akun Elharamainwisata 1597121987849466: dibayar Rp5.854.111 (13 transaksi kartu Visa) + kredit iklan Rp10.263, semua "Sudah Dibayar".
 - Total dibayar ke Meta Okt (log billing 15 akun Rp317,07 jt + Elharamainwisata Rp5,86 jt) = ±Rp322,93 jt vs belanja Rp323,23 jt (selisih ±Rp0,3 jt).
 - Screenshot billing (format Google Ads): Oktober net cost Rp10.858.243, payments Rp12.859.750, status "Month still processing".
+
+### 2026-11-01 — "iya masukan ke google ads dan tiktok ads 6660000"
+- Dibuat `memory/rekap-bulanan.md`: rekap Oktober semua platform. Meta Rp323.232.564 (dibayar ±Rp322,93 jt) + Google Ads Rp10.858.243 (dibayar Rp12.859.750) + TikTok Ads Rp6.660.000 (angka user) = **total biaya Rp340.750.807**, dibayar ±Rp342.452.368. Biaya semua platform ÷ 7.286 chat Meta = Rp46.768.

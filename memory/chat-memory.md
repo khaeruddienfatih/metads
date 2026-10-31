@@ -143,6 +143,8 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 Semua 7 kampanye ACTIVE. Angka berubah dari catatan 2 Okt (diubah manual oleh user di Ads Manager).
 
+- **Rekap biaya bulanan semua platform** (Meta + Google Ads + TikTok Ads) di [`rekap-bulanan.md`](rekap-bulanan.md). Okt 2026: total Rp340,75 jt.
+
 ## Pending / pertanyaan terbuka
 
 - 27 Okt: akun IN_GRACE_PERIOD (pembayaran bermasalah) — Haji 3, AIni, Hanif, Fikri, Diana, Allif. Belanja 1–27 Okt semua akun ±Rp274 jt (rincian di chat-log).

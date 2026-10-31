@@ -1497,3 +1497,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Gmail connector tersambung ke akun admin@elharamainwisata.com.
 - Kemungkinan email masuk Spam/Promosi di akun penerima. User diminta cek dan tandai "Bukan spam".
 - Email terjadwal pertama dikirim 31 Okt 07:03 WIB (saat dicek baru 06:38).
+
+### 2026-10-31 07:30 — cek tiap jam (cloud)
+- **A (dinyalakan 1):** Fifi (521083143750270) ad set `jawa barat` `120252429755530365`, campaign Ramadhan `120252429755430365` (ACTIVE). Dimatikan rule "OFF 2" jam 06:43. Hari ini 2 chat, Rp52.428 → CPR Rp26.214; 3 hari 10 chat, Rp300.598 → CPR Rp30.060. Diaktifkan lewat ads_activate_entity, terverifikasi ACTIVE.
+- **B (pause 0):** tidak ada ad set ACTIVE dengan spend ≥ Rp30rb dan 0 chat (Haji 4 pixel dikecualikan).
+- Ditolak A: Diana `120251793201820294` & `120251832398390294`, Hanif `120254774741200427`, Fifi `120252109327300365` (0 chat hari ini); Irfan `120253330258920414` (CPR 3 hari Rp77.428 ≥ Rp50rb).

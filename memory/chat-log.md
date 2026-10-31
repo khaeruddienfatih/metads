@@ -1571,3 +1571,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-31 — "di aini kenapa masih ada cpr di atas 60rb tapi masih hidup"
 - Dicek ulang iklan ACTIVE AIni (minggu ini, 7 hari terakhir, dan lifetime): tidak ada iklan aktif dengan CPR ≥ Rp60rb. Tertinggi: Ramadhan jakarta | Desain 2 #3 `120253679754970019` Rp56,2rb (minggu ini), Ramadhan banten | Desain 2 #4 `120253679767380019` Rp55,7rb (7 hari).
 - Dugaan: user melihat level ad set/campaign (ad set jateng Ramadhan Rp76,8rb, jakarta 9H Rp75,8rb, Penjualan (baru) 9H Rp66,8rb, Ramadhan jakarta Rp61,1rb masih ACTIVE karena hanya iklan mahalnya yang di-pause) atau rentang tanggal lain di Ads Manager. Menunggu konfirmasi user. Tidak ada perubahan.
+
+### 2026-10-31 11:30 — cek tiap jam (cloud)
+- **A (dinyalakan 1):** Hanif `482252744648260` — ad set `120254963922430427` "12 Hari Januari" (campaign Prospek (baru) - Salin, ACTIVE). Dimatikan rule "OFF" 10:39. Hari ini 1 chat, Rp23.478/chat; 3 hari 2 chat, Rp42.097/chat (<50rb). Belum pernah dinyalakan MCP hari ini. Terverifikasi ACTIVE.
+- **B:** tidak ada ad set yang di-PAUSE.
+- Ditolak A: CPR 3 hari ≥50rb (Allif jawa timur `120252268692220228` 51,6rb; Irfan Indonesia `120253330258920414` 77,4rb); CPR hari ini ≥30rb (Fikri `120249721533920470` 31,2rb, `120249534604840470` 63rb); 0 chat hari ini (Diana ×3, Nida ×2, Hanif ×2, Fikri ×3, AIni ×3, Irfan ×3, Fifi `120252109327300365`, Haji `120250201672190739`, Haji4 ×2).

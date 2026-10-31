@@ -1527,3 +1527,20 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - #4 `120252902799150584`: 12 Hari Desain 2 12H #5 (Cloudinary, link_data.picture) → `120252902955560584`.
   - #5 `120252902799160584`: 12 Hari 12_hari_januari_2 (Cloudinary) → `120252902957890584`.
 - Iklan masih PAUSED; aktifkan hanya dengan perintah user.
+
+### 2026-10-31 — "cek report perminggu apakah ada cpr di atas 50rb" (minggu ini)
+- Periode: minggu ini Senin 26 Okt – Sabtu 31 Okt pagi (this_week_mon_today), level ad set, spend > Rp50rb, read-only. Haji 2 & haji 1050 tidak ada belanja; Haji 4 pixel/add-to-cart dikecualikan.
+- 58 ad set ACTIVE dengan CPR > Rp50rb atau 0 chat:
+  - Diana 3: Tangerang Ramadhan …879670294 (Rp75,2rb), Diana 12hari …398370294 (Rp63,9rb), Diana new 9 Januari …201810294 (Rp62,1rb).
+  - Tira 2: Tira pusat LLA …630760584 (Rp134,8rb), Indonesia …630730584 (Rp91,8rb).
+  - Nida 4: new Indonesia Broad #1 …554630004 (0 chat/Rp53,6rb), Prospek Jakarta Ramadhan …308430004 (Rp86,6rb), 9 Hari Januari …044820004 (Rp58rb), …044810004 (0/Rp61,5rb).
+  - Hanif 4: Prospek Salin 9H …922440427 (Rp59,8rb), 12H …922430427 (Rp71,5rb), 12 Hari Januari Indonesia …741120427 (Rp138rb), Jakarta …741070427 (Rp125rb).
+  - Allif 3: 9 Hari jatim …692220228 (Rp54rb), jateng …692170228 (Rp51,9rb), Ramadhan jabar …406460228 (Rp98,4rb).
+  - Fikri 3: Ramadhan …336710470 (Rp57,4rb), Ramadhan-1 …336690470 (Rp61,7rb), Fikri Prov 9 hari Januari …685390470 (Rp85,8rb).
+  - AIni 7: Penjualan 25 Kota #1 …514710019 (0/Rp53,7rb), #2 …514700019 (0/Rp50,1rb), jakarta 9H …913430019 (Rp75,8rb), Penjualan (baru) 9H …014590019 (Rp66,8rb), Ramadhan jakarta …110310019 (Rp61,1rb), jateng …020030019 (Rp76,8rb), banten …020010019 (Rp51,3rb).
+  - Irfan 10: new Jateng #1 …491200414 (Rp56,6rb), Sales banten 9H …709150414 (Rp75,4rb), Sales jawa 9H …709130414 (Rp68,3rb), Sales banten 12H …709090414 (Rp107,8rb), Sales jawa 12H …709080414 (Rp69,5rb), Penjualan Salin 12H …142990414 (Rp132rb), Ramadhan …142980414 (Rp58,3rb), Irfan Indonesia ramadhan …429040414 (0/Rp89,7rb), Umroh …463100414 (0/Rp137,6rb), 9 januari …463080414 (0/Rp72,1rb).
+  - Fifi 11: Jawa 12H …264030365 (Rp104rb), Luar Pulau 12H …264010365 (Rp77rb), LP 9H …263990365 (Rp85rb), Fifi 12 Jan …253110365 (Rp67rb), ramadhan …245710365 (Rp53rb), 9 Jan …245690365 (Rp63rb), 12 Jan …245580365 (Rp83rb), Ramadhan jakarta …755520365 (Rp66rb), 9 Januari …112050365 (Rp55rb), Fifi Kota 9 Jan …488240365 (Rp106rb), Kota Saudia 12H …488220365 (0/Rp107rb).
+  - Elharamain Haji 8: Yoga 9h …031370739 (0/Rp78rb), Irfan Haji-Salin …370730739 (Rp94rb), Diana LLA-1 …629620739 (Rp150rb), Tira Haji …559250739 (Rp79rb), AIni Jakarta …435760739 (Rp53rb), Irfan jawa Barat …252800739 (Rp90rb), AIni Interest …985880739 (Rp51rb), Fikri LLA …672190739 (Rp57rb).
+  - Haji 3 2: Diana Haji …566360704 (Rp88rb), Nida Haji …941410704 (Rp80rb).
+  - Haji 4 1: Diana Vidio …022620768 (0/Rp117rb).
+- Tidak ada yang diubah. Menunggu keputusan user (pause?).

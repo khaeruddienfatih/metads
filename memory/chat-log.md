@@ -1659,3 +1659,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Routine cloud baru `trig_01XvAgB4noayYxfMXZgoiruc` "Naik anggaran +10%" tiap 07:00 WIB (cron `0 0 * * *` UTC), 14 akun. Jalan pertama 1 Nov 07:00 (cek 29–31 Okt).
 - Syarat: campaign ACTIVE hasil chat WA, tiap hari H-1/H-2/H-3 ≥1 chat & CPR < Rp30rb → daily budget ×1,10 (bulat ke atas Rp1.000). CBO → campaign; ABO → tiap ad set ACTIVE. Jeda 3 hari per campaign. Setelah update dicek & diaktifkan lagi kalau jadi PAUSED.
 - File baru `memory/naik-budget.md` (prosedur) + `memory/naik-budget-log.md` (log kenaikan); `chat-memory.md` diperbarui.
+
+### 2026-10-31 — "batas maksimal budget 300rb perkampanye naik anggaran di jam 04 pagi"
+- Naik anggaran +10% kini dijalankan **04:00 WIB** sebagai langkah 1 routine `trig_01ASjPaNeoNDjpJZaALrzVzy` ("Jadwal pagi 04:00 WIB: naik anggaran +10% lalu ad set ON"), baru setelah itu ad set dinyalakan — supaya tidak bentrok. Routine terpisah `trig_01XvAgB4noayYxfMXZgoiruc` (07:00) dinonaktifkan.
+- **Batas maks Rp300.000/hari per campaign**: CBO min(×1,1, 300rb); ABO total ad set ≤ 300rb. Campaign yang sudah ≥ 300rb tidak dinaikkan dan tidak diturunkan.
+- Jalan pertama 1 Nov 04:00 (cek 29–31 Okt). `naik-budget.md`, `jadwal-malam.md`, `chat-memory.md` diperbarui.

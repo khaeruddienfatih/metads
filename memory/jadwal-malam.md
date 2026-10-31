@@ -26,6 +26,8 @@ Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
 
 ## ON — jam 04:00 WIB
 
+0. **Langkah pertama: naik anggaran +10%** sesuai [`naik-budget.md`](naik-budget.md) (maks Rp300rb/campaign). Selesaikan dulu, baru nyalakan ad set.
+
 1. Baca `memory/jadwal-malam-daftar.md`. Pakai hanya kalau tanggal judulnya = kemarin (WIB). Kalau bukan → jangan nyalakan apa pun, laporkan.
 2. Per ad set di daftar (lewati baris `GAGAL`): cek dengan `ads_get_ad_entities` `object_ids`.
    Nyalakan hanya kalau status sekarang PAUSED dan campaign-nya masih ACTIVE (kalau user mematikan campaign di malam hari, biarkan).

@@ -1664,3 +1664,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Naik anggaran +10% kini dijalankan **04:00 WIB** sebagai langkah 1 routine `trig_01ASjPaNeoNDjpJZaALrzVzy` ("Jadwal pagi 04:00 WIB: naik anggaran +10% lalu ad set ON"), baru setelah itu ad set dinyalakan — supaya tidak bentrok. Routine terpisah `trig_01XvAgB4noayYxfMXZgoiruc` (07:00) dinonaktifkan.
 - **Batas maks Rp300.000/hari per campaign**: CBO min(×1,1, 300rb); ABO total ad set ≤ 300rb. Campaign yang sudah ≥ 300rb tidak dinaikkan dan tidak diturunkan.
 - Jalan pertama 1 Nov 04:00 (cek 29–31 Okt). `naik-budget.md`, `jadwal-malam.md`, `chat-memory.md` diperbarui.
+
+### 2026-10-31 21:30 — cek tiap jam (cloud)
+- **A (nyala lagi):** Diana (1076195694707828) ad set `120251822584350294` "12hari januari" (campaign `120251822584270294`, ACTIVE) — dimatikan auto rule "OFF" tadi siang; hari ini 1 chat, Rp22.829/chat; 3 hari: 4 chat, Rp29.697/chat. Diaktifkan lewat `ads_activate_entity` (tanpa object_ids), terverifikasi ACTIVE.
+- **B (pause boros):** tidak ada.
+- Ditolak A: Diana Ramadhan `…879670294` (3 hari 0 chat, Rp64.889), Nida `…686960004` (3h Rp68.291/chat), Allif `…692220228` (3h Rp51.655), Irfan `…258920414` (3h Rp77.428), Haji 947 `…199511430739` (3h 0 chat Rp72.067) & `…199511490739` (3h Rp51.632).

@@ -1585,3 +1585,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-31 14:20 — cek tiap jam (cloud)
 - A (nyala lagi): Tira (868364731529534) ad set `120252902799160584` "25 Kota Video #5" (campaign "januari 9 hari & 12 hari" ACTIVE), dimatikan rule OFF jam 13:06. Hari ini 2 chat, spend Rp24.248, CPR Rp12.124; 3 hari: spend Rp0 (<35rb, lolos). Reaktivasi MCP hari ini baru 1×. Terverifikasi ACTIVE.
 - B (pause boros): tidak ada.
+
+### 2026-10-31 15:13 — cek tiap jam (cloud)
+- A (nyala lagi): Tira (868364731529534) ad set `120252902799150584` "25 Kota Video #4" (campaign `120252902795820584` "januari 9 hari & 12 hari", ACTIVE) — dimatikan rule OFF2 jam 14:36. Hari ini 2 chat, spend Rp47.030, CPR Rp23.515; 3 hari terakhir spend Rp0 (<Rp35rb → lolos); reaktivasi MCP hari ini sebelumnya 1× → ini ke-2. Terverifikasi ACTIVE.
+- B (pause boros): tidak ada.

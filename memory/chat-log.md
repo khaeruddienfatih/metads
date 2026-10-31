@@ -1509,3 +1509,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Cek tiap jam: 00:15 1 ad set dinyalakan; 07:30 Fifi jawa barat `120252429755530365` dinyalakan; B 0 pause.
 - Masukan ke user: Tira (Rp76,6rb, 11 chat) & Hanif (Rp76,7rb, 4 chat) CPR 30 Okt jauh di atas Rp50rb; Irfan Rp50,2rb; Fikri termurah Rp27,8rb; Haji jauh lebih murah dari Umroh.
 - Masih menunggu jawaban: pause 10 ad set bengkak, nyala ulang pagi ad set Bagian B, evaluasi bulanan lanjutan.
+
+### 2026-10-31 — Tira: 7 ad set baru → 25 kota + penempatan default + iklan video
+- Diminta: "masuk ke akun tira untuk penempatan kembali ke semua ig fb story thread dan whatsapp saya mau iklan isinya vidio untuk kota pakai kota 25 kota kemarin" + "untuk adset baru".
+- Ad set baru buatan user hari ini (Tira 868364731529534, akun live, semua kosong, tadinya 7 kota Jabar + penempatan berbasis chat):
+  - Campaign "januari 9 hari & 12 hari" `120252902795820584` (umur 30–65): …795780584, …795850584, …795860584, …799150584, …799160584 → diganti nama `25 Kota Video #1–#5`.
+  - Campaign `Sales` `120252852311010584` (umur 25–65): …777490584, …777460584 → `25 Kota Video #1–#2`.
+- Targeting: `geo_locations` = 25 kota radius 40 km + 5 subcity Jakarta; penempatan default (semua IG + FB Story + WA Status + Threads, mobile+desktop). Umur & targeting_automation tetap. Update memaksa PAUSED → 7 ad set diaktifkan lagi ke ACTIVE (status semula).
+- Video 12 Hari Januari (Cloudinary 12_hari_januari_1–4) di-upload ke Tira: 1156963290009427, 1830261888300569, 2885481705158105, 1478170044416323. Video 9 Hari: library Tira "januari (1–8)".
+- 18 iklan video BARU, semua PAUSED (video_data, thumbnail Cloudinary so_1, teks primary-texts 9H/12H, headline berselang-seling, CTA WA, 3 ice breakers): campaign januari 12 iklan (#1: jan1, jan2, 12H1; #2: jan3, jan4, 12H2; #3: jan5, 12H3; #4: jan6, 12H4; #5: jan7, jan8 — video unik dalam campaign, hanya 12 video tersedia); Sales 6 iklan (#1: jan1, jan2, 12H1; #2: jan3, 12H2, 12H3).
+- ID iklan: 120252902828320584, …832980584, …835460584, …837040584, …839550584, …844700584, …847000584, …851380584, …854020584, …856840584, …859650584, …862430584, …863640584, …872010584, …875110584, …878490584, …882280584, …891780584.
+- Tertunda: iklan masih PAUSED — aktifkan kalau user perintah. Ad set #3–#5 campaign januari baru 2 iklan (stok video habis).

@@ -1613,3 +1613,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Repo `elharamainwisata/ads` ternyata PUBLIC → user pilih buat repo baru private: `elharamainwisata/metads` (private, khaeruddienfatih punya akses push).
 - Dikerjakan: seluruh riwayat `main` di-push ke `https://github.com/elharamainwisata/metads`. Di Mac user, remote `origin` diberi 2 push URL (khaeruddienfatih/metads + elharamainwisata/metads) → `git push origin main` otomatis ke dua repo. `CLAUDE.md` langkah 3 ditambah: push juga ke elharamainwisata/metads.
 - Catatan: routine cloud (cek tiap jam / email pagi) push dari clone sendiri — hanya ikut ke repo kedua kalau mengikuti CLAUDE.md dan punya akses.
+
+### 2026-10-31 — "saya mau setiap jam 11 malam adset off semua dan jam 4 pagi adset on"
+- Dibuat 2 routine cloud (Sonnet, connector Meta-Ads, 14 akun):
+  - `trig_01Tv4htgnxAiipP6ic38dc6X` "Jadwal malam: ad set OFF 23:00 WIB" (cron `0 16 * * *` UTC) — pause semua ad set ACTIVE, simpan daftar di `memory/jadwal-malam-daftar.md`.
+  - `trig_01ASjPaNeoNDjpJZaALrzVzy` "Jadwal pagi: ad set ON 04:00 WIB" (cron `0 21 * * *` UTC) — nyalakan lagi hanya ad set di daftar (masih PAUSED & campaign ACTIVE).
+- Routine cek tiap jam `trig_012Qu1YrebVhGGQCXMKv23y5` diperbarui: dilewati jam 23:00–03:59 WIB. Prosedur baru `memory/jadwal-malam.md`; `auto-reaktivasi.md` ditambah catatan jendela malam.
+- Pertama jalan: malam ini 31 Okt 23:00 WIB, nyala lagi 1 Nov 04:00 WIB.

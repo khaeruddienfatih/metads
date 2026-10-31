@@ -1602,3 +1602,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dikerjakan: `ads_get_ad_accounts` (read-only) — koneksi Meta Ads OK, semua akun kerja terbaca (Fifi, AIni, Diana, Nida, Tira, Hanif, Fikri, Irfan, Allif, Elharamain Haji, haji 1050343302646341, Haji 2, Haji 3).
 - Status: IN_GRACE_PERIOD masih Hanif, Allif, + Elharamain Haji 4 (1526562231314028). Belum bisa via MCP: Elharamainclose, Umroh Plus, Elharamainwisata, PAUSE Elharamain Wisata.
 - Tidak ada perubahan iklan.
+
+### 2026-10-31 18:20 — cek tiap jam (cloud)
+- **A (nyala lagi):** akun Elharamain Haji 947788760498911, ad set `120250778200960739` "Jawa Tengah & Timur" (campaign Diana, ACTIVE). Dimatikan rule "off" 17:15 WIB. Hari ini 3 chat / Rp86.308 (CPR ≈ Rp28.769, <30rb); 3 hari 12 chat / Rp276.117 (CPR Rp23.010, <50rb). Reaktivasi oleh MCP 0× sebelumnya. Verifikasi: status ACTIVE.
+- **B (pause boros):** tidak ada (semua ad set ACTIVE dengan spend ≥Rp30rb punya ≥1 chat).
+- Kandidat ditolak: gagal CPR hari ini/0 chat atau CPR 3 hari ≥Rp50rb / 0 chat dengan spend ≥Rp35rb (mis. Diana Ramadhan, Nida 9 hari januari, Allif jawa timur, Irfan Indonesia, Haji LLA/Interest).

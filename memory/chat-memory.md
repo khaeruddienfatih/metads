@@ -143,7 +143,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 
 Semua 7 kampanye ACTIVE. Angka berubah dari catatan 2 Okt (diubah manual oleh user di Ads Manager).
 
-- **Rekap biaya bulanan semua platform** (Meta + Google Ads + TikTok Ads) di [`rekap-bulanan.md`](rekap-bulanan.md). Okt 2026: total Rp340,75 jt.
+- **Rekap biaya bulanan semua platform** (Meta + Google Ads + TikTok Ads) di [`rekap-bulanan.md`](rekap-bulanan.md). Google Ads & TikTok Ads kena pajak 12% (Meta VAT 0%). Okt 2026: total Rp342,85 jt termasuk pajak.
 
 ## Pending / pertanyaan terbuka
 

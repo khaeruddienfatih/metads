@@ -1654,3 +1654,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-10-31 — "besok kirim juga ke dhiyaaelhaq01@gmail.com jam 8 pagi jam 6 pagi ke khaeruddien@gmail.com"
 - Routine email pagi `trig_015kQ7xrGRj9ZWeKRnha6ia4` (ke khaeruddien@gmail.com) dipindah dari 07:03 ke **06:00 WIB** (cron `0 23 * * *` UTC). Jalan pertama 1 Nov 06:00.
 - Routine baru `trig_017i6fP6AFjxsRDgiXSPN4nq` — laporan yang sama (tabel chat/biaya/CPR kemarin, Umroh vs Haji) ke **dhiyaaelhaq01@gmail.com** tiap **08:00 WIB** (cron `0 1 * * *` UTC). Jalan pertama 1 Nov 08:00. Read-only.
+
+### 2026-10-31 — "jika setiap hari dalam 3 hari cpr bagus di bawah 30rb kamu naikan anggaran kampanyenya 10%"
+- Routine cloud baru `trig_01XvAgB4noayYxfMXZgoiruc` "Naik anggaran +10%" tiap 07:00 WIB (cron `0 0 * * *` UTC), 14 akun. Jalan pertama 1 Nov 07:00 (cek 29–31 Okt).
+- Syarat: campaign ACTIVE hasil chat WA, tiap hari H-1/H-2/H-3 ≥1 chat & CPR < Rp30rb → daily budget ×1,10 (bulat ke atas Rp1.000). CBO → campaign; ABO → tiap ad set ACTIVE. Jeda 3 hari per campaign. Setelah update dicek & diaktifkan lagi kalau jadi PAUSED.
+- File baru `memory/naik-budget.md` (prosedur) + `memory/naik-budget-log.md` (log kenaikan); `chat-memory.md` diperbarui.

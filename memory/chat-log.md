@@ -1629,3 +1629,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Tira 25 Kota Video #5 `120252902799160584` 4 / Rp91rb (Rp22,7rb) · Video #4 `120252902799150584` 4 / Rp109rb (Rp27,2rb)
   - AIni 9 Hari Januari `120253924406900019` 1 / Rp29rb (Rp29,3rb)
 - Read-only, tidak ada perubahan.
+
+### 2026-10-31 18:35 — "coba kirim laporan hasil hari ini umroh dan haji"
+- Email HTML (tabel) terkirim ke khaeruddien@gmail.com (Gmail id 1a191c2f2bb59d2a), data hari ini s/d ±18:35 WIB, level campaign, read-only.
+- Umroh 159 chat · Rp5.342.944 · CPR Rp33,6rb (Fifi 37, Allif 36, Nida 20, Tira 16, AIni 12, Diana 10, Hanif 10, Irfan 9, Fikri 8, Yoga 1).
+- Haji 100 chat · Rp3.076.434 · CPR Rp28,0rb (Elharamain Haji 60, Haji 4 21, Haji 3 19; Haji 2 & haji 1050… Rp0). Biaya non-chat Haji 4 (pixel add-to-cart) Rp276.131 tidak masuk CPR.
+- Total 259 chat · Rp8.419.378 · CPR Rp31,4rb. CPR akun tertinggi: Irfan Rp62,2rb, AIni Rp54,7rb, Diana Rp53,9rb.

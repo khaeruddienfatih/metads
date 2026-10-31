@@ -1691,3 +1691,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Umroh Rp208.037.557 · 4.536 chat · CPR Rp45,9rb: Fifi 676/Rp30,45jt, Diana 578/Rp24,71jt, Hanif 540/Rp23,50jt, Allif 520/Rp23,01jt, Irfan 506/Rp21,12jt, Nida 488/Rp22,39jt, Fikri 476/Rp23,03jt, AIni 405/Rp20,82jt, Tira 341/Rp18,65jt, Yoga 6/Rp0,37jt.
 - Haji Rp109.430.086 · 2.748 chat · CPR Rp35,3rb: Elharamain Haji 1.323/Rp45,76jt, Haji 4 653/Rp31,86jt (termasuk Rp12,3jt pixel), Haji 3 647/Rp23,53jt, haji 1050… 95/Rp6,29jt, Haji 2 30/Rp2,01jt.
 - Catatan: data level campaign (tanpa campaign terhapus) hanya Rp215,6jt/5.387 chat — angka level akun yang dipakai.
+
+### 2026-11-01 — "yang sudah di bayar ke meta" (Oktober)
+- Sumber: log aktivitas Meta `event_category=budget`, event "Account billed", 1–31 Okt (WIB), 15 akun. Read-only.
+- **Total dibayar/ditagih Okt: Rp317.068.244** (belanja Okt Rp317.467.643 → selisih ±Rp0,4 jt). Akun Umroh Rp205,52 jt, akun Haji Rp111,35 jt, CloseF Rp0,19 jt.
+- Per akun (tagih / belanja): Elharamain Haji 48,53/46,13 · Fifi 34,11/30,45 · Haji 4 30,47/31,86 · Diana 26,24/24,71 · Haji 3 24,48/23,53 · Fikri 23,01/23,03 · Nida 22,42/22,39 · Irfan 21,10/21,12 (80× tagihan, kebanyakan Rp300rb) · AIni 20,92/20,82 · Allif 20,89/23,01 · Tira 18,81/18,65 · Hanif 18,03/23,50 · haji 5,75/6,29 · Haji 2 2,13/2,01 · CloseF 0,19/0.
+- Belum tertagih terbesar: Hanif ±Rp5,47 jt, Allif ±Rp2,12 jt, Haji 4 ±Rp1,39 jt, haji ±Rp0,54 jt (Hanif/Allif/Haji 4 = IN_GRACE_PERIOD). Akun dengan tagih > belanja (Fifi, Elharamain Haji, Diana, Haji 3) ikut membayar sisa belanja akhir Sep.

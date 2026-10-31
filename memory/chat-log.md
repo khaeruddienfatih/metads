@@ -1697,3 +1697,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **Total dibayar/ditagih Okt: Rp317.068.244** (belanja Okt Rp317.467.643 → selisih ±Rp0,4 jt). Akun Umroh Rp205,52 jt, akun Haji Rp111,35 jt, CloseF Rp0,19 jt.
 - Per akun (tagih / belanja): Elharamain Haji 48,53/46,13 · Fifi 34,11/30,45 · Haji 4 30,47/31,86 · Diana 26,24/24,71 · Haji 3 24,48/23,53 · Fikri 23,01/23,03 · Nida 22,42/22,39 · Irfan 21,10/21,12 (80× tagihan, kebanyakan Rp300rb) · AIni 20,92/20,82 · Allif 20,89/23,01 · Tira 18,81/18,65 · Hanif 18,03/23,50 · haji 5,75/6,29 · Haji 2 2,13/2,01 · CloseF 0,19/0.
 - Belum tertagih terbesar: Hanif ±Rp5,47 jt, Allif ±Rp2,12 jt, Haji 4 ±Rp1,39 jt, haji ±Rp0,54 jt (Hanif/Allif/Haji 4 = IN_GRACE_PERIOD). Akun dengan tagih > belanja (Fifi, Elharamain Haji, Diana, Haji 3) ikut membayar sisa belanja akhir Sep.
+
+### 2026-11-01 — User kirim 3 file Oktober (CSV Ads Manager, invoice PDF, screenshot billing)
+- CSV Ads Manager 1–31 Okt (semua akun, termasuk yang tak terbaca MCP): **belanja Meta Rp323.232.564 · 7.286 chat · CPR Rp44.364**. Cocok dengan rekap MCP (Rp317,47 jt/7.284 chat) + Elharamainwisata 1597121987849466 Rp5,63 jt (0 chat, tanpa objective chat) + elharamain Profile (CloseF 873443374652541) Rp0,14 jt/2 chat.
+- Invoice PDF akun Elharamainwisata 1597121987849466: dibayar Rp5.854.111 (13 transaksi kartu Visa) + kredit iklan Rp10.263, semua "Sudah Dibayar".
+- Total dibayar ke Meta Okt (log billing 15 akun Rp317,07 jt + Elharamainwisata Rp5,86 jt) = ±Rp322,93 jt vs belanja Rp323,23 jt (selisih ±Rp0,3 jt).
+- Screenshot billing (format Google Ads): Oktober net cost Rp10.858.243, payments Rp12.859.750, status "Month still processing".

@@ -1675,3 +1675,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Total 103 ad set ACTIVE di-PAUSE, 0 gagal; verifikasi ulang: 0 ad set ACTIVE tersisa di semua akun.
 - Per akun (paused/gagal): Diana 4/0 · Tira 5/0 · Nida 6/0 · Hanif 2/0 · Allif 8/0 · Fikri 3/0 · AIni 6/0 · Irfan 8/0 · Fifi 23/0 · Elharamain Haji 947… 14/0 · Haji 2 0/0 · Haji 3 12/0 · Haji 4 12/0 · haji 1050… 0/0 (1 ad set ARCHIVED, diabaikan).
 - Daftar di memory/jadwal-malam-daftar.md (untuk dinyalakan 04:00 WIB).
+
+### 2026-11-01 04:00 — jadwal pagi: naik anggaran + ON (cloud)
+- PART 1 (H-3..H-1 = 29–31 Okt; cooldown tidak ada, log kosong): 4 campaign dinaikkan +10% (semua CBO, di bawah batas Rp300rb):
+  - Nida 1019832712800468 · 120251731135280004 "12 hari januari": Rp150.000 → Rp165.000 · CPR Rp26.005/28.728/18.037
+  - Allif 4678183395742010 · 120252243406370228 "Ramadhan": Rp200.000 → Rp220.000 · CPR Rp24.868/24.611/22.676 (sempat PAUSED karena update, diaktifkan lagi)
+  - Elharamain Haji 947788760498911 · 120250253542250739 "Nida": Rp250.000 → Rp275.000 · CPR Rp25.502/22.364/14.895 (sempat PAUSED, diaktifkan lagi)
+  - Haji 3 794403715776985 · 120252745117570704 "Alif": Rp120.000 → Rp132.000 · CPR Rp23.484/9.318/10.526
+  - Semua terverifikasi ACTIVE dengan budget baru. Tidak ada campaign di batas Rp300rb. Haji 2 & akun haji 1050… tanpa campaign ACTIVE.
+- PART 2: daftar 2026-10-31 valid. 87 ad set dinyalakan, 16 dilewati (Irfan 8 + Allif 8 sudah ACTIVE), 0 gagal.

@@ -103,3 +103,9 @@
 - 1526562231314028 | 120256248793270768 | Gambar | Irfan
 - 1526562231314028 | 120256248793240768 | Vidio | Irfan
 - 1526562231314028 | 120256248793200768 | Gambar | Irfan
+
+## Dinyalakan 2026-11-01 04:00
+- Daftar header 2026-10-31 = H-1 (valid). Total 103 ad set di daftar, 0 baris GAGAL.
+- Dinyalakan: 87 (Diana 4, Hanif 2, Nida 6, Tira 5, Fikri 3, AIni 6, Fifi 23, Haji 947… 14, Haji 3 12, Haji 4 12)
+- Dilewati: 16 — sudah ACTIVE sebelum dinyalakan (Irfan 8, Allif 8)
+- Gagal: 0 (percobaan pertama dengan object_ids ditolak "no staged changes" di 9 akun; berhasil dengan entity_type+entity_id tanpa object_ids)

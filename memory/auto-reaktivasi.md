@@ -3,7 +3,7 @@
 Perintah user (30 Okt 2026): "aktipan adset cek tiap jam kamu cek yang cpr di bawah 30rb dan terkena off oleh auto rules saya".
 User memilih CPR dihitung dari **data hari ini**.
 
-**Jendela malam (31 Okt, perintah user jadwal malam):** kalau jam WIB sekarang 23:00–03:59, JANGAN jalankan
+**Jendela malam (31 Okt, perintah user jadwal malam):** kalau jam WIB sekarang 22:00–03:59, JANGAN jalankan
 Bagian A maupun B — langsung selesai tanpa log. Ad set sedang dimatikan jadwal malam ([`jadwal-malam.md`](jadwal-malam.md)).
 
 ## Akun yang dicek (14)

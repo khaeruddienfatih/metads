@@ -1645,3 +1645,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (dinyalakan lagi): 1 ad set.** Diana (1076195694707828) ad set `120252014883280294` "Ramadhan" (campaign "Diana new" ACTIVE) — dimatikan auto rule "OFF" 31 Okt 13:45; hari ini 2 chat / Rp57.012 (CPR Rp28.506), 3 hari 9 chat / Rp298.813 (CPR Rp33.201). Diaktifkan via entity_type ad_set tanpa object_ids; terverifikasi ACTIVE.
 - **B (pause boros): tidak ada.**
 - Ditolak A (CPR hari ini ok tapi 3 hari gagal): Diana `120252014879670294` (3d Rp64.889, 0 chat); Nida `120251572686960004` (3d CPR Rp68.291); Allif `120252268692220228` (3d Rp51.655); Irfan `120253330258920414` (3d Rp77.428); Haji 947 `120250199511430739` (3d Rp72.067, 0 chat) & `120250199511490739` (3d Rp51.595).
+
+### 2026-10-31 — "koreksi matikan di jam 10 malam"
+- Routine `trig_01Tv4htgnxAiipP6ic38dc6X` diubah: OFF jam **22:00 WIB** (cron `0 15 * * *` UTC), nama "Jadwal malam: ad set OFF 22:00 WIB". Jalan pertama malam ini 31 Okt 22:00.
+- ON tetap 04:00 WIB (`trig_01ASjPaNeoNDjpJZaALrzVzy`). Cek tiap jam `trig_012Qu1YrebVhGGQCXMKv23y5` kini dilewati 22:00–03:59.
+- `jadwal-malam.md`, `auto-reaktivasi.md`, `chat-memory.md` diperbarui.

@@ -1747,3 +1747,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - `auto-reaktivasi.md`: Bagian B ditambah syarat baru — ad set ACTIVE dengan spend hari ini > Rp40rb dan chat < 2 → PAUSE (syarat lama ≥ Rp30rb & 0 chat tetap). Bagian C baru — iklan ACTIVE dengan CPR sepanjang waktu > Rp50rb (atau 0 chat & spend ≥ Rp35rb) → PAUSE.
 - Dicek tiap 30 menit: routine `trig_012Qu1YrebVhGGQCXMKv23y5` (menit :13) diperbarui + routine baru menit :43 (prompt sama). Jendela malam 22:00–03:59 dilewati.
 - Lanjutan "untuk menyalakan adset yang cpr di bawah 30rb kamu ganti jadi per 30 menit juga": Bagian A sudah termasuk di kedua routine (:13 & :43) → nyala ulang juga tiap 30 menit. Routine :43 `trig_01GUvNdBksYcSF5CP1aZarPU` dijalankan sekali manual (1 Nov ±11:50 WIB). `chat-memory.md` diperbarui.
+### 2026-11-01 11:50 — cek 30 menit (cloud)
+- **A (nyala):** Nida 1019832712800468 — ad set `120251865308470004` "9 Hari Januari" (campaign Prospek (baru) - Jakarta, ACTIVE), dimatikan rule "OFF" 10:10. Hari ini 1 chat / Rp22.754 (CPR Rp22.754); 3 hari 9 chat / Rp258.683 (CPR Rp28.743). Dinyalakan, terverifikasi ACTIVE. Tidak dinyalakan: Hanif jawa barat `120254774741200427` (3 hari 0 chat, spend Rp74.048); sisanya 0 chat hari ini.
+- **B (pause ad set):** AIni 814396810761205 — `120253979512830019` "25 Kota - Broad 25-65 #5" (campaign Penjualan): spend Rp40.922, 1 chat (>40rb & chat<2), PAUSED terverifikasi. Irfan 1060984719243481 — `120253634491180414` "Jateng & Jatim - Broad 25-65 #3" (campaign new): spend Rp51.408, 1 chat, PAUSED terverifikasi.
+- **C (pause iklan lifetime, 38 iklan, semua respons sukses):**
+  - Diana: `120252193843350294` Ramadhan Diana D2#3 (Rp52.778/1 chat).
+  - Tira: `120252902856840584` Video 12 Hari j_4 (Rp94.047/1).
+  - Nida: `120251957401410004` januari_5 winner (Rp81.458/0), `120251938773180004` Sales Ramadhan D2#5 (Rp48.240/0), `120251938824010004` januari_6 (Rp124.338/2=Rp62.169).
+  - Hanif: `120255027201410427` D7#1 (Rp64.522/1), `120255027201330427` D7#3 (Rp37.059/0).
+  - Allif: `120252223491840228` (45.150/0), `120252431300510228` (65.337/0), `120252223508430228` (59.253/0), `120252538454770228` (42.249/0), `120252243585570228` (46.704/0), `120252223505350228` (43.810/0), `120252223508010228` (100.803/2=50.401).
+  - Fikri: `120249697396850470` Ramadhan Fikri D3#3 (562.196/11=51.108).
+  - AIni: `120253979560630019` (75.550/1), `120253979555610019` (54.007/0).
+  - Irfan: `120253654919080414` (53.546/1), `120253654915770414` (44.248/0), `120253512749790414` (108.829/2), `120253512751840414` (139.302/2), `120253330338720414` (71.507/1).
+  - Fifi: `120252689349760365` (36.836/0), `120252689331440365` (46.371/0), `120252688719240365` (105.029/2), `120252665445480365` (202.901/4), `120252598146940365` (38.959/0), `120252512320930365` (53.221/1).
+  - Elharamain Haji 947788760498911: `120251088647190739`, `120250930968180739`, `120251088651160739`, `120251069909800739`, `120250897664800739`, `120251088661470739`, `120251088660830739`.
+  - Haji 4 1526562231314028: `120257334132050768` (61.666/1), `120257334129790768` (37.245/0), `120257334134600768` (58.427/1). (Sempat salah akun 1050343302646341 → error "does not own this entity", diulang di akun yang benar, sukses.)

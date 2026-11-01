@@ -1797,3 +1797,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyalakan): tidak ada. Kandidat rule-off hari ini (Diana 3, Hanif 4, Allif 1, Fikri 1, AIni 4, Irfan 5, Fifi 1, Haji 3 2, Haji 4 1) semua 0 chat hari ini, kecuali Hanif "jawa barat" `120254774741200427` (1 chat, Rp26.690/chat hari ini) — ditolak: 3 hari terakhir spend Rp74.048 dengan 0 chat (≥ Rp35rb).
 - B (pause ad set): Elharamain Haji 947788760498911 — ad set `120250778200960739` "Jawa Tengah & Timur", campaign Diana; spend hari ini Rp39.988 (waktu pause terbaca Rp38.183), 0 chat → kondisi spend ≥ Rp30rb & 0 chat. Terverifikasi PAUSED.
 - C (pause iklan): tidak ada (semua iklan ACTIVE spend ≥ Rp35rb punya CPR ≤ Rp50rb di 14 akun; terdekat AIni `120253924406930019` Rp49.305/chat dan Allif `120252223507210228` Rp49.508/chat).
+### 2026-11-01 13:50 — cek 30 menit (cloud)
+- A (nyalakan ad set rule-off): tidak ada. Kandidat rule-off hari ini (Diana, Tira, Hanif, Allif, Fikri, AIni, Irfan, Fifi, Haji 3, Haji 4) semua 0 chat hari ini, kecuali Hanif jawa barat `120254774741200427` (1 chat, Rp26.690) — gagal syarat 3 hari (0 chat, Rp74.048).
+- B (pause ad set boros): tidak ada. Haji 947 "Jawa Tengah & Timur" `120250778200960739` (Rp48.138/1 chat) sudah PAUSED saat dicek ulang.
+- C (pause iklan mahal lifetime): 1 iklan di-PAUSE — AIni (814396810761205) ad `120253979829020019` "Sales 12 Hari Januari | Desain 3 12H #4 | adset1" (campaign Sales `120253979512770019`): spend lifetime Rp35.627, 0 chat. Verifikasi: status PAUSED (effective_status IN_PROCESS).

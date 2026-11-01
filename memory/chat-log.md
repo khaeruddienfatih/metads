@@ -2148,3 +2148,25 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:43 — "atau kamu kasih pembeda sedikit"
 - Subjek email diberi pembeda: pagi 06:00 & 08:00 → `Laporan Iklan Elharamain Wisata <tgl kemarin> (Rekap Harian)`; 12/16/21 → `Laporan Iklan Elharamain Wisata <tgl hari ini> (Siang/Sore/Malam)`. 3 routine diperbarui.
+
+### 2026-11-01 21:50 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat satu-satunya Hanif `120254774741200427` (jawa barat, campaign 12 Hari Januari): hari ini 1 chat / Rp26.701, tapi 3 hari terakhir Rp74.048 dengan 0 chat → gagal syarat CPR 3 hari.
+- **B (pause ad set, semua terverifikasi PAUSED):**
+  - Tira `120252902799150584` (25 Kota Video #4, campaign januari 9 hari & 12 hari): Rp42.855 / 1 chat (>40rb & <2 chat); Tira `120252902795850584` (25 Kota Video #2): Rp43.821 / 1 chat.
+  - Nida `120251865308470004` (9 Hari Januari, campaign Prospek (baru) - Jakarta): Rp48.414 / 1 chat.
+  - AIni `120253979650290019` (25 Kota #1, Penjualan (baru)): Rp50.695 / 1 chat; `120253979650270019` (25 Kota #3, Penjualan (baru)): Rp47.126 / 1 chat; `120253679110310019` (jakarta, Ramadhan): Rp40.606 / 1 chat.
+  - Irfan `120253687617460414` (12 hari januari, new - Salin): Rp42.150 / 1 chat.
+  - Fifi `120252201112110365` (9 Hari, Fifi): Rp42.108 / 1 chat; `120252201112050365` (9 Januari, Fifi): Rp43.979 / 1 chat.
+  - Haji 947 `120250198674110739` (Interest, Hanif): Rp42.563 / 1 chat; `120250421335780739` (Interest, Hanif): Rp33.769 / 0 chat (≥30rb & 0 chat).
+  - Haji 3 `120252557031840704` (Haji 3, Aini): Rp43.177 / 1 chat; `120252745117610704` (Haji 2, Alif): Rp44.767 / 1 chat.
+  - Haji 4 `120256248793270768` (Gambar, Irfan): Rp41.178 / 1 chat.
+- **C (pause iklan lifetime, semua terverifikasi/berhasil PAUSED):**
+  - Tira `120252902837040584` Video januari_3 25 Kota J#2: Rp51.209 / 1 chat (Rp51.209/chat).
+  - Hanif `120254944599680427` 12 Hari Januari Indonesia Desain 2 #3: Rp52.031 / 1 chat.
+  - Allif `120252223502030228` Ramadhan Desain 2 #1: Rp36.235 / 0 chat.
+  - AIni `120253979554240019` Sales 9 Hari Desain 9 #1: Rp102.623 / 2 chat (Rp51.312); `120253979554490019` Sales 12 Hari Desain 3 #1: Rp42.614 / 0 chat; `120253979829020019` Sales 12 Hari Desain 3 #4: Rp37.072 / 0 chat; `120253924406920019` Prospek 9 Hari januari_2: Rp36.061 / 0 chat.
+  - Irfan `120253654923610414` 9 Hari Desain 4 Musim Dingin #2 - winner: Rp51.671 / 1 chat.
+  - Fifi `120252689334520365` Ramadhan jawa barat Desain 3 #4 - winner: Rp35.698 / 0 chat.
+  - Haji 947 `120251116332070739` Haji - AIni Broud 2 (Design14-1): Rp50.744 / 1 chat; `120251088659030739` vidio (Hanif Interest): Rp204.047 / 4 chat (Rp51.012); `120251088660100739` Vidio (AIni Broud): Rp54.802 / 1 chat.
+  - Haji 3 `120252664191830704` Hajj 2025-61: Rp38.214 / 0 chat.
+- Catatan: log aktivitas Tira/AIni/Irfan/Haji 947 terlalu besar untuk dibaca langsung (disaring dengan jq); kandidat A dicari lewat ad set PAUSED dengan ≥1 chat hari ini.

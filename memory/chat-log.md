@@ -1852,3 +1852,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni 814396810761205 · `120253979829020019` "Sales 12 Hari Januari | Desain 3 12H #4 | adset1" · Rp36.222 / 0 chat
   - Haji 947788760498911 · `120251088659030739` "vidio (Hanif Interest) - winner" · Rp201.822 / 4 chat = Rp50.456/chat
 - Catatan: iklan Hanif `…599680427`, Allif `…502030228`, AIni `…829020019` sebelumnya sudah di-pause jam 11:53–14:16 tapi terbaca ACTIVE lagi (ada yang menyalakan ulang) — dipause lagi.
+
+### 2026-11-01 15:30 — cek 30 menit (cloud)
+- **A (nyala):** AIni 814396810761205 — ad set `120253924406900019` "9 Hari Januari" (dimatikan rule "off" 14:24): hari ini 1 chat / Rp24.419 (CPR Rp24.419), 3 hari 4 chat / Rp161.232 (CPR ≈Rp40,3rb). Dinyalakan, terverifikasi ACTIVE. Kandidat lain gagal syarat (0 chat hari ini; Hanif `120254774741200427` jawa barat 1 chat/Rp26.700 hari ini tapi 3 hari 0 chat/Rp74.048 → tidak dinyalakan).
+- **B (pause ad set):** (semua terverifikasi PAUSED)
+  - Nida 1019832712800468 — `120251865308470004` "9 Hari Januari" (Prospek (baru) - Jakarta): Rp46.279 / 1 chat (>40rb & <2 chat).
+  - Irfan 1060984719243481 — `120253548709090414` "12 Hari Januari" (Sales banten): Rp40.658 / 1 chat.
+  - Fifi 521083143750270 — `120252201112050365` "9 Januari" (Fifi): Rp43.835 / 1 chat.
+  - Elharamain Haji 947788760498911 — `120250421335780739` "Interest" (Hanif): Rp33.727 / 0 chat (≥30rb & 0 chat).
+  - Haji 3 794403715776985 — `120252745117610704` "Haji 2" (Alif): Rp43.791 / 1 chat.
+- **C (pause iklan, lifetime):** (semua terverifikasi PAUSED)
+  - Hanif 482252744648260 — `120254944599680427` "12 Hari Januari Indonesia | Desain 2 #3": Rp51.930 / 1 chat (CPR Rp51.930).
+  - Allif 4678183395742010 — `120252223502030228` "Ramadhan | Desain 2 #1": Rp36.122 / 0 chat.
+  - AIni 814396810761205 — `120253979829020019` "Sales 12 Hari Januari | Desain 3 12H #4 | adset1": Rp36.222 / 0 chat.
+  - Elharamain Haji 947788760498911 — `120251088660230739` "Haji_Reuse_Nida-Interest - winner": Rp50.223 / 1 chat (CPR Rp50.223).
+  - Elharamain Haji 947788760498911 — `120251088659030739` "vidio (Hanif Interest) - winner": Rp203.535 / 4 chat (CPR Rp50.884).

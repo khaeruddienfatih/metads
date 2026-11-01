@@ -1792,3 +1792,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Per akun (spend / chat / biaya per chat): Diana 257.056/12/21.421; Tira 105.622/1/105.622; Nida 41.847/2/20.923; Hanif 117.920/2/58.960; Allif 214.467/13/16.497; Fikri 263.960/8/32.995; Fifi 381.812/13/29.370; AIni 270.093/5/54.018; Irfan 381.288/6/63.548; Elharamain Haji 178.334/6/29.722.
 - Termahal: Irfan campaign "new" Rp123.622/chat; Allif Ramadhan …406370228 Rp80.599/chat. Termurah: Allif "Traffic (baru) - Salin" Rp7.959, Hanif (Haji) Rp8.995.
 - Tidak ada perubahan apa pun di akun.
+
+### 2026-11-01 12:43 — cek 30 menit (cloud)
+- A (nyalakan): tidak ada. Kandidat rule-off hari ini (Diana 3, Hanif 4, Allif 1, Fikri 1, AIni 4, Irfan 5, Fifi 1, Haji 3 2, Haji 4 1) semua 0 chat hari ini, kecuali Hanif "jawa barat" `120254774741200427` (1 chat, Rp26.690/chat hari ini) — ditolak: 3 hari terakhir spend Rp74.048 dengan 0 chat (≥ Rp35rb).
+- B (pause ad set): Elharamain Haji 947788760498911 — ad set `120250778200960739` "Jawa Tengah & Timur", campaign Diana; spend hari ini Rp39.988 (waktu pause terbaca Rp38.183), 0 chat → kondisi spend ≥ Rp30rb & 0 chat. Terverifikasi PAUSED.
+- C (pause iklan): tidak ada (semua iklan ACTIVE spend ≥ Rp35rb punya CPR ≤ Rp50rb di 14 akun; terdekat AIni `120253924406930019` Rp49.305/chat dan Allif `120252223507210228` Rp49.508/chat).

@@ -2145,3 +2145,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:40 — "yang pagi saya dan pimpinan, siang sore malam cukup ke saya, jadi cukup tanggal saja"
 - Konfirmasi user: laporan pagi untuk user (elharamainwisata@gmail.com, 06:00) dan pimpinan (dhiyaaelhaq01@gmail.com, 08:00); laporan 12/16/21 hanya ke user (elharamainwisata). Subjek cukup tanggal (sudah diterapkan 21:37). Tidak ada perubahan routine.
+
+### 2026-11-01 21:43 — "atau kamu kasih pembeda sedikit"
+- Subjek email diberi pembeda: pagi 06:00 & 08:00 → `Laporan Iklan Elharamain Wisata <tgl kemarin> (Rekap Harian)`; 12/16/21 → `Laporan Iklan Elharamain Wisata <tgl hari ini> (Siang/Sore/Malam)`. 3 routine diperbarui.

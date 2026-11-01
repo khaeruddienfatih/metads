@@ -1963,3 +1963,22 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi `120252689343630365` Jawa 12 Hari januari_1 winner (Rp52.160/1 chat).
   - Haji 947 `120251088660230739` (Rp50.660/1), `120251088659030739` (Rp203.977/4 = Rp50.994), `120251088660100739` (Rp54.634/1).
   - Haji 3 `120252664191830704` Hajj 2025-61 (Rp37.992, 0 chat).
+
+### 2026-11-01 18:30 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Satu-satunya kandidat Hanif `120254774741200427` (jawa barat): hari ini 1 chat/Rp26.701 tetapi 3 hari terakhir Rp74.048 dengan 0 chat → tidak lolos syarat 3 hari, tetap PAUSED.
+- **B (pause ad set boros hari ini), 11 ad set, semua terverifikasi PAUSED:**
+  - Tira 868364731529534: `120252902795850584` 25 Kota Video #2 (Rp43.784, 1 chat); `120252902799150584` 25 Kota Video #4 (Rp42.855, 1 chat) — campaign "januari 9 hari & 12 hari".
+  - Nida 1019832712800468: `120251865308470004` 9 Hari Januari (Rp48.392, 1 chat) — Prospek (baru) - Jakarta.
+  - AIni 814396810761205: `120253979650290019` 25 Kota #1 (Rp48.451, 1 chat, Penjualan (baru)); `120253979650270019` 25 Kota #3 (Rp44.299, 1 chat); `120253900913410019` 12 Hari Januari (Rp41.579, 1 chat, campaign jakarta).
+  - Irfan 1060984719243481: `120253548709090414` 12 Hari Januari (Rp40.658, 1 chat) — Sales banten.
+  - Fifi 521083143750270: `120252201112110365` 9 Hari (Rp42.108, 1 chat); `120252201112050365` 9 Januari (Rp43.977, 1 chat).
+  - Haji 947788760498911: `120250421335780739` Interest Hanif (Rp33.744, 0 chat); `120250253985880739` Interest AIni (Rp49.882, 1 chat).
+  - Haji 3 794403715776985: `120252745117610704` Haji 2 Alif (Rp44.751, 1 chat).
+- **C (pause iklan lifetime mahal), 11 iklan:**
+  - Tira: `120252902837040584` Video 9 Hari Januari januari_3 (Rp51.172/1 chat = Rp51.172) — PAUSED.
+  - Hanif 482252744648260: `120254944599680427` 12 Hari Januari Indonesia Desain 2 #3 (Rp52.031/1 chat) — PAUSED (iklan ini sudah beberapa kali di-pause lalu kembali aktif sejak 14:16 — perlu dicek).
+  - Allif 4678183395742010: `120252223507210228` Ramadhan Desain 2 #4 (Rp150.152/3 chat = Rp50.051) — PAUSED; `120252223502030228` Ramadhan Desain 2 #1 (Rp36.227, 0 chat) — PAUSED (sama, sering kembali aktif).
+  - AIni: `120253979554490019` Sales 12 Hari D3 #1 (Rp39.835, 0 chat) PAUSED; `120253979829020019` Sales 12 Hari D3 #4 (Rp37.050, 0 chat) PAUSED; `120253924406920019` Prospek 9 Hari januari_2 (Rp36.006, 0 chat) IN_PROCESS (pause menunggu review).
+  - Haji 947: `120251088660100739` (Rp54.643/1), `120251088660230739` (Rp50.677/1), `120251088659030739` (Rp203.983/4 = Rp50.996) — semua PAUSED.
+  - Haji 3: `120252664191830704` Hajj 2025-61 (Rp38.033, 0 chat) IN_PROCESS (pause menunggu review).
+- Catatan: beberapa ad set yang tercatat "Active→Inactive oleh rule" masih terbaca ACTIVE di filter efektif; status diverifikasi per ID sebelum dipause.

@@ -2213,3 +2213,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi 521083143750270: `120252689334520365` Ramadhan jawa barat | Desain 3 #4 Rp35.698 / 0 chat.
   - Haji 947788760498911: `120251088660100739` Vidio (AIni Broud) Rp55.902/1; `120251088659030739` vidio (Hanif Interest) Rp204.114/4=Rp51.028; `120251116332070739` Haji - AIni Broud 2 (Design14-1) Rp51.872/1.
   - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 Rp38.297 / 0 chat.
+
+### 2026-11-02 05:13 — cek 30 menit (cloud)
+- **A (nyalakan ad set rule-off):** tidak ada. Satu-satunya ad set dimatikan rule OFF hari ini: Irfan `120253687617460414` "12 hari januari" (04:38) — chat hari ini 0, spend Rp21.166 → tidak dinyalakan.
+- **B (pause ad set boros):** tidak ada (belum ada ad set ACTIVE spend ≥ Rp30rb hari ini).
+- **C (pause iklan CPR lifetime > Rp50rb / 0 chat ≥ Rp35rb)** — 14 iklan di-PAUSE, terverifikasi PAUSED (kecuali dicatat):
+  - Tira 868364731529534: `120252902837040584` Video januari_3 25 Kota J#2 — Rp51.209 / 1 chat (Rp51.209).
+  - Hanif 482252744648260: `120254944599680427` 12 Hari Januari Indonesia | Desain 2 #3 — Rp52.032 / 1 chat.
+  - Allif 4678183395742010: `120252223502030228` Ramadhan | Desain 2 #1 — Rp36.235 / 0 chat.
+  - AIni 814396810761205: `120253979826570019` Sales Ramadhan D3 #4 — Rp51.067/1; `120253866039950019` Penjualan 9 Hari D7 #3 — Rp100.047/2 (Rp50.024); `120253979554490019` Rp42.875/0; `120253979829020019` Rp37.072/0; `120253924406920019` Rp36.111/0.
+  - Irfan 1060984719243481: `120253634661040414` Rp56.420/1; `120253634660860414` Rp61.286/1; `120253687649590414` Rp53.493/1; `120253654923610414` Rp51.671/1.
+  - Fifi 521083143750270: `120252689334520365` Ramadhan jawa barat D3 #4 — Rp35.698 / 0 chat.
+  - Haji 947788760498911: `120251088659030739` Rp204.114/4 (Rp51.028; status terbaca IN_PROCESS saat verifikasi, update PAUSED sukses — cek ulang), `120251088660100739` Rp55.902/1, `120251116332070739` Rp51.910/1.
+  - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 — Rp38.297 / 0 chat.
+  - Catatan: log aktivitas menunjukkan beberapa iklan ini (Tira, Hanif, Allif, AIni, Irfan, Fifi, Haji, Haji 3) sudah di-pause 04:15/04:45 lalu aktif lagi (kemungkinan routine pagi/kampanye diaktifkan ulang jam 04:00) — di-pause lagi sekarang.
+  - Error sementara: update Haji `120251088659030739` sempat INTERNAL error, berhasil diulang.

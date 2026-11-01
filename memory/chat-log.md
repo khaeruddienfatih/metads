@@ -2142,3 +2142,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:37 — "untuk subjek cukup Laporan Iklan Elharamain wisata tanggal"
 - 3 routine email diperbarui: subjek = `Laporan Iklan Elharamain Wisata <DD Mon YYYY>` (06:00 & 08:00 = tanggal laporan/kemarin; 12/16/21 = tanggal hari ini). Isi plain-text juga diawali salam. Berlaku mulai email 06:00 besok.
+
+### 2026-11-01 21:40 — "yang pagi saya dan pimpinan, siang sore malam cukup ke saya, jadi cukup tanggal saja"
+- Konfirmasi user: laporan pagi untuk user (elharamainwisata@gmail.com, 06:00) dan pimpinan (dhiyaaelhaq01@gmail.com, 08:00); laporan 12/16/21 hanya ke user (elharamainwisata). Subjek cukup tanggal (sudah diterapkan 21:37). Tidak ada perubahan routine.

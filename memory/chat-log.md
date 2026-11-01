@@ -1982,3 +1982,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947: `120251088660100739` (Rp54.643/1), `120251088660230739` (Rp50.677/1), `120251088659030739` (Rp203.983/4 = Rp50.996) — semua PAUSED.
   - Haji 3: `120252664191830704` Hajj 2025-61 (Rp38.033, 0 chat) IN_PROCESS (pause menunggu review).
 - Catatan: beberapa ad set yang tercatat "Active→Inactive oleh rule" masih terbaca ACTIVE di filter efektif; status diverifikasi per ID sebelum dipause.
+
+### 2026-11-01 18:43 — cek 30 menit (cloud)
+- **A (nyala):** Haji 947 `120250848639080739` "Interest - Salin" (campaign Hanif ACTIVE; dimatikan rule "off" 18:16 WIB) — hari ini Rp22.786/1 chat = Rp22.786/chat; 3 hari Rp89.868/6 chat = Rp14.978/chat; sudah nyala 0× hari ini oleh prosedur → ACTIVE (terverifikasi). Kandidat lain gagal syarat (0 chat / 3 hari tanpa chat, mis. Hanif `120254774741200427` 3 hari Rp74.048 tanpa chat).
+- **B (pause ad set, spend hari ini >Rp40rb & <2 chat):**
+  - AIni `120253924406900019` 9 Hari Januari (campaign Prospek (baru) - Salin): Rp42.841, 1 chat → PAUSED (terverifikasi).
+  - Irfan `120253687617460414` 12 hari januari (campaign new - Salin): Rp40.455, 1 chat → PAUSED (terverifikasi).
+  - Fikri `120249534604840470` 9 januari (campaign Fikri Prov?/ID campaign 120249450685560470): Rp44.945, 1 chat → PAUSED (terverifikasi).
+  - Haji 947 `120250198674110739` Interest (campaign Hanif): Rp40.630, 1 chat → PAUSED (terverifikasi).
+- **C (pause iklan lifetime):** tidak ada yang memenuhi (semua iklan ACTIVE CPR ≤ Rp50rb).
+- Catatan: filter effective_status IN [ACTIVE] tidak selalu menyaring (mengembalikan PAUSED/ADSET_PAUSED juga); status diverifikasi per ID sebelum aksi.

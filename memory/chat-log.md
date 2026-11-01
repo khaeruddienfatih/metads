@@ -2136,3 +2136,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:28 — "kalau mau kirim email isinya pakai salam dulu ya"
 - `tools/laporan_email_html.py` kini otomatis membuka email dengan "Assalamu'alaikum Warahmatullahi Wabarakatuh," + "Berikut laporan chat WhatsApp dan biaya iklan Meta Elharamain Wisata:" dan menutup dengan "Wassalamu'alaikum Warahmatullahi Wabarakatuh." Berlaku untuk semua routine email (06:00, 08:00, 12/16/21) mulai run berikutnya, tanpa ubah prompt.
+
+### 2026-11-01 21:35 — "coba test sekarang"
+- Routine 12/16/21 dijalankan manual → terkirim 21:33 WIB ke elharamainwisata@gmail.com (Gmail id `1a19787da160b81d`), "Laporan Malam 01 Nov 2026 s.d. 21:32 WIB — Umroh 142 chat Rp5.024.373 | Haji 88 chat Rp2.404.752". Isi HTML diawali salam "Assalamu'alaikum Warahmatullahi Wabarakatuh, Berikut laporan…" + tabel dari script. Total 230 chat, Rp7.429.125, CPR Rp32,3rb.

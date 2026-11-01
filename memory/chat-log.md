@@ -2005,3 +2005,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Read-only, 14 akun: iklan dibuat ≥ 29 Okt dengan status PAUSED. Draft belum terbit: tidak ada (Haji 3, Haji 2, haji 1050…, AIni, Diana, Hanif, Fikri).
 - **Belum pernah aktif (spend Rp0): 3 iklan Haji 3 (794403715776985)**, ad set `120253090182010704` "Haji 2 - Salin" (campaign Aini, ad set ACTIVE), dibuat 30 Okt 15:24: `120253141180120704` Desain 3 #1, `120253141179800704` Premium #6, `120253141179370704` Desain 4 #4. Belum diaktifkan — menunggu perintah user.
 - Iklan baru PAUSED lain (±30 iklan, Tira/Allif/Fikri/AIni/Irfan/Fifi/Diana/Haji/Haji 4) semuanya sudah belanja Rp37rb–Rp204rb → dimatikan aturan CPR (bagian C), bukan iklan yang belum diaktifkan.
+
+### 2026-11-01 19:08 — "coba saya minta haji pertama juga"
+- Elharamain Haji 947788760498911 (Haji pertama), iklan PAUSED dibuat sejak 15 Okt: 4 iklan, semua sudah belanja (Rp50,7rb–Rp204rb, dimatikan aturan CPR) → tidak ada iklan baru yang belum diaktifkan.

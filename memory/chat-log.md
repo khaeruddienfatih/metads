@@ -2242,3 +2242,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947788760498911: `120251116332070739` — Rp51.911/1; `120251088660100739` — Rp55.902/1; `120251088659030739` — Rp204.114/4 (Rp51.029/chat)
   - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 — Rp38.297/0 (status PAUSED, effective IN_PROCESS saat verifikasi)
 - Catatan: log aktivitas menunjukkan beberapa iklan ini (Tira, Hanif, Allif, AIni, Irfan, Haji) bolak-balik Pending Process↔Inactive tiap ±30 menit dan tetap muncul ACTIVE di run berikutnya; cek apakah ada proses lain yang mengaktifkan lagi.
+
+### 2026-11-02 06:13 — cek 30 menit (cloud)
+- **A (nyalakan ad set rule-off):** tidak ada. Kandidat Hanif `120254774741200427` "jawa barat" (dimatikan rule OFF 06:11; hari ini 1 chat Rp25.925) TIDAK dinyalakan: 3 hari terakhir 1 chat / Rp76.557 (> Rp50rb).
+- **B (pause ad set boros):** tidak ada.
+- **C (pause iklan CPR lifetime > Rp50rb / 0 chat ≥ Rp35rb)** — 17 iklan di-PAUSE, status terverifikasi PAUSED (beberapa effective IN_PROCESS):
+  - Tira 868364731529534: `120252902837040584` Video 9 Hari Januari | januari_3 | 25 Kota J#2 — Rp51.209 / 1 chat
+  - Hanif 482252744648260: `120254944599680427` 12 Hari Januari Indonesia | Desain 2 #3 — Rp52.032 / 1 chat
+  - Allif 4678183395742010: `120252223502030228` Ramadhan | Desain 2 #1 — Rp36.236 / 0 chat
+  - AIni 814396810761205: `120253979845710019` Rp35.411/0; `120253979826570019` Rp51.126/1; `120253979554490019` Rp42.875/0; `120253979829020019` Rp37.072/0; `120253924406920019` Rp36.111/0
+  - Irfan 1060984719243481: `120253634661040414` Rp56.425/1; `120253634660860414` Rp61.286/1; `120253687649590414` Rp53.493/1; `120253654923610414` Rp51.671/1
+  - Fifi 521083143750270: `120252689334520365` Rp35.698/0
+  - Haji 947788760498911: `120251088659030739` Rp204.114/4 (Rp51.028); `120251116332070739` Rp51.911/1; `120251088660100739` Rp55.902/1
+  - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 Rp38.297/0
+- Catatan: iklan-iklan ini terlihat berulang kali ter-PAUSE lalu kembali ACTIVE (Pending Process) tiap ±30 menit sejak 04:15 (log aktivitas oleh "ads MCP server") — ada proses yang menyalakannya lagi; perlu dicek.

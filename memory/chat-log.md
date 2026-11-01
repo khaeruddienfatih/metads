@@ -1801,3 +1801,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyalakan ad set rule-off): tidak ada. Kandidat rule-off hari ini (Diana, Tira, Hanif, Allif, Fikri, AIni, Irfan, Fifi, Haji 3, Haji 4) semua 0 chat hari ini, kecuali Hanif jawa barat `120254774741200427` (1 chat, Rp26.690) — gagal syarat 3 hari (0 chat, Rp74.048).
 - B (pause ad set boros): tidak ada. Haji 947 "Jawa Tengah & Timur" `120250778200960739` (Rp48.138/1 chat) sudah PAUSED saat dicek ulang.
 - C (pause iklan mahal lifetime): 1 iklan di-PAUSE — AIni (814396810761205) ad `120253979829020019` "Sales 12 Hari Januari | Desain 3 12H #4 | adset1" (campaign Sales `120253979512770019`): spend lifetime Rp35.627, 0 chat. Verifikasi: status PAUSED (effective_status IN_PROCESS).
+
+### 2026-11-01 — Siapkan pindah ke akun Claude Max (email beda)
+- Diminta: siapkan semua agar bisa lanjut dari akun Claude baru.
+- Dikerjakan: `memory/pindah-akun.md` — langkah (login, connector Meta Ads/Gmail, GitHub, buat ulang routine, matikan routine akun lama) + isi prompt lengkap 6 routine aktif (cek :13 & :43, OFF 22:00, ON+naik anggaran 04:00, email 06:00 & 08:00). Pointer ditambahkan di chat-memory.
+- Tertunda: user login akun baru, sambungkan connector, lalu minta "buat ulang 6 routine dari memory/pindah-akun.md"; setelah itu matikan routine akun lama.

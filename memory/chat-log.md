@@ -2132,4 +2132,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 21:22 — "masih berantakan tidak pakai table seperti pagi"
 - Penyebab: email 21:18 berisi <table> polos tanpa garis/warna (style inline tidak ada) → di Gmail kolom menempel.
 - Perbaikan: script baru `tools/laporan_email_html.py` (JSON → HTML tabel ber-style inline: header biru, garis, zebra, angka rata kanan, total tebal, urut biaya terbesar, CPR otomatis, kolom kemarin lusa opsional). 3 routine email (06:00, 08:00, 12/16/21) diubah: WAJIB bangun HTML lewat script ini, htmlBody = isi file apa adanya.
-- Laporan malam dikirim ulang lagi (sesi `cse_01AVsCnpeZ7QxUZceVgCYAaW`).
+- Laporan malam dikirim ulang lagi (sesi `cse_01AVsCnpeZ7QxUZceVgCYAaW`): terkirim 21:23 WIB, Gmail id `1a1977e3f3c33d32`, "Laporan Malam 01 Nov 2026 s.d. 21:21 WIB — Umroh 139 chat Rp4.994.804 | Haji 86 chat Rp2.392.032", HTML dari script.

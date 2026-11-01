@@ -31,12 +31,12 @@ import sys
 
 FONT = "font-family:Arial,Helvetica,sans-serif;"
 TABLE = "border-collapse:collapse;margin:4px 0 18px 0;font-size:13px;" + FONT
-TH = ("border:1px solid #9aa5b1;background:#1f4e79;color:#ffffff;padding:6px 8px;"
+TH = ("border:1px solid #9aa5b1;background-color:#1f4e79;color:#ffffff;padding:6px 8px;"
       "font-weight:bold;white-space:nowrap;")
 TD = "border:1px solid #c3cbd3;padding:5px 8px;white-space:nowrap;"
 NUM = "text-align:right;"
-ZEBRA = "background:#f2f6fa;"
-TOTAL = "background:#dde7f0;font-weight:bold;"
+ZEBRA = "background-color:#f2f6fa;"
+TOTAL = "background-color:#dde7f0;font-weight:bold;"
 H2 = "font-size:15px;color:#1f4e79;margin:14px 0 4px 0;" + FONT
 
 
@@ -66,7 +66,7 @@ def tabel(t):
     out = [f'<div style="{H2}"><b>{html.escape(t["judul"])}</b></div>',
            f'<table style="{TABLE}" cellpadding="0" cellspacing="0">', "<tr>"]
     for i, k in enumerate(kolom):
-        out.append(f'<th style="{TH}{"" if i == 0 else NUM}">{html.escape(k)}</th>')
+        out.append(f'<th bgcolor="#1f4e79" style="{TH}{"" if i == 0 else NUM}"><font color="#ffffff">{html.escape(k)}</font></th>')
     out.append("</tr>")
 
     def isi(r, gaya_baris):
@@ -82,7 +82,9 @@ def tabel(t):
                 cells.append(sel(f"{d:+d}", TD + NUM + gaya_baris))
             else:
                 cells.append(sel("-", TD + NUM + gaya_baris))
-        return "<tr>" + "".join(cells) + "</tr>"
+        warna = "#dde7f0" if gaya_baris == TOTAL else ("#f2f6fa" if gaya_baris == ZEBRA else "")
+        tr = f'<tr bgcolor="{warna}">' if warna else "<tr>"
+        return tr + "".join(cells) + "</tr>"
 
     for i, r in enumerate(baris):
         out.append(isi(r, ZEBRA if i % 2 else ""))

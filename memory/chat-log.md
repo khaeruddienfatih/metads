@@ -1746,3 +1746,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 — "matikan iklan jika running sepanjang waktu dan cpr di atas 50rb, dan matikan adset harian jika belanja di atas 40rb dan cpr di bawah 2, di cek 30 menit"
 - `auto-reaktivasi.md`: Bagian B ditambah syarat baru — ad set ACTIVE dengan spend hari ini > Rp40rb dan chat < 2 → PAUSE (syarat lama ≥ Rp30rb & 0 chat tetap). Bagian C baru — iklan ACTIVE dengan CPR sepanjang waktu > Rp50rb (atau 0 chat & spend ≥ Rp35rb) → PAUSE.
 - Dicek tiap 30 menit: routine `trig_012Qu1YrebVhGGQCXMKv23y5` (menit :13) diperbarui + routine baru menit :43 (prompt sama). Jendela malam 22:00–03:59 dilewati.
+- Lanjutan "untuk menyalakan adset yang cpr di bawah 30rb kamu ganti jadi per 30 menit juga": Bagian A sudah termasuk di kedua routine (:13 & :43) → nyala ulang juga tiap 30 menit. Routine :43 `trig_01GUvNdBksYcSF5CP1aZarPU` dijalankan sekali manual (1 Nov ±11:50 WIB). `chat-memory.md` diperbarui.

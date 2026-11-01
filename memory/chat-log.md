@@ -1883,3 +1883,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 16:10 — "sekarang ada adset kamu aktifkan setelah kena nonaktif"
 - Read-only dari chat-log: hari ini 4 ad set rule-off dinyalakan (Bagian A): Nida `120251865308470004` (11:50), Fikri `120249534604840470` (14:13), AIni `120253924406900019` (15:13), Haji 3 `120252557031840704` (15:43). Hanif jawa barat `120254774741200427` ditolak berulang (3 hari 0 chat/Rp74rb).
+
+### 2026-11-01 16:15 — "saya naikan menjadi 35ribu batas cpr nya"
+- Batas CPR hari ini untuk nyala ulang ad set rule-off (Bagian A) dinaikkan Rp30rb → **Rp35rb**. Syarat 3 hari (< Rp50rb) tetap; Bagian B/C dan naik anggaran (Rp30rb) tidak berubah.
+- Diperbarui: `auto-reaktivasi.md`, `chat-memory.md`, `pindah-akun.md`, prompt routine :13 `trig_01PExMLpwLUtZxVRsi4R6e8H` & :43 `trig_013WfwoGnfBo14J4EupZGgtx` (berlaku mulai run 16:43 WIB).

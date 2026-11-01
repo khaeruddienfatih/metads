@@ -24,7 +24,7 @@ Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
 3. Nyalakan HANYA jika semua terpenuhi:
    - status sekarang masih PAUSED/tidak aktif (belum dinyalakan orang lain);
    - campaign-nya ACTIVE (jangan nyalakan ad set di campaign yang di-PAUSE);
-   - chat WA hari ini ≥ 1 dan biaya per chat hari ini (spend ÷ chat) **< Rp30.000**;
+   - chat WA hari ini ≥ 1 dan biaya per chat hari ini (spend ÷ chat) **< Rp35.000** (1 Nov, perintah user "saya naikan menjadi 35ribu batas cpr nya"; dulu Rp30.000);
    - **(30 Okt, user "2 iya") CPR 3 hari terakhir juga < Rp50.000**: ambil lagi dengan
      `date_preset: last_3d` (3 hari sebelum hari ini). Lolos jika chat ≥ 1 dan spend ÷ chat < Rp50.000,
      atau spend 3 hari < Rp35.000 (data masih sedikit). Gagal jika 0 chat dengan spend ≥ Rp35.000;
@@ -51,7 +51,7 @@ Perintah user: "adset aturan perhari matikan adset yang habis 25ribu tapi tidak 
    bukan CONVERSATIONS) — jangan di-pause.
 4. Pause: `ads_update_entity` `ad_account_id`, `entity_id` = ad set, `fields {"status":"PAUSED"}`. Verifikasi.
    Ubah status saja, jangan sentuh budget/targeting/iklan.
-5. Bagian A tidak akan menyalakannya lagi hari itu (syarat A butuh ≥1 chat & CPR < Rp30rb). Besok (data
+5. Bagian A tidak akan menyalakannya lagi hari itu (syarat A butuh ≥1 chat & CPR < Rp35rb). Besok (data
    hari baru) ad set ini TIDAK otomatis dinyalakan — hanya ad set yang dimatikan auto rule yang diproses Bagian A.
 
 ## Bagian C — matikan IKLAN mahal sepanjang waktu (1 Nov, perintah user)

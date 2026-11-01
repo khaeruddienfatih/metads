@@ -1876,3 +1876,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **C (pause iklan, lifetime CPR > Rp50rb):**
   - Haji 947788760498911 ad `120251088660100739` "Vidio (AIni Broud) - winner" (adset Interest, campaign Tira): Rp53.300 / 1 chat = Rp53.300. PAUSE dikirim (read-back sementara IN_PROCESS).
   - Haji 947788760498911 ad `120251069906100739` "Haji - Irfan Haji 2 Salin | Desain 3 #4" (adset Haji - 2 - Salin, campaign Irfan): Rp50.335 / 1 chat = Rp50.335. PAUSE dikirim (read-back sementara IN_PROCESS).
+
+### 2026-11-01 16:06 — cek routine akun baru setelah user mematikan routine akun lama
+- Routine baru sudah jalan: :43 (14:43 & 15:43 WIB) dan :13 (15:13 WIB), masing-masing 1 commit chat-log ke khaeruddienfatih/metads (14:47, 15:17, 15:47 WIB).
+- Sejak 14:30 tidak ada commit dobel → routine akun lama tampak sudah mati (akun lama tidak bisa dicek langsung dari akun ini).

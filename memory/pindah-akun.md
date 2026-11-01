@@ -42,7 +42,7 @@ Repo routine: `https://github.com/khaeruddienfatih/metads` (akun baru belum puny
 | 5 (email 06:00) | `trig_01Ci9E1ffEGZ97CAaxiyqCBY` |
 | 6 (email 08:00) | `trig_01NydaDZaZmHdb68jLxpn13R` |
 
-Sisa: matikan 6 routine di akun LAMA (langkah 6). Langkah 7 (ganti remote Mac) ditunda — repo utama tetap khaeruddienfatih selama akun baru belum punya akses elharamainwisata.
+Langkah 6 selesai (user, 1 Nov ±16:00): routine akun lama dimatikan; sejak 14:30 tidak ada run dobel. Langkah 7 (ganti remote Mac) ditunda — repo utama tetap khaeruddienfatih selama akun baru belum punya akses elharamainwisata.
 
 ## Ringkasan 6 routine aktif (akun lama)
 

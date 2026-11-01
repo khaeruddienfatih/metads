@@ -1786,3 +1786,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (nyalakan ad set rule-off):** tidak ada. Kandidat terbaik Hanif `120254774741200427` "jawa barat" (campaign 12 Hari Januari): hari ini 1 chat / Rp26.690 (Rp26.690/chat) tetapi 3 hari terakhir Rp74.048 dengan 0 chat → gagal syarat 3 hari, tidak dinyalakan. Ad set rule-off lain (Diana ×3, Hanif ×2, AIni ×4, Fifi ×1, Haji 3 ×2, Haji 4 ×1, Irfan ×5) 0 chat hari ini.
 - **B (pause ad set boros):** tidak ada.
 - **C (pause iklan mahal sepanjang waktu):** AIni (814396810761205) iklan `120253979548810019` "Sales Ramadhan | Desain 2 #1 | adset1" (campaign Penjualan, ad set 25 Kota - Broad 25-65 #1): lifetime Rp51.005 / 1 chat = Rp51.005/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.
+
+### 2026-11-01 — "Laporan iklan hari ini"
+- Laporan hari ini (data berjalan, belum full hari), 10 akun yang dikelola: total spend Rp2.212.399, 68 chat WA, rata-rata Rp32.535/chat.
+- Per akun (spend / chat / biaya per chat): Diana 257.056/12/21.421; Tira 105.622/1/105.622; Nida 41.847/2/20.923; Hanif 117.920/2/58.960; Allif 214.467/13/16.497; Fikri 263.960/8/32.995; Fifi 381.812/13/29.370; AIni 270.093/5/54.018; Irfan 381.288/6/63.548; Elharamain Haji 178.334/6/29.722.
+- Termahal: Irfan campaign "new" Rp123.622/chat; Allif Ramadhan …406370228 Rp80.599/chat. Termurah: Allif "Traffic (baru) - Salin" Rp7.959, Hanif (Haji) Rp8.995.
+- Tidak ada perubahan apa pun di akun.

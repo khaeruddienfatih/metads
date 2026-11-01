@@ -2256,3 +2256,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947788760498911: `120251088659030739` Rp204.114/4 (Rp51.028); `120251116332070739` Rp51.911/1; `120251088660100739` Rp55.902/1
   - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 Rp38.297/0
 - Catatan: iklan-iklan ini terlihat berulang kali ter-PAUSE lalu kembali ACTIVE (Pending Process) tiap ±30 menit sejak 04:15 (log aktivitas oleh "ads MCP server") — ada proses yang menyalakannya lagi; perlu dicek.
+
+### 2026-11-02 06:30 — "kenapa laporan tanggal 31 tolong di perbaiki lagi"
+- Email 06:08 (Gmail `1a19960db6468709`) bersubjek "… 31 Okt 2026 (Rekap Harian)" padahal seharusnya 01 Nov. Log run: `date` sudah benar (kemarin = 2026-11-01), tapi model salah memakai tanggal kemarin lusa sebagai label.
+- Perbaikan: script baru `tools/tanggal_laporan.py` (WIB tetap UTC+7, cetak KEMARIN/LUSA/HARI_INI ISO + label Indonesia, JAM, SESI). 3 routine email diubah: wajib jalankan script ini dulu, query time_range KEMARIN_ISO, semua label/subjek = KEMARIN_LABEL (pagi) atau HARI_INI_LABEL + SESI (12/16/21); judul pagi kini "Rekap Harian <tanggal>".
+- Routine 06:00 dijalankan ulang manual → rekap 01 Nov yang benar ke elharamainwisata. Email 08:00 ke pimpinan memakai prompt baru.

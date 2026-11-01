@@ -2293,3 +2293,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat: `telegram/bot.py` (bot Telegram long-polling tanpa library; hanya chat ID terdaftar; /laporan, /kemarin, /log, /routine, /id; teks bebas diteruskan ke `claude -p` di repo dengan `--allowedTools`), `telegram/.env.example`, `telegram/elharamain-bot.service` (systemd user), `telegram/setup-ubuntu.sh` (pasang git/python/Claude Code, clone repo, push ke 2 repo, service + linger), panduan `memory/pindah-ubuntu.md`. Diuji offline: /id, /start, penolakan chat ID asing, /log.
 - Catatan: mengubah `.claude/settings.json` (tambah izin mcp__claude_ai_meta_ads/Gmail) ditolak auto-mode → diganti `--allowedTools` di bot.
 - Tertunda (user): buat bot di @BotFather, jalankan setup di Ubuntu, login Claude & GitHub, isi token + chat ID.
+
+### 2026-11-02 — "kamu tau elharamain_bot kenapa masih kirim laporan ya padahal sudah saya pause semuanya"
+- Dicek: semua routine cloud akun ini (list_triggers, filter enabled=true) → **0 yang aktif**; routine lama Sept (Reset Budget Batch1 dll., kirim Telegram via curl) juga nonaktif.
+- `telegram/bot.py` di repo hanya MEMBALAS pesan (long polling), tidak punya jadwal kirim laporan sendiri. Repo tidak punya GitHub Actions.
+- Kemungkinan sumber: scheduled task lokal di aplikasi Claude desktop/Cowork di komputer user (tidak terbaca dari cloud), repo lain `metaads-automation-state` (GitHub Actions), atau routine di akun Claude lain. Disarankan: cek Scheduled tasks di app desktop, cek Actions repo itu, atau `/revoke` token di @BotFather supaya semua pengirim berhenti.

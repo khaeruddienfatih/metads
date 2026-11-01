@@ -2139,3 +2139,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:35 — "coba test sekarang"
 - Routine 12/16/21 dijalankan manual → terkirim 21:33 WIB ke elharamainwisata@gmail.com (Gmail id `1a19787da160b81d`), "Laporan Malam 01 Nov 2026 s.d. 21:32 WIB — Umroh 142 chat Rp5.024.373 | Haji 88 chat Rp2.404.752". Isi HTML diawali salam "Assalamu'alaikum Warahmatullahi Wabarakatuh, Berikut laporan…" + tabel dari script. Total 230 chat, Rp7.429.125, CPR Rp32,3rb.
+
+### 2026-11-01 21:37 — "untuk subjek cukup Laporan Iklan Elharamain wisata tanggal"
+- 3 routine email diperbarui: subjek = `Laporan Iklan Elharamain Wisata <DD Mon YYYY>` (06:00 & 08:00 = tanggal laporan/kemarin; 12/16/21 = tanggal hari ini). Isi plain-text juga diawali salam. Berlaku mulai email 06:00 besok.

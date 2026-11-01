@@ -1806,3 +1806,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: siapkan semua agar bisa lanjut dari akun Claude baru.
 - Dikerjakan: `memory/pindah-akun.md` — langkah (login, connector Meta Ads/Gmail, GitHub, buat ulang routine, matikan routine akun lama) + isi prompt lengkap 6 routine aktif (cek :13 & :43, OFF 22:00, ON+naik anggaran 04:00, email 06:00 & 08:00). Pointer ditambahkan di chat-memory.
 - Tertunda: user login akun baru, sambungkan connector, lalu minta "buat ulang 6 routine dari memory/pindah-akun.md"; setelah itu matikan routine akun lama.
+### 2026-11-01 14:13 — cek 30 menit (cloud)
+- **A (nyala, 1):** Fikri 1676215979752437 — ad set `120249534604840470` "9 januari" (campaign Fikri Prov, ACTIVE), dimatikan rule "off" 12:14. Hari ini 1 chat / Rp29.314 (CPR Rp29.314); 3 hari 6 chat / Rp203.313 (CPR Rp33.886). Diaktifkan (retry entity_type ad_set), verifikasi ACTIVE. Tidak dinyalakan: Hanif `120254774741200427` (3 hari 0 chat, Rp74.048); ad set rule-off lain 0 chat hari ini.
+- **B (pause ad set, 6):**
+  - Irfan 1060984719243481 `120253548709090414` "12 Hari Januari" (Sales banten): Rp40.413, 1 chat (>40rb & <2) — PAUSED terverifikasi.
+  - Fifi 521083143750270 `120252597263980365` "9 Hari Januari" (Jawa): Rp46.322, 1 chat — PAUSED terverifikasi.
+  - Fifi `120252201112050365` "9 Januari" (Fifi): Rp42.495, 1 chat — PAUSED terverifikasi.
+  - Haji 947788760498911 `120250778200960739` "Jawa Tengah & Timur" (Diana): Rp58.134, 1 chat — PAUSED terverifikasi.
+  - Haji 947788760498911 `120250421335780739` "Interest" (Hanif): Rp30.702, 0 chat (≥30rb & 0) — PAUSED terverifikasi.
+  - Haji 3 794403715776985 `120252745117610704` "Haji 2" (Alif): Rp40.621, 1 chat — PAUSED terverifikasi.
+- **C (pause iklan, 2):**
+  - Hanif 482252744648260 `120254944599680427` "12 Hari Januari Indonesia | Desain 2 #3" (12 Hari Januari/Indonesia): lifetime Rp51.218, 1 chat, CPR Rp51.218 — PAUSED terverifikasi.
+  - Allif 4678183395742010 `120252223502030228` "Ramadhan | Desain 2 #1" (Ramadhan/Ramadhan): lifetime Rp35.844, 0 chat — PAUSED terverifikasi.

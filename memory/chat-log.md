@@ -1924,3 +1924,23 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Allif `120252223502030228` Ramadhan Desain 2 #1 (Rp36.225/0 chat)
   - AIni `120253979829020019` Sales 12 Hari Januari Desain 3 12H #4 (Rp37.050/0 chat) & `120253924406920019` Prospek 9 Hari Januari januari_2 (Rp35.869/0 chat)
   - Haji 947 `120251088660230739` (Rp50.651/1 chat), `120251088659030739` (Rp203.801/4 = Rp50.950), `120251088660100739` (Rp54.616/1 chat)
+
+### 2026-11-01 17:30 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Kandidat terbaik Hanif `jawa barat` 120254774741200427 (hari ini 1 chat/Rp26.701) gagal syarat 3 hari (Rp74.048, 0 chat).
+- **B (pause ad set, hari ini; semua status update live = PAUSED):**
+  - Tira 868364731529534: 120252902799150584 "25 Kota Video #4" (Rp42.855, 1 chat), 120252902795850584 "25 Kota Video #2" (Rp43.784, 1 chat) — campaign januari 9 hari & 12 hari — spend>40rb & chat<2.
+  - Nida 1019832712800468: 120251865308470004 "9 Hari Januari" (Prospek (baru) - Jakarta; Rp48.336, 1 chat).
+  - AIni 814396810761205: 120253979650290019 "25 Kota - Broad 25-65 #1" (Penjualan (baru); Rp48.379, 1 chat).
+  - Irfan 1060984719243481: 120253548709090414 "12 Hari Januari" (Sales banten; Rp40.658, 1 chat).
+  - Fifi 521083143750270: 120252201112110365 "9 Hari" (Rp42.077, 1 chat), 120252201112050365 "9 Januari" (Rp43.972, 1 chat) — campaign Fifi.
+  - Elharamain Haji 947788760498911: 120250253985880739 "Interest" (AIni; Rp49.351, 1 chat).
+  - Haji 3 794403715776985: 120252745117610704 "Haji 2" (Alif; Rp44.749, 1 chat), 120252668566420704 "Haji 2" (Diana; Rp43.897, 1 chat).
+- **C (pause iklan, lifetime CPR>Rp50rb atau 0 chat ≥Rp35rb; semua is_draft=false):**
+  - Tira: 120252902837040584 "Video 9 Hari Januari | januari_3 | 25 Kota J#2" Rp51.172/1 chat.
+  - Hanif 482252744648260: 120254944599680427 "12 Hari Januari Indonesia | Desain 2 #3" Rp52.030/1 chat.
+  - Allif 4678183395742010: 120252223502030228 "Ramadhan | Desain 2 #1" Rp36.226/0 chat.
+  - AIni: 120253924406920019 "Prospek 9 Hari Januari | januari_2" Rp35.889/0 chat; 120253979829020019 "Sales 12 Hari Januari | Desain 3 12H #4 | adset1" Rp37.050/0 chat.
+  - Irfan: 120253654910320414 "9 Hari Januari Jateng Jatim - januari_8 - winner" Rp51.191/1 chat.
+  - Haji 947: 120251088660230739 Rp50.660/1; 120251088659030739 "vidio (Hanif Interest) - winner" Rp203.933/4; 120251088660100739 Rp54.620/1.
+  - Haji 3: 120252664191830704 "Hajj 2025-61" Rp37.497/0 chat.
+- Catatan: log aktivitas Tira/Hanif/Allif/AIni menunjukkan iklan yang sama berulang kali bolak-balik Pending Process↔Inactive (jam :15/:45) — kemungkinan pause sebelumnya tidak menetap; cek ulang di run berikutnya.

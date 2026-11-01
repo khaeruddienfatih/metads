@@ -100,7 +100,13 @@ def tabel(t):
 
 def main():
     data = json.load(open(sys.argv[1]) if len(sys.argv) > 1 else sys.stdin)
+    # 1 Nov 2026, perintah user: "kalau mau kirim email isinya pakai salam dulu ya"
+    salam = data.get("salam", "Assalamu'alaikum Warahmatullahi Wabarakatuh,")
+    pembuka = data.get("pembuka", "Berikut laporan chat WhatsApp dan biaya iklan Meta Elharamain Wisata:")
+    penutup = data.get("penutup", "Wassalamu'alaikum Warahmatullahi Wabarakatuh.")
     parts = [f'<div style="{FONT}font-size:13px;color:#222;">',
+             f'<p style="margin:0 0 4px 0;">{html.escape(salam)}</p>',
+             f'<p style="margin:0 0 12px 0;">{html.escape(pembuka)}</p>',
              f'<div style="font-size:17px;font-weight:bold;color:#1f4e79;margin:0 0 6px 0;">'
              f'{html.escape(data["judul"])}</div>']
     for t in data.get("tabel", []):
@@ -110,6 +116,7 @@ def main():
         parts.append(f'<div style="{H2}"><b>Catatan</b></div><ul style="margin:4px 0;padding-left:18px;">')
         parts += [f'<li style="margin:2px 0;">{html.escape(c)}</li>' for c in catatan]
         parts.append("</ul>")
+    parts.append(f'<p style="margin:14px 0 0 0;">{html.escape(penutup)}</p>')
     parts.append("</div>")
     print("\n".join(parts))
 

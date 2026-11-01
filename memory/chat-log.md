@@ -1867,3 +1867,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni 814396810761205 — `120253979829020019` "Sales 12 Hari Januari | Desain 3 12H #4 | adset1": Rp36.222 / 0 chat.
   - Elharamain Haji 947788760498911 — `120251088660230739` "Haji_Reuse_Nida-Interest - winner": Rp50.223 / 1 chat (CPR Rp50.223).
   - Elharamain Haji 947788760498911 — `120251088659030739` "vidio (Hanif Interest) - winner": Rp203.535 / 4 chat (CPR Rp50.884).
+
+### 2026-11-01 15:55 — cek 30 menit (cloud)
+- **A (nyala):** Haji 3 (794403715776985) ad set `120252557031840704` "Haji 3" (campaign Aini ACTIVE) — dimatikan rule "off" 13:50/15:19; hari ini 1 chat / Rp21.616 (CPR Rp21.616), 3 hari 7 chat / Rp130.418 (CPR ≈Rp18,6rb). Diaktifkan, status read-back ACTIVE.
+- **B (pause ad set):**
+  - AIni (814396810761205) `120253979650290019` "25 Kota - Broad 25-65 #1", campaign Penjualan (baru): spend hari ini Rp46.626, 1 chat (> Rp40rb & <2 chat). Verifikasi PAUSED.
+  - Fifi (521083143750270) `120252201112110365` "9 Hari", campaign Fifi: spend hari ini Rp41.383, 1 chat (> Rp40rb & <2 chat). Verifikasi PAUSED.
+- **C (pause iklan, lifetime CPR > Rp50rb):**
+  - Haji 947788760498911 ad `120251088660100739` "Vidio (AIni Broud) - winner" (adset Interest, campaign Tira): Rp53.300 / 1 chat = Rp53.300. PAUSE dikirim (read-back sementara IN_PROCESS).
+  - Haji 947788760498911 ad `120251069906100739` "Haji - Irfan Haji 2 Salin | Desain 3 #4" (adset Haji - 2 - Salin, campaign Irfan): Rp50.335 / 1 chat = Rp50.335. PAUSE dikirim (read-back sementara IN_PROCESS).

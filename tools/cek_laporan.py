@@ -17,7 +17,7 @@ Yang dicek:
 - 4 tabel lengkap (Ringkasan, Umroh per akun, Haji per CS, Haji per akun)
 - angka masuk akal: biaya & chat bilangan bulat >= 0, total Umroh/Haji di ringkasan
   sama dengan jumlah tabel per akun, total Haji per CS = total Haji per akun
-- laporan pagi: biaya kemarin != biaya kemarin lusa (tanda data tertukar/terduplikasi)
+- tidak ada kolom pembanding hari sebelumnya (user: "ga perlu ada perbandingan kemarin")
 """
 import json
 import re
@@ -82,12 +82,12 @@ def main():
             masalah.append(f"Ringkasan Haji {rb['haji']['biaya']}/{rb['haji']['chat']} != total Haji per akun {total(haji)}")
         if total(cs) != total(haji):
             masalah.append(f"Total Haji per CS {total(cs)} != total Haji per akun {total(haji)}")
-        if jenis == "pagi":
-            for r in ring["baris"]:
-                if r.get("biaya_lalu") is not None and r.get("biaya") == r.get("biaya_lalu"):
-                    masalah.append(f"{r['nama']}: biaya kemarin = biaya kemarin lusa ({r['biaya']}) — data mungkin tertukar")
-                if r.get("biaya_lalu") is None:
-                    masalah.append(f"{r['nama']}: biaya_lalu (kemarin lusa) kosong")
+    # 2 Nov 2026, perintah user "ga perlu ada perbandingan kemarin": tidak boleh ada kolom pembanding
+    for x in data.get("tabel", []):
+        for r in x.get("baris", []):
+            if "biaya_lalu" in r or "chat_lalu" in r:
+                masalah.append(f"Ada data pembanding (biaya_lalu/chat_lalu) di '{x.get('judul')}' — tidak boleh")
+                break
 
     if masalah:
         print("GAGAL — JANGAN KIRIM:")

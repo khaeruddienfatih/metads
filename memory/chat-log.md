@@ -1835,3 +1835,20 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat (Sonnet, env Default): :13 `trig_01PExMLpwLUtZxVRsi4R6e8H`, :43 `trig_013WfwoGnfBo14J4EupZGgtx`, 22:00 OFF `trig_01FPcdHh57QKkum5LoEAwj2k`, 04:00 naik+ON `trig_01KLe5sJc8N6MQMEYKUpzNqB`, email 06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`, email 08:00 `trig_01NydaDZaZmHdb68jLxpn13R`. Prompt sama persis dengan pindah-akun.md.
 - ID di chat-memory.md dan file prosedur diganti ke ID baru.
 - Tertunda: user mematikan 6 routine di akun LAMA (kalau tidak, semua jalan dobel).
+
+### 2026-11-01 14:43 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Kandidat rule-off hari ini dicek; satu-satunya yang CPR hari ini < Rp30rb: Hanif `120254774741200427` "jawa barat" (1 chat, Rp26.691) — gagal syarat 3 hari (Rp74.048, 0 chat ≥ Rp35rb) → tetap PAUSED.
+- **B (pause ad set, verified PAUSED):**
+  - Nida 1019832712800468 · `120251865308470004` "9 Hari Januari" (Prospek (baru) - Jakarta) · Rp44.766 / 1 chat (> Rp40rb & <2 chat)
+  - Irfan 1060984719243481 · `120253548709090414` "12 Hari Januari" (Sales banten) · Rp40.644 / 1 chat
+  - Fifi 521083143750270 · `120252201112050365` "9 Januari" (Fifi) · Rp43.520 / 1 chat
+  - Haji 947788760498911 · `120250778200960739` "Jawa Tengah & Timur" (Diana) · Rp59.266 / 1 chat
+  - Haji 947788760498911 · `120250421335780739` "Interest" (Hanif) · Rp32.441 / 0 chat (≥ Rp30rb & 0 chat)
+  - Haji 3 794403715776985 · `120252745117610704` "Haji 2" (Alif) · Rp42.790 / 1 chat
+- **C (pause iklan lifetime, status PAUSED; effective_status IN_PROCESS sementara):**
+  - Hanif 482252744648260 · `120254944599680427` "12 Hari Januari Indonesia | Desain 2 #3" · Rp51.797 / 1 chat = Rp51.797/chat
+  - Allif 4678183395742010 · `120252223502030228` "Ramadhan | Desain 2 #1" · Rp36.023 / 0 chat
+  - Fikri 1676215979752437 · `120249877735110470` "Ramadhan | Desain 2 #2 | judul2 - winner" · Rp50.659 / 1 chat
+  - AIni 814396810761205 · `120253979829020019` "Sales 12 Hari Januari | Desain 3 12H #4 | adset1" · Rp36.222 / 0 chat
+  - Haji 947788760498911 · `120251088659030739` "vidio (Hanif Interest) - winner" · Rp201.822 / 4 chat = Rp50.456/chat
+- Catatan: iklan Hanif `…599680427`, Allif `…502030228`, AIni `…829020019` sebelumnya sudah di-pause jam 11:53–14:16 tapi terbaca ACTIVE lagi (ada yang menyalakan ulang) — dipause lagi.

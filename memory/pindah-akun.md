@@ -39,7 +39,8 @@ Repo routine: `https://github.com/khaeruddienfatih/metads` (akun baru belum puny
 | 2 (:43) | `trig_013WfwoGnfBo14J4EupZGgtx` |
 | 3 (22:00 OFF) | `trig_01FPcdHh57QKkum5LoEAwj2k` |
 | 4 (04:00 naik+ON) | `trig_01KLe5sJc8N6MQMEYKUpzNqB` |
-| 5 (email 06:00) | `trig_01Ci9E1ffEGZ97CAaxiyqCBY` |
+| 5 (email 06:00, penerima kini elharamainwisata@gmail.com) | `trig_01Ci9E1ffEGZ97CAaxiyqCBY` |
+| 7 (email 12:00/16:00/21:00 laporan hari ini → elharamainwisata@gmail.com, cron UTC `0 5,9,14 * * *`) | `trig_01D9NHsCepUj6rvi7cs5nt77` |
 | 6 (email 08:00) | `trig_01NydaDZaZmHdb68jLxpn13R` |
 
 Langkah 6 selesai (user, 1 Nov ±16:00): routine akun lama dimatikan; sejak 14:30 tidak ada run dobel. Langkah 7 (ganti remote Mac) ditunda — repo utama tetap khaeruddienfatih selama akun baru belum punya akses elharamainwisata.

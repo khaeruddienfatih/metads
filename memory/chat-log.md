@@ -1992,3 +1992,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947 `120250198674110739` Interest (campaign Hanif): Rp40.630, 1 chat → PAUSED (terverifikasi).
 - **C (pause iklan lifetime):** tidak ada yang memenuhi (semua iklan ACTIVE CPR ≤ Rp50rb).
 - Catatan: filter effective_status IN [ACTIVE] tidak selalu menyaring (mengembalikan PAUSED/ADSET_PAUSED juga); status diverifikasi per ID sebelum aksi.
+
+### 2026-11-01 18:55 — "email khaeruddien ganti ke elharamainwisata@gmail.com + kirim pagi, siang, sore, malam jam 21"
+- Routine email 06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`: penerima khaeruddien@gmail.com → **elharamainwisata@gmail.com** (isi tetap: laporan kemarin).
+- Routine baru `trig_01D9NHsCepUj6rvi7cs5nt77` (cron UTC `0 5,9,14 * * *`): **12:00 siang, 16:00 sore, 21:00 malam WIB** → laporan HARI INI s.d. jam itu (chat/biaya/CPR Umroh & Haji per akun + pembanding kemarin) ke elharamainwisata@gmail.com. Read-only. Jam siang/sore dipilih Claude (user tidak menyebut jam). Run pertama: hari ini 21:00.
+- Email 08:00 ke dhiyaaelhaq01 tidak berubah.

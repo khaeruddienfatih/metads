@@ -2118,3 +2118,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:12 — "kenapa belum ada email masuk"
 - Dicek: routine 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77` jalan 21:08 WIB, email HTML terkirim 21:09 WIB (Gmail id `1a19771c33cd9dc0`, label SENT) dari **khaeruddien@gmail.com** (akun Gmail connector) ke elharamainwisata@gmail.com, subjek "Laporan Malam 01 Nov 2026 s.d. 21:08 WIB — Umroh 139 chat Rp4.941.356 | Haji 85 chat Rp2.396.829". Kemungkinan masuk Spam/Promosi/Update di elharamainwisata. Laporan 12:00 & 16:00 hari ini belum ada (routine baru dibuat 18:53).
+
+### 2026-11-01 21:17 — "pakai table dan sortir dari anggaran terbesar"
+- 3 routine email (06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`, 08:00 `trig_01NydaDZaZmHdb68jLxpn13R`, 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77`): wajib tabel HTML (htmlBody), tabel Umroh per akun / Haji per CS / Haji per akun diurutkan **biaya terbesar dulu**, urutan kolom Biaya | Chat | CPR, header berwarna, total tebal. Berlaku mulai email 06:00 besok.

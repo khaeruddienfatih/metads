@@ -1997,3 +1997,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Routine email 06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`: penerima khaeruddien@gmail.com → **elharamainwisata@gmail.com** (isi tetap: laporan kemarin).
 - Routine baru `trig_01D9NHsCepUj6rvi7cs5nt77` (cron UTC `0 5,9,14 * * *`): **12:00 siang, 16:00 sore, 21:00 malam WIB** → laporan HARI INI s.d. jam itu (chat/biaya/CPR Umroh & Haji per akun + pembanding kemarin) ke elharamainwisata@gmail.com. Read-only. Jam siang/sore dipilih Claude (user tidak menyebut jam). Run pertama: hari ini 21:00.
 - Email 08:00 ke dhiyaaelhaq01 tidak berubah.
+
+### 2026-11-01 18:57 — "cukup perhari saja tidak perlu di bandingkan"
+- Routine laporan 12:00/16:00/21:00 `trig_01D9NHsCepUj6rvi7cs5nt77`: pembanding kemarin dihapus — hanya chat, biaya, CPR hari ini s.d. jam laporan. Laporan pagi 06:00 tidak diubah.

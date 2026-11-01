@@ -1728,3 +1728,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 — "kirim ke dhiyaaelhaq01@hmail.com"
 - "hmail.com" dianggap salah ketik → laporan Oktober versi revisi (tanpa kolom "Belum ditagih") dikirim ke **dhiyaaelhaq01@gmail.com** (Gmail id 1a1949b41324a900).
+
+### 2026-11-01 — "coba kamu cek per akun iklan total budget harian brp aja"
+- Read-only, campaign ACTIVE (semua CBO). Budget harian per akun: Diana 700rb (4 campaign) · Tira 1.250rb (4) · Nida 665rb (4) · Hanif 350rb (2) · Allif 600rb (4) · Fikri 575rb (3) · AIni 800rb (5) · Irfan 850rb (5) · Fifi 1.050rb (6) · Elharamain Haji 1.675rb (7) · Haji 3 732rb (6) · Haji 4 600rb (4, campaign pixel Saudia/haji tidak aktif) · Haji 2 & haji 1050… 0 (tidak ada campaign aktif).
+- Total: Umroh Rp6.840.000 + Haji Rp3.007.000 = **Rp9.847.000/hari** (±Rp305 jt/31 hari).
+- Cek kenaikan 04:00: Nida 12 hari januari 165rb ✔, Elharamain Haji Nida 275rb ✔, Haji 3 Alif 132rb ✔; **Allif Ramadhan `120252243406370228` tercatat 200rb→220rb di naik-budget-log tapi budget nyata Rp150.000 dan tidak ada log perubahan sejak 31 Okt → kenaikan itu TIDAK terjadi (log routine keliru).**

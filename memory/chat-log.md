@@ -1721,3 +1721,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 — "laporan ini kirim ke khaeruddien@gmail.com berikut dengan semuanya"
 - Email HTML lengkap terkirim ke khaeruddien@gmail.com (Gmail id 1a1948c203265969), subjek "Laporan Iklan & Keuangan Oktober 2026 — Elharamain Wisata (lengkap)": ringkasan dana, dana masuk, pengeluaran (+pajak 12% Google/TikTok), hasil chat Meta Umroh/Haji, per akun (chat/biaya/CPR/ditagih/belum ditagih), akun lain, catatan. Tanpa lampiran file.
 - Revisi user "hapus kolom belum di tagih": email baru terkirim ke khaeruddien@gmail.com (Gmail id 1a1948ff04984194, subjek "… (revisi)") tanpa kolom "Belum ditagih" (catatan nominal belum tertagih juga dihapus). Email pertama tidak bisa ditarik.
+
+### 2026-11-01 — "apakah kamu bisa cek ada pembayaran apa aja selain iklan di meta"
+- Tool Meta Ads hanya mencakup akun iklan: log budget Okt 15 akun hanya berisi "Account billed" (iklan), perubahan budget, dan "Payment method removed" — tidak ada tagihan non-iklan.
+- Tagihan WhatsApp Business (broadcast/percakapan), Meta Verified, dll. tidak bisa dibaca tool. Gmail yang tersambung (admin@elharamainwisata.com) juga tidak berisi tanda terima Meta Okt. Disarankan cek Business Settings → Billing & payments (WhatsApp accounts) / Meta Verified, atau kirim screenshot/PDF.

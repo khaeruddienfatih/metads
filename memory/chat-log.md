@@ -2187,3 +2187,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - (Haji 3/Haji 4: akun draft, diterbitkan via ads_activate_entity campaign; effective_status sementara IN_PROCESS.)
   - Di batas: Fifi 120252109239850365 (Rp300.000, memenuhi syarat tapi sudah di cap) → tidak diubah. Haji 3 Alif 120252745117570704 dilewati (cooldown, naik 1 Nov). Allif dikecualikan. Tidak ada yang gagal.
 - PART 2 ON: daftar 2026-11-01 22:00 valid (= H-1). 89 ad set dinyalakan (Tira 3, AIni 4, Hanif 4, Fikri 6, Fifi 16, Elharamain Haji 19, Diana 7, Nida 14, Haji 3 8, Haji 4 8), 15 dilewati karena sudah ACTIVE (Allif 9, Irfan 6), 0 gagal. Catatan: akun live harus dipanggil tanpa object_ids (dengan object_ids → "no staged changes"); akun draft/Tira pakai object_ids.
+
+### 2026-11-02 04:13 — cek 30 menit (cloud)
+- **A (nyala lagi):** tidak ada (baru 13 menit setelah jadwal pagi ON 04:00; belanja hari ini ≈ 0, tidak ada ad set rule-off yang memenuhi syarat).
+- **B (pause ad set):** tidak ada (belanja hari ini maks Rp18.840, semua < Rp30rb).
+- **C (pause iklan lifetime, 15 iklan, semua status PAUSED kecuali 5 yang masih IN_PROCESS saat verifikasi):**
+  - Tira 868364731529534: 120252902837040584 "Video 9 Hari Januari | januari_3 | 25 Kota J#2" — Rp51.209 / 1 chat = Rp51.209 (PAUSED)
+  - Hanif 482252744648260: 120254944599680427 "12 Hari Januari Indonesia | Desain 2 #3" — Rp52.032 / 1 chat (PAUSED)
+  - Allif 4678183395742010: 120252223502030228 "Ramadhan | Desain 2 #1" — Rp36.235 / 0 chat (PAUSED)
+  - AIni 814396810761205: 120253979829020019 (Rp37.072/0), 120253924406920019 (Rp36.111/0), 120253979554490019 (Rp42.875/0) — PAUSED
+  - Irfan 1060984719243481: 120253634661040414 (Rp56.420/1), 120253634660860414 (Rp61.279/1), 120253687649590414 (Rp51.613/1) PAUSED; 120253654923610414 (Rp51.671/1) IN_PROCESS
+  - Fifi 521083143750270: 120252689334520365 "Ramadhan jawa barat | Desain 3 #4 - winner" — Rp35.698 / 0 chat (PAUSED)
+  - Haji 947788760498911: 120251088660100739 (Rp55.902/1), 120251088659030739 (Rp204.098/4=Rp51.025), 120251116332070739 (Rp51.872/1) — IN_PROCESS
+  - Haji 3 794403715776985: 120252664191830704 "Hajj 2025-61" — Rp38.297 / 0 chat (IN_PROCESS)

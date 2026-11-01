@@ -1,5 +1,7 @@
 # Target kota default (aturan user 22 Okt 2026)
 
+**1 Nov 2026 (perintah user "karawang dan cikarang kamu masukan"): default sekarang 26 kota = 25 kota di bawah + Cikarang 955995** (Karawang 966167 sudah termasuk), radius 40 km + 5 subcity Jakarta.
+
 Sumber: ad set campaign **Sales** akun AIni (`814396810761205`), diatur manual oleh user.
 Setiap iklan baru → lokasi ad set-nya disamakan dengan daftar ini (lihat aturan di `chat-memory.md`).
 

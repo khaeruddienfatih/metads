@@ -5,10 +5,13 @@ Dijalankan tiap hari **04:00 WIB** sebagai langkah pertama routine "Jadwal pagi:
 "naik anggaran di jam 04 pagi"), SEBELUM ad set dinyalakan — supaya tidak bentrok (lihat `chat-memory.md`). Perintah ini mengalahkan aturan 24 Okt
 "jangan ubah budget ad set yang sudah jalan" — khusus untuk kenaikan 10% ini.
 
-## Akun (14)
+## Akun (13) — Allif DIKECUALIKAN
+
+**Allif 4678183395742010 tidak boleh dinaikkan anggarannya walaupun ada pemenang** (1 Nov 2026, perintah user
+"khusus akun alif di larang meniakan anggaran walaupun ada pemenang").
 
 Diana 1076195694707828 · Tira 868364731529534 · Nida 1019832712800468 · Hanif 482252744648260 ·
-Allif 4678183395742010 · Fikri 1676215979752437 · AIni 814396810761205 · Irfan 1060984719243481 ·
+Fikri 1676215979752437 · AIni 814396810761205 · Irfan 1060984719243481 ·
 Fifi 521083143750270 · Elharamain Haji 947788760498911 · Haji 2 1032468828178224 ·
 Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
 

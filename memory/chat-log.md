@@ -2043,3 +2043,24 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Reatregting `…454460739` (PAUSED): AIni Broud video `…503140739`, Fikri Broud 3 `…504640739`, AIni Interest 4 Desain-7 `…505980739`
   - Broud (Jkt/Jabar/Banten) `…447540739` (PAUSED): Nida Broud video `…506790739`, Diana LLA Hajj_2025-50 `…507160739`, Nida jateng jatim Premium #3 `…508300739`
 - Targeting/penempatan ad set buatan user tidak diubah (Interest/Reatregting/Broud Jkt-Jabar-Banten masih termasuk Audience Network, marketplace, right column).
+
+### 2026-11-01 19:50 — cek 30 menit (cloud)
+- **A (nyala ulang):** tidak ada. Satu kandidat (Hanif `120254774741200427` jawa barat, off rule 08:10; hari ini Rp26.701/1 chat) gagal syarat 3 hari (Rp74.048, 0 chat ≥ Rp35rb) → tidak dinyalakan. Kandidat rule-off lain semua 0 chat hari ini.
+- **B (pause ad set boros hari ini):** 16 ad set di-PAUSE (respons `success`, is_draft=false; sebagian terverifikasi PAUSED lewat pembacaan ulang):
+  - Tira 868364731529534: `120252902799150584` 25 Kota Video #4 (Rp42.855/1 chat, camp januari 9 hari & 12 hari), `120252902795850584` 25 Kota Video #2 (Rp43.821/1)
+  - Nida 1019832712800468: `120251865308470004` 9 Hari Januari (Rp48.409/1, Prospek (baru) - Jakarta)
+  - AIni 814396810761205: `120253979650290019` #1 (Rp48.922/1), `120253979650270019` #3 (Rp45.159/1) camp Penjualan (baru); `120253924406900019` 9 Hari Januari (Rp45.951/1, Prospek (baru) - Salin)
+  - Irfan 1060984719243481: `120253687617460414` 12 hari januari (Rp42.150/1), `120253687617440414` 9 hari januari (Rp41.488/1) camp new - Salin; `120253548709090414` 12 Hari Januari (Rp40.658/1, Sales banten)
+  - Fifi 521083143750270: `120252201112110365` 9 Hari (Rp42.108/1), `120252201112050365` 9 Januari (Rp43.977/1)
+  - Haji 947788760498911: `120250421335780739` Interest Hanif (Rp33.760/0 chat), `120250253985880739` Interest AIni (Rp50.640/1), `120250198674110739` Interest Hanif (Rp41.954/1)
+  - Haji 3 794403715776985: `120252745117610704` Haji 2 Alif (Rp44.754/1)
+  - Haji 4 1526562231314028: `120256248793270768` Gambar Irfan (Rp40.232/1)
+- **C (pause iklan mahal sepanjang waktu):** 12 iklan di-PAUSE:
+  - Tira `120252902837040584` (Rp51.209/1 chat)
+  - Hanif `120254944599680427` (Rp52.031/1)
+  - Allif `120252223502030228` Ramadhan Desain 2 #1 (Rp36.235/0 chat)
+  - AIni `120253924406920019` (Rp36.006/0), `120253979554490019` (Rp41.167/0), `120253979829020019` (Rp37.072/0)
+  - Irfan `120253654923610414` (Rp50.847/1)
+  - Fifi `120252689334520365` (Rp35.658/0)
+  - Haji 947 `120251088659030739` (Rp204.047/4 = Rp51.012), `120251088660100739` (Rp54.786/1), `120251088660230739` (Rp50.728/1)
+  - Haji 3 `120252664191830704` Hajj 2025-61 (Rp38.121/0)

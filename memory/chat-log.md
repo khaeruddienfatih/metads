@@ -1725,3 +1725,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 — "apakah kamu bisa cek ada pembayaran apa aja selain iklan di meta"
 - Tool Meta Ads hanya mencakup akun iklan: log budget Okt 15 akun hanya berisi "Account billed" (iklan), perubahan budget, dan "Payment method removed" — tidak ada tagihan non-iklan.
 - Tagihan WhatsApp Business (broadcast/percakapan), Meta Verified, dll. tidak bisa dibaca tool. Gmail yang tersambung (admin@elharamainwisata.com) juga tidak berisi tanda terima Meta Okt. Disarankan cek Business Settings → Billing & payments (WhatsApp accounts) / Meta Verified, atau kirim screenshot/PDF.
+
+### 2026-11-01 — "kirim ke dhiyaaelhaq01@hmail.com"
+- "hmail.com" dianggap salah ketik → laporan Oktober versi revisi (tanpa kolom "Belum ditagih") dikirim ke **dhiyaaelhaq01@gmail.com** (Gmail id 1a1949b41324a900).

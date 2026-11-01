@@ -1710,3 +1710,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 — "google ads dan tiktok ada pajak 12%"
 - `rekap-bulanan.md` diperbarui: Google Rp10.858.243 + pajak Rp1.302.989 = Rp12.161.232; TikTok Rp6.660.000 + pajak Rp799.200 = Rp7.459.200; Meta tanpa pajak (VAT 0%).
 - **Total Okt semua platform + pajak: Rp342.852.996** (pajak Rp2.102.189); dibayar ±Rp343.251.568; per chat Meta Rp47.056. Aturan pajak 12% Google/TikTok dicatat di `rekap-bulanan.md` & `chat-memory.md`.
+
+### 2026-11-01 — Dana masuk Okt + langganan (Meta Verified 400rb, Linktree 125rb, YT Premium 135rb)
+- Screenshot mutasi "Incoming" Okt: 7× Rp50 jt dari DHIYAA EL HARAMAIN E + Rp9,7 jt (2 Okt) + Rp2,5 jt KHAERUDDIN (27 Okt) = **Rp362.200.000**.
+- Langganan Rp660.000 ditambahkan ke `rekap-bulanan.md`. Total pengeluaran Okt (iklan + pajak 12% Google/TikTok + langganan) **Rp343.512.996**; dibayar ±Rp343.911.568 → **sisa dana ±Rp18,29 jt**.

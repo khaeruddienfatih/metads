@@ -1714,3 +1714,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 — Dana masuk Okt + langganan (Meta Verified 400rb, Linktree 125rb, YT Premium 135rb)
 - Screenshot mutasi "Incoming" Okt: 7× Rp50 jt dari DHIYAA EL HARAMAIN E + Rp9,7 jt (2 Okt) + Rp2,5 jt KHAERUDDIN (27 Okt) = **Rp362.200.000**.
 - Langganan Rp660.000 ditambahkan ke `rekap-bulanan.md`. Total pengeluaran Okt (iklan + pajak 12% Google/TikTok + langganan) **Rp343.512.996**; dibayar ±Rp343.911.568 → **sisa dana ±Rp18,29 jt**.
+- Koreksi user "yt 154290": YouTube Premium Rp154.290 → langganan Rp679.290; total pengeluaran Okt **Rp343.532.286**, dibayar ±Rp343.930.858, **sisa dana ±Rp18.269.142**.

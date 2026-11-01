@@ -2069,3 +2069,24 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 5 ad set → lokasi **26 kota** (25 default + Cikarang 955995) radius 40 km + 5 subcity Jakarta; umur & A+A tetap; penempatan tetap seperti buatan user (#1/#2 manual FB+IG+WA+Threads, #3–#5 otomatis).
 - Nama baru: `…447450739` Broud → **26 Kota - Broad 25-65 #1** (ACTIVE) · `…447500739` Jakarta → **#2** (ACTIVE) · `…447570739` Interest → **#3** (PAUSED) · `…454460739` Reatregting → **#4** (PAUSED) · `…447540739` Broud Jkt/Jabar/Banten → **#5** (PAUSED).
 - #1 & #2 dipaksa PAUSED oleh update → diaktifkan lagi, read-back ACTIVE. 15 iklan pemenang tetap PAUSED (menunggu perintah aktifkan).
+
+### 2026-11-01 20:16 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off):** tidak ada yang memenuhi syarat (kandidat terdekat Hanif `120254774741200427` jawa barat: hari ini 1 chat/Rp26.701, tapi 3 hari terakhir 0 chat & Rp74.048 → gagal).
+- **B (pause ad set boros hari ini, 12 ad set, status update sukses/non-draft):**
+  - Tira 868364731529534: `120252902799150584` (25 Kota Video #5, camp "januari 9 hari & 12 hari") Rp42.855/1 chat; `120252902795850584` (Video #2) Rp43.821/1 chat — >40rb & <2 chat.
+  - Nida 1019832712800468: `120251865308470004` (9 Hari Januari, camp Prospek (baru) - Jakarta) Rp48.409/1 chat.
+  - AIni 814396810761205: `120253979650290019` (25 Kota #1, camp Penjualan (baru)) Rp50.324/1; `120253979650270019` (#3) Rp45.483/1.
+  - Irfan 1060984719243481: `120253687617460414` (12 hari januari, camp new - Salin) Rp42.150/1.
+  - Fifi 521083143750270: `120252201112110365` (9 Hari) Rp42.108/1; `120252201112050365` (9 Januari) Rp43.977/1.
+  - Haji 947788760498911: `120250198674110739` (Interest, camp Hanif) Rp42.105/1; `120250253985880739` (Interest, camp AIni) Rp50.667/1; `120250421335780739` (Interest, camp Hanif) Rp33.766/0 chat (≥30rb & 0 chat).
+  - Haji 3 794403715776985: `120252745117610704` (Haji 2, camp Alif) Rp44.761/1.
+  - Haji 4 1526562231314028: `120256248793270768` (Gambar, camp Irfan) Rp40.941/1.
+- **C (pause iklan CPR sepanjang waktu >Rp50rb / 0 chat ≥Rp35rb, 12 iklan, update sukses):**
+  - Tira: `120252902837040584` (Video 9 Hari Januari januari_3 | 25 Kota J#2) Rp51.209/1 chat.
+  - Hanif: `120254944599680427` (12 Hari Januari Indonesia | Desain 2 #3) Rp52.031/1 chat.
+  - Allif: `120252223502030228` (Ramadhan | Desain 2 #1, camp Ramadhan) Rp36.235/0 chat.
+  - AIni: `120253979829020019` Rp37.072/0; `120253979554490019` Rp41.199/0; `120253924406920019` Rp36.061/0.
+  - Irfan: `120253654923610414` (9 Hari Januari | Desain 4 Musim Dingin #2 - winner) Rp51.671/1.
+  - Fifi: `120252689334520365` (Ramadhan jawa barat | Desain 3 #4 - winner) Rp35.692/0.
+  - Haji 947: `120251088659030739` Rp204.047/4 (=51.011); `120251088660100739` Rp54.786/1; `120251088660230739` Rp50.728/1.
+  - Haji 3: `120252664191830704` (Hajj 2025-61) Rp38.167/0.

@@ -2272,3 +2272,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-02 06:50 — "ga perlu ada perbandingan kemarin"
 - Laporan pagi (06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY` & 08:00 pimpinan `trig_01NydaDZaZmHdb68jLxpn13R`): kolom pembanding kemarin lusa dihapus; query hanya tanggal laporan. `tools/cek_laporan.py` kini menolak laporan yang masih berisi biaya_lalu/chat_lalu. Berlaku mulai email pimpinan 08:00 hari ini.
+
+### 2026-11-02 06:43 — "coba kirim lagi"
+- Routine 06:00 dijalankan manual → terkirim 06:42 WIB (Gmail `1a1997e1b360787d`) "Laporan Iklan Elharamain Wisata 01 Nov 2026 (Rekap Harian)"; dicek: ringkasan hanya kolom Kategori/Biaya/Chat/CPR (tanpa kemarin lusa). Umroh Rp5.214.481/156 chat, Haji Rp2.484.185/90 chat, total Rp7.698.666/246 chat (CPR Rp31,3rb).

@@ -1742,3 +1742,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **Hanif** campaign "Sales" `120255131570760427` (Rp250rb): 9 Hari `…570820427` (januari_2, januari_4, januari_5), 12 Hari `…570810427` (12_5, 12_4, Desain 2 #2), Ramadhan `…570750427` (Desain 3 #2, Desain 3 #4, Desain 2 #5) → 9 iklan ACTIVE.
 - 11 ad set itu: lokasi **26 kota** (25 default + Cikarang 955995) radius 40 km + 5 subcity Jakarta; penempatan FB Story + IG (feed/story/reels/explore_home/profile/search) + WA Status + Threads; umur 25–65; A+A on. Semua ad set & campaign ACTIVE (iklan sebagian masih review Meta). Default `target-kota.md` diperbarui jadi 26 kota.
 - **Allif dilarang naik anggaran** (perintah user): `naik-budget.md` (13 akun), routine 04:00 `trig_01ASjPaNeoNDjpJZaALrzVzy` diperbarui (+ wajib verifikasi read-back sebelum mencatat kenaikan), `chat-memory.md`. Log kenaikan Allif Ramadhan 1 Nov ditandai TIDAK TERJADI.
+
+### 2026-11-01 — "matikan iklan jika running sepanjang waktu dan cpr di atas 50rb, dan matikan adset harian jika belanja di atas 40rb dan cpr di bawah 2, di cek 30 menit"
+- `auto-reaktivasi.md`: Bagian B ditambah syarat baru — ad set ACTIVE dengan spend hari ini > Rp40rb dan chat < 2 → PAUSE (syarat lama ≥ Rp30rb & 0 chat tetap). Bagian C baru — iklan ACTIVE dengan CPR sepanjang waktu > Rp50rb (atau 0 chat & spend ≥ Rp35rb) → PAUSE.
+- Dicek tiap 30 menit: routine `trig_012Qu1YrebVhGGQCXMKv23y5` (menit :13) diperbarui + routine baru menit :43 (prompt sama). Jendela malam 22:00–03:59 dilewati.

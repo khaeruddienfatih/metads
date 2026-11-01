@@ -43,8 +43,10 @@ Perintah user: "adset aturan perhari matikan adset yang habis 25ribu tapi tidak 
 
 1. Per akun: `ads_get_ad_entities` level `adset`, filter `effective_status IN [ACTIVE]`, `date_preset: today`,
    field `name, campaign_name, optimization_goal, amount_spent, results, cost_per_result`.
-2. PAUSE jika: spend hari ini **≥ Rp30.000** (naik dari Rp25rb, 30 Okt) dan **0 chat WA hari ini** (messaging conversation started;
-   kosong/"Not available" = 0).
+2. PAUSE jika salah satu (chat = messaging conversation started; kosong/"Not available" = 0):
+   - spend hari ini **≥ Rp30.000** dan **0 chat** hari ini (30 Okt); ATAU
+   - **(1 Nov, perintah user "matikan adset harian jika belanja di atas 40rb dan cpr di bawah 2")** spend hari ini
+     **> Rp40.000** dan chat hari ini **< 2** (0 atau 1 chat).
 3. Kecualikan ad set yang hasilnya bukan chat WA (mis. Haji 4 campaign pixel/add-to-cart: optimization_goal
    bukan CONVERSATIONS) — jangan di-pause.
 4. Pause: `ads_update_entity` `ad_account_id`, `entity_id` = ad set, `fields {"status":"PAUSED"}`. Verifikasi.
@@ -52,9 +54,25 @@ Perintah user: "adset aturan perhari matikan adset yang habis 25ribu tapi tidak 
 5. Bagian A tidak akan menyalakannya lagi hari itu (syarat A butuh ≥1 chat & CPR < Rp30rb). Besok (data
    hari baru) ad set ini TIDAK otomatis dinyalakan — hanya ad set yang dimatikan auto rule yang diproses Bagian A.
 
+## Bagian C — matikan IKLAN mahal sepanjang waktu (1 Nov, perintah user)
+
+Perintah user: "matikan iklan jika iklan sudah running sepanjang waktu dan cpr di atas 50rb".
+
+1. Per akun: `ads_get_ad_entities` level `ad`, filter `effective_status IN [ACTIVE]`, `date_preset: maximum`,
+   field `name, adset_name, campaign_name, amount_spent, results`.
+2. PAUSE iklan jika (data sepanjang waktu): chat ≥ 1 dan spend ÷ chat **> Rp50.000**; ATAU 0 chat dan spend ≥ Rp35.000
+   (aturan 20/30 Okt). Iklan yang hasilnya bukan chat WA (pixel/add-to-cart) dikecualikan.
+3. Pause: `ads_update_entity` `entity_type ad`, `fields {"status":"PAUSED"}`. Status saja. Verifikasi.
+4. Tidak menghapus iklan (PAUSE saja).
+
+## Jadwal
+
+Dicek **tiap 30 menit** (1 Nov, perintah user "di cek 30 menit"): routine cloud menit :13 dan :43 tiap jam
+(minimal interval routine = 1 jam, jadi dipakai 2 routine). Jendela malam 22:00–03:59 tetap dilewati.
+
 ## Pelaporan
 
-- Kalau ada ad set yang dinyalakan (A) atau di-PAUSE (B): tambah entri di akhir `memory/chat-log.md`
+- Kalau ada ad set yang dinyalakan (A), ad set di-PAUSE (B), atau iklan di-PAUSE (C): tambah entri di akhir `memory/chat-log.md`
   (`### YYYY-MM-DD HH:MM — cek tiap jam: ad set dinyalakan lagi`) berisi akun, ID, nama, rule,
   chat & CPR hari ini; lalu commit, `git pull origin main`, `git push origin main`.
 - Kalau tidak ada yang memenuhi syarat: tidak perlu menulis log/commit.

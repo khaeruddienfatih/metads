@@ -2128,3 +2128,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada ad set dinyalakan (kandidat rule-off semua 0 chat hari ini; Hanif jawa barat `120254774741200427` 1 chat/Rp26.701 tapi 3 hari 0 chat & spend Rp74.048 → gagal).
 - B: 14 ad set memenuhi syarat & di-set PAUSED (verified PAUSED), tetapi 13 di antaranya ternyata sudah PAUSED oleh cek sebelumnya hari ini (filter ACTIVE API longgar). Yang baru di-pause: Elharamain Haji 947788760498911, Hanif/Interest `120250421335780739` (spend hari ini Rp33.769, 0 chat). Lainnya (sudah paused): Tira `…902799150584`,`…902795850584`; Nida `…865308470004`; AIni `…979650290019`,`…979650270019`,`…679110310019`; Irfan `…687617460414`; Fifi `…201112110365`,`…201112050365`; Haji `…198674110739`; Haji 3 `…557031840704`,`…745117610704`; Haji 4 `…793270768`.
 - C: tidak ada iklan ACTIVE dengan CPR lifetime > Rp50rb atau 0 chat ≥ Rp35rb.
+
+### 2026-11-01 21:22 — "masih berantakan tidak pakai table seperti pagi"
+- Penyebab: email 21:18 berisi <table> polos tanpa garis/warna (style inline tidak ada) → di Gmail kolom menempel.
+- Perbaikan: script baru `tools/laporan_email_html.py` (JSON → HTML tabel ber-style inline: header biru, garis, zebra, angka rata kanan, total tebal, urut biaya terbesar, CPR otomatis, kolom kemarin lusa opsional). 3 routine email (06:00, 08:00, 12/16/21) diubah: WAJIB bangun HTML lewat script ini, htmlBody = isi file apa adanya.
+- Laporan malam dikirim ulang lagi (sesi `cse_01AVsCnpeZ7QxUZceVgCYAaW`).

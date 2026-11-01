@@ -2008,3 +2008,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 19:08 — "coba saya minta haji pertama juga"
 - Elharamain Haji 947788760498911 (Haji pertama), iklan PAUSED dibuat sejak 15 Okt: 4 iklan, semua sudah belanja (Rp50,7rb–Rp204rb, dimatikan aturan CPR) → tidak ada iklan baru yang belum diaktifkan.
+
+### 2026-11-01 19:10 — "laporan per CS untuk haji saya ingin lihat sekarang"
+- Read-only, hari ini s.d. ±19:10 WIB, akun Haji (Elharamain Haji, Haji 3, Haji 4; Haji 2 & haji 1050… tidak ada belanja), digabung per nama campaign (CS):
+  Fikri 17 chat Rp290.232 (Rp17,1rb) · Diana 14 / Rp319.430 (Rp22,8rb) · Nida 12 / Rp336.104 (Rp28,0rb) · AIni 7 / Rp264.862 (Rp37,8rb) · Irfan 7 / Rp225.648 (Rp32,2rb) · Hanif 6 / Rp246.488 (Rp41,1rb) · Fifi 4 / Rp94.701 (Rp23,7rb) · Tira 3 / Rp142.876 (Rp47,6rb) · Alif 1 / Rp88.688 (Rp88,7rb).
+  Total 71 chat, Rp2.009.029, CPR Rp28,3rb; non-chat Haji 4 (pixel) Rp23.265.

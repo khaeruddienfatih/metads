@@ -2016,3 +2016,21 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 19:20 — "nanti laporan begini juga ya bagian hajinya"
 - 3 routine email (06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`, 08:00 `trig_01NydaDZaZmHdb68jLxpn13R`, 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77`) diperbarui: bagian Haji = Tabel "Haji per CS" (gabung campaign per nama CS lintas akun Haji, Aini=AIni, Alif=Allif) + Tabel "Haji per akun" + catatan CPR terendah, CPR > Rp40rb, campaign 0 chat. Berlaku mulai laporan 21:00 malam ini.
+### 2026-11-01 19:17 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off):** tidak ada. Kandidat rule-off hari ini semua gagal syarat (0 chat hari ini, atau Hanif "jawa barat" `120254774741200427`: hari ini 1 chat/Rp26.701 tapi 3 hari 0 chat & spend Rp74.048).
+- **B (pause ad set boros hari ini, 8):** respons update sukses (status PAUSED, tidak dipaksa).
+  - Tira 868364731529534: `120252902799150584` 25 Kota Video #4 (campaign januari 9 hari & 12 hari) Rp42.855/1 chat; `120252902795850584` Video #2 Rp43.784/1 chat — >40rb & <2 chat.
+  - Nida 1019832712800468: `120251865308470004` 9 Hari Januari (Prospek baru - Jakarta) Rp48.409/1 chat.
+  - AIni 814396810761205: `120253979650290019` 25 Kota #1 (Penjualan baru) Rp48.922/1; `120253979650270019` #3 Rp44.814/1; `120253924406900019` 9 Hari Januari (Prospek baru - Salin) Rp43.972/1.
+  - Irfan 1060984719243481: `120253687617460414` 12 hari januari (new - Salin) Rp42.122/1; `120253548709090414` 12 Hari Januari (Sales banten) Rp40.658/1.
+  - Fifi 521083143750270: `120252201112050365` 9 Januari Rp43.977/1; `120252201112110365` 9 Hari Rp42.108/1.
+  - Haji 947788760498911: `120250198674110739` Interest (Hanif) Rp41.615/1; `120250421335780739` Interest (Hanif) Rp33.759/0 chat; `120250253985880739` Interest (AIni) Rp50.567/1.
+  - Haji 3 794403715776985: `120252745117610704` Haji 2 (Alif) Rp44.754/1.
+  (Total 13 ad set di-pause: Tira 2, Nida 1, AIni 3, Irfan 2, Fifi 2, Haji 3, Haji 3 akun 1 → judul "8" di commit diganti 13.)
+- **C (pause iklan mahal sepanjang waktu, 9):** respons update sukses.
+  - Tira: `120252902837040584` Video 9 Hari Januari januari_3 — Rp51.172/1 chat (Rp51.172/chat).
+  - Hanif 482252744648260: `120254944599680427` 12 Hari Januari Indonesia Desain 2 #3 — Rp52.031/1 chat.
+  - Allif 4678183395742010: `120252223502030228` Ramadhan Desain 2 #1 — Rp36.235/0 chat.
+  - AIni: `120253924406920019` Prospek 9 Hari januari_2 Rp36.006/0; `120253979554490019` Sales 12 Hari 12H #1 Rp41.122/0; `120253979829020019` Sales 12 Hari 12H #4 Rp37.072/0.
+  - Haji 947: `120251088660230739` Rp50.728/1; `120251088660100739` Rp54.700/1; `120251088659030739` Rp204.010/4 (Rp51.002/chat).
+  - Haji 3: `120252664191830704` Hajj 2025-61 Rp38.110/0 chat.

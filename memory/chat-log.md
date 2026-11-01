@@ -1890,3 +1890,20 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 16:17 — "apakah ada yang kena auto in"
 - Hari ini 4 ad set dinyalakan ulang (lihat 16:10). Run :13 (16:13 WIB) masih berjalan saat ditanya, belum ada hasil; run 16:43 = pertama dengan batas Rp35rb.
+
+### 2026-11-01 16:50 — cek 30 menit (cloud)
+- **A (nyalakan rule-off):** tidak ada. Kandidat ±45 ad set dimatikan rule; hanya Hanif `jawa barat` 120254774741200427 punya ≥1 chat hari ini (1 chat, Rp26.700) tetapi 3 hari terakhir 0 chat & spend Rp74.048 → tidak lolos.
+- **B (pause ad set boros hari ini)** — 10 ad set, semua terverifikasi PAUSED:
+  - Tira 868364731529534: 120252902799150584 "25 Kota Video #4" (januari 9 hari & 12 hari) Rp40.917/1 chat; 120252902795850584 "25 Kota Video #2" Rp43.784/1 chat (>40rb & <2 chat).
+  - Nida 1019832712800468: 120251865308470004 "9 Hari Januari" (Prospek (baru) - Jakarta) Rp47.987/1 chat.
+  - AIni 814396810761205: 120253979650290019 "25 Kota - Broad 25-65 #1" (Penjualan (baru)) Rp48.027/1 chat.
+  - Irfan 1060984719243481: 120253548709090414 "12 Hari Januari" (Sales banten) Rp40.658/1 chat.
+  - Fifi 521083143750270: 120252201112110365 "9 Hari" (Fifi) Rp41.864/1 chat; 120252201112050365 "9 Januari" Rp43.959/1 chat.
+  - Haji 947788760498911: 120250253985880739 "Interest" (AIni) Rp45.995/1 chat; 120250421335780739 "Interest" (Hanif) Rp33.739/0 chat (≥30rb & 0 chat).
+  - Haji 3 794403715776985: 120252745117610704 "Haji 2" (Alif) Rp44.731/1 chat.
+- **C (pause iklan lifetime CPR >50rb / 0 chat ≥35rb)** — 8 iklan, semua terverifikasi PAUSED:
+  - Tira: 120252902837040584 "Video 9 Hari Januari | januari_3 | 25 Kota J#2" Rp51.172/1 chat.
+  - Hanif 482252744648260: 120254944599680427 "12 Hari Januari Indonesia | Desain 2 #3" Rp52.030/1 chat.
+  - Allif 4678183395742010: 120252223502030228 "Ramadhan | Desain 2 #1" Rp36.219/0 chat.
+  - AIni: 120253924406920019 "Prospek 9 Hari Januari | januari_2" Rp35.860/0 chat; 120253979829020019 "Sales 12 Hari Januari | Desain 3 12H #4 | adset1" Rp37.050/0 chat.
+  - Haji 947788760498911: 120251088660100739 "Vidio (AIni Broud) - winner" Rp54.499/1 chat; 120251088660230739 "Haji_Reuse_Nida-Interest - winner" Rp50.651/1 chat; 120251088659030739 "vidio (Hanif Interest) - winner" Rp203.791/4 chat (Rp50.948/chat).

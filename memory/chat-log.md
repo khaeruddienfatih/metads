@@ -2034,3 +2034,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni: `120253924406920019` Prospek 9 Hari januari_2 Rp36.006/0; `120253979554490019` Sales 12 Hari 12H #1 Rp41.122/0; `120253979829020019` Sales 12 Hari 12H #4 Rp37.072/0.
   - Haji 947: `120251088660230739` Rp50.728/1; `120251088660100739` Rp54.700/1; `120251088659030739` Rp204.010/4 (Rp51.002/chat).
   - Haji 3: `120252664191830704` Hajj 2025-61 Rp38.110/0 chat.
+
+### 2026-11-01 19:35 — "sekarang di elharamain haji ada fifi kamu isi jika ada winner jika kurang pakai iklan baru"
+- Elharamain Haji 947788760498911, campaign **Fifi** `120251120447410739` (buatan user 19:18, OUTCOME_SALES, Rp250rb, ACTIVE), 5 ad set kosong → diisi **15 iklan pemenang** (pakai ulang post via object_story_id, Page Haji 637020022834756 tanpa IG), 3/ad set, post unik (Desain3-3 hanya 1×). Iklan baru tidak perlu (16 pemenang tersedia). Semua iklan masih **PAUSED** — menunggu perintah aktifkan.
+  - Broud `…447450739` (ACTIVE): Nida-Broud video (241 chat/Rp20rb) `120251120480860739`, Tira Interest 5 Desain-4 `…488690739`, Gambar Nida Interest `…490850739`
+  - Jakarta `…447500739` (ACTIVE): Nida-Interest video (149/Rp21rb) `…492000739`, AIni Broud 2 Design14-1 `…493000739`, Hanif Interest 3 Desain4-4 `…495200739`
+  - Interest `…447570739` (PAUSED): AIni Interest video `…498120739`, Tira LLA 1 Desain3-3 `…498940739`, Nida Interest video `…501460739`
+  - Reatregting `…454460739` (PAUSED): AIni Broud video `…503140739`, Fikri Broud 3 `…504640739`, AIni Interest 4 Desain-7 `…505980739`
+  - Broud (Jkt/Jabar/Banten) `…447540739` (PAUSED): Nida Broud video `…506790739`, Diana LLA Hajj_2025-50 `…507160739`, Nida jateng jatim Premium #3 `…508300739`
+- Targeting/penempatan ad set buatan user tidak diubah (Interest/Reatregting/Broud Jkt-Jabar-Banten masih termasuk Audience Network, marketplace, right column).

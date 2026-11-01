@@ -2170,3 +2170,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947 `120251116332070739` Haji - AIni Broud 2 (Design14-1): Rp50.744 / 1 chat; `120251088659030739` vidio (Hanif Interest): Rp204.047 / 4 chat (Rp51.012); `120251088660100739` Vidio (AIni Broud): Rp54.802 / 1 chat.
   - Haji 3 `120252664191830704` Hajj 2025-61: Rp38.214 / 0 chat.
 - Catatan: log aktivitas Tira/AIni/Irfan/Haji 947 terlalu besar untuk dibaca langsung (disaring dengan jq); kandidat A dicari lewat ad set PAUSED dengan ≥1 chat hari ini.
+
+### 2026-11-01 22:00 — jadwal malam OFF (cloud)
+- Routine cloud 22:00 WIB: 104 ad set ACTIVE di-PAUSE (status saja), terverifikasi baca ulang: 0 ACTIVE tersisa. Gagal: 0. Akun tak terbaca: 0.
+- Per akun (pause/gagal): Diana 7/0 · Tira 3/0 · Nida 14/0 · Hanif 4/0 · Allif 9/0 · Fikri 6/0 · AIni 4/0 · Irfan 6/0 · Fifi 16/0 · Elharamain Haji 19/0 · Haji 2 0 ad set aktif · Haji 3 8/0 · Haji 4 8/0 · haji 1050343302646341 0 aktif (hanya 1 ad set ARCHIVED).
+- Catatan teknis: filter effective_status IN [ACTIVE] di tool mengembalikan juga ad set PAUSED, jadi hasil disaring manual berdasarkan effective_status == ACTIVE. Daftar di jadwal-malam-daftar.md (104 baris). Jam 04:00 menyalakan hanya ad set di daftar.
+- Push awal sempat ditolak (non-fast-forward, HEAD detached), lalu berhasil lewat `git push origin HEAD:main`.

@@ -146,6 +146,8 @@ Semua 7 kampanye ACTIVE. Angka berubah dari catatan 2 Okt (diubah manual oleh us
 
 - **Pindah akun Claude (1 Nov):** user akan pindah ke akun Claude Max (email beda). Langkah + isi lengkap 6 routine aktif ada di [`pindah-akun.md`](pindah-akun.md); setelah routine dibuat ulang di akun baru, matikan routine akun lama dan ganti ID `trig_…` di file ini.
 
+- **Mac mini Ubuntu + Telegram (2 Nov):** langkah pasang Claude Code + repo + bot Telegram (`telegram/bot.py`, service `elharamain-bot`) di [`pindah-ubuntu.md`](pindah-ubuntu.md). Routine cloud tidak perlu dipindah. Token bot hanya di `telegram/.env` (tidak di-commit).
+
 - **Rekap biaya bulanan semua platform** (Meta + Google Ads + TikTok Ads) di [`rekap-bulanan.md`](rekap-bulanan.md). Google Ads & TikTok Ads kena pajak 12% (Meta VAT 0%). Okt 2026: total Rp342,85 jt termasuk pajak.
 
 ## Pending / pertanyaan terbuka

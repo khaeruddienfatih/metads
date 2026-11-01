@@ -2288,3 +2288,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi 521083143750270: 120252689334520365 `Ramadhan jawa barat | Desain 3 #4 - winner` Rp35.698/0 chat
   - Haji 947788760498911: 120251088659030739 (Rp204.123/4 chat = Rp51.031), 120251116332070739 (Rp51.915/1), 120251088660100739 (Rp55.902/1)
   - Haji 3 794403715776985: 120252664191830704 `Hajj 2025-61` Rp38.297/0 chat
+
+### 2026-11-02 07:00 — "saya mau memindahkan ke mac mini ubuntu saya agar bisa saya cek pakai telegram tolong kamu siapkan"
+- Dibuat: `telegram/bot.py` (bot Telegram long-polling tanpa library; hanya chat ID terdaftar; /laporan, /kemarin, /log, /routine, /id; teks bebas diteruskan ke `claude -p` di repo dengan `--allowedTools`), `telegram/.env.example`, `telegram/elharamain-bot.service` (systemd user), `telegram/setup-ubuntu.sh` (pasang git/python/Claude Code, clone repo, push ke 2 repo, service + linger), panduan `memory/pindah-ubuntu.md`. Diuji offline: /id, /start, penolakan chat ID asing, /log.
+- Catatan: mengubah `.claude/settings.json` (tambah izin mcp__claude_ai_meta_ads/Gmail) ditolak auto-mode → diganti `--allowedTools` di bot.
+- Tertunda (user): buat bot di @BotFather, jalankan setup di Ubuntu, login Claude & GitHub, isi token + chat ID.

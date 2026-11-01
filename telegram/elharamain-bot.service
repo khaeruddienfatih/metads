@@ -1,0 +1,15 @@
+# systemd user service — bot Telegram jalan otomatis saat Mac mini Ubuntu menyala.
+# Dipasang oleh telegram/setup-ubuntu.sh ke ~/.config/systemd/user/elharamain-bot.service
+[Unit]
+Description=Bot Telegram iklan Elharamain (Claude Code)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/metaads
+ExecStart=/usr/bin/python3 %h/metaads/telegram/bot.py
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

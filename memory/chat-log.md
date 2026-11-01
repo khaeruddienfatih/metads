@@ -2228,3 +2228,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 — Rp38.297 / 0 chat.
   - Catatan: log aktivitas menunjukkan beberapa iklan ini (Tira, Hanif, Allif, AIni, Irfan, Fifi, Haji, Haji 3) sudah di-pause 04:15/04:45 lalu aktif lagi (kemungkinan routine pagi/kampanye diaktifkan ulang jam 04:00) — di-pause lagi sekarang.
   - Error sementara: update Haji `120251088659030739` sempat INTERNAL error, berhasil diulang.
+
+### 2026-11-02 05:43 — cek 30 menit (cloud)
+- **A (nyalakan ad set):** tidak ada. Satu-satunya ad set yang dimatikan rule hari ini = Irfan "12 hari januari" `120253687617460414` (rule OFF 04:38), statusnya sudah aktif lagi → tidak diproses.
+- **B (pause ad set):** tidak ada. Belanja hari ini semua masih kecil (maks Rp25.673 Irfan "Indonesia" `120253330258920414`, 1 chat).
+- **C (pause iklan, sepanjang waktu) — 16 iklan di-PAUSE, status terverifikasi PAUSED:**
+  - Tira 868364731529534: `120252902837040584` Video 9 Hari Januari januari_3 25 Kota J#2 — Rp51.209 / 1 chat
+  - Hanif 482252744648260: `120254944599680427` 12 Hari Januari Indonesia Desain 2 #3 — Rp52.032 / 1 chat
+  - Allif 4678183395742010: `120252223502030228` Ramadhan Desain 2 #1 — Rp36.236 / 0 chat
+  - AIni 814396810761205: `120253979826570019` Sales Ramadhan Desain 3 #4 — Rp51.125/1 chat; `120253979554490019` Sales 12 Hari Desain 3 12H #1 — Rp42.875/0; `120253979829020019` Sales 12 Hari Desain 3 12H #4 — Rp37.072/0; `120253924406920019` Prospek 9 Hari januari_2 — Rp36.111/0
+  - Irfan 1060984719243481: `120253634661040414` Sales 9 Hari Desain 9 #1 — Rp56.420/1; `120253634660860414` Sales Ramadhan Desain 2 #1 — Rp61.286/1; `120253687649590414` 12 Hari Desain 2 #2 winner — Rp53.493/1; `120253654923610414` 9 Hari Desain 4 Musim Dingin #2 winner — Rp51.671/1
+  - Fifi 521083143750270: `120252689334520365` Ramadhan jawa barat Desain 3 #4 winner — Rp35.698/0
+  - Haji 947788760498911: `120251116332070739` — Rp51.911/1; `120251088660100739` — Rp55.902/1; `120251088659030739` — Rp204.114/4 (Rp51.029/chat)
+  - Haji 3 794403715776985: `120252664191830704` Hajj 2025-61 — Rp38.297/0 (status PAUSED, effective IN_PROCESS saat verifikasi)
+- Catatan: log aktivitas menunjukkan beberapa iklan ini (Tira, Hanif, Allif, AIni, Irfan, Haji) bolak-balik Pending Process↔Inactive tiap ±30 menit dan tetap muncul ACTIVE di run berikutnya; cek apakah ada proses lain yang mengaktifkan lagi.

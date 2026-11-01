@@ -2094,3 +2094,24 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 19:50 — "aktipkan" (Elharamain Haji, campaign Fifi `120251120447410739`)
 - 15 iklan pemenang + ad set #3 `…447570739`, #4 `…454460739`, #5 `…447540739` diaktifkan (atas perintah user). Read-back: semua 5 ad set & 15 iklan status ACTIVE; efektif 2 iklan ACTIVE, sisanya IN_PROCESS / PENDING_REVIEW (review Meta).
 - Catatan: jadwal malam OFF jam 22:00 akan ikut mem-PAUSE ad set ini dan menyalakannya lagi jam 04:00.
+
+### 2026-11-01 20:43 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat dimatikan rule hari ini sudah dicek; hanya Hanif `jawa barat` 120254774741200427 (Rp26.701, 1 chat hari ini) yang lolos syarat hari ini, tapi 3 hari terakhir 0 chat dengan spend Rp74.048 → tidak dinyalakan.
+- **B (pause ad set boros hari ini, 15, semua terverifikasi PAUSED):**
+  - Tira 868364731529534: 120252902799150584 (25 Kota Video #4, campaign "januari 9 hari & 12 hari", Rp42.855/1 chat), 120252902795850584 (Video #2, Rp43.821/1 chat) — spend>40rb & chat<2.
+  - Nida 1019832712800468: 120251865308470004 (9 Hari Januari, Prospek (baru) - Jakarta, Rp48.414/1 chat).
+  - AIni 814396810761205: 120253679110310019 (jakarta, Ramadhan, Rp40.527/1), 120253979650290019 (25 Kota #1, Penjualan (baru), Rp50.552/1), 120253979650270019 (#3, Rp45.772/1).
+  - Irfan 1060984719243481: 120253687617460414 (12 hari januari, new - Salin, Rp42.150/1).
+  - Fifi 521083143750270: 120252201112110365 (9 Hari, Fifi, Rp42.108/1), 120252201112050365 (9 Januari, Rp43.978/1).
+  - Haji 947788760498911: 120250253985880739 (Interest AIni, Rp50.676/1), 120250198674110739 (Interest Hanif, Rp42.236/1), 120250421335780739 (Interest Hanif, Rp33.769/0 chat).
+  - Haji 3 794403715776985: 120252557031840704 (Haji 3 Aini, Rp40.671/1), 120252745117610704 (Haji 2 Alif, Rp44.767/1).
+  - Haji 4 1526562231314028: 120256248793270768 (Gambar Irfan, Rp41.058/1).
+- **C (pause iklan mahal sepanjang waktu, 11, semua terverifikasi PAUSED):**
+  - Tira: 120252902837040584 (Video januari_3, Rp51.209/1 chat).
+  - Hanif: 120254944599680427 (12 Hari Januari Indonesia Desain 2 #3, Rp52.031/1).
+  - Allif: 120252223502030228 (Ramadhan Desain 2 #1, Rp36.235/0 chat).
+  - AIni: 120253979554490019 (Rp42.610/0), 120253979829020019 (Rp37.072/0), 120253924406920019 (Rp36.061/0).
+  - Irfan: 120253654923610414 (Desain 4 Musim Dingin #2 - winner, Rp51.671/1).
+  - Fifi: 120252689334520365 (Ramadhan jawa barat Desain 3 #4, Rp35.693/0).
+  - Haji: 120251088659030739 (Rp204.047/4 = Rp51.012), 120251088660100739 (Rp54.791/1).
+  - Haji 3: 120252664191830704 (Hajj 2025-61, Rp38.167/0).

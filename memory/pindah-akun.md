@@ -29,6 +29,21 @@ Semua aturan/status/log ada di repo ini — akun baru cukup membuka repo ini. Ya
    Perbarui juga CLAUDE.md langkah 3: repo utama elharamainwisata, cadangan khaeruddienfatih.
 8. Di akun baru, catat ID routine baru di `memory/chat-memory.md` (ganti ID lama `trig_…`).
 
+## Status 1 Nov 2026 — routine SUDAH dibuat ulang di akun baru
+
+Repo routine: `https://github.com/khaeruddienfatih/metads` (akun baru belum punya akses GitHub ke `elharamainwisata/metads` → 403 repo_access_denied; GitHub App terpasang di khaeruddienfatih). Push cadangan di prompt tetap ke elharamainwisata (gagal diabaikan).
+
+| # | ID baru |
+|---|---|
+| 1 (:13) | `trig_01PExMLpwLUtZxVRsi4R6e8H` |
+| 2 (:43) | `trig_013WfwoGnfBo14J4EupZGgtx` |
+| 3 (22:00 OFF) | `trig_01FPcdHh57QKkum5LoEAwj2k` |
+| 4 (04:00 naik+ON) | `trig_01KLe5sJc8N6MQMEYKUpzNqB` |
+| 5 (email 06:00) | `trig_01Ci9E1ffEGZ97CAaxiyqCBY` |
+| 6 (email 08:00) | `trig_01NydaDZaZmHdb68jLxpn13R` |
+
+Sisa: matikan 6 routine di akun LAMA (langkah 6). Langkah 7 (ganti remote Mac) ditunda — repo utama tetap khaeruddienfatih selama akun baru belum punya akses elharamainwisata.
+
 ## Ringkasan 6 routine aktif (akun lama)
 
 | # | Nama | Jadwal | Connector | Tools | ID lama |

@@ -2013,3 +2013,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Read-only, hari ini s.d. ±19:10 WIB, akun Haji (Elharamain Haji, Haji 3, Haji 4; Haji 2 & haji 1050… tidak ada belanja), digabung per nama campaign (CS):
   Fikri 17 chat Rp290.232 (Rp17,1rb) · Diana 14 / Rp319.430 (Rp22,8rb) · Nida 12 / Rp336.104 (Rp28,0rb) · AIni 7 / Rp264.862 (Rp37,8rb) · Irfan 7 / Rp225.648 (Rp32,2rb) · Hanif 6 / Rp246.488 (Rp41,1rb) · Fifi 4 / Rp94.701 (Rp23,7rb) · Tira 3 / Rp142.876 (Rp47,6rb) · Alif 1 / Rp88.688 (Rp88,7rb).
   Total 71 chat, Rp2.009.029, CPR Rp28,3rb; non-chat Haji 4 (pixel) Rp23.265.
+
+### 2026-11-01 19:20 — "nanti laporan begini juga ya bagian hajinya"
+- 3 routine email (06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`, 08:00 `trig_01NydaDZaZmHdb68jLxpn13R`, 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77`) diperbarui: bagian Haji = Tabel "Haji per CS" (gabung campaign per nama CS lintas akun Haji, Aini=AIni, Alif=Allif) + Tabel "Haji per akun" + catatan CPR terendah, CPR > Rp40rb, campaign 0 chat. Berlaku mulai laporan 21:00 malam ini.

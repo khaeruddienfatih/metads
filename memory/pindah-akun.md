@@ -10,15 +10,24 @@ Semua aturan/status/log ada di repo ini — akun baru cukup membuka repo ini. Ya
    - **Meta Ads** — login Facebook yang SAMA (yang punya akses ke 15 akun iklan). Wajib.
    - **Gmail** — untuk email laporan pagi (email terkirim dari akun Gmail yang disambungkan).
    - Opsional: Canva, Cloudinary (cloud `q2xuhm0o`), Google Drive, Google Sheets.
-3. Hubungkan GitHub di akun baru (claude.ai/code → GitHub / pasang Claude GitHub App) dengan akses ke repo
-   `khaeruddienfatih/metads` (dipakai routine untuk baca prosedur & push log). Cadangan: `elharamainwisata/metads`.
+3. Hubungkan GitHub di akun baru (claude.ai/code → GitHub / pasang Claude GitHub App) memakai akun GitHub
+   **elharamainwisata** dengan akses ke repo **`elharamainwisata/metads`** — mulai akun baru ini repo UTAMA
+   (perintah user 1 Nov: "github yang tersambung adalah elharamainwisata"). `khaeruddienfatih/metads` jadi cadangan.
 4. Buka folder `Desktop/metaads` di Claude Code akun baru, lalu ketik:
    **"buat ulang 6 routine dari memory/pindah-akun.md"** — Claude membuat routine dengan isi di bawah (model Sonnet,
-   repo `https://github.com/khaeruddienfatih/metads`, environment Default akun baru, connector sesuai tabel).
+   repo **`https://github.com/elharamainwisata/metads`**, environment Default akun baru, connector sesuai tabel).
 5. Cek di https://claude.ai/code/routines akun baru: 6 routine aktif.
 6. **Setelah itu matikan routine di akun LAMA** (https://claude.ai/code/routines, login akun lama) — kalau dua-duanya jalan,
    semua cek jalan dobel (pause/nyala dua kali, email terkirim dua kali).
-7. Di akun baru, catat ID routine baru di `memory/chat-memory.md` (ganti ID lama `trig_…`).
+7. Ganti repo utama di Mac (SETELAH routine akun lama dimatikan, supaya tidak ada push dari dua arah):
+   ```
+   git remote set-url origin https://github.com/elharamainwisata/metads.git
+   git remote set-url --add --push origin https://github.com/khaeruddienfatih/metads.git
+   git pull origin main && git push origin main
+   ```
+   (`git push origin main` lalu tetap push ke dua repo: elharamainwisata utama + khaeruddienfatih cadangan.)
+   Perbarui juga CLAUDE.md langkah 3: repo utama elharamainwisata, cadangan khaeruddienfatih.
+8. Di akun baru, catat ID routine baru di `memory/chat-memory.md` (ganti ID lama `trig_…`).
 
 ## Ringkasan 6 routine aktif (akun lama)
 
@@ -34,6 +43,11 @@ Semua aturan/status/log ada di repo ini — akun baru cukup membuka repo ini. Ya
 Routine lama yang sudah NONAKTIF (tidak perlu dibuat ulang): naik anggaran 07:00 `trig_01XvAgB4noayYxfMXZgoiruc`, routine sekali-jalan (cek kampanye/penawaran batch), dan "Meta Ads Auto-Rule - Reset Budget Batch1".
 
 ## Isi prompt tiap routine (salin persis)
+
+Saat membuat ulang: di setiap prompt yang menyuruh push cadangan, ganti
+`git push https://github.com/elharamainwisata/metads.git main` menjadi
+`git push https://github.com/khaeruddienfatih/metads.git main` (karena `origin` di cloud sudah elharamainwisata).
+Kalau akun baru tidak punya akses ke khaeruddienfatih, baris itu gagal dan diabaikan — tidak masalah.
 
 ### 1. Auto ad set & iklan (menit :13): nyala ulang rule-off, pause boros, pause iklan mahal
 

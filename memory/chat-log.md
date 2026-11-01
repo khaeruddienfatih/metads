@@ -1818,3 +1818,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **C (pause iklan, 2):**
   - Hanif 482252744648260 `120254944599680427` "12 Hari Januari Indonesia | Desain 2 #3" (12 Hari Januari/Indonesia): lifetime Rp51.218, 1 chat, CPR Rp51.218 — PAUSED terverifikasi.
   - Allif 4678183395742010 `120252223502030228` "Ramadhan | Desain 2 #1" (Ramadhan/Ramadhan): lifetime Rp35.844, 0 chat — PAUSED terverifikasi.
+
+### 2026-11-01 — Repo utama di akun baru = elharamainwisata/metads
+- Diminta: pindah akun Claude, GitHub yang disambungkan adalah elharamainwisata.
+- Dikerjakan: `pindah-akun.md` diperbarui — routine akun baru pakai repo `elharamainwisata/metads`; push cadangan ke khaeruddienfatih; langkah ganti `origin` di Mac setelah routine akun lama dimatikan.
+- Cek: kedua repo sama di commit `a4ef569` sebelum perubahan ini.

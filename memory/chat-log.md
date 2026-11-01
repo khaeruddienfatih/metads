@@ -2176,3 +2176,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Per akun (pause/gagal): Diana 7/0 · Tira 3/0 · Nida 14/0 · Hanif 4/0 · Allif 9/0 · Fikri 6/0 · AIni 4/0 · Irfan 6/0 · Fifi 16/0 · Elharamain Haji 19/0 · Haji 2 0 ad set aktif · Haji 3 8/0 · Haji 4 8/0 · haji 1050343302646341 0 aktif (hanya 1 ad set ARCHIVED).
 - Catatan teknis: filter effective_status IN [ACTIVE] di tool mengembalikan juga ad set PAUSED, jadi hasil disaring manual berdasarkan effective_status == ACTIVE. Daftar di jadwal-malam-daftar.md (104 baris). Jam 04:00 menyalakan hanya ad set di daftar.
 - Push awal sempat ditolak (non-fast-forward, HEAD detached), lalu berhasil lewat `git push origin HEAD:main`.
+
+### 2026-11-02 04:00 — jadwal pagi: naik anggaran + ON (cloud)
+- PART 1 naik anggaran (H-3..H-1 = 30 Okt–1 Nov), 5 campaign CBO naik +10%, semua terverifikasi baca ulang:
+  - Elharamain Haji 947788760498911 | Fikri 120250201672230739 | Rp250.000 → Rp275.000 | CPR Rp24.214/Rp20.759/Rp15.915 (sempat jadi PAUSED, diaktifkan lagi → ACTIVE)
+  - Haji 3 794403715776985 | Fikri 120252557031670704 | Rp120.000 → Rp132.000 | CPR Rp24.282/Rp23.368/Rp18.511
+  - Haji 3 | Diana 120252668566300704 | Rp120.000 → Rp132.000 | CPR Rp27.238/Rp17.759/Rp11.516
+  - Haji 4 1526562231314028 | Diana 120256622022190768 | Rp150.000 → Rp165.000 | CPR Rp23.003/Rp26.457/Rp25.102
+  - Haji 4 | Nida 120256622022240768 | Rp150.000 → Rp165.000 | CPR Rp17.635/Rp16.242/Rp14.226
+  - (Haji 3/Haji 4: akun draft, diterbitkan via ads_activate_entity campaign; effective_status sementara IN_PROCESS.)
+  - Di batas: Fifi 120252109239850365 (Rp300.000, memenuhi syarat tapi sudah di cap) → tidak diubah. Haji 3 Alif 120252745117570704 dilewati (cooldown, naik 1 Nov). Allif dikecualikan. Tidak ada yang gagal.
+- PART 2 ON: daftar 2026-11-01 22:00 valid (= H-1). 89 ad set dinyalakan (Tira 3, AIni 4, Hanif 4, Fikri 6, Fifi 16, Elharamain Haji 19, Diana 7, Nida 14, Haji 3 8, Haji 4 8), 15 dilewati karena sudah ACTIVE (Allif 9, Irfan 6), 0 gagal. Catatan: akun live harus dipanggil tanpa object_ids (dengan object_ids → "no staged changes"); akun draft/Tira pakai object_ids.

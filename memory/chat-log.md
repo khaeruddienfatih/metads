@@ -2124,3 +2124,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 21:17 — "kirim ulang ke elharamainwisata@gmail.com"
 - Routine laporan `trig_01D9NHsCepUj6rvi7cs5nt77` dijalankan manual (sesi `cse_01AVsCnpidvrdmb7VgxKu88o`) → terkirim 21:18 WIB (Gmail id `1a19779e2aad4fd0`) "Laporan Malam 01 Nov 2026 s.d. 21:17 WIB — Umroh 139 chat Rp4.979.532 | Haji 86 chat Rp2.408.024", tabel HTML urut biaya terbesar.
+### 2026-11-01 21:xx — cek 30 menit (cloud)
+- A: tidak ada ad set dinyalakan (kandidat rule-off semua 0 chat hari ini; Hanif jawa barat `120254774741200427` 1 chat/Rp26.701 tapi 3 hari 0 chat & spend Rp74.048 → gagal).
+- B: 14 ad set memenuhi syarat & di-set PAUSED (verified PAUSED), tetapi 13 di antaranya ternyata sudah PAUSED oleh cek sebelumnya hari ini (filter ACTIVE API longgar). Yang baru di-pause: Elharamain Haji 947788760498911, Hanif/Interest `120250421335780739` (spend hari ini Rp33.769, 0 chat). Lainnya (sudah paused): Tira `…902799150584`,`…902795850584`; Nida `…865308470004`; AIni `…979650290019`,`…979650270019`,`…679110310019`; Irfan `…687617460414`; Fifi `…201112110365`,`…201112050365`; Haji `…198674110739`; Haji 3 `…557031840704`,`…745117610704`; Haji 4 `…793270768`.
+- C: tidak ada iklan ACTIVE dengan CPR lifetime > Rp50rb atau 0 chat ≥ Rp35rb.

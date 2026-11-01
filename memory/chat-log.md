@@ -1782,3 +1782,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Campaign Nida: Broud `120250253542190739` +1 (`120251116332070739`).
 - Catatan: pemenang dari akun Haji lain hanya bisa dipakai kalau Page-nya sama. Haji 3 dan haji 1050 pakai Page 588, jadi hanya cocok untuk campaign Irfan; campaign lain (Page Haji 637…) pakai pemenang dari akun ini sendiri.
 - Hasil: semua 8 ad set kini punya 3 iklan aktif.
+### 2026-11-01 12:20 — cek 30 menit (cloud)
+- **A (nyalakan ad set rule-off):** tidak ada. Kandidat terbaik Hanif `120254774741200427` "jawa barat" (campaign 12 Hari Januari): hari ini 1 chat / Rp26.690 (Rp26.690/chat) tetapi 3 hari terakhir Rp74.048 dengan 0 chat → gagal syarat 3 hari, tidak dinyalakan. Ad set rule-off lain (Diana ×3, Hanif ×2, AIni ×4, Fifi ×1, Haji 3 ×2, Haji 4 ×1, Irfan ×5) 0 chat hari ini.
+- **B (pause ad set boros):** tidak ada.
+- **C (pause iklan mahal sepanjang waktu):** AIni (814396810761205) iklan `120253979548810019` "Sales Ramadhan | Desain 2 #1 | adset1" (campaign Penjualan, ad set 25 Kota - Broad 25-65 #1): lifetime Rp51.005 / 1 chat = Rp51.005/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.

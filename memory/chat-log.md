@@ -2123,4 +2123,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 3 routine email (06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY`, 08:00 `trig_01NydaDZaZmHdb68jLxpn13R`, 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77`): wajib tabel HTML (htmlBody), tabel Umroh per akun / Haji per CS / Haji per akun diurutkan **biaya terbesar dulu**, urutan kolom Biaya | Chat | CPR, header berwarna, total tebal. Berlaku mulai email 06:00 besok.
 
 ### 2026-11-01 21:17 — "kirim ulang ke elharamainwisata@gmail.com"
-- Routine laporan `trig_01D9NHsCepUj6rvi7cs5nt77` dijalankan manual (sesi `cse_01AVsCnpidvrdmb7VgxKu88o`) → laporan hari ini format baru (tabel HTML, urut biaya terbesar) ke elharamainwisata@gmail.com.
+- Routine laporan `trig_01D9NHsCepUj6rvi7cs5nt77` dijalankan manual (sesi `cse_01AVsCnpidvrdmb7VgxKu88o`) → terkirim 21:18 WIB (Gmail id `1a19779e2aad4fd0`) "Laporan Malam 01 Nov 2026 s.d. 21:17 WIB — Umroh 139 chat Rp4.979.532 | Haji 86 chat Rp2.408.024", tabel HTML urut biaya terbesar.

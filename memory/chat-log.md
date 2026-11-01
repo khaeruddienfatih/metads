@@ -1771,3 +1771,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - 12 Hari `…632940584`: 12_hari_januari_5 (Nida) ACTIVE + 2 iklan BARU PAUSED (Desain 2 12H #5 hash de51b9…, 12_hari_januari_2 hash dd96bc…, teks 12 Hari terbaru) — pemenang 12 Hari dengan gambar unik habis
   - Ramadhan `…632980584`: Desain 3 #4 (Irfan), Desain 2 #5 (Irfan), Desain 3 #2 (Hanif)
 - 5 ad set: 26 kota (25 + Cikarang) radius 40 km + 5 subcity Jakarta, penempatan FB Story + IG + WA Status + Threads, umur 25–65, A+A on; diaktifkan lagi (update targeting memaksa PAUSED) → ACTIVE.
+
+### 2026-11-01 — Elharamain Haji: isi ad set < 3 iklan dengan iklan pemenang (boleh dari akun Haji lain)
+- Diminta: di akun Elharamain Haji (947788760498911), ad set yang iklan aktifnya < 3 diisi iklan pemenang; boleh ambil pemenang dari akun Haji lain.
+- Dikerjakan: 8 ad set diisi 11 iklan pemenang (pakai ulang post via object_story_id), semua langsung ACTIVE:
+  - Campaign Irfan (Page 588336968031663 + IG, pemenang diambil dari akun Haji 3 794403715776985): Haji - 1 - Salin `120250965370750739` +1 (Hajj 2025-52 → ad `120251116304590739`); jawa Barat `120250778252800739` +2 (Haji_Img_04 `120251116307590739`, Haji_Img_06 `120251116309960739`).
+  - Campaign Diana (Page Haji 637020022834756): LLA `120250897629630739` +1 (`120251116312540739`); LLA - 1 `120250897629620739` +2 (`120251116314480739`, `120251116316450739`); Jawa Tengah & Timur `120250778200960739` +1 (`120251116320610739`).
+  - Campaign Tira: Haji `120250848559250739` +2 (`120251116324990739`, `120251116329200739`).
+  - Campaign AIni: Broud `120250253985820739` +1 (`120251116331040739`).
+  - Campaign Nida: Broud `120250253542190739` +1 (`120251116332070739`).
+- Catatan: pemenang dari akun Haji lain hanya bisa dipakai kalau Page-nya sama. Haji 3 dan haji 1050 pakai Page 588, jadi hanya cocok untuk campaign Irfan; campaign lain (Page Haji 637…) pakai pemenang dari akun ini sendiri.
+- Hasil: semua 8 ad set kini punya 3 iklan aktif.

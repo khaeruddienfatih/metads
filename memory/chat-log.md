@@ -2064,3 +2064,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi `120252689334520365` (Rp35.658/0)
   - Haji 947 `120251088659030739` (Rp204.047/4 = Rp51.012), `120251088660100739` (Rp54.786/1), `120251088660230739` (Rp50.728/1)
   - Haji 3 `120252664191830704` Hajj 2025-61 (Rp38.121/0)
+
+### 2026-11-01 19:45 — "kota ganti ke kota 26" + "dan ganti nama adsetnya" (Elharamain Haji, campaign Fifi `120251120447410739`)
+- 5 ad set → lokasi **26 kota** (25 default + Cikarang 955995) radius 40 km + 5 subcity Jakarta; umur & A+A tetap; penempatan tetap seperti buatan user (#1/#2 manual FB+IG+WA+Threads, #3–#5 otomatis).
+- Nama baru: `…447450739` Broud → **26 Kota - Broad 25-65 #1** (ACTIVE) · `…447500739` Jakarta → **#2** (ACTIVE) · `…447570739` Interest → **#3** (PAUSED) · `…454460739` Reatregting → **#4** (PAUSED) · `…447540739` Broud Jkt/Jabar/Banten → **#5** (PAUSED).
+- #1 & #2 dipaksa PAUSED oleh update → diaktifkan lagi, read-back ACTIVE. 15 iklan pemenang tetap PAUSED (menunggu perintah aktifkan).

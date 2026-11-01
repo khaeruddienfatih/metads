@@ -1880,3 +1880,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-01 16:06 — cek routine akun baru setelah user mematikan routine akun lama
 - Routine baru sudah jalan: :43 (14:43 & 15:43 WIB) dan :13 (15:13 WIB), masing-masing 1 commit chat-log ke khaeruddienfatih/metads (14:47, 15:17, 15:47 WIB).
 - Sejak 14:30 tidak ada commit dobel → routine akun lama tampak sudah mati (akun lama tidak bisa dicek langsung dari akun ini).
+
+### 2026-11-01 16:10 — "sekarang ada adset kamu aktifkan setelah kena nonaktif"
+- Read-only dari chat-log: hari ini 4 ad set rule-off dinyalakan (Bagian A): Nida `120251865308470004` (11:50), Fikri `120249534604840470` (14:13), AIni `120253924406900019` (15:13), Haji 3 `120252557031840704` (15:43). Hanif jawa barat `120254774741200427` ditolak berulang (3 hari 0 chat/Rp74rb).

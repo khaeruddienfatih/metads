@@ -1715,3 +1715,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Screenshot mutasi "Incoming" Okt: 7× Rp50 jt dari DHIYAA EL HARAMAIN E + Rp9,7 jt (2 Okt) + Rp2,5 jt KHAERUDDIN (27 Okt) = **Rp362.200.000**.
 - Langganan Rp660.000 ditambahkan ke `rekap-bulanan.md`. Total pengeluaran Okt (iklan + pajak 12% Google/TikTok + langganan) **Rp343.512.996**; dibayar ±Rp343.911.568 → **sisa dana ±Rp18,29 jt**.
 - Koreksi user "yt 154290": YouTube Premium Rp154.290 → langganan Rp679.290; total pengeluaran Okt **Rp343.532.286**, dibayar ±Rp343.930.858, **sisa dana ±Rp18.269.142**.
+- Tambahan user "broudcast whatsapp Rp5.466.819": dimasukkan ke `rekap-bulanan.md`. Total pengeluaran Okt **Rp348.999.105**, dibayar ±Rp349.397.677, **sisa dana ±Rp12.802.323**.

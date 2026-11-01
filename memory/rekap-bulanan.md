@@ -14,10 +14,12 @@ Meta Ads tidak kena pajak (invoice Meta: VAT 0%).
 
 **Biaya lain (langganan, angka dari user 1 Nov):** Meta Verified Rp400.000 · Linktree Rp125.000 · YouTube Premium Rp154.290 (dikoreksi user dari 135rb) = **Rp679.290**.
 
-**Total pengeluaran Okt (iklan + pajak + langganan): Rp343.532.286** (dibayar ±Rp343.930.858).
+**Broadcast WhatsApp (1 Nov, angka user):** Rp5.466.819.
+
+**Total pengeluaran Okt (iklan + pajak + langganan + broadcast WA): Rp348.999.105** (dibayar ±Rp349.397.677).
 
 **Dana masuk Okt** (screenshot mutasi "Incoming" user, 1 Nov): DHIYAA EL HARAMAIN E 7× Rp50.000.000 (1, 5, 10, 14, 17, 23, 28 Okt) + Rp9.700.000 (2 Okt) + KHAERUDDIN Rp2.500.000 (27 Okt) = **Rp362.200.000** (kalau daftar di screenshot masih berlanjut ke bawah, angka bisa lebih).
-→ **Sisa dana ±Rp18.269.142** (dana masuk − yang sudah dibayar) / Rp18.667.714 (dana masuk − total biaya).
+→ **Sisa dana ±Rp12.802.323** (dana masuk − yang sudah dibayar) / Rp13.200.895 (dana masuk − total biaya).
 
 - Chat WA dari Meta: 7.286 (Umroh 4.536 · Haji 2.748 · lainnya 2) → CPR Meta Rp44.364; biaya semua platform (+pajak) ÷ chat Meta = Rp47.056.
 - Meta per kelompok: Umroh Rp208,04 jt / 4.536 chat (Rp45,9rb) · Haji Rp109,43 jt / 2.748 chat (Rp35,3rb) · Elharamainwisata Rp5,63 jt (0 chat) · elharamain Profile Rp0,14 jt / 2 chat.

@@ -2269,3 +2269,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-02 06:45 — "koreksi lagi table tidak ada yang laporan paling atas"
 - Penyebab: header tabel (Kategori/Biaya/Chat/CPR…) putih di atas putih karena Gmail membuang `background:`. Diperbaiki (background-color + bgcolor + <font color>). Email uji 06:35 (Gmail `1a19977b29740658`) dicek: header bgcolor #1f4e79 tersimpan, baris zebra & total berwarna, subjek "… 01 Nov 2026 (Rekap Harian)", total cocok (Umroh Rp5.214.413/156, Haji Rp2.484.172/90).
+
+### 2026-11-02 06:50 — "ga perlu ada perbandingan kemarin"
+- Laporan pagi (06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY` & 08:00 pimpinan `trig_01NydaDZaZmHdb68jLxpn13R`): kolom pembanding kemarin lusa dihapus; query hanya tanggal laporan. `tools/cek_laporan.py` kini menolak laporan yang masih berisi biaya_lalu/chat_lalu. Berlaku mulai email pimpinan 08:00 hari ini.

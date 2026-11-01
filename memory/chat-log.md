@@ -1717,3 +1717,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Koreksi user "yt 154290": YouTube Premium Rp154.290 → langganan Rp679.290; total pengeluaran Okt **Rp343.532.286**, dibayar ±Rp343.930.858, **sisa dana ±Rp18.269.142**.
 - Tambahan user "broudcast whatsapp Rp5.466.819": dimasukkan ke `rekap-bulanan.md`. Total pengeluaran Okt **Rp348.999.105**, dibayar ±Rp349.397.677, **sisa dana ±Rp12.802.323**.
 - Keterangan user: Rp9,7 jt (2 Okt) = hosting elharamainnews, Rp2,5 jt (27 Okt, KHAERUDDIN) = Claude. Ditambahkan sebagai pengeluaran → total pengeluaran Okt **Rp361.199.105**, dibayar ±Rp361.597.677, **sisa dana ±Rp602.323** (dana iklan Rp350 jt hampir habis terpakai).
+
+### 2026-11-01 — "laporan ini kirim ke khaeruddien@gmail.com berikut dengan semuanya"
+- Email HTML lengkap terkirim ke khaeruddien@gmail.com (Gmail id 1a1948c203265969), subjek "Laporan Iklan & Keuangan Oktober 2026 — Elharamain Wisata (lengkap)": ringkasan dana, dana masuk, pengeluaran (+pajak 12% Google/TikTok), hasil chat Meta Umroh/Haji, per akun (chat/biaya/CPR/ditagih/belum ditagih), akun lain, catatan. Tanpa lampiran file.

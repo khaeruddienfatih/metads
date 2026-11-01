@@ -2115,3 +2115,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi: 120252689334520365 (Ramadhan jawa barat Desain 3 #4, Rp35.693/0).
   - Haji: 120251088659030739 (Rp204.047/4 = Rp51.012), 120251088660100739 (Rp54.791/1).
   - Haji 3: 120252664191830704 (Hajj 2025-61, Rp38.167/0).
+
+### 2026-11-01 21:12 — "kenapa belum ada email masuk"
+- Dicek: routine 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77` jalan 21:08 WIB, email HTML terkirim 21:09 WIB (Gmail id `1a19771c33cd9dc0`, label SENT) dari **khaeruddien@gmail.com** (akun Gmail connector) ke elharamainwisata@gmail.com, subjek "Laporan Malam 01 Nov 2026 s.d. 21:08 WIB — Umroh 139 chat Rp4.941.356 | Haji 85 chat Rp2.396.829". Kemungkinan masuk Spam/Promosi/Update di elharamainwisata. Laporan 12:00 & 16:00 hari ini belum ada (routine baru dibuat 18:53).

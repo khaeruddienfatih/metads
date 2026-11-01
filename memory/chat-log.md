@@ -2275,3 +2275,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-02 06:43 — "coba kirim lagi"
 - Routine 06:00 dijalankan manual → terkirim 06:42 WIB (Gmail `1a1997e1b360787d`) "Laporan Iklan Elharamain Wisata 01 Nov 2026 (Rekap Harian)"; dicek: ringkasan hanya kolom Kategori/Biaya/Chat/CPR (tanpa kemarin lusa). Umroh Rp5.214.481/156 chat, Haji Rp2.484.185/90 chat, total Rp7.698.666/246 chat (CPR Rp31,3rb).
+
+### 2026-11-02 06:50 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat rule-off hari ini: Hanif `jawa barat` 120254774741200427 (hari ini 2 chat/Rp27.773, tapi 3 hari 1 chat/Rp76.557 > Rp50rb → tidak dinyalakan); Irfan `12 hari januari` 120253687617460414 (0 chat hari ini → tidak).
+- **B (pause ad set boros):** Irfan 1060984719243481 — ad set `Indonesia` 120253330258920414 (campaign `new`): spend hari ini Rp44.694, 1 chat (> Rp40rb & < 2 chat) → PAUSED, terverifikasi (is_draft=false).
+- **C (pause iklan mahal sepanjang waktu):** 17 iklan PAUSED (semua respons sukses, is_draft=false):
+  - Tira 868364731529534: 120252902837040584 `Video 9 Hari Januari | januari_3 | 25 Kota J#2` Rp51.209/1 chat (Rp51.209/chat)
+  - Hanif 482252744648260: 120255131612430427 `12 Hari Januari | Desain 2 #2 - winner` Rp35.091/0 chat; 120254944599680427 `12 Hari Januari Indonesia | Desain 2 #3` Rp52.032/1 chat
+  - Allif 4678183395742010: 120252223502030228 `Ramadhan | Desain 2 #1` Rp36.236/0 chat
+  - AIni 814396810761205: 120253979826570019 (Rp51.132/1 chat), 120253979845710019 (Rp35.456/0), 120253979554490019 (Rp42.875/0), 120253979829020019 (Rp37.072/0), 120253924406920019 (Rp36.111/0)
+  - Irfan 1060984719243481: 120253634661040414 (Rp56.425/1), 120253634660860414 (Rp61.286/1), 120253687649590414 (Rp53.493/1), 120253654923610414 (Rp51.671/1)
+  - Fifi 521083143750270: 120252689334520365 `Ramadhan jawa barat | Desain 3 #4 - winner` Rp35.698/0 chat
+  - Haji 947788760498911: 120251088659030739 (Rp204.123/4 chat = Rp51.031), 120251116332070739 (Rp51.915/1), 120251088660100739 (Rp55.902/1)
+  - Haji 3 794403715776985: 120252664191830704 `Hajj 2025-61` Rp38.297/0 chat

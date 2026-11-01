@@ -1762,3 +1762,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi: `120252689349760365` (36.836/0), `120252689331440365` (46.371/0), `120252688719240365` (105.029/2), `120252665445480365` (202.901/4), `120252598146940365` (38.959/0), `120252512320930365` (53.221/1).
   - Elharamain Haji 947788760498911: `120251088647190739`, `120250930968180739`, `120251088651160739`, `120251069909800739`, `120250897664800739`, `120251088661470739`, `120251088660830739`.
   - Haji 4 1526562231314028: `120257334132050768` (61.666/1), `120257334129790768` (37.245/0), `120257334134600768` (58.427/1). (Sempat salah akun 1050343302646341 → error "does not own this entity", diulang di akun yang benar, sukses.)
+
+### 2026-11-01 — "sekarang masuk akun tira" (isi ad set kosong, sama seperti Nida/Irfan/Hanif)
+- Tira 868364731529534, campaign "new" `120252918632890584` (Rp200rb, ACTIVE): 5 ad set kosong diisi iklan pemenang (object_story_id, Page 588336968031663 + IG) → 13 iklan ACTIVE:
+  - 9 Hari `…632950584`: januari_2 (Tira, 65 chat/Rp26rb), Desain 9 #5 (Tira), januari_4 (Nida)
+  - 9 Hari `…632930584`: januari_5 (Nida), Desain 7 #3 (Irfan), januari_8 (Irfan)
+  - 12 Hari `…633000584`: Img 3/12_hari_januari_3 (Tira, 37 chat/Rp37,6rb), Desain 2 #2 (Irfan), 12_hari_januari_4 (Hanif)
+  - 12 Hari `…632940584`: 12_hari_januari_5 (Nida) ACTIVE + 2 iklan BARU PAUSED (Desain 2 12H #5 hash de51b9…, 12_hari_januari_2 hash dd96bc…, teks 12 Hari terbaru) — pemenang 12 Hari dengan gambar unik habis
+  - Ramadhan `…632980584`: Desain 3 #4 (Irfan), Desain 2 #5 (Irfan), Desain 3 #2 (Hanif)
+- 5 ad set: 26 kota (25 + Cikarang) radius 40 km + 5 subcity Jakarta, penempatan FB Story + IG + WA Status + Threads, umur 25–65, A+A on; diaktifkan lagi (update targeting memaksa PAUSED) → ACTIVE.

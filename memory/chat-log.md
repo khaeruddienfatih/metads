@@ -2090,3 +2090,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi: `120252689334520365` (Ramadhan jawa barat | Desain 3 #4 - winner) Rp35.692/0.
   - Haji 947: `120251088659030739` Rp204.047/4 (=51.011); `120251088660100739` Rp54.786/1; `120251088660230739` Rp50.728/1.
   - Haji 3: `120252664191830704` (Hajj 2025-61) Rp38.167/0.
+
+### 2026-11-01 19:50 — "aktipkan" (Elharamain Haji, campaign Fifi `120251120447410739`)
+- 15 iklan pemenang + ad set #3 `…447570739`, #4 `…454460739`, #5 `…447540739` diaktifkan (atas perintah user). Read-back: semua 5 ad set & 15 iklan status ACTIVE; efektif 2 iklan ACTIVE, sisanya IN_PROCESS / PENDING_REVIEW (review Meta).
+- Catatan: jadwal malam OFF jam 22:00 akan ikut mem-PAUSE ad set ini dan menyalakannya lagi jam 04:00.

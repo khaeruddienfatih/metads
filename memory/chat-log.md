@@ -2000,3 +2000,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-01 18:57 — "cukup perhari saja tidak perlu di bandingkan"
 - Routine laporan 12:00/16:00/21:00 `trig_01D9NHsCepUj6rvi7cs5nt77`: pembanding kemarin dihapus — hanya chat, biaya, CPR hari ini s.d. jam laporan. Laporan pagi 06:00 tidak diubah.
+
+### 2026-11-01 19:05 — "cek apa ada iklan baru yang belum di aktipkan"
+- Read-only, 14 akun: iklan dibuat ≥ 29 Okt dengan status PAUSED. Draft belum terbit: tidak ada (Haji 3, Haji 2, haji 1050…, AIni, Diana, Hanif, Fikri).
+- **Belum pernah aktif (spend Rp0): 3 iklan Haji 3 (794403715776985)**, ad set `120253090182010704` "Haji 2 - Salin" (campaign Aini, ad set ACTIVE), dibuat 30 Okt 15:24: `120253141180120704` Desain 3 #1, `120253141179800704` Premium #6, `120253141179370704` Desain 4 #4. Belum diaktifkan — menunggu perintah user.
+- Iklan baru PAUSED lain (±30 iklan, Tira/Allif/Fikri/AIni/Irfan/Fifi/Diana/Haji/Haji 4) semuanya sudah belanja Rp37rb–Rp204rb → dimatikan aturan CPR (bagian C), bukan iklan yang belum diaktifkan.

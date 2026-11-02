@@ -150,6 +150,14 @@ def _tanya_claude(chat_id, pertanyaan):
         hasil = subprocess.run([CLAUDE, "-p", prompt, "--output-format", "text",
                                 "--allowedTools", ALLOWED_TOOLS] + sesi, cwd=REPO,
                                capture_output=True, text=True, timeout=TIMEOUT)
+        if hasil.returncode != 0 or not hasil.stdout.strip():
+            time.sleep(3)  # konektor MCP kadang putus → coba sekali lagi
+            if "--session-id" in sesi:  # id lama mungkin sudah terpakai oleh percobaan gagal
+                sid = str(uuid.uuid4())
+                sesi = ["--session-id", sid]
+            hasil = subprocess.run([CLAUDE, "-p", prompt, "--output-format", "text",
+                                    "--allowedTools", ALLOWED_TOOLS] + sesi, cwd=REPO,
+                                   capture_output=True, text=True, timeout=TIMEOUT)
         jawab = hasil.stdout.strip() or ("Error:\n" + hasil.stderr.strip()[-3000:])
         if hasil.returncode == 0:
             d[str(chat_id)] = sid

@@ -2796,3 +2796,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - `--strict-mcp-config` TIDAK dipakai: konektor claude.ai (Meta Ads/Gmail) tidak ada di file config, jadi flag itu akan membuang Meta Ads juga.
 - Dikerjakan: commit perubahan bot.py (sesi per chat, /baru, kunci per chat) + .gitignore → `git pull` bot tidak gagal lagi.
 - Tertunda (saran ke user): matikan konektor tak terpakai (Canva, vidIQ, Tebar, WordPress, Docs, Drive) di claude.ai → Settings → Connectors; perkecil chat-memory.md.
+
+### 2026-11-02 — "Versi max" (kerjakan semua perbaikan bot)
+- chat-memory.md diringkas 40 KB → 25 KB: riwayat per akun, tabel budget Haji, sebaran Riyadh Air dipindah ke `memory/arsip-status-akun.md` (tidak dimuat otomatis). Semua aturan tetap.
+- bot.py: retry otomatis 1× kalau `claude -p` gagal/kosong (konektor putus). Perlu restart service: `systemctl --user restart elharamain-bot`.
+- Tertunda: user matikan konektor tak terpakai di claude.ai & tutup Chrome/Warp di Mac mini.

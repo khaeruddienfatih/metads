@@ -2786,3 +2786,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-02 — "Saya mau kamu paham apa yang dikerjakan & ditanyakan" (via Telegram)
 - Keluhan lanjutan: jawaban bot terasa nyambung-nggak-nyambung (tiap pesan = sesi baru tanpa ingatan). Tidak ada tugas Meta Ads.
 - Dijawab: minta maaf, jelaskan penyebab, tawarkan perbaikan `--resume` per chat. Tertunda: persetujuan user.
+
+### 2026-11-02 — Bot metaads lola (yang lain lancar)
+- Diagnosa (tanpa perubahan kode): RAM 15,9 GB terpakai 12 GB, swap 3,9/4 GB penuh, load 5,5 — Chrome (beberapa renderer) + warp-terminal memakan CPU/RAM Mac mini.
+- Tiap pesan bot: git pull (gagal karena ada perubahan belum di-commit di bot.py/.gitignore) + `claude -p` memuat CLAUDE.md + chat-memory.md (besar) + konektor MCP → berat saat RAM habis.
+- Saran: tutup Chrome/Warp di Mac mini, commit perubahan bot.py, pertimbangkan perkecil chat-memory.md. Tertunda: menunggu user.

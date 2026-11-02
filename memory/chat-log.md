@@ -2782,3 +2782,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-02 — "Jadi bodoh apa ada yang salah" (via Telegram)
 - Pesan tidak jelas; dicek bot Telegram: service `elharamain-bot` aktif & berjalan normal (proses bot.py hidup), tidak ada error.
 - Tertunda: menunggu penjelasan user bagian mana yang dianggap salah.
+
+### 2026-11-02 — "Saya mau kamu paham apa yang dikerjakan & ditanyakan" (via Telegram)
+- Keluhan lanjutan: jawaban bot terasa nyambung-nggak-nyambung (tiap pesan = sesi baru tanpa ingatan). Tidak ada tugas Meta Ads.
+- Dijawab: minta maaf, jelaskan penyebab, tawarkan perbaikan `--resume` per chat. Tertunda: persetujuan user.

@@ -2353,3 +2353,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Penyebab utama: **WhatsApp Status** — Allif 42% biaya (Rp2,09 jt) di WA Status, 1,62 juta tayangan, CPM Rp1.288; Fifi hanya 13% di WA Status (CPM Rp4.880, 37 chat ≈ Rp28rb/chat) dan 51% di IG Feed (CPM Rp104rb, ≈ Rp44rb/chat).
 - Faktor lain: ad set Allif kebanyakan lama dengan target provinsi luas (Jateng, Jatim, Jabar, Indonesia) & mobile-only; IG/FB Allif tetap mahal (CPM Rp50–160rb). Ad set terbaik: 9 Hari jawa tengah 32 chat Rp19,6rb; Traffic 12 Hari Januari 20 chat Rp19,2rb; JB Broad #2/#3 Rp20–25rb.
 - Saran (belum dikerjakan, tunggu user): uji ad set baru di akun lain dengan porsi WA Status lebih besar / target provinsi luas. Tidak ada perubahan.
+### 2026-11-02 08:44 — cek 30 menit (cloud)
+- **A (nyala lagi):** tidak ada. Kandidat rule-off hari ini: Hanif `jawa barat` 120254774741200427 (hari ini 2 chat/Rp14.163 tapi 3 hari 1 chat/Rp76.557 ≥ 50rb → tidak), Hanif Ramadhan 120254963922420427 (0 chat), Irfan 120253448429070414 & 120253687617440414 (0 chat) — tidak dinyalakan.
+- **B (pause ad set):** Hanif 482252744648260 — ad set `Ramadhan` 120255131570750427 (campaign Sales): spend hari ini Rp47.511, 1 chat (> Rp40rb & <2 chat). Terverifikasi PAUSED.
+- **C (pause iklan, sepanjang waktu) — 21 iklan, semua PAUSED (live):**
+  - Tira 868364731529534: 120252902851380584 (Rp35.904/0 chat), 120252902837040584 (Rp51.209/1 chat = Rp51.209)
+  - Hanif 482252744648260: 120255131612430427 (Rp36.129/0 chat), 120254944599680427 (Rp52.032/1 chat)
+  - Allif 4678183395742010: 120252223502030228 (Rp36.237/0 chat)
+  - AIni 814396810761205: 120253979845710019 (Rp35.605/0), 120253979554490019 (Rp42.875/0), 120253979829020019 (Rp37.072/0), 120253924406920019 (Rp36.111/0), 120253979826570019 (Rp51.166/1 chat)
+  - Irfan 1060984719243481: 120253654917990414 (Rp41.529/0), 120253634661040414 (Rp56.477/1), 120253634660860414 (Rp61.286/1), 120253687649590414 (Rp53.493/1), 120253654923610414 (Rp51.671/1)
+  - Fifi 521083143750270: 120252689334520365 (Rp35.698/0)
+  - Haji 947788760498911: 120251116304590739 (Rp36.229/0), 120251088660100739 (Rp56.064/1), 120251088659030739 (Rp204.173/4 = Rp51.043), 120251116332070739 (Rp51.924/1)
+  - Haji 3 794403715776985: 120252664191830704 (Rp38.297/0)
+  - Catatan: beberapa iklan (Tira …837040584/…851380584, Hanif …612430427/…599680427, Allif …502030228, Fifi …334520365, Haji 3 …191830704) berulang kali bolak-balik Inactive↔Pending Process oleh "ads MCP server" sejak pagi — kemungkinan tertarik aktif lagi oleh aktivasi ad set; sekarang di-PAUSE.

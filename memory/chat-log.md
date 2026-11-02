@@ -2325,3 +2325,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947788760498911: 120251116304590739 (Rp35.729/0), 120251116332070739 (Rp51.924/1), 120251088659030739 (Rp204.173/4), 120251088660100739 (Rp56.064/1)
   - Haji 3 794403715776985: 120252664191830704 `Hajj 2025-61` (Rp38.297/0)
 - Catatan: log aktivitas menunjukkan beberapa iklan ini (mis. Tira 120252902837040584, Hanif 120254944599680427) berulang kali berstatus Inactive↔Pending Process tiap 30 menit sejak 04:15 — kemungkinan ada yang mengaktifkan lagi (auto rule/jadwal pagi) sehingga muncul ACTIVE lagi di cek berikutnya; perlu dipantau.
+
+### 2026-11-02 08:40 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat rule-off hari ini: Hanif jawa barat `120254774741200427` (hari ini 2 chat/Rp28.326 = Rp14,2rb, tapi 3 hari 1 chat/Rp76.557 > Rp50rb → tidak dinyalakan); Irfan `120253448429070414`/`…617440414`/`…617460414` & Haji(947) `120250965370750739` 0 chat hari ini → tidak.
+- **B (pause ad set boros hari ini):** Hanif `482252744648260` ad set Ramadhan `120255131570750427` (campaign Sales): spend hari ini Rp47.244, 1 chat (> Rp40rb & < 2 chat) → PAUSED (terverifikasi).
+- **C (pause iklan mahal sepanjang waktu), semua terverifikasi PAUSED:**
+  - Tira `868364731529534`: `120252902851380584` (Video 12 Hari Januari | 12_hari_januari_3, Rp35.904/0 chat); `120252902837040584` (Video 9 Hari Januari | januari_3, Rp51.209/1 chat).
+  - Allif `4678183395742010`: `120252223502030228` (Ramadhan | Desain 2 #1, Rp36.237/0 chat).
+  - Hanif `482252744648260`: `120254944599680427` (12 Hari Januari Indonesia | Desain 2 #3, Rp52.032/1 chat); `120255131612430427` (12 Hari Januari | Desain 2 #2 - winner, Rp36.096/0 chat).
+  - AIni `814396810761205`: `120253979826570019` (Rp51.166/1), `120253979554490019` (Rp42.875/0), `120253979829020019` (Rp37.072/0), `120253924406920019` (Rp36.111/0), `120253979845710019` (Rp35.598/0).
+  - Irfan `1060984719243481`: `120253634660860414` (Rp61.286/1), `120253634661040414` (Rp56.477/1), `120253687649590414` (Rp53.493/1), `120253654923610414` (Rp51.671/1).
+  - Fifi `521083143750270`: `120252689334520365` (Ramadhan jawa barat | Desain 3 #4 - winner, Rp35.698/0 chat).
+  - Elharamain Haji `947788760498911`: `120251088659030739` (Rp204.173/4 = Rp51.043), `120251088660100739` (Rp56.064/1), `120251116332070739` (Rp51.924/1), `120251116304590739` (Rp36.196/0).
+  - Haji 3 `794403715776985`: `120252664191830704` (Hajj 2025-61, Rp38.297/0 chat).
+- Catatan: Diana, Nida, Fikri, Haji 2, Haji 4, haji 1050… tidak ada yang memenuhi syarat.

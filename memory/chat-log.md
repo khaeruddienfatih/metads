@@ -2414,3 +2414,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **B (pause ad set):** Hanif 482252744648260 — `120255131570750427` "Ramadhan" (campaign Sales): hari ini Rp47.705, 1 chat (> Rp40rb & <2 chat). Haji 947788760498911 — `120250201672240739` "Interest" (campaign Fikri): hari ini Rp42.647, 1 chat (> Rp40rb & <2 chat). Keduanya terverifikasi PAUSED.
 - **C (pause iklan, sepanjang waktu):** Tira `120252902837040584` Video 9 Hari Januari januari_3 (Rp51.209/1 chat = Rp51.209), `120252902851380584` Video 12 Hari 12_hari_januari_3 (Rp35.904/0 chat); Nida 1019832712800468 `120251938824010004` Sales 9HJ-820 (Rp124.338/2 = Rp62.169), `120251938814460004` Desain 7 #5 new-960 (Rp54.058/0 chat); Hanif `120255131612430427` 12 Hari Desain 2 #2 (Rp36.129/0); Fikri 1676215979752437 `120249877736240470` Ramadhan Desain 3 #2 (Rp50.016/1); AIni 814396810761205 `120253979555240019` (Rp35.602/0), `120253979845710019` (Rp35.607/0), `120253979826570019` (Rp51.227/1), `120253979554490019` (Rp42.875/0); Irfan 1060984719243481 `120253687649590414` (Rp53.493/1), `120253654917990414` (Rp41.621/0), `120253634660860414` (Rp61.286/1), `120253634661040414` (Rp56.477/1); Haji 947 `120251116304590739` (Rp36.766/0). Total 15 iklan, semua terverifikasi PAUSED.
 - Catatan: log aktivitas menunjukkan iklan Tira `…837040584` & `…851380584` kembali aktif/"Pending Process" tiap siklus (di-pause sejak 04:15 tapi balik aktif) — pause tidak bertahan, perlu dicek sumber yang mengaktifkannya lagi.
+
+### 2026-11-02 11:50 — cek 30 menit (cloud)
+- **A (1 nyala):** AIni 814396810761205 — ad set `120253979512830019` "25 Kota - Broad 25-65 #5" (campaign Penjualan ACTIVE), dimatikan rule 10:22. Hari ini 1 chat / Rp22.466 (CPR Rp22.466); 3 hari 6 chat / Rp225.547 (CPR Rp37.591). Diaktifkan (ads_activate_entity tanpa object_ids), status ACTIVE. Kandidat lain tidak lolos (Hanif jawa barat `120254774741200427`: 3 hari CPR Rp76.557; Tira #5/#1, Irfan ×3, Fifi ×2: 0 chat atau CPR hari ini ≥35rb).
+- **B (3 ad set di-PAUSE):** Tira `120252918632950584` "9 hari januari" (campaign new): Rp41.934, 1 chat (>40rb & <2 chat). Hanif `120255131570750427` "Ramadhan" (Sales): Rp47.706, 1 chat. Fifi `120252512245690365` "9 Januari" (Fifi): Rp40.748, 1 chat. Respons update sukses (is_draft=false).
+- **C (14 iklan di-PAUSE, sepanjang waktu):**
+  - Tira: `120252902837040584` Rp51.209/1 chat (CPR 51.209); `120252902851380584` Rp35.904/0 chat.
+  - Nida: `120251938814460004` Rp54.058/0 chat.
+  - Hanif: `120255131612430427` Rp36.129/0 chat.
+  - Fikri: `120249877736240470` Rp50.016/1 chat.
+  - AIni: `120253979826570019` Rp51.227/1 chat; `120253979555240019` Rp35.602/0; `120253979845710019` Rp35.607/0.
+  - Irfan: `120253634661880414` Rp50.210/1; `120253687649590414` Rp53.493/1; `120253634661040414` Rp56.477/1; `120253654917990414` Rp41.621/0; `120253634660860414` Rp61.286/1.
+  - Haji 947788760498911: `120251116304590739` Rp36.766/0 chat.
+  - Respons update sukses semua (is_draft=false).
+- Catatan: Haji 2 (1032…) & haji 1050… tidak punya ad set/iklan aktif relevan; log aktivitas AIni & Irfan besar → dianalisis lewat jq.

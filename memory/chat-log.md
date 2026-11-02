@@ -2815,3 +2815,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 04:00 — jadwal pagi: naik anggaran + ON (cloud)
 - PART 1 naik anggaran: 1 campaign naik — Nida 1019832712800468, campaign 120251865308300004 "Prospek (baru) - Jakarta", CBO, Rp100.000 → Rp110.000 (read-back 110000 OK setelah publish; akun mode draft), CPR H-3/H-2/H-1: Rp17.258/Rp25.455/Rp20.040. Lainnya tidak memenuhi syarat (≥1 hari CPR ≥ Rp30rb / 0 chat) atau masih jeda 3 hari (Nida 12 hari januari, Haji Fikri/Nida, Haji 3 Fikri/Diana/Alif, Haji 4 Diana/Nida). Haji 2 & akun 1050… tidak ada campaign ACTIVE. Allif dikecualikan.
 - PART 2 ON: daftar header 2026-11-02 = H-1 valid. 75 ad set dinyalakan, 0 dilewati, 0 gagal (semua PAUSED & campaign ACTIVE; Allif 7 ad set ikut dinyalakan, hanya dilarang naik budget).
+
+### 2026-11-03 04:13 — cek 30 menit (cloud)
+- A: tidak ada ad set yang dimatikan auto rule hari ini (hanya rule "on" menyalakan Fifi 04:14 & jadwal pagi 04:06).
+- B: tidak ada ad set memenuhi syarat.
+- C: Irfan (1060984719243481) iklan 120253654912090414 "Kota Ramadhan | Desain 3 #4 - winner" (campaign Irfan Indonesia / ramadhan) — sepanjang waktu spend Rp37.372, 0 chat → PAUSED (terverifikasi PAUSED).

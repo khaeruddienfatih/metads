@@ -2642,3 +2642,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 `120252664199770704` 502.014/10 (50,2rb); `120252664163030704` 46.688/0
   - Haji 4 `120257334130910768` 37.926/0
 - Catatan: Haji 4 ad set bukan pixel (optimization_goal CONVERSATIONS) jadi ikut dicek. Verifikasi = respons ads_update_entity success, is_draft=false.
+### 2026-11-02 18:43 — cek 30 menit (cloud)
+- A (nyalakan ad set rule-off): tidak ada. Kandidat CPR hari ini < Rp35rb tapi gagal syarat 3 hari (>Rp50rb/chat): Tira 25 Kota Video #2 `120252902795850584` (3d Rp64.395/1 chat), Irfan 12 Hari Januari `120253548709080414` (3d Rp84.778/1 chat), Hanif jawa barat `120254774741200427` (3d Rp76.557/1 chat).
+- B (pause ad set boros hari ini): tidak ada.
+- C (pause iklan CPR lifetime): 2 iklan 0 chat & spend ≥ Rp35rb di-PAUSE (status terverifikasi PAUSED, effective IN_PROCESS):
+  - Allif 4678183395742010 — iklan `120252538437550228` "Sales Ramadhan | Desain 2 #3 | adset1" (Jawa Barat - Broad 25-65 #1): lifetime Rp36.081, 0 chat.
+  - Irfan 1060984719243481 — iklan `120253654912090414` "Kota Ramadhan | Desain 3 #4 - winner" (ramadhan): lifetime Rp37.283, 0 chat.

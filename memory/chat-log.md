@@ -2766,3 +2766,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947: `120251116304590739` Hajj 2025-52 (37.090/0), `120251116307590739` Haji_Img_04 (36.390/0)
   - Haji 3: `120252664199770704` Haji_Img_03 (502.285/10 = 50,2rb), `120253032877990704` Haji_Img_02 (39.120/0), `120252664163030704` Hajj 2025-46 (46.688/0)
 - Tidak ada error. Fikri, Haji 2, haji 1050 tidak ada yang memenuhi syarat.
+### 2026-11-02 22:05 — "Kenapa jam 21:00 kamu ga kirim laporan" (via Telegram)
+- Dicek: email Siang & Sore 2 Nov terkirim; Malam TIDAK ada. Routine `trig_01D9NHsCepUj6rvi7cs5nt77` enabled, cron benar (14:00 UTC = 21:00 WIB), next_run_at 14:09 UTC, tapi tidak ada run baru setelah 16:11 WIB (scheduler Anthropic tidak menembakkan, bukan error isi routine).
+- Dikerjakan: routine dijalankan manual 22:02 WIB (session `cse_01AVsCnn61ipKDVwe6NLD49E`) → email "Malam" menyusul beberapa menit.
+- Tertunda: pantau apakah run 12/16/21 besok normal.

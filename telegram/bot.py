@@ -20,6 +20,7 @@ import subprocess
 import sys
 import threading
 import time
+import uuid
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -54,6 +55,7 @@ Perintah cepat:
 /kemarin — rekap kemarin
 /log — 5 catatan kerja terakhir (chat-log)
 /routine — jadwal routine otomatis
+/baru — mulai percakapan baru (lupakan konteks)
 /id — tampilkan chat ID Anda
 
 Atau ketik perintah biasa, misalnya:
@@ -100,8 +102,40 @@ def routine():
 Detail & ID: memory/chat-memory.md"""
 
 
+SESI_FILE = Path(__file__).resolve().parent / ".sesi.json"
+_kunci = {}
+_kunci_global = threading.Lock()
+
+
+def _sesi_baca():
+    try:
+        return json.loads(SESI_FILE.read_text())
+    except Exception:
+        return {}
+
+
+def sesi_reset(chat_id):
+    d = _sesi_baca()
+    d.pop(str(chat_id), None)
+    SESI_FILE.write_text(json.dumps(d))
+
+
 def tanya_claude(chat_id, pertanyaan):
+    with _kunci_global:
+        kunci = _kunci.setdefault(chat_id, threading.Lock())
+    with kunci:  # satu pesan per chat sekaligus, supaya urutan percakapan terjaga
+        _tanya_claude(chat_id, pertanyaan)
+
+
+def _tanya_claude(chat_id, pertanyaan):
     git_pull()
+    d = _sesi_baca()
+    sid = d.get(str(chat_id))
+    if sid:
+        sesi = ["--resume", sid]
+    else:
+        sid = str(uuid.uuid4())
+        sesi = ["--session-id", sid]
     prompt = (
         "Pesan ini datang dari user lewat bot Telegram (Mac mini Ubuntu). "
         "Jawab singkat dalam Bahasa Indonesia, cocok dibaca di layar HP (hindari tabel lebar; "
@@ -114,9 +148,14 @@ def tanya_claude(chat_id, pertanyaan):
         pass
     try:
         hasil = subprocess.run([CLAUDE, "-p", prompt, "--output-format", "text",
-                                "--allowedTools", ALLOWED_TOOLS], cwd=REPO,
+                                "--allowedTools", ALLOWED_TOOLS] + sesi, cwd=REPO,
                                capture_output=True, text=True, timeout=TIMEOUT)
         jawab = hasil.stdout.strip() or ("Error:\n" + hasil.stderr.strip()[-3000:])
+        if hasil.returncode == 0:
+            d[str(chat_id)] = sid
+            SESI_FILE.write_text(json.dumps(d))
+        elif "--resume" in sesi:
+            sesi_reset(chat_id)  # sesi rusak → pesan berikut mulai sesi baru
     except subprocess.TimeoutExpired:
         jawab = f"Waktu habis ({TIMEOUT} detik). Coba perintah yang lebih spesifik."
     kirim(chat_id, jawab)
@@ -133,6 +172,9 @@ def proses(msg):
         return
     if teks in ("/start", "/help", "/bantuan"):
         kirim(chat_id, BANTUAN)
+    elif teks == "/baru":
+        sesi_reset(chat_id)
+        kirim(chat_id, "Percakapan baru dimulai (ingatan sebelumnya dilupakan).")
     elif teks == "/log":
         kirim(chat_id, log_terakhir())
     elif teks == "/routine":

@@ -2791,3 +2791,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diagnosa (tanpa perubahan kode): RAM 15,9 GB terpakai 12 GB, swap 3,9/4 GB penuh, load 5,5 — Chrome (beberapa renderer) + warp-terminal memakan CPU/RAM Mac mini.
 - Tiap pesan bot: git pull (gagal karena ada perubahan belum di-commit di bot.py/.gitignore) + `claude -p` memuat CLAUDE.md + chat-memory.md (besar) + konektor MCP → berat saat RAM habis.
 - Saran: tutup Chrome/Warp di Mac mini, commit perubahan bot.py, pertimbangkan perkecil chat-memory.md. Tertunda: menunggu user.
+
+### 2026-11-02 — Kerjakan perbaikan bot lola
+- `--strict-mcp-config` TIDAK dipakai: konektor claude.ai (Meta Ads/Gmail) tidak ada di file config, jadi flag itu akan membuang Meta Ads juga.
+- Dikerjakan: commit perubahan bot.py (sesi per chat, /baru, kunci per chat) + .gitignore → `git pull` bot tidak gagal lagi.
+- Tertunda (saran ke user): matikan konektor tak terpakai (Canva, vidIQ, Tebar, WordPress, Docs, Drive) di claude.ai → Settings → Connectors; perkecil chat-memory.md.

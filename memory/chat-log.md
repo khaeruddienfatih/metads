@@ -2770,3 +2770,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicek: email Siang & Sore 2 Nov terkirim; Malam TIDAK ada. Routine `trig_01D9NHsCepUj6rvi7cs5nt77` enabled, cron benar (14:00 UTC = 21:00 WIB), next_run_at 14:09 UTC, tapi tidak ada run baru setelah 16:11 WIB (scheduler Anthropic tidak menembakkan, bukan error isi routine).
 - Dikerjakan: routine dijalankan manual 22:02 WIB (session `cse_01AVsCnn61ipKDVwe6NLD49E`) → email "Malam" menyusul beberapa menit.
 - Tertunda: pantau apakah run 12/16/21 besok normal.
+
+### 2026-11-02 — Bot Telegram macet
+- Penyebab: bot memproses pesan satu per satu (polling terblokir selama Claude bekerja, maks 15 menit) + koneksi sempat reset 21:44.
+- Perbaikan: tiap pesan diproses di thread sendiri (telegram/bot.py); service di-restart otomatis.

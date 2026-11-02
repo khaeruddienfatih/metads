@@ -2466,3 +2466,23 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan: `120253634661880414` (50.247/1); `120253687649590414` (53.493/1); `120253634661040414` (56.477/1); `120253654917990414` (41.621, 0 chat); `120253634660860414` (61.286/1).
   - Haji (947788760498911): `120251116304590739` Hajj 2025-52 (Haji 3 Alif) (36.966, 0 chat).
   - Haji 3 794403715776985: `120252664163030704` Hajj 2025-46 (46.688, 0 chat).
+### 2026-11-02 13:50 — cek 30 menit (cloud)
+- **A (nyalakan ad set rule-off):** tidak ada. Kandidat rule-off hari ini (Hanif jawa barat `120254774741200427`, Irfan 12 Hari Januari `120253548709080414`) lolos CPR hari ini (<Rp35rb) tapi gagal CPR 3 hari (Rp76,6rb / Rp84,8rb per 1 chat, >Rp50rb).
+- **B (pause ad set boros, terverifikasi PAUSED / update sukses):**
+  - Diana `120251812124630294` 9hari januari (campaign Diana IG) — Rp32.417, 0 chat
+  - Nida `120251630044820004` 9 Hari Januari (campaign 9 Hari Januari) — Rp41.267, 1 chat
+  - Nida `120251989825730004` ramadhan (Nida Sales) — Rp45.426, 1 chat
+  - Hanif `120254774741070427` Jakarta (12 Hari Januari) — Rp42.416, 1 chat
+  - Fikri `120249721533920470` 9 Hari Januari (Fikri Prov) — Rp43.357, 1 chat
+  - Irfan `120253448429060414` 9 januari (Irfan Indonesia) — Rp40.667, 1 chat
+  - Fifi `120252512245690365` 9 Januari (Fifi) — Rp42.138, 1 chat
+  - Haji 947 `120250421335780739` Interest (Hanif) — Rp35.262, 0 chat
+  - Haji 947 `120250201672350739` Broud (Fikri) — Rp34.496, 0 chat
+- **C (pause iklan mahal sepanjang waktu, 16 iklan):**
+  - Tira: `120252902837040584` (Rp51.209/1 chat), `120252902851380584` (Rp35.904/0), `120252918642110584` (Rp36.352/0)
+  - Hanif: `120255131612430427` (Rp36.142/0)
+  - Fikri: `120249877736240470` (Rp50.016/1), `120249877734360470` (Rp110.303/2)
+  - AIni: `120253979555240019` (Rp35.602/0), `120253979845710019` (Rp35.607/0), `120253979583120019` (Rp254.306/5 = Rp50,9rb)
+  - Irfan: `120253634661880414` (Rp50.247/1), `120253687649590414` (Rp53.493/1), `120253634661040414` (Rp56.477/1), `120253634660860414` (Rp61.286/1), `120253654917990414` (Rp41.621/0)
+  - Haji 947: `120251116304590739` (Rp36.966/0)
+  - Haji 3: `120252664163030704` (Rp46.688/0)

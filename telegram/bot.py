@@ -18,6 +18,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -146,6 +147,14 @@ def proses(msg):
         tanya_claude(chat_id, teks)
 
 
+def proses_aman(msg):
+    # Tiap pesan jalan di thread sendiri supaya polling tidak macet saat Claude bekerja lama
+    try:
+        proses(msg)
+    except Exception as e:
+        print("error proses:", e, file=sys.stderr)
+
+
 def main():
     if not TOKEN:
         sys.exit("TELEGRAM_BOT_TOKEN belum diisi di telegram/.env")
@@ -160,7 +169,7 @@ def main():
             for u in r.get("result", []):
                 offset = u["update_id"] + 1
                 if "message" in u:
-                    proses(u["message"])
+                    threading.Thread(target=proses_aman, args=(u["message"],), daemon=True).start()
         except Exception as e:
             print("error polling:", e, file=sys.stderr)
             time.sleep(5)

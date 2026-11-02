@@ -2339,3 +2339,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Elharamain Haji `947788760498911`: `120251088659030739` (Rp204.173/4 = Rp51.043), `120251088660100739` (Rp56.064/1), `120251116332070739` (Rp51.924/1), `120251116304590739` (Rp36.196/0).
   - Haji 3 `794403715776985`: `120252664191830704` (Hajj 2025-61, Rp38.297/0 chat).
 - Catatan: Diana, Nida, Fikri, Haji 2, Haji 4, haji 1050… tidak ada yang memenuhi syarat.
+
+### 2026-11-02 — Setup repo di Mac mini Ubuntu
+- User clone `khaeruddienfatih/metads` ke `~/metaads` di Mac mini Ubuntu, lalu menjalankan `telegram/setup-ubuntu.sh` (lewat terminal biasa karena sudo butuh password).
+- Hasil: Claude Code 2.1.316 terpasang; remote push ganda (origin + cadangan elharamainwisata) aktif; git identity "Elharamain Mac mini"; `gh` login `elharamainwisata` (token tanpa izin tulis → push 403, user diminta login ulang sebagai `khaeruddienfatih`); service `elharamain-bot` enabled tapi belum jalan.
+- Tertunda: isi `telegram/.env` (token BotFather + chat ID dari `/id`), lalu `systemctl --user restart elharamain-bot` dan tes `/start`, `/log`, `/laporan` di Telegram.

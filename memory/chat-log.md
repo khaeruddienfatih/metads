@@ -2346,3 +2346,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Tertunda: isi `telegram/.env` (token BotFather + chat ID dari `/id`), lalu `systemctl --user restart elharamain-bot` dan tes `/start`, `/log`, `/laporan` di Telegram.
 - Lanjutan: login ulang `gh` sebagai `khaeruddienfatih` (OAuth, scope repo) → push ke `khaeruddienfatih/metads` dan cadangan `elharamainwisata/metads` berhasil.
 - Bot Telegram `@elharamain_bot` (nama "metaads") jalan di Mac mini: token diisi di `telegram/.env`, chat ID user diizinkan, service `elharamain-bot` active. Token sempat tampil di output sesi Claude → disarankan `/revoke` di @BotFather lalu isi token baru.
+
+### 2026-11-02 — "Mau tau kenapa alif chatnya murah" (via Telegram)
+- Analisis read-only akun Allif 4678183395742010 vs Fifi 521083143750270, 7 hari terakhir.
+- Allif: spend Rp4,95 jt, CPM Rp2.975, ±145 chat (±Rp34rb/chat; kemarin Rp28,7rb). Fifi: Rp7,79 jt, CPM Rp27.283.
+- Penyebab utama: **WhatsApp Status** — Allif 42% biaya (Rp2,09 jt) di WA Status, 1,62 juta tayangan, CPM Rp1.288; Fifi hanya 13% di WA Status (CPM Rp4.880, 37 chat ≈ Rp28rb/chat) dan 51% di IG Feed (CPM Rp104rb, ≈ Rp44rb/chat).
+- Faktor lain: ad set Allif kebanyakan lama dengan target provinsi luas (Jateng, Jatim, Jabar, Indonesia) & mobile-only; IG/FB Allif tetap mahal (CPM Rp50–160rb). Ad set terbaik: 9 Hari jawa tengah 32 chat Rp19,6rb; Traffic 12 Hari Januari 20 chat Rp19,2rb; JB Broad #2/#3 Rp20–25rb.
+- Saran (belum dikerjakan, tunggu user): uji ad set baru di akun lain dengan porsi WA Status lebih besar / target provinsi luas. Tidak ada perubahan.

@@ -2392,3 +2392,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi: 120252689334520365 (Rp35.698/0)
   - Haji 947: 120251116332070739 (Rp51.938/1), 120251116304590739 (Rp36.563/0)
 - Catatan: log aktivitas menunjukkan beberapa iklan (Tira …837040584/…851380584, Hanif …612430427, Allif …502030228, Fifi …334520365) berulang kali Inactive→Pending Process→Inactive sejak 04:15 tapi tetap terbaca ACTIVE di tiap cek — kemungkinan ada yang menyalakan lagi (mis. aktivasi ad set); perlu dipantau.
+### 2026-11-02 10:50 — cek 30 menit (cloud)
+- **A (nyalakan ad set rule-off):** tidak ada. Kandidat dicek & gagal syarat: Tira Video #5 `120252902799160584` (hari ini Rp53.095/1 chat), Video #1 `120252902795780584` (0 chat), Nida 12 hari `120251989825750004` (Rp36.763/1 chat), Hanif jawa barat `120254774741200427` (hari ini Rp14.163/chat tapi 3 hari Rp76.557/1 chat), Fifi `120252597263980365` & `120252429755530365` (0 chat hari ini), AIni #5 `120253979512830019`, Irfan `120253548709080414`/`120253448429070414`/`120253687617440414`, Haji `120250848559250739`, Haji 4 Gambar `120256622022560768` (semua 0 chat hari ini).
+- **B (pause ad set boros hari ini, verified PAUSED):**
+  - Hanif 482252744648260 — `120255131570750427` Ramadhan, campaign Sales: Rp47.705 / 1 chat (>40rb & <2 chat).
+  - Fikri 1676215979752437 — `120249450585120470` 9 Hari Januari, campaign Fikri: Rp41.736 / 1 chat (>40rb & <2 chat).
+- **C (pause iklan lifetime mahal; update sukses is_draft=false; sebagian terbaca IN_PROCESS saat verifikasi):**
+  - Tira 868364731529534: `120252902851380584` Video 12 Hari 25 Kota J#3 (Rp35.904/0 chat); `120252902837040584` Video 9 Hari 25 Kota J#2 (Rp51.209/1 chat).
+  - Nida 1019832712800468: `120251938773180004` Sales Ramadhan D2 #5 (Rp57.072/0); `120251938824010004` Sales 9 Hari januari_6 (Rp124.338/2); `120251938814460004` Sales 9 Hari Desain 7 #5 (Rp54.058/0).
+  - Hanif: `120255131612430427` 12 Hari Desain 2 #2 winner (Rp36.129/0).
+  - AIni 814396810761205: `120253979555240019` (Rp35.602/0); `120253979826570019` (Rp51.227/1); `120253979845710019` (Rp35.605/0); `120253979554490019` (Rp42.875/0).
+  - Irfan 1060984719243481: `120253654908150414` (Rp50.722/1); `120253634661040414` (Rp56.477/1); `120253634660860414` (Rp61.286/1); `120253687649590414` (Rp53.493/1); `120253654917990414` (Rp41.621/0).
+  - Fifi 521083143750270: `120252689334520365` (Rp35.698/0).
+  - Haji 947788760498911: `120251116304590739` (Rp36.707/0); `120251116332070739` (Rp51.938/1).
+- Catatan: iklan Tira J#2/J#3, Nida 9HJ-820/Desain 7 #5, Hanif Desain 2 #2 tercatat di log aktivitas berkali-kali "Active→Pending→Inactive" sejak 04:15 — sepertinya ada proses lain (aturan ON/ad set diaktifkan) yang menghidupkan lagi tiap jam; perlu dicek user.

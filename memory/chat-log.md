@@ -2379,3 +2379,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi: `120252689334520365` (Rp35.698/0)
   - Haji 947: `120251116332070739` (Rp51.936/1), `120251116304590739` (Rp36.539/0), `120251088660100739` (Rp56.064/1), `120251088659030739` (Rp204.173/4 = Rp51.043)
   - Haji 3 794: `120252664191830704` (Rp38.297/0)
+### 2026-11-02 09:48 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Kandidat rule-off dicek: Tira "25 Kota Video #2" 120252902795850584 (hari ini 1 chat Rp21.368, tapi 3 hari Rp64.395/1 chat > Rp50rb), Hanif "jawa barat" 120254774741200427 (2 chat Rp28.326, 3 hari Rp76.557/1 chat > Rp50rb) → gagal syarat 3 hari; lainnya 0 chat.
+- **B (pause ad set):** Hanif (482252744648260) ad set "Ramadhan" 120255131570750427, campaign Sales — hari ini Rp47.700 & 1 chat (> Rp40rb & < 2 chat) → PAUSED, terverifikasi.
+- **C (pause iklan, lifetime):** 19 iklan PAUSED, terverifikasi.
+  - Tira: 120252902851380584 (Rp35.904/0 chat), 120252902837040584 (Rp51.209/1 chat)
+  - Nida: 120251938814460004 (Rp53.983/0 chat), 120251938824010004 (Rp124.338/2 chat = Rp62rb)
+  - Hanif: 120255131612430427 (Rp36.129/0 chat)
+  - Allif: 120252223502030228 (Rp36.237/0 chat)
+  - AIni: 120253979555240019 (Rp35.597/0), 120253924406920019 (Rp36.111/0), 120253979845710019 (Rp35.605/0), 120253979826570019 (Rp51.199/1), 120253979554490019 (Rp42.875/0)
+  - Irfan: 120253634661040414 (Rp56.477/1), 120253634660860414 (Rp61.286/1), 120253654917990414 (Rp41.621/0), 120253687649590414 (Rp53.493/1), 120253654923610414 (Rp51.671/1)
+  - Fifi: 120252689334520365 (Rp35.698/0)
+  - Haji 947: 120251116332070739 (Rp51.938/1), 120251116304590739 (Rp36.563/0)
+- Catatan: log aktivitas menunjukkan beberapa iklan (Tira …837040584/…851380584, Hanif …612430427, Allif …502030228, Fifi …334520365) berulang kali Inactive→Pending Process→Inactive sejak 04:15 tapi tetap terbaca ACTIVE di tiap cek — kemungkinan ada yang menyalakan lagi (mis. aktivasi ad set); perlu dipantau.

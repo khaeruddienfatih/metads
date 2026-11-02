@@ -2820,3 +2820,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada ad set yang dimatikan auto rule hari ini (hanya rule "on" menyalakan Fifi 04:14 & jadwal pagi 04:06).
 - B: tidak ada ad set memenuhi syarat.
 - C: Irfan (1060984719243481) iklan 120253654912090414 "Kota Ramadhan | Desain 3 #4 - winner" (campaign Irfan Indonesia / ramadhan) — sepanjang waktu spend Rp37.372, 0 chat → PAUSED (terverifikasi PAUSED).
+
+### 2026-11-03 04:45 — cek 30 menit (cloud)
+- A: tidak ada ad set dimatikan auto rule hari ini (tidak ada entri rule Inactive).
+- B: tidak dijalankan efektif (ad set baru dinyalakan jadwal pagi 04:06, spend hari ini ≈ 0).
+- C: Irfan (1060984719243481) iklan 120253654912090414 "Kota Ramadhan | Desain 3 #4 - winner" — sepanjang waktu spend Rp37.372, 0 chat → PAUSED lagi (iklan ini sudah di-pause run 04:13 tapi aktif kembali oleh jadwal pagi/status). Verifikasi: status PAUSED (effective IN_PROCESS).

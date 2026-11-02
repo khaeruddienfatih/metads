@@ -2432,3 +2432,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (nyala lagi):** tidak ada. Kandidat rule-off: Tira 25 Kota Video #5 (hari ini Rp53.281/1 chat = >35rb), #1 (0 chat); Hanif Ramadhan 120254963922420427 (0 chat), jawa barat 120254774741200427 (hari ini Rp28.326/2 chat OK, tapi 3 hari Rp76.557/1 chat >50rb); Fifi 9 Januari 120252597263980365 & jawa barat 120252429755530365 (0 chat); Irfan 3 ad set (0 chat); Haji 947 LLA/Haji/Haji-1-Salin (0 chat) — semua gagal syarat.
 - **B (pause ad set, terverifikasi sukses update live):** Nida ramadhan 120251989825730004 (campaign Nida Sales; Rp44.322, 0 chat); Hanif Ramadhan 120255131570750427 (campaign Sales; Rp47.706, 1 chat); Fikri 9 Hari Januari 120249721533920470 (Fikri Prov; Rp41.693, 1 chat); Fifi 9  Januari 120252512245690365 (Fifi; Rp42.115, 1 chat).
 - **C (pause iklan sepanjang waktu):** Tira 120252902851380584 (Rp35.904/0 chat), 120252902837040584 (Rp51.209/1 chat); Nida 120251938814460004 (Rp54.058/0); Hanif 120255131612430427 (Rp36.129/0); Fikri 120249877736240470 (Rp50.016/1); AIni 120253979583120019 (Rp251.954/5=50,4rb), 120253979826570019 (Rp51.227/1), 120253979555240019 (Rp35.602/0), 120253979845710019 (Rp35.607/0); Irfan 120253634661880414 (Rp50.247/1), 120253687649590414 (Rp53.493/1), 120253634661040414 (Rp56.477/1), 120253654917990414 (Rp41.621/0), 120253634660860414 (Rp61.286/1); Haji 947 120251116304590739 (Rp36.766/0). Read-back: 9 PAUSED, 6 (Irfan ×5, Haji 947 ×1) IN_PROCESS (transisi, normal).
+### 2026-11-02 12:50 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat rule-off dengan CPR hari ini < Rp35rb gagal syarat 3 hari: Tira `120252902795850584` (25 Kota Video #2; hari ini 1 chat/Rp21.409; 3 hari 1 chat/Rp64.395) dan Hanif `120254774741200427` (jawa barat; hari ini 2 chat/Rp28.326 = Rp14.163; 3 hari 1 chat/Rp76.557).
+- **B (pause ad set, semua terverifikasi PAUSED):**
+  - Diana `120251832398390294` "9hari januari" (campaign Diana): spend Rp61.006, 1 chat (> Rp40rb & <2 chat).
+  - Nida `120251630044820004` "9 Hari Januari" (campaign 9 Hari Januari): spend Rp39.966, 0 chat (≥ Rp30rb & 0 chat).
+  - Hanif `120254774741070427` "Jakarta" (campaign 12 Hari Januari): spend Rp42.192, 1 chat (> Rp40rb & <2 chat).
+- **C (pause iklan lifetime, PAUSED; yang IN_PROCESS status-nya sudah PAUSED):**
+  - Tira `120252902851380584` Video 12 Hari Januari J#3: Rp35.904, 0 chat. Tira `120252902837040584` Video 9 Hari Januari J#2: Rp51.209/1 chat.
+  - Nida `120251938814460004` Sales 9 Hari Januari Desain 7 #5: Rp54.058, 0 chat.
+  - Hanif `120255131612430427` 12 Hari Januari Desain 2 #2 - winner: Rp36.142, 0 chat.
+  - Fikri `120249877734360470` Ramadhan Desain 2 #2 judul2 - winner: Rp109.888/2 chat (Rp54.944). Fikri `120249877736240470` Ramadhan Desain 3 #2 judul1 - winner: Rp50.016/1 chat.
+  - AIni `120253979826570019` Rp51.227/1 chat; `120253979845710019` Rp35.607/0; `120253979555240019` Rp35.602/0; `120253979583120019` Rp253.834/5 chat (Rp50.767).
+  - Irfan `120253634661880414` Rp50.247/1; `120253687649590414` Rp53.493/1; `120253634661040414` Rp56.477/1; `120253654917990414` Rp41.621/0; `120253634660860414` Rp61.286/1.
+  - Haji 947 `120251116304590739` Hajj 2025-52 (Haji 3 Alif) - winner: Rp36.782, 0 chat. Haji 3 `120252664163030704` Hajj 2025-46: Rp46.688, 0 chat.
+- Catatan: iklan Tira J#2/J#3, Nida Desain 7 #5, Hanif Desain 2 #2, Fikri Desain 3 #2 muncul ACTIVE lagi di tiap putaran meski log mencatat PAUSE tiap 30 menit — ada yang mengaktifkannya kembali; perlu dicek.

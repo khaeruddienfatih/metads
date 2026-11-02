@@ -2298,3 +2298,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicek: semua routine cloud akun ini (list_triggers, filter enabled=true) → **0 yang aktif**; routine lama Sept (Reset Budget Batch1 dll., kirim Telegram via curl) juga nonaktif.
 - `telegram/bot.py` di repo hanya MEMBALAS pesan (long polling), tidak punya jadwal kirim laporan sendiri. Repo tidak punya GitHub Actions.
 - Kemungkinan sumber: scheduled task lokal di aplikasi Claude desktop/Cowork di komputer user (tidak terbaca dari cloud), repo lain `metaads-automation-state` (GitHub Actions), atau routine di akun Claude lain. Disarankan: cek Scheduled tasks di app desktop, cek Actions repo itu, atau `/revoke` token di @BotFather supaya semua pengirim berhenti.
+### 2026-11-02 07:19 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off):** tidak ada. Kandidat dimatikan rule hari ini: Tira "25 Kota Video #5" (0 chat, Rp25.992), Hanif "Ramadhan" `120255131570750427` (1 chat, Rp46.089 → CPR >35rb), Hanif "jawa barat" `120254774741200427` (2 chat/Rp28.126 hari ini, tapi 3 hari 1 chat/Rp76.557 → gagal), Irfan "9 hari januari" `120253687617440414` (0 chat, Rp22.531), Haji 947 "Haji - 1 - Salin" `120250965370750739` (0 chat, Rp24.005).
+- **B (pause ad set boros):** Hanif `482252744648260` ad set `120255131570750427` "Ramadhan" (campaign Sales): hari ini Rp46.089 & 1 chat (>Rp40rb & <2 chat) → PAUSED, terverifikasi PAUSED.
+- **C (pause iklan CPR >50rb / 0 chat ≥35rb), 18 iklan:**
+  - Tira `120252902837040584` Video 9 Hari Januari januari_3 (Rp51.209/1 chat) — PAUSED.
+  - Hanif `120255131612430427` 12 Hari Desain 2 #2 (Rp35.888/0 chat) — PAUSED; `120254944599680427` 12 Hari Indonesia Desain 2 #3 (Rp52.032/1) — PAUSED.
+  - Allif `120252223502030228` Ramadhan Desain 2 #1 (Rp36.236/0) — PAUSED.
+  - AIni `120253979826570019` (Rp51.135/1), `120253979554490019` (Rp42.875/0), `120253979829020019` (Rp37.072/0), `120253924406920019` (Rp36.111/0), `120253979845710019` (Rp35.457/0) — semua PAUSED.
+  - Irfan `120253634661040414` (Rp56.477/1), `120253634660860414` (Rp61.286/1), `120253687649590414` (Rp53.493/1) — PAUSED; `120253654923610414` (Rp51.671/1) — status IN_PROCESS (pause dikirim, belum terkonfirmasi).
+  - Fifi `120252689334520365` (Rp35.698/0) — PAUSED.
+  - Haji 947 `120251116332070739` (Rp51.915/1), `120251088659030739` (Rp204.123/4 = Rp51.031), `120251088660100739` (Rp56.064/1) — IN_PROCESS (pause dikirim, belum terkonfirmasi).
+  - Haji 3 `794403715776985` ad `120252664191830704` Hajj 2025-61 (Rp38.297/0) — IN_PROCESS (belum terkonfirmasi).
+- Catatan: iklan "winner" yang sama berulang kali muncul Pending Process↔Inactive di log aktivitas; cek ulang di putaran berikutnya.

@@ -2447,3 +2447,22 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan `120253634661880414` Rp50.247/1; `120253687649590414` Rp53.493/1; `120253634661040414` Rp56.477/1; `120253654917990414` Rp41.621/0; `120253634660860414` Rp61.286/1.
   - Haji 947 `120251116304590739` Hajj 2025-52 (Haji 3 Alif) - winner: Rp36.782, 0 chat. Haji 3 `120252664163030704` Hajj 2025-46: Rp46.688, 0 chat.
 - Catatan: iklan Tira J#2/J#3, Nida Desain 7 #5, Hanif Desain 2 #2, Fikri Desain 3 #2 muncul ACTIVE lagi di tiap putaran meski log mencatat PAUSE tiap 30 menit — ada yang mengaktifkannya kembali; perlu dicek.
+
+### 2026-11-02 13:30 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off): tidak ada.** Kandidat CPR hari ini <Rp35rb: Tira "25 Kota Video #2" `120252902795850584` (21.409/1 chat) dan Hanif "jawa barat" `120254774741200427` (28.328/2 chat) — gagal syarat 3 hari (Tira 64.395/1 chat, Hanif 76.557/1 chat, >Rp50rb) → tidak dinyalakan.
+- **B (pause ad set boros hari ini): 9 ad set, semua terverifikasi PAUSED.**
+  - Diana 1076195694707828: `120251812124630294` "9hari januari" (campaign Diana IG) — Rp32.049, 0 chat.
+  - Nida 1019832712800468: `120251630044820004` "9 Hari Januari" (campaign 9 Hari Januari) Rp41.267/1 chat; `120251989825730004` "ramadhan" (Nida Sales) Rp45.426/1 chat.
+  - Hanif 482252744648260: `120254774741070427` "Jakarta" (12 Hari Januari) Rp42.416/1 chat.
+  - Fikri 1676215979752437: `120249721533920470` "9 Hari Januari" (Fikri Prov) Rp43.272/1 chat.
+  - Irfan 1060984719243481: `120253687617410414` "9 hari januari" (new - Salin) Rp43.998/1 chat; `120253448429060414` "9 januari" (Irfan Indonesia) Rp40.599/1 chat.
+  - Fifi 521083143750270: `120252512245690365` "9  Januari" (Fifi) Rp42.138/1 chat.
+  - Haji 4 1526562231314028: `120256622022600768` "Vidio" (Nida) Rp42.868/1 chat (goal CONVERSATIONS).
+- **C (pause iklan mahal sepanjang waktu): 15 iklan, semua terverifikasi PAUSED.**
+  - Tira: `120252902837040584` Video 9 Hari Januari januari_3 (51.209/1 chat); `120252902851380584` Video 12 Hari Januari 12_hari_januari_3 (35.904, 0 chat).
+  - Hanif: `120255131612430427` 12 Hari Januari Desain 2 #2 (36.142, 0 chat).
+  - Fikri: `120249877736240470` Ramadhan Desain 3 #2 judul1 (50.016/1 chat); `120249877734360470` Ramadhan Desain 2 #2 judul2 (110.303/2 chat = 55.151).
+  - AIni: `120253979845710019` (35.607, 0 chat); `120253979583120019` Desain 9 #5 adset5 (254.223/5 chat = 50.845); `120253979555240019` (35.602, 0 chat).
+  - Irfan: `120253634661880414` (50.247/1); `120253687649590414` (53.493/1); `120253634661040414` (56.477/1); `120253654917990414` (41.621, 0 chat); `120253634660860414` (61.286/1).
+  - Haji (947788760498911): `120251116304590739` Hajj 2025-52 (Haji 3 Alif) (36.966, 0 chat).
+  - Haji 3 794403715776985: `120252664163030704` Hajj 2025-46 (46.688, 0 chat).

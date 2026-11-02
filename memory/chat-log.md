@@ -2830,3 +2830,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (nyala): 0.** Satu-satunya ad set yang dimatikan auto rule hari ini = Fifi (521083143750270) "Januari" `120252109327300365` (rule "OFF 1", 05:12) — hari ini 0 chat, spend Rp67.731 → tidak dinyalakan.
 - **B (pause ad set): 0.** Terdekat: AIni (814396810761205) ad set "9 Hari Januari" `120253900913430019` (campaign jakarta) Rp39.214 / 1 chat — belum melewati batas > Rp40rb.
 - **C (pause iklan): 1.** Irfan (1060984719243481) iklan `120253654912090414` "Kota Ramadhan | Desain 3 #4 - winner" (adset ramadhan, campaign Irfan Indonesia) — sepanjang waktu Rp37.372, 0 chat (≥ Rp35rb & 0 chat). Verified PAUSED.
+### 2026-11-03 05:50 — cek 30 menit (cloud)
+- A: tidak ada. Satu-satunya ad set rule-off hari ini (Fifi 521083143750270, "Januari" 120252109327300365, rule OFF 1, 05:12) sudah PAUSED, tapi hari ini Rp76.984 / 1 chat (CPR Rp76.984 ≥ Rp35rb) → tidak dinyalakan.
+- B: AIni 814396810761205 — ad set "9 Hari Januari" `120253900913430019` (campaign "jakarta"): spend hari ini Rp44.085, 1 chat (> Rp40rb & < 2 chat) → PAUSE. Terverifikasi status PAUSED.
+- C: Diana 1076195694707828 — iklan "12hari januari | 12_hari_januari_3.jpg | judul2" `120251832398430294` (ad set 12hari januari, campaign Diana): lifetime Rp353.141 / 7 chat = Rp50.449/chat (> Rp50rb) → PAUSE. Terverifikasi status PAUSED.

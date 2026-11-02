@@ -2560,3 +2560,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **C (pause iklan mahal lifetime):**
   - Tira `868364731529534` iklan `120252902847000584` "Video 9 Hari Januari | januari_5 | 25 Kota J#3" (ad set 25 Kota Video #3, campaign januari 9 hari & 12 hari): spend 35.865, 0 chat. Status PAUSED (effective IN_PROCESS saat dibaca, sedang diproses Meta).
 - Catatan: filter `effective_status IN [ACTIVE]` di tool ternyata ikut meloloskan entitas PAUSED/ADSET_PAUSED; hasil disaring manual lewat field effective_status.
+
+### 2026-11-02 16:49 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Kandidat rule-off lolos CPR hari ini tapi gagal CPR 3 hari (>Rp50rb): Tira #2 120252902795850584 (hari ini 21.409/1 chat; 3h 64.395/1), Irfan 12 Hari Januari 120253548709080414 (23.733/1; 3h 84.778/1), Hanif jawa barat 120254774741200427 (28.328/2; 3h 76.557/1).
+- **B (pause ad set, 27, semua status update sukses is_draft=false):**
+  - Diana 1076195694707828: 120252014883280294 Ramadhan (Rp30.127/0 chat), 120251812124630294 9hari januari (32.635/0)
+  - Nida 1019832712800468: 120251865308470004 9 Hari Januari (40.987/1), 120251630044820004 (41.267/1), 120251572686960004 9 hari januari (41.644/1)
+  - Hanif 482252744648260: 120255027201370427 9 Hari Januari Retargeting (43.854/1), 120254963922440427 Prospek Salin (34.145/0)
+  - Fikri 1676215979752437: 120249683321210470 12 Hari Januari (40.486/0), 120249534604840470 9 januari (33.214/0)
+  - Irfan 1060984719243481: 120253548709130414 9 Hari Januari Sales jawa (33.162/0), 120252989463080414 9 januari (43.054/1)
+  - Fifi 521083143750270: 120252512253120365 Ramadhan (31.074/0), 120252201112050365 9 Januari (50.312/1), 120252512245690365 9 Januari (42.138/1)
+  - Haji 947788760498911: 120251120447500739 (42.600/0), 120251120454460739 (32.922/0), 120250965370740739 (42.139/1), 120250778200960739 (35.015/0), 120250421335780739 (38.821/0), 120250253985830739 (45.938/1), 120250201672190739 (45.650/1), 120250199511490739 (56.420/0), 120250198674110739 (49.408/0)
+  - Haji 3 794403715776985: 120253090179840704 (34.548/0), 120252668566410704 (31.776/0), 120252557031820704 (32.585/0)
+  - Haji 4 1526562231314028: 120256622022650768 Vidio (41.835/1)
+- **C (pause iklan lifetime, 11, sukses):** Tira 120252902851380584 (35.904/0 chat); Fikri 120249877736240470 (50.016/1) & 120249877734360470 (110.312/2); Irfan 120253634661880414 (50.247/1) & 120253654917990414 (41.621/0); Fifi 120252689332900365 (38.088/0); Haji 120251116304590739 (36.974/0), 120251116307590739 (36.390/0), 120251120480860739 (60.833/1); Haji 3 120252664199770704 (501.881/10 = 50.188/chat) & 120252664163030704 (46.688/0). Catatan: iklan Fikri 120249877734360470/…736240470 dan Haji3 …199770704/…163030704 muncul berulang di log (Active→Pending Process→Inactive tiap 30 mnt) — kemungkinan aktif lagi setelah review; perlu dipantau.

@@ -2366,3 +2366,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947788760498911: 120251116304590739 (Rp36.229/0), 120251088660100739 (Rp56.064/1), 120251088659030739 (Rp204.173/4 = Rp51.043), 120251116332070739 (Rp51.924/1)
   - Haji 3 794403715776985: 120252664191830704 (Rp38.297/0)
   - Catatan: beberapa iklan (Tira …837040584/…851380584, Hanif …612430427/…599680427, Allif …502030228, Fifi …334520365, Haji 3 …191830704) berulang kali bolak-balik Inactive↔Pending Process oleh "ads MCP server" sejak pagi — kemungkinan tertarik aktif lagi oleh aktivasi ad set; sekarang di-PAUSE.
+
+### 2026-11-02 09:13 — cek 30 menit (cloud)
+- **A (nyala):** Tira 868364731529534 — ad set `120252902799160584` "25 Kota Video #5" (rule OFF 07:07): hari ini 1 chat / Rp26.142 (CPR Rp26.142), 3 hari 6 chat / Rp142.291 (CPR Rp23.715), campaign ACTIVE → diaktifkan, terverifikasi ACTIVE. Tidak lolos: Hanif `120254774741200427` (3 hari CPR Rp76.557), Hanif `120255131570750427` (hari ini Rp47.699/1 chat); kandidat lain 0 chat hari ini.
+- **B (pause ad set):** Hanif 482252744648260 — `120255131570750427` "Ramadhan" (campaign Sales): spend hari ini Rp47.699, 1 chat (> Rp40rb & < 2 chat) → PAUSED, terverifikasi.
+- **C (pause iklan, lifetime):** 17 iklan PAUSED (API sukses):
+  - Tira: `120252902851380584` (Rp35.904/0 chat), `120252902837040584` (Rp51.209/1 chat)
+  - Hanif: `120255131612430427` (Rp36.129/0 chat)
+  - Allif: `120252223502030228` (Rp36.237/0 chat)
+  - AIni: `120253979555240019` (Rp35.369/0), `120253979845710019` (Rp35.605/0), `120253979554490019` (Rp42.875/0), `120253924406920019` (Rp36.111/0), `120253979826570019` (Rp51.166/1 chat)
+  - Irfan: `120253634661040414` (Rp56.477/1), `120253634660860414` (Rp61.286/1), `120253687649590414` (Rp53.493/1), `120253654917990414` (Rp41.621/0), `120253654923610414` (Rp51.671/1)
+  - Fifi: `120252689334520365` (Rp35.698/0)
+  - Haji 947: `120251116332070739` (Rp51.936/1), `120251116304590739` (Rp36.539/0), `120251088660100739` (Rp56.064/1), `120251088659030739` (Rp204.173/4 = Rp51.043)
+  - Haji 3 794: `120252664191830704` (Rp38.297/0)

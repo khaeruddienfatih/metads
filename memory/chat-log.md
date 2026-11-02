@@ -2774,3 +2774,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-02 — Bot Telegram macet
 - Penyebab: bot memproses pesan satu per satu (polling terblokir selama Claude bekerja, maks 15 menit) + koneksi sempat reset 21:44.
 - Perbaikan: tiap pesan diproses di thread sendiri (telegram/bot.py); service di-restart otomatis.
+
+### 2026-11-02 — "Ko lewat telegram jadi ngaco ya" (via Telegram)
+- Dicek bot.py: tiap pesan Telegram dijalankan sebagai `claude -p` BARU tanpa ingatan percakapan sebelumnya, jadi pesan lanjutan/singkat ("kenapa tadi...", "lanjut") kehilangan konteks dan bisa terjawab ngawur.
+- Belum diubah; tanya user jawaban mana yang ngaco & tawarkan perbaikan (simpan session per chat via `--resume`).

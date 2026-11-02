@@ -2740,3 +2740,29 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Fifi `120252689340570365` (38.712/0).
   - Haji 947 `120251120480860739` (64.688/1), `120251116304590739` (37.090/0), `120251116307590739` (36.390/0).
   - Haji 3 `120252664199770704` (502.283/10 = 50,2rb), `120253032877990704` (39.120/0), `120252664163030704` (46.688/0).
+
+### 2026-11-02 21:44 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off): 0.** Kandidat rule-off hari ini yang PAUSED & ≥1 chat & CPR hari ini < Rp35rb: Tira `120252902795850584` (21.409/1 chat), Hanif `120254774741200427` (28.328/2 chat), Irfan `120253548709080414` (23.733/1 chat). Semua gagal syarat 3 hari (1 chat, spend 64.395 / 76.557 / 84.778 → CPR > Rp50rb) → tidak dinyalakan.
+- **B (pause ad set boros hari ini): 41 ad set di-PAUSE, terverifikasi PAUSED** (semua optimization CONVERSATIONS).
+  - Diana 1076195694707828: `120251812124620294` 9 Januari (Rp34.064/0), `120252014883280294` Ramadhan (30.127/0), `120252014879670294` Ramadhan Tangerang (42.798/0), `120251822584310294` 9hari januari (49.098/1)
+  - Tira 868364731529534: `120252918633000584` 12 hari januari (33.462/0), `120252918632980584` ramadhan (46.509/1), `120252918632930584` 9 hari januari (38.914/0) — campaign new
+  - Nida 1019832712800468: `120251731135460004` jakarta (43.041/1), `120251630044820004` 9 Hari Januari (41.267/1), `120251572686960004` 9 hari januari (41.670/1)
+  - Hanif 482252744648260: `120255027201370427` 9 Hari Januari Retargeting (43.910/1), `120254963922440427` 9 Hari Januari Prospek Salin (34.145/0)
+  - Allif 4678183395742010: `120252430673610228` 12 Hari Januari (44.216/1), `120252268692220228` jawa timur (37.080/0), `120252223314590228` Ramadhan (46.041/1)
+  - AIni 814396810761205: `120253679110310019` jakarta (30.517/0), `120253979514700019` 25 Kota #2 Penjualan (32.597/0)
+  - Irfan 1060984719243481: `120253330258910414` jateng & jatim (31.067/0), `120252989463080414` 9 januari (43.054/1)
+  - Fifi 521083143750270: `120252512245690365` 9 Januari (42.138/1), `120252201112080365` 12 Hari (30.244/0), `120252201112050365` 9 Januari (50.312/1)
+  - Haji 947788760498911: `120251120454460739` 26 Kota #4 (33.187/0), `120251120447500739` 26 Kota #2 (52.651/0), `120250778200960739` Jawa Tengah & Timur Diana (35.027/0), `120250253985830739` Broud AIni (47.565/1)
+  - Haji 3 794403715776985: `120253090179850704` Haji - Salin Fifi (46.606/0), `120252745117510704` Haji 3 Alif (31.127/0), `120252707667610704` Haji Fifi (34.190/0), `120252557031820704` Haji 2 Fikri (32.896/0)
+  - Haji 4 1526562231314028: `120256248793240768` Vidio Irfan (40.966/1), `120256622022650768` Vidio Hanif (45.355/1), `120256248793380768` Campuran Irfan (32.665/0), `120256248793270768` Gambar Irfan (44.519/1)
+- **C (pause iklan mahal sepanjang waktu): 16 iklan di-PAUSE, terverifikasi PAUSED.**
+  - Diana: `120252321836110294` Desain 9 #1 (Rp153.013/3 chat = 51,0rb)
+  - Tira: `120252902854020584` Video 9 Hari januari_6 (370.843/7 = 53,0rb), `120252902851380584` Video 12 Hari (35.904/0)
+  - Allif: `120252538437550228` Sales Ramadhan Desain 2 #3 (36.298/0)
+  - Fikri 1676215979752437: `120249877736240470` Ramadhan Desain 3 #2 (50.016/1), `120249877734360470` Ramadhan Desain 2 #2 (110.312/2 = 55,2rb)
+  - AIni: `120253979558740019` Sales Ramadhan Desain 2 #5 (153.845/3 = 51,3rb)
+  - Irfan: `120253654912090414` Kota Ramadhan D3 #4 winner (37.372/0), `120253654917990414` 9 Hari Jateng Jatim januari_8 (41.621/0), `120253634661880414` Sales 9 Hari Desain 9 #2 (50.247/1)
+  - Fifi: `120252689340570365` Luar Pulau 12 Hari Desain 2 #5 winner (38.994/0)
+  - Haji 947: `120251116304590739` Hajj 2025-52 (37.090/0), `120251116307590739` Haji_Img_04 (36.390/0)
+  - Haji 3: `120252664199770704` Haji_Img_03 (502.285/10 = 50,2rb), `120253032877990704` Haji_Img_02 (39.120/0), `120252664163030704` Hajj 2025-46 (46.688/0)
+- Tidak ada error. Fikri, Haji 2, haji 1050 tidak ada yang memenuhi syarat.

@@ -2858,3 +2858,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **C (pause iklan, sepanjang waktu):**
   - Tira `120252902828320584` "Video 9 Hari Januari | januari_1 | 25 Kota J#1" — Rp37.347, 0 chat. Verifikasi PAUSED.
   - Nida (1019832712800468) `120251957401410004` "9 Hari Januari | januari_5 - winner" (campaign 9 Hari Januari) — Rp103.147, 0 chat. Verifikasi PAUSED.
+
+### 2026-11-03 — "on kan semua adset" (perintah user)
+- Dinyalakan 72 ad set PAUSED di 10 akun (ads_activate_entity ad_set, publish_as_active): Diana 8, Tira 8, Nida 7, Hanif 9, Fifi 2, Allif 5, Fikri 6, AIni 5, Irfan 13, Haji 3 9. Semua respons sukses; baca ulang: tersisa PAUSED hanya 3 ad set yang baru berubah setelah daftar saya dibuat (Diana 120251832398370294, Tira 120252902799150584, Fifi 120252201112050365) — bukan dari perintah ini, kemungkinan cek 30 menit.
+- Sengaja TIDAK dinyalakan (belum dikonfirmasi user): ad set lama Haji 947788760498911 (25 ad set, kampanye lama Fifi/Irfan/Diana/Tira…) dan Haji 4 1526562231314028 (10 ad set Vidio/Gambar/Campuran). Haji 2 & akun 1050… tidak ada ad set PAUSED.
+- Catatan: cek 30 menit (:13/:43) bisa mem-PAUSE lagi ad set yang melanggar aturan (AIni 120253900913430019, Irfan 120253687617430414, Fifi 120252109327300365 — spend tinggi tanpa chat/CPR tinggi). Aturan di auto-reaktivasi.md tidak diubah.
+- Tertunda: user putuskan nasib 35 ad set lama Haji 947/Haji 4 dan apakah aturan auto-pause dimatikan sementara.

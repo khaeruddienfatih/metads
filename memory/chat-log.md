@@ -2548,3 +2548,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan: `120253634661880414` (50.247/1), `120253654917990414` (41.621/0)
   - Haji 947: `120251120480860739` (60.181/1), `120251116307590739` (36.390/0), `120251116304590739` (36.974/0)
   - Haji 3: `120252664199770704` (501.807/10 = 50.181/chat), `120252664163030704` (46.688/0) — dua iklan ini berulang kali muncul di log "Pending Process→Inactive" tiap 30 mnt (kemungkinan aktif kembali setelah review).
+
+### 2026-11-02 16:15 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off):** tidak ada. Kandidat rule-off hari ini yang CPR hari ini < Rp35rb gagal di syarat 3 hari (CPR 3 hari > Rp50rb): Tira ad set 25 Kota Video #2 `120252902795850584` (hari ini 21.409/1 chat; 3 hari 64.395/1), Irfan 12 Hari Januari `120253548709080414` (23.733/1; 3 hari 84.778/1), Hanif jawa barat `120254774741200427` (28.328/2; 3 hari 76.557/1).
+- **B (pause ad set boros, verifikasi PAUSED semua):**
+  - Nida `1019832712800468` ad set `120251865308470004` "9 Hari Januari" (campaign Prospek (baru) - Jakarta): spend 40.987, 1 chat (> 40rb & < 2 chat).
+  - Hanif `482252744648260` ad set `120255027201370427` "9 Hari Januari" (campaign Retargeting): spend 43.667, 1 chat (> 40rb & < 2 chat).
+  - Hanif `482252744648260` ad set `120254963922440427` "9 Hari Januari" (campaign Prospek (baru) - Salin): spend 33.554, 0 chat (≥ 30rb & 0 chat).
+  - Irfan `1060984719243481` ad set `120253548709130414` "9 Hari Januari" (campaign Sales jawa): spend 32.778, 0 chat.
+  - Haji 3 `794403715776985` ad set `120252556941530704` "Haji 3" (campaign Nida): spend 30.144, 0 chat.
+- **C (pause iklan mahal lifetime):**
+  - Tira `868364731529534` iklan `120252902847000584` "Video 9 Hari Januari | januari_5 | 25 Kota J#3" (ad set 25 Kota Video #3, campaign januari 9 hari & 12 hari): spend 35.865, 0 chat. Status PAUSED (effective IN_PROCESS saat dibaca, sedang diproses Meta).
+- Catatan: filter `effective_status IN [ACTIVE]` di tool ternyata ikut meloloskan entitas PAUSED/ADSET_PAUSED; hasil disaring manual lewat field effective_status.

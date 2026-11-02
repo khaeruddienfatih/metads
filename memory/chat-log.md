@@ -2834,3 +2834,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. Satu-satunya ad set rule-off hari ini (Fifi 521083143750270, "Januari" 120252109327300365, rule OFF 1, 05:12) sudah PAUSED, tapi hari ini Rp76.984 / 1 chat (CPR Rp76.984 ≥ Rp35rb) → tidak dinyalakan.
 - B: AIni 814396810761205 — ad set "9 Hari Januari" `120253900913430019` (campaign "jakarta"): spend hari ini Rp44.085, 1 chat (> Rp40rb & < 2 chat) → PAUSE. Terverifikasi status PAUSED.
 - C: Diana 1076195694707828 — iklan "12hari januari | 12_hari_januari_3.jpg | judul2" `120251832398430294` (ad set 12hari januari, campaign Diana): lifetime Rp353.141 / 7 chat = Rp50.449/chat (> Rp50rb) → PAUSE. Terverifikasi status PAUSED.
+
+### 2026-11-03 — "Kenapa laporan tidak sesuai waktu, bot telegram ngotot"
+- Dicek Gmail: Rekap Harian 06:00 hari ini terkirim 06:06 WIB (wajar). Masalah sebelumnya (2 Nov): Malam 21:00 telat, baru jalan manual 22:02, lalu run terjadwal ikut terkirim → dobel. Penyebab: scheduler routine cloud Anthropic tidak menembak tepat waktu; isi routine & cron benar.
+- bot.py tidak punya logika jadwal/laporan; hanya meneruskan pesan ke `claude -p`, jadi "ngotot" kemungkinan dari sesi `--resume` yang terus membawa jawaban lama. Saran: kirim `/baru` ke bot. Isi chat Telegram-nya belum terlihat.
+- Tertunda: user putuskan jadwal cadangan / cek otomatis kirim ulang.

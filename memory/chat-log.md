@@ -2345,3 +2345,4 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Hasil: Claude Code 2.1.316 terpasang; remote push ganda (origin + cadangan elharamainwisata) aktif; git identity "Elharamain Mac mini"; `gh` login `elharamainwisata` (token tanpa izin tulis → push 403, user diminta login ulang sebagai `khaeruddienfatih`); service `elharamain-bot` enabled tapi belum jalan.
 - Tertunda: isi `telegram/.env` (token BotFather + chat ID dari `/id`), lalu `systemctl --user restart elharamain-bot` dan tes `/start`, `/log`, `/laporan` di Telegram.
 - Lanjutan: login ulang `gh` sebagai `khaeruddienfatih` (OAuth, scope repo) → push ke `khaeruddienfatih/metads` dan cadangan `elharamainwisata/metads` berhasil.
+- Bot Telegram `@elharamain_bot` (nama "metaads") jalan di Mac mini: token diisi di `telegram/.env`, chat ID user diizinkan, service `elharamain-bot` active. Token sempat tampil di output sesi Claude → disarankan `/revoke` di @BotFather lalu isi token baru.

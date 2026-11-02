@@ -2801,3 +2801,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - chat-memory.md diringkas 40 KB → 25 KB: riwayat per akun, tabel budget Haji, sebaran Riyadh Air dipindah ke `memory/arsip-status-akun.md` (tidak dimuat otomatis). Semua aturan tetap.
 - bot.py: retry otomatis 1× kalau `claude -p` gagal/kosong (konektor putus). Perlu restart service: `systemctl --user restart elharamain-bot`.
 - Tertunda: user matikan konektor tak terpakai di claude.ai & tutup Chrome/Warp di Mac mini.
+
+### 2026-11-02 — "Kenapa laporan ga sesuai routine" → "1" (via Telegram)
+- Dicek Gmail: Siang & Sore 2 Nov terkirim; Malam terkirim 2× (run manual 22:02 + run terjadwal telat); Rekap 01 Nov terkirim 3×.
+- User pilih masalah: jam kirim meleset. Penyebab: scheduler cloud Anthropic tidak menembakkan run tepat waktu (routine & cron benar).
+- Tertunda: user belum setuju jadwal cadangan/cek otomatis kirim ulang. Tidak ada perubahan routine.

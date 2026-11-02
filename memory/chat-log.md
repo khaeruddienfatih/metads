@@ -2648,3 +2648,29 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C (pause iklan CPR lifetime): 2 iklan 0 chat & spend ≥ Rp35rb di-PAUSE (status terverifikasi PAUSED, effective IN_PROCESS):
   - Allif 4678183395742010 — iklan `120252538437550228` "Sales Ramadhan | Desain 2 #3 | adset1" (Jawa Barat - Broad 25-65 #1): lifetime Rp36.081, 0 chat.
   - Irfan 1060984719243481 — iklan `120253654912090414` "Kota Ramadhan | Desain 3 #4 - winner" (ramadhan): lifetime Rp37.283, 0 chat.
+
+### 2026-11-02 19:20 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off):** tidak ada. Kandidat dengan ≥1 chat & CPR hari ini <Rp35rb (Tira 120252902795850584 Video #2, Hanif 120254774741200427 jawa barat, Irfan 120253548709080414 12 Hari Januari) gagal syarat CPR 3 hari (masing-masing 1 chat, spend 3 hari Rp64.395 / Rp76.557 / Rp84.778 > Rp50rb/chat).
+- **B (pause ad set boros hari ini), 31 ad set, terverifikasi PAUSED:**
+  - Diana 1076195694707828: 120252014879670294 Ramadhan (Tangerang; Rp42.184, 0 chat), 120252014883280294 Ramadhan (Diana new; Rp30.127, 0 chat), 120251822584310294 9hari januari (Tangerang; Rp49.098, 1 chat).
+  - Tira 868364731529534: 120252902795860584 25 Kota Video #3 (Rp36.301, 0), 120252918632930584 9 hari januari (new; Rp38.914, 0).
+  - Nida 1019832712800468: 120251630044820004 9 Hari Januari (Rp41.267, 1), 120251865308470004 9 Hari Januari (Prospek Jakarta; Rp40.990, 1), 120251572686960004 9 hari januari (new; Rp41.670, 1).
+  - Hanif 482252744648260: 120254963922440427 9 Hari Januari (Prospek Salin; Rp34.145, 0), 120255027201370427 9 Hari Januari (Retargeting; Rp43.910, 1).
+  - Allif 4678183395742010: 120252243406460228 jawa barat (Ramadhan; Rp34.188, 0).
+  - Fikri 1676215979752437: 120249566336690470 Ramadhan - 1 (Rp35.192, 0), 120249683321210470 12 Hari Januari (Rp40.525, 0), 120249534604840470 9 januari (Fikri Prov; Rp33.241, 0).
+  - AIni 814396810761205: 120253979514700019 25 Kota #2 (Penjualan; Rp31.159, 0).
+  - Irfan 1060984719243481: 120253548709130414 9 Hari Januari (Sales jawa; Rp33.164, 0), 120253330258910414 jawa tengah & jawa timur (new; Rp31.067, 0), 120252989463080414 9 januari (Irfan Indonesia; Rp43.054, 1).
+  - Fifi 521083143750270: 120252512245690365 9 Januari (Rp42.138, 1), 120252201112050365 9 Januari (Rp50.312, 1), 120252201112080365 12 Hari (Rp30.175, 0).
+  - Haji 947788760498911: 120251120454460739 26 Kota #4 (Fifi; Rp33.144, 0), 120251120447500739 26 Kota #2 (Fifi; Rp52.168, 0), 120250778200960739 Jawa Tengah & Timur (Diana; Rp35.027, 0), 120250253985830739 Broud (AIni; Rp47.354, 1).
+  - Haji 3 794403715776985: 120252745117500704 Haji (Alif; Rp33.364, 0), 120252707667610704 Haji (Fifi; Rp33.162, 0), 120252557031820704 Haji 2 (Fikri; Rp32.639, 0).
+  - Haji 4 1526562231314028: 120256622022650768 Vidio (Hanif; Rp45.354, 1), 120256248793380768 Campuran (Irfan; Rp32.240, 0), 120256248793270768 Gambar (Irfan; Rp43.487, 1).
+- **C (pause iklan lifetime), 17 iklan:** semua terverifikasi PAUSED kecuali Haji 4 (IN_PROCESS).
+  - Diana: 120252321836110294 "9 Hari Januari Diana new | Desain 9 #1" (Rp153.013/3 chat = Rp51.004).
+  - Tira: 120252902854020584 Video 9 Hari Januari januari_6 (Rp370.671/7 = Rp52.953); 120252902851380584 Video 12 Hari Januari (Rp35.904, 0 chat).
+  - Allif: 120252538437550228 Sales Ramadhan Desain 2 #3 (Rp36.298, 0 chat).
+  - Fikri: 120249877736240470 Ramadhan Desain 3 #2 judul1 winner (Rp50.016/1); 120249877734360470 Ramadhan Desain 2 #2 judul2 winner (Rp110.312/2 = Rp55.156).
+  - Irfan: 120253654912090414 Kota Ramadhan Desain 3 #4 winner (Rp37.372, 0); 120253634661880414 Sales 9 Hari Januari Desain 9 #2 (Rp50.247/1); 120253654917990414 9 Hari Januari Jateng Jatim januari_8 winner (Rp41.621, 0).
+  - Haji 947: 120251116304590739 Hajj 2025-52 winner (Rp37.054, 0); 120251120480860739 Haji_Reuse_Nida-Broud video winner (Rp63.348/1); 120251116307590739 Haji_Img_04 winner (Rp36.390, 0).
+  - Haji 3: 120253032877990704 Haji_Img_02 (Rp37.755, 0); 120252664199770704 Haji_Img_03 (Rp502.088/10 = Rp50.209); 120252664163030704 Hajj 2025-46 (Rp46.688, 0).
+  - Haji 4: 120257334130910768 haji (Nida Vidio) winner (Rp39.080, 0) — status IN_PROCESS saat verifikasi.
+- Catatan: iklan "winner" di Diana (…321836110294), Allif (…538437550228), Fikri (…877736240470, …877734360470), Haji 3 (…664199770704, …664163030704), Haji 4 (…334130910768) muncul lagi sebagai ACTIVE padahal sudah di-pause run sebelumnya (log: loop Inactive→Pending Process tiap 30 menit). Pause mungkin tidak bertahan; cek run berikut.

@@ -2531,3 +2531,20 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan: `120253654917990414` 9 Hari Januari Jateng Jatim januari_8 (41.621/0), `120253634661880414` Sales 9 Hari Desain 9 #2 (50.247/1)
   - Haji 947…: `120251120480860739` Nida-Broud video (56.438/1), `120251116307590739` Haji_Img_04 (36.390/0), `120251116304590739` Hajj 2025-52 (36.974/0)
   - Haji 3: `120252664199770704` Haji_Img_03 (501.408/10 = 50,1rb), `120252664163030704` Hajj 2025-46 (46.688/0)
+### 2026-11-02 15:50 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada — kandidat rule-off (Tira #5/#2/#1, Hanif …420427/…750427/…200427, Irfan …080414 dst, Fifi …530365 dst, Haji/Haji3/Haji4) gagal syarat CPR hari ini <35rb atau CPR 3 hari <50rb / 0 chat.
+- **B (pause ad set boros hari ini, 17 + 6 = 23; semua respons PAUSED is_draft=false):**
+  - Diana: Ramadhan `120252014883280294` (Diana new, 30.127/0 chat), 9hari januari `120251812124630294` (Diana IG, 32.635/0 chat)
+  - Nida: `120251572686960004` (41.467/1 chat), `120251630044820004` (41.267/1 chat — nama "9 hari januari"/"9 Hari Januari")
+  - Fikri: 12 Hari Januari `120249683321210470` (40.397/0), 9 januari `120249534604840470` (33.208/0)
+  - Irfan: 9 januari `120252989463080414` (43.054/1)
+  - Fifi: `120252512245690365` (42.138/1), `120252201112050365` (49.953/1)
+  - Haji 947: `120251120447500739` (40.010/0), `…447450739` (66.203/1), `…200960739` (34.804/0), `…454460739` (32.750/0), `…965370740739` (42.124/1), `…421335780739` (38.333/0), `…253985830739` (45.825/1), `…201672190739` (45.601/1), `…199511490739` (55.572/0), `…198674110739` (48.931/0)
+  - Haji 3: `120253090179840704` (33.075/0), `120252557031820704` (32.585/0)
+  - Haji 4: `120256622022540768` Gambar Nida (31.457/0), `120256622022480768` Vidio Diana (35.811/0)
+- **C (pause iklan lifetime, 11; respons PAUSED):**
+  - Tira: `120252902851380584` (Rp35.904/0 chat), `120252918642110584` (36.750/0)
+  - Fikri: `120249877736240470` (50.016/1 chat), `120249877734360470` (110.312/2 = 55.156/chat)
+  - Irfan: `120253634661880414` (50.247/1), `120253654917990414` (41.621/0)
+  - Haji 947: `120251120480860739` (60.181/1), `120251116307590739` (36.390/0), `120251116304590739` (36.974/0)
+  - Haji 3: `120252664199770704` (501.807/10 = 50.181/chat), `120252664163030704` (46.688/0) — dua iklan ini berulang kali muncul di log "Pending Process→Inactive" tiap 30 mnt (kemungkinan aktif kembali setelah review).

@@ -75,3 +75,8 @@
 - 794403715776985 | 120252556941410704 | Haji | Nida
 - 1526562231314028 | 120256248793200768 | Gambar | Irfan
 - 1526562231314028 | 120256622022620768 | Vidio | Diana
+
+## Dinyalakan 2026-11-03 04:00
+- Nyala: 75 ad set (semua daftar, 12 akun: Diana 3, Tira 2, Nida 8, Hanif 2, Allif 7, Fikri 3, AIni 13, Irfan 12, Fifi 4, Haji 947 10, Haji 3 9, Haji 4 2)
+- Dilewati: 0
+- Gagal: 0

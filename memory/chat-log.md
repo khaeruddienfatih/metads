@@ -2811,3 +2811,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 75 ad set ACTIVE di-PAUSE, 0 gagal, semua akun terbaca; diverifikasi PAUSED.
 - Per akun: Diana 3 · Tira 2 · Nida 8 · Hanif 2 · Allif 7 · Fikri 3 · AIni 13 · Irfan 12 · Fifi 4 · Elharamain Haji 947… 10 · Haji 2 0 · Haji 3 9 · Haji 4 2 · haji 1050… 0.
 - Daftar di memory/jadwal-malam-daftar.md (untuk ON 04:00).
+
+### 2026-11-03 04:00 — jadwal pagi: naik anggaran + ON (cloud)
+- PART 1 naik anggaran: 1 campaign naik — Nida 1019832712800468, campaign 120251865308300004 "Prospek (baru) - Jakarta", CBO, Rp100.000 → Rp110.000 (read-back 110000 OK setelah publish; akun mode draft), CPR H-3/H-2/H-1: Rp17.258/Rp25.455/Rp20.040. Lainnya tidak memenuhi syarat (≥1 hari CPR ≥ Rp30rb / 0 chat) atau masih jeda 3 hari (Nida 12 hari januari, Haji Fikri/Nida, Haji 3 Fikri/Diana/Alif, Haji 4 Diana/Nida). Haji 2 & akun 1050… tidak ada campaign ACTIVE. Allif dikecualikan.
+- PART 2 ON: daftar header 2026-11-02 = H-1 valid. 75 ad set dinyalakan, 0 dilewati, 0 gagal (semua PAUSED & campaign ACTIVE; Allif 7 ad set ikut dinyalakan, hanya dilarang naik budget).

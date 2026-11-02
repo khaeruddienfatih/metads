@@ -2491,3 +2491,25 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **A (nyala ulang rule-off):** Fifi 521083143750270 ad set `120252429755530365` "jawa barat" (campaign Ramadhan ACTIVE; dimatikan rule "OFF 1" 09:12) — hari ini Rp22.315 / 1 chat (CPR Rp22.315), 3 hari Rp243.664 / 7 chat (CPR Rp34.809) → diaktifkan, terverifikasi ACTIVE. Kandidat lain gagal syarat (Tira #5 & Hanif Ramadhan CPR hari ini >35rb; Hanif jawa barat 3 hari Rp76.557/1 chat; Irfan 12 Hari Januari 3 hari Rp84.778/1 chat; sisanya 0 chat).
 - **B (pause ad set boros hari ini, 15):** Diana `120251812124630294` (9hari januari IG, Rp32.634/0 chat); Nida `120251630044820004` (9 Hari Januari, Rp41.267/1 chat); Hanif `120255131570810427` (Sales 12 Hari Januari, Rp31.107/0), `120254774741070427` (Jakarta, Rp42.416/1); Fikri `120249534604840470` (9 januari, Rp31.664/0); Irfan `120252989463080414` (9 januari, Rp42.437/1), `120253448429060414` (9 januari, Rp40.760/1); Fifi `120252512245690365` (9 Januari, Rp42.138/1); Haji 947 `120250965370740739` (Rp41.604/1), `120250421335780739` (Rp37.548/0), `120250201672190739` (Rp44.358/1), `120250199511430739` (Rp34.682/0), `120250201672350739` (Rp35.686/0); Haji 3 `120252557031820704` (Haji 2 Fikri, Rp31.132/0); Haji 4 `120256622022480768` (Vidio Diana, Rp34.776/0). Semua balasan update sukses (is_draft=false).
 - **C (pause iklan lifetime mahal, 14):** Tira `120252918642110584` (Rp36.750/0 chat), `120252902851380584` (Rp35.904/0), `120252902837040584` (Rp51.209/1); Hanif `120254964872300427` (Rp104.460/2 = Rp52.230), `120255131612430427` (Rp36.142/0); Fikri `120249877736240470` (Rp50.016/1), `120249877734360470` (Rp110.308/2 = Rp55.154); AIni `120253979845710019` (Rp35.607/0); Irfan `120253634661880414` (Rp50.247/1), `120253634661040414` (Rp56.477/1), `120253687649590414` (Rp53.493/1), `120253654917990414` (Rp41.621/0); Haji 947 `120251116304590739` (Rp36.966/0); Haji 3 `120252664163030704` (Rp46.688/0). Semua balasan update sukses.
+
+### 2026-11-02 14:49 — cek 30 menit (cloud)
+- **A (nyala):** tidak ada. Kandidat rule-off dengan CPR hari ini < Rp35rb gagal syarat 3 hari: Tira 25 Kota Video #2 `120252902795850584` (21.409/1 chat; 3 hari 64.395/1), Irfan 12 Hari Januari `120253548709080414` (23.733/1; 3 hari 84.778/1), Hanif jawa barat `120254774741200427` (28.328/2; 3 hari 76.557/1).
+- **B (16 ad set di-PAUSE, terverifikasi PAUSED):**
+  - Diana: 9hari januari (Diana IG) `120251812124630294` — Rp32.634, 0 chat.
+  - Nida: 9 Hari Januari `120251630044820004` — Rp41.267, 1 chat.
+  - Hanif: 9 Hari Januari `120255131570820427` (Rp31.647, 0 chat; campaign Sales); 12 Hari Januari `120254963922430427` (Rp31.889, 0 chat; Prospek (baru) - Salin).
+  - Fikri: 9 januari `120249534604840470` (Fikri Prov) — Rp32.280, 0 chat.
+  - Irfan: 9 januari `120252989463080414` (Irfan Indonesia) — Rp43.050, 1 chat.
+  - Fifi: 9  Januari `120252512245690365` (Fifi) — Rp42.138, 1 chat.
+  - Haji 1 (947…): `120251120454460739` Rp31.094/0 (Fifi); `120250965370740739` Rp41.875/1 (Irfan); `120250253985830739` Rp42.660/1 (AIni); `120250201672190739` Rp45.024/1 (Fikri); `120250421335780739` Rp37.826/0 (Hanif); `120250201672350739` Rp35.733/0 (Fikri); `120250778252800739` Rp32.394/0 (Irfan).
+  - Haji 3: Haji 2 `120252557031820704` (Fikri) — Rp32.204, 0 chat.
+  - Haji 4: Vidio `120256622022480768` (Diana) — Rp35.659, 0 chat.
+- **C (13 iklan di-PAUSE, terverifikasi PAUSED; lifetime):**
+  - Tira: `120252902851380584` Rp35.904/0 chat; `120252918642110584` Rp36.750/0 chat.
+  - Nida: `120251938774870004` Rp53.595/1 chat (CPR 53.595).
+  - Hanif: `120254964872300427` Rp104.924/2 (CPR 52.462); `120255131612430427` Rp36.142/0.
+  - Fikri: `120249877736240470` Rp50.016/1; `120249877734360470` Rp110.308/2 (CPR 55.154).
+  - AIni: `120253979845710019` Rp35.607/0.
+  - Irfan: `120253634661880414` Rp50.247/1; `120253654917990414` Rp41.621/0.
+  - Haji 1: `120251116307590739` Rp35.913/0; `120251116304590739` Rp36.974/0.
+  - Haji 3: `120252664163030704` Rp46.688/0.

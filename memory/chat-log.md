@@ -2844,3 +2844,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada yang dinyalakan. Fifi: ad set 120252597263980365 "9 Hari Januari" (OFF 1, 06:12; 0 chat hari ini, Rp27.772) dan 120252109327300365 "Januari" (OFF 1, 05:12; 1 chat, Rp77.137/chat) tidak lolos syarat.
 - B: Irfan 1060984719243481 — ad set 120253687617430414 "ramadhan" (campaign "new - Salin"), spend hari ini Rp30.218 & 0 chat (≥Rp30rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: Fifi 521083143750270 — iklan 120252689336720365 "Ramadhan jawa barat | Desain 3 #4 - winner" (ad set Ramadhan, campaign Fifi Kota), sepanjang waktu Rp50.291 / 1 chat = Rp50.291/chat (>Rp50rb) → PAUSED, status terverifikasi PAUSED.
+
+### 2026-11-03 — "Kenapa ada adset yang masih off" (via Telegram/CLI)
+- Dicek live 11 dari 14 akun (Haji 2, Haji 4, 1050… belum dicek) + daftar jadwal malam. Jadwal pagi 04:06 sukses menyalakan 75/75 ad set di daftar (log aktivitas Diana cocok: OFF 22:39, ON 04:06).
+- Ad set yang masih OFF ada 2 sebab: (1) sudah PAUSED sebelum 22:00 (updated_time 2 Nov, tidak ada di daftar) → memang tidak ikut dinyalakan; (2) dipause hari ini oleh cek 30 menit/auto rule: AIni 120253900913430019 (05:44, Rp44.294/1 chat), Irfan 120253687617430414 (06:14, Rp31.462/0 chat), Fifi 120252109327300365 (05:12 rule OFF, Rp77.164/1 chat), Fifi 120252597263980365 (06:12, Rp27.772).
+- Tidak ada perubahan di Meta. Tertunda: user putuskan apakah ada yang mau dinyalakan lagi.

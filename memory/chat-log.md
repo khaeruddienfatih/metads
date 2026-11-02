@@ -2806,3 +2806,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicek Gmail: Siang & Sore 2 Nov terkirim; Malam terkirim 2× (run manual 22:02 + run terjadwal telat); Rekap 01 Nov terkirim 3×.
 - User pilih masalah: jam kirim meleset. Penyebab: scheduler cloud Anthropic tidak menembakkan run tepat waktu (routine & cron benar).
 - Tertunda: user belum setuju jadwal cadangan/cek otomatis kirim ulang. Tidak ada perubahan routine.
+
+### 2026-11-02 22:00 — jadwal malam OFF (cloud)
+- 75 ad set ACTIVE di-PAUSE, 0 gagal, semua akun terbaca; diverifikasi PAUSED.
+- Per akun: Diana 3 · Tira 2 · Nida 8 · Hanif 2 · Allif 7 · Fikri 3 · AIni 13 · Irfan 12 · Fifi 4 · Elharamain Haji 947… 10 · Haji 2 0 · Haji 3 9 · Haji 4 2 · haji 1050… 0.
+- Daftar di memory/jadwal-malam-daftar.md (untuk ON 04:00).

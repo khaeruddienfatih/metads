@@ -2849,3 +2849,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicek live 11 dari 14 akun (Haji 2, Haji 4, 1050… belum dicek) + daftar jadwal malam. Jadwal pagi 04:06 sukses menyalakan 75/75 ad set di daftar (log aktivitas Diana cocok: OFF 22:39, ON 04:06).
 - Ad set yang masih OFF ada 2 sebab: (1) sudah PAUSED sebelum 22:00 (updated_time 2 Nov, tidak ada di daftar) → memang tidak ikut dinyalakan; (2) dipause hari ini oleh cek 30 menit/auto rule: AIni 120253900913430019 (05:44, Rp44.294/1 chat), Irfan 120253687617430414 (06:14, Rp31.462/0 chat), Fifi 120252109327300365 (05:12 rule OFF, Rp77.164/1 chat), Fifi 120252597263980365 (06:12, Rp27.772).
 - Tidak ada perubahan di Meta. Tertunda: user putuskan apakah ada yang mau dinyalakan lagi.
+
+### 2026-11-03 06:47 — cek 30 menit (cloud)
+- **A (nyala):** tidak ada. Satu-satunya ad set rule-off yang masih mati: Fifi (521083143750270) `120252201112050365` "9 Januari" (rule "OFF 1" 06:43) — chat hari ini 0 (spend Rp21.284), tidak memenuhi syarat; 3 hari: 4 chat, Rp29.217/chat. Dua ad set rule-off lain sudah dinyalakan 06:44.
+- **B (pause ad set):**
+  - Diana (1076195694707828) `120251832398370294` "12hari januari" (campaign Diana) — spend hari ini Rp45.884, 1 chat → >Rp40rb & <2 chat. Verifikasi PAUSED.
+  - Tira (868364731529534) `120252902799150584` "25 Kota Video #4" (campaign januari 9 hari & 12 hari) — spend hari ini Rp66.629, 1 chat → >Rp40rb & <2 chat. Verifikasi PAUSED.
+- **C (pause iklan, sepanjang waktu):**
+  - Tira `120252902828320584` "Video 9 Hari Januari | januari_1 | 25 Kota J#1" — Rp37.347, 0 chat. Verifikasi PAUSED.
+  - Nida (1019832712800468) `120251957401410004` "9 Hari Januari | januari_5 - winner" (campaign 9 Hari Januari) — Rp103.147, 0 chat. Verifikasi PAUSED.

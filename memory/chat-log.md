@@ -3267,3 +3267,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 21:45 — cek 15 menit (cloud)
 - A: Fifi (521083143750270) ad set 120252109306440365 "Saudia 12 Hari" (campaign Fifi ACTIVE) — hari ini 1 chat, spend Rp23.462, CPR Rp23.462 → dinyalakan, terverifikasi ACTIVE.
 - B: tidak ada. C: tidak ada. D: tidak ada.
+
+### 2026-11-03 21:45 — token Meta masuk (203 karakter), simulasi auto_rules.py
+- Simulasi 1 putaran, 14 akun tanpa error: 22 rencana perubahan (20 pause iklan CPR>Rp50rb/0 chat, 1 pause ad set Haji 4 "Vidio" spend Rp29rb 0 chat, 1 nyala ad set Fifi "9 Hari" CPR Rp21rb). Tidak ada yang diubah (mode SIMULASI).
+- Notifikasi Telegram digabung jadi satu pesan per putaran. Pemasangan service + META_RULES_LIVE=1 ditolak sistem izin → menunggu user.

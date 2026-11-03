@@ -66,6 +66,15 @@ TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = (os.environ.get("TELEGRAM_ALLOWED_CHAT_IDS", "").replace(" ", "").split(",") or [""])[0]
 
 
+PENDING = []  # kabar Telegram dikumpulkan, dikirim satu pesan per putaran
+
+
+def kirim_pending():
+    if PENDING:
+        kabari("Aturan otomatis:\n" + "\n".join(PENDING))
+        PENDING.clear()
+
+
 def log(msg):
     baris = f"{datetime.now(WIB):%Y-%m-%d %H:%M:%S} {msg}"
     print(baris, flush=True)
@@ -139,7 +148,7 @@ def ubah(entity_id, status, label, alasan, sudah):
         graph(entity_id, {"status": status}, post=True)
     pesan = f"[{mode}] {label} → {status} | {alasan}"
     log(pesan)
-    kabari(("✅ " if LIVE else "🧪 ") + pesan)
+    PENDING.append(("✅ " if LIVE else "🧪 ") + pesan)
     return True
 
 
@@ -203,6 +212,7 @@ def main():
                     cek_iklan(nama, akun, sudah)
             except Exception as e:
                 log(f"ERROR {nama}: {e}")
+        kirim_pending()
         if cek_iklan_sekarang:
             iklan_terakhir = time.time()
         time.sleep(INTERVAL)

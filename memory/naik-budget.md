@@ -1,7 +1,7 @@
 # Prosedur naik anggaran otomatis: CPR < Rp30rb 3 hari berturut-turut → +10%
 
 Perintah user (31 Okt 2026): "jika setiap hari dalam 3 hari cpr bagus di bawah 30rb kamu naikan anggaran kampanyenya 10%".
-Dijalankan tiap hari **04:00 WIB** sebagai langkah pertama routine "Jadwal pagi: ad set ON" (31 Okt, perintah user
+**3 Nov: dipindah ke 03:00 WIB sebagai routine sendiri `trig_0169Dw65vf7mZiGkufKqdoRf` (perintah user "agar tidak bentrok naikan anggaran di jam 3 pagi"); jam 04:00 hanya menyalakan ad set.** Sebelumnya dijalankan 04:00 sebagai langkah pertama routine "Jadwal pagi: ad set ON" (31 Okt, perintah user
 "naik anggaran di jam 04 pagi"), SEBELUM ad set dinyalakan — supaya tidak bentrok (lihat `chat-memory.md`). Perintah ini mengalahkan aturan 24 Okt
 "jangan ubah budget ad set yang sudah jalan" — khusus untuk kenaikan 10% ini.
 

@@ -3246,3 +3246,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat 2 routine baru: :28 trig_01K5FuVYv9LfbFm6adDaxPBV dan :58 trig_014noZbx2jsJHWH7w52P2UFf; prompt :13 (trig_01PExMLpwLUtZxVRsi4R6e8H) & :43 (trig_013WfwoGnfBo14J4EupZGgtx) diperbarui (update pertama sempat timeout, diulang & terverifikasi updated_at 14:05–14:06 UTC). Total cek tiap 15 menit.
 - Isi prompt: A nyala ad set CPR hari ini < Rp30rb (siapa pun yang mematikan, tanpa batas); B pause ad set spend > Rp25rb & 0 chat ATAU spend ≥ Rp45rb & chat < 2; C pause iklan CPR sepanjang waktu > Rp50rb; D nyala iklan CPR sepanjang waktu < Rp30rb; akun elharamain Profile (873443374652541) dikecualikan; baca routine-tabel.md.
 - Belum diuji: run pertama :28 jam 21:28 WIB. Routine 04:00 & 22:00 tidak diubah (04:00 sudah menyalakan semua ad set PAUSED).
+
+### 2026-11-03 — "agar tidak bentrok naikan anggaran di jam 3 pagi"
+- Dibuat routine baru `trig_0169Dw65vf7mZiGkufKqdoRf` (03:00 WIB, cron 0 20 * * * UTC): hanya naik anggaran (+10% bila CPR 3 hari < Rp30rb, maks Rp300rb, Allif & elharamain Profile dikecualikan). Jalan pertama 4 Nov 03:00.
+- Routine 04:00 `trig_01KLe5sJc8N6MQMEYKUpzNqB` diubah: hanya menyalakan semua ad set PAUSED (tidak mengubah budget lagi).
+- routine-tabel.md, routine-baku.md, naik-budget.md diperbarui.

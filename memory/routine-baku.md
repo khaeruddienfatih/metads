@@ -9,7 +9,8 @@ Jam = WIB. Akun: 14 (Naik anggaran: 13, Allif dikecualikan). Hasil = chat WA. Se
 |---|---|
 | Tiap 30 menit (:13, :43), kecuali 22:00–03:59 | Cek ad set dan iklan (A, B, C, D di bawah) |
 | 22:00 | Semua ad set aktif di-PAUSE, daftarnya disimpan |
-| 04:00 | Naik anggaran +10%, lalu nyalakan SEMUA ad set yang OFF (siapa pun yang mematikan) |
+| 03:00 | Naik anggaran +10% (routine terpisah, supaya tidak bentrok) |
+| 04:00 | Nyalakan SEMUA ad set yang OFF (siapa pun yang mematikan) |
 | 06:00 dan 08:00 | Email rekap kemarin |
 | 12:00, 16:00, 21:00 | Email laporan hari ini sampai jam itu |
 
@@ -20,7 +21,7 @@ Jam = WIB. Akun: 14 (Naik anggaran: 13, Allif dikecualikan). Hasil = chat WA. Se
 - **C — PAUSE iklan** kalau CPR sepanjang waktu > **Rp50rb** (atau 0 chat dan spend ≥ Rp35rb). Hanya PAUSE, tidak menghapus.
 - **D — NYALAKAN iklan** yang PAUSED (siapa pun yang mematikan, ditegaskan user 3 Nov "karena ada iklan bagus malah kena off") kalau CPR sepanjang waktu < **Rp30rb** (chat ≥ 1). Iklan yang diarsipkan/dihapus user tidak dinyalakan.
 
-## Naik anggaran (04:00)
+## Naik anggaran (03:00, dipindah dari 04:00 pada 3 Nov)
 
 Campaign chat WA ACTIVE dengan H-1, H-2, H-3 masing-masing chat ≥ 1 dan CPR < Rp30rb → budget +10% (dibulatkan ke atas Rp1.000),
 maks Rp300rb/hari per campaign, jeda 3 hari antar kenaikan. Allif dikecualikan.

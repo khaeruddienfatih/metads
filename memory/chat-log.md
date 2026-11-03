@@ -3264,3 +3264,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 — "saya mau realtime karna macmini sudah lega" → "oke no 2" (skrip Meta API di Mac mini)
 - Dibuat `telegram/auto_rules.py` (aturan routine-tabel no 1–4 + 2b, langsung Graph API, tanpa model; cek ad set tiap 120d, iklan tiap 600d; jam tenang 22:00–03:59; default MODE SIMULASI = hanya mencatat; META_RULES_LIVE=1 untuk aktif; kabar ke Telegram tiap perubahan) + `telegram/elharamain-autorules.service` + variabel contoh di `.env.example`. Log lokal `telegram/auto_rules.log` (di-gitignore).
 - BELUM jalan: butuh `META_ACCESS_TOKEN` (system user, ads_management + ads_read, akses 14 akun) di telegram/.env — user belum menyediakan. Rencana: simulasi dulu → tunjukkan hasil → aktifkan → matikan 4 routine cloud cek 15 menit (:13/:28/:43/:58) agar tidak bentrok.
+### 2026-11-03 21:45 — cek 15 menit (cloud)
+- A: Fifi (521083143750270) ad set 120252109306440365 "Saudia 12 Hari" (campaign Fifi ACTIVE) — hari ini 1 chat, spend Rp23.462, CPR Rp23.462 → dinyalakan, terverifikasi ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

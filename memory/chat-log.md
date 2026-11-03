@@ -3090,3 +3090,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947 · 120250201672190739 "LLA" (Fikri): Rp39.001, 0 chat
   - Haji 4 1526562231314028 · 120256622022480768 "Vidio" (Diana): Rp33.253, 0 chat
 - C (pause iklan lifetime): Irfan 1060984719243481 · ad 120253549823210414 "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa / 12 Hari Januari): Rp151.280 / 3 chat = Rp50.427/chat (>50rb), PAUSED.
+
+### 2026-11-03 15:50 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Kandidat rule-off hanya di Fifi (521083143750270); semua CPR hari ini ≥ Rp35rb atau paused oleh bukan rule (mis. 120252512245710365 Rp50.812/1 chat, 120252109327300365 Rp90.108/1 chat, 120252512245690365 Rp40.749/1 chat, 120252109239810365 Rp45.384/1 chat).
+- **B (pause ad set, spend hari ini > Rp40rb & chat < 2) — terverifikasi PAUSED:**
+  - Diana 1076195694707828 · 120252143936570294 "Ramadhan" (campaign Diana) — Rp41.957 / 1 chat
+  - AIni 814396810761205 · 120253900913410019 "12 Hari Januari" (campaign jakarta) — Rp45.899 / 1 chat
+  - Irfan 1060984719243481 · 120253512143030414 "9 Hari Januari" (campaign Penjualan (baru) - Salin) — Rp41.599 / 1 chat
+  - Haji 1 947788760498911 · 120250778252800739 "jawa Barat" (campaign Irfan) — Rp42.590 / 1 chat
+- **C (pause iklan lifetime) — terverifikasi PAUSED:**
+  - Diana · 120252321836480294 "9 Hari Januari Diana new | Desain 9 #2" — Rp51.078 / 1 chat (CPR Rp51.078)
+  - Nida 1019832712800468 · 120251989866270004 "Ramadhan | Desain 2 #5 - winner" (Nida Sales) — Rp57.625 / 1 chat
+  - Irfan · 120253549823210414 "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa) — Rp151.294 / 3 chat (CPR Rp50.431)
+  - Haji 3 794403715776985 · 120253156541030704 "Haji_Img_04 - winner" (Aini) — Rp35.108 / 0 chat

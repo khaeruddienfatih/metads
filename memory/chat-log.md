@@ -3157,3 +3157,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan 1060984719243481 — ad set 120253548709150414 "9 Hari Januari" (campaign Sales banten): spend hari ini Rp41.654, 0 chat.
 - C (1 iklan di-PAUSE, status PAUSED terverifikasi):
   - Fifi 521083143750270 — iklan 120252543888060365 "12 Hari Januari Fifi Kota | 12_hari_januari_5" (ad set Saudia 12 Hari, campaign Fifi Kota): sepanjang waktu Rp36.850, 0 chat.
+
+### 2026-11-03 18:xx — cek 30 menit (cloud)
+- A: tidak ada yang dinyalakan (Fifi: ad set rule-off punya ≥1 chat hanya "Januari" 120252109327300365 Rp90.108/1 chat & "ramadhan" 120252512245710365 Rp50.880/1 chat, keduanya > Rp35rb; akun lain tidak ada entri rule_info).
+- B: Haji 3 (794403715776985) ad set "Haji" 120252557031890704, campaign Fikri — spend hari ini Rp33.571, 0 chat (≥ Rp30rb & 0 chat) → PAUSED, terverifikasi.
+- C: tidak ada iklan yang memenuhi syarat (lifetime CPR > Rp50rb / 0 chat ≥ Rp35rb).

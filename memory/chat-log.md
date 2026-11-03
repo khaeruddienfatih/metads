@@ -3063,3 +3063,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan 1060984719243481 · `120253549823210414` "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa) — Rp151.089 / 3 chat = Rp50.363 → PAUSED, terverifikasi.
   - Elharamain Haji 947788760498911 · `120251116329200739` "Vidio (Hanif Interest 2) - winner" (Tira/Haji) — Rp35.792, 0 chat → PAUSED, terverifikasi.
 - Catatan: percobaan pertama pause iklan Allif salah akun (error "does not own this entity"), diulang dengan akun yang benar.
+
+### 2026-11-03 15:00 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat rule "OFF 1/OFF 2" hanya di Fifi (12 ad set) — semua 0 chat atau CPR ≥ Rp50rb hari ini, tidak lolos. Akun lain tanpa entri rule_info.
+- **B (pause ad set boros hari ini)** — semua terverifikasi PAUSED:
+  - Nida 1019832712800468 · `120251865308470004` "9 Hari Januari" (Prospek (baru) - Jakarta) — Rp31.166, 0 chat (≥30rb & 0 chat).
+  - Hanif 482252744648260 · `120255131570820427` "9 Hari Januari" (Sales) — Rp43.222, 1 chat (>40rb & <2).
+  - Hanif · `120255131570750427` "Ramadhan" (Sales) — Rp42.433, 1 chat (>40rb & <2).
+  - Hanif · `120255027201370427` "9 Hari Januari" (Retargeting) — Rp31.693, 0 chat.
+  - Hanif · `120254963922430427` "12 Hari Januari" (Prospek (baru) - Salin) — Rp36.210, 0 chat.
+  - Fikri 1676215979752437 · `120249683321220470` "Ramadhan" (Fikri) — Rp44.758, 1 chat (>40rb & <2).
+  - Elharamain Haji 947788760498911 · `120250965370750739` "Haji - 1 - Salin" (Irfan) — Rp43.963, 1 chat.
+  - Elharamain Haji · `120250198674110739` "Interest" (Hanif) — Rp34.761, 0 chat.
+  - Haji 3 794403715776985 · `120253090179840704` "Haji - Salin" (Fifi) — Rp41.199, 1 chat.
+  - Haji 3 · `120252668566410704` "Haji 3" (Diana) — Rp37.794, 0 chat.
+- **C (pause iklan mahal):** Irfan 1060984719243481 · `120253549823210414` "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa) — Rp151.252 / 3 chat = Rp50.417 → pause dikirim sukses; status terbaca IN_PROCESS (sedang diproses Meta, sama seperti pause 14:15 sebelumnya).

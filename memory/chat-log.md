@@ -3078,3 +3078,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 794403715776985 · `120253090179840704` "Haji - Salin" (Fifi) — Rp41.199, 1 chat.
   - Haji 3 · `120252668566410704` "Haji 3" (Diana) — Rp37.794, 0 chat.
 - **C (pause iklan mahal):** Irfan 1060984719243481 · `120253549823210414` "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa) — Rp151.252 / 3 chat = Rp50.417 → pause dikirim sukses; status terbaca IN_PROCESS (sedang diproses Meta, sama seperti pause 14:15 sebelumnya).
+
+### 2026-11-03 15:13 — cek 30 menit (cloud)
+- A (nyalakan): tidak ada. Fifi punya 13 ad set rule-off hari ini, tapi hanya 2 yang ≥1 chat (CPR hari ini Rp50,8rb & Rp90,1rb, di atas Rp35rb) → tidak dinyalakan.
+- B (pause ad set, hari ini, verified PAUSED via ads_update_entity success):
+  - Tira 868364731529534 · 120252902795780584 "25 Kota Video #1" (campaign januari 9 hari & 12 hari): Rp50.100, 1 chat (>40rb & <2 chat)
+  - Allif 4678183395742010 · 120252430673590228 "Ramadhan" (Traffic (baru) - Salin): Rp44.979, 1 chat (>40rb & <2 chat)
+  - Allif · 120252430673610228 "12 Hari Januari" (Traffic (baru) - Salin): Rp35.333, 0 chat (≥30rb & 0 chat)
+  - Irfan 1060984719243481 · 120253512142980414 "Ramadhan" (Penjualan (baru) - Salin): Rp30.727, 0 chat
+  - Haji 947788760498911 · 120250778200960739 "Jawa Tengah & Timur" (Diana): Rp57.410, 1 chat
+  - Haji 947 · 120250201672190739 "LLA" (Fikri): Rp39.001, 0 chat
+  - Haji 4 1526562231314028 · 120256622022480768 "Vidio" (Diana): Rp33.253, 0 chat
+- C (pause iklan lifetime): Irfan 1060984719243481 · ad 120253549823210414 "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa / 12 Hari Januari): Rp151.280 / 3 chat = Rp50.427/chat (>50rb), PAUSED.

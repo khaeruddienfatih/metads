@@ -3194,3 +3194,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 — "coba kamu ringkas apa saja yang kamu kerjakan routine biar jadi baku"
 - Dibuat `memory/routine-baku.md`: jadwal + aturan A/B/C + naik anggaran + larangan dalam satu halaman.
 - Tertunda: keputusan apakah Bagian A juga menyalakan ad set yang dimatikan Bagian B; laporan ad set CPR bagus tapi PAUSED; samakan teks `routine()` di bot.py.
+### 2026-11-03 20:15 — cek 30 menit (cloud)
+- **A (nyala ulang rule-off):** tidak ada. Kandidat rule "OFF 1/OFF 2" hanya di Fifi (7 ad set); semua masih PAUSED dengan 0 chat hari ini → tidak memenuhi syarat.
+- **B (pause ad set boros hari ini), verified PAUSED:**
+  - Fikri 1676215979752437 · ad set 120249450585120470 "9 Hari Januari" (campaign Fikri) · spend Rp77.382, 1 chat (> Rp40rb & < 2 chat).
+  - Irfan 1060984719243481 · ad set 120253548709030414 "Ramadhan" (campaign Sales jawa) · spend Rp34.699, 0 chat (≥ Rp30rb & 0 chat).
+  - Elharamain Haji 947788760498911 · ad set 120251142496670739 "26 Kota - Broad 25-65 #1" (campaign Fifi) · spend Rp50.008, 1 chat (> Rp40rb & < 2 chat).
+- **C (pause iklan mahal sepanjang waktu), verified PAUSED:**
+  - Fifi 521083143750270 · iklan 120252512288020365 "9 Hari Januari | Desain 4 Musim Dingin #1" (ad set Januari, campaign Fifi Kota) · lifetime spend Rp35.170, 0 chat.

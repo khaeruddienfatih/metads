@@ -3,7 +3,7 @@
 Perintah user (31 Okt 2026): "saya mau setiap jam 11 malam adset off semua dan jam 4 pagi adset on" — dikoreksi user hari yang sama: **"matikan di jam 10 malam"** (OFF jam 22:00).
 Dijalankan oleh 2 routine cloud (lihat `chat-memory.md`). Daftar ad set yang dimatikan disimpan di
 [`jadwal-malam-daftar.md`](jadwal-malam-daftar.md), supaya jam 04:00 yang dinyalakan HANYA ad set itu.
-Ad set yang sudah PAUSED sebelum jam 22:00 (dimatikan user, auto rule, atau cek tiap jam) tidak ikut dinyalakan.
+**3 Nov (perintah user):** jam 04:00 nyalakan SEMUA ad set PAUSED (siapa pun yang mematikan), bukan hanya yang ada di daftar malam; campaign PAUSED/ARCHIVED dilewati.
 
 ## Akun (14)
 

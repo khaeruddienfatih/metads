@@ -3207,3 +3207,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Nida campaign "new": ad set Indonesia - Broad 25-65 #1 (120251938554630004) ACTIVE tapi semua iklannya mati; dinyalakan 2 iklan: 120251938774870004 (3 chat, Rp19,4rb) & 120251938773180004 (2 chat, Rp30,9rb), terverifikasi ACTIVE. Iklan Desain 9 #4 (Rp64rb) sudah ARCHIVED.
 - User menempel aturan baku → `routine-baku.md` & `auto-reaktivasi.md` diperbarui: A nyala ad set CPR hari ini < Rp30rb tanpa batas kali; B pause ad set spend > Rp25rb & 0 hasil; C pause iklan CPR sepanjang waktu > Rp50rb; D (baru) nyalakan iklan kena off dengan CPR sepanjang waktu < Rp30rb; 04:00 "nyalakan semua adset off".
 - Tertunda: konfirmasi arti "kena off otomatis" & "semua adset off"; prompt routine cloud (trig_...) belum disamakan; bot.py routine() masih teks lama.
+
+### 2026-11-03 — jawaban "1D, 2 nyalakan semua adset siapapun yang mematikan" → prompt routine cloud diperbarui
+- Aturan: nyala ulang berlaku siapa pun yang mematikan (ad set A, iklan D); 04:00 nyalakan SEMUA ad set PAUSED di campaign ACTIVE.
+- Prompt 3 routine cloud DIPERBARUI lewat API: trig_01PExMLpwLUtZxVRsi4R6e8H (:13) & trig_013WfwoGnfBo14J4EupZGgtx (:43) → bagian A<Rp30rb tanpa batas & tanpa syarat auto-rule/3 hari, B spend>Rp25rb & 0 chat, C iklan CPR>Rp50rb, D nyalakan iklan CPR<Rp30rb; trig_01KLe5sJc8N6MQMEYKUpzNqB (04:00) bagian 2 → semua ad set PAUSED. Sebelumnya prompt memuat aturan lama (35rb, 3 hari, maks 2×, B 30rb/40rb) sehingga file memory saja tidak cukup.
+- Belum diuji: run pertama dengan aturan baru ada di :43 berikutnya; routine malam 22:00 tidak diubah. Perlu dipantau hasilnya (risiko: banyak ad set/iklan PAUSED lama ikut menyala).

@@ -13,6 +13,10 @@ Allif 4678183395742010 · Fikri 1676215979752437 · AIni 814396810761205 · Irfa
 Fifi 521083143750270 · Elharamain Haji 947788760498911 · Haji 2 1032468828178224 ·
 Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
 
+> **3 Nov (perintah user "mau siapapun yang mematikan"):** Bagian A, D dan jadwal 04:00 berlaku untuk ad set/iklan PAUSED
+> **siapa pun yang mematikannya** — langkah 1 di bawah (mencari entri `rule_info`) tidak lagi jadi syarat; ambil semua ad set PAUSED di campaign ACTIVE.
+> Lihat `routine-baku.md`.
+
 ## Langkah per akun
 
 1. `ads_account_get_activity_logs` — `event_category: status`, `start_time` = hari ini 00:00 WIB

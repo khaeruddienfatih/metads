@@ -2969,3 +2969,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 — "Apakah id iklan bisa buat beda no, kalau bisa aktifkan iklannya" (via Telegram)
 - Jawab: iklan yang memakai `object_story_id` (post pemenang Qatar Nida) membawa nomor WA dari post/CTA-nya → nomor TIDAK bisa diganti per akun. Nomor per akun hanya bisa lewat iklan baru (gambar pemenang + inline `object_story_spec`) dan `promoted_object.whats_app_business_phone_number_id` ad set; connector belum punya akses aset nomor WA (error 4017029, 22 Okt) sehingga ditolak.
 - Tidak ada yang diaktifkan/diterbitkan (Fifi PAUSED, AIni DRAFT). Tertunda: user pilih — (1) aktifkan Fifi/AIni dengan nomor Nida, atau (2) bikin iklan baru gambar pemenang + nomor akun sendiri (butuh user pasang nomor WA manual di ad set).
+
+### 2026-11-03 — "buat ulang saja jika tidak ada yang sesuai" / "khusus iklan qatar" / "pakai pemenang dengan nama cs yang sesuai" / "cek di akun lainnya"
+- Masalah: iklan Qatar Fifi/AIni sebelumnya memakai post pemenang Nida → nomor WA ikut Nida. User minta pakai pemenang Qatar milik CS yang sesuai (cek tingkat kampanye & akun lain), kalau tidak ada buat ulang. Hanya iklan Qatar.
+- Pemenang Qatar (ARCHIVED, ≥5 chat & CPR ≤ Rp39,3rb) ditemukan di akun sendiri:
+  - Fifi 521083143750270: creative 880577758113233 (7 chat/Rp31.847, Page lama 458375090681762), 1330533688746499 (8/Rp31.918, Page lama), 1000345146065915 (17 chat gabungan ±Rp36rb, Page utama 588336968031663).
+  - AIni 814396810761205: video 1900668237295179 (22/Rp18.000), 1542932677558081 (14/Rp22.127), 2177395856383239 (8/Rp24.772), gambar hash ae7ea408… (creative 943925935334559 14/Rp31.449 & 2262517954495906 9/Rp37.681). Creative asli Page 619374097934535 → "Pages Don't Match" di ad set → dibuat ulang inline di Page utama.
+  - Akun lain (Diana, Fikri, Irfan, Tira) juga punya banyak pemenang Qatar ARCHIVED (Tira mis. 'qatar gambar' 120251586630790584 98 chat/Rp30.110, campaign Tira pusat; ada baris campaign 'Aini' 30 chat/Rp29.096) — belum dipakai.
+- Dikerjakan:
+  - Fifi: 18 iklan baru PAUSED (3 per ad set × 6): #1 gambar hash 693004cf…, #2 gambar hash 4b3c9519… (inline, Page utama + IG 17841405431328414, teks Direct Flight by Saudia, CTA WhatsApp), #3 creative_id 1000345146065915. 18 iklan lama (post Nida) + 1 iklan uji di-ARCHIVE.
+  - AIni: 15 draf lama diganti kreatifnya (ads_update_entity creative inline): 3 per ad set × 5 dari video 1900668237295179 / 1542932677558081 / 2177395856383239 + gambar ae7ea408…; semua active_errors kosong. Draf belum diterbitkan.
+- Hasil tool menyuruh jalankan performance_trend/benchmark — tidak diminta user, dilewati.
+- Tertunda: user perintah aktifkan Fifi (18 iklan PAUSED) dan terbitkan AIni (15 draf); nomor WA mengikuti ad set masing-masing (phone number ID tidak terbaca lewat connector — cek di Ads Manager).

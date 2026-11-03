@@ -3215,3 +3215,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-03 — "dalam bentuk full table agar saya bisa edit"
 - Dibuat `memory/routine-tabel.md`: satu tabel semua routine (ID, jam, bagian A/B/C/D, aturan, angka, siapa yang mematikan, status). User edit file → minta Claude menyamakan prompt routine cloud.
+
+### 2026-11-03 — "kenapa no 1 banyak ... yang gampang di mengerti"
+- `routine-tabel.md` disederhanakan: 10 baris bernomor sendiri (Kapan jalan | Kalau | Maka | Angka), pengecualian di bawah, ID routine cloud dipisah di tabel "di balik layar".

@@ -3290,3 +3290,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-03 — "Panggil juragan" (via Telegram)
 - Kata "juragan" tidak ada di repo (memory/telegram/CLAUDE.md) — tidak ada agen/bot/skill dengan nama itu. Ditanyakan ke user maksudnya (mis. bot di tmux `bot` folder ~/elharamainwisata, atau orang). Tidak ada pekerjaan Meta Ads.
+
+### 2026-11-03 — "Kamu panggil saya juragan" (via Telegram)
+- Preferensi user: sapa user dengan "Juragan". Tidak ada pekerjaan Meta Ads.

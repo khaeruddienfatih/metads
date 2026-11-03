@@ -2980,3 +2980,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan 1060984719243481 — iklan 120253654917450414 "9 Hari Januari | Desain 7 #3 - winner" (campaign Sales jawa): spend Rp35.431, 0 chat.
   - Elharamain Haji 947788760498911 — iklan 120251116314480739 "Vidio (AIni Broud) - winner" (adset LLA - 1, campaign Diana): spend Rp40.974, 0 chat.
 - Catatan: log aktivitas akun Haji 947 terlalu besar (hanya entri MCP pagi, tanpa rule_info) — dibaca via file, tidak ada rule-off.
+
+### 2026-11-03 11:13 — cek 30 menit (cloud)
+- A: tidak ada (satu-satunya rule-off hari ini di Fifi; semua 0 chat atau CPR > Rp35rb / "Januari" 1 chat Rp90.108).
+- B: pause ad set (spend hari ini; terverifikasi PAUSED):
+  - Diana 1076195694707828 · 120251832398390294 "9hari januari" (campaign Tangerang/Diana) · Rp41.073, 1 chat (>40rb & <2 chat)
+  - Nida 1019832712800468 · 120251731135480004 "indonesia" (campaign 12 hari januari) · Rp42.669, 1 chat (>40rb & <2 chat)
+  - Fikri 1676215979752437 · 120249534604840470 "9 januari" (campaign Fikri Prov) · Rp34.158, 0 chat
+  - Elharamain Haji 947788760498911 · 120250253985880739 "Interest" (campaign AIni) · Rp35.932, 0 chat
+  - Haji 3 794403715776985 · 120252557031850704 "Haji 2" (campaign Aini) · Rp32.033, 0 chat
+- C: pause iklan lifetime — Irfan 1060984719243481 · ad 120253687649360414 "9 Hari Januari | Desain 3 - winner" (adset 9 hari januari, campaign new - Salin) · Rp35.905, 0 chat · PAUSED terverifikasi (cek via update sukses).

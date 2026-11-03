@@ -3277,3 +3277,5 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Haji 4 1526562231314028 — ad set 120256622022620768 "Vidio" (campaign Diana): spend hari ini Rp33.374, 0 chat (> Rp25rb & 0 chat) → PAUSED (terverifikasi).
 - C (pause iklan): Tira 868364731529534 — iklan 120252918640760584 "9 Hari Januari | Desain 9 #5 - winner" (ad set 9 hari januari, campaign new): sepanjang waktu spend Rp260.927 / 5 chat = CPR Rp52.185 (> Rp50rb) → PAUSED (terverifikasi).
 - D: tidak ada.
+### 2026-11-03 21:47 — auto_rules.py AKTIF di Mac mini
+- Service `elharamain-autorules` (user systemd) jalan; META_RULES_LIVE=1; log "mulai — mode AKTIF" 21:46:58. Putaran pertama mulai mengubah (pause iklan CPR>Rp50rb/0 chat). Cloud routine cek 15 menit (:13/:28/:43/:58) tetap hidup sebagai cadangan (aturan identik).

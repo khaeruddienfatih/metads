@@ -3238,3 +3238,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Elharamain Haji 947788760498911 · 120251116324990739 "Haji_Reuse_Nida-Broud - winner" (Tira/Haji) — Rp55.131 / 3 chat, CPR Rp18.377
   - Haji 4 1526562231314028 · 120256622022710768 "Haji" (Diana/Vidio) — Rp741.974 / 29 chat, CPR Rp25.585
 - Dilewati: iklan Haji 3 `Haji_Img_11` (CPR Rp26,6rb) karena ad set induknya (Haji 2 / Fikri) masih PAUSED.
+### 2026-11-03 — user menaruh versi edit `routine-tabel.md` di ~/Downloads
+- Versi user disalin ke `memory/routine-tabel.md`. Beda dari versi Claude: cek tiap 15 menit (04:00–21:59, :13/:28/:43/:58), aturan baru 2b (pause ad set spend ≥ Rp45.000 dan chat < 2), akun elharamain Profile (873443374652541) dikecualikan dari semua aturan, tambahan Istilah & Ringkasan satu hari.
+- Belum disinkronkan ke routine cloud: perlu 4 routine untuk 15 menit (sekarang 2) dan bagian B ditambah 2b. Menunggu persetujuan user.

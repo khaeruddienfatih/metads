@@ -3103,3 +3103,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Nida 1019832712800468 · 120251989866270004 "Ramadhan | Desain 2 #5 - winner" (Nida Sales) — Rp57.625 / 1 chat
   - Irfan · 120253549823210414 "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa) — Rp151.294 / 3 chat (CPR Rp50.431)
   - Haji 3 794403715776985 · 120253156541030704 "Haji_Img_04 - winner" (Aini) — Rp35.108 / 0 chat
+
+### 2026-11-03 16:13 — cek 30 menit (cloud)
+- A: tidak ada ad set yang memenuhi syarat dinyalakan (Fifi punya 16 ad set rule-off "OFF 1/OFF 2", semuanya 0 chat atau CPR hari ini > Rp35rb; akun lain tanpa entri rule).
+- B (pause ad set, diverifikasi PAUSED):
+  - Hanif 482252744648260 — 120254963922440427 "9 Hari Januari" (campaign Prospek (baru) - Salin): spend Rp36.500, 0 chat (≥30rb & 0 chat).
+  - AIni 814396810761205 — 120253924406960019 "12 Hari Januari" (Prospek (baru) - Salin): Rp34.027, 0 chat.
+  - Irfan 1060984719243481 — 120253512143030414 "9 Hari Januari" (Penjualan (baru) - Salin): Rp43.690, 1 chat (>40rb & <2 chat).
+  - Haji 3 794403715776985 — 120252745117500704 "Haji" (campaign Alif): Rp31.930, 0 chat.
+  - Haji 4 1526562231314028 — 120256622022150768 "Vidio" (campaign Nida): Rp43.530, 1 chat.
+- C (pause iklan, diverifikasi PAUSED): Fifi 521083143750270 — 120252512321640365 "12 Hari Januari | Desain 2 #3" (ad set 12  Januari, campaign Fifi): lifetime Rp107.779 / 2 chat = Rp53.890/chat (>50rb).

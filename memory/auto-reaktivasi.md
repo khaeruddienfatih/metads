@@ -24,10 +24,10 @@ Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
 3. Nyalakan HANYA jika semua terpenuhi:
    - status sekarang masih PAUSED/tidak aktif (belum dinyalakan orang lain);
    - campaign-nya ACTIVE (jangan nyalakan ad set di campaign yang di-PAUSE);
-   - chat WA hari ini ≥ 1 dan biaya per chat hari ini (spend ÷ chat) **< Rp35.000** (1 Nov, perintah user "saya naikan menjadi 35ribu batas cpr nya"; dulu Rp30.000);
+   - chat WA hari ini ≥ 1 dan biaya per chat hari ini (spend ÷ chat) **< Rp30.000** (3 Nov, perintah user: "cpr di bawah 30rb ... tidak ada batasan berapa kali"; sempat Rp35.000 pada 1 Nov);
    - **(3 Nov, perintah user "perhari" + "berapa kali ga ada batasan jika cpr di bawah 35rb auto nyalakan lagi")**:
      hanya CPR HARI INI yang dipakai (syarat CPR 3 hari < Rp50rb dihapus) dan TIDAK ADA batas berapa kali
-     sehari — selama chat hari ini ≥ 1 dan CPR hari ini < Rp35.000, nyalakan lagi tiap kali ad set mati.
+     sehari — selama chat hari ini ≥ 1 dan CPR hari ini < Rp30.000, nyalakan lagi tiap kali ad set mati.
 4. Nyalakan: `ads_activate_entity` `object_ids: [adset_id]`, `publish_as_active: true`.
    Kalau ditolak "has no staged changes in the draft" (akun mode draft seperti Diana/Nida), ulangi
    dengan `entity_type: ad_set` + `entity_id` tanpa `object_ids`. Lalu verifikasi dengan
@@ -40,15 +40,14 @@ Perintah user: "adset aturan perhari matikan adset yang habis 25ribu tapi tidak 
 
 1. Per akun: `ads_get_ad_entities` level `adset`, filter `effective_status IN [ACTIVE]`, `date_preset: today`,
    field `name, campaign_name, optimization_goal, amount_spent, results, cost_per_result`.
-2. PAUSE jika salah satu (chat = messaging conversation started; kosong/"Not available" = 0):
-   - spend hari ini **≥ Rp30.000** dan **0 chat** hari ini (30 Okt); ATAU
-   - **(1 Nov, perintah user "matikan adset harian jika belanja di atas 40rb dan cpr di bawah 2")** spend hari ini
-     **> Rp40.000** dan chat hari ini **< 2** (0 atau 1 chat).
+2. PAUSE jika (3 Nov, perintah user "matikan adset jika belanja di atas 25ribu tidak dapat 1 hasil di hari ini"):
+   spend hari ini **> Rp25.000** dan **0 hasil** (chat = messaging conversation started; kosong/"Not available" = 0).
+   Menggantikan aturan lama (≥ Rp30rb/0 chat dan > Rp40rb/<2 chat).
 3. Kecualikan ad set yang hasilnya bukan chat WA (mis. Haji 4 campaign pixel/add-to-cart: optimization_goal
    bukan CONVERSATIONS) — jangan di-pause.
 4. Pause: `ads_update_entity` `ad_account_id`, `entity_id` = ad set, `fields {"status":"PAUSED"}`. Verifikasi.
    Ubah status saja, jangan sentuh budget/targeting/iklan.
-5. Bagian A tidak akan menyalakannya lagi hari itu (syarat A butuh ≥1 chat & CPR < Rp35rb). Besok (data
+5. Bagian A tidak akan menyalakannya lagi hari itu (syarat A butuh ≥1 chat & CPR < Rp30rb). Besok (data
    hari baru) ad set ini TIDAK otomatis dinyalakan — hanya ad set yang dimatikan auto rule yang diproses Bagian A.
 
 ## Bagian C — matikan IKLAN mahal sepanjang waktu (1 Nov, perintah user)
@@ -61,6 +60,15 @@ Perintah user: "matikan iklan jika iklan sudah running sepanjang waktu dan cpr d
    (aturan 20/30 Okt). Iklan yang hasilnya bukan chat WA (pixel/add-to-cart) dikecualikan.
 3. Pause: `ads_update_entity` `entity_type ad`, `fields {"status":"PAUSED"}`. Status saja. Verifikasi.
 4. Tidak menghapus iklan (PAUSE saja).
+
+## Bagian D — nyalakan IKLAN yang kena off tapi CPR bagus (3 Nov, perintah user)
+
+Perintah user: "nyalakan iklan jika kena off tapi cpr sepanjang waktu di bawah 30rb".
+
+1. Per akun: `ads_get_ad_entities` level `ad`, `effective_status IN [PAUSED]`, `date_preset: maximum`, field `name, adset_name, campaign_name, amount_spent, results`.
+2. NYALAKAN jika chat sepanjang waktu ≥ 1 dan spend ÷ chat < **Rp30.000**, ad set & campaign-nya ACTIVE, dan iklan bukan ARCHIVED/DELETED.
+   Jangan nyalakan iklan yang baru di-PAUSE Bagian C (CPR > Rp50rb) — tidak mungkin keduanya benar.
+3. `ads_activate_entity` `entity_type: ad`, `entity_id`; verifikasi. Status saja.
 
 ## Jadwal
 

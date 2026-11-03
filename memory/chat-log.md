@@ -3202,3 +3202,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Elharamain Haji 947788760498911 · ad set 120251142496670739 "26 Kota - Broad 25-65 #1" (campaign Fifi) · spend Rp50.008, 1 chat (> Rp40rb & < 2 chat).
 - **C (pause iklan mahal sepanjang waktu), verified PAUSED:**
   - Fifi 521083143750270 · iklan 120252512288020365 "9 Hari Januari | Desain 4 Musim Dingin #1" (ad set Januari, campaign Fifi Kota) · lifetime spend Rp35.170, 0 chat.
+
+### 2026-11-03 — "nyalakan" (2 iklan Nida) + aturan baku routine dari user
+- Nida campaign "new": ad set Indonesia - Broad 25-65 #1 (120251938554630004) ACTIVE tapi semua iklannya mati; dinyalakan 2 iklan: 120251938774870004 (3 chat, Rp19,4rb) & 120251938773180004 (2 chat, Rp30,9rb), terverifikasi ACTIVE. Iklan Desain 9 #4 (Rp64rb) sudah ARCHIVED.
+- User menempel aturan baku → `routine-baku.md` & `auto-reaktivasi.md` diperbarui: A nyala ad set CPR hari ini < Rp30rb tanpa batas kali; B pause ad set spend > Rp25rb & 0 hasil; C pause iklan CPR sepanjang waktu > Rp50rb; D (baru) nyalakan iklan kena off dengan CPR sepanjang waktu < Rp30rb; 04:00 "nyalakan semua adset off".
+- Tertunda: konfirmasi arti "kena off otomatis" & "semua adset off"; prompt routine cloud (trig_...) belum disamakan; bot.py routine() masih teks lama.

@@ -1,25 +1,24 @@
-# Routine baku (ringkasan tunggal, 3 Nov 2026)
+# Routine baku (aturan resmi dari user, 3 Nov 2026)
 
-Ringkasan semua yang dikerjakan routine. Rincian langkah ada di file yang ditautkan. Kalau ada beda dengan file lain, file ini
-(versi terbaru perintah user) yang dipakai. Jam = WIB. Akun: 14 (Naik anggaran: 13, Allif dikecualikan).
+Sumber: pesan user 3 Nov 2026 (rincian di bawah dikutip dari perintahnya). Kalau ada beda dengan file lain, file ini yang dipakai.
+Jam = WIB. Akun: 14 (Naik anggaran: 13, Allif dikecualikan). Hasil = chat WA. Semua CPR "hari ini" kecuali disebut lain.
 
 ## Jadwal
 
-| Jam | Pekerjaan | Rincian |
-|---|---|---|
-| tiap 30 menit (:13, :43), kecuali 22:00–03:59 | Bagian A nyala / B pause ad set / C pause iklan | [auto-reaktivasi.md](auto-reaktivasi.md) |
-| 22:00 | Semua ad set ACTIVE di-PAUSE, daftar disimpan | [jadwal-malam.md](jadwal-malam.md) |
-| 04:00 | 1) Naik anggaran +10%, 2) nyalakan ad set dari daftar malam | [naik-budget.md](naik-budget.md) |
-| 06:00, 08:00 | Email Rekap Harian (kemarin) | chat-memory.md |
-| 12:00, 16:00, 21:00 | Email laporan hari ini s.d. jam itu | chat-memory.md |
+| Jam | Pekerjaan |
+|---|---|
+| Tiap 30 menit (:13, :43), kecuali 22:00–03:59 | Cek ad set dan iklan (A, B, C, D di bawah) |
+| 22:00 | Semua ad set aktif di-PAUSE, daftarnya disimpan |
+| 04:00 | Naik anggaran +10%, lalu nyalakan ad set yang OFF |
+| 06:00 dan 08:00 | Email rekap kemarin |
+| 12:00, 16:00, 21:00 | Email laporan hari ini sampai jam itu |
 
-## Aturan cek tiap 30 menit (semua pakai data HARI INI, hasil = chat WA)
+## Aturan cek tiap 30 menit
 
-- **A — NYALAKAN** ad set yang PAUSED, campaign ACTIVE, chat hari ini ≥ 1 dan CPR hari ini < **Rp35rb**.
-  Tanpa batas berapa kali sehari (3 Nov). Syarat CPR 3 hari dihapus.
-  *Cakupan saat ini:* hanya ad set yang dimatikan auto rule Meta. **Belum diputuskan:** apakah juga ad set yang dimatikan Bagian B.
-- **B — PAUSE ad set** ACTIVE: spend ≥ Rp30rb dan 0 chat; ATAU spend > Rp40rb dan chat < 2. Ad set non-chat dikecualikan.
-- **C — PAUSE iklan** (data sepanjang waktu): CPR > Rp50rb, atau 0 chat dan spend ≥ Rp35rb. Hanya PAUSE, tidak menghapus.
+- **A — NYALAKAN ad set** yang kena OFF otomatis kalau CPR hari ini < **Rp30rb** (chat ≥ 1). **Tidak ada batas berapa kali**; yang penting CPR < Rp30rb.
+- **B — PAUSE ad set** kalau spend hari ini > **Rp25rb** dan **0 hasil** hari ini. (Menggantikan aturan lama Rp30rb/0 chat dan Rp40rb/<2 chat.) Ad set non-chat dikecualikan.
+- **C — PAUSE iklan** kalau CPR sepanjang waktu > **Rp50rb** (atau 0 chat dan spend ≥ Rp35rb). Hanya PAUSE, tidak menghapus.
+- **D — NYALAKAN iklan** yang kena OFF kalau CPR sepanjang waktu < **Rp30rb** (chat ≥ 1). Iklan yang diarsipkan/dihapus user tidak dinyalakan.
 
 ## Naik anggaran (04:00)
 
@@ -31,8 +30,9 @@ maks Rp300rb/hari per campaign, jeda 3 hari antar kenaikan. Allif dikecualikan.
 Jangan ubah targeting, iklan, atau budget di luar aturan di atas. Jangan menghapus iklan lewat routine.
 Jangan simpan token/kredensial di file memory.
 
-## Yang belum otomatis / perlu diputuskan
+## Perlu dipastikan dengan user
 
-- Laporan "ad set CPR < Rp35rb tapi PAUSED" dan laporan kerja routine ke Telegram/email belum ada.
-- Auto rule lewat token Meta belum dibuat (token belum ada).
-- Daftar di `bot.py` (`routine()`) masih teks lama; samakan setelah disetujui.
+- "Kena off otomatis" (A/D): hanya yang dimatikan auto rule Meta, atau juga yang dimatikan routine (B/C)? Perhatikan: kalau B/C ikut, bisa saling bolak-balik.
+- 04:00 "nyalakan semua adset off": semua ad set PAUSED, atau hanya yang dimatikan jadwal malam? (Sekarang hanya daftar malam.)
+- Laporan "ad set/iklan CPR bagus tapi PAUSED" dan auto rule via token Meta belum ada.
+- Prompt routine cloud (`trig_...`) mungkin perlu disamakan dengan file ini; teks `/routine` di bot.py juga masih lama.

@@ -2883,3 +2883,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada (ad set rule-off hari ini hanya di Fifi 521083143750270: jawa barat 120252429755530365, Januari 120252109327300365, 9 Hari Januari 120252597263980365, 9 Januari 120252201112050365 — semua 0 chat hari ini kecuali Januari 1 chat/Rp88.659 → tidak memenuhi CPR < Rp35rb).
 - B: PAUSE ad set — Irfan 1060984719243481, ad set 120253548709090414 "12 Hari Januari", campaign "Sales banten": spend hari ini Rp30.405, 0 chat (kondisi ≥ Rp30rb & 0 chat). Terverifikasi: update live is_draft=false, activity log mencatat Active→Inactive 08:14.
 - C: tidak ada iklan yang memenuhi (semua 14 akun dicek, CPR sepanjang waktu ≤ Rp50rb).
+
+### 2026-11-03 08:43 — cek 30 menit (cloud)
+- A: tidak ada (log auto rule hari ini hanya di Fifi 521083143750270: jawa barat 120252429755530365, Januari 120252109327300365, 9 Hari Januari 120252597263980365, 9 Januari 120252201112050365 — semua 0 chat atau CPR Januari Rp88.666 → tidak memenuhi CPR < Rp35rb; tetap PAUSED).
+- B: PAUSE ad set — Fikri 1676215979752437, ad set 120249450585120470 "9 Hari Januari", campaign "Fikri": spend hari ini Rp33.103, 0 chat (≥ Rp30rb & 0 chat). Terverifikasi PAUSED.
+- C: PAUSE iklan (0 chat & spend ≥ Rp35rb sepanjang waktu):
+  - Tira 868364731529534, ad 120252918641190584 "9 Hari Januari | januari_5 - winner" (campaign new): Rp35.017, 0 chat. Terverifikasi PAUSED.
+  - Tira 868364731529534, ad 120252902832980584 "Video 9 Hari Januari | januari_2 | 25 Kota J#1" (campaign januari 9 hari & 12 hari): Rp35.698, 0 chat. Terverifikasi PAUSED.
+  - Irfan 1060984719243481, ad 120253654913090414 "Kota Ramadhan | Desain 2 #2 - winner" (campaign Irfan Indonesia): Rp36.604, 0 chat. status=PAUSED (effective_status IN_PROCESS saat dibaca, update live is_draft=false).

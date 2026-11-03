@@ -3142,3 +3142,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **C (pause iklan):**
   - Nida 1019832712800468 — `120251989865080004` "Ramadhan | Desain 3 #4 - winner": lifetime Rp54.077 / 1 chat (CPR Rp54.077). PAUSED terverifikasi.
   - Fifi 521083143750270 — `120252665444190365` "12 Hari Januari Fifi 12 Januari | 12_hari_januari_4": lifetime Rp39.034 / 0 chat. PAUSED terverifikasi.
+
+### 2026-11-03 — "aini error"
+- Error di 15 draf AIni (814396810761205): validation_status HAS_ERRORS, kode 1815589 "Creative Call To Action's Link Title and Link Description Are Deprecated". Penyebab: kreatif hasil ads_create_creative (creative_id) menyuntik link_title/link_description ke CTA WhatsApp + page_welcome_message; draf tidak bisa terbit.
+- Perbaikan: 15 draf diganti kreatif INLINE (object_story_spec link_data, CTA value hanya link, tanpa creative_id). Contoh 120254063430460019 → VALIDATED, active_errors kosong. Pola: #1 hash 03b9c001… + judul "6800+ Google Review", #2 hash db7f56bb… + judul sama, #3 hash 03b9c001… + judul "Tiket Sudah Confirm".
+- Pelajaran: untuk draf AIni jangan pakai creative_id dari ads_create_creative; pakai inline link_data.
+- Catatan: Fifi memakai creative_id (18 iklan PAUSED) — belum dicek apakah aktivasi kena error yang sama.
+- Tertunda: terbitkan 15 draf AIni & aktifkan 18 iklan Fifi (menunggu persetujuan user); cek nomor WA.

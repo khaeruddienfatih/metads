@@ -1,0 +1,15 @@
+# systemd user service — aturan otomatis iklan REALTIME di Mac mini Ubuntu (tanpa model, langsung Meta API).
+# Pasang: cp telegram/elharamain-autorules.service ~/.config/systemd/user/ && systemctl --user daemon-reload \
+#         && systemctl --user enable --now elharamain-autorules
+[Unit]
+Description=Aturan otomatis iklan Elharamain (realtime, Meta API)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/metaads
+ExecStart=/usr/bin/python3 %h/metaads/telegram/auto_rules.py
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=default.target

@@ -3212,3 +3212,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Aturan: nyala ulang berlaku siapa pun yang mematikan (ad set A, iklan D); 04:00 nyalakan SEMUA ad set PAUSED di campaign ACTIVE.
 - Prompt 3 routine cloud DIPERBARUI lewat API: trig_01PExMLpwLUtZxVRsi4R6e8H (:13) & trig_013WfwoGnfBo14J4EupZGgtx (:43) → bagian A<Rp30rb tanpa batas & tanpa syarat auto-rule/3 hari, B spend>Rp25rb & 0 chat, C iklan CPR>Rp50rb, D nyalakan iklan CPR<Rp30rb; trig_01KLe5sJc8N6MQMEYKUpzNqB (04:00) bagian 2 → semua ad set PAUSED. Sebelumnya prompt memuat aturan lama (35rb, 3 hari, maks 2×, B 30rb/40rb) sehingga file memory saja tidak cukup.
 - Belum diuji: run pertama dengan aturan baru ada di :43 berikutnya; routine malam 22:00 tidak diubah. Perlu dipantau hasilnya (risiko: banyak ad set/iklan PAUSED lama ikut menyala).
+
+### 2026-11-03 — "dalam bentuk full table agar saya bisa edit"
+- Dibuat `memory/routine-tabel.md`: satu tabel semua routine (ID, jam, bagian A/B/C/D, aturan, angka, siapa yang mematikan, status). User edit file → minta Claude menyamakan prompt routine cloud.

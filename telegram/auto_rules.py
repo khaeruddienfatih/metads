@@ -66,6 +66,7 @@ TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = (os.environ.get("TELEGRAM_ALLOWED_CHAT_IDS", "").replace(" ", "").split(",") or [""])[0]
 
 
+GAGAL = {}  # (id, status) -> waktu gagal terakhir
 PENDING = []  # kabar Telegram dikumpulkan, dikirim satu pesan per putaran
 
 
@@ -145,7 +146,15 @@ def ubah(entity_id, status, label, alasan, sudah):
     # mode aktif: tanpa batas berapa kali — begitu status berubah, kondisinya tidak cocok lagi
     mode = "AKTIF" if LIVE else "SIMULASI"
     if LIVE:
-        graph(entity_id, {"status": status}, post=True)
+        if time.time() - GAGAL.get((entity_id, status), 0) < 3600:
+            return False  # baru gagal; coba lagi sejam kemudian
+        try:
+            graph(entity_id, {"status": status}, post=True)
+        except RuntimeError as e:  # satu objek bermasalah jangan menghentikan yang lain
+            GAGAL[(entity_id, status)] = time.time()
+            log(f"GAGAL {label} → {status}: {str(e)[:160]}")
+            PENDING.append(f"⚠️ GAGAL {label} → {status}: {str(e)[:120]}")
+            return False
     pesan = f"[{mode}] {label} → {status} | {alasan}"
     log(pesan)
     PENDING.append(("✅ " if LIVE else "🧪 ") + pesan)

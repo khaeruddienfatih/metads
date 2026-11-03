@@ -3279,3 +3279,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - D: tidak ada.
 ### 2026-11-03 21:47 — auto_rules.py AKTIF di Mac mini
 - Service `elharamain-autorules` (user systemd) jalan; META_RULES_LIVE=1; log "mulai — mode AKTIF" 21:46:58. Putaran pertama mulai mengubah (pause iklan CPR>Rp50rb/0 chat). Cloud routine cek 15 menit (:13/:28/:43/:58) tetap hidup sebagai cadangan (aturan identik).
+
+### 2026-11-03 21:49 — perbaikan auto_rules.py: kegagalan per objek
+- Haji 2: Meta menolak pause 1 iklan (error 2446880 "Perlu nomor WhatsApp" — nomor WA akun belum terhubung ke Page/IG). Skrip diperbaiki: objek gagal dilewati & dicoba lagi sejam kemudian; sisa akun tetap diproses; kegagalan dikabarkan ke Telegram. Service di-restart 21:49:27 (mode AKTIF).

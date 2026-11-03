@@ -3282,3 +3282,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-03 21:49 — perbaikan auto_rules.py: kegagalan per objek
 - Haji 2: Meta menolak pause 1 iklan (error 2446880 "Perlu nomor WhatsApp" — nomor WA akun belum terhubung ke Page/IG). Skrip diperbaiki: objek gagal dilewati & dicoba lagi sejam kemudian; sisa akun tetap diproses; kegagalan dikabarkan ke Telegram. Service di-restart 21:49:27 (mode AKTIF).
+
+### 2026-11-03 22:00 — jadwal malam OFF (cloud)
+- Total 96 ad set ACTIVE di-PAUSE, 0 gagal, semua akun terbaca. Daftar di `memory/jadwal-malam-daftar.md`.
+- Per akun: Diana 2 · Tira 4 · Nida 12 · Hanif 1 · Allif 5 · Fikri 2 · AIni 18 · Irfan 14 · Fifi 8 · Elharamain Haji 16 · Haji 2 0 · Haji 3 8 · Haji 4 6 · haji 1050… 0 (hanya 1 ad set ARCHIVED, dilewati).
+- Verifikasi: baca ulang tiap akun, tidak ada ad set ACTIVE tersisa.

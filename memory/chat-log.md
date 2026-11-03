@@ -3176,3 +3176,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada (Fifi 521083143750270: 17 ad set rule-off hari ini, semua 0 chat atau CPR > Rp35rb → tidak dinyalakan).
 - B: Diana 1076195694707828 — ad set 120251822584310294 "9hari januari" (campaign Tangerang): spend hari ini Rp41.344, 1 chat (> Rp40rb & < 2 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada.
+
+### 2026-11-03 19:43 — cek 30 menit (cloud)
+- **A (nyala):** Fifi 521083143750270 — ad set `120252109327300365` "Januari" (campaign Fifi, dimatikan rule OFF 1/OFF 2). Hari ini 3 chat / Rp90.108 = CPR Rp30.036; 3 hari 12 chat / Rp378.046 = Rp31.504. Reaktivasi MCP hari ini baru 1×. Verifikasi: ACTIVE.
+- **B (pause ad set, status PAUSED terverifikasi):**
+  - Hanif 482252744648260 — `120255027201380427` "Ramadhan" (campaign Retargeting): spend Rp42.186, 1 chat (>Rp40rb & <2 chat).
+  - Allif 4678183395742010 — `120252538255070228` "Jawa Barat - Broad 25-65 #2" (campaign Ramadhan): spend Rp30.500, 0 chat.
+  - Irfan 1060984719243481 — `120253330258910414` "jawa tengah & jawa timur" (campaign new): spend Rp42.682, 1 chat.
+  - Elharamain Haji 947788760498911 — `120250848623090739` "Interest" (campaign Hanif): spend Rp49.527, 1 chat.
+- **C (pause iklan):** tidak ada.

@@ -2943,3 +2943,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Kampanye baru Nida "Qatar" `120252019253660004` (Rp165rb/hari): 5 ad set (jakarta …253800004, banten …253810004, indonesia …253820004, jatim&jateng …253790004, jabar …262360004) masing-masing diisi 3 iklan DRAFT (belum diterbitkan) memakai creative_id pemenang Nida: 2147187716173183 (#1), 2125189621400671 (#2), 37943112651998551 (#3), Page 588336968031663 + IG, CTA WhatsApp. Total 15 draft, tanpa active_errors. Nama: "9 Hari Qatar | winner <creative_id> | #n".
 - Catatan: creative 2125189621400671 memakai page_whatsapp_number_id 2979050525626950 (beda dari 2771837946348210 di dua creative lain) — nomor WA perlu dicek user sebelum terbit. Creative pemenang Aini (2351918142021406 dst) tidak dipakai karena nomor WA kemungkinan nomor Aini.
 - Tertunda: user cek nomor WA, lalu perintah terbitkan/aktifkan (draft belum tayang).
+
+### 2026-11-03 — "terbitkan jika pakai id iklan" (perintah user)
+- 15 draft iklan Qatar Nida (3 per ad set × 5: jakarta, banten, indonesia, jatim&jateng, jabar; kampanye `120252019253660004`) diterbitkan dengan `ads_activate_entity` (object_ids = 15 ad id, publish_as_active). Hasil baca ulang: semua 15 status ACTIVE, effective_status IN_PROCESS (menunggu review Meta). Draft kosong.
+- Ad id: …310400004, …323390004, …323570004 (jakarta); …323770004, …323890004, …324190004 (banten); …324290004, …324920004, …325500004 (indonesia); …325830004, …326420004, …326560004 (jatim&jateng); …327130004, …327710004, …327850004 (jabar), semua prefix 1202520193.
+- Tertunda: nomor WA creative 2125189621400671 (page_whatsapp_number_id 2979050525626950) belum dipastikan nomor Nida; 5 iklan #2 memakainya.

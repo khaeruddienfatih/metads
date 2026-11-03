@@ -2990,3 +2990,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Elharamain Haji 947788760498911 · 120250253985880739 "Interest" (campaign AIni) · Rp35.932, 0 chat
   - Haji 3 794403715776985 · 120252557031850704 "Haji 2" (campaign Aini) · Rp32.033, 0 chat
 - C: pause iklan lifetime — Irfan 1060984719243481 · ad 120253687649360414 "9 Hari Januari | Desain 3 - winner" (adset 9 hari januari, campaign new - Salin) · Rp35.905, 0 chat · PAUSED terverifikasi (cek via update sukses).
+
+### 2026-11-03 11:50 — cek 30 menit (cloud)
+- A: tidak ada (rule-off hari ini hanya di Fifi, semua 0 chat atau CPR > Rp35rb).
+- B (pause ad set boros, hari ini, semua terverifikasi PAUSED):
+  - Nida 1019832712800468 · 120251572686960004 "9 hari januari" (campaign new): spend Rp31.090, 0 chat (≥Rp30rb & 0 chat).
+  - Elharamain Haji 947788760498911 · 120250897629630739 "LLA" (campaign Diana): spend Rp36.656, 0 chat.
+  - Elharamain Haji 947788760498911 · 120250897629620739 "LLA - 1" (campaign Diana): spend Rp31.671, 0 chat.
+- C: tidak ada iklan CPR sepanjang waktu > Rp50rb.

@@ -3009,3 +3009,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni: 15 draf lama diganti kreatifnya (ads_update_entity creative inline): 3 per ad set × 5 dari video 1900668237295179 / 1542932677558081 / 2177395856383239 + gambar ae7ea408…; semua active_errors kosong. Draf belum diterbitkan.
 - Hasil tool menyuruh jalankan performance_trend/benchmark — tidak diminta user, dilewati.
 - Tertunda: user perintah aktifkan Fifi (18 iklan PAUSED) dan terbitkan AIni (15 draf); nomor WA mengikuti ad set masing-masing (phone number ID tidak terbaca lewat connector — cek di Ads Manager).
+
+### 2026-11-03 12:13 — cek 30 menit (cloud)
+- A: tidak ada (Fifi: 6 ad set rule-off OFF 1/OFF 2 hari ini semua masih PAUSED, tak ada yang lolos CPR hari ini < Rp35rb; akun lain tanpa rule_info).
+- B (pause ad set boros hari ini, terverifikasi PAUSED):
+  - Diana 1076195694707828 · 120252014883280294 "Ramadhan" (campaign Diana new): spend Rp30.526, 0 chat (≥30rb & 0 chat).
+  - Hanif 482252744648260 · 120254963922420427 "Ramadhan" (campaign Prospek (baru) - Salin): spend Rp42.230, 1 chat (>40rb & <2 chat).
+  - Hanif 482252744648260 · 120254774741070427 "Jakarta" (campaign 12 Hari Januari): spend Rp33.193, 0 chat (≥30rb & 0 chat).
+- C (pause iklan lifetime, status PAUSED; effective IN_PROCESS saat verifikasi):
+  - Tira 868364731529534 · iklan 120252918641770584 "9 Hari Januari | januari_8 - winner" (ad set 9 hari januari, campaign new): lifetime spend Rp35.603, 0 chat.

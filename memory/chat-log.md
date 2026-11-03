@@ -2948,3 +2948,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 15 draft iklan Qatar Nida (3 per ad set × 5: jakarta, banten, indonesia, jatim&jateng, jabar; kampanye `120252019253660004`) diterbitkan dengan `ads_activate_entity` (object_ids = 15 ad id, publish_as_active). Hasil baca ulang: semua 15 status ACTIVE, effective_status IN_PROCESS (menunggu review Meta). Draft kosong.
 - Ad id: …310400004, …323390004, …323570004 (jakarta); …323770004, …323890004, …324190004 (banten); …324290004, …324920004, …325500004 (indonesia); …325830004, …326420004, …326560004 (jatim&jateng); …327130004, …327710004, …327850004 (jabar), semua prefix 1202520193.
 - Tertunda: nomor WA creative 2125189621400671 (page_whatsapp_number_id 2979050525626950) belum dipastikan nomor Nida; 5 iklan #2 memakainya.
+
+### 2026-11-03 — "masuk akun fifi dan aini kamu isi iklan di adsetnya"
+- Kedua akun punya kampanye baru "Qatar" (dibuat user 3 Nov ±10:06) berisi ad set kosong.
+  - Fifi 521083143750270, campaign `120252747234470365`, 6 ad set "qatar": …234560365, …234540365, …234570365, …234520365, …234550365, …234530365.
+  - AIni 814396810761205, campaign `120254063385300019`, 5 ad set "25 Kota - Broad 25-65 #1–#5": …385320019, …385330019, …385340019, …385350019, …385360019.
+- Diisi 3 iklan per ad set dari post pemenang Qatar akun Nida via `object_story_id` + IG `17841405431328414` (Page 588336968031663, aturan reuse lintas akun): 588336968031663_1909660473580624 (9 Hari Qatar, 55 chat/Rp29.496), _1909643673582304 (14 chat/Rp32.505), _1910087686871236 (7 chat/Rp22.829).
+- Fifi: 18 iklan dibuat PAUSED (akun live, bukan draft). AIni: 15 iklan berstatus DRAFT (akun mode draft, belum terbit, tanpa error). Tidak ada yang diaktifkan/terbit — user hanya minta "isi".
+- Catatan: nomor WA ikut post sumber (Nida), bukan nomor Fifi/AIni — perlu dicek user. Tertunda: perintah aktifkan Fifi / terbitkan AIni.

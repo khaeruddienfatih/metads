@@ -2969,3 +2969,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 — "Apakah id iklan bisa buat beda no, kalau bisa aktifkan iklannya" (via Telegram)
 - Jawab: iklan yang memakai `object_story_id` (post pemenang Qatar Nida) membawa nomor WA dari post/CTA-nya → nomor TIDAK bisa diganti per akun. Nomor per akun hanya bisa lewat iklan baru (gambar pemenang + inline `object_story_spec`) dan `promoted_object.whats_app_business_phone_number_id` ad set; connector belum punya akses aset nomor WA (error 4017029, 22 Okt) sehingga ditolak.
 - Tidak ada yang diaktifkan/diterbitkan (Fifi PAUSED, AIni DRAFT). Tertunda: user pilih — (1) aktifkan Fifi/AIni dengan nomor Nida, atau (2) bikin iklan baru gambar pemenang + nomor akun sendiri (butuh user pasang nomor WA manual di ad set).
+
+### 2026-11-03 10:46 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Kandidat rule-off hari ini hanya di Fifi (5 ad set: 120252109488240365, 120252429755530365, 120252109327300365, 120252597263980365, 120252201112050365) — semua 0 chat hari ini (Januari 1 chat, CPR Rp90.108) → tidak lolos syarat CPR < Rp35rb.
+- **B (pause ad set boros hari ini):** 3 ad set di-PAUSE, status terverifikasi via respons update (success, is_draft=false):
+  - Diana 1076195694707828 — ad set 120251822584350294 "12hari januari" (campaign Tangerang): spend Rp42.091, 1 chat (> Rp40rb & < 2 chat).
+  - Fifi 521083143750270 — ad set 120252429759060365 "Banten" (campaign Ramadhan): spend Rp43.787, 1 chat (> Rp40rb & < 2 chat).
+  - Elharamain Haji 947788760498911 — ad set 120250199511490739 "LLA" (campaign Tira): spend Rp34.886, 0 chat (≥ Rp30rb & 0 chat).
+- **C (pause iklan mahal sepanjang waktu):** 2 iklan di-PAUSE (0 chat, spend ≥ Rp35rb), terverifikasi via respons update:
+  - Irfan 1060984719243481 — iklan 120253654917450414 "9 Hari Januari | Desain 7 #3 - winner" (campaign Sales jawa): spend Rp35.431, 0 chat.
+  - Elharamain Haji 947788760498911 — iklan 120251116314480739 "Vidio (AIni Broud) - winner" (adset LLA - 1, campaign Diana): spend Rp40.974, 0 chat.
+- Catatan: log aktivitas akun Haji 947 terlalu besar (hanya entri MCP pagi, tanpa rule_info) — dibaca via file, tidak ada rule-off.

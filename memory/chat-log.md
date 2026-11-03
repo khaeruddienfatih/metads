@@ -3018,3 +3018,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Hanif 482252744648260 · 120254774741070427 "Jakarta" (campaign 12 Hari Januari): spend Rp33.193, 0 chat (≥30rb & 0 chat).
 - C (pause iklan lifetime, status PAUSED; effective IN_PROCESS saat verifikasi):
   - Tira 868364731529534 · iklan 120252918641770584 "9 Hari Januari | januari_8 - winner" (ad set 9 hari januari, campaign new): lifetime spend Rp35.603, 0 chat.
+
+### 2026-11-03 12:44 — cek 30 menit (cloud)
+- A: tidak ada ad set yang dinyalakan (Fifi: 6 ad set di-off rule hari ini; hanya "Januari" 120252109327300365 punya 1 chat, CPR hari ini Rp90.108 ≥ Rp35rb → tidak).
+- B (pause ad set, verifikasi PAUSED):
+  - Allif 4678183395742010 — `jawa timur` 120252268692220228, campaign "9 Hari januari": spend hari ini Rp40.909, 1 chat (> Rp40rb & < 2 chat).
+  - Haji 4 1526562231314028 — `Gambar` 120256622022560768, campaign "Diana": spend hari ini Rp40.379, 1 chat (> Rp40rb & < 2 chat).
+- C (pause iklan lifetime, update sukses; status baca-ulang masih IN_PROCESS = transisi pause):
+  - Nida 1019832712800468 — iklan 120251938774560004 "Sales 9 Hari Januari | Desain 9 #4 | adset1" (campaign new): Rp58.596 / 1 chat = Rp58.596/chat.
+  - Irfan 1060984719243481 — iklan 120253634662500414 "Sales 12 Hari Januari | 12_hari_januari_4 | adset2" (campaign new): Rp35.361 / 0 chat.

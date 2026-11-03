@@ -3027,3 +3027,17 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C (pause iklan lifetime, update sukses; status baca-ulang masih IN_PROCESS = transisi pause):
   - Nida 1019832712800468 — iklan 120251938774560004 "Sales 9 Hari Januari | Desain 9 #4 | adset1" (campaign new): Rp58.596 / 1 chat = Rp58.596/chat.
   - Irfan 1060984719243481 — iklan 120253634662500414 "Sales 12 Hari Januari | 12_hari_januari_4 | adset2" (campaign new): Rp35.361 / 0 chat.
+
+### 2026-11-03 13:50 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Kandidat rule-off hanya di Fifi (6 ad set); semua 0 chat hari ini, "Januari" 120252109327300365 CPR Rp90.108 → tidak memenuhi.
+- **B (pause ad set boros, hari ini), semua terverifikasi success/PAUSED:**
+  - Tira 868364731529534 · 120252902795850584 "25 Kota Video #2" (campaign januari 9 hari & 12 hari): Rp45.485 / 1 chat (>40rb & <2 chat).
+  - Nida 1019832712800468 · 120251989825760004 "9 hari januari" (Nida Sales): Rp58.194 / 1 chat.
+  - Nida 1019832712800468 · 120251938554630004 "Indonesia - Broad 25-65 #1" (new): Rp42.564 / 1 chat.
+  - Allif 4678183395742010 · 120252268692220228 "jawa timur" (9 Hari januari): Rp42.473 / 1 chat.
+  - Irfan 1060984719243481 · 120252989463080414 "9 januari" (Irfan Indonesia): Rp42.581 / 1 chat.
+  - Fifi 521083143750270 · 120252109239810365 "9 Januari" (Fifi): Rp44.227 / 1 chat.
+  - Haji 947788760498911 · 120250201672350739 "Broud" (Fikri): Rp43.014 / 1 chat.
+- **C (pause iklan, sepanjang waktu), terverifikasi success/PAUSED:**
+  - Fifi 521083143750270 · iklan 120252689341800365 "Jawa 12 Hari Januari | 12_hari_januari_1 - winner" (Luar Pulau): Rp50.810 / 1 chat = Rp50.810/chat.
+  - Haji 947788760498911 · iklan 120251116309960739 "Haji | Haji_Img_06 (Haji 3 Diana) - winner" (Irfan, jawa Barat): Rp35.150 / 0 chat.

@@ -3171,3 +3171,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Elharamain Haji 947788760498911 · 120251142496680739 "26 Kota - Broad 25-65 #2" (campaign Fifi): spend Rp40.418, 1 chat (>40rb & <2 chat).
   - Haji 4 1526562231314028 · 120256622022540768 "Gambar" (campaign Nida): spend Rp42.450, 1 chat (>40rb & <2 chat).
 - C: tidak ada.
+
+### 2026-11-03 19:17 — cek 30 menit (cloud)
+- A: tidak ada (Fifi 521083143750270: 17 ad set rule-off hari ini, semua 0 chat atau CPR > Rp35rb → tidak dinyalakan).
+- B: Diana 1076195694707828 — ad set 120251822584310294 "9hari januari" (campaign Tangerang): spend hari ini Rp41.344, 1 chat (> Rp40rb & < 2 chat) → PAUSED, terverifikasi PAUSED.
+- C: tidak ada.

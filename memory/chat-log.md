@@ -2956,3 +2956,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diisi 3 iklan per ad set dari post pemenang Qatar akun Nida via `object_story_id` + IG `17841405431328414` (Page 588336968031663, aturan reuse lintas akun): 588336968031663_1909660473580624 (9 Hari Qatar, 55 chat/Rp29.496), _1909643673582304 (14 chat/Rp32.505), _1910087686871236 (7 chat/Rp22.829).
 - Fifi: 18 iklan dibuat PAUSED (akun live, bukan draft). AIni: 15 iklan berstatus DRAFT (akun mode draft, belum terbit, tanpa error). Tidak ada yang diaktifkan/terbit — user hanya minta "isi".
 - Catatan: nomor WA ikut post sumber (Nida), bukan nomor Fifi/AIni — perlu dicek user. Tertunda: perintah aktifkan Fifi / terbitkan AIni.
+
+### 2026-11-03 10:13 — cek 30 menit (cloud)
+- A: tidak ada (kandidat rule-off hanya Fifi 521083143750270: 5 ad set, semua 0 chat atau CPR hari ini > Rp35rb).
+- B (pause ad set, semua terverifikasi PAUSED):
+  - Fikri 1676215979752437 · 120249683321210470 "12 Hari Januari" (campaign Fikri) — hari ini Rp42.553, 1 chat (> Rp40rb & < 2 chat).
+  - Elharamain Haji 947788760498911 · 120250965370740739 "Haji - 2 - Salin" (campaign Irfan) — Rp72.664, 1 chat (> Rp40rb & < 2 chat).
+  - Elharamain Haji 947788760498911 · 120250199511430739 "Interest" (campaign Tira) — Rp47.535, 0 chat (≥ Rp30rb & 0 chat).
+  - Haji 4 1526562231314028 · 120256622022580768 "Gambar" (campaign Hanif) — Rp41.217, 1 chat (> Rp40rb & < 2 chat).
+- C: tidak ada iklan yang memenuhi syarat (CPR sepanjang waktu > Rp50rb / 0 chat ≥ Rp35rb).

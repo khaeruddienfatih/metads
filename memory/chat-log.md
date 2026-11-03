@@ -3149,3 +3149,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Pelajaran: untuk draf AIni jangan pakai creative_id dari ads_create_creative; pakai inline link_data.
 - Catatan: Fifi memakai creative_id (18 iklan PAUSED) — belum dicek apakah aktivasi kena error yang sama.
 - Tertunda: terbitkan 15 draf AIni & aktifkan 18 iklan Fifi (menunggu persetujuan user); cek nomor WA.
+
+### 2026-11-03 17:45 — cek 30 menit (cloud)
+- A: tidak ada (Fifi: ad set rule-off yang PAUSED tidak lolos CPR hari ini < Rp35rb).
+- B (2 ad set di-PAUSE, terverifikasi PAUSED):
+  - Fikri 1676215979752437 — ad set 120249566336690470 "Ramadhan - 1" (campaign Ramadhan): spend hari ini Rp31.304, 0 chat (≥Rp30rb & 0 chat).
+  - Irfan 1060984719243481 — ad set 120253548709150414 "9 Hari Januari" (campaign Sales banten): spend hari ini Rp41.654, 0 chat.
+- C (1 iklan di-PAUSE, status PAUSED terverifikasi):
+  - Fifi 521083143750270 — iklan 120252543888060365 "12 Hari Januari Fifi Kota | 12_hari_januari_5" (ad set Saudia 12 Hari, campaign Fifi Kota): sepanjang waktu Rp36.850, 0 chat.

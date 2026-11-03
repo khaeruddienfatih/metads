@@ -3271,3 +3271,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 21:45 — token Meta masuk (203 karakter), simulasi auto_rules.py
 - Simulasi 1 putaran, 14 akun tanpa error: 22 rencana perubahan (20 pause iklan CPR>Rp50rb/0 chat, 1 pause ad set Haji 4 "Vidio" spend Rp29rb 0 chat, 1 nyala ad set Fifi "9 Hari" CPR Rp21rb). Tidak ada yang diubah (mode SIMULASI).
 - Notifikasi Telegram digabung jadi satu pesan per putaran. Pemasangan service + META_RULES_LIVE=1 ditolak sistem izin → menunggu user.
+
+### 2026-11-03 21:50 — cek 15 menit (cloud)
+- A (nyala ad set): Fifi 521083143750270 — ad set 120252201112110365 "9 Hari" (campaign Fifi): hari ini 1 chat, spend Rp21.163, CPR Rp21.163 → ACTIVE (terverifikasi).
+- B (pause ad set): Haji 4 1526562231314028 — ad set 120256622022620768 "Vidio" (campaign Diana): spend hari ini Rp33.374, 0 chat (> Rp25rb & 0 chat) → PAUSED (terverifikasi).
+- C (pause iklan): Tira 868364731529534 — iklan 120252918640760584 "9 Hari Januari | Desain 9 #5 - winner" (ad set 9 hari januari, campaign new): sepanjang waktu spend Rp260.927 / 5 chat = CPR Rp52.185 (> Rp50rb) → PAUSED (terverifikasi).
+- D: tidak ada.

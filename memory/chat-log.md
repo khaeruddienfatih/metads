@@ -2919,3 +2919,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 — "Di sini g jelas, harus langsung di warp" (via Telegram)
 - User frustrasi: percakapan via Telegram tidak jelas (permintaan "iklan qatar bukan semuanya" ambigu); minta lanjut langsung di Warp (terminal Mac mini).
 - Tidak ada pekerjaan Meta Ads. Tertunda: urusan iklan Qatar terhapus & daftar pemenang dilanjutkan user di Warp.
+
+### 2026-11-03 09:46 — cek 30 menit (cloud)
+- **A (nyala lagi):** tidak ada. Kandidat rule-off hari ini hanya di Fifi (5 ad set: 120252429755530365 jawa barat, 120252109327300365 Januari, 120252597263980365 9 Hari Januari, 120252201112050365 9 Januari, 120252109488240365 9 Januari Kota) — semua 0 chat atau CPR > Rp35rb (Januari: 1 chat / Rp90.108), tetap PAUSED.
+- **B (pause ad set, verifikasi PAUSED):**
+  - Diana 1076195694707828 · 120251812124630294 "9hari januari" (campaign Diana IG): Rp36.146, 0 chat (≥30rb & 0 chat).
+  - Nida 1019832712800468 · 120251989825750004 "12 hari januari" (Nida Sales): Rp44.299, 1 chat (>40rb & <2 chat).
+  - Nida 1019832712800468 · 120251572686950004 "9 hari januari" (new): Rp31.582, 0 chat.
+  - Allif 4678183395742010 · 120252223314630228 "Ramadhan" (Ramadhan): Rp44.793, 1 chat.
+  - Fikri 1676215979752437 · 120249721533920470 "9 Hari Januari" (Fikri Prov): Rp30.303, 0 chat.
+  - AIni 814396810761205 · 120253924406900019 "9 Hari Januari" (Prospek (baru) - Salin): Rp30.828, 0 chat.
+  - Irfan 1060984719243481 · 120253330258920414 "Indonesia" (new): Rp30.254, 0 chat.
+  - Fifi 521083143750270 · 120252512245690365 "9  Januari" (Fifi): Rp40.521, 1 chat.
+- **C (pause iklan lifetime):** Elharamain Haji 947788760498911 · iklan 120251088659100739 "Haji - AIni Broud 2 - winner" (adset LLA, campaign Tira): Rp107.378 / 2 chat = Rp53.689/chat; status baca-ulang IN_PROCESS (proses pause).

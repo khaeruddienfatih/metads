@@ -3122,3 +3122,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 2/3 794403715776985 · 120252707667610704 "Haji" (campaign Fifi): Rp30.941 / 0 chat.
   - Haji 2/3 794403715776985 · 120252557031780704 "Haji 3" (campaign Fikri): Rp35.134 / 0 chat.
 - **C (pause iklan, verified PAUSED):** Irfan 1060984719243481 · iklan 120253549834920414 "Kota Ramadhan | Desain 2 #5" (Sales jawa / Ramadhan): lifetime Rp150.085 / 3 chat = Rp50.028/chat (>50rb).
+### 2026-11-03 — "iklan qatar november bukan qatar desember" / "keberangkatan november"
+- Diminta: iklan Qatar harus keberangkatan **November** (9, 15, 30 Nov 2026). Tidak ada kata "Desember" di nama/teks; masalahnya gambar pemenang lama di Fifi/AIni bertanggal Agustus 2026.
+- Gambar November diambil dari kreatif Nida (hash 0bd8e541 / db7f56bb, "Musim Sejuk 36JT"), diupload ke library Fifi & AIni: hash 03b9c001b81c55d375f9637ffd42c99e (A) dan db7f56bb0ecc0a78f628f34fa6a9b684 (B).
+- Kreatif baru di Page 588336968031663 + IG 17841405431328414, CTA WHATSAPP_MESSAGE: Fifi 1011107382067930 (A GR), 3083331881871509 (B GR), 1026368297151357 (A Tiket); AIni 1140521181771360, 2157795668436619, 4628527370758736.
+- Fifi 521083143750270: 18 iklan baru PAUSED ("Qatar November | ..."), 3 per ad set di 6 ad set; 18 iklan lama (gambar Agustus) di-ARCHIVE.
+- AIni 814396810761205: 15 draf diganti ke kreatif November (video pemenang lama dibuang), active_errors kosong, belum terbit.
+- Nida: gambar sudah November, tidak diubah.
+- Tertunda: aktifkan 18 iklan Fifi & terbitkan 15 draf AIni (menunggu persetujuan user); cek nomor WA di Ads Manager.

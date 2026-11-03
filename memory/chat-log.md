@@ -3241,3 +3241,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-03 — user menaruh versi edit `routine-tabel.md` di ~/Downloads
 - Versi user disalin ke `memory/routine-tabel.md`. Beda dari versi Claude: cek tiap 15 menit (04:00–21:59, :13/:28/:43/:58), aturan baru 2b (pause ad set spend ≥ Rp45.000 dan chat < 2), akun elharamain Profile (873443374652541) dikecualikan dari semua aturan, tambahan Istilah & Ringkasan satu hari.
 - Belum disinkronkan ke routine cloud: perlu 4 routine untuk 15 menit (sekarang 2) dan bagian B ditambah 2b. Menunggu persetujuan user.
+
+### 2026-11-03 — "ya sesuai md saya tadi" → routine cloud disamakan dengan routine-tabel.md
+- Dibuat 2 routine baru: :28 trig_01K5FuVYv9LfbFm6adDaxPBV dan :58 trig_014noZbx2jsJHWH7w52P2UFf; prompt :13 (trig_01PExMLpwLUtZxVRsi4R6e8H) & :43 (trig_013WfwoGnfBo14J4EupZGgtx) diperbarui (update pertama sempat timeout, diulang & terverifikasi updated_at 14:05–14:06 UTC). Total cek tiap 15 menit.
+- Isi prompt: A nyala ad set CPR hari ini < Rp30rb (siapa pun yang mematikan, tanpa batas); B pause ad set spend > Rp25rb & 0 chat ATAU spend ≥ Rp45rb & chat < 2; C pause iklan CPR sepanjang waktu > Rp50rb; D nyala iklan CPR sepanjang waktu < Rp30rb; akun elharamain Profile (873443374652541) dikecualikan; baca routine-tabel.md.
+- Belum diuji: run pertama :28 jam 21:28 WIB. Routine 04:00 & 22:00 tidak diubah (04:00 sudah menyalakan semua ad set PAUSED).

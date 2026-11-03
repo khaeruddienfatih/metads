@@ -76,7 +76,7 @@ Catatan:
 
 | Aturan | Routine cloud | ID |
 |---|---|---|
-| 1–4 (+2b) | Cek menit :13, :28, :43, :58 (dua routine kembar, masing-masing 2x per jam) | trig_01PExMLpwLUtZxVRsi4R6e8H, trig_013WfwoGnfBo14J4EupZGgtx |
+| 1–4 (+2b) | Cek 15 menit: empat routine, masing-masing sekali per jam | :13 trig_01PExMLpwLUtZxVRsi4R6e8H · :28 trig_01K5FuVYv9LfbFm6adDaxPBV · :43 trig_013WfwoGnfBo14J4EupZGgtx · :58 trig_014noZbx2jsJHWH7w52P2UFf |
 | 5 | Jadwal malam | trig_01FPcdHh57QKkum5LoEAwj2k |
 | 6–7 | Jadwal pagi | trig_01KLe5sJc8N6MQMEYKUpzNqB |
 | 8 | Email rekap pagi | trig_01Ci9E1ffEGZ97CAaxiyqCBY |

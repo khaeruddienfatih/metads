@@ -2878,3 +2878,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (terverifikasi PAUSED):
   - Hanif 482252744648260 · 120254774741200427 "jawa barat" (campaign 12 Hari Januari): spend hari ini Rp68.321 (Rp69.031 saat verifikasi), 0 chat → ≥Rp30rb & 0 chat.
 - C: tidak ada iklan ACTIVE yang memenuhi syarat (CPR sepanjang waktu > Rp50rb / 0 chat ≥ Rp35rb) di 14 akun.
+
+### 2026-11-03 08:13 — cek 30 menit (cloud)
+- A: tidak ada (ad set rule-off hari ini hanya di Fifi 521083143750270: jawa barat 120252429755530365, Januari 120252109327300365, 9 Hari Januari 120252597263980365, 9 Januari 120252201112050365 — semua 0 chat hari ini kecuali Januari 1 chat/Rp88.659 → tidak memenuhi CPR < Rp35rb).
+- B: PAUSE ad set — Irfan 1060984719243481, ad set 120253548709090414 "12 Hari Januari", campaign "Sales banten": spend hari ini Rp30.405, 0 chat (kondisi ≥ Rp30rb & 0 chat). Terverifikasi: update live is_draft=false, activity log mencatat Active→Inactive 08:14.
+- C: tidak ada iklan yang memenuhi (semua 14 akun dicek, CPR sepanjang waktu ≤ Rp50rb).

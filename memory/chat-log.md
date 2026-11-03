@@ -2932,3 +2932,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan 1060984719243481 · 120253330258920414 "Indonesia" (new): Rp30.254, 0 chat.
   - Fifi 521083143750270 · 120252512245690365 "9  Januari" (Fifi): Rp40.521, 1 chat.
 - **C (pause iklan lifetime):** Elharamain Haji 947788760498911 · iklan 120251088659100739 "Haji - AIni Broud 2 - winner" (adset LLA, campaign Tira): Rp107.378 / 2 chat = Rp53.689/chat; status baca-ulang IN_PROCESS (proses pause).
+### 2026-11-03 — "masuk nida ada kampanye baru, isi pakai id iklan pemenang qatar yang sudah dihapus"
+- Nida (1019832712800468): campaign baru "Qatar" `120252019253660004` (dibuat user 3 Nov 09:45, Rp165.000/hari, ACTIVE) punya 5 ad set kosong: jakarta `120252019253800004`, banten `…253810004`, indonesia `…253820004`, jawa timur & tengah `…253790004`, jawa barat `…262360004`. Belum ada iklan.
+- Cari iklan DELETED: di Nida ada 25 iklan terhapus (12 Hari Januari, Liburan Akhir Tahun, November, Hook 1–5) — tidak ada yang bernama Qatar / berspend besar. Cek nama "qatar" pada iklan DELETED di Diana, Fifi, Hanif, Fikri, AIni, Irfan, Allif, Tira: semua kosong. Haji belum dicek.
+- Tidak ada perubahan di Meta. Tertunda: user tunjukkan akun/nama iklan Qatar pemenang yang terhapus (atau izinkan pakai iklan Qatar yang masih aktif sebagai sumber), lalu isi 5 ad set Nida.

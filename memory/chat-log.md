@@ -3051,3 +3051,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 947788760498911: `120250201672240739` "Interest" (Fikri) Rp42.658/1 chat; `120250253985820739` "Broud" (AIni) Rp43.526/1 chat (>40rb & <2 chat).
   - Haji 3 794403715776985: `120252557031820704` "Haji 2" (Fikri) Rp30.636/0 chat (≥30rb & 0 chat).
 - **C:** tidak ada iklan memenuhi syarat (CPR sepanjang waktu > Rp50rb / 0 chat ≥ Rp35rb).
+
+### 2026-11-03 14:20 — cek 30 menit (cloud)
+- **A (nyalakan lagi):** tidak ada. Satu-satunya ad set rule-off hari ini yang punya chat (Fifi 521083143750270, ramadhan 120252512245710365: 1 chat, Rp50.731) tidak lolos CPR < Rp35rb; lainnya 0 chat hari ini.
+- **B (pause ad set boros hari ini):**
+  - Nida 1019832712800468 · `120252019253820004` "indonesia" (campaign Qatar) — Rp47.211, 1 chat (> Rp40rb & < 2 chat) → PAUSED, terverifikasi.
+  - Nida 1019832712800468 · `120251731135360004` "jawa timur & tengah" (campaign 12 hari januari) — Rp34.842, 0 chat (≥ Rp30rb & 0 chat) → PAUSED, terverifikasi.
+  - Hanif 482252744648260 · `120255131570810427` "12 Hari Januari" (campaign Sales) — Rp50.009, 0 chat → PAUSED, terverifikasi.
+- **C (pause iklan mahal sepanjang waktu):**
+  - Allif 4678183395742010 · `120252431301420228` "Traffic Ramadhan | Desain 3 #4" (Traffic (baru) - Salin) — Rp100.006 / 2 chat = Rp50.003 → PAUSED, terverifikasi.
+  - Irfan 1060984719243481 · `120253549823210414` "Kota 12 Hari Januari | 12_hari_januari_1" (Sales jawa) — Rp151.089 / 3 chat = Rp50.363 → PAUSED, terverifikasi.
+  - Elharamain Haji 947788760498911 · `120251116329200739` "Vidio (Hanif Interest 2) - winner" (Tira/Haji) — Rp35.792, 0 chat → PAUSED, terverifikasi.
+- Catatan: percobaan pertama pause iklan Allif salah akun (error "does not own this entity"), diulang dengan akun yang benar.

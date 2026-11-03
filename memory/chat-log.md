@@ -3218,3 +3218,23 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-03 — "kenapa no 1 banyak ... yang gampang di mengerti"
 - `routine-tabel.md` disederhanakan: 10 baris bernomor sendiri (Kapan jalan | Kalau | Maka | Angka), pengecualian di bawah, ID routine cloud dipisah di tabel "di balik layar".
+
+### 2026-11-03 20:43 — cek 30 menit (cloud)
+- **A (nyala ad set, CPR hari ini < Rp30rb, diverifikasi ACTIVE):**
+  - Diana 1076195694707828 · 120251822584310294 "9hari januari" (Tangerang) — 2 chat, Rp41.571, CPR Rp20.786
+  - Nida 1019832712800468 · 120251731135480004 "indonesia" (12 hari januari) — 2 chat, Rp45.275, CPR Rp22.638
+  - Irfan 1060984719243481 · 120253330258910414 "jawa tengah & jawa timur" (new) — 2 chat, Rp43.936, CPR Rp21.968
+  - Fifi 521083143750270 · 120252429759060365 "Banten" (Ramadhan) — 2 chat, Rp44.196, CPR Rp22.098
+  - Elharamain Haji 947788760498911 · 120250199511490739 "LLA" (Tira) — 2 chat, Rp53.350, CPR Rp26.675
+  - Elharamain Haji 947788760498911 · 120250253985820739 "Broud" (AIni) — 3 chat, Rp49.432, CPR Rp16.477
+  - Elharamain Haji 947788760498911 · 120250965370750739 "Haji - 1 - Salin" (Irfan) — 3 chat, Rp51.053, CPR Rp17.018
+- **B (pause ad set, spend hari ini > Rp25rb & 0 chat, diverifikasi PAUSED):**
+  - Nida 1019832712800468 · 120251731135470004 "banten" (campaign 12 hari januari) — Rp28.398, 0 chat
+  - Irfan 1060984719243481 · 120253687617440414 "9 hari januari" (campaign new - Salin) — Rp29.641, 0 chat
+- **C (pause iklan, CPR sepanjang waktu > Rp50rb, diverifikasi PAUSED):**
+  - Tira 868364731529534 · 120252902952870584 "Gambar 9 Hari Januari | Desain 9 #1 | 25 Kota J#3" — Rp302.354 / 6 chat, CPR Rp50.392
+- **D (nyala iklan, CPR sepanjang waktu < Rp30rb, ad set induk ACTIVE; status IN_PROCESS = menunggu review Meta):**
+  - Elharamain Haji 947788760498911 · 120251116329200739 "Vidio (Hanif Interest 2) - winner" (Tira/Haji) — Rp44.071 / 2 chat, CPR Rp22.036
+  - Elharamain Haji 947788760498911 · 120251116324990739 "Haji_Reuse_Nida-Broud - winner" (Tira/Haji) — Rp55.131 / 3 chat, CPR Rp18.377
+  - Haji 4 1526562231314028 · 120256622022710768 "Haji" (Diana/Vidio) — Rp741.974 / 29 chat, CPR Rp25.585
+- Dilewati: iklan Haji 3 `Haji_Img_11` (CPR Rp26,6rb) karena ad set induknya (Haji 2 / Fikri) masih PAUSED.

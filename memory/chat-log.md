@@ -2864,3 +2864,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Sengaja TIDAK dinyalakan (belum dikonfirmasi user): ad set lama Haji 947788760498911 (25 ad set, kampanye lama Fifi/Irfan/Diana/Tira…) dan Haji 4 1526562231314028 (10 ad set Vidio/Gambar/Campuran). Haji 2 & akun 1050… tidak ada ad set PAUSED.
 - Catatan: cek 30 menit (:13/:43) bisa mem-PAUSE lagi ad set yang melanggar aturan (AIni 120253900913430019, Irfan 120253687617430414, Fifi 120252109327300365 — spend tinggi tanpa chat/CPR tinggi). Aturan di auto-reaktivasi.md tidak diubah.
 - Tertunda: user putuskan nasib 35 ad set lama Haji 947/Haji 4 dan apakah aturan auto-pause dimatikan sementara.
+
+### 2026-11-03 07:14 — cek 30 menit (cloud)
+- A: tidak ada (Fifi 521083143750270: ad set rule-off "Januari" 120252109327300365, "9 Hari Januari" 120252597263980365, "9 Januari" 120252201112050365 tidak lolos — hari ini 1 chat/Rp88.340 dan 0 chat).
+- B (pause ad set boros hari ini, terverifikasi PAUSED):
+  - Diana 1076195694707828 · 120251793201820294 "9hari januari" (campaign Diana new): spend Rp39.803, 0 chat → ≥Rp30rb & 0 chat.
+  - AIni 814396810761205 · 120253900913430019 "9 Hari Januari" (campaign jakarta): spend Rp46.273, 1 chat → >Rp40rb & <2 chat.
+  - Irfan 1060984719243481 · 120253687617430414 "ramadhan" (campaign new - Salin): spend Rp37.684, 0 chat → ≥Rp30rb & 0 chat.
+- C: tidak ada iklan yang memenuhi syarat (CPR sepanjang waktu > Rp50rb).

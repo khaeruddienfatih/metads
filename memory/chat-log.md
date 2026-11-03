@@ -2911,3 +2911,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Jawab: BISA — `ads_get_ad_entities` level ad + filter `effective_status IN [DELETED]` + `date_preset=maximum` mengembalikan id, nama, spend iklan terhapus (juga bisa lewat activity log akun).
 - Dicoba di Tira (868364731529534): 2 iklan terhapus (januari gambar - Salin 3 `120252517857200584`; 12 Hari Januari H5 Bandung Gambar 5 `120252218844700584`), TIDAK ada Qatar. Akun lain (Fifi dll.) belum dicek.
 - Tertunda: user sebut akun mana / mau dicek semua akun.
+
+### 2026-11-03 — "Cek ada berapa iklan pemenang" + "Iklan qatar bukan semuanya" (via Telegram)
+- Hitung iklan ACTIVE pemenang (≥5 chat & CPR ≤ Rp39,3rb, lifetime): total 129 — Umroh 75 (Diana 16, Fifi 13, Nida 12, Allif 12, Irfan 10, AIni 7, Hanif 5, Tira 0), Haji 54 (947: 34, Haji 3: 20). Fikri/Haji 2/1050 tidak ada; Haji 4 & akun Haji lain belum dicek.
+- User lanjut: "Iklan qatar bukan semuanya" — maksud belum jelas (kemungkinan: hanya Qatar yang pemenang, bukan semua Qatar terhapus). Tertunda: konfirmasi user.

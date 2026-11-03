@@ -3293,3 +3293,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-03 — "Kamu panggil saya juragan" (via Telegram)
 - Preferensi user: sapa user dengan "Juragan". Tidak ada pekerjaan Meta Ads.
+
+### 2026-11-03 22:15 — "Cek anggaran per akun berapa" (via Telegram)
+- Dihitung dari ad set yang di-pause jadwal malam 22:00 (daftar `jadwal-malam-daftar.md`, = yang aktif siang tadi) via Graph API read-only: semua CBO (anggaran di campaign). Total harian ≈ Rp8.347.000. Per akun: Haji 947 Rp1.525.000 · Nida 1.090.000 · Irfan 950.000 · Fifi 950.000 · AIni 850.000 · Tira 700.000 · Allif 500.000 · Haji 3 492.000 · Haji 4 465.000 · Fikri 325.000 · Diana 300.000 · Hanif 200.000. Haji 2 & haji 1050 tidak ada ad set aktif. Tidak ada perubahan.

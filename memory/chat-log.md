@@ -2872,3 +2872,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni 814396810761205 · 120253900913430019 "9 Hari Januari" (campaign jakarta): spend Rp46.273, 1 chat → >Rp40rb & <2 chat.
   - Irfan 1060984719243481 · 120253687617430414 "ramadhan" (campaign new - Salin): spend Rp37.684, 0 chat → ≥Rp30rb & 0 chat.
 - C: tidak ada iklan yang memenuhi syarat (CPR sepanjang waktu > Rp50rb).
+
+### 2026-11-03 07:43 — cek 30 menit (cloud)
+- A: tidak ada. Auto rule hari ini hanya mematikan ad set Fifi 521083143750270 (Januari 120252109327300365 CPR Rp88.371; 9 Hari Januari 120252597263980365 0 chat/Rp33.058; 9 Januari 120252201112050365 0 chat/Rp21.794) — tidak lolos syarat CPR < Rp35rb, tetap PAUSED.
+- B (terverifikasi PAUSED):
+  - Hanif 482252744648260 · 120254774741200427 "jawa barat" (campaign 12 Hari Januari): spend hari ini Rp68.321 (Rp69.031 saat verifikasi), 0 chat → ≥Rp30rb & 0 chat.
+- C: tidak ada iklan ACTIVE yang memenuhi syarat (CPR sepanjang waktu > Rp50rb / 0 chat ≥ Rp35rb) di 14 akun.

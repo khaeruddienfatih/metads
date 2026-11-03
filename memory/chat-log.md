@@ -3162,3 +3162,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada yang dinyalakan (Fifi: ad set rule-off punya ≥1 chat hanya "Januari" 120252109327300365 Rp90.108/1 chat & "ramadhan" 120252512245710365 Rp50.880/1 chat, keduanya > Rp35rb; akun lain tidak ada entri rule_info).
 - B: Haji 3 (794403715776985) ad set "Haji" 120252557031890704, campaign Fikri — spend hari ini Rp33.571, 0 chat (≥ Rp30rb & 0 chat) → PAUSED, terverifikasi.
 - C: tidak ada iklan yang memenuhi syarat (lifetime CPR > Rp50rb / 0 chat ≥ Rp35rb).
+
+### 2026-11-03 18:45 — cek 30 menit (cloud)
+- A: tidak ada (Fifi: ad set rule-off hari ini tidak ada yang CPR < Rp35rb).
+- B (pause ad set, semua terverifikasi PAUSED):
+  - Diana 1076195694707828 · 120251793201810294 "9 Januari" (campaign Diana new): spend Rp32.618, 0 chat (≥30rb & 0 chat).
+  - Tira 868364731529534 · 120252918632940584 "12 hari januari" (campaign new): spend Rp41.049, 1 chat (>40rb & <2 chat).
+  - Elharamain Haji 947788760498911 · 120251142496680739 "26 Kota - Broad 25-65 #2" (campaign Fifi): spend Rp40.418, 1 chat (>40rb & <2 chat).
+  - Haji 4 1526562231314028 · 120256622022540768 "Gambar" (campaign Nida): spend Rp42.450, 1 chat (>40rb & <2 chat).
+- C: tidak ada.

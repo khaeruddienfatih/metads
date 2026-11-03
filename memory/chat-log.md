@@ -3113,3 +3113,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 794403715776985 — 120252745117500704 "Haji" (campaign Alif): Rp31.930, 0 chat.
   - Haji 4 1526562231314028 — 120256622022150768 "Vidio" (campaign Nida): Rp43.530, 1 chat.
 - C (pause iklan, diverifikasi PAUSED): Fifi 521083143750270 — 120252512321640365 "12 Hari Januari | Desain 2 #3" (ad set 12  Januari, campaign Fifi): lifetime Rp107.779 / 2 chat = Rp53.890/chat (>50rb).
+### 2026-11-03 16:43 — cek 30 menit (cloud)
+- **A (nyalakan):** tidak ada. Fifi: semua ad set rule-off hari ini 0 chat (atau Januari Rp90.108/1 chat, ramadhan Rp50.880/1 chat → CPR ≥ Rp35rb); akun lain tidak ada entri rule_info.
+- **B (pause ad set, verified PAUSED):**
+  - Irfan 1060984719243481 · 120253512143030414 "9 Hari Januari" (campaign Penjualan (baru) - Salin): Rp44.300 / 1 chat (>40rb & <2 chat).
+  - Irfan 1060984719243481 · 120253548709080414 "12 Hari Januari" (campaign Sales jawa): Rp40.389 / 1 chat (>40rb & <2 chat).
+  - Elharamain Haji 947788760498911 · 120251142496690739 "26 Kota - Broad 25-65 #3" (campaign Fifi): Rp39.805 / 0 chat (≥30rb & 0 chat).
+  - Haji 2/3 794403715776985 · 120252707667610704 "Haji" (campaign Fifi): Rp30.941 / 0 chat.
+  - Haji 2/3 794403715776985 · 120252557031780704 "Haji 3" (campaign Fikri): Rp35.134 / 0 chat.
+- **C (pause iklan, verified PAUSED):** Irfan 1060984719243481 · iklan 120253549834920414 "Kota Ramadhan | Desain 2 #5" (Sales jawa / Ramadhan): lifetime Rp150.085 / 3 chat = Rp50.028/chat (>50rb).

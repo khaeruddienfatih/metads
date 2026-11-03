@@ -2891,3 +2891,18 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Tira 868364731529534, ad 120252918641190584 "9 Hari Januari | januari_5 - winner" (campaign new): Rp35.017, 0 chat. Terverifikasi PAUSED.
   - Tira 868364731529534, ad 120252902832980584 "Video 9 Hari Januari | januari_2 | 25 Kota J#1" (campaign januari 9 hari & 12 hari): Rp35.698, 0 chat. Terverifikasi PAUSED.
   - Irfan 1060984719243481, ad 120253654913090414 "Kota Ramadhan | Desain 2 #2 - winner" (campaign Irfan Indonesia): Rp36.604, 0 chat. status=PAUSED (effective_status IN_PROCESS saat dibaca, update live is_draft=false).
+
+### 2026-11-03 09:16 — cek 30 menit (cloud)
+- **A (nyala lagi):** tidak ada. Fifi: 4 ad set dimatikan rule hari ini (jawa barat 120252429755530365, Januari 120252109327300365, 9 Hari Januari 120252597263980365, 9 Januari 120252201112050365) — 0 chat atau CPR Rp90rb → tidak dinyalakan.
+- **B (pause ad set, hari ini):**
+  - Tira 868364731529534 · 25 Kota Video #5 (120252902799160584) · campaign "januari 9 hari & 12 hari" · Rp34.363, 0 chat · PAUSED (terverifikasi)
+  - Allif 4678183395742010 · jawa tengah (120252268692170228) · campaign "9 Hari januari" · Rp42.530, 1 chat · PAUSED (terverifikasi)
+  - AIni 814396810761205 · 25 Kota - Broad 25-65 #3 (120253979650270019) · campaign "Penjualan (baru)" · Rp48.274, 1 chat · PAUSED (terverifikasi)
+  - Haji 3 794403715776985 · Haji 2 (120252668566420704) · campaign Diana · Rp35.181, 0 chat · PAUSED (terverifikasi)
+- **C (pause iklan, sepanjang waktu):**
+  - AIni · 120253979843220019 "Sales 12 Hari Januari | Desain 3 12H #5 | adset2" · Rp50.098 / 1 chat (CPR Rp50.098) · PAUSED (terverifikasi)
+  - AIni · 120253979554840019 "Sales Ramadhan | Desain 2 #2 | adset2" · Rp35.171 / 0 chat · PAUSED (terverifikasi)
+  - Irfan 1060984719243481 · 120253687678900414 "12 Hari Januari | Desain 2 #1 | baru" · Rp50.959 / 1 chat · pause terkirim (status IN_PROCESS saat dicek)
+  - Irfan · 120253687647820414 "9 Hari Januari | januari_8 - winner" · Rp55.780 / 1 chat · pause terkirim (IN_PROCESS)
+  - Elharamain Haji 947788760498911 · 120251116324990739 "Haji_Reuse_Nida-Broud - winner" · Rp41.917 / 0 chat · pause terkirim (IN_PROCESS)
+  - Elharamain Haji · 120250897666190739 "Haji - Hanif Interest Salin A - Desain 3 #2" · Rp50.241 / 1 chat · pause terkirim (IN_PROCESS)

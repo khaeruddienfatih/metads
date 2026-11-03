@@ -3299,3 +3299,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-04 03:00 — naik anggaran (cloud)
 - Tidak ada campaign yang naik (H-3..H-1 = 1–3 Nov; tidak ada yang CPR < Rp30rb dan ≥1 chat di ketiga hari; campaign yang naik 2–3 Nov kena jeda). Tidak ada yang gagal.
+
+### 2026-11-04 04:00 — jadwal pagi: nyalakan ad set (cloud)
+- Routine 04:00 WIB: nyalakan semua ad set PAUSED di campaign ACTIVE (14 akun).
+- Nyala 217 / dilewati 2 (Diana, campaign "Penjualan (baru)" PAUSED) / gagal 0.
+- Per akun: Diana 12/skip 2/0, Tira 10, Nida 19, Hanif 11, Allif 12, Fikri 12, AIni 23, Irfan 25, Fifi 31, Elharamain Haji 32, Haji 2 0, Haji 3 17, Haji 4 13, haji 1050… 0.
+- Anggaran tidak disentuh. Verifikasi ulang: tidak ada PAUSED tersisa selain 2 yang dilewati.

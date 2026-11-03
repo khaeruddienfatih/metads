@@ -96,3 +96,8 @@
 - 1526562231314028 | 120256248793270768 | Gambar | Irfan
 - 1526562231314028 | 120256248793240768 | Vidio | Irfan
 - 1526562231314028 | 120256248793200768 | Gambar | Irfan
+
+## Dinyalakan 2026-11-04 04:00
+- Nyala: 217 ad set (semua PAUSED di campaign ACTIVE, siapa pun yang mematikan). Dilewati: 2 (Diana, campaign "Penjualan (baru)" PAUSED). Gagal: 0. Terverifikasi: tidak ada ad set PAUSED tersisa kecuali 2 itu.
+- Per akun nyala: Diana 12, Tira 10, Nida 19, Hanif 11, Allif 12, Fikri 12, AIni 23, Irfan 25, Fifi 31, Elharamain Haji 32, Haji 2 0, Haji 3 17, Haji 4 13, haji 1050343302646341 0.
+- Catatan: ads_activate_entity dengan object_ids ditolak "no staged changes"; langsung pakai entity_type ad_set + entity_id (berhasil semua). Anggaran tidak diubah.

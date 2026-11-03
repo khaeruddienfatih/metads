@@ -3190,3 +3190,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Nida: 2 ad set CPR hari ini < Rp30rb (9 hari januari 120251572686950004 Rp19,3rb; Indonesia - Broad 25-65 #1 120251938554630004 Rp23rb) dimatikan aturan hemat routine (bukan auto rule, jadi tidak diproses Bagian A). Sudah DINYALAKAN manual, terverifikasi ACTIVE.
 - Aturan baru (user: "perhari", "berapa kali ga ada batasan jika cpr di bawah 35rb"): Bagian A pakai CPR hari ini saja < Rp35rb (≥1 chat), tanpa batas 2×/hari, syarat CPR 3 hari dihapus. Diubah di auto-reaktivasi.md & chat-memory.md.
 - Tertunda: auto rule via token Meta (adrules_library) — token belum ada di telegram/.env; perlu variabel dari user. Apakah Bagian A juga mencakup ad set yang dimatikan aturan hemat routine belum dikonfirmasi.
+
+### 2026-11-03 — "coba kamu ringkas apa saja yang kamu kerjakan routine biar jadi baku"
+- Dibuat `memory/routine-baku.md`: jadwal + aturan A/B/C + naik anggaran + larangan dalam satu halaman.
+- Tertunda: keputusan apakah Bagian A juga menyalakan ad set yang dimatikan Bagian B; laporan ad set CPR bagus tapi PAUSED; samakan teks `routine()` di bot.py.

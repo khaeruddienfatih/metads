@@ -3130,3 +3130,15 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - AIni 814396810761205: 15 draf diganti ke kreatif November (video pemenang lama dibuang), active_errors kosong, belum terbit.
 - Nida: gambar sudah November, tidak diubah.
 - Tertunda: aktifkan 18 iklan Fifi & terbitkan 15 draf AIni (menunggu persetujuan user); cek nomor WA di Ads Manager.
+
+### 2026-11-03 17:45 — cek 30 menit (cloud)
+- **A (nyala):** Fifi 521083143750270 — ad set `120252597264010365` "12 Hari Januari" (campaign Luar Pulau, ACTIVE), dimatikan rule "OFF 1" 16:13; hari ini 1 chat / Rp23.416 (CPR Rp23.416), 3 hari 3 chat / Rp95.967 (CPR Rp31.989). Dinyalakan, terverifikasi ACTIVE.
+- **B (pause ad set):**
+  - Allif 4678183395742010 — `120252538255050228` "Jawa Barat - Broad 25-65 #3" (Ramadhan): Rp50.290, 1 chat (>40rb & <2 chat). PAUSED terverifikasi.
+  - Fikri 1676215979752437 — `120249566336700470` "Ramadhan - 2" (Ramadhan): Rp30.913, 0 chat. PAUSED terverifikasi.
+  - Elharamain Haji 947788760498911 — `120251142496710739` "26 Kota - Broad 25-65 #5" (Fifi): Rp30.834, 0 chat. PAUSED terverifikasi.
+  - Haji 3 794403715776985 — `120252668566360704` "Haji" (Diana): Rp31.257, 0 chat. PAUSED terverifikasi.
+  - Haji 4 1526562231314028 — `120256622022650768` "Vidio" (Hanif): Rp30.679, 0 chat. PAUSED terverifikasi.
+- **C (pause iklan):**
+  - Nida 1019832712800468 — `120251989865080004` "Ramadhan | Desain 3 #4 - winner": lifetime Rp54.077 / 1 chat (CPR Rp54.077). PAUSED terverifikasi.
+  - Fifi 521083143750270 — `120252665444190365` "12 Hari Januari Fifi 12 Januari | 12_hari_januari_4": lifetime Rp39.034 / 0 chat. PAUSED terverifikasi.

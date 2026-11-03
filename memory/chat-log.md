@@ -3185,3 +3185,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan 1060984719243481 — `120253330258910414` "jawa tengah & jawa timur" (campaign new): spend Rp42.682, 1 chat.
   - Elharamain Haji 947788760498911 — `120250848623090739` "Interest" (campaign Hanif): spend Rp49.527, 1 chat.
 - **C (pause iklan):** tidak ada.
+### 2026-11-03 — "apakah tidak jalan auto on jika cpr di bawah 30rb" → aturan auto-ON diubah
+- Cek log 8 akun: auto rule Meta ("OFF 1"/"OFF 2") hanya mematikan 6 ad set di Fifi; 5 tidak dinyalakan karena 0 chat hari ini (syarat A butuh ≥1 chat). Routine tetap jalan (aksi :14/:44 terlihat).
+- Nida: 2 ad set CPR hari ini < Rp30rb (9 hari januari 120251572686950004 Rp19,3rb; Indonesia - Broad 25-65 #1 120251938554630004 Rp23rb) dimatikan aturan hemat routine (bukan auto rule, jadi tidak diproses Bagian A). Sudah DINYALAKAN manual, terverifikasi ACTIVE.
+- Aturan baru (user: "perhari", "berapa kali ga ada batasan jika cpr di bawah 35rb"): Bagian A pakai CPR hari ini saja < Rp35rb (≥1 chat), tanpa batas 2×/hari, syarat CPR 3 hari dihapus. Diubah di auto-reaktivasi.md & chat-memory.md.
+- Tertunda: auto rule via token Meta (adrules_library) — token belum ada di telegram/.env; perlu variabel dari user. Apakah Bagian A juga mencakup ad set yang dimatikan aturan hemat routine belum dikonfirmasi.

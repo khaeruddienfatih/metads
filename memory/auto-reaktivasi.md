@@ -25,12 +25,9 @@ Haji 3 794403715776985 · Haji 4 1526562231314028 · haji 1050343302646341
    - status sekarang masih PAUSED/tidak aktif (belum dinyalakan orang lain);
    - campaign-nya ACTIVE (jangan nyalakan ad set di campaign yang di-PAUSE);
    - chat WA hari ini ≥ 1 dan biaya per chat hari ini (spend ÷ chat) **< Rp35.000** (1 Nov, perintah user "saya naikan menjadi 35ribu batas cpr nya"; dulu Rp30.000);
-   - **(30 Okt, user "2 iya") CPR 3 hari terakhir juga < Rp50.000**: ambil lagi dengan
-     `date_preset: last_3d` (3 hari sebelum hari ini). Lolos jika chat ≥ 1 dan spend ÷ chat < Rp50.000,
-     atau spend 3 hari < Rp35.000 (data masih sedikit). Gagal jika 0 chat dengan spend ≥ Rp35.000;
-   - ad set ini belum dinyalakan ≥ 2 kali hari ini oleh prosedur ini (cek log aktivitas: entri
-     "Ad set status updated" dengan `application_name` "ads MCP server" Inactive→Active hari ini).
-     Kalau rule terus mematikannya, berhenti di 2 kali supaya tidak bolak-balik.
+   - **(3 Nov, perintah user "perhari" + "berapa kali ga ada batasan jika cpr di bawah 35rb auto nyalakan lagi")**:
+     hanya CPR HARI INI yang dipakai (syarat CPR 3 hari < Rp50rb dihapus) dan TIDAK ADA batas berapa kali
+     sehari — selama chat hari ini ≥ 1 dan CPR hari ini < Rp35.000, nyalakan lagi tiap kali ad set mati.
 4. Nyalakan: `ads_activate_entity` `object_ids: [adset_id]`, `publish_as_active: true`.
    Kalau ditolak "has no staged changes in the draft" (akun mode draft seperti Diana/Nida), ulangi
    dengan `entity_type: ad_set` + `entity_id` tanpa `object_ids`. Lalu verifikasi dengan

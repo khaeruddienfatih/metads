@@ -3041,3 +3041,13 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - **C (pause iklan, sepanjang waktu), terverifikasi success/PAUSED:**
   - Fifi 521083143750270 · iklan 120252689341800365 "Jawa 12 Hari Januari | 12_hari_januari_1 - winner" (Luar Pulau): Rp50.810 / 1 chat = Rp50.810/chat.
   - Haji 947788760498911 · iklan 120251116309960739 "Haji | Haji_Img_06 (Haji 3 Diana) - winner" (Irfan, jawa Barat): Rp35.150 / 0 chat.
+
+### 2026-11-03 13:50 — cek 30 menit (cloud)
+- **A:** tidak ada (Fifi: 9 ad set rule-off, hanya Januari 120252109327300365 [Rp90.108/1 chat] & ramadhan 120252512245710365 [Rp50.460/1 chat] punya chat hari ini, keduanya CPR ≥ Rp35rb → tidak dinyalakan; akun lain tanpa entri rule).
+- **B (7 ad set di-PAUSE, terverifikasi PAUSED):**
+  - Nida 1019832712800468: `120251938554630004` "Indonesia - Broad 25-65 #1" (campaign new) Rp42.752/1 chat (>40rb & <2 chat); `120251989825760004` "9 hari januari" (Nida Sales) Rp62.834/1 chat (>40rb & <2 chat).
+  - Allif 4678183395742010: `120252243406460228` "jawa barat" (Ramadhan) Rp31.388/0 chat (≥30rb & 0 chat).
+  - Irfan 1060984719243481: `120253548709050414` "Ramadhan" (Sales banten) Rp41.839/1 chat (>40rb & <2 chat).
+  - Haji 947788760498911: `120250201672240739` "Interest" (Fikri) Rp42.658/1 chat; `120250253985820739` "Broud" (AIni) Rp43.526/1 chat (>40rb & <2 chat).
+  - Haji 3 794403715776985: `120252557031820704` "Haji 2" (Fikri) Rp30.636/0 chat (≥30rb & 0 chat).
+- **C:** tidak ada iklan memenuhi syarat (CPR sepanjang waktu > Rp50rb / 0 chat ≥ Rp35rb).

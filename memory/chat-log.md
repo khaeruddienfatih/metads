@@ -2965,3 +2965,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Elharamain Haji 947788760498911 · 120250199511430739 "Interest" (campaign Tira) — Rp47.535, 0 chat (≥ Rp30rb & 0 chat).
   - Haji 4 1526562231314028 · 120256622022580768 "Gambar" (campaign Hanif) — Rp41.217, 1 chat (> Rp40rb & < 2 chat).
 - C: tidak ada iklan yang memenuhi syarat (CPR sepanjang waktu > Rp50rb / 0 chat ≥ Rp35rb).
+
+### 2026-11-03 — "Apakah id iklan bisa buat beda no, kalau bisa aktifkan iklannya" (via Telegram)
+- Jawab: iklan yang memakai `object_story_id` (post pemenang Qatar Nida) membawa nomor WA dari post/CTA-nya → nomor TIDAK bisa diganti per akun. Nomor per akun hanya bisa lewat iklan baru (gambar pemenang + inline `object_story_spec`) dan `promoted_object.whats_app_business_phone_number_id` ad set; connector belum punya akses aset nomor WA (error 4017029, 22 Okt) sehingga ditolak.
+- Tidak ada yang diaktifkan/diterbitkan (Fifi PAUSED, AIni DRAFT). Tertunda: user pilih — (1) aktifkan Fifi/AIni dengan nomor Nida, atau (2) bikin iklan baru gambar pemenang + nomor akun sendiri (butuh user pasang nomor WA manual di ad set).

@@ -92,14 +92,36 @@ def log_terakhir(n=5):
 
 
 def routine():
-    return """Routine otomatis (cloud, jalan walau komputer mati):
-• tiap 30 menit (:13 & :43) — nyalakan ad set rule-off CPR < Rp35rb, pause ad set/iklan boros
-• 22:00 — semua ad set OFF
-• 04:00 — naik anggaran +10% (pemenang 3 hari) lalu ad set ON
-• 06:00 — email Rekap Harian ke elharamainwisata
-• 08:00 — email Rekap Harian ke pimpinan (dicek otomatis dulu)
-• 12:00 / 16:00 / 21:00 — email laporan Siang/Sore/Malam ke elharamainwisata
-Detail & ID: memory/chat-memory.md"""
+    """Daftar routine dibaca LANGSUNG dari memory/routine-tabel.md (setelah git pull),
+    jadi selalu sama dengan aturan terbaru — tidak ada teks lama yang tertinggal."""
+    git_pull()
+    try:
+        teks = (REPO / "memory" / "routine-tabel.md").read_text()
+    except Exception as e:
+        return f"Tidak bisa membaca memory/routine-tabel.md: {e}"
+    baris = []
+    for ln in teks.splitlines():
+        if not ln.startswith("|"):
+            continue
+        sel = [s.strip() for s in ln.strip().strip("|").split("|")]
+        if not sel or not sel[0] or not sel[0][0].isdigit():
+            continue  # lewati header, pemisah, dan tabel "di balik layar"
+        if len(sel) >= 5:  # No | Untuk/Jam | Kalau | Maka | Angka
+            no, kapan, kalau, maka, angka = sel[:5]
+            if kalau in ("–", "-", ""):
+                baris.append(f"{no}. [{kapan}] {maka}")
+            else:
+                ekstra = f" ({angka})" if angka not in ("–", "-", "") else ""
+                baris.append(f"{no}. [{kapan}] {kalau} → {maka}{ekstra}")
+        elif len(sel) == 4:  # No | Jam | Isi laporan | Dikirim ke
+            no, jam, isi, ke = sel
+            baris.append(f"{no}. [{jam}] Email: {isi} → {ke}")
+    if not baris:
+        return "Tabel routine kosong / formatnya berubah. Lihat memory/routine-tabel.md"
+    return ("Routine otomatis (cloud, jalan walau komputer mati) — dari memory/routine-tabel.md:\n\n"
+            + "\n".join(baris)
+            + "\n\nJam tenang 22:00–03:59 (kecuali jadwal malam & pagi). Ubah aturan: edit routine-tabel.md "
+              "lalu kirim 'sesuaikan routine dengan routine-tabel.md'.")
 
 
 SESI_FILE = Path(__file__).resolve().parent / ".sesi.json"
@@ -139,7 +161,10 @@ def _tanya_claude(chat_id, pertanyaan):
     prompt = (
         "Pesan ini datang dari user lewat bot Telegram (Mac mini Ubuntu). "
         "Jawab singkat dalam Bahasa Indonesia, cocok dibaca di layar HP (hindari tabel lebar; "
-        "pakai daftar pendek). Ikuti CLAUDE.md seperti biasa.\n\nPesan user: " + pertanyaan
+        "pakai daftar pendek). Ikuti CLAUDE.md seperti biasa. Aturan routine/auto yang berlaku "
+        "SELALU yang ada di memory/routine-tabel.md (baca file itu, jangan pakai ingatan lama); "
+        "kalau pesan user bertentangan dengan tabel, ikuti pesan user dan beri tahu bedanya sekali saja, "
+        "jangan ngotot.\n\nPesan user: " + pertanyaan
     )
     kirim(chat_id, "⏳ Sedang diproses Claude…")
     try:

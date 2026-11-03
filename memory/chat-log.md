@@ -3251,3 +3251,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat routine baru `trig_0169Dw65vf7mZiGkufKqdoRf` (03:00 WIB, cron 0 20 * * * UTC): hanya naik anggaran (+10% bila CPR 3 hari < Rp30rb, maks Rp300rb, Allif & elharamain Profile dikecualikan). Jalan pertama 4 Nov 03:00.
 - Routine 04:00 `trig_01KLe5sJc8N6MQMEYKUpzNqB` diubah: hanya menyalakan semua ad set PAUSED (tidak mengubah budget lagi).
 - routine-tabel.md, routine-baku.md, naik-budget.md diperbarui.
+
+### 2026-11-03 — "samakan telegram ... realtime, kenapa jam 9 malam belum ada laporan"
+- bot.py: /routine kini membaca memory/routine-tabel.md langsung (setelah git pull) → selalu sama dengan aturan terbaru; prompt ke Claude diberi pesan "aturan = routine-tabel.md, jangan ngotot kalau user beda". Bot (user service elharamain-bot) di-restart.
+- Laporan 21:00: BUKAN gagal. Routine email trig_01D9NHsCepUj6rvi7cs5nt77 baru mulai 21:11:58 WIB (telat ±12 menit dari cron 21:00 — jitter penjadwal cloud), lolos cek_laporan, email terkirim 21:13 ke elharamainwisata (Umroh Rp6.564.321/144 chat/CPR Rp45,6rb; Haji Rp3.228.733/108 chat/Rp29,9rb; total Rp9.793.054/252 chat/Rp38,9rb).

@@ -2906,3 +2906,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan · 120253687647820414 "9 Hari Januari | januari_8 - winner" · Rp55.780 / 1 chat · pause terkirim (IN_PROCESS)
   - Elharamain Haji 947788760498911 · 120251116324990739 "Haji_Reuse_Nida-Broud - winner" · Rp41.917 / 0 chat · pause terkirim (IN_PROCESS)
   - Elharamain Haji · 120250897666190739 "Haji - Hanif Interest Salin A - Desain 3 #2" · Rp50.241 / 1 chat · pause terkirim (IN_PROCESS)
+
+### 2026-11-03 — "Bisa ambil ID iklan yang sudah terhapus, contoh iklan Qatar?" (via Telegram)
+- Jawab: BISA — `ads_get_ad_entities` level ad + filter `effective_status IN [DELETED]` + `date_preset=maximum` mengembalikan id, nama, spend iklan terhapus (juga bisa lewat activity log akun).
+- Dicoba di Tira (868364731529534): 2 iklan terhapus (januari gambar - Salin 3 `120252517857200584`; 12 Hari Januari H5 Bandung Gambar 5 `120252218844700584`), TIDAK ada Qatar. Akun lain (Fifi dll.) belum dicek.
+- Tertunda: user sebut akun mana / mau dicek semua akun.

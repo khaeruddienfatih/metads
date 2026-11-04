@@ -3438,3 +3438,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Allif (4678183395742010) ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3" (campaign Ramadhan) — spend hari ini Rp36.448, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada.
 - D: tidak ada (satu kandidat Fifi iklan 120242810398110365 "Paket", 8 chat/CPR Rp26.778, gagal dinyalakan: iklan ARCHIVED, error 1885088 — dilewati).
+### 2026-11-04 — Elharamain Haji campaign Fikri diisi iklan baru
+- Diminta: "coba cek elharamain haji iklan fikri kamu isi iklan dengan iklan baru".
+- Dicek: akun 947788760498911, campaign Fikri `120250201672230739`, 3 ad set (semua PAUSED oleh auto rule hari ini): Broud `120250201672350739` (3 iklan), Interest `120250201672240739` (3 iklan), LLA `120250201672190739` (0 iklan aktif — iklan lama di-pause routine).
+- Materi baru: Desain 8 Haji Plus #1–4 dari Cloudinary `Elharamainwisata/Haji` (upload 4 Nov) → hash 004214c2…, 1b532c28…, 72897c38…, d022f450….
+- Dibuat 4 iklan PAUSED (akun ini tidak draft — langsung live PAUSED), Page Haji 637020022834756 tanpa IG, teks Haji Plus, deskripsi 6800+ Google Review, CTA WA: LLA #1 `120251170616050739`, LLA #2 `120251170618850739`, Broud #3 `120251170618950739`, Interest #4 `120251170619340739`.
+- Tertunda: ad set masih PAUSED; aktifkan hanya atas perintah. Nomor WA Page Haji kemungkinan terputus (error 2446880 di iklan lain) — cek sebelum dinyalakan.

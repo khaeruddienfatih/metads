@@ -3504,3 +3504,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-04 18:20 — "Belum ada laporan" (via Telegram)
 - Dicek Gmail (waktu WIB): terkirim 06:06 Rekap 03 Nov → elharamainwisata; 08:11 Rekap 03 Nov → dhiyaaelhaq01; 12:12 Siang; 12:45 & 12:57 Rekap 03 Nov (ulang, elharamainwisata) + contoh tabel anggaran baru; 12:12–12:13 "01–04 Nov (Meta + Invoice TikTok)" + koreksi tabel Haji; 16:12 Sore. Laporan Malam 21:00 belum waktunya (sekarang 18:15).
 - Tertunda: user belum sebut laporan mana yang dimaksud.
+### 2026-11-04 19:05 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): tidak ada.
+- C (pause iklan): Allif (4678183395742010) — iklan `120252538436310228` "Sales Ramadhan | Desain 2 #1 | adset1" (ad set Jawa Barat - Broad 25-65 #1, campaign Ramadhan): sepanjang waktu spend Rp35.028, 0 chat (aturan 0 chat & spend ≥ Rp35rb). Verifikasi: PAUSED.
+- D (nyala iklan): tidak ada.

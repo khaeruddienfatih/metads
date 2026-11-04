@@ -3389,3 +3389,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dicek: 4 routine cloud enabled (`trig_01PExMLpwLUtZxVRsi4R6e8H` :13, `trig_01K5FuVYv9LfbFm6adDaxPBV` :28, `trig_013WfwoGnfBo14J4EupZGgtx` :43, `trig_014noZbx2jsJHWH7w52P2UFf` :58), Sonnet. Run :43 & :58 tercatat tiap jam s.d. 10:00 WIB, status sukses tanpa error.
 - Jam yang tidak ada commit (mis. 09:43) = run sukses tanpa perubahan (tidak commit by design). Jam 22:00–03:59 dilewati.
 - Hasil: berjalan normal, tidak ada yang diubah.
+
+### 2026-11-04 11:10 — cek 15 menit (cloud)
+- A (nyala ad set): Diana (1076195694707828) — ad set 120252014883280294 "Ramadhan" (campaign Diana new, ACTIVE): hari ini 1 chat, spend Rp29.231, CPR Rp29.231 (<Rp30rb). Diverifikasi ACTIVE.
+- B (pause ad set): Allif (4678183395742010) — ad set 120252430673590228 "Ramadhan" (campaign Traffic (baru) - Salin): spend hari ini Rp26.027, 0 chat (>Rp25rb & 0 hasil). Diverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

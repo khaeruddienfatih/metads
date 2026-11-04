@@ -3486,3 +3486,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Nida (1019832712800468) ad set 120251989825750004 "12 hari januari" (campaign Nida Sales) — spend hari ini Rp27.433, 0 chat (spend > Rp25rb & 0 chat) → PAUSED, terverifikasi.
 - C: tidak ada.
 - D: tidak ada.
+### 2026-11-04 16:31 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Nida (1019832712800468) ad set 120251989825760004 "9 hari januari" (campaign Nida Sales) — spend hari ini Rp47.793, 1 chat (kondisi spend ≥ Rp45rb & chat < 2); terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

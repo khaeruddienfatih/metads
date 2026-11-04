@@ -3534,3 +3534,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Routine jadwal malam OFF 22:00 WIB: 95 ad set ACTIVE di-PAUSE, 0 gagal; diverifikasi ulang (0 ACTIVE tersisa di 12 akun yang punya ad set).
 - Per akun (paused/gagal): Diana 3/0 · Tira 3/0 · Nida 7/0 · Hanif 4/0 · Allif 4/0 · Fikri 4/0 · AIni 12/0 · Irfan 17/0 · Fifi 11/0 · Elharamain Haji 18/0 · Haji 2 0/0 · Haji 3 5/0 · Haji 4 7/0 · haji 1050343302646341 0/0 (hanya 1 ad set ARCHIVED, tidak disentuh).
 - Akun tak terbaca: tidak ada. Daftar di jadwal-malam-daftar.md (untuk ON 04:00).
+
+### 2026-11-05 03:00 — naik anggaran (cloud)
+- Cek H-3..H-1 (2–4 Nov) di 13 akun: tidak ada campaign yang memenuhi syarat (chat >=1 dan CPR < Rp30rb di ketiga hari). Tidak ada kenaikan, tidak ada kegagalan. Haji 2 & haji 1050 tidak punya campaign ACTIVE.

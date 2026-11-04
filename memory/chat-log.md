@@ -3349,3 +3349,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-04 — Aturan: targeting ad set mengikuti arahan user
 - User menegur karena saya menawarkan ubah targeting 4 ad set Fikri: "kan sudah saya bilang adset sesuai arahan saya". Aturan baru dicatat di chat-memory.md: ad set buatan user tidak diubah/ditawari perubahan targeting; cukup isi iklan. Targeting 4 ad set Fikri tetap seperti semula.
+
+### 2026-11-04 — Koreksi aturan: ad set pakai SOP kecuali user minta
+- User meluruskan: "maksudnya yang kamu pakai sop kecuali saya minta". Aturan di chat-memory.md diganti: ad set langsung disamakan dengan SOP tanpa bertanya, kecuali ada arahan khusus user.
+- 3 ad set campaign Fikri `120249951245290470` (Ramadhan …245370470, 9 Hari Januari …245360470, 12 Hari Januari …245250470; dibuat 3 Nov, belum tayang) → targeting SOP: 26 kota radius 40 km + 5 subcity Jakarta, umur 25–65, penempatan default (IG + FB Story + WA Status + Threads), minat & targeting_automation tetap. Tersimpan sebagai DRAFT (belum publish), 0 error.
+- Fikri Prov `120249450685390470` tidak diubah: ad set lama (1 Okt), campaign bernama provinsi.

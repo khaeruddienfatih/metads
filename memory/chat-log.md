@@ -3328,3 +3328,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: akun Fikri (1676215979752437), iklan dengan materi gambar dan video baru. Ad set tujuan rencana: Ramadhan (campaign Ramadhan), teks & CTA dari iklan winner.
 - Terjadi: 1 gambar dari Downloads (Gemini_Generated_Image_9n2c7u…, hash 86c699d1fb9f2ab2470272d494e753f2) terunggah ke library Fikri. Itu SALAH: user bilang materi sudah ada di Cloudinary dan SOP mewajibkan materi dari Cloudinary. Belum ada iklan dibuat; 13 file lain TIDAK diunggah.
 - Konektor Cloudinary tidak tersedia di sesi ini. Tertunda: minta user folder/link Cloudinary (atau sambungkan ulang konektor), lalu buat iklan baru PAUSED sesuai SOP (inline object_story_spec, target kota & penempatan default).
+
+### 2026-11-04 — Cek akun Fikri, aturan pembuatan iklan, ganti model ke Opus
+- Cek akun Fikri (1676215979752437) hari ini: 4 campaign ACTIVE, total Rp144.425, 1 chat. Fikri (…572870470) Rp76.903/1 chat; Fikri Prov Rp52.764/0 chat; Ramadhan Rp14.758; Fikri (…951245290470) Rp0. Tidak ada perubahan di Meta.
+- User minta daftar aturan pembuatan iklan (setelah salah upload gambar lokal) — dijelaskan dari chat-memory.md.
+- Aturan baru: sesi pakai Opus (claude-opus-5-5), user ganti lewat /model. Routine cloud tetap Sonnet (perintah user).
+- Tertunda: iklan baru Ramadhan Fikri dari Cloudinary (perlu folder/link); pause ad set boros Fikri menunggu persetujuan user.

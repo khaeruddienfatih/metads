@@ -3452,3 +3452,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-04 13:50 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: akun Hanif 482252744648260, iklan `120255131613870427` "Ramadhan | Desain 3 #4 - winner" (ad set Ramadhan, campaign Sales) — sepanjang waktu spend Rp50.136, 1 chat, CPR Rp50.136 (> Rp50.000) → PAUSE. Verifikasi: status PAUSED (effective_status IN_PROCESS).
+
+### 2026-11-04 14:13 — cek 15 menit (cloud)
+- A: tidak ada ad set dinyalakan.
+- B: tidak ada ad set dipause.
+- C: 1 iklan dipause — akun Haji 3 (794403715776985), iklan 120253156550340704 "Haji_Img_01 - winner" (campaign Aini, ad set Haji 2 - Salin): spend sepanjang waktu Rp35.823, 0 chat (≥ Rp35rb). Status terverifikasi PAUSED.
+- D: tidak ada iklan dinyalakan.

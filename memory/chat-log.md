@@ -3546,3 +3546,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): tidak ada (spend hari ini tertinggi Rp18.033, di bawah ambang).
 - C (pause iklan): Fikri 1676215979752437, iklan 120249728457550470 "9 Hari Januari Fikri Prov | Desain 3 #3 (gambar terbaik)" (ad set 9 Hari Januari, campaign Fikri Prov) — lifetime spend Rp100.377 / 2 chat = Rp50.189/chat (> Rp50rb). Terverifikasi PAUSED.
 - D (nyalakan iklan): tidak ada (semua iklan PAUSED ber-chat punya CPR ≥ Rp30rb).
+### 2026-11-05 06:28 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada. B (pause ad set): tidak ada.
+- C (pause iklan, lifetime 0 chat & spend ≥ Rp35rb):
+  - AIni 814396810761205 · iklan 120253979584120019 "Sales 12 Hari Januari | Desain 3 12H #5 | adset5" — spend Rp35.233, 0 chat. PAUSE diterima (is_draft=false); verifikasi baca-ulang: IN_PROCESS (transisi).
+  - Haji 3 794403715776985 · iklan 120253032886650704 "Haji_Img_02" (Haji 2) — spend Rp35.055, 0 chat. PAUSE diterima (is_draft=false); verifikasi baca-ulang: IN_PROCESS (transisi).
+- D (nyala iklan): tidak ada.

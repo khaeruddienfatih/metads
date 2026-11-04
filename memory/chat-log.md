@@ -3408,3 +3408,5 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Diminta: laporan 1–4 Nov dari invoice TikTok `BDSG202624088114` (top-up 01 Nov Rp6.150.000 + PPN Rp676.500 = Rp6.826.500), kirim ke elharamainwisata@gmail.com. Pilihan user: Meta 1–4 Nov + catatan invoice TikTok. User: PDF tidak perlu dilampirkan.
 - Data Meta 01–04 Nov (04 Nov s.d. 12:11 WIB), 14 akun: Umroh Rp21.614.991 / 531 chat / CPR Rp40,7rb; Haji Rp9.574.079 / 285 chat / CPR Rp33,6rb; total Rp31.189.070 / 816 chat / Rp38,2rb. Non-chat Haji 4 Rp23.265. Elharamain Haji 947… tidak ada belanja.
 - Email dikirim (Gmail id 1a1a4f96096c2b78), HTML dari `tools/laporan_email_html.py`, tanpa lampiran. cek_laporan.py tidak dipakai (formatnya hanya untuk laporan harian).
+- Koreksi (email kedua, id 1a1a4fa11e3908e8, satu thread): label tabel Haji per akun tertukar saat membaca hasil query paralel. Benar: Elharamain Haji Rp5.226.080/161 chat, Haji 3 Rp2.493.760/64, Haji 4 Rp1.854.239/60. Haji 2 & haji 1050… tidak ada belanja. Total & per CS tidak berubah.
+- Pelajaran: saat query banyak akun sekaligus, cocokkan hasil dengan ID campaign/akun, jangan berdasarkan urutan.

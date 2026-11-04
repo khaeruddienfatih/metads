@@ -3474,3 +3474,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-04 — Klarifikasi aturan 7000+ Google Review
 - User: "maksudnya jika saya suruh lagi itu termasuk ikln baru"
 - Dikonfirmasi: setiap perintah buat iklan berikutnya (semua akun Umroh & Haji) otomatis pakai "7000+ Google Review". Aturan dipertegas di chat-memory.md.
+
+### 2026-11-04 15:13 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): akun Diana 1076195694707828, ad set 120252143936570294 "Ramadhan" (campaign Diana) — spend hari ini Rp47.514, 1 chat (≥ Rp45.000 & chat < 2) → PAUSED, terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

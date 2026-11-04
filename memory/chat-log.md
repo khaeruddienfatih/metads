@@ -3423,3 +3423,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-04 — Revisi tabel bawah laporan pagi jadi anggaran per platform
 - Revisi (user: "laporan anggaran cukup tulis tiktok haji umroh dan nanti lainya misal muncul invoice gads"): tabel bawah jadi "Anggaran <tgl 1> s.d. <kemarin>" per platform, kolom Biaya saja: Meta Umroh, Meta Haji (termasuk non-chat), + platform lain dari invoice di `memory/invoice-iklan.json` (TikTok BDSG202624088114 Rp6.826.500 termasuk PPN). Dibuat `tools/pengeluaran_bulan.py`; `laporan_email_html.py` + opsi `hanya_biaya`; cek_laporan disesuaikan. 01–03 Nov: Meta Umroh Rp18.643.911, Meta Haji Rp8.415.765, TikTok Rp6.826.500, total Rp33.886.176. Routine 06:00 & 08:00 diperbarui.
 - Invoice baru (Google Ads dll.) → tambah entri di `memory/invoice-iklan.json`.
+
+### 2026-11-04 — Tabel anggaran tanpa tulisan penjelasan
+- User: "ga perlu ada tulisan ini cukup table saja" → catatan penjelasan tabel anggaran dihapus dari routine 06:00 & 08:00; label baris platform lain cukup nama platform (mis. "TikTok").

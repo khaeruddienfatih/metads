@@ -3432,3 +3432,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-04 — Berapa yang sudah dibayar ke Meta
 - Biaya iklan Meta 1 Nov s.d. 4 Nov 13:02 WIB, 15 akun kelolaan: Umroh Rp21.896.139, Haji Rp9.986.466, elharamain Profile Rp515.402, total Rp32.398.007 (belum PPN 11%; kira-kira Rp35.961.788 dengan PPN). Riwayat pembayaran/tagihan tidak tersedia lewat konektor; cek di Billing Ads Manager.
+
+### 2026-11-04 13:xx — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Allif (4678183395742010) ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3" (campaign Ramadhan) — spend hari ini Rp36.448, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+- C: tidak ada.
+- D: tidak ada (satu kandidat Fifi iklan 120242810398110365 "Paket", 8 chat/CPR Rp26.778, gagal dinyalakan: iklan ARCHIVED, error 1885088 — dilewati).

@@ -3537,3 +3537,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-05 03:00 — naik anggaran (cloud)
 - Cek H-3..H-1 (2–4 Nov) di 13 akun: tidak ada campaign yang memenuhi syarat (chat >=1 dan CPR < Rp30rb di ketiga hari). Tidak ada kenaikan, tidak ada kegagalan. Haji 2 & haji 1050 tidak punya campaign ACTIVE.
+
+### 2026-11-05 04:00 — jadwal pagi: nyalakan ad set (cloud)
+- Nyalakan semua ad set PAUSED (siapa pun yang mematikan) di 14 akun; budget tidak diubah.
+- Nyala / dilewati / gagal: Diana 15/0/0 · Tira 9/0/0 · Nida 20/0/0 · Hanif 11/0/0 · Allif 12/0/0 · Fikri 12/0/0 · AIni 23/0/0 · Irfan 25/0/0 · Fifi 30/0/0 · Elharamain Haji 32/0/0 · Haji 3 17/0/0 · Haji 2, Haji 4, haji 1050 tidak ada ad set PAUSED. Total 206.

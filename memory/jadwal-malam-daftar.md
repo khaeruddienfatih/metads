@@ -95,3 +95,8 @@
 - 1526562231314028 | 120256248793380768 | Campuran | Irfan
 - 1526562231314028 | 120256248793240768 | Vidio | Irfan
 - 1526562231314028 | 120256248793200768 | Gambar | Irfan
+
+## Dinyalakan 2026-11-05 04:00
+- Dinyalakan 206 ad set (semua PAUSED di campaign aktif), 0 dilewati, 0 gagal.
+- Per akun: Diana 15 · Tira 9 · Nida 20 · Hanif 11 · Allif 12 · Fikri 12 · AIni 23 · Irfan 25 · Fifi 30 · Elharamain Haji 32 · Haji 3 17 · Haji 2 0 · Haji 4 0 · haji 1050343302646341 0.
+- Catatan: Diana (draft) menolak publish_as_active, berhasil dengan entity_type ad_set tanpa object_ids.

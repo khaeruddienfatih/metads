@@ -3363,3 +3363,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada.
 - B: Nida (1019832712800468) ad set 120251938554630004 "Indonesia - Broad 25-65 #1" (campaign "new") — spend hari ini Rp86.427 (saat cek awal Rp51.591), 0 chat → > Rp25rb & 0 chat → PAUSE; terverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+### 2026-11-04 09:30 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset boros, terverifikasi PAUSED):
+  - Nida (1019832712800468) adset 120251865308470004 "9 Hari Januari" (campaign Prospek (baru) - Jakarta): spend hari ini Rp25.890, 0 chat (spend > Rp25rb & 0 chat).
+  - Allif (4678183395742010) adset 120252430673610228 "12 Hari Januari" (campaign Traffic (baru) - Salin): spend hari ini Rp25.437, 0 chat (spend > Rp25rb & 0 chat).
+- C (pause iklan mahal): tidak ada.
+- D (nyala iklan): tidak ada.

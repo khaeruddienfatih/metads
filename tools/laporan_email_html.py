@@ -17,8 +17,13 @@ Format data.json:
     {"judul": "Umroh per akun", "label": "Akun",
      "baris": [{"nama": "Fifi", "biaya": 1001799, "chat": 28}]}
   ],
-  "catatan": ["CS Haji CPR terendah: Fikri Rp17,2rb", "..."]
+  "catatan": ["CS Haji CPR terendah: Fikri Rp17,2rb", "..."],
+  "tabel_bawah": [{"judul": "Pengeluaran 01 Nov 2026 s.d. 03 Nov 2026 per akun", "label": "Akun",
+                   "baris": [{"nama": "Irfan (Umroh)", "biaya": 2700000, "chat": 75}]}]
 }
+- "tabel_bawah" opsional: tabel yang ditaruh PALING BAWAH, setelah Catatan (4 Nov 2026, user:
+  "laporan setiap pagi itu ada laporan pengeluaran mulai tanggal 1 sampai tanggal saat ini
+  dalam bentuk table di bawah").
 - "biaya" & "chat" angka mentah (rupiah, jumlah chat). CPR dihitung otomatis.
 - "urut" (default true): urutkan baris dari biaya terbesar.
 - "total" (default true): tambah baris total tebal di bawah.
@@ -118,6 +123,8 @@ def main():
         parts.append(f'<div style="{H2}"><b>Catatan</b></div><ul style="margin:4px 0;padding-left:18px;">')
         parts += [f'<li style="margin:2px 0;">{html.escape(c)}</li>' for c in catatan]
         parts.append("</ul>")
+    for t in data.get("tabel_bawah", []):
+        parts.append(tabel(t))
     parts.append(f'<p style="margin:14px 0 0 0;">{html.escape(penutup)}</p>')
     parts.append("</div>")
     print("\n".join(parts))

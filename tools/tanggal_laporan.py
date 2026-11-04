@@ -9,6 +9,8 @@ Output (KEY=VALUE per baris):
   HARI_INI_ISO, HARI_INI_LABEL   tanggal hari ini (WIB)
   KEMARIN_ISO,  KEMARIN_LABEL    tanggal kemarin = tanggal data laporan pagi
   LUSA_ISO,     LUSA_LABEL       kemarin lusa = pembanding laporan pagi
+  AWAL_BULAN_ISO, AWAL_BULAN_LABEL  tanggal 1 dari bulan KEMARIN (awal tabel pengeluaran
+                                 bulan berjalan di laporan pagi, 4 Nov 2026)
   JAM                            HH:MM WIB sekarang
   SESI                           Siang (<14), Sore (14-18), Malam (>=19) untuk laporan 12/16/21
 """
@@ -26,6 +28,7 @@ now = datetime.now(WIB)
 hari_ini = now.date()
 kemarin = hari_ini - timedelta(days=1)
 lusa = hari_ini - timedelta(days=2)
+awal_bulan = kemarin.replace(day=1)
 sesi = "Siang" if now.hour < 14 else ("Sore" if now.hour < 19 else "Malam")
 
 print(f"HARI_INI_ISO={hari_ini.isoformat()}")
@@ -34,5 +37,7 @@ print(f"KEMARIN_ISO={kemarin.isoformat()}")
 print(f"KEMARIN_LABEL={label(kemarin)}")
 print(f"LUSA_ISO={lusa.isoformat()}")
 print(f"LUSA_LABEL={label(lusa)}")
+print(f"AWAL_BULAN_ISO={awal_bulan.isoformat()}")
+print(f"AWAL_BULAN_LABEL={label(awal_bulan)}")
 print(f"JAM={now:%H:%M}")
 print(f"SESI={sesi}")

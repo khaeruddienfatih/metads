@@ -3410,3 +3410,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Email dikirim (Gmail id 1a1a4f96096c2b78), HTML dari `tools/laporan_email_html.py`, tanpa lampiran. cek_laporan.py tidak dipakai (formatnya hanya untuk laporan harian).
 - Koreksi (email kedua, id 1a1a4fa11e3908e8, satu thread): label tabel Haji per akun tertukar saat membaca hasil query paralel. Benar: Elharamain Haji Rp5.226.080/161 chat, Haji 3 Rp2.493.760/64, Haji 4 Rp1.854.239/60. Haji 2 & haji 1050… tidak ada belanja. Total & per CS tidak berubah.
 - Pelajaran: saat query banyak akun sekaligus, cocokkan hasil dengan ID campaign/akun, jangan berdasarkan urutan.
+
+### 2026-11-04 — Laporan pagi + tabel pengeluaran bulan berjalan
+- Diminta: "laporan setiap pagi itu ada laporan pengeluaran mulai tanggal 1 sampai tanggal saat ini dalam bentuk table di bawah coba kamu kirim".
+- Dikerjakan: `tools/tanggal_laporan.py` + AWAL_BULAN_ISO/LABEL (tgl 1 bulan KEMARIN); `tools/laporan_email_html.py` + `tabel_bawah` (dirender setelah Catatan); `tools/cek_laporan.py` mode pagi wajib ada tabel "Pengeluaran <AWAL_BULAN_LABEL> s.d. <KEMARIN_LABEL> per akun" dan total bulan >= total kemarin. Routine 06:00 (`trig_01Ci9E1ffEGZ97CAaxiyqCBY`) & 08:00 pimpinan (`trig_01NydaDZaZmHdb68jLxpn13R`) ditambah langkah 4b (query per akun 1 s.d. kemarin, cocokkan pakai account_id).
+- Contoh dikirim ke elharamainwisata (Gmail id 1a1a51719d2f3218), lolos cek_laporan: 03 Nov Umroh Rp6.880.757/157 chat, Haji Rp3.427.850/117; 01–03 Nov total Rp27.036.411 / 728 chat / CPR Rp37,1rb.

@@ -18,6 +18,8 @@ Yang dicek:
 - angka masuk akal: biaya & chat bilangan bulat >= 0, total Umroh/Haji di ringkasan
   sama dengan jumlah tabel per akun, total Haji per CS = total Haji per akun
 - tidak ada kolom pembanding hari sebelumnya (user: "ga perlu ada perbandingan kemarin")
+- laporan pagi (4 Nov 2026): wajib ada "tabel_bawah" berjudul "Pengeluaran <AWAL_BULAN_LABEL> s.d.
+  <KEMARIN_LABEL> per akun"; angka valid; total pengeluaran bulan berjalan >= total kemarin
 """
 import json
 import re
@@ -88,6 +90,26 @@ def main():
             if "biaya_lalu" in r or "chat_lalu" in r:
                 masalah.append(f"Ada data pembanding (biaya_lalu/chat_lalu) di '{x.get('judul')}' — tidak boleh")
                 break
+
+    if jenis == "pagi":
+        jb = f"Pengeluaran {t['AWAL_BULAN_LABEL']} s.d. {tgl} per akun"
+        bawah = data.get("tabel_bawah") or []
+        peng = next((x for x in bawah if x.get("judul") == jb), None)
+        if peng is None:
+            masalah.append(f"Tabel bawah '{jb}' tidak ada (judul harus persis)")
+        else:
+            for r in peng.get("baris", []):
+                for k in ("biaya", "chat"):
+                    if not isinstance(r.get(k), int) or r[k] < 0:
+                        masalah.append(f"Nilai {k} tidak valid di tabel pengeluaran / {r.get('nama')}: {r.get(k)}")
+            if ring and umroh and haji:
+                hari = (total(umroh)[0] + total(haji)[0], total(umroh)[1] + total(haji)[1])
+                bln = total(peng)
+                if bln[0] < hari[0] or bln[1] < hari[1]:
+                    masalah.append(f"Total pengeluaran bulan berjalan {bln} lebih kecil dari total kemarin {hari}")
+        for x in bawah:
+            if "biaya_lalu" in str(x) or "chat_lalu" in str(x):
+                masalah.append("Ada data pembanding di tabel bawah — tidak boleh")
 
     if masalah:
         print("GAGAL — JANGAN KIRIM:")

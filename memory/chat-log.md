@@ -3458,3 +3458,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: tidak ada ad set dipause.
 - C: 1 iklan dipause — akun Haji 3 (794403715776985), iklan 120253156550340704 "Haji_Img_01 - winner" (campaign Aini, ad set Haji 2 - Salin): spend sepanjang waktu Rp35.823, 0 chat (≥ Rp35rb). Status terverifikasi PAUSED.
 - D: tidak ada iklan dinyalakan.
+
+### 2026-11-04 14:45 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): akun Haji 4 (1526562231314028), ad set 120256622022540768 "Gambar" (campaign Nida) — spend hari ini Rp25.513, 0 chat (spend > Rp25rb & 0 chat). Verifikasi: PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): akun Elharamain Haji (947788760498911), iklan 120251142496530739 "Vidio (Nida Broud) - winner" (campaign Fifi, ad set 26 Kota #5) — sepanjang waktu 2 chat, spend Rp41.594, CPR Rp20.797. Status iklan ACTIVE (ad set induk masih PAUSED).

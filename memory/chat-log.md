@@ -3310,3 +3310,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada.
 - C: Hanif (482252744648260) iklan 120255131611180427 "12 Hari Januari | 12_hari_januari_5 - winner" — sepanjang waktu spend Rp35.031 dengan 0 chat → PAUSED (terverifikasi PAUSED).
 - D: kandidat Fifi (521083143750270) iklan 120242810398110365 "Paket" (8 chat, CPR Rp26.778) ternyata ARCHIVED → tidak bisa diedit, dilewati.
+
+### 2026-11-04 07:16 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C: Irfan (1060984719243481) iklan 120253549832690414 "Kota Ramadhan | Desain 2 #1" (campaign Sales jawa) — sepanjang waktu spend Rp100.001, 2 chat, CPR Rp50.000,5 (> Rp50.000) → PAUSED (terverifikasi status PAUSED; effective_status masih IN_PROCESS).

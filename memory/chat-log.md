@@ -3395,3 +3395,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Allif (4678183395742010) — ad set 120252430673590228 "Ramadhan" (campaign Traffic (baru) - Salin): spend hari ini Rp26.027, 0 chat (>Rp25rb & 0 hasil). Diverifikasi PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+### 2026-11-04 11:45 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Elharamain Haji (947788760498911) ad set 120250965370740739 "Haji - 2 - Salin" (campaign Irfan): spend hari ini Rp25.301, 0 chat (spend > Rp25rb & 0 chat) -> PAUSED, terverifikasi (update sukses, status_forced_to_paused=false).
+- C: tidak ada.
+- D: tidak ada.

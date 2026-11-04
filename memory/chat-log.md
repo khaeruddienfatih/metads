@@ -3509,3 +3509,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): tidak ada.
 - C (pause iklan): Allif (4678183395742010) — iklan `120252538436310228` "Sales Ramadhan | Desain 2 #1 | adset1" (ad set Jawa Barat - Broad 25-65 #1, campaign Ramadhan): sepanjang waktu spend Rp35.028, 0 chat (aturan 0 chat & spend ≥ Rp35rb). Verifikasi: PAUSED.
 - D (nyala iklan): tidak ada.
+### 2026-11-04 19:45 — cek 15 menit (cloud)
+- A: tidak ada. C: tidak ada. D: tidak ada.
+- B: akun Irfan 1060984719243481, ad set 120253548709050414 "Ramadhan" (campaign "Sales banten") — spend hari ini Rp45.346, 1 chat (kondisi ≥Rp45rb & chat<2) → PAUSED, terverifikasi PAUSED.

@@ -3470,3 +3470,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - 120251989825760004 "9 hari januari" (campaign Nida Sales): spend hari ini Rp25.162, 0 chat (spend > Rp25rb & 0 chat).
   - 120251731135470004 "banten" (campaign 12 hari januari): spend hari ini Rp26.472, 0 chat (spend > Rp25rb & 0 chat).
 - C: tidak ada. D: tidak ada.
+
+## 2026-11-04 — Klarifikasi aturan 7000+ Google Review
+- User: "maksudnya jika saya suruh lagi itu termasuk ikln baru"
+- Dikonfirmasi: setiap perintah buat iklan berikutnya (semua akun Umroh & Haji) otomatis pakai "7000+ Google Review". Aturan dipertegas di chat-memory.md.

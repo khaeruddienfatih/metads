@@ -3379,3 +3379,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C (pause iklan, terverifikasi PAUSED):
   - AIni 814396810761205 · iklan 120254000581740019 "Ramadhan jakarta | Desain 2 #3 - winner" (campaign Penjualan (baru), adset Ramadhan) · lifetime Rp100.027 / 2 chat = CPR Rp50.014.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-04 10:45 — cek 15 menit (cloud)
+- A: akun Elharamain Haji 947788760498911 — ad set "Interest" (campaign AIni) ID 120250253985880739: hari ini 1 chat, spend Rp29.073, CPR Rp29.073 (<Rp30rb), campaign ACTIVE → dinyalakan lagi, terverifikasi ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

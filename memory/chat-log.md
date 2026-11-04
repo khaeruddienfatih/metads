@@ -3314,3 +3314,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-04 07:16 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: Irfan (1060984719243481) iklan 120253549832690414 "Kota Ramadhan | Desain 2 #1" (campaign Sales jawa) — sepanjang waktu spend Rp100.001, 2 chat, CPR Rp50.000,5 (> Rp50.000) → PAUSED (terverifikasi status PAUSED; effective_status masih IN_PROCESS).
+### 2026-11-04 07:45 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset, spend hari ini > Rp25rb & 0 chat; verifikasi PAUSED):
+  - Diana (1076195694707828) ad set 120251793201820294 "9hari januari" (campaign Diana new): spend Rp26.421, 0 chat.
+  - Allif (4678183395742010) ad set 120252223314630228 "Ramadhan" (campaign Ramadhan): spend Rp28.985, 0 chat.
+- C (pause iklan): tidak ada. D (nyala iklan): tidak ada.

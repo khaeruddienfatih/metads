@@ -3370,3 +3370,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Allif (4678183395742010) adset 120252430673610228 "12 Hari Januari" (campaign Traffic (baru) - Salin): spend hari ini Rp25.437, 0 chat (spend > Rp25rb & 0 chat).
 - C (pause iklan mahal): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-04 10:13 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset, terverifikasi PAUSED):
+  - Diana 1076195694707828 · adset 120251832398370294 "12hari januari" (campaign Diana) · spend hari ini Rp25.121, 0 chat · syarat >Rp25rb & 0 chat.
+  - Allif 4678183395742010 · adset 120252243406460228 "jawa barat" (campaign Ramadhan) · spend hari ini Rp25.472, 0 chat · syarat >Rp25rb & 0 chat.
+- C (pause iklan, terverifikasi PAUSED):
+  - AIni 814396810761205 · iklan 120254000581740019 "Ramadhan jakarta | Desain 2 #3 - winner" (campaign Penjualan (baru), adset Ramadhan) · lifetime Rp100.027 / 2 chat = CPR Rp50.014.
+- D (nyala iklan): tidak ada.

@@ -3525,3 +3525,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada.
 - C: Elharamain Haji 947788760498911 — iklan 120251088661870739 "Haji - Diana jateng jatim D3 #3 - winner" (adset Jakarta, campaign AIni): lifetime spend Rp37.742, 0 chat → PAUSED (terverifikasi status PAUSED).
 - D: Fifi 521083143750270 — iklan 120242810398110365 "Paket" (campaign 1448 - Salin): lifetime 8 chat, CPR Rp26.778 → TIDAK bisa dinyalakan, error 1885088 "Archived Ads Can't Be Edited" (iklan sudah ARCHIVED, dilewati).
+
+### 2026-11-04 21:30 — cek 15 menit (cloud)
+- A: tidak ada. B: 1 ad set di-PAUSE — Irfan (1060984719243481) ad set 120253330258910414 "jawa tengah & jawa timur", campaign "new": spend hari ini Rp26.263, 0 chat (spend > Rp25rb & 0 chat), terverifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

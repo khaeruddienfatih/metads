@@ -3426,3 +3426,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-04 — Tabel anggaran tanpa tulisan penjelasan
 - User: "ga perlu ada tulisan ini cukup table saja" → catatan penjelasan tabel anggaran dihapus dari routine 06:00 & 08:00; label baris platform lain cukup nama platform (mis. "TikTok").
+
+### 2026-11-04 — Kirim ulang laporan pagi lengkap (format baru)
+- User: "coba kirim lagi semuanya" → laporan 03 Nov lengkap + tabel Anggaran 01–03 Nov (tanpa catatan penjelasan) dikirim ke elharamainwisata (Gmail id 1a1a5226b9da9acd), lolos cek_laporan.

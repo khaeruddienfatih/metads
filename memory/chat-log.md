@@ -3346,3 +3346,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dibuat 12 iklan BARU (inline object_story_spec, Page 588336968031663 + IG, CTA WHATSAPP_MESSAGE, headline selang-seling, teks primary-texts.md), DRAFT lalu status PAUSED, 0 error: 9HJ (Fikri) 3 [120249964396360470, …413280470, …419890470 video]; 9HJ (Fikri Prov) 3 [120249964413710470, …414390470, …420760470 video]; 12HJ 3 [120249964414720470, …415310470, …416050470]; Ramadhan 3 [120249964416320470, …416970470, …417460470].
 - Belum publish (akun mode draft) — menunggu perintah user.
 - Catatan: targeting 4 ad set ini belum sesuai default (provinsi Jakarta/Jabar/Banten/Jateng/Kalimantan, umur 30–65, penempatan Advantage+ termasuk IG Explore/Search). Tidak diubah — tanya user dulu (Fikri Prov memang bernama provinsi).
+
+### 2026-11-04 — Aturan: targeting ad set mengikuti arahan user
+- User menegur karena saya menawarkan ubah targeting 4 ad set Fikri: "kan sudah saya bilang adset sesuai arahan saya". Aturan baru dicatat di chat-memory.md: ad set buatan user tidak diubah/ditawari perubahan targeting; cukup isi iklan. Targeting 4 ad set Fikri tetap seperti semula.

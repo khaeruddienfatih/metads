@@ -3529,3 +3529,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-04 21:30 — cek 15 menit (cloud)
 - A: tidak ada. B: 1 ad set di-PAUSE — Irfan (1060984719243481) ad set 120253330258910414 "jawa tengah & jawa timur", campaign "new": spend hari ini Rp26.263, 0 chat (spend > Rp25rb & 0 chat), terverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-04 22:00 — jadwal malam OFF (cloud)
+- Routine jadwal malam OFF 22:00 WIB: 95 ad set ACTIVE di-PAUSE, 0 gagal; diverifikasi ulang (0 ACTIVE tersisa di 12 akun yang punya ad set).
+- Per akun (paused/gagal): Diana 3/0 · Tira 3/0 · Nida 7/0 · Hanif 4/0 · Allif 4/0 · Fikri 4/0 · AIni 12/0 · Irfan 17/0 · Fifi 11/0 · Elharamain Haji 18/0 · Haji 2 0/0 · Haji 3 5/0 · Haji 4 7/0 · haji 1050343302646341 0/0 (hanya 1 ad set ARCHIVED, tidak disentuh).
+- Akun tak terbaca: tidak ada. Daftar di jadwal-malam-daftar.md (untuk ON 04:00).

@@ -3480,3 +3480,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): akun Diana 1076195694707828, ad set 120252143936570294 "Ramadhan" (campaign Diana) — spend hari ini Rp47.514, 1 chat (≥ Rp45.000 & chat < 2) → PAUSED, terverifikasi PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-04 15:30 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Nida (1019832712800468) ad set 120251989825750004 "12 hari januari" (campaign Nida Sales) — spend hari ini Rp27.433, 0 chat (spend > Rp25rb & 0 chat) → PAUSED, terverifikasi.
+- C: tidak ada.
+- D: tidak ada.

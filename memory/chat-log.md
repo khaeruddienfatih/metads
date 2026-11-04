@@ -3354,3 +3354,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User meluruskan: "maksudnya yang kamu pakai sop kecuali saya minta". Aturan di chat-memory.md diganti: ad set langsung disamakan dengan SOP tanpa bertanya, kecuali ada arahan khusus user.
 - 3 ad set campaign Fikri `120249951245290470` (Ramadhan …245370470, 9 Hari Januari …245360470, 12 Hari Januari …245250470; dibuat 3 Nov, belum tayang) → targeting SOP: 26 kota radius 40 km + 5 subcity Jakarta, umur 25–65, penempatan default (IG + FB Story + WA Status + Threads), minat & targeting_automation tetap. Tersimpan sebagai DRAFT (belum publish), 0 error.
 - Fikri Prov `120249450685390470` tidak diubah: ad set lama (1 Okt), campaign bernama provinsi.
+
+### 2026-11-04 09:05 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset): Allif (4678183395742010), ad set `jawa timur` ID 120252268692220228, campaign "9 Hari januari" — spend hari ini Rp29.719 (saat dicek Rp29.000+), 0 chat → kondisi spend > Rp25rb & 0 chat. Status terverifikasi PAUSED.
+- C (pause iklan): tidak ada. D (nyala iklan): tidak ada.

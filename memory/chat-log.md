@@ -3404,3 +3404,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Fikri 1676215979752437 — ad set 120249683321220470 "Ramadhan" (campaign Fikri): spend hari ini Rp45.465, 1 chat (kondisi spend >= Rp45rb & chat < 2). Terverifikasi PAUSED.
 - C (pause iklan): Elharamain Haji 947788760498911 — iklan 120251088216330739 "Haji_Reuse_Nida-Interest_1434373551913271 - winner" (LLA, campaign Fikri): lifetime spend Rp35.234, 0 chat. Terverifikasi PAUSED.
 - A: tidak ada. D: tidak ada.
+### 2026-11-04 — Laporan 1–4 Nov (Meta + invoice TikTok) ke elharamainwisata
+- Diminta: laporan 1–4 Nov dari invoice TikTok `BDSG202624088114` (top-up 01 Nov Rp6.150.000 + PPN Rp676.500 = Rp6.826.500), kirim ke elharamainwisata@gmail.com. Pilihan user: Meta 1–4 Nov + catatan invoice TikTok. User: PDF tidak perlu dilampirkan.
+- Data Meta 01–04 Nov (04 Nov s.d. 12:11 WIB), 14 akun: Umroh Rp21.614.991 / 531 chat / CPR Rp40,7rb; Haji Rp9.574.079 / 285 chat / CPR Rp33,6rb; total Rp31.189.070 / 816 chat / Rp38,2rb. Non-chat Haji 4 Rp23.265. Elharamain Haji 947… tidak ada belanja.
+- Email dikirim (Gmail id 1a1a4f96096c2b78), HTML dari `tools/laporan_email_html.py`, tanpa lampiran. cek_laporan.py tidak dipakai (formatnya hanya untuk laporan harian).

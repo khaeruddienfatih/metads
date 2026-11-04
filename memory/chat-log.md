@@ -3444,3 +3444,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Materi baru: Desain 8 Haji Plus #1–4 dari Cloudinary `Elharamainwisata/Haji` (upload 4 Nov) → hash 004214c2…, 1b532c28…, 72897c38…, d022f450….
 - Dibuat 4 iklan PAUSED (akun ini tidak draft — langsung live PAUSED), Page Haji 637020022834756 tanpa IG, teks Haji Plus, deskripsi 6800+ Google Review, CTA WA: LLA #1 `120251170616050739`, LLA #2 `120251170618850739`, Broud #3 `120251170618950739`, Interest #4 `120251170619340739`.
 - Tertunda: ad set masih PAUSED; aktifkan hanya atas perintah. Nomor WA Page Haji kemungkinan terputus (error 2446880 di iklan lain) — cek sebelum dinyalakan.
+
+### 2026-11-04 — Google Review 6800+ → 7000+ untuk iklan baru
+- User: "untuk iklan baru ganti dari 6800 menjadi 7000 google review" → aturan & primary-texts diperbarui (headline/deskripsi `7000+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`, baris teks 9 Hari "7000+ ulasan").
+- Elharamain Haji Fikri: 4 iklan Desain 8 dibuat ulang dengan 7000+ (PAUSED): LLA #1 `120251170695010739`, LLA #2 `120251170695450739`, Broud #3 `120251170695790739`, Interest #4 `120251170696100739`. 4 iklan 6800+ sebelumnya (belum pernah tayang) di-ARCHIVED.
+- Tertunda: 12 iklan draft Fikri Umroh (1676215979752437) masih pakai headline 6800+ — menunggu perintah untuk diganti.

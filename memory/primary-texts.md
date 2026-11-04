@@ -75,7 +75,7 @@ Nikmati Perjalanan Ibadah Umroh Terbaik dan berkesan bersama Ribuan Jamaah Elhar
 🕋 Kuliner Arab Saudi
 🕋 Team Handling Profesional
 
-👍 6800+ ulasan di Google Review 🌟 5
+👍 7000+ ulasan di Google Review 🌟 5
 
 👍Track Record Jelas, berpengalaman & Profesional memberangkatkan Puluhan Ribu Jamaah Umroh
 
@@ -241,7 +241,7 @@ Umrah, Haji & Halal Tour
 ## Haji Plus (akun Haji — disalin dari iklan Haji aktif, 24 Okt 2026)
 
 - Headline: `✈️ Berangkat Haji Lebih Cepat, Amankan Porsi Haji Sekarang`
-- Deskripsi: `6800+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)`
+- Deskripsi: `7000+ Google Review ⭐️⭐️⭐️⭐️⭐️ (5.0)` (4 Nov: dari 6800+)
 - CTA: WHATSAPP_MESSAGE, link https://api.whatsapp.com/send
 - Page: Haji `637020022834756` (iklan Irfan di akun 947788760498911 pakai `588336968031663` + IG)
 

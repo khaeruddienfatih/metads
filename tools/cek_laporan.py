@@ -18,8 +18,8 @@ Yang dicek:
 - angka masuk akal: biaya & chat bilangan bulat >= 0, total Umroh/Haji di ringkasan
   sama dengan jumlah tabel per akun, total Haji per CS = total Haji per akun
 - tidak ada kolom pembanding hari sebelumnya (user: "ga perlu ada perbandingan kemarin")
-- laporan pagi (4 Nov 2026): wajib ada "tabel_bawah" berjudul "Pengeluaran <AWAL_BULAN_LABEL> s.d.
-  <KEMARIN_LABEL> per akun"; angka valid; total pengeluaran bulan berjalan >= total kemarin
+- laporan pagi (4 Nov 2026): wajib ada "tabel_bawah" "Anggaran <AWAL_BULAN_LABEL> s.d. <KEMARIN_LABEL>"
+  (dari tools/pengeluaran_bulan.py) dengan baris Meta Umroh & Meta Haji >= biaya kemarin
 """
 import json
 import re
@@ -92,25 +92,24 @@ def main():
                 break
 
     if jenis == "pagi":
-        jb = f"Pengeluaran {t['AWAL_BULAN_LABEL']} s.d. {tgl} per akun"
+        jb = f"Anggaran {t['AWAL_BULAN_LABEL']} s.d. {tgl}"
         bawah = data.get("tabel_bawah") or []
         peng = next((x for x in bawah if x.get("judul") == jb), None)
         if peng is None:
-            masalah.append(f"Tabel bawah '{jb}' tidak ada (judul harus persis)")
+            masalah.append(f"Tabel bawah '{jb}' tidak ada (buat dengan tools/pengeluaran_bulan.py)")
         else:
-            for r in peng.get("baris", []):
-                for k in ("biaya", "chat"):
-                    if not isinstance(r.get(k), int) or r[k] < 0:
-                        masalah.append(f"Nilai {k} tidak valid di tabel pengeluaran / {r.get('nama')}: {r.get(k)}")
-            if ring and umroh and haji:
-                hari = (total(umroh)[0] + total(haji)[0], total(umroh)[1] + total(haji)[1])
-                bln = total(peng)
-                if bln[0] < hari[0] or bln[1] < hari[1]:
-                    masalah.append(f"Total pengeluaran bulan berjalan {bln} lebih kecil dari total kemarin {hari}")
-        for x in bawah:
-            if "biaya_lalu" in str(x) or "chat_lalu" in str(x):
-                masalah.append("Ada data pembanding di tabel bawah — tidak boleh")
-
+            nb = {r.get("nama"): r for r in peng.get("baris", [])}
+            for r in nb.values():
+                if not isinstance(r.get("biaya"), int) or r["biaya"] < 0:
+                    masalah.append(f"Biaya tidak valid di tabel anggaran / {r.get('nama')}: {r.get('biaya')}")
+            for k in ("Meta Umroh", "Meta Haji"):
+                if k not in nb:
+                    masalah.append(f"Tabel anggaran tidak punya baris '{k}'")
+            if ring and umroh and haji and "Meta Umroh" in nb and "Meta Haji" in nb:
+                if nb["Meta Umroh"]["biaya"] < total(umroh)[0]:
+                    masalah.append("Anggaran Meta Umroh bulan berjalan lebih kecil dari biaya Umroh kemarin")
+                if nb["Meta Haji"]["biaya"] < total(haji)[0]:
+                    masalah.append("Anggaran Meta Haji bulan berjalan lebih kecil dari biaya Haji kemarin")
     if masalah:
         print("GAGAL — JANGAN KIRIM:")
         for m in masalah:

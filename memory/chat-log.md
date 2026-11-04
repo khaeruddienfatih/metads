@@ -3420,3 +3420,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada.
 - B: AIni (814396810761205) ad set 120253979512830019 "25 Kota - Broad 25-65 #5" (campaign Penjualan) — spend hari ini Rp26.488, 0 chat (spend > Rp25rb & 0 chat) → PAUSED (update sukses, status_forced_to_paused=false).
 - C: tidak ada. D: tidak ada (satu-satunya kandidat ARCHIVED, dilewati).
+### 2026-11-04 — Revisi tabel bawah laporan pagi jadi anggaran per platform
+- Revisi (user: "laporan anggaran cukup tulis tiktok haji umroh dan nanti lainya misal muncul invoice gads"): tabel bawah jadi "Anggaran <tgl 1> s.d. <kemarin>" per platform, kolom Biaya saja: Meta Umroh, Meta Haji (termasuk non-chat), + platform lain dari invoice di `memory/invoice-iklan.json` (TikTok BDSG202624088114 Rp6.826.500 termasuk PPN). Dibuat `tools/pengeluaran_bulan.py`; `laporan_email_html.py` + opsi `hanya_biaya`; cek_laporan disesuaikan. 01–03 Nov: Meta Umroh Rp18.643.911, Meta Haji Rp8.415.765, TikTok Rp6.826.500, total Rp33.886.176. Routine 06:00 & 08:00 diperbarui.
+- Invoice baru (Google Ads dll.) → tambah entri di `memory/invoice-iklan.json`.

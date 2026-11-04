@@ -18,10 +18,12 @@ Format data.json:
      "baris": [{"nama": "Fifi", "biaya": 1001799, "chat": 28}]}
   ],
   "catatan": ["CS Haji CPR terendah: Fikri Rp17,2rb", "..."],
-  "tabel_bawah": [{"judul": "Pengeluaran 01 Nov 2026 s.d. 03 Nov 2026 per akun", "label": "Akun",
-                   "baris": [{"nama": "Irfan (Umroh)", "biaya": 2700000, "chat": 75}]}]
+  "tabel_bawah": [{"judul": "Anggaran 01 Nov 2026 s.d. 03 Nov 2026", "label": "Platform",
+                   "hanya_biaya": true, "urut": false,
+                   "baris": [{"nama": "Meta Umroh", "biaya": 18600000}, {"nama": "TikTok", "biaya": 6826500}]}]
 }
-- "tabel_bawah" opsional: tabel yang ditaruh PALING BAWAH, setelah Catatan (4 Nov 2026, user:
+- "hanya_biaya": true → tabel hanya kolom nama + Biaya (+ total).
+- "tabel_bawah" opsional (buat dengan tools/pengeluaran_bulan.py): tabel yang ditaruh PALING BAWAH, setelah Catatan (4 Nov 2026, user:
   "laporan setiap pagi itu ada laporan pengeluaran mulai tanggal 1 sampai tanggal saat ini
   dalam bentuk table di bawah").
 - "biaya" & "chat" angka mentah (rupiah, jumlah chat). CPR dihitung otomatis.
@@ -65,7 +67,8 @@ def tabel(t):
     if t.get("urut", True):
         baris.sort(key=lambda r: r.get("biaya", 0), reverse=True)
     ada_lalu = any("biaya_lalu" in r or "chat_lalu" in r for r in baris)
-    kolom = [t.get("label", "Akun"), "Biaya", "Chat", "CPR"]
+    hb = t.get("hanya_biaya", False)  # 4 Nov 2026: tabel anggaran cukup kolom Biaya
+    kolom = [t.get("label", "Akun"), "Biaya"] if hb else [t.get("label", "Akun"), "Biaya", "Chat", "CPR"]
     if ada_lalu:
         kolom += ["Biaya kemarin lusa", "Chat kemarin lusa", "Perubahan chat"]
     out = [f'<div style="{H2}"><b>{html.escape(t["judul"])}</b></div>',
@@ -76,8 +79,9 @@ def tabel(t):
 
     def isi(r, gaya_baris):
         b, c = r.get("biaya", 0), r.get("chat", 0)
-        cells = [sel(r["nama"], TD + gaya_baris), sel(rp(b), TD + NUM + gaya_baris),
-                 sel(c, TD + NUM + gaya_baris), sel(cpr(b, c), TD + NUM + gaya_baris)]
+        cells = [sel(r["nama"], TD + gaya_baris), sel(rp(b), TD + NUM + gaya_baris)]
+        if not hb:
+            cells += [sel(c, TD + NUM + gaya_baris), sel(cpr(b, c), TD + NUM + gaya_baris)]
         if ada_lalu:
             bl, cl = r.get("biaya_lalu"), r.get("chat_lalu")
             cells.append(sel(rp(bl) if bl is not None else "-", TD + NUM + gaya_baris))

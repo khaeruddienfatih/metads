@@ -3339,3 +3339,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyala adset): Allif 4678183395742010 — ad set 120252223314630228 "Ramadhan" (campaign Ramadhan ACTIVE): hari ini Rp33.150 / 2 chat / CPR Rp16.575 → ACTIVE (terverifikasi).
 - B (pause adset): Allif — ad set 120252268692170228 "jawa tengah" (campaign 9 Hari januari): spend hari ini Rp47.277, 1 chat (kondisi ≥Rp45.000 & chat <2) → PAUSED (terverifikasi).
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-04 — Fikri: buat iklan baru (gambar & video baru dari Cloudinary) + cek ad set
+- Cek ad set Fikri (1676215979752437): 4 ad set ACTIVE tanpa iklan (0 spend) — campaign Fikri `120249951245290470` (Rp150rb, dibuat 3 Nov): Ramadhan `…245370470`, 9 Hari Januari `…245360470`, 12 Hari Januari `…245250470`; campaign Fikri Prov: `9 hari  Januari` `120249450685390470`. Ad set boros hari ini sudah di-PAUSE routine (B).
+- Materi dari Cloudinary q2xuhm0o (upload 2 Nov): 9 Hari Januari Desain 10 #1–4 + video Iklan Reguler 37,9jt #1–2 (thumbnail so_1); 12 Hari Januari Desain 3 #1–3; Ramadhan tak ada materi baru → stok lama Desain 2 #5, Desain 3 #5–6. Semua diunggah ke library Fikri via URL.
+- Dibuat 12 iklan BARU (inline object_story_spec, Page 588336968031663 + IG, CTA WHATSAPP_MESSAGE, headline selang-seling, teks primary-texts.md), DRAFT lalu status PAUSED, 0 error: 9HJ (Fikri) 3 [120249964396360470, …413280470, …419890470 video]; 9HJ (Fikri Prov) 3 [120249964413710470, …414390470, …420760470 video]; 12HJ 3 [120249964414720470, …415310470, …416050470]; Ramadhan 3 [120249964416320470, …416970470, …417460470].
+- Belum publish (akun mode draft) — menunggu perintah user.
+- Catatan: targeting 4 ad set ini belum sesuai default (provinsi Jakarta/Jabar/Banten/Jateng/Kalimantan, umur 30–65, penempatan Advantage+ termasuk IG Explore/Search). Tidak diubah — tanya user dulu (Fikri Prov memang bernama provinsi).

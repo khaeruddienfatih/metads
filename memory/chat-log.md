@@ -3324,3 +3324,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-04 08:10 — cek 15 menit (cloud)
 - C: Fifi (521083143750270) iklan 120252543914780365 "12 Hari Januari Fifi 12 Hari | Desain 2 #3" — lifetime Rp150.026 / 3 chat = CPR Rp50.009 (>50rb) → PAUSED, terverifikasi.
 - A, B, D: tidak ada.
+### 2026-11-04 — Fikri: buat iklan dengan gambar & video baru (belum dikerjakan)
+- Diminta: akun Fikri (1676215979752437), iklan dengan materi gambar dan video baru. Ad set tujuan rencana: Ramadhan (campaign Ramadhan), teks & CTA dari iklan winner.
+- Terjadi: 1 gambar dari Downloads (Gemini_Generated_Image_9n2c7u…, hash 86c699d1fb9f2ab2470272d494e753f2) terunggah ke library Fikri. Itu SALAH: user bilang materi sudah ada di Cloudinary dan SOP mewajibkan materi dari Cloudinary. Belum ada iklan dibuat; 13 file lain TIDAK diunggah.
+- Konektor Cloudinary tidak tersedia di sesi ini. Tertunda: minta user folder/link Cloudinary (atau sambungkan ulang konektor), lalu buat iklan baru PAUSED sesuai SOP (inline object_story_spec, target kota & penempatan default).

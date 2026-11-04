@@ -3500,3 +3500,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Allif (4678183395742010) — ad set "Ramadhan" ID 120252223314590228, campaign Ramadhan: spend hari ini Rp48.945, 1 chat (syarat spend ≥ Rp45.000 & chat < 2) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada iklan yang di-pause.
 - D: tidak ada iklan yang dinyalakan.
+
+### 2026-11-04 18:20 — "Belum ada laporan" (via Telegram)
+- Dicek Gmail (waktu WIB): terkirim 06:06 Rekap 03 Nov → elharamainwisata; 08:11 Rekap 03 Nov → dhiyaaelhaq01; 12:12 Siang; 12:45 & 12:57 Rekap 03 Nov (ulang, elharamainwisata) + contoh tabel anggaran baru; 12:12–12:13 "01–04 Nov (Meta + Invoice TikTok)" + koreksi tabel Haji; 16:12 Sore. Laporan Malam 21:00 belum waktunya (sekarang 18:15).
+- Tertunda: user belum sebut laporan mana yang dimaksud.

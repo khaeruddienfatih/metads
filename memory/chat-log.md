@@ -3541,3 +3541,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 04:00 — jadwal pagi: nyalakan ad set (cloud)
 - Nyalakan semua ad set PAUSED (siapa pun yang mematikan) di 14 akun; budget tidak diubah.
 - Nyala / dilewati / gagal: Diana 15/0/0 · Tira 9/0/0 · Nida 20/0/0 · Hanif 11/0/0 · Allif 12/0/0 · Fikri 12/0/0 · AIni 23/0/0 · Irfan 25/0/0 · Fifi 30/0/0 · Elharamain Haji 32/0/0 · Haji 3 17/0/0 · Haji 2, Haji 4, haji 1050 tidak ada ad set PAUSED. Total 206.
+### 2026-11-05 05:30 — cek 15 menit (cloud)
+- A (nyalakan ad set): tidak ada. Ad set PAUSED Fikri "9 Hari Januari" (120249450585120470) 0 chat hari ini, tidak memenuhi syarat.
+- B (pause ad set): tidak ada (spend hari ini tertinggi Rp18.033, di bawah ambang).
+- C (pause iklan): Fikri 1676215979752437, iklan 120249728457550470 "9 Hari Januari Fikri Prov | Desain 3 #3 (gambar terbaik)" (ad set 9 Hari Januari, campaign Fikri Prov) — lifetime spend Rp100.377 / 2 chat = Rp50.189/chat (> Rp50rb). Terverifikasi PAUSED.
+- D (nyalakan iklan): tidak ada (semua iklan PAUSED ber-chat punya CPR ≥ Rp30rb).

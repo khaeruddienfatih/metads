@@ -3429,3 +3429,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-04 — Kirim ulang laporan pagi lengkap (format baru)
 - User: "coba kirim lagi semuanya" → laporan 03 Nov lengkap + tabel Anggaran 01–03 Nov (tanpa catatan penjelasan) dikirim ke elharamainwisata (Gmail id 1a1a5226b9da9acd), lolos cek_laporan.
+
+### 2026-11-04 — Berapa yang sudah dibayar ke Meta
+- Biaya iklan Meta 1 Nov s.d. 4 Nov 13:02 WIB, 15 akun kelolaan: Umroh Rp21.896.139, Haji Rp9.986.466, elharamain Profile Rp515.402, total Rp32.398.007 (belum PPN 11%; kira-kira Rp35.961.788 dengan PPN). Riwayat pembayaran/tagihan tidak tersedia lewat konektor; cek di Billing Ads Manager.

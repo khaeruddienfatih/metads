@@ -3464,3 +3464,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): akun Haji 4 (1526562231314028), ad set 120256622022540768 "Gambar" (campaign Nida) — spend hari ini Rp25.513, 0 chat (spend > Rp25rb & 0 chat). Verifikasi: PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): akun Elharamain Haji (947788760498911), iklan 120251142496530739 "Vidio (Nida Broud) - winner" (campaign Fifi, ad set 26 Kota #5) — sepanjang waktu 2 chat, spend Rp41.594, CPR Rp20.797. Status iklan ACTIVE (ad set induk masih PAUSED).
+### 2026-11-04 14:50 — cek 15 menit (cloud)
+- A: tidak ada.
+- B (pause ad set, terverifikasi PAUSED): akun Nida 1019832712800468 —
+  - 120251989825760004 "9 hari januari" (campaign Nida Sales): spend hari ini Rp25.162, 0 chat (spend > Rp25rb & 0 chat).
+  - 120251731135470004 "banten" (campaign 12 hari januari): spend hari ini Rp26.472, 0 chat (spend > Rp25rb & 0 chat).
+- C: tidak ada. D: tidak ada.

@@ -3554,3 +3554,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - D (nyala iklan): tidak ada.
 ## 2026-11-05 — "ada laporan apa"
 - Dijelaskan daftar laporan terjadwal: email 06:00 (elharamainwisata), 08:00 (pimpinan), 12/16/21 (elharamainwisata), laporan WA Elharamain News 07:00, notifikasi Telegram bot auto-rule.
+### 2026-11-05 07:45 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Allif (4678183395742010) ad set 120252268692170228 "jawa tengah" (campaign "9 Hari januari") — spend hari ini Rp26.251, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi.
+- C: Irfan (1060984719243481) iklan 120253654916870414 "9 Hari Januari | Desain 4 Musim Dingin #2 - winner" (campaign Sales banten) — sepanjang waktu Rp100.164 / 2 chat = Rp50.082 (> Rp50rb) → PAUSED, terverifikasi.
+- D: tidak ada.

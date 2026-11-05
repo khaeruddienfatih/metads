@@ -3592,3 +3592,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Penyebab utama: run 08:00 (Sonnet) hanya menghitung 1 campaign Tira ("januari 9 hari & 12 hari" Rp80.118) — campaign "new" (4 Nov Rp141.439, 1 chat; 1–4 Nov ±Rp735rb) terlewat. Laporan 06:00 yang benar.
 - Selisih kecil lain (Haji +Rp2rb, Hanif/Nida beberapa ratus rupiah): Meta masih memperbarui angka kemarin beberapa jam (normal).
 - Diusulkan: kirim koreksi ke pimpinan + tambah cek otomatis (total per akun dibandingkan dengan biaya level akun). Menunggu jawaban user.
+
+### 2026-11-05 08:28 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada.
+- C: akun Irfan 1060984719243481, iklan 120253687652090414 "Ramadhan | Desain 2 #2 - winner" (ad set ramadhan, campaign new - Salin) — spend sepanjang waktu Rp35.165, 0 chat → PAUSED (terverifikasi PAUSED).
+- D: tidak ada.

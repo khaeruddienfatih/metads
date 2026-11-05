@@ -3562,3 +3562,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ## 2026-11-05 — "performa iklan bagaimana"
 - Dijawab dari data Rekap Harian 04 Nov (run routine 06:00): Umroh Rp6.418.431/137 chat/CPR 46,8rb; Haji Rp3.236.684/85/38,1rb; total Rp9.655.115/222/43,5rb. Sorotan: Tira CPR 221rb (1 chat), Fikri Haji CPR 132rb, Diana Haji 947 0 chat.
+
+## 2026-11-05 — "coba kamu cek kenapa" (Tira & Fikri Haji boros)
+- Temuan: akun Haji kehilangan penempatan WhatsApp (Status) sejak 2 Nov. Haji 3: tayangan WA 94.585 (1 Nov, CPM Rp3,6rb) -> 11 (4 Nov). Fikri di 947: 1 Nov 59.602 tayangan WA, 13 chat, CPR 15,8rb -> 2-4 Nov hampir 0. Sekarang tayang di FB/IG dengan CPM Rp25-90rb. Waktunya cocok dengan nomor WA lepas dari Page Haji (error 2446880).
+- Tira: ~97% tayang di Instagram, CPM Rp85-150rb (sudah mahal sejak 29 Okt). 13 iklan aktif membagi anggaran kecil. 4 Nov hanya 1.519 tayangan, 1 chat.
+- Usulan (belum dijalankan): sambungkan lagi WA Page Haji; rampingkan iklan Tira. Menunggu perintah.

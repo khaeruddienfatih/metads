@@ -3666,3 +3666,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-05 — "adalagi adset yang boncos"
 - Tarik ulang 187 ad set ACTIVE (tools/cek_adset_periode.py kini juga "today"). 9 ad set boncos (7 hari sangat buruk + 30 hari buruk), total 7 hari Rp1.219.048 / 10 chat: Diana new›9hari januari 120251793201820294; Elharamain Haji Irfan›jawa Barat 120250778252800739; Fikri Prov›9 hari Januari 120249450685390470; Fifi Kota›Saudia 12 Hari 120252109488220365; AIni Penjualan (baru)›9 Hari Januari 120253866014590019; Fifi›Ramadhan 120252512253120365; Fifi›12 Januari 120252512245580365; AIni Ramadhan›banten 120253660020010019; Nida Qatar›jawa timur & tengah 120252019253790004.
 - 5 ad set jelek 7 hari tapi bagus 30 hari (dipantau). Tidak ada ad set hari ini ≥Rp30rb tanpa chat. Belum ada perubahan; tunggu persetujuan pause.
+
+## 2026-11-05 — "cek akun iklan hanif"
+- Akun Hanif 482252744648260 aktif (VISA *2018, tagihan berjalan Rp102.243). Hasil: hari ini (s.d. ±10:00) Rp147rb/2 chat; 3h Rp1,32jt/23 (57rb); 7h Rp2,67jt/63 (42rb); 30h Rp21,1jt/467 (45rb).
+- Temuan: bot auto-rule lokal mem-PAUSE pagi ini (aturan no 2, spend > Rp25rb & 0 chat): Prospek (baru) - Salin › Ramadhan 120254963922420427 (07:10, Rp26rb; 7h CPR 23rb, 30h 24rb), Sales › Ramadhan 120255131570750427 (07:28, Rp27rb; 7h CPR 28rb), 12 Hari Januari › jawa barat 120254774741200427 (06:39). Dua Ramadhan = ad set terbaik Hanif; tidak bisa nyala lagi otomatis (no 1 butuh chat hari ini).
+- Hari ini user (Muhammad Dhiyaa Elhaq) menghapus ad set Indonesia, Jakarta (campaign 12 Hari Januari) & Sales › 12 Hari Januari lama; membuat ad set kosong: Sales › 12 Hari Januari 120255213571660427 (ACTIVE, 0 iklan), 12 Hari Januari › new 120255213559020427 & 120255213559010427 (PAUSED, 0 iklan, West Java).
+- Lemah: Prospek - Salin › 9 Hari Januari (3h Rp103rb/0, iklan aktif 1/3), Retargeting › 9 Hari Januari (7h 54rb, iklan aktif 1/3).
+- Belum ada perubahan; usulan ke user: nyalakan lagi 2 Ramadhan, isi 3 ad set kosong, pertimbangkan aturan no 2 jangan berlaku untuk ad set yang CPR 7 harinya bagus / sebelum jam tertentu.

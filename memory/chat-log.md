@@ -3764,3 +3764,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 13:10 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: Irfan (1060984719243481), iklan 120253687650790414 "Ramadhan | Desain 3 #4 - winner" (campaign new - Salin, ad set ramadhan): sepanjang waktu Rp50.152 / 1 chat = CPR Rp50.152 (> Rp50rb) → PAUSED (terverifikasi status PAUSED).
+
+## 2026-11-05 — "cek lagi tadi yang kena off cek berapa anggaran admin"
+- 59 ad set di-pause hari ini (sejak 00:00 WIB), dari activity log: 44 oleh bot Telegram auto_rules (akun "Dhiyaa Elhaq"), 11 oleh akun "Muhammad Dhiyaa Elhaq", 4 oleh rule Meta "OFF 1" (semua di Fifi).
+- Anggaran harian yang benar-benar jalan (campaign CBO dihitung hanya bila ada ad set aktif; ABO = jumlah ad set aktif), Umroh + Haji per admin: Diana 800rb+297rb, Tira 800rb+250rb, Nida 925rb+440rb, Hanif 725rb+400rb, Allif 400rb+132rb, Fikri 725rb+0, AIni 1,05jt+370rb, Irfan 850rb+400rb, Fifi 1jt+370rb. Total Umroh Rp7.275.000, Haji Rp2.659.000, semua Rp9.934.000/hari.
+- Tidak ada perubahan.

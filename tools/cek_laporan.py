@@ -20,6 +20,9 @@ Yang dicek:
 - tidak ada kolom pembanding hari sebelumnya (user: "ga perlu ada perbandingan kemarin")
 - laporan pagi (4 Nov 2026): wajib ada "tabel_bawah" "Anggaran <AWAL_BULAN_LABEL> s.d. <KEMARIN_LABEL>"
   (dari tools/pengeluaran_bulan.py) dengan baris Meta Umroh & Meta Haji >= biaya kemarin
+- KONTROL (5 Nov 2026, setelah campaign Tira "new" terlewat di laporan pimpinan): "kontrol" per akun
+  (biaya level akun + SEMUA campaign ber-spend) wajib ada untuk 14 akun; jumlah campaign = biaya akun,
+  baris tabel = isi kontrol; laporan pagi juga "kontrol_bulan" (biaya akun 1 s.d. kemarin) = Meta Umroh+Haji
 """
 import json
 import re
@@ -40,6 +43,107 @@ def tanggal():
 def total(tabel):
     return (sum(int(r.get("biaya", 0)) for r in tabel["baris"]),
             sum(int(r.get("chat", 0)) for r in tabel["baris"]))
+
+
+AKUN_UMROH = {"1076195694707828": "Diana", "868364731529534": "Tira", "1019832712800468": "Nida",
+              "482252744648260": "Hanif", "4678183395742010": "Allif", "1676215979752437": "Fikri",
+              "814396810761205": "AIni", "1060984719243481": "Irfan", "521083143750270": "Fifi"}
+AKUN_HAJI = {"947788760498911": "Elharamain Haji", "1032468828178224": "Haji 2", "794403715776985": "Haji 3",
+             "1526562231314028": "Haji 4", "1050343302646341": "haji"}
+
+
+def toleransi(x, jenis="pagi"):
+    # pagi = data kemarin (sudah final): ketat. harian = data hari ini yang masih berjalan
+    # (biaya bisa naik beberapa ribu antara query campaign & query akun): sedikit longgar.
+    if jenis == "pagi":
+        return max(1000, int(x * 0.002))
+    return max(3000, int(x * 0.01))
+
+
+def cek_kontrol(data, jenis, ring, umroh, haji, masalah):
+    """5 Nov 2026 (user: "untuk tira jadi keributan di team kamu harus bener bener cek"):
+    laporan pimpinan 04 Nov melewatkan campaign Tira "new". Sekarang setiap akun wajib punya
+    "kontrol": biaya level AKUN dari Meta (query terpisah) + daftar SEMUA campaign ber-spend.
+    Jumlah campaign harus sama dengan biaya akun → campaign terlewat langsung ketahuan."""
+    kontrol = data.get("kontrol")
+    if not isinstance(kontrol, list):
+        masalah.append("Tidak ada 'kontrol' per akun (biaya level akun + daftar campaign) — wajib sejak 5 Nov")
+        return
+    semua = {**AKUN_UMROH, **AKUN_HAJI}
+    per = {str(k.get("akun_id")): k for k in kontrol}
+    for aid, nama in semua.items():
+        if aid not in per:
+            masalah.append(f"Kontrol akun {nama} ({aid}) tidak ada")
+    tot = {"umroh": 0, "haji": 0, "nonchat": 0}
+    chat_tot = {"umroh": 0, "haji": 0}
+    baris_umroh = {r["nama"].lower(): r for r in (umroh or {}).get("baris", [])}
+    baris_haji = {r["nama"].lower(): r for r in (haji or {}).get("baris", [])}
+    for aid, k in per.items():
+        nama = semua.get(aid, aid)
+        if "error" in k:
+            continue  # akun error dicatat di catatan, tidak bisa dicek
+        ba = k.get("biaya_akun")
+        camps = k.get("campaign", [])
+        if not isinstance(ba, int) or ba < 0:
+            masalah.append(f"Kontrol {nama}: biaya_akun tidak valid ({ba})")
+            continue
+        sc = sum(int(c.get("biaya", 0)) for c in camps)
+        if abs(sc - ba) > toleransi(ba, jenis):
+            masalah.append(f"Kontrol {nama}: jumlah campaign Rp{sc:,} != biaya akun Rp{ba:,} "
+                           f"(selisih Rp{ba - sc:,}) — ada campaign TERLEWAT/salah baca, ambil ulang semua campaign akun ini")
+        chat_b = {"umroh": 0, "haji": 0}
+        chat_c = {"umroh": 0, "haji": 0}
+        for c in camps:
+            j = c.get("jenis", "chat")
+            b, ch = int(c.get("biaya", 0)), int(c.get("chat", 0))
+            if j == "nonchat":
+                tot["nonchat"] += b
+                continue
+            kat = "umroh" if (aid in AKUN_UMROH or j == "yoga") else "haji"
+            chat_b[kat] += b
+            chat_c[kat] += ch
+        for kat in ("umroh", "haji"):
+            tot[kat] += chat_b[kat]
+            chat_tot[kat] += chat_c[kat]
+        # baris per akun harus sama dengan isi kontrol
+        if aid in AKUN_UMROH and chat_b["umroh"] > 0:
+            r = baris_umroh.get(nama.lower())
+            if r is None:
+                masalah.append(f"Umroh per akun tidak punya baris {nama} (biaya chat Rp{chat_b['umroh']:,})")
+            elif abs(r["biaya"] - chat_b["umroh"]) > 1 or r["chat"] != chat_c["umroh"]:
+                masalah.append(f"Umroh per akun {nama}: {r['biaya']}/{r['chat']} != kontrol {chat_b['umroh']}/{chat_c['umroh']}")
+        if aid in AKUN_HAJI and chat_b["haji"] > 0:
+            r = baris_haji.get(nama.lower())
+            if r is None:
+                masalah.append(f"Haji per akun tidak punya baris {nama} (biaya chat Rp{chat_b['haji']:,})")
+            elif abs(r["biaya"] - chat_b["haji"]) > 1 or r["chat"] != chat_c["haji"]:
+                masalah.append(f"Haji per akun {nama}: {r['biaya']}/{r['chat']} != kontrol {chat_b['haji']}/{chat_c['haji']}")
+    if ring:
+        rb = {r["nama"].lower(): r for r in ring["baris"]}
+        for kat, label in (("umroh", "Umroh"), ("haji", "Haji")):
+            if kat in rb and (abs(rb[kat]["biaya"] - tot[kat]) > 1 or rb[kat]["chat"] != chat_tot[kat]):
+                masalah.append(f"Ringkasan {label} {rb[kat]['biaya']}/{rb[kat]['chat']} != jumlah kontrol {tot[kat]}/{chat_tot[kat]}")
+    if jenis != "pagi":
+        return
+    kb = data.get("kontrol_bulan")
+    if not isinstance(kb, list):
+        masalah.append("Tidak ada 'kontrol_bulan' (biaya level akun 1 s.d. kemarin per akun) — wajib sejak 5 Nov")
+        return
+    pb = {str(k.get("akun_id")): k for k in kb}
+    for aid, nama in semua.items():
+        if aid not in pb:
+            masalah.append(f"Kontrol bulan akun {nama} ({aid}) tidak ada")
+    total_bulan = sum(int(k.get("biaya_akun", 0)) for k in pb.values() if "error" not in k)
+    umroh_min = sum(int(pb[a].get("biaya_akun", 0)) for a in AKUN_UMROH if a in pb and "error" not in pb[a])
+    bawah = data.get("tabel_bawah") or []
+    nb = {r.get("nama"): r.get("biaya", 0) for x in bawah for r in x.get("baris", [])}
+    if "Meta Umroh" in nb and "Meta Haji" in nb:
+        meta = nb["Meta Umroh"] + nb["Meta Haji"]
+        if abs(meta - total_bulan) > toleransi(total_bulan):
+            masalah.append(f"Anggaran Meta Umroh+Haji Rp{meta:,} != total biaya akun 1 s.d. kemarin Rp{total_bulan:,} "
+                           f"(selisih Rp{total_bulan - meta:,}) — ada campaign terlewat")
+        if nb["Meta Umroh"] + toleransi(umroh_min) < umroh_min:
+            masalah.append(f"Anggaran Meta Umroh Rp{nb['Meta Umroh']:,} < total akun Umroh Rp{umroh_min:,}")
 
 
 def main():
@@ -110,6 +214,7 @@ def main():
                     masalah.append("Anggaran Meta Umroh bulan berjalan lebih kecil dari biaya Umroh kemarin")
                 if nb["Meta Haji"]["biaya"] < total(haji)[0]:
                     masalah.append("Anggaran Meta Haji bulan berjalan lebih kecil dari biaya Haji kemarin")
+    cek_kontrol(data, jenis, ring, umroh, haji, masalah)
     if masalah:
         print("GAGAL — JANGAN KIRIM:")
         for m in masalah:

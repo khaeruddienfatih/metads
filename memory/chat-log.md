@@ -3772,3 +3772,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ## 2026-11-05 — "hanya yang masih on di kampanye"
 - Dikirim rincian per admin hanya campaign yang masih punya ad set aktif (nama campaign, anggaran, ad set yang jalan). Total sama: Umroh Rp7.275.000 + Haji Rp2.659.000 = Rp9.934.000/hari. Haji Diana di Elharamain Haji & Haji Fikri: tidak ada ad set jalan. Tidak ada perubahan.
+### 2026-11-05 13:16 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Allif 4678183395742010 — ad set `120252430673590228` "Ramadhan" (campaign Traffic (baru) - Salin): spend hari ini Rp25.271, 0 chat (syarat >Rp25rb & 0 chat). Verifikasi: status PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

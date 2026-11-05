@@ -3607,3 +3607,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada.
 - B: Allif (4678183395742010) ad set 120252268692220228 "jawa timur" (campaign "9 Hari januari") — spend hari ini Rp30.204, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+## 2026-11-05 — "ya kamu kirimkan" (koreksi ke pimpinan)
+- Sebelum kirim: laporan 06:00 dicek terhadap biaya level akun 04 Nov (14 akun) — semua akun cocok (selisih ≤ Rp1,7rb karena Meta masih memperbarui; Tira persis Rp221.557). Tidak ada campaign terlewat.
+- Terkirim ke dhiyaaelhaq01@gmail.com (id 1a1a9635968ae1ba), subjek "KOREKSI: Laporan Iklan Elharamain Wisata 04 Nov 2026 (Rekap Harian)": isi = laporan 06:00 persis + kotak keterangan koreksi (kurang 1 campaign Tira Rp138.536 / 1 chat). Angka benar: Umroh Rp6.418.431/137, Haji Rp3.236.684/85, Total Rp9.655.115/222, Anggaran 1–4 Nov Rp43.492.793.

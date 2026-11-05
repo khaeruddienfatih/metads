@@ -3738,3 +3738,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 3 794403715776985 · ad set 120252668566410704 "Haji 3" (campaign Diana): Rp25.392, 0 chat (>Rp25rb & 0 chat) — verified PAUSED.
 - C (pause iklan mahal): tidak ada.
 - D (nyala iklan): tidak ada.
+
+## 2026-11-05 — "laporan masukan juga elharamain profile"
+- Akun elharamain Profile 873443374652541 dimasukkan ke laporan email: tabel baru "elharamain Profile" (per campaign: biaya, tayangan video 3 detik, biaya/tayangan) + baris "Meta Profile" di tabel Anggaran. Tidak dicampur ke Umroh/Haji/CPR chat.
+- Kode: tools/laporan_email_html.py (kolom_hasil/kolom_biaya_hasil, biaya/hasil < Rp1.000 tampil Rp), tools/pengeluaran_bulan.py (argumen ke-3 META_PROFILE), tools/cek_laporan.py (AKUN_PROFILE; kontrol 15 akun; cek tabel Profile = kontrol; Anggaran Umroh+Haji+Profile = kontrol_bulan). Tes data 4 Nov: Profile Rp144.165 / 5.895 tayangan; bulan Rp608.428 → LOLOS; laporan tanpa Profile → GAGAL.
+- Routine diperbarui: 06:00 trig_01Ci9E1ffEGZ97CAaxiyqCBY, 08:00 trig_01NydaDZaZmHdb68jLxpn13R (fallback), 12/16/21 trig_01D9NHsCepUj6rvi7cs5nt77.
+- User akan menghapus sendiri rule Meta "off" di akun Profile.

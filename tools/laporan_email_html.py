@@ -23,6 +23,8 @@ Format data.json:
                    "baris": [{"nama": "Meta Umroh", "biaya": 18600000}, {"nama": "TikTok", "biaya": 6826500}]}]
 }
 - "hanya_biaya": true → tabel hanya kolom nama + Biaya (+ total).
+- "kolom_hasil" / "kolom_biaya_hasil" opsional (5 Nov 2026, tabel elharamain Profile): ganti judul kolom
+  "Chat"/"CPR" (mis. "Hasil" / "Biaya/hasil"); angkanya tetap di field "chat".
 - "tabel_bawah" opsional (buat dengan tools/pengeluaran_bulan.py): tabel yang ditaruh PALING BAWAH, setelah Catatan (4 Nov 2026, user:
   "laporan setiap pagi itu ada laporan pengeluaran mulai tanggal 1 sampai tanggal saat ini
   dalam bentuk table di bawah").
@@ -54,6 +56,8 @@ def rp(n):
 def cpr(biaya, chat):
     if not chat:
         return "-"
+    if biaya / chat < 1000:  # hasil murah (tayangan/jangkauan elharamain Profile)
+        return rp(biaya / chat)
     v = biaya / chat / 1000
     return "Rp" + f"{v:.1f}".replace(".", ",") + "rb"
 
@@ -68,7 +72,8 @@ def tabel(t):
         baris.sort(key=lambda r: r.get("biaya", 0), reverse=True)
     ada_lalu = any("biaya_lalu" in r or "chat_lalu" in r for r in baris)
     hb = t.get("hanya_biaya", False)  # 4 Nov 2026: tabel anggaran cukup kolom Biaya
-    kolom = [t.get("label", "Akun"), "Biaya"] if hb else [t.get("label", "Akun"), "Biaya", "Chat", "CPR"]
+    kolom = [t.get("label", "Akun"), "Biaya"] if hb else [t.get("label", "Akun"), "Biaya",
+                                                                t.get("kolom_hasil", "Chat"), t.get("kolom_biaya_hasil", "CPR")]
     if ada_lalu:
         kolom += ["Biaya kemarin lusa", "Chat kemarin lusa", "Perubahan chat"]
     out = [f'<div style="{H2}"><b>{html.escape(t["judul"])}</b></div>',

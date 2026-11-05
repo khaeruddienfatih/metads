@@ -7,7 +7,9 @@ lalu satu baris per platform lain (TikTok, Google Ads, ...) dari memory/invoice-
 (jumlah = total dibayar termasuk PPN, invoice bertanggal tgl 1 s.d. kemarin).
 Invoice baru: tambahkan entri ke memory/invoice-iklan.json.
 
-Pemakaian: python3 tools/pengeluaran_bulan.py <biaya_meta_umroh> <biaya_meta_haji>
+Pemakaian: python3 tools/pengeluaran_bulan.py <biaya_meta_umroh> <biaya_meta_haji> [<biaya_meta_profile>]
+(5 Nov 2026, user: "laporan masukan juga elharamain profile" → baris "Meta Profile" = spend akun
+elharamain Profile 873443374652541, campaign awareness, bukan chat.)
 Output: JSON list untuk "tabel_bawah" (dipakai tools/laporan_email_html.py).
 """
 import json
@@ -21,6 +23,8 @@ t = dict(l.split("=", 1) for l in subprocess.run(
 ).stdout.strip().splitlines())
 umroh, haji = int(sys.argv[1]), int(sys.argv[2])
 baris = [{"nama": "Meta Umroh", "biaya": umroh}, {"nama": "Meta Haji", "biaya": haji}]
+if len(sys.argv) > 3:
+    baris.append({"nama": "Meta Profile", "biaya": int(sys.argv[3])})
 lain = {}
 for inv in json.load(open(here.parent / "memory" / "invoice-iklan.json")):
     if t["AWAL_BULAN_ISO"] <= inv["tanggal"] <= t["KEMARIN_ISO"]:

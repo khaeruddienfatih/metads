@@ -21,7 +21,7 @@ Yang dicek:
 - laporan pagi (4 Nov 2026): wajib ada "tabel_bawah" "Anggaran <AWAL_BULAN_LABEL> s.d. <KEMARIN_LABEL>"
   (dari tools/pengeluaran_bulan.py) dengan baris Meta Umroh & Meta Haji >= biaya kemarin
 - KONTROL (5 Nov 2026, setelah campaign Tira "new" terlewat di laporan pimpinan): "kontrol" per akun
-  (biaya level akun + SEMUA campaign ber-spend) wajib ada untuk 14 akun; jumlah campaign = biaya akun,
+  (biaya level akun + SEMUA campaign ber-spend) wajib ada untuk 15 akun (14 + elharamain Profile); jumlah campaign = biaya akun,
   baris tabel = isi kontrol; laporan pagi juga "kontrol_bulan" (biaya akun 1 s.d. kemarin) = Meta Umroh+Haji
 """
 import json
@@ -50,6 +50,10 @@ AKUN_UMROH = {"1076195694707828": "Diana", "868364731529534": "Tira", "101983271
               "814396810761205": "AIni", "1060984719243481": "Irfan", "521083143750270": "Fifi"}
 AKUN_HAJI = {"947788760498911": "Elharamain Haji", "1032468828178224": "Haji 2", "794403715776985": "Haji 3",
              "1526562231314028": "Haji 4", "1050343302646341": "haji"}
+# 5 Nov 2026, user: "laporan masukan juga elharamain profile". Campaign awareness (bukan chat WA):
+# tabel sendiri "elharamain Profile" (Biaya, Hasil = results Meta), tidak masuk Ringkasan/CPR chat;
+# di Anggaran jadi baris "Meta Profile".
+AKUN_PROFILE = {"873443374652541": "elharamain Profile"}
 
 
 def toleransi(x, jenis="pagi"):
@@ -69,7 +73,8 @@ def cek_kontrol(data, jenis, ring, umroh, haji, masalah):
     if not isinstance(kontrol, list):
         masalah.append("Tidak ada 'kontrol' per akun (biaya level akun + daftar campaign) — wajib sejak 5 Nov")
         return
-    semua = {**AKUN_UMROH, **AKUN_HAJI}
+    semua = {**AKUN_UMROH, **AKUN_HAJI, **AKUN_PROFILE}
+    prof = next((x for x in data.get("tabel", []) if x.get("judul", "").startswith("elharamain Profile")), None)
     per = {str(k.get("akun_id")): k for k in kontrol}
     for aid, nama in semua.items():
         if aid not in per:
@@ -91,6 +96,18 @@ def cek_kontrol(data, jenis, ring, umroh, haji, masalah):
         if abs(sc - ba) > toleransi(ba, jenis):
             masalah.append(f"Kontrol {nama}: jumlah campaign Rp{sc:,} != biaya akun Rp{ba:,} "
                            f"(selisih Rp{ba - sc:,}) — ada campaign TERLEWAT/salah baca, ambil ulang semua campaign akun ini")
+        if aid in AKUN_PROFILE:
+            pb_ = sum(int(c.get("biaya", 0)) for c in camps)
+            ph_ = sum(int(c.get("chat", 0)) for c in camps)
+            if pb_ > 0:
+                if prof is None:
+                    masalah.append(f"Tabel 'elharamain Profile' tidak ada (biaya Rp{pb_:,})")
+                else:
+                    tb = sum(r.get("biaya", 0) for r in prof.get("baris", []))
+                    th = sum(r.get("chat", 0) for r in prof.get("baris", []))
+                    if abs(tb - pb_) > 1 or th != ph_:
+                        masalah.append(f"Tabel elharamain Profile {tb}/{th} != kontrol {pb_}/{ph_}")
+            continue
         chat_b = {"umroh": 0, "haji": 0}
         chat_c = {"umroh": 0, "haji": 0}
         for c in camps:
@@ -137,10 +154,13 @@ def cek_kontrol(data, jenis, ring, umroh, haji, masalah):
     umroh_min = sum(int(pb[a].get("biaya_akun", 0)) for a in AKUN_UMROH if a in pb and "error" not in pb[a])
     bawah = data.get("tabel_bawah") or []
     nb = {r.get("nama"): r.get("biaya", 0) for x in bawah for r in x.get("baris", [])}
+    prof_bulan = sum(int(pb[a].get("biaya_akun", 0)) for a in AKUN_PROFILE if a in pb and "error" not in pb[a])
+    if prof_bulan > 0 and "Meta Profile" not in nb:
+        masalah.append(f"Tabel anggaran tidak punya baris 'Meta Profile' (biaya akun Rp{prof_bulan:,})")
     if "Meta Umroh" in nb and "Meta Haji" in nb:
-        meta = nb["Meta Umroh"] + nb["Meta Haji"]
+        meta = nb["Meta Umroh"] + nb["Meta Haji"] + nb.get("Meta Profile", 0)
         if abs(meta - total_bulan) > toleransi(total_bulan):
-            masalah.append(f"Anggaran Meta Umroh+Haji Rp{meta:,} != total biaya akun 1 s.d. kemarin Rp{total_bulan:,} "
+            masalah.append(f"Anggaran Meta Umroh+Haji+Profile Rp{meta:,} != total biaya akun 1 s.d. kemarin Rp{total_bulan:,} "
                            f"(selisih Rp{total_bulan - meta:,}) — ada campaign terlewat")
         if nb["Meta Umroh"] + toleransi(umroh_min) < umroh_min:
             masalah.append(f"Anggaran Meta Umroh Rp{nb['Meta Umroh']:,} < total akun Umroh Rp{umroh_min:,}")

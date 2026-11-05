@@ -145,3 +145,5 @@ Riwayat lengkap per akun, ID campaign/ad set, dan tabel budget Haji dipindah ke 
 - 8 Okt: user **menolak** pause lanjutan iklan Riyadh Air/November/LAT di Irfan (5 iklan LAT ad set `120253100040430414`) — jangan lanjutkan pause tanpa perintah baru.
 - Template WA untuk iklan Ramadhan belum ditentukan.
 
+
+- **elharamain Profile masuk laporan** (5 Nov 2026, user: "laporan masukan juga elharamain profile"): akun 873443374652541 (campaign awareness/video, bukan chat) ikut di laporan email 06:00/08:00/12-16-21 sebagai tabel sendiri "elharamain Profile" (Campaign · Biaya · Tayangan video · Biaya/tayangan) + baris "Meta Profile" di tabel Anggaran. Tidak masuk Ringkasan/Umroh/Haji/CPR chat. Kontrol kini 15 akun (cek_laporan.py). Bot auto_rules tetap mengecualikan akun ini. Rule Meta "off" di akun ini (pause semua campaign Kamis & Jumat 00:00) akan dihapus user sendiri.

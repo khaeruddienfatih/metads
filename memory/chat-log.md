@@ -3811,3 +3811,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 16:58 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: Fifi (521083143750270) iklan 120252752499170365 "Qatar November | A GR | #1" (ad set qatar, campaign Qatar) — sepanjang waktu Rp101.754 / 2 chat = Rp50.877/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.
+
+### 2026-11-05 17:30 — cek 15 menit (cloud)
+- B: Allif (4678183395742010), ad set 120252538255100228 "Jawa Barat - Broad 25-65 #1", campaign Ramadhan — spend hari ini Rp25.850, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+- A, C, D: tidak ada. Haji 2 (1032468828178224) dilewati (sengaja dimatikan user).

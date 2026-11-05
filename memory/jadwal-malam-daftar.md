@@ -82,3 +82,8 @@
 - 1526562231314028 | 120256622022520768 | Vidio | Hanif
 - 1526562231314028 | 120256248793380768 | Campuran | Irfan
 - 1526562231314028 | 120256248793270768 | Gambar | Irfan
+
+## Dinyalakan 2026-11-06 04:00
+- Nyala: 193 ad set — Diana 15, Tira 12, Nida 15, Hanif 11, Allif 12, Fikri 12, AIni 20, Irfan 17, Fifi 29, Elharamain Haji 24, Haji 3 13, Haji 4 13
+- Dilewati: Haji 2 & haji 1050343302646341 (tidak ada ad set PAUSED); elharamain Profile dikecualikan
+- Gagal: 0 (verifikasi ulang: 0 ad set PAUSED tersisa di 14 akun)

@@ -3857,3 +3857,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Nida 120250253542250739: Rp275.000 → Rp300.000 (batas maks; CPR Rp19.343/24.501/18.730)
   - AIni 120250253985700739: Rp250.000 → Rp275.000 (CPR Rp26.456/26.327/25.860)
 - Gagal: tidak ada. Haji 2 & haji 1050… tanpa campaign aktif. Campaign lain tidak lolos syarat CPR 3 hari.
+
+### 2026-11-06 04:00 — jadwal pagi: nyalakan ad set (cloud)
+- Menyalakan SEMUA ad set PAUSED (campaign ACTIVE), siapa pun yang mematikan. Anggaran tidak diubah.
+- Nyala/dilewati/gagal per akun: Diana 15/0/0 · Tira 12/0/0 · Nida 15/0/0 · Hanif 11/0/0 · Allif 12/0/0 · Fikri 12/0/0 · AIni 20/0/0 · Irfan 17/0/0 · Fifi 29/0/0 · Elharamain Haji 24/0/0 · Haji 2 0/0/0 · Haji 3 13/0/0 · Haji 4 13/0/0 · haji 0/0/0. Total 193 nyala, 0 gagal.
+- Catatan: `object_ids` ditolak "no staged changes" → dipakai entity_type ad_set + entity_id langsung.

@@ -3723,3 +3723,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 11:45 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: Tira (868364731529534) iklan 120252887627600584 "Prospek 9 Hari Januari | Desain 7 #5 - winner" (adset LLA, campaign Tira pusat) — lifetime spend Rp35.918, 0 chat (≥Rp35rb) → PAUSED, terverifikasi PAUSED.
+
+### 2026-11-05 11:xx — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): akun Elharamain Haji 947788760498911 — ad set `LLA` (campaign Fikri) ID 120250201672190739: spend hari ini Rp26.780, 0 chat (kondisi > Rp25rb & 0 chat). Status PAUSED (update sukses).
+- C (pause iklan): akun Fifi 521083143750270 — iklan `Qatar November | A GR | #1` (ad set qatar, campaign Qatar) ID 120252752502740365: sepanjang waktu Rp51.248 / 1 chat = Rp51.248 > Rp50rb. Status PAUSED (update sukses).
+- D (nyala iklan): tidak ada.

@@ -3622,3 +3622,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Sangat buruk (0 chat & ≥Rp50rb, atau CPR ≥Rp80rb): 3 hari 50 ad set (Rp4,49 jt/25 chat); 7 hari 22 (Rp3,01 jt/22); 30 hari 8 (Rp1,71 jt/13).
 - 21 dari 50 ad set "buruk 3 hari" CPR 30 harinya < Rp40rb → turun sementara, bukan ad set jelek.
 - Konsisten buruk 7 & 30 hari (usulan pause): Elharamain Haji Diana›LLA - 1; Irfan Sales banten›9 Hari Januari; Irfan Sales jawa›9 Hari Januari; AIni Penjualan›25 Kota #2; Hanif Sales›12 Hari Januari; Irfan new - Salin›9 hari januari; Elharamain Haji Fifi›26 Kota #1; Nida Qatar›jawa timur & tengah. Menunggu persetujuan.
+
+## 2026-11-05 — Irfan: matikan 3 ad set buruk + duplikat PAUSED (cek nomor CS)
+- User: "coba kamu matikan di irfan terus kamu duflicate posisi pause saya mau lihat hasilnya no cs kerubah atau tida".
+- PAUSED (terverifikasi success): Sales jawa › 9 Hari Januari `120253548709130414`, Sales banten › 9 Hari Januari `120253548709150414`, new - Salin › 9 hari januari `120253687617440414`. Nomor WA aslinya ketiganya 6285199381590 (0851-9938-1590, Irfan), Page 588336968031663.
+- Duplikat GAGAL: Meta menolak /copies karena ad set lama pakai atribusi klik 7 hari, untuk tujuan chat sekarang hanya boleh 1 hari; atribusi ad set lama tidak bisa diubah ("Buat set iklan yang baru"). Belum ada salinan yang dibuat. Ditanyakan ke user: buat ad set baru (pengaturan sama, atribusi 1 hari) via API, atau user duplikat manual di Ads Manager.

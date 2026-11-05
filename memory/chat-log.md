@@ -3795,3 +3795,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): tidak ada.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): Nida (1019832712800468) — iklan 120252068159870004 "9 Hari Januari | Desain 4 Musim Dingin #2 | baru" (Nida Sales / 9 hari januari): sepanjang waktu 2 chat, spend Rp57.858, CPR Rp28.929 (< Rp30rb). Status terverifikasi ACTIVE (effective IN_PROCESS).
+
+### 2026-11-05 15:13 — cek 15 menit (cloud)
+- A: tidak ada. B: Diana (1076195694707828) ad set 120252014879670294 "Ramadhan" (campaign Tangerang) — spend hari ini Rp27.296, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED. C: tidak ada. D: tidak ada.

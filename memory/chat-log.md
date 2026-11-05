@@ -3581,3 +3581,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - ramadhan: Desain 3 Ramadhan #5 `120252993632950584`, #6 `120252993633270584`, Desain 2 Ramadhan #3 `120252993634200584`
 - Materi dari Cloudinary q2xuhm0o (Desain 10 Januari & Desain 3 12 Hari = materi baru 2 Nov).
 - Tertunda: aktifkan ad set + iklan atas perintah user; nomor WA Tira (0813-2212-344) dicek user di Ads Manager; template WA & "Media terkait" manual.
+
+### 2026-11-05 08:13 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada. B (pause adset): tidak ada. D (nyala iklan): tidak ada.
+- C (pause iklan): Elharamain Haji (947788760498911) — iklan `120251116312540739` "Haji_Reuse_Nida-Broud - winner" (adset LLA, campaign Diana): spend sepanjang waktu Rp38.821, 0 chat (≥ Rp35.000) → PAUSED (status PAUSED terverifikasi; effective_status IN_PROCESS).

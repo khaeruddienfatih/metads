@@ -3829,4 +3829,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyala ad set): tidak ada.
 - B (pause ad set): Allif (4678183395742010) — ad set `jawa timur` ID 120252243406500228, campaign Ramadhan; spend hari ini Rp25.243, 0 chat (spend > Rp25.000 & 0 chat). Terverifikasi PAUSED.
 - C (pause iklan): tidak ada.
+### 2026-11-05 21:45 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Fifi (521083143750270) ad set `120252597264010365` "12 Hari Januari" (campaign Luar Pulau) — spend hari ini Rp45.372, 1 chat (spend ≥ Rp45rb & chat < 2). Terverifikasi PAUSED.
+- C (pause iklan): AIni (814396810761205) iklan `120254063432930019` "Qatar November | A Tiket | #3" — lifetime Rp35.275, 0 chat. Update sukses PAUSED (verifikasi baca: IN_PROCESS, menunggu Meta memproses).
 - D (nyala iklan): tidak ada.

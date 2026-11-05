@@ -3714,3 +3714,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada.
 - B (pause ad set boros, spend > Rp25rb & 0 chat hari ini): Nida (1019832712800468) ad set 120251989825730004 "ramadhan" (campaign Nida Sales) — spend Rp25.601, 0 chat — verified PAUSED. Haji 3 (794403715776985) ad set 120252668566420704 "Haji 2" (campaign Diana) — spend Rp26.565, 0 chat — verified PAUSED.
 - C: tidak ada. D: tidak ada.
+## 2026-11-05 — "kenapa elharamainprofile kamu matikan"
+- Dicek activity log akun elharamain Profile 873443374652541: 5 campaign (soto ssb, ISYTIRATH DALAM IHRAMNYA JAMAAH PEREMPUAN, Testi ×2, Testi - Salin) dimatikan **5 Nov 00:08 WIB oleh aturan otomatis Meta "off"** (rule 3080447638980300, dibuat 1 Okt 2026 09:03, jadwal 00:00 hari Kamis & Jumat, PAUSE semua campaign). Bukan oleh Claude/bot (akun ini dikecualikan dari auto_rules.py; tugas isi iklan hari ini tidak menyentuh akun ini).
+- 11:32 WIB Muhammad Dhiyaa Elhaq menyalakan lagi Testi, ISYTIRATH, Testi - Salin. Rule masih ENABLED → akan mematikan lagi Jumat 6 Nov 00:00. Tidak ada perubahan; tawarkan menonaktifkan rule (tunggu perintah).

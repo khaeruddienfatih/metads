@@ -3632,3 +3632,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada.
 - C: Elharamain Haji (947788760498911), iklan 120251142496530739 "Vidio (Nida Broud) - winner" (ad set 26 Kota - Broad 25-65 #5, campaign Fifi) — sepanjang waktu Rp100.337 / 2 chat = Rp50.169/chat (> Rp50rb) → PAUSED (terverifikasi status PAUSED).
 - D: tidak ada (cek iklan PAUSED dengan spend ≥ Rp35rb; tidak ada yang CPR < Rp30rb).
+## 2026-11-05 — "sekarang buat iklanya di irfan dan cek adset baru"
+- 3 ad set baru hasil duplikat user (5 Nov 09:11–09:13, Irfan 1060984719243481): Sales banten › 9 Hari Januari `120253763672530414` (Banten 5 kota), Sales jawa › 9 Hari Januari `120253763700240414` (Pulau Jawa 3 kota), Penjualan (baru) - Salin › 12Hari Januari `120253763702690414` (25 kota → +Cikarang = 26). Nomor CS di ketiganya TETAP 6285199381590 (duplikat Ads Manager tidak mengubah nomor CS). Umur 25–65.
+- Penempatan tidak bisa diubah ke SOP lewat API (error "Beranda Jelajahi Instagram butuh Jelajahi Instagram") → dibiarkan seperti duplikat (IG stream/story/reels/explore_home/profile_feed/ig_search + FB story + WA status + Threads; hanya kurang profile_reels).
+- 9 iklan BARU PAUSED (Graph API, Page 588336968031663 + IG, teks primary-texts, headline 7000+/Tiket Confirm, ice breakers): banten 120253763735480414/736180414/736850414 (Desain 10 Januari #1–3); jawa 120253763737830414/738290414/739400414 (Desain 10 #4, #1, #2); 12Hari 120253763741650414/742630414/743700414 (Desain 3 12 Hari #1, #2, #4). Status review Meta: PENDING_REVIEW/IN_PROCESS.
+- Ad set lama (3 yang di-pause tadi) sekarang ARCHIVED (diarsipkan user).

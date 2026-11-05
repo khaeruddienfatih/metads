@@ -3717,3 +3717,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-05 — "kenapa elharamainprofile kamu matikan"
 - Dicek activity log akun elharamain Profile 873443374652541: 5 campaign (soto ssb, ISYTIRATH DALAM IHRAMNYA JAMAAH PEREMPUAN, Testi ×2, Testi - Salin) dimatikan **5 Nov 00:08 WIB oleh aturan otomatis Meta "off"** (rule 3080447638980300, dibuat 1 Okt 2026 09:03, jadwal 00:00 hari Kamis & Jumat, PAUSE semua campaign). Bukan oleh Claude/bot (akun ini dikecualikan dari auto_rules.py; tugas isi iklan hari ini tidak menyentuh akun ini).
 - 11:32 WIB Muhammad Dhiyaa Elhaq menyalakan lagi Testi, ISYTIRATH, Testi - Salin. Rule masih ENABLED → akan mematikan lagi Jumat 6 Nov 00:00. Tidak ada perubahan; tawarkan menonaktifkan rule (tunggu perintah).
+
+## 2026-11-05 — "ok saya hapus sendiri saya mau report yang kamu buat tadi akun mana saja"
+- User akan menghapus sendiri rule "off" di elharamain Profile. Dikirim rincian iklan baru (isi ad set < 3) per akun › campaign › ad set, dicek ulang langsung di Meta (semua PAUSED): Diana 10 (+1 draf Tangerang), Tira 1, Nida 9, Hanif 5, Allif 7, Fikri 7, AIni 15, Irfan 15, Fifi 24, Elharamain Haji 15, Haji 3 11, Haji 4 4 = 123.

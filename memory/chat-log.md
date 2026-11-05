@@ -3720,3 +3720,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ## 2026-11-05 — "ok saya hapus sendiri saya mau report yang kamu buat tadi akun mana saja"
 - User akan menghapus sendiri rule "off" di elharamain Profile. Dikirim rincian iklan baru (isi ad set < 3) per akun › campaign › ad set, dicek ulang langsung di Meta (semua PAUSED): Diana 10 (+1 draf Tangerang), Tira 1, Nida 9, Hanif 5, Allif 7, Fikri 7, AIni 15, Irfan 15, Fifi 24, Elharamain Haji 15, Haji 3 11, Haji 4 4 = 123.
+### 2026-11-05 11:45 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C: Tira (868364731529534) iklan 120252887627600584 "Prospek 9 Hari Januari | Desain 7 #5 - winner" (adset LLA, campaign Tira pusat) — lifetime spend Rp35.918, 0 chat (≥Rp35rb) → PAUSED, terverifikasi PAUSED.

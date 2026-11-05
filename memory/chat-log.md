@@ -3824,3 +3824,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Allif (4678183395742010) — ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3" (campaign Ramadhan): spend hari ini Rp25.180, 0 chat (syarat >Rp25rb & 0 chat) → PAUSED, terverifikasi.
 - B: Allif — ad set 120252223314590228 "Ramadhan" (campaign Ramadhan): spend hari ini Rp25.092, 0 chat → PAUSED, terverifikasi.
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-05 21:15 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Allif (4678183395742010) — ad set `jawa timur` ID 120252243406500228, campaign Ramadhan; spend hari ini Rp25.243, 0 chat (spend > Rp25.000 & 0 chat). Terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

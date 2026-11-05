@@ -3789,3 +3789,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Haji 4 (1526562231314028) — ad set "Vidio" (campaign Hanif) ID 120256622022650768; spend hari ini Rp25.015, 0 chat (kondisi >Rp25rb & 0 chat). Status terverifikasi PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-05 14:50 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): tidak ada.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): Nida (1019832712800468) — iklan 120252068159870004 "9 Hari Januari | Desain 4 Musim Dingin #2 | baru" (Nida Sales / 9 hari januari): sepanjang waktu 2 chat, spend Rp57.858, CPR Rp28.929 (< Rp30rb). Status terverifikasi ACTIVE (effective IN_PROCESS).

@@ -8,7 +8,7 @@ out = {}
 for nama, akun in ar.AKUN.items():
     if nama == "Haji 2":
         continue
-    for preset in ("last_3d", "last_7d", "last_30d"):
+    for preset in ("today", "last_3d", "last_7d", "last_30d"):
         rows = ar.semua(f"act_{akun}/insights", {
             "level": "adset", "date_preset": preset, "limit": 500,
             "fields": "adset_id,adset_name,campaign_name,spend,actions",

@@ -3840,3 +3840,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Dikerjakan: tabel Ringkasan kini 3 baris: Umroh, Haji, elharamain Profile (`tanpa_chat`: Chat/CPR "-"). Total = seluruh biaya Meta hari itu; CPR Total tetap hanya dari chat.
 - tools/laporan_email_html.py: dukung baris `tanpa_chat`. tools/cek_laporan.py: baris Profile wajib di Ringkasan bila Profile ada biaya, dan nilainya harus = biaya akun kontrol. Tes: tanpa baris → GAGAL, dengan baris → LOLOS.
 - Routine 06:00, 08:00, 12/16/21 diperbarui (tabel a + catatan PROFILE).
+
+### 2026-11-05 21:50 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Tira 868364731529534 — ad set 120252997427430584 "12 hari januari" (campaign "jawa barat"): spend hari ini Rp25.155, 0 chat (spend > Rp25rb & 0 chat). Terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

@@ -25,6 +25,9 @@ Format data.json:
 - "hanya_biaya": true → tabel hanya kolom nama + Biaya (+ total).
 - "kolom_hasil" / "kolom_biaya_hasil" opsional (5 Nov 2026, tabel elharamain Profile): ganti judul kolom
   "Chat"/"CPR" (mis. "Hasil" / "Biaya/hasil"); angkanya tetap di field "chat".
+- baris "tanpa_chat": true (5 Nov 2026, user: "untuk laporan elharamain profile kamu masukan di atas bagian
+  haji umroh dan profile jadi pimpinan tau habis berapa dalam 1 hari"): baris elharamain Profile di
+  Ringkasan — kolom Chat/CPR "-", biayanya ikut Total, tapi CPR Total hanya dari baris chat.
 - "tabel_bawah" opsional (buat dengan tools/pengeluaran_bulan.py): tabel yang ditaruh PALING BAWAH, setelah Catatan (4 Nov 2026, user:
   "laporan setiap pagi itu ada laporan pengeluaran mulai tanggal 1 sampai tanggal saat ini
   dalam bentuk table di bawah").
@@ -85,8 +88,10 @@ def tabel(t):
     def isi(r, gaya_baris):
         b, c = r.get("biaya", 0), r.get("chat", 0)
         cells = [sel(r["nama"], TD + gaya_baris), sel(rp(b), TD + NUM + gaya_baris)]
-        if not hb:
-            cells += [sel(c, TD + NUM + gaya_baris), sel(cpr(b, c), TD + NUM + gaya_baris)]
+        if not hb and r.get("tanpa_chat"):
+            cells += [sel("-", TD + NUM + gaya_baris), sel("-", TD + NUM + gaya_baris)]
+        elif not hb:
+            cells += [sel(c, TD + NUM + gaya_baris), sel(cpr(r.get("biaya_cpr", b), c), TD + NUM + gaya_baris)]
         if ada_lalu:
             bl, cl = r.get("biaya_lalu"), r.get("chat_lalu")
             cells.append(sel(rp(bl) if bl is not None else "-", TD + NUM + gaya_baris))
@@ -105,7 +110,8 @@ def tabel(t):
     if t.get("total", True) and baris:
         tot = {"nama": t.get("label_total", "Total"),
                "biaya": sum(r.get("biaya", 0) for r in baris),
-               "chat": sum(r.get("chat", 0) for r in baris)}
+               "chat": sum(r.get("chat", 0) for r in baris if not r.get("tanpa_chat")),
+               "biaya_cpr": sum(r.get("biaya", 0) for r in baris if not r.get("tanpa_chat"))}
         if ada_lalu:
             tot["biaya_lalu"] = sum(r.get("biaya_lalu") or 0 for r in baris)
             tot["chat_lalu"] = sum(r.get("chat_lalu") or 0 for r in baris)

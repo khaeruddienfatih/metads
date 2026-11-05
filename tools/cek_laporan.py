@@ -137,6 +137,15 @@ def cek_kontrol(data, jenis, ring, umroh, haji, masalah):
                 masalah.append(f"Haji per akun {nama}: {r['biaya']}/{r['chat']} != kontrol {chat_b['haji']}/{chat_c['haji']}")
     if ring:
         rb = {r["nama"].lower(): r for r in ring["baris"]}
+        # 5 Nov 2026: baris "elharamain Profile" wajib di Ringkasan (di bawah Umroh & Haji) bila ada biaya
+        for aid in AKUN_PROFILE:
+            k = per.get(aid)
+            pbiaya = int(k.get("biaya_akun", 0)) if k and "error" not in k else 0
+            r = rb.get("elharamain profile")
+            if pbiaya > 0 and r is None:
+                masalah.append(f"Ringkasan tidak punya baris 'elharamain Profile' (biaya Rp{pbiaya:,})")
+            elif r is not None and (abs(r["biaya"] - pbiaya) > 1 or not r.get("tanpa_chat")):
+                masalah.append(f"Ringkasan elharamain Profile Rp{r['biaya']:,} != kontrol Rp{pbiaya:,} atau tanpa 'tanpa_chat': true")
         for kat, label in (("umroh", "Umroh"), ("haji", "Haji")):
             if kat in rb and (abs(rb[kat]["biaya"] - tot[kat]) > 1 or rb[kat]["chat"] != chat_tot[kat]):
                 masalah.append(f"Ringkasan {label} {rb[kat]['biaya']}/{rb[kat]['chat']} != jumlah kontrol {tot[kat]}/{chat_tot[kat]}")

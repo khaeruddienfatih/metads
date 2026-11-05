@@ -3772,65 +3772,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ## 2026-11-05 — "hanya yang masih on di kampanye"
 - Dikirim rincian per admin hanya campaign yang masih punya ad set aktif (nama campaign, anggaran, ad set yang jalan). Total sama: Umroh Rp7.275.000 + Haji Rp2.659.000 = Rp9.934.000/hari. Haji Diana di Elharamain Haji & Haji Fikri: tidak ada ad set jalan. Tidak ada perubahan.
-### 2026-11-05 13:16 — cek 15 menit (cloud)
-- A (nyala ad set): tidak ada.
-- B (pause ad set): Allif 4678183395742010 — ad set `120252430673590228` "Ramadhan" (campaign Traffic (baru) - Salin): spend hari ini Rp25.271, 0 chat (syarat >Rp25rb & 0 chat). Verifikasi: status PAUSED.
-- C (pause iklan): tidak ada.
-- D (nyala iklan): tidak ada.
 
-### 2026-11-05 13:45 — cek 15 menit (cloud)
-- A (nyala adset): tidak ada.
-- B (pause adset): Allif (4678183395742010) — ad set `jawa barat` ID 120252243406460228, campaign Ramadhan; spend hari ini Rp25.041, 0 chat (spend > Rp25rb & 0 chat). Status terverifikasi PAUSED.
-- C (pause iklan): tidak ada.
-- D (nyala iklan): tidak ada.
-
-### 2026-11-05 14:50 — cek 15 menit (cloud)
-- A (nyala ad set): tidak ada.
-- B (pause ad set): Haji 4 (1526562231314028) — ad set "Vidio" (campaign Hanif) ID 120256622022650768; spend hari ini Rp25.015, 0 chat (kondisi >Rp25rb & 0 chat). Status terverifikasi PAUSED.
-- C (pause iklan): tidak ada.
-- D (nyala iklan): tidak ada.
-
-### 2026-11-05 14:50 — cek 15 menit (cloud)
-- A (nyala ad set): tidak ada.
-- B (pause ad set): tidak ada.
-- C (pause iklan): tidak ada.
-- D (nyala iklan): Nida (1019832712800468) — iklan 120252068159870004 "9 Hari Januari | Desain 4 Musim Dingin #2 | baru" (Nida Sales / 9 hari januari): sepanjang waktu 2 chat, spend Rp57.858, CPR Rp28.929 (< Rp30rb). Status terverifikasi ACTIVE (effective IN_PROCESS).
-
-### 2026-11-05 15:13 — cek 15 menit (cloud)
-- A: tidak ada. B: Diana (1076195694707828) ad set 120252014879670294 "Ramadhan" (campaign Tangerang) — spend hari ini Rp27.296, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED. C: tidak ada. D: tidak ada.
-### 2026-11-05 16:3x — cek 15 menit (cloud)
-- A: tidak ada. B: tidak ada. D: tidak ada.
-- C (1 iklan di-PAUSE): AIni 814396810761205 — iklan 120254063430460019 "Qatar November | A GR | #1" (ad set 25 Kota - Broad 25-65 #2, campaign Qatar): sepanjang waktu Rp50.249 / 1 chat = CPR Rp50.249 (> Rp50rb). Terverifikasi PAUSED.
-
-### 2026-11-05 16:50 — cek 15 menit (cloud)
-- A: tidak ada.
-- B (pause ad set): Nida (1019832712800468) ad set 120251630044810004 "9 Hari Januari" (campaign "new") — spend hari ini Rp27.496, 0 chat (>Rp25rb & 0 chat) → PAUSED (terverifikasi). Hanif (482252744648260) ad set 120255213559010427 "new" (campaign "12 Hari Januari") — spend hari ini Rp46.423, 1 chat (≥Rp45rb & <2 chat) → PAUSED (terverifikasi).
-- C (pause iklan): Nida (1019832712800468) iklan 120251630237560004 "9 Hari Januari | januari_3 | baru" (ad set 9 Hari Januari, campaign 9 Hari Januari) — sepanjang waktu Rp100.396 / 2 chat = CPR Rp50.198 (>Rp50rb) → PAUSED (terverifikasi).
-- D: tidak ada.
-
-### 2026-11-05 16:58 — cek 15 menit (cloud)
-- A: tidak ada. B: tidak ada. D: tidak ada.
-- C: Fifi (521083143750270) iklan 120252752499170365 "Qatar November | A GR | #1" (ad set qatar, campaign Qatar) — sepanjang waktu Rp101.754 / 2 chat = Rp50.877/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.
-
-### 2026-11-05 17:30 — cek 15 menit (cloud)
-- B: Allif (4678183395742010), ad set 120252538255100228 "Jawa Barat - Broad 25-65 #1", campaign Ramadhan — spend hari ini Rp25.850, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
-- A, C, D: tidak ada. Haji 2 (1032468828178224) dilewati (sengaja dimatikan user).
-### 2026-11-05 19:40 — cek 15 menit (cloud)
-- A: tidak ada. B: tidak ada. D: tidak ada.
-- C: Allif (4678183395742010) iklan 120252682690120228 "12 Hari Januari | Desain 2 12 Hari #1 | baru" (campaign Traffic (baru) - Salin, ad set 12 Hari Januari) — sepanjang waktu spend Rp35.345, 0 chat (≥ Rp35rb) → PAUSED, terverifikasi PAUSED.
-
-### 2026-11-05 20:01 — cek 15 menit (cloud)
-- A: tidak ada.
-- B: Allif (4678183395742010) — ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3" (campaign Ramadhan): spend hari ini Rp25.180, 0 chat (syarat >Rp25rb & 0 chat) → PAUSED, terverifikasi.
-- B: Allif — ad set 120252223314590228 "Ramadhan" (campaign Ramadhan): spend hari ini Rp25.092, 0 chat → PAUSED, terverifikasi.
-- C: tidak ada. D: tidak ada.
-
-### 2026-11-05 21:15 — cek 15 menit (cloud)
-- A (nyala ad set): tidak ada.
-- B (pause ad set): Allif (4678183395742010) — ad set `jawa timur` ID 120252243406500228, campaign Ramadhan; spend hari ini Rp25.243, 0 chat (spend > Rp25.000 & 0 chat). Terverifikasi PAUSED.
-- C (pause iklan): tidak ada.
-### 2026-11-05 21:45 — cek 15 menit (cloud)
-- A (nyala ad set): tidak ada.
-- B (pause ad set): Fifi (521083143750270) ad set `120252597264010365` "12 Hari Januari" (campaign Luar Pulau) — spend hari ini Rp45.372, 1 chat (spend ≥ Rp45rb & chat < 2). Terverifikasi PAUSED.
-- C (pause iklan): AIni (814396810761205) iklan `120254063432930019` "Qatar November | A Tiket | #3" — lifetime Rp35.275, 0 chat. Update sukses PAUSED (verifikasi baca: IN_PROCESS, menunggu Meta memproses).
-- D (nyala iklan): tidak ada.
+### 2026-11-05 — elharamain Profile masuk Ringkasan (di bawah Umroh & Haji)
+- Diminta: "untuk laporan elharamain profile kamu masukan di atas bagian haji umroh dan profile jadi pimpinan tau habis berapa dalam 1 hari".
+- Dikerjakan: tabel Ringkasan kini 3 baris: Umroh, Haji, elharamain Profile (`tanpa_chat`: Chat/CPR "-"). Total = seluruh biaya Meta hari itu; CPR Total tetap hanya dari chat.
+- tools/laporan_email_html.py: dukung baris `tanpa_chat`. tools/cek_laporan.py: baris Profile wajib di Ringkasan bila Profile ada biaya, dan nilainya harus = biaya akun kontrol. Tes: tanpa baris → GAGAL, dengan baris → LOLOS.
+- Routine 06:00, 08:00, 12/16/21 diperbarui (tabel a + catatan PROFILE).

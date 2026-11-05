@@ -3704,3 +3704,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada (ad set PAUSED dengan CPR hari ini < Rp30rb: tidak ada).
 - B: Tira (868364731529534) — ad set `Indonesia - Salin` (120252158037690584), campaign Tira pusat: spend hari ini Rp27.660, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-05 11:13 — cek 15 menit (cloud)
+- A: tidak ada (tidak ada ad set PAUSED dengan ≥1 chat & CPR < Rp30rb).
+- B: Diana (1076195694707828) ad set 120252216302860294 "9 Hari Januari", campaign "Penjualan (baru)" — spend hari ini Rp25.550, 0 chat (spend > Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

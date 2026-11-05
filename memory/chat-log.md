@@ -3649,3 +3649,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Campaign Diana `120250519255890739` (Elharamain Haji 947, budget Rp250rb/hari, ACTIVE). Hanya 2 ad set aktif (lainnya ARCHIVED, termasuk LLA - 1): LLA `120250897629630739` (1 iklan; 7h Rp352rb/6 chat 58rb; 30h Rp833rb/13 chat 64rb; CPM 80rb) dan Jawa Tengah & Timur `120250778200960739` (3 iklan; 7h Rp641rb/22 chat 29rb; 30h Rp1,79jt/49 chat 36rb; tapi 3 hari Rp124rb/1 chat). Page Haji 637020022834756, WA 6285693883208.
 - Penyebab: penempatan WhatsApp hilang. 7 hari: WA Rp487rb → 21 chat; 3 hari: WA Rp273 → 0 chat, IG Rp274rb → 1 chat. Hari ini (s.d. siang) Rp44rb/0 chat.
 - Belum ada perubahan; usulan ke user: pause LLA, Jateng ditahan sampai WA Page Haji dicek.
+
+## 2026-11-05 — "kamu kerjakan saja nanti saya yang rubah" (Diana, Elharamain Haji)
+- PAUSED (terverifikasi): Diana › LLA `120250897629630739` dan Diana › Jawa Tengah & Timur `120250778200960739`. Campaign Diana `120250519255890739` tetap ACTIVE (tidak ada ad set aktif → tidak belanja).
+- User akan membereskan koneksi WhatsApp Page Haji sendiri. Setelah WA beres: Jawa Tengah & Timur layak dinyalakan lagi (CPR 30 hari Rp36rb); LLA tetap mati.

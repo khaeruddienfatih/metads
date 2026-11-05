@@ -3807,3 +3807,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Nida (1019832712800468) ad set 120251630044810004 "9 Hari Januari" (campaign "new") — spend hari ini Rp27.496, 0 chat (>Rp25rb & 0 chat) → PAUSED (terverifikasi). Hanif (482252744648260) ad set 120255213559010427 "new" (campaign "12 Hari Januari") — spend hari ini Rp46.423, 1 chat (≥Rp45rb & <2 chat) → PAUSED (terverifikasi).
 - C (pause iklan): Nida (1019832712800468) iklan 120251630237560004 "9 Hari Januari | januari_3 | baru" (ad set 9 Hari Januari, campaign 9 Hari Januari) — sepanjang waktu Rp100.396 / 2 chat = CPR Rp50.198 (>Rp50rb) → PAUSED (terverifikasi).
 - D: tidak ada.
+
+### 2026-11-05 16:58 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C: Fifi (521083143750270) iklan 120252752499170365 "Qatar November | A GR | #1" (ad set qatar, campaign Qatar) — sepanjang waktu Rp101.754 / 2 chat = Rp50.877/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.

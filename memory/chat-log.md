@@ -3689,3 +3689,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyala ad set): Fikri 1676215979752437 › "12 Hari Januari" 120249683321210470 (campaign Fikri ACTIVE) — hari ini Rp45.688, 2 chat, CPR Rp22.844 → dinyalakan, verifikasi ACTIVE.
 - B (pause ad set): Elharamain Haji 947788760498911 › "jawa Barat" 120250778252800739 (campaign Irfan) — hari ini Rp25.015, 0 chat (spend > Rp25rb & 0 chat) → PAUSED, verifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+## 2026-11-05 — "cek semua akun isi iklan jika di 1 adset isi iklan kurang dari 3" + "pakai iklan baru bukan pakai winner"
+- Scan semua ad set ACTIVE (13 akun, tanpa Haji 2): 92 ad set dengan iklan aktif < 3. Diisi sampai 3 (maks 5 iklan per ad set) dengan iklan BARU (inline object_story_spec, bukan post winner), semua PAUSED. Page/IG mengikuti iklan lama ad set itu; paket dari nama ad set; gambar tidak kembar dalam satu campaign (stok baru dari Cloudinary: Desain 10/7/4 MD Januari, Desain 3 & 2 12 Hari, Desain 2 & 3 Ramadhan, Haji Desain 8/7/6/4).
+- Hasil terverifikasi: 123 iklan baru PAUSED (Diana 10, Tira 1, Nida 9, Hanif 5, Allif 7, Fikri 7, AIni 15, Irfan 15, Fifi 24, Elharamain Haji 15, Haji 3 11, Haji 4 4) + 1 draf Diana Tangerang (akun mode draf, status PAUSED, belum terbit).
+- Jalur: Graph API bot (tools/isi_iklan_kurang3.py) untuk Page 588336968031663; MCP untuk Page Haji 637020022834756 (bot tak punya peran), akun Allif (bot tak punya izin), dan Page 375988732273375 (Diana Tangerang).
+- Masih < 3: Allif Ramadhan›Ramadhan (sudah 5 iklan, batas), AIni Penjualan (baru)›9 Hari Januari (5 iklan: 3 lama PAUSED + 2 baru), Diana Tangerang›9hari januari (iklan baru masih draf), Elharamain Haji Diana›LLA (sengaja PAUSED, tidak diisi).
+- Diana Jawa Tengah & Timur (947) terlihat ACTIVE lagi sejak 09:54 (diubah user).

@@ -3744,3 +3744,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Kode: tools/laporan_email_html.py (kolom_hasil/kolom_biaya_hasil, biaya/hasil < Rp1.000 tampil Rp), tools/pengeluaran_bulan.py (argumen ke-3 META_PROFILE), tools/cek_laporan.py (AKUN_PROFILE; kontrol 15 akun; cek tabel Profile = kontrol; Anggaran Umroh+Haji+Profile = kontrol_bulan). Tes data 4 Nov: Profile Rp144.165 / 5.895 tayangan; bulan Rp608.428 → LOLOS; laporan tanpa Profile → GAGAL.
 - Routine diperbarui: 06:00 trig_01Ci9E1ffEGZ97CAaxiyqCBY, 08:00 trig_01NydaDZaZmHdb68jLxpn13R (fallback), 12/16/21 trig_01D9NHsCepUj6rvi7cs5nt77.
 - User akan menghapus sendiri rule Meta "off" di akun Profile.
+
+### 2026-11-05 12:35 — cek 15 menit (cloud)
+- A: tidak ada ad set dinyalakan.
+- B: Fifi (521083143750270) ad set `jakarta` 120252429755520365, campaign Ramadhan — spend hari ini Rp45.757, 1 chat (kondisi ≥Rp45.000 & <2 chat) → PAUSED, verifikasi respons ads_update_entity success (status PAUSED).
+- C: tidak ada iklan di-pause.
+- D: tidak ada iklan dinyalakan.

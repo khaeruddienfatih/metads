@@ -3585,3 +3585,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 08:13 — cek 15 menit (cloud)
 - A (nyala adset): tidak ada. B (pause adset): tidak ada. D (nyala iklan): tidak ada.
 - C (pause iklan): Elharamain Haji (947788760498911) — iklan `120251116312540739` "Haji_Reuse_Nida-Broud - winner" (adset LLA, campaign Diana): spend sepanjang waktu Rp38.821, 0 chat (≥ Rp35.000) → PAUSED (status PAUSED terverifikasi; effective_status IN_PROCESS).
+## 2026-11-05 — "kenapa hasil laporan beda dengan pimpinan"
+- Bandingkan run 06:00 (elharamainwisata) vs 08:00 (pimpinan) untuk 04 Nov:
+  - 06:00: Umroh Rp6.418.431/137 chat; Haji Rp3.236.684/85; Anggaran Meta Umroh Rp25.008.667, Meta Haji Rp11.657.626.
+  - 08:00: Umroh Rp6.279.895/136; Haji Rp3.238.847/85; Anggaran Meta Umroh Rp24.276.250, Meta Haji Rp11.659.830.
+- Penyebab utama: run 08:00 (Sonnet) hanya menghitung 1 campaign Tira ("januari 9 hari & 12 hari" Rp80.118) — campaign "new" (4 Nov Rp141.439, 1 chat; 1–4 Nov ±Rp735rb) terlewat. Laporan 06:00 yang benar.
+- Selisih kecil lain (Haji +Rp2rb, Hanif/Nida beberapa ratus rupiah): Meta masih memperbarui angka kemarin beberapa jam (normal).
+- Diusulkan: kirim koreksi ke pimpinan + tambah cek otomatis (total per akun dibandingkan dengan biaya level akun). Menunggu jawaban user.

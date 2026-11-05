@@ -3657,3 +3657,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-05 — "cek lg" (Diana, Elharamain Haji)
 - LLA & Jawa Tengah & Timur tetap PAUSED. Hari ini s.d. 09:40: Rp46rb (FB+IG), 0 chat, WA tidak tayang.
 - User membuat 3 ad set baru 09:39 (PAUSED, kosong tanpa iklan): new `120251185468290739`, new - 2 `120251185468280739`, new - 1 `120251185468230739`. Page Haji 637020022834756, WA 6285693883208 (Diana, benar). Lokasi region Central Java + East Java, umur 25–65 dengan saran 35–57, Advantage+ placements (otomatis), atribusi 7 hari. Belum diubah (user sedang mengedit sendiri); ditanyakan mau disamakan SOP + diisi iklan atau tidak.
+
+## 2026-11-05 — "seauo sop" + "khusus haji umur beda dari 35-55" (Diana, Elharamain Haji)
+- 3 ad set baru Diana (new `120251185468290739`, new - 1 `120251185468230739`, new - 2 `120251185468280739`) disamakan SOP: 26 kota r40 + 5 subcity Jakarta, umur 25–65 + saran 35–55 (aturan baru Haji), penempatan FB Story + IG (stream/story/explore/explore_home/reels/profile_feed/ig_search/profile_reels) + WA Status + Threads. WA Diana 6285693883208, Page Haji. Status PAUSED.
+- 9 iklan BARU PAUSED (via MCP; token bot tidak punya peran di Page Haji): new = Desain 8 #1–3 (120251185541870739, 120251185565610739, 120251185566570739); new - 1 = Desain 8 #4, Desain 7 #1, #2 (120251185567760739, 120251185568120739, 120251185569330739); new - 2 = Desain 7 #3, #4, Desain 6 #1 (120251185570470739, 120251185572020739, 120251185574310739). Teks Haji Plus, headline "✈️ Berangkat Haji Lebih Cepat...", deskripsi 7000+ Google Review, CTA WhatsApp, Page Haji tanpa IG.
+- Aturan baru di chat-memory: umur Haji 35–55; catatan IG explore wajib bila explore_home.

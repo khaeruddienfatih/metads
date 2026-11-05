@@ -76,7 +76,7 @@ Semua Instagram + Facebook Story + WhatsApp Status + Threads:
  "device_platforms":["mobile","desktop"]}
 ```
 
-Jangan pakai `explore` (error "IG Explore Placement Is Deprecated"); `explore_home` boleh.
+**5 Nov 2026:** Meta sekarang MEWAJIBKAN `explore` bila `explore_home` dipilih (error "Untuk menempatkan iklan di Beranda Jelajahi Instagram, pilih Jelajahi Instagram juga") → kirim `instagram_positions` ["stream","story","explore","explore_home","reels","profile_feed","ig_search","profile_reels"].
 Hapus `page_types`/`effective_*` saat mengirim targeting.
 
 ## Pembagian 5 kelompok wilayah (permintaan user 24 Okt 2026)

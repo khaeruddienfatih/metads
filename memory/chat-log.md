@@ -3846,3 +3846,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Tira 868364731529534 — ad set 120252997427430584 "12 hari januari" (campaign "jawa barat"): spend hari ini Rp25.155, 0 chat (spend > Rp25rb & 0 chat). Terverifikasi PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-05 22:00 — jadwal malam OFF (cloud)
+- 82 ad set ACTIVE di-PAUSE, 0 gagal. Per akun: Diana 4 · Tira 5 · Nida 5 · Hanif 1 · Allif 4 · Fikri 5 · AIni 9 · Irfan 12 · Fifi 14 · Elharamain Haji 12 · Haji 2 0 · Haji 3 4 · Haji 4 7 · haji 1050343302646341 0 (hanya 1 ad set ARCHIVED, dilewati).
+- Akun tak terbaca: tidak ada. Verifikasi awal sempat menampilkan beberapa ad set masih ACTIVE (lag Meta); pause diulang & dikonfirmasi PAUSED.

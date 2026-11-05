@@ -3570,3 +3570,14 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ## 2026-11-05 — Haji 2
 - User: "haji 2 memang saya matikan semuanya tidak ada yang jalan" -> dicatat di chat-memory (Haji 2 sengaja OFF). Koreksi: Rp0 Haji 2 bukan karena WA lepas. Error bot di Haji 2 = bot mencoba pause iklan Haji 2 (kode 2446880). Ditawarkan: keluarkan Haji 2 dari bot.
+
+## 2026-11-05 — Tira: campaign baru "Paket" — perbaiki ad set + isi iklan baru
+- User: "di tira ada kampanye baru kamu perbaiki adsetnya dan buat iklan dengan iklan baru".
+- Campaign "Paket" `120252993566780584` (OUTCOME_SALES, CBO Rp200rb, dibuat user 5 Nov 08:00). 3 ad set (ACTIVE, belum ada iklan, spend 0): 9 hari januari `120252993566820584`, 12 hari januari `120252993566880584`, ramadhan `120252993566900584`.
+- Perbaikan ad set (SOP + aturan penempatan Tira 29 Okt): 26 kota r40 + 5 subcity Jakarta, umur 25–65, penempatan IG Feed/Story/Reels + FB Feed/Story/Reels + WA Status + Threads (IG Explore/Profile/Search dibuang), location_types home+recent, Advantage+ Audience tetap. Update memaksa ad set jadi PAUSED — dibiarkan PAUSED (belum diaktifkan lagi).
+- 9 iklan BARU PAUSED (Page 588336968031663 + IG 17841405431328414, teks primary-texts sesuai paket, headline 7000+ / Tiket Confirm berselang, deskripsi standar, CTA WhatsApp + ice breakers):
+  - 9 hari januari: Desain 10 Januari #1 `120252993609310584`, #2 `120252993630220584`, #3 `120252993630780584`
+  - 12 hari januari: Desain 3 12 Hari #1 `120252993631050584`, #2 `120252993631980584`, #3 `120252993632690584`
+  - ramadhan: Desain 3 Ramadhan #5 `120252993632950584`, #6 `120252993633270584`, Desain 2 Ramadhan #3 `120252993634200584`
+- Materi dari Cloudinary q2xuhm0o (Desain 10 Januari & Desain 3 12 Hari = materi baru 2 Nov).
+- Tertunda: aktifkan ad set + iklan atas perintah user; nomor WA Tira (0813-2212-344) dicek user di Ads Manager; template WA & "Media terkait" manual.

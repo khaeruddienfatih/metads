@@ -3753,3 +3753,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-05 — "coba kamu cek berapa anggaran setiap akun umroh dan setiap cs haji"
 - Dicek (Graph, campaign ACTIVE, anggaran harian CBO/ABO). Umroh: Fifi 1,2jt, Irfan 1,1jt, Nida 1,09jt, AIni 1,05jt, Diana 800rb, Hanif 725rb, Fikri 725rb, Tira 700rb, Allif 600rb = Rp7.990.000/hari. Haji per CS: Nida 560rb, Diana 547rb, Fikri 407rb, Irfan 400rb, Hanif 400rb, Fifi 370rb, AIni 370rb, Tira 250rb, Allif 132rb = Rp3.436.000/hari. Haji 2 tidak ada yang aktif.
 - Campaign aktif tanpa ad set aktif (anggaran tidak terpakai): Allif "9 Hari januari" 200rb, Fifi "Ramadhan" 200rb, Elharamain Haji "Fikri" 275rb. Tidak ada perubahan.
+
+### 2026-11-05 12:43 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset): AIni (814396810761205) ad set `25 Kota - Broad 25-65 #4` ID 120254063385360019, campaign Qatar — spend hari ini Rp45.524, 1 chat (kondisi: spend ≥ Rp45.000 & chat < 2) → PAUSED, terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

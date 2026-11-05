@@ -3678,3 +3678,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause adset): Irfan 1060984719243481 — ad set 120253548709090414 "12 Hari Januari" (campaign Sales banten): spend hari ini Rp45.327, 1 chat (≥Rp45rb & <2 chat) → PAUSED, terverifikasi (muncul status PAUSED di pembacaan ulang).
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+## 2026-11-05 — "ada adset belum ada iklanya" → "hanif dulu"
+- Ad set tanpa iklan (semua akun): Hanif Sales › 12 Hari Januari 120255213571660427 (ACTIVE), Hanif 12 Hari Januari › new 120255213559020427 & 120255213559010427 (PAUSED), Fifi › 12 Januari 120252512253110365 (ACTIVE).
+- 4 ad set disamakan SOP (26 kota r40 + 5 subcity, umur 25–65, FB Story + IG 8 posisi incl. explore + WA Status + Threads; pengecualian lokasi Jawa Barat di "new" ikut terhapus). Gambar disalin ke Hanif & Fifi via adimages copy_from.
+- Hanif diisi 9 iklan BARU PAUSED (teks 12 Hari Januari, headline 7000+/Tiket Confirm, ice breakers, Page 588336968031663 + IG, WA 0822-6012-6394): Sales›12HJ = Desain 3 12H #1, #2, #4 (120255213944420427, 948250427, 951310427); new(…020) = D3 #1, #2, #3 (951920427, 954510427, 958440427); new(…010) = D3 #4, D2 #1, D2 #4 (961730427, 964420427, 969900427).
+- Fifi › 12 Januari: targeting sudah SOP, BELUM diisi iklan (user: "hanif dulu").

@@ -3769,3 +3769,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 59 ad set di-pause hari ini (sejak 00:00 WIB), dari activity log: 44 oleh bot Telegram auto_rules (akun "Dhiyaa Elhaq"), 11 oleh akun "Muhammad Dhiyaa Elhaq", 4 oleh rule Meta "OFF 1" (semua di Fifi).
 - Anggaran harian yang benar-benar jalan (campaign CBO dihitung hanya bila ada ad set aktif; ABO = jumlah ad set aktif), Umroh + Haji per admin: Diana 800rb+297rb, Tira 800rb+250rb, Nida 925rb+440rb, Hanif 725rb+400rb, Allif 400rb+132rb, Fikri 725rb+0, AIni 1,05jt+370rb, Irfan 850rb+400rb, Fifi 1jt+370rb. Total Umroh Rp7.275.000, Haji Rp2.659.000, semua Rp9.934.000/hari.
 - Tidak ada perubahan.
+
+## 2026-11-05 — "hanya yang masih on di kampanye"
+- Dikirim rincian per admin hanya campaign yang masih punya ad set aktif (nama campaign, anggaran, ad set yang jalan). Total sama: Umroh Rp7.275.000 + Haji Rp2.659.000 = Rp9.934.000/hari. Haji Diana di Elharamain Haji & Haji Fikri: tidak ada ad set jalan. Tidak ada perubahan.

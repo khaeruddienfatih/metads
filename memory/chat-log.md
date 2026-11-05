@@ -3684,3 +3684,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - 4 ad set disamakan SOP (26 kota r40 + 5 subcity, umur 25–65, FB Story + IG 8 posisi incl. explore + WA Status + Threads; pengecualian lokasi Jawa Barat di "new" ikut terhapus). Gambar disalin ke Hanif & Fifi via adimages copy_from.
 - Hanif diisi 9 iklan BARU PAUSED (teks 12 Hari Januari, headline 7000+/Tiket Confirm, ice breakers, Page 588336968031663 + IG, WA 0822-6012-6394): Sales›12HJ = Desain 3 12H #1, #2, #4 (120255213944420427, 948250427, 951310427); new(…020) = D3 #1, #2, #3 (951920427, 954510427, 958440427); new(…010) = D3 #4, D2 #1, D2 #4 (961730427, 964420427, 969900427).
 - Fifi › 12 Januari: targeting sudah SOP, BELUM diisi iklan (user: "hanif dulu").
+
+### 2026-11-05 10:31 — cek 15 menit (cloud)
+- A (nyala ad set): Fikri 1676215979752437 › "12 Hari Januari" 120249683321210470 (campaign Fikri ACTIVE) — hari ini Rp45.688, 2 chat, CPR Rp22.844 → dinyalakan, verifikasi ACTIVE.
+- B (pause ad set): Elharamain Haji 947788760498911 › "jawa Barat" 120250778252800739 (campaign Irfan) — hari ini Rp25.015, 0 chat (spend > Rp25rb & 0 chat) → PAUSED, verifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

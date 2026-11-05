@@ -3761,3 +3761,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - D (nyala iklan): tidak ada.
 ## 2026-11-05 — "akun tira ada kampanye jawa barat kamu ganti kota hanya jawa barat"
 - Tira 868364731529534, campaign "jawa barat" `120252997427320584` (dibuat user 5 Nov 12:52). 3 ad set (9 hari januari `120252997427440584`, 12 hari januari `120252997427430584`, ramadhan `120252997427400584`): lokasi 26 kota + 5 subcity Jakarta → **11 kota Jawa Barat** radius 40 km (Bandung, Bekasi, Bogor, Cibinong, Cikarang, Cirebon, Depok, Garut, Karawang 966167, Sukabumi, Tasikmalaya); subcity Jakarta dihapus. Targeting lain tetap (umur 25–65, penempatan, location_types). Lewat Graph, status tetap ACTIVE.
+### 2026-11-05 13:10 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C: Irfan (1060984719243481), iklan 120253687650790414 "Ramadhan | Desain 3 #4 - winner" (campaign new - Salin, ad set ramadhan): sepanjang waktu Rp50.152 / 1 chat = CPR Rp50.152 (> Rp50rb) → PAUSED (terverifikasi status PAUSED).

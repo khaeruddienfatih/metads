@@ -3695,3 +3695,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Jalur: Graph API bot (tools/isi_iklan_kurang3.py) untuk Page 588336968031663; MCP untuk Page Haji 637020022834756 (bot tak punya peran), akun Allif (bot tak punya izin), dan Page 375988732273375 (Diana Tangerang).
 - Masih < 3: Allif Ramadhan›Ramadhan (sudah 5 iklan, batas), AIni Penjualan (baru)›9 Hari Januari (5 iklan: 3 lama PAUSED + 2 baru), Diana Tangerang›9hari januari (iklan baru masih draf), Elharamain Haji Diana›LLA (sengaja PAUSED, tidak diisi).
 - Diana Jawa Tengah & Timur (947) terlihat ACTIVE lagi sejak 09:54 (diubah user).
+
+### 2026-11-05 10:50 — cek 15 menit (cloud)
+- A (nyala adset): Nida 1019832712800468 — adset 120251938554630004 "Indonesia - Broad 25-65 #1" (campaign "new"): hari ini 2 chat, spend Rp48.895, CPR Rp24.448 (<30rb). Terverifikasi ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

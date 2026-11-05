@@ -3653,3 +3653,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-05 — "kamu kerjakan saja nanti saya yang rubah" (Diana, Elharamain Haji)
 - PAUSED (terverifikasi): Diana › LLA `120250897629630739` dan Diana › Jawa Tengah & Timur `120250778200960739`. Campaign Diana `120250519255890739` tetap ACTIVE (tidak ada ad set aktif → tidak belanja).
 - User akan membereskan koneksi WhatsApp Page Haji sendiri. Setelah WA beres: Jawa Tengah & Timur layak dinyalakan lagi (CPR 30 hari Rp36rb); LLA tetap mati.
+
+## 2026-11-05 — "cek lg" (Diana, Elharamain Haji)
+- LLA & Jawa Tengah & Timur tetap PAUSED. Hari ini s.d. 09:40: Rp46rb (FB+IG), 0 chat, WA tidak tayang.
+- User membuat 3 ad set baru 09:39 (PAUSED, kosong tanpa iklan): new `120251185468290739`, new - 2 `120251185468280739`, new - 1 `120251185468230739`. Page Haji 637020022834756, WA 6285693883208 (Diana, benar). Lokasi region Central Java + East Java, umur 25–65 dengan saran 35–57, Advantage+ placements (otomatis), atribusi 7 hari. Belum diubah (user sedang mengedit sendiri); ditanyakan mau disamakan SOP + diisi iklan atau tidak.

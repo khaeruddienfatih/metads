@@ -3850,3 +3850,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 22:00 — jadwal malam OFF (cloud)
 - 82 ad set ACTIVE di-PAUSE, 0 gagal. Per akun: Diana 4 · Tira 5 · Nida 5 · Hanif 1 · Allif 4 · Fikri 5 · AIni 9 · Irfan 12 · Fifi 14 · Elharamain Haji 12 · Haji 2 0 · Haji 3 4 · Haji 4 7 · haji 1050343302646341 0 (hanya 1 ad set ARCHIVED, dilewati).
 - Akun tak terbaca: tidak ada. Verifikasi awal sempat menampilkan beberapa ad set masih ACTIVE (lag Meta); pause diulang & dikonfirmasi PAUSED.
+
+### 2026-11-06 03:00 — naik anggaran (cloud)
+- Dicek 13 akun, campaign ACTIVE, H-3..H-1 = 3–5 Nov. Naik 3 campaign (semua Elharamain Haji 947788760498911, CBO), terverifikasi read-back, campaign diaktifkan lagi setelah dipaksa PAUSED:
+  - Hanif 120250198674100739: Rp250.000 → Rp275.000 (CPR Rp25.878/21.316/19.343)
+  - Nida 120250253542250739: Rp275.000 → Rp300.000 (batas maks; CPR Rp19.343/24.501/18.730)
+  - AIni 120250253985700739: Rp250.000 → Rp275.000 (CPR Rp26.456/26.327/25.860)
+- Gagal: tidak ada. Haji 2 & haji 1050… tanpa campaign aktif. Campaign lain tidak lolos syarat CPR 3 hari.

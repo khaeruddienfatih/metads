@@ -3627,3 +3627,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - User: "coba kamu matikan di irfan terus kamu duflicate posisi pause saya mau lihat hasilnya no cs kerubah atau tida".
 - PAUSED (terverifikasi success): Sales jawa › 9 Hari Januari `120253548709130414`, Sales banten › 9 Hari Januari `120253548709150414`, new - Salin › 9 hari januari `120253687617440414`. Nomor WA aslinya ketiganya 6285199381590 (0851-9938-1590, Irfan), Page 588336968031663.
 - Duplikat GAGAL: Meta menolak /copies karena ad set lama pakai atribusi klik 7 hari, untuk tujuan chat sekarang hanya boleh 1 hari; atribusi ad set lama tidak bisa diubah ("Buat set iklan yang baru"). Belum ada salinan yang dibuat. Ditanyakan ke user: buat ad set baru (pengaturan sama, atribusi 1 hari) via API, atau user duplikat manual di Ads Manager.
+
+### 2026-11-05 09:30 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada.
+- C: Elharamain Haji (947788760498911), iklan 120251142496530739 "Vidio (Nida Broud) - winner" (ad set 26 Kota - Broad 25-65 #5, campaign Fifi) — sepanjang waktu Rp100.337 / 2 chat = Rp50.169/chat (> Rp50rb) → PAUSED (terverifikasi status PAUSED).
+- D: tidak ada (cek iklan PAUSED dengan spend ≥ Rp35rb; tidak ada yang CPR < Rp30rb).

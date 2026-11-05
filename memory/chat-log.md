@@ -3616,3 +3616,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - "Sangat buruk" (0 chat & spend ≥ Rp50rb, atau CPR ≥ Rp80rb): 52 ad set, biaya Rp4.708.062 → 27 chat (CPR ±Rp174rb). "Buruk" (CPR Rp50–80rb): 31 ad set, Rp3.521.189 → 58 chat.
 - Terbanyak: Elharamain Haji 13 ad set (Rp1,49 jt/17 chat), Haji 3 10 (Rp1,13 jt/12), Fifi 12 (Rp916rb/6 chat).
 - Belum ada perubahan; ditanyakan ke user apakah 52 ad set sangat buruk di-pause.
+
+## 2026-11-05 — "coba juga kamu cek per 7 hari dan 30 hari"
+- Data ditarik lewat Graph API bot (script baru tools/cek_adset_periode.py), 201 ad set ACTIVE; dicocokkan dengan MCP (Fikri Broud 3 hari Rp132.440/1 sama persis).
+- Sangat buruk (0 chat & ≥Rp50rb, atau CPR ≥Rp80rb): 3 hari 50 ad set (Rp4,49 jt/25 chat); 7 hari 22 (Rp3,01 jt/22); 30 hari 8 (Rp1,71 jt/13).
+- 21 dari 50 ad set "buruk 3 hari" CPR 30 harinya < Rp40rb → turun sementara, bukan ad set jelek.
+- Konsisten buruk 7 & 30 hari (usulan pause): Elharamain Haji Diana›LLA - 1; Irfan Sales banten›9 Hari Januari; Irfan Sales jawa›9 Hari Januari; AIni Penjualan›25 Kota #2; Hanif Sales›12 Hari Januari; Irfan new - Salin›9 hari januari; Elharamain Haji Fifi›26 Kota #1; Nida Qatar›jawa timur & tengah. Menunggu persetujuan.

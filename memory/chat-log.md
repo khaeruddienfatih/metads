@@ -3597,3 +3597,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada.
 - C: akun Irfan 1060984719243481, iklan 120253687652090414 "Ramadhan | Desain 2 #2 - winner" (ad set ramadhan, campaign new - Salin) — spend sepanjang waktu Rp35.165, 0 chat → PAUSED (terverifikasi PAUSED).
 - D: tidak ada.
+
+## 2026-11-05 — "untuk tira jadi keributan di team kamu harus bener bener cek" / "sekecil apapun..." / "kamu jadi pimpinan harus cek bener bener"
+- tools/cek_laporan.py: cek "kontrol" per akun (biaya level akun vs jumlah semua campaign, toleransi pagi Rp1.000/0,2%, harian Rp3.000/1%), baris tabel = kontrol, Ringkasan = kontrol, Anggaran Meta = "kontrol_bulan". Diuji: data lengkap LOLOS; Tira terlewat, anggaran kurang, chat salah → GAGAL.
+- Routine diperbarui: 06:00 `trig_01Ci9E1ffEGZ97CAaxiyqCBY` + 12/16/21 `trig_01D9NHsCepUj6rvi7cs5nt77` (langkah 4c KONTROL, baca ad_entities sampai habis walau ada next_actions); 08:00 pimpinan `trig_01NydaDZaZmHdb68jLxpn13R` langkah 0: kirim salinan persis email 06:00 dari Gmail terkirim (fallback hitung sendiri + kontrol).
+- Belum: email koreksi 04 Nov ke pimpinan — menunggu persetujuan user.

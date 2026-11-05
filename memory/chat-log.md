@@ -3552,3 +3552,5 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - AIni 814396810761205 · iklan 120253979584120019 "Sales 12 Hari Januari | Desain 3 12H #5 | adset5" — spend Rp35.233, 0 chat. PAUSE diterima (is_draft=false); verifikasi baca-ulang: IN_PROCESS (transisi).
   - Haji 3 794403715776985 · iklan 120253032886650704 "Haji_Img_02" (Haji 2) — spend Rp35.055, 0 chat. PAUSE diterima (is_draft=false); verifikasi baca-ulang: IN_PROCESS (transisi).
 - D (nyala iklan): tidak ada.
+## 2026-11-05 — "ada laporan apa"
+- Dijelaskan daftar laporan terjadwal: email 06:00 (elharamainwisata), 08:00 (pimpinan), 12/16/21 (elharamainwisata), laporan WA Elharamain News 07:00, notifikasi Telegram bot auto-rule.

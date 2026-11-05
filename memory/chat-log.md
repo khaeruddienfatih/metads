@@ -3673,3 +3673,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Hari ini user (Muhammad Dhiyaa Elhaq) menghapus ad set Indonesia, Jakarta (campaign 12 Hari Januari) & Sales › 12 Hari Januari lama; membuat ad set kosong: Sales › 12 Hari Januari 120255213571660427 (ACTIVE, 0 iklan), 12 Hari Januari › new 120255213559020427 & 120255213559010427 (PAUSED, 0 iklan, West Java).
 - Lemah: Prospek - Salin › 9 Hari Januari (3h Rp103rb/0, iklan aktif 1/3), Retargeting › 9 Hari Januari (7h 54rb, iklan aktif 1/3).
 - Belum ada perubahan; usulan ke user: nyalakan lagi 2 Ramadhan, isi 3 ad set kosong, pertimbangkan aturan no 2 jangan berlaku untuk ad set yang CPR 7 harinya bagus / sebelum jam tertentu.
+### 2026-11-05 10:01 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset): Irfan 1060984719243481 — ad set 120253548709090414 "12 Hari Januari" (campaign Sales banten): spend hari ini Rp45.327, 1 chat (≥Rp45rb & <2 chat) → PAUSED, terverifikasi (muncul status PAUSED di pembacaan ulang).
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

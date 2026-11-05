@@ -119,6 +119,7 @@ Teks iklan lengkap ada di [`primary-texts.md`](primary-texts.md).
 - Image hash = hash konten, sama di semua akun untuk file yang sama.
 
 ## Status per akun / Riyadh Air
+- **Haji 2 (1032468828178224) SENGAJA DIMATIKAN SEMUA oleh user** (5 Nov: "haji 2 memang saya matikan semuanya tidak ada yang jalan"). Biaya Rp0 itu normal, bukan masalah. Jangan dinyalakan dan jangan dilaporkan sebagai masalah. Error 2446880 dari bot di Haji 2 = bot mencoba mem-pause iklan di akun yang memang sudah mati.
 
 Riwayat lengkap per akun, ID campaign/ad set, dan tabel budget Haji dipindah ke [`arsip-status-akun.md`](arsip-status-akun.md) (2 Nov) agar bot Telegram lebih ringan.
 

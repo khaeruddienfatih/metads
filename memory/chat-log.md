@@ -3641,3 +3641,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ## 2026-11-05 — "rubah semua ke 26 kota" (Irfan, 3 ad set baru)
 - Sales banten › 9 Hari Januari `120253763672530414` dan Sales jawa › 9 Hari Januari `120253763700240414`: lokasi wilayah (5 / 3 kota) → 26 kota default r40 + 5 subcity Jakarta (terverifikasi). Penjualan (baru) - Salin › 12Hari `120253763702690414` sudah 26 kota + 5 subcity. Status ad set tetap ACTIVE, iklan tetap PAUSED.
 - Catatan: nama campaign tetap "Sales banten"/"Sales jawa" walau sekarang 26 kota (perintah user).
+
+## 2026-11-05 — "rubah namanya" (Irfan)
+- Campaign "Sales banten"/"Sales jawa" TIDAK diganti karena masih punya ad set 12 Hari Januari & Ramadhan per wilayah (5/3 kota) yang ACTIVE. Yang diganti nama ad set baru: 120253763672530414 & 120253763700240414 → "9 Hari Januari - 26 Kota"; 120253763702690414 → "12 Hari Januari - 26 Kota". Status tetap ACTIVE.

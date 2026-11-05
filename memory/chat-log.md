@@ -3699,3 +3699,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-05 10:50 — cek 15 menit (cloud)
 - A (nyala adset): Nida 1019832712800468 — adset 120251938554630004 "Indonesia - Broad 25-65 #1" (campaign "new"): hari ini 2 chat, spend Rp48.895, CPR Rp24.448 (<30rb). Terverifikasi ACTIVE.
 - B: tidak ada. C: tidak ada. D: tidak ada.
+
+### 2026-11-05 11:xx — cek 15 menit (cloud)
+- A: tidak ada (ad set PAUSED dengan CPR hari ini < Rp30rb: tidak ada).
+- B: Tira (868364731529534) — ad set `Indonesia - Salin` (120252158037690584), campaign Tira pusat: spend hari ini Rp27.660, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

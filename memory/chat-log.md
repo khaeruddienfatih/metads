@@ -3729,3 +3729,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): akun Elharamain Haji 947788760498911 — ad set `LLA` (campaign Fikri) ID 120250201672190739: spend hari ini Rp26.780, 0 chat (kondisi > Rp25rb & 0 chat). Status PAUSED (update sukses).
 - C (pause iklan): akun Fifi 521083143750270 — iklan `Qatar November | A GR | #1` (ad set qatar, campaign Qatar) ID 120252752502740365: sepanjang waktu Rp51.248 / 1 chat = Rp51.248 > Rp50rb. Status PAUSED (update sukses).
 - D (nyala iklan): tidak ada.
+
+### 2026-11-05 12:13 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set boros, hari ini):
+  - Diana 1076195694707828 · ad set 120252143936570294 "Ramadhan" (campaign Diana): Rp45.097, 1 chat (≥Rp45rb & <2 chat) — verified PAUSED.
+  - AIni 814396810761205 · ad set 120253979650270019 "25 Kota - Broad 25-65 #3" (campaign Penjualan (baru)): Rp45.290, 1 chat (≥Rp45rb & <2 chat) — verified PAUSED.
+  - Haji 3 794403715776985 · ad set 120252668566410704 "Haji 3" (campaign Diana): Rp25.392, 0 chat (>Rp25rb & 0 chat) — verified PAUSED.
+- C (pause iklan mahal): tidak ada.
+- D (nyala iklan): tidak ada.

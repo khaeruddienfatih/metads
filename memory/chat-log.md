@@ -4028,3 +4028,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Haji 3 (794403715776985) — ad set `120252745117610704` "Haji 2" (campaign Alif): spend hari ini Rp25.108, 0 chat (kondisi spend > Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada iklan di-pause.
 - D: tidak ada iklan dinyalakan.
+### 2026-11-06 21:50 — cek 15 menit (cloud)
+- A: Irfan (1060984719243481) ad set 120253634491190414 "Jateng & Jatim - Broad 25-65 #2" (campaign "new" ACTIVE) — hari ini 2 chat, spend Rp51.257, CPR Rp25.629 → dinyalakan, terverifikasi ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

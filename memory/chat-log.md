@@ -3929,3 +3929,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): tidak ada.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+### 2026-11-06 — rencana pindah Meta Ads ke API Claude (DIBATALKAN)
+- Diminta: "saya mau khuss meta ads pakai api claude bukan langganan". User pilih semua routine + bot, email lewat Gmail App Password.
+- Sempat dibuat (belum di-commit): tools/meta.py, tools/kirim_email.py, tools/jalankan_routine.sh, routines/*.md, mode API di bot.py.
+- User: "batalkan tetep pakai langganan saja" → semua dihapus/dikembalikan. Routine cloud & bot tetap pakai langganan, tidak ada yang berubah.

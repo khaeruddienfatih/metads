@@ -4036,3 +4036,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Routine otomatis OFF 22:00 WIB: 84 ad set ACTIVE di-PAUSE, 0 gagal; verifikasi ulang semua akun → 0 ad set ACTIVE tersisa.
 - Per akun: Diana 6 · Tira 3 · Nida 6 · Hanif 1 · Allif 2 · Fikri 5 · AIni 11 · Irfan 11 · Fifi 12 · Elharamain Haji 18 · Haji 2 0 · Haji 3 5 · Haji 4 4 · haji (1050343302646341) 0 (hanya 1 ad set ARCHIVED, dilewati).
 - Akun tak terbaca: tidak ada. Daftar di `jadwal-malam-daftar.md`.
+
+### 2026-11-07 03:00 — naik anggaran (cloud)
+- Tidak ada campaign yang naik: dari 13 akun (H-3 04 Nov, H-2 05 Nov, H-1 06 Nov), tidak ada campaign ACTIVE chat WA dengan CPR < Rp30rb di ketiga hari. Elharamain Haji Hanif/Nida/AIni masih jeda 3 hari (naik 6 Nov). Tidak ada yang gagal.

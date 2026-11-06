@@ -3923,3 +3923,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-06 14:30 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: Fifi (521083143750270) iklan `Qatar November | A GR | #1` ID 120252752504360365 (adset qatar, campaign Qatar) — sepanjang waktu spend Rp35.033, 0 chat → PAUSE. Terverifikasi status PAUSED (effective_status IN_PROCESS sementara).
+
+### 2026-11-06 14:43 — cek 15 menit (cloud)
+- A (nyala ad set): Nida (1019832712800468) ad set `120251630044800004` "9 Hari Januari" (campaign "9 Hari Januari") — hari ini 1 chat, spend Rp28.966, CPR Rp28.966 (<Rp30rb). Terverifikasi ACTIVE.
+- B (pause ad set): tidak ada.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

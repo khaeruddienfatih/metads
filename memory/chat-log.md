@@ -3885,3 +3885,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (Allif 4678183395742010, pause ad set): 120252268692220228 "jawa timur" (campaign 9 Hari januari) — spend hari ini Rp25.838, 0 chat (spend > Rp25rb & 0 chat); verifikasi PAUSED.
 - C: tidak ada.
 - D: tidak ada.
+
+### 2026-11-06 09:45 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: tidak ada.
+- C (Hanif 482252744648260, pause iklan): 120255213951920427 "12 Hari Januari | Desain 3 12H #1 | baru" (ad set new, campaign 12 Hari Januari) — sepanjang waktu spend Rp50.592, 1 chat, CPR Rp50.592 (> Rp50rb); verifikasi PAUSED.
+- D: tidak ada.

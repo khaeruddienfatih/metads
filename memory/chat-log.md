@@ -3959,3 +3959,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Nida 1019832712800468 · iklan 120252068167330004 "Ramadhan | Desain 3 Ramadhan #4 | baru" (Prospek (baru) - Jakarta): Rp51.084 / 1 chat = Rp51.084/chat
   - Hanif 482252744648260 · iklan 120255213964420427 "12 Hari Januari | Desain 2 12H #1 | baru" (campaign 12 Hari Januari): Rp102.806 / 2 chat = Rp51.403/chat
   - Allif 4678183395742010 · iklan 120252682675420228 "Ramadhan | Desain 3 Ramadhan #5 | baru" (Ramadhan): Rp35.176 / 0 chat
+
+### 2026-11-06 17:00 — cek 15 menit (cloud)
+- A: tidak ada. C: tidak ada. D: tidak ada.
+- B (pause ad set, verified PAUSED): AIni 814396810761205 · ad set 120253979512830019 "25 Kota - Broad 25-65 #5" (campaign Penjualan): spend hari ini Rp46.654, 1 chat (kondisi ≥Rp45.000 & chat <2).

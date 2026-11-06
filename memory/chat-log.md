@@ -3873,3 +3873,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (Hanif 482252744648260, pause ad set, terverifikasi PAUSED): 120255131570750427 "Ramadhan" (campaign Sales) spend Rp25.770, 0 chat (>Rp25rb & 0 chat); 120254774741200427 "jawa barat" (campaign 12 Hari Januari) spend Rp26.394, 0 chat.
 - C (Diana 1076195694707828, pause iklan, terverifikasi PAUSED): 120252430922980294 "12 Hari Januari | Desain 3 12 Hari #1 | baru" (Penjualan (baru)) lifetime Rp35.148, 0 chat.
 - D: tidak ada.
+
+### 2026-11-06 09:15 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: tidak ada.
+- C (Nida 1019832712800468, pause iklan): 120251989863970004 "12 Hari Januari | 12_hari_januari_5 - winner" (Nida Sales / 12 hari januari) lifetime Rp35.279, 0 chat saat dicek (0 chat & ≥Rp35rb); update sukses, status baca ulang IN_PROCESS (proses Meta, belum terkonfirmasi PAUSED).
+- D: tidak ada (catatan: query iklan hanya spend >Rp20rb).

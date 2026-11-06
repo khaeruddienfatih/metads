@@ -3908,3 +3908,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): tidak ada.
 - C (pause iklan): Hanif (482252744648260) iklan 120255213969900427 "12 Hari Januari | Desain 2 12H #4 | baru" (campaign 12 Hari Januari, ad set new) — sepanjang waktu Rp51.803 / 1 chat = CPR Rp51.803 (> Rp50rb). Status PAUSED terverifikasi.
 - D (nyala iklan): tidak ada.
+### 2026-11-06 13:15 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset), keduanya terverifikasi PAUSED:
+  - Hanif 482252744648260 · ad set 120255213559020427 "new" (campaign 12 Hari Januari): spend hari ini Rp47.251, 1 chat → syarat ≥Rp45.000 & chat <2.
+  - Hanif 482252744648260 · ad set 120254963922430427 "12 Hari Januari" (campaign Prospek (baru) - Salin): spend hari ini Rp26.975, 0 chat → syarat >Rp25.000 & 0 chat.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

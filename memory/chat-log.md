@@ -3973,3 +3973,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause adset): tidak ada.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-06 18:20 — cek 15 menit (cloud)
+- A (nyalakan ad set): tidak ada.
+- B (pause ad set): Irfan 1060984719243481 — ad set `120253763702690414` "12 Hari Januari - 26 Kota" (campaign "Penjualan (baru) - Salin"), spend hari ini Rp45.076, 1 chat (kondisi B2: spend ≥ Rp45.000 & chat < 2). Terverifikasi: update PAUSED sukses (status_forced_to_paused=false).
+- C (pause iklan): AIni 814396810761205 — iklan `120254063425290019` "Qatar November | A GR | #1" (ad set "25 Kota - Broad 25-65 #5", campaign Qatar), sepanjang waktu spend Rp35.218, 0 chat. Terverifikasi: update PAUSED sukses.
+- D (nyalakan iklan): tidak ada.

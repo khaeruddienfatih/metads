@@ -3952,3 +3952,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C: tidak ada.
 - D: tidak ada.
 - Catatan: Haji 2 & Haji 4 tidak dicek untuk C/D (Haji 2 sengaja dimatikan user; Haji 4 kosong hari ini).
+
+### 2026-11-06 16:46 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C (pause iklan, lifetime, verified PAUSED):
+  - Nida 1019832712800468 · iklan 120252068167330004 "Ramadhan | Desain 3 Ramadhan #4 | baru" (Prospek (baru) - Jakarta): Rp51.084 / 1 chat = Rp51.084/chat
+  - Hanif 482252744648260 · iklan 120255213964420427 "12 Hari Januari | Desain 2 12H #1 | baru" (campaign 12 Hari Januari): Rp102.806 / 2 chat = Rp51.403/chat
+  - Allif 4678183395742010 · iklan 120252682675420228 "Ramadhan | Desain 3 Ramadhan #5 | baru" (Ramadhan): Rp35.176 / 0 chat

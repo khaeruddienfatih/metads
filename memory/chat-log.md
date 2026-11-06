@@ -4031,3 +4031,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-06 21:50 — cek 15 menit (cloud)
 - A: Irfan (1060984719243481) ad set 120253634491190414 "Jateng & Jatim - Broad 25-65 #2" (campaign "new" ACTIVE) — hari ini 2 chat, spend Rp51.257, CPR Rp25.629 → dinyalakan, terverifikasi ACTIVE.
 - B: tidak ada. C: tidak ada. D: tidak ada.
+
+### 2026-11-06 22:00 — jadwal malam OFF (cloud)
+- Routine otomatis OFF 22:00 WIB: 84 ad set ACTIVE di-PAUSE, 0 gagal; verifikasi ulang semua akun → 0 ad set ACTIVE tersisa.
+- Per akun: Diana 6 · Tira 3 · Nida 6 · Hanif 1 · Allif 2 · Fikri 5 · AIni 11 · Irfan 11 · Fifi 12 · Elharamain Haji 18 · Haji 2 0 · Haji 3 5 · Haji 4 4 · haji (1050343302646341) 0 (hanya 1 ad set ARCHIVED, dilewati).
+- Akun tak terbaca: tidak ada. Daftar di `jadwal-malam-daftar.md`.

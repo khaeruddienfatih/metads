@@ -3868,3 +3868,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause adset): tidak ada.
 - C (pause iklan): Haji 4 (1526562231314028) — iklan `120257334142230768` "Haji (Irfan Gambar) - winner" (campaign Irfan, ad set Gambar): sepanjang waktu Rp200.663 / 4 chat = Rp50.166/chat (> Rp50rb) → status PAUSED (effective_status masih IN_PROCESS saat dicek).
 - D (nyala iklan): tidak ada.
+### 2026-11-06 07:16 — cek 15 menit (cloud)
+- A: tidak ada.
+- B (Hanif 482252744648260, pause ad set, terverifikasi PAUSED): 120255131570750427 "Ramadhan" (campaign Sales) spend Rp25.770, 0 chat (>Rp25rb & 0 chat); 120254774741200427 "jawa barat" (campaign 12 Hari Januari) spend Rp26.394, 0 chat.
+- C (Diana 1076195694707828, pause iklan, terverifikasi PAUSED): 120252430922980294 "12 Hari Januari | Desain 3 12 Hari #1 | baru" (Penjualan (baru)) lifetime Rp35.148, 0 chat.
+- D: tidak ada.

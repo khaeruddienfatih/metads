@@ -3920,3 +3920,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set, verifikasi sukses): Allif 4678183395742010 — ad set 120252430673610228 "12 Hari Januari" (campaign Traffic (baru) - Salin): spend Rp26.721, 0 chat (syarat >Rp25rb & 0 chat). Fifi 521083143750270 — ad set 120252429759060365 "Banten" (campaign Ramadhan): spend Rp53.026, 1 chat (syarat ≥Rp45rb & chat <2).
 - C (pause iklan): Nida 1019832712800468 — iklan 120251989863740004 "12 Hari Januari | 12_hari_januari_3 - winner": lifetime spend Rp36.316, 0 chat (syarat 0 chat & ≥Rp35rb), status PAUSED.
 - D: tidak ada.
+### 2026-11-06 14:30 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C: Fifi (521083143750270) iklan `Qatar November | A GR | #1` ID 120252752504360365 (adset qatar, campaign Qatar) — sepanjang waktu spend Rp35.033, 0 chat → PAUSE. Terverifikasi status PAUSED (effective_status IN_PROCESS sementara).

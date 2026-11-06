@@ -4007,3 +4007,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada.
 - B: Allif (4678183395742010) ad set 120252538255100228 "Jawa Barat - Broad 25-65 #1" (campaign Ramadhan): spend hari ini Rp25.687, 0 chat (spend > Rp25rb & 0 chat) -> PAUSED, terverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+### 2026-11-06 20:17 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set boros): tidak ada.
+- C (pause iklan mahal): Fifi (521083143750270) — iklan 120252783321240365 "12 Hari Januari | Desain 3 12 Hari #1 | baru" (campaign Jawa / ad set 12 Hari Januari): spend sepanjang waktu Rp35.161, 0 chat (≥ Rp35rb) → PAUSED, terverifikasi status PAUSED.
+- D (nyala iklan): tidak ada.

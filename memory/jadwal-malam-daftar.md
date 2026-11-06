@@ -84,3 +84,7 @@
 - 1526562231314028 | 120256622022540768 | Gambar | Nida
 - 1526562231314028 | 120256622022150768 | Vidio | Nida
 - 1526562231314028 | 120256248793380768 | Campuran | Irfan
+
+## Dinyalakan 2026-11-07 04:00
+- Semua ad set PAUSED di campaign ACTIVE dinyalakan (siapa pun yang mematikan). Total 195 nyala / 0 dilewati / 0 gagal. Verifikasi: query PAUSED ulang di 12 akun = kosong.
+- Diana 15 · Tira 12 · Nida 15 · Hanif 11 · Allif 12 · Fikri 12 · AIni 22 · Irfan 16 · Fifi 30 · Elharamain Haji 25 · Haji 3 12 · Haji 4 13 · Haji 2 0 · haji 1050… 0

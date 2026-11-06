@@ -4039,3 +4039,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 
 ### 2026-11-07 03:00 — naik anggaran (cloud)
 - Tidak ada campaign yang naik: dari 13 akun (H-3 04 Nov, H-2 05 Nov, H-1 06 Nov), tidak ada campaign ACTIVE chat WA dengan CPR < Rp30rb di ketiga hari. Elharamain Haji Hanif/Nida/AIni masih jeda 3 hari (naik 6 Nov). Tidak ada yang gagal.
+
+### 2026-11-07 04:00 — jadwal pagi: nyalakan ad set (cloud)
+- Menyalakan semua ad set PAUSED di campaign ACTIVE, 14 akun (tanpa elharamain Profile). Budget tidak diubah.
+- Hasil: 195 nyala / 0 dilewati / 0 gagal. Diana 15, Tira 12, Nida 15, Hanif 11, Allif 12, Fikri 12, AIni 22, Irfan 16, Fifi 30, Elharamain Haji 25, Haji 3 12, Haji 4 13, Haji 2 0, haji 0.
+- Akun mode draft (Diana, Nida, Fikri, Fifi, Haji 3, Haji 4) butuh panggilan tanpa object_ids.

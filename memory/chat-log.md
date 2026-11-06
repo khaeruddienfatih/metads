@@ -4023,3 +4023,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Haji 4 (1526562231314028) ad set 120256622022620768 "Vidio", campaign Diana — spend hari ini Rp25.125, 0 chat (spend > Rp25rb & 0 chat). Verified PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+### 2026-11-06 21:30 — cek 15 menit (cloud)
+- A: tidak ada ad set dinyalakan.
+- B: Haji 3 (794403715776985) — ad set `120252745117610704` "Haji 2" (campaign Alif): spend hari ini Rp25.108, 0 chat (kondisi spend > Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+- C: tidak ada iklan di-pause.
+- D: tidak ada iklan dinyalakan.

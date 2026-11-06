@@ -3968,3 +3968,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada.
 - C: Fikri (1676215979752437) iklan 120249877735360470 "Ramadhan | Desain 2 #4 | judul2 - winner" (adset Ramadhan, campaign Fikri) — lifetime Rp50.490 / 1 chat = CPR Rp50.490 (> Rp50rb) → PAUSED, terverifikasi PAUSED.
 - D: tidak ada (catatan: kueri iklan hanya spend > Rp30rb, iklan PAUSED berspend lebih kecil tidak diperiksa).
+### 2026-11-06 17:40 — cek 15 menit (cloud)
+- A (nyala adset): Fifi 521083143750270 — adset 120252109239810365 "9 Januari" (campaign Fifi): hari ini 1 chat, spend Rp23.575, CPR Rp23.575 → ACTIVE (terverifikasi ACTIVE).
+- B (pause adset): tidak ada.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

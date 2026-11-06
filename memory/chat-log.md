@@ -4002,3 +4002,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Irfan 1060984719243481 · 120253512143030414 "9 Hari Januari" (Penjualan (baru) - Salin) — spend Rp25.040, 0 chat (> Rp25rb & 0 chat).
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-06 19:47 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Allif (4678183395742010) ad set 120252538255100228 "Jawa Barat - Broad 25-65 #1" (campaign Ramadhan): spend hari ini Rp25.687, 0 chat (spend > Rp25rb & 0 chat) -> PAUSED, terverifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

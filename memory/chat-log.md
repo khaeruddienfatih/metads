@@ -3993,3 +3993,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyala adset): Elharamain Haji 947788760498911 — ad set `120250253985830739` "Broud" (campaign AIni): hari ini 2 chat, Rp32.018, CPR Rp16.009 → ACTIVE (terverifikasi).
 - B (pause adset): Hanif 482252744648260 — ad set `120255027201380427` "Ramadhan" (campaign Retargeting): spend hari ini Rp45.090, 1 chat (kondisi ≥Rp45rb & <2 chat) → PAUSED (terverifikasi).
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-06 19:30 — cek 15 menit (cloud)
+- A (nyala adset): tidak ada.
+- B (pause adset), semua terverifikasi PAUSED:
+  - Allif 4678183395742010 · 120252538255070228 "Jawa Barat - Broad 25-65 #2" (campaign Ramadhan) — spend hari ini Rp45.023, 1 chat (spend ≥ Rp45rb & chat < 2).
+  - AIni 814396810761205 · 120253866014590019 "9 Hari Januari" (Penjualan (baru)) — spend Rp25.023, 0 chat (> Rp25rb & 0 chat).
+  - Irfan 1060984719243481 · 120253512143030414 "9 Hari Januari" (Penjualan (baru) - Salin) — spend Rp25.040, 0 chat (> Rp25rb & 0 chat).
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

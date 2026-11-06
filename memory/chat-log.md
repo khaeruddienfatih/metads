@@ -4012,3 +4012,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set boros): tidak ada.
 - C (pause iklan mahal): Fifi (521083143750270) — iklan 120252783321240365 "12 Hari Januari | Desain 3 12 Hari #1 | baru" (campaign Jawa / ad set 12 Hari Januari): spend sepanjang waktu Rp35.161, 0 chat (≥ Rp35rb) → PAUSED, terverifikasi status PAUSED.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-06 20:33 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Haji 3 (794403715776985) ad set 120252707667610704 "Haji", campaign Fifi — spend hari ini Rp45.278 (verifikasi Rp45.796), 1 chat (kondisi: spend ≥ Rp45.000 & chat < 2). Status terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

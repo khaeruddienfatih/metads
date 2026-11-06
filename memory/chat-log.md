@@ -3896,3 +3896,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set boros, hari ini, verified PAUSED): Allif 4678183395742010 — `jawa tengah` (120252268692170228, campaign 9 Hari januari): spend Rp26.695, 0 chat (spend > Rp25rb & 0 chat); Allif `Ramadhan` (120252223314630228, campaign Ramadhan): spend Rp25.221, 0 chat.
 - C (pause iklan mahal, sepanjang waktu, verified PAUSED): Nida 1019832712800468 — iklan 120252068164200004 `Ramadhan | Desain 3 Ramadhan #2 | baru` (Nida Sales): Rp35.567, 0 chat; Allif 4678183395742010 — iklan 120252682689010228 `Ramadhan | Desain 2 Ramadhan #1 | baru` (Ramadhan / Jawa Barat Broad #2): Rp52.002, 1 chat, CPR Rp52.002.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-06 11:28 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set boros, hari ini, verified PAUSED): AIni 814396810761205 — ad set `Indonesia` (120253660020020019, campaign Ramadhan): spend Rp25.581, 0 chat (spend > Rp25rb & 0 chat).
+- C (pause iklan mahal, sepanjang waktu, verified PAUSED): Tira 868364731529534 — iklan 120252902862430584 `Video 9 Hari Januari | januari_8 | 25 Kota J#5` (adset 25 Kota Video #5, campaign januari 9 hari & 12 hari): Rp100.007, 2 chat, CPR Rp50.004.
+- D (nyala iklan): tidak ada.

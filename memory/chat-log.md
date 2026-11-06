@@ -3915,3 +3915,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Hanif 482252744648260 · ad set 120254963922430427 "12 Hari Januari" (campaign Prospek (baru) - Salin): spend hari ini Rp26.975, 0 chat → syarat >Rp25.000 & 0 chat.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+### 2026-11-06 13:31 — cek 15 menit (cloud)
+- A: tidak ada (semua ad set PAUSED dengan chat hari ini CPR ≥ Rp30rb).
+- B (pause ad set, verifikasi sukses): Allif 4678183395742010 — ad set 120252430673610228 "12 Hari Januari" (campaign Traffic (baru) - Salin): spend Rp26.721, 0 chat (syarat >Rp25rb & 0 chat). Fifi 521083143750270 — ad set 120252429759060365 "Banten" (campaign Ramadhan): spend Rp53.026, 1 chat (syarat ≥Rp45rb & chat <2).
+- C (pause iklan): Nida 1019832712800468 — iklan 120251989863740004 "12 Hari Januari | 12_hari_januari_3 - winner": lifetime spend Rp36.316, 0 chat (syarat 0 chat & ≥Rp35rb), status PAUSED.
+- D: tidak ada.

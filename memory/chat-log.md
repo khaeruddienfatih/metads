@@ -3988,3 +3988,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-06 18:50 — cek 15 menit (cloud)
 - A: Haji 4 (1526562231314028) ad set "Vidio" (campaign Hanif) ID 120256622022520768 — hari ini 1 chat, spend Rp25.678, CPR Rp25.678 → dinyalakan lagi, terverifikasi ACTIVE.
 - B: tidak ada. C: tidak ada. D: tidak ada.
+
+### 2026-11-06 19:0x — cek 15 menit (cloud)
+- A (nyala adset): Elharamain Haji 947788760498911 — ad set `120250253985830739` "Broud" (campaign AIni): hari ini 2 chat, Rp32.018, CPR Rp16.009 → ACTIVE (terverifikasi).
+- B (pause adset): Hanif 482252744648260 — ad set `120255027201380427` "Ramadhan" (campaign Retargeting): spend hari ini Rp45.090, 1 chat (kondisi ≥Rp45rb & <2 chat) → PAUSED (terverifikasi).
+- C: tidak ada. D: tidak ada.

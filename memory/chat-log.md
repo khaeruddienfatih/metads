@@ -3963,3 +3963,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-06 17:00 — cek 15 menit (cloud)
 - A: tidak ada. C: tidak ada. D: tidak ada.
 - B (pause ad set, verified PAUSED): AIni 814396810761205 · ad set 120253979512830019 "25 Kota - Broad 25-65 #5" (campaign Penjualan): spend hari ini Rp46.654, 1 chat (kondisi ≥Rp45.000 & chat <2).
+
+### 2026-11-06 17:20 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada.
+- C: Fikri (1676215979752437) iklan 120249877735360470 "Ramadhan | Desain 2 #4 | judul2 - winner" (adset Ramadhan, campaign Fikri) — lifetime Rp50.490 / 1 chat = CPR Rp50.490 (> Rp50rb) → PAUSED, terverifikasi PAUSED.
+- D: tidak ada (catatan: kueri iklan hanya spend > Rp30rb, iklan PAUSED berspend lebih kecil tidak diperiksa).

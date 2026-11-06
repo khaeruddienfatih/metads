@@ -3985,3 +3985,6 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause adset): tidak ada.
 - C (pause iklan): Elharamain Haji 947788760498911 — iklan 120251088658610739 "Gambar (Nida Interest) - winner" (campaign Fikri), lifetime spend Rp35.101, 0 chat → PAUSE (update sukses; read-back effective_status masih IN_PROCESS, transisi).
 - D (nyala iklan): tidak ada.
+### 2026-11-06 18:50 — cek 15 menit (cloud)
+- A: Haji 4 (1526562231314028) ad set "Vidio" (campaign Hanif) ID 120256622022520768 — hari ini 1 chat, spend Rp25.678, CPR Rp25.678 → dinyalakan lagi, terverifikasi ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

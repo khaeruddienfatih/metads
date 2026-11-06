@@ -3945,3 +3945,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Allif (4678183395742010) ad set 120252243406460228 "jawa barat", campaign Ramadhan — spend hari ini Rp26.344, 0 chat (kondisi: >Rp25rb & 0 chat). PAUSED, terverifikasi PAUSED.
 - C: tidak ada.
 - D: tidak ada.
+
+### 2026-11-06 16:16 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Allif (4678183395742010) ad set 120252430673590228 "Ramadhan", campaign "Traffic (baru) - Salin" — spend hari ini Rp46.127 (Rp46.443 saat verifikasi), 1 chat (kondisi: ≥Rp45rb & chat <2). PAUSED, terverifikasi PAUSED.
+- C: tidak ada.
+- D: tidak ada.
+- Catatan: Haji 2 & Haji 4 tidak dicek untuk C/D (Haji 2 sengaja dimatikan user; Haji 4 kosong hari ini).

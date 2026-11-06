@@ -3879,3 +3879,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: tidak ada.
 - C (Nida 1019832712800468, pause iklan): 120251989863970004 "12 Hari Januari | 12_hari_januari_5 - winner" (Nida Sales / 12 hari januari) lifetime Rp35.279, 0 chat saat dicek (0 chat & ≥Rp35rb); update sukses, status baca ulang IN_PROCESS (proses Meta, belum terkonfirmasi PAUSED).
 - D: tidak ada (catatan: query iklan hanya spend >Rp20rb).
+
+### 2026-11-06 09:30 — cek 15 menit (cloud)
+- A: tidak ada.
+- B (Allif 4678183395742010, pause ad set): 120252268692220228 "jawa timur" (campaign 9 Hari januari) — spend hari ini Rp25.838, 0 chat (spend > Rp25rb & 0 chat); verifikasi PAUSED.
+- C: tidak ada.
+- D: tidak ada.

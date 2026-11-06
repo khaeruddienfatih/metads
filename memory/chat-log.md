@@ -4016,5 +4016,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-06 20:33 — cek 15 menit (cloud)
 - A (nyala ad set): tidak ada.
 - B (pause ad set): Haji 3 (794403715776985) ad set 120252707667610704 "Haji", campaign Fifi — spend hari ini Rp45.278 (verifikasi Rp45.796), 1 chat (kondisi: spend ≥ Rp45.000 & chat < 2). Status terverifikasi PAUSED.
+### 2026-11-06 20:43 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): 
+  - Allif (4678183395742010) ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3", campaign Ramadhan — spend hari ini Rp26.420, 0 chat (spend > Rp25rb & 0 chat). Verified PAUSED.
+  - Haji 4 (1526562231314028) ad set 120256622022620768 "Vidio", campaign Diana — spend hari ini Rp25.125, 0 chat (spend > Rp25rb & 0 chat). Verified PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.

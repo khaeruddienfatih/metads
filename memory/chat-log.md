@@ -4049,3 +4049,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada (spend hari ini 0 semua ad set).
 - C: Allif (4678183395742010), iklan 120252431302970228 "Traffic Ramadhan | Desain 3 #2" (campaign Traffic (baru) - Salin, ad set Ramadhan): lifetime Rp252.912 / 5 chat = Rp50.582/chat → PAUSED (update sukses; read-back effective_status IN_PROCESS, sedang diproses Meta).
 - D: tidak ada (tidak ada iklan PAUSED dengan CPR < Rp30rb).
+### 2026-11-07 06:14 — cek 15 menit (cloud)
+- A: tidak ada ad set dinyalakan (kandidat AIni "25 Kota - Broad 25-65 #2" CPR hari ini Rp49.632 > Rp30rb).
+- B: PAUSE 1 ad set — akun Irfan 1060984719243481, ad set 120253330258920414 "Indonesia" (campaign "new"), spend hari ini Rp28.353, 0 chat (> Rp25rb & 0 chat). Terverifikasi PAUSED.
+- C: tidak ada iklan di-pause. D: tidak ada iklan dinyalakan.
+- Catatan: filter amount_spent/results di ads_get_ad_entities tidak diterapkan tool, jadi disaring manual dari hasil.

@@ -4044,3 +4044,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Menyalakan semua ad set PAUSED di campaign ACTIVE, 14 akun (tanpa elharamain Profile). Budget tidak diubah.
 - Hasil: 195 nyala / 0 dilewati / 0 gagal. Diana 15, Tira 12, Nida 15, Hanif 11, Allif 12, Fikri 12, AIni 22, Irfan 16, Fifi 30, Elharamain Haji 25, Haji 3 12, Haji 4 13, Haji 2 0, haji 0.
 - Akun mode draft (Diana, Nida, Fikri, Fifi, Haji 3, Haji 4) butuh panggilan tanpa object_ids.
+
+### 2026-11-07 04:13 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada (spend hari ini 0 semua ad set).
+- C: Allif (4678183395742010), iklan 120252431302970228 "Traffic Ramadhan | Desain 3 #2" (campaign Traffic (baru) - Salin, ad set Ramadhan): lifetime Rp252.912 / 5 chat = Rp50.582/chat → PAUSED (update sukses; read-back effective_status IN_PROCESS, sedang diproses Meta).
+- D: tidak ada (tidak ada iklan PAUSED dengan CPR < Rp30rb).

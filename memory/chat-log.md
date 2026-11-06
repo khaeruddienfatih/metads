@@ -3902,3 +3902,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set boros, hari ini, verified PAUSED): AIni 814396810761205 — ad set `Indonesia` (120253660020020019, campaign Ramadhan): spend Rp25.581, 0 chat (spend > Rp25rb & 0 chat).
 - C (pause iklan mahal, sepanjang waktu, verified PAUSED): Tira 868364731529534 — iklan 120252902862430584 `Video 9 Hari Januari | januari_8 | 25 Kota J#5` (adset 25 Kota Video #5, campaign januari 9 hari & 12 hari): Rp100.007, 2 chat, CPR Rp50.004.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-06 11:55 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): tidak ada.
+- C (pause iklan): Hanif (482252744648260) iklan 120255213969900427 "12 Hari Januari | Desain 2 12H #4 | baru" (campaign 12 Hari Januari, ad set new) — sepanjang waktu Rp51.803 / 1 chat = CPR Rp51.803 (> Rp50rb). Status PAUSED terverifikasi.
+- D (nyala iklan): tidak ada.

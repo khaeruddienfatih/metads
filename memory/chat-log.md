@@ -4113,3 +4113,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Allif (4678183395742010) ad set 120252268692220228 "jawa timur" (campaign 9 Hari januari) — spend hari ini Rp46.869, 1 chat (≥Rp45rb & chat<2) → PAUSED, terverifikasi PAUSED.
 - B: Haji 4 (1526562231314028) ad set 120256622022560768 "Gambar" (campaign Diana) — spend hari ini Rp25.257, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-07 12:58 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set boros), terverifikasi lewat respons update (status PAUSED, is_draft=false):
+  - Allif 4678183395742010 — ad set `jawa barat` (120252243406460228), campaign Ramadhan: spend hari ini Rp25.345, 0 chat (spend > Rp25.000 & 0 chat) → PAUSED.
+  - Elharamain Haji 947788760498911 — ad set `26 Kota - Broad 25-65 #4` (120251142496720739), campaign Fifi: spend hari ini Rp45.017, 1 chat (spend ≥ Rp45.000 & chat < 2) → PAUSED.
+- C (pause iklan mahal): tidak ada.
+- D (nyala iklan bagus): tidak ada.

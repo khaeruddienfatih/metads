@@ -4054,3 +4054,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: PAUSE 1 ad set — akun Irfan 1060984719243481, ad set 120253330258920414 "Indonesia" (campaign "new"), spend hari ini Rp28.353, 0 chat (> Rp25rb & 0 chat). Terverifikasi PAUSED.
 - C: tidak ada iklan di-pause. D: tidak ada iklan dinyalakan.
 - Catatan: filter amount_spent/results di ads_get_ad_entities tidak diterapkan tool, jadi disaring manual dari hasil.
+
+### 2026-11-07 07:01 — cek 15 menit (cloud)
+- A: tidak ada ad set dinyalakan. B: tidak ada ad set di-pause.
+- C: PAUSE 1 iklan — akun Elharamain Haji 947788760498911, iklan 120251069905030739 "Haji - Irfan Haji 2 Salin | Design 14 #3" (campaign Irfan, ad set Haji - 2 - Salin), sepanjang waktu Rp450.346 / 9 chat = Rp50.038/chat (> Rp50rb). Terverifikasi status PAUSED (effective_status sempat IN_PROCESS).
+- D: tidak ada iklan dinyalakan.

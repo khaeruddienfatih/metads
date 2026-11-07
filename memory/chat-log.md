@@ -4070,3 +4070,5 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A (nyala adset): tidak ada.
 - B (pause adset): akun Allif 4678183395742010, adset 120252268692220228 "jawa timur" (campaign "9 Hari januari"), spend hari ini Rp26.309 saat dicek (Rp27.365 saat verifikasi), 0 chat → syarat spend > Rp25rb & 0 chat. Verifikasi: PAUSED.
 - C (pause iklan): tidak ada. D (nyala iklan): tidak ada (semua iklan PAUSED ber-chat CPR ≥ Rp30rb).
+### 2026-11-07 09:20 — cek 15 menit (cloud)
+- A: tidak ada. B: 1 ad set di-PAUSE — AIni (814396810761205), ad set `25 Kota - Broad 25-65 #4` (120254063385360019), campaign Qatar: spend hari ini Rp25.240, 0 chat (> Rp25.000 & 0 chat); verifikasi status PAUSED. C: tidak ada. D: tidak ada.

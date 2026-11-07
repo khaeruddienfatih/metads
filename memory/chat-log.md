@@ -4171,3 +4171,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Allif (4678183395742010) ad set Ramadhan `120252223314650228`, campaign Ramadhan — spend hari ini Rp53.875, 1 chat (kondisi B2: ≥ Rp45rb & < 2 chat). Status terverifikasi PAUSED (success dari update).
 - C (pause iklan): Diana (1076195694707828) iklan `120252430938520294` "9 Hari Januari | Desain 7 Januari #3 | baru" (Diana new / 9 Januari) — lifetime Rp35.045, 0 chat. Status PAUSED (success).
 - D (nyala iklan): tidak ada (pengecekan hanya iklan PAUSED dengan spend ≥ Rp35rb).
+
+### 2026-11-07 17:31 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Haji 4 (1526562231314028) ad set "Vidio" `120256622022600768`, campaign Nida — spend hari ini Rp25.389, 0 chat (kondisi: > Rp25rb & 0 chat). Status terverifikasi PAUSED.
+- C (pause iklan): tidak ada.
+- D (nyala iklan): tidak ada.

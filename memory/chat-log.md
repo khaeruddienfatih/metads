@@ -4124,3 +4124,11 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-07 13:13 — cek 15 menit (cloud)
 - A: tidak ada. C: tidak ada. D: tidak ada.
 - B: Allif (4678183395742010) ad set 120252430673590228 "Ramadhan" (campaign Traffic (baru) - Salin) — spend hari ini Rp25.887, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+
+### 2026-11-07 13:40 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): tidak ada.
+- C (pause iklan, seumur iklan): 
+  - Nida (1019832712800468) iklan 120251630336510004 "9 Hari Januari | januari_3 | baru" (campaign 9 Hari Januari) — Rp205.034 / 4 chat = Rp51.258/chat — PAUSED (terverifikasi).
+  - Allif (4678183395742010) iklan 120252243611280228 "Ramadhan jawa timur | Desain 3 #5" (campaign Ramadhan) — Rp750.232 / 15 chat = Rp50.015/chat — PAUSED (terverifikasi).
+- D (nyala iklan): tidak ada.

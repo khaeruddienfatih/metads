@@ -4189,3 +4189,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Allif 4678183395742010 — ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3" (campaign Ramadhan): spend hari ini Rp29.387, 0 chat (>Rp25rb & 0 chat). Terverifikasi PAUSED.
 - C (pause iklan): Fikri 1676215979752437 — iklan 120249986573350470 "Ramadhan | Desain 2 Ramadhan #5 | baru" (ad set Ramadhan, campaign Fikri): sepanjang waktu spend Rp35.063, 0 chat. Terverifikasi PAUSED.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-07 — cek iklan baru: mana yang bagus, mana yang dimatikan
+- Diminta: "bagaimana ada yang bagus dan ada iklan yang di matikan tidak". Read-only, tidak ada yang diubah.
+- 178 iklan "| baru" di 14 akun: sepanjang waktu Rp6.226.050 / 126 chat (rata-rata ~Rp49rb). Status: 57 jalan, 43 iklan PAUSED, 53 ad set-nya off, 25 campaign-nya off.
+- Bagus (CPR < Rp30rb): 17 iklan. Terbaik Tira "Ramadhan | Desain 2 Ramadhan #3" 14 chat Rp16,3rb, tapi ad set-nya off. Beberapa iklan bagus lain juga ad set/campaign-nya off (AIni D7 #2, AIni Ramadhan D3 #5, Fifi 12H D2 #1, Haji 4 D7 #2, Elharamain Haji "Diana new").
+- Dimatikan: 43 iklan (aturan C: 0 chat & ≥ Rp35rb, atau CPR > Rp50rb).
+- Tertunda: tawaran menyalakan lagi ad set yang memuat iklan bagus. Menunggu perintah user.

@@ -21,7 +21,7 @@ Yang dicek:
 - laporan pagi (4 Nov 2026): wajib ada "tabel_bawah" "Anggaran <AWAL_BULAN_LABEL> s.d. <KEMARIN_LABEL>"
   (dari tools/pengeluaran_bulan.py) dengan baris Meta Umroh & Meta Haji >= biaya kemarin
 - KONTROL (5 Nov 2026, setelah campaign Tira "new" terlewat di laporan pimpinan): "kontrol" per akun
-  (biaya level akun + SEMUA campaign ber-spend) wajib ada untuk 15 akun (14 + elharamain Profile); jumlah campaign = biaya akun,
+  (biaya level akun + SEMUA campaign ber-spend) wajib ada untuk 13 akun (9 Umroh + 3 Haji + elharamain Profile); jumlah campaign = biaya akun,
   baris tabel = isi kontrol; laporan pagi juga "kontrol_bulan" (biaya akun 1 s.d. kemarin) = Meta Umroh+Haji
 """
 import json
@@ -48,8 +48,9 @@ def total(tabel):
 AKUN_UMROH = {"1076195694707828": "Diana", "868364731529534": "Tira", "1019832712800468": "Nida",
               "482252744648260": "Hanif", "4678183395742010": "Allif", "1676215979752437": "Fikri",
               "814396810761205": "AIni", "1060984719243481": "Irfan", "521083143750270": "Fifi"}
-AKUN_HAJI = {"947788760498911": "Elharamain Haji", "1032468828178224": "Haji 2", "794403715776985": "Haji 3",
-             "1526562231314028": "Haji 4", "1050343302646341": "haji"}
+# 7 Nov 2026, user: "untuk laporan elharmain haji 2 dan haji itu ga perlu ada laporan karna iklanya di stop":
+# Haji 2 (1032468828178224) & haji (1050343302646341) dikeluarkan dari laporan (Nov Rp0, tidak ada campaign aktif).
+AKUN_HAJI = {"947788760498911": "Elharamain Haji", "794403715776985": "Haji 3", "1526562231314028": "Haji 4"}
 # 5 Nov 2026, user: "laporan masukan juga elharamain profile". Campaign awareness (bukan chat WA):
 # tabel sendiri "elharamain Profile" (Biaya, Hasil = results Meta), tidak masuk Ringkasan/CPR chat;
 # di Anggaran jadi baris "Meta Profile".

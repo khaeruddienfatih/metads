@@ -4219,3 +4219,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Fikri (1676215979752437) ad set Ramadhan `120249683321220470` (campaign Fikri) — spend hari ini Rp25.340, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
 - C: tidak ada.
 - D: tidak ada.
+
+### 2026-11-07 — Haji 2 & haji dikeluarkan dari laporan
+- Diminta: "untuk laporan elharmain haji 2 dan haji itu ga perlu ada laporan karna iklanya di stop".
+- Dicek: kedua akun Nov Rp0, tidak ada campaign aktif.
+- tools/cek_laporan.py: AKUN_HAJI tinggal Elharamain Haji, Haji 3, Haji 4 (kontrol 13 akun). Tes kontrol lolos.
+- Routine laporan 06:00 (trig_01Ci9E1ffEGZ97CAaxiyqCBY), 08:00 (trig_01NydaDZaZmHdb68jLxpn13R), 12/16/21 (trig_01D9NHsCepUj6rvi7cs5nt77) diperbarui: daftar HAJI 3 akun, kontrol 13 akun.
+- Aturan otomatis (cek 15 menit, jadwal) tidak diubah.

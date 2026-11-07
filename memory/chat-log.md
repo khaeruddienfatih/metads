@@ -4096,3 +4096,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: tidak ada ad set di-pause.
 - C: Haji 3 (794403715776985) iklan 120253032885640704 "Haji_Img_01" (ad set Haji 3, campaign Alif) — lifetime Rp100.162 / 2 chat = CPR Rp50.081 (> Rp50rb) → PAUSED, terverifikasi.
 - D: tidak ada iklan dinyalakan.
+
+### 2026-11-07 11:45 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C: Hanif (482252744648260) iklan 120255213944420427 "12 Hari Januari | Desain 3 12H #1 | baru" (campaign Sales, ad set 12 Hari Januari) — spend sepanjang waktu Rp35.101, 0 chat → PAUSED, terverifikasi PAUSED.

@@ -4107,3 +4107,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C (pause iklan): Allif 4678183395742010 · iklan 120252682691320228 "Ramadhan | Desain 2 Ramadhan #2 | baru" (adset Ramadhan, campaign Traffic (baru) - Salin) — lifetime Rp51.779 / 1 chat (CPR Rp51.779 > Rp50rb) → PAUSED, terverifikasi.
 - D (nyala iklan): tidak ada.
 - Haji 2 (1032468828178224) dilewati (sengaja dimatikan user).
+
+### 2026-11-07 12:43 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Allif (4678183395742010) ad set 120252268692220228 "jawa timur" (campaign 9 Hari januari) — spend hari ini Rp46.869, 1 chat (≥Rp45rb & chat<2) → PAUSED, terverifikasi PAUSED.
+- B: Haji 4 (1526562231314028) ad set 120256622022560768 "Gambar" (campaign Diana) — spend hari ini Rp25.257, 0 chat (>Rp25rb & 0 chat) → PAUSED, terverifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

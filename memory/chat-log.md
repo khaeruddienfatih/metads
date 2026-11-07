@@ -4254,3 +4254,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Total 48 iklan baru (24 per akun), nama "... | baru", semua PAUSED. Teks dari primary-texts.md, headline 7000+ / Tiket Sudah Confirm berselang, template WA sama dengan iklan sebelumnya, fitur otomatis Meta semua OPT_OUT. Materi diupload langsung dari URL Cloudinary.
 - Hanif dikerjakan lewat token bot (Graph API). Allif: token bot ditolak "Permissions error 2490591", jadi dikerjakan lewat connector Meta (MCP).
 - Tertunda: aktivasi iklan menunggu perintah user. Catatan: jadwal pagi 04:00 akan menyalakan ad set ini (campaign ACTIVE), tapi iklannya tetap PAUSED jadi tidak tayang.
+
+### 2026-11-07 22:00 — jadwal malam OFF (cloud)
+- Routine jadwal malam OFF 22:00 WIB: 85 ad set ACTIVE di-PAUSE di 12 akun, 0 gagal, 0 akun tak terbaca. Verifikasi ulang: tidak ada ad set ACTIVE tersisa.
+- Per akun (paused/gagal): Diana 8/0 · Tira 6/0 · Nida 5/0 · Hanif 4/0 · Allif 3/0 · Fikri 8/0 · AIni 8/0 · Irfan 7/0 · Fifi 11/0 · Elharamain Haji 15/0 · Haji 3 3/0 · Haji 4 7/0 · Haji 2 0 (memang mati) · haji 1050343302646341 0 (hanya 1 ad set ARCHIVED).
+- Daftar di memory/jadwal-malam-daftar.md (2026-11-07). Elharamain Profile tidak disentuh. Catatan: Minggu 14:00 sudah ada jadwal OFF terpisah, jadi sebagian ad set mungkin sudah PAUSED sebelumnya — tidak berlaku hari ini (semua ACTIVE saat 22:00 dicatat).

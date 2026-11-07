@@ -4226,3 +4226,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - tools/cek_laporan.py: AKUN_HAJI tinggal Elharamain Haji, Haji 3, Haji 4 (kontrol 13 akun). Tes kontrol lolos.
 - Routine laporan 06:00 (trig_01Ci9E1ffEGZ97CAaxiyqCBY), 08:00 (trig_01NydaDZaZmHdb68jLxpn13R), 12/16/21 (trig_01D9NHsCepUj6rvi7cs5nt77) diperbarui: daftar HAJI 3 akun, kontrol 13 akun.
 - Aturan otomatis (cek 15 menit, jadwal) tidak diubah.
+
+### 2026-11-07 — cek umur untuk kampanye 3 ad set beda umur
+- Diminta: "saya mau ada kampanye pakai perbedaan umur coba kamu cek dari semua iklan umur berapa saja yang bisa kita pakai untuk 3 adset". Read-only, belum membuat apa pun.
+- Data 30 hari, breakdown umur, 12 akun:
+  - Umroh (Rp199,9jt / 4.407 chat): 25-34 CPR 41,6rb (29% chat) · 35-44 47,8rb (33%) · 45-54 50,9rb (21%) · 55-64 41,7rb (14%) · 65+ 36,2rb (4%).
+  - Haji (Rp94,9jt / 2.498 chat): 25-34 32,6rb · 35-44 38,5rb · 45-54 40,3rb · 55-64 30,4rb · 65+ 32,4rb. "Unknown" Rp5,1jt / 1 chat (non-chat).
+  - Tidak ada data 18-24 (target selama ini mulai 25).
+- Usulan: Umroh 25-34 / 35-44 / 45-65+; Haji 25-34 / 35-54 / 55-65+.
+- Tertunda: user pilih Umroh/Haji, akun/CS, anggaran, materi.

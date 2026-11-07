@@ -4087,3 +4087,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): Fikri (1676215979752437) ad set `9 Hari Januari` ID 120249721533920470, campaign "Fikri Prov" — spend hari ini Rp25.934, 0 chat (kondisi: >Rp25.000 & 0 chat). Terverifikasi PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+### 2026-11-07 10:43 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada.
+- C: akun Elharamain Haji 947788760498911, iklan 120251088657830739 "Haji - Hanif Interest 3 - winner" (campaign Fikri, ad set Broud): lifetime Rp100.422 / 2 chat = Rp50.211/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.
+- D: tidak ada.

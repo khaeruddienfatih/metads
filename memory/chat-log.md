@@ -4155,3 +4155,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada.
 - B: PAUSE 2 ad set (spend hari ini >Rp25.000 & 0 chat): Diana (1076195694707828) ad set `120251812124670294` "12hari januari" campaign "Diana IG" — spend Rp25.124, 0 chat; AIni (814396810761205) ad set `120254063385330019` "25 Kota - Broad 25-65 #2" campaign "Qatar" — spend Rp26.079, 0 chat. Status diverifikasi PAUSED.
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-07 15:55 — cek 15 menit (cloud)
+- B: Allif (4678183395742010) ad set 120252223314650228 "Ramadhan" (campaign Ramadhan) — saat dicek spend hari ini Rp26.383, 0 chat (>Rp25rb) → PAUSED (terverifikasi PAUSED).
+- A: verifikasi ulang menunjukkan 1 chat masuk (spend Rp27.206, CPR Rp27.206 < Rp30rb, campaign ACTIVE) → ad set dinyalakan lagi (ACTIVE).
+- C: tidak ada. D: tidak ada.

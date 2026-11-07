@@ -4196,3 +4196,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Bagus (CPR < Rp30rb): 17 iklan. Terbaik Tira "Ramadhan | Desain 2 Ramadhan #3" 14 chat Rp16,3rb, tapi ad set-nya off. Beberapa iklan bagus lain juga ad set/campaign-nya off (AIni D7 #2, AIni Ramadhan D3 #5, Fifi 12H D2 #1, Haji 4 D7 #2, Elharamain Haji "Diana new").
 - Dimatikan: 43 iklan (aturan C: 0 chat & ≥ Rp35rb, atau CPR > Rp50rb).
 - Tertunda: tawaran menyalakan lagi ad set yang memuat iklan bagus. Menunggu perintah user.
+
+### 2026-11-07 — kenapa ad set iklan bagus tidak nyala
+- Diminta: "kenapa adsetnya gg nyala". Dicek activity log 6 ad set (read-only, tidak ada yang diubah).
+- Semua dinyalakan jadwal pagi 04:00, lalu dimatikan lagi hari ini:
+  - Bot auto_rules (aturan B, >Rp25rb & 0 chat atau ≥Rp45rb & <2 chat): Tira 120252993566900584 06:59 (Rp28.442/0), AIni 120253900913430019 13:06 (Rp68.001/1), AIni 120253866011660019 11:42 (Rp29.317/0), Haji 4 120256622022600768 17:30 (Rp27.038/0).
+  - Rule Meta "OFF 1" milik akun Fifi: Fifi 120252512253110365 17:42.
+  - Campaign Diana di Elharamain Haji di-PAUSE 5 Nov 12:46 oleh "Muhammad Dhiyaa Elhaq".
+- Aturan A tidak menyalakan lagi karena butuh ≥1 chat hari ini & CPR < Rp30rb; 0 chat hari ini → tetap off.
+- Tertunda: usulan pengecualian aturan B untuk ad set yang CPR kemarin/3 hari bagus. Menunggu keputusan user.

@@ -4072,3 +4072,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C (pause iklan): tidak ada. D (nyala iklan): tidak ada (semua iklan PAUSED ber-chat CPR ≥ Rp30rb).
 ### 2026-11-07 09:20 — cek 15 menit (cloud)
 - A: tidak ada. B: 1 ad set di-PAUSE — AIni (814396810761205), ad set `25 Kota - Broad 25-65 #4` (120254063385360019), campaign Qatar: spend hari ini Rp25.240, 0 chat (> Rp25.000 & 0 chat); verifikasi status PAUSED. C: tidak ada. D: tidak ada.
+
+### 2026-11-07 09:45 — cek 15 menit (cloud)
+- A: Allif (4678183395742010) ad set 120252268692220228 "jawa timur" (campaign "9 Hari januari") dinyalakan lagi — hari ini 1 chat, spend Rp27.526, CPR Rp27.526; verifikasi API: ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

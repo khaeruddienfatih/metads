@@ -4059,3 +4059,7 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada ad set dinyalakan. B: tidak ada ad set di-pause.
 - C: PAUSE 1 iklan — akun Elharamain Haji 947788760498911, iklan 120251069905030739 "Haji - Irfan Haji 2 Salin | Design 14 #3" (campaign Irfan, ad set Haji - 2 - Salin), sepanjang waktu Rp450.346 / 9 chat = Rp50.038/chat (> Rp50rb). Terverifikasi status PAUSED (effective_status sempat IN_PROCESS).
 - D: tidak ada iklan dinyalakan.
+
+### 2026-11-07 07:15 — cek 15 menit (cloud)
+- A: Hanif (482252744648260) ad set 120254774741200427 "jawa barat" (campaign "12 Hari Januari") — hari ini 1 chat, spend Rp27.932, CPR Rp27.932 (<Rp30rb) → dinyalakan. Aktivasi pertama sempat kembali PAUSED (log: auto/app "Elharamain Wisata" menjadikan Inactive di menit yang sama); aktivasi ulang → terverifikasi ACTIVE.
+- B: tidak ada. C: tidak ada. D: tidak ada.

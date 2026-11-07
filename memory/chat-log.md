@@ -4091,3 +4091,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - A: tidak ada. B: tidak ada.
 - C: akun Elharamain Haji 947788760498911, iklan 120251088657830739 "Haji - Hanif Interest 3 - winner" (campaign Fikri, ad set Broud): lifetime Rp100.422 / 2 chat = Rp50.211/chat (> Rp50rb) → PAUSED, terverifikasi PAUSED.
 - D: tidak ada.
+### 2026-11-07 11:16 — cek 15 menit (cloud)
+- A: tidak ada ad set dinyalakan.
+- B: tidak ada ad set di-pause.
+- C: Haji 3 (794403715776985) iklan 120253032885640704 "Haji_Img_01" (ad set Haji 3, campaign Alif) — lifetime Rp100.162 / 2 chat = CPR Rp50.081 (> Rp50rb) → PAUSED, terverifikasi.
+- D: tidak ada iklan dinyalakan.

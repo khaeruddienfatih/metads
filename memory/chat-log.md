@@ -4139,3 +4139,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - C (pause iklan, seumur iklan):
   - Fifi (521083143750270) iklan 120252543915110365 "9 Hari Januari Fifi 9 Januari | januari_2" (adset 9 Januari, campaign Fifi) — Rp35.101 / 0 chat (≥ Rp35.000) — PAUSED (status PAUSED, effective_status IN_PROCESS saat verifikasi).
 - D (nyala iklan): tidak ada.
+
+### 2026-11-07 14:15 — cek 15 menit (cloud)
+- A: tidak ada.
+- B: Hanif (482252744648260) — ad set 12 Hari Januari (120255213571660427), campaign Sales: spend hari ini Rp25.735 & 0 chat (> Rp25.000 tanpa chat) → PAUSE, terverifikasi PAUSED.
+- C: tidak ada. D: tidak ada.

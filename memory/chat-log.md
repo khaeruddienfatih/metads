@@ -4205,3 +4205,12 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Campaign Diana di Elharamain Haji di-PAUSE 5 Nov 12:46 oleh "Muhammad Dhiyaa Elhaq".
 - Aturan A tidak menyalakan lagi karena butuh ≥1 chat hari ini & CPR < Rp30rb; 0 chat hari ini → tetap off.
 - Tertunda: usulan pengecualian aturan B untuk ad set yang CPR kemarin/3 hari bagus. Menunggu keputusan user.
+
+### 2026-11-07 — aturan baru: Minggu 14:00 semua ad set OFF
+- Diminta: "aturan biarkan berlaku dan tambah satu aturan khsusu di hari minggu adset off di jam 2 siang,elharamain profile tetep berjalan".
+- Aturan lama tetap (tidak ada pengecualian aturan B).
+- Routine baru `trig_01Pf9NsE76EY2AhDBhcYSKo2` "Jadwal Minggu: ad set OFF 14:00 WIB" (cron 0 7 * * 0, Sonnet, connector meta-ads): PAUSE semua ad set ACTIVE di 14 akun; elharamain Profile tidak disentuh. Jalan pertama Minggu 8 Nov 14:00.
+- 4 routine cek 15 menit (:13/:28/:43/:58) ditambah "SUNDAY WINDOW": Minggu ≥14:00 tidak melakukan apa-apa.
+- telegram/auto_rules.py: jam tenang ditambah Minggu ≥14:00; service elharamain-autorules di-restart (aktif).
+- memory/routine-tabel.md: baris 5b + catatan; chat-memory.md diperbarui.
+- Senin 04:00 jadwal pagi menyalakan semua ad set seperti biasa.

@@ -11,7 +11,7 @@ telegram/.env (TIDAK di-commit):
   META_ADS_INTERVAL=600        detik antar pengecekan iklan sepanjang waktu (default 600)
   TELEGRAM_BOT_TOKEN / TELEGRAM_ALLOWED_CHAT_IDS  (sudah ada) — untuk kabar tiap ada perubahan
 
-Jam tenang 22:00–03:59 WIB: tidak jalan (jadwal malam/pagi tetap di routine cloud).
+Jam tenang 22:00–03:59 WIB + hari Minggu sejak 14:00: tidak jalan (jadwal malam/pagi/Minggu tetap di routine cloud).
 """
 import json
 import os
@@ -210,7 +210,9 @@ def main():
         if hari != skrg.date():
             sudah.clear()  # hitungan baru tiap hari
             hari = skrg.date()
-        if skrg.hour >= 22 or skrg.hour < 4:  # jam tenang
+        # jam tenang 22:00–03:59; 7 Nov 2026 (user: "tambah satu aturan khusus di hari minggu adset off di jam 2 siang"):
+        # hari Minggu sejak 14:00 juga tenang, supaya ad set yang dimatikan routine Minggu 14:00 tidak dinyalakan lagi
+        if skrg.hour >= 22 or skrg.hour < 4 or (skrg.weekday() == 6 and skrg.hour >= 14):
             time.sleep(60)
             continue
         cek_iklan_sekarang = time.time() - iklan_terakhir >= ADS_EVERY

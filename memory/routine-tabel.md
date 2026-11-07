@@ -16,7 +16,7 @@
 
 ---
 
-## A. Pengecekan otomatis (tiap 15 menit, jam 04:00–21:59)
+## A. Pengecekan otomatis (tiap 15 menit, jam 04:00–21:59; Minggu hanya 04:00–13:59)
 
 | No | Untuk | Kalau (syarat) | Maka | Angka |
 |---|---|---|---|---|
@@ -36,11 +36,13 @@ Catatan:
 | No | Jam | Kalau (syarat) | Maka | Angka |
 |---|---|---|---|---|
 | 5 | 22:00 | Ada ad set yang aktif | MATIKAN semua ad set (istirahat malam) | – |
+| 5b | Minggu 14:00 | Hari Minggu, ada ad set yang aktif | MATIKAN semua ad set (libur Minggu siang) | – |
 | 6 | 03:00 | CPR tiap hari selama 3 hari terakhir murah | NAIKKAN anggaran campaign | CPR < Rp30.000 · naik +10% · maksimal Rp300.000/hari |
 | 7 | 04:00 | Ada ad set yang mati | NYALAKAN semua ad set | – |
 
 Catatan:
-- Akun **elharamain Profile** (873443374652541) tidak ikut no 5, 6, 7 (tidak dimatikan malam, tidak dinaikkan anggarannya, tidak dinyalakan pagi).
+- No 5b (7 Nov 2026, perintah user "tambah satu aturan khusus di hari minggu adset off di jam 2 siang, elharamain profile tetep berjalan"): Minggu 14:00 WIB semua ad set ACTIVE di 14 akun di-PAUSE. Setelah itu sampai Senin 03:59 tidak ada yang menyalakan (aturan no 1 & 4 libur). Senin 04:00 no 7 menyalakan lagi seperti biasa.
+- Akun **elharamain Profile** (873443374652541) tidak ikut no 5, 5b, 6, 7 (tidak dimatikan malam, tidak dinaikkan anggarannya, tidak dinyalakan pagi).
 - No 6: campaign **Allif tidak pernah dinaikkan**. Setiap campaign minimal **jeda 3 hari** antar kenaikan.
 - No 7 tetap menyalakan walau yang mematikan adalah orang.
 
@@ -55,7 +57,7 @@ Catatan:
 ---
 
 ## Batasan yang berlaku untuk semua aturan
-- **Jam tenang 22:00–03:59:** tidak ada aturan yang jalan, kecuali no 5, 6, dan 7 (no 6 jalan 03:00 supaya tidak bentrok dengan no 7 jam 04:00).
+- **Jam tenang 22:00–03:59, dan hari Minggu sejak 14:00:** tidak ada aturan yang jalan, kecuali no 5, 5b, 6, dan 7 (no 6 jalan 03:00 supaya tidak bentrok dengan no 7 jam 04:00).
 - Yang dinyalakan hanya campaign yang **aktif** dan iklan yang **belum diarsipkan**.
 - Routine **tidak pernah** menghapus iklan, dan **tidak mengubah** targeting maupun kreatif.
 

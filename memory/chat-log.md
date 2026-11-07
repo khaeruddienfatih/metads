@@ -4160,3 +4160,8 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B: Allif (4678183395742010) ad set 120252223314650228 "Ramadhan" (campaign Ramadhan) — saat dicek spend hari ini Rp26.383, 0 chat (>Rp25rb) → PAUSED (terverifikasi PAUSED).
 - A: verifikasi ulang menunjukkan 1 chat masuk (spend Rp27.206, CPR Rp27.206 < Rp30rb, campaign ACTIVE) → ad set dinyalakan lagi (ACTIVE).
 - C: tidak ada. D: tidak ada.
+
+### 2026-11-07 16:05 — cek 15 menit (cloud)
+- A: tidak ada. B: tidak ada. D: tidak ada.
+- C (pause iklan, lifetime): Tira 868364731529534, ad 120252993631050584 "12 Hari Januari | Desain 3 12 Hari #1 | baru" (campaign Paket) — spend Rp35.154, 0 chat; status PAUSED (terverifikasi).
+- C: Fikri 1676215979752437, ad 120249697396640470 "Ramadhan Fikri | Desain 3 #2" (campaign Fikri) — spend Rp400.035 / 8 chat = Rp50.004/chat; status PAUSED (terverifikasi; effective_status sementara IN_PROCESS).

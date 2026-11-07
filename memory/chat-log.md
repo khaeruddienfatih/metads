@@ -4183,3 +4183,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - B (pause ad set): AIni (814396810761205) ad set "12 Hari Januari" `120253924406960019`, campaign Prospek (baru) - Salin — spend hari ini Rp45.657, 1 chat (kondisi: ≥ Rp45rb & chat < 2). Status terverifikasi PAUSED.
 - C (pause iklan): tidak ada.
 - D (nyala iklan): tidak ada.
+
+### 2026-11-07 20:01 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): Allif 4678183395742010 — ad set 120252538255050228 "Jawa Barat - Broad 25-65 #3" (campaign Ramadhan): spend hari ini Rp29.387, 0 chat (>Rp25rb & 0 chat). Terverifikasi PAUSED.
+- C (pause iklan): Fikri 1676215979752437 — iklan 120249986573350470 "Ramadhan | Desain 2 Ramadhan #5 | baru" (ad set Ramadhan, campaign Fikri): sepanjang waktu spend Rp35.063, 0 chat. Terverifikasi PAUSED.
+- D (nyala iklan): tidak ada.

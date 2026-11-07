@@ -4241,3 +4241,16 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 - Rekomendasi: A 25-34 (CPR 41,6rb) · B 35-44 (47,8rb, chat terbanyak) · C 55-65+ (gabungan ~40,7rb). 45-54 dilewati (termahal 50,9rb, rawan kena aturan B ≥Rp45rb & <2 chat).
 - Anggaran per ad set (ABO), sama rata, supaya tiap umur dapat porsi adil.
 - Tertunda: akun/CS, anggaran, paket/materi; dibuat dalam keadaan mati.
+
+### 2026-11-07 — isi iklan + setting ad set kampanye baru Hanif & Allif (umur 25-34/35-44/55-65+)
+- Diminta: "sekarang masuk ke akun hanif dan alif ada kampanye baru kamu isi iklanya dan setting adsetnya" + "semua dengan materi baru" + "pakai materi yang di claudinary bukan pakai id iklan" + "utamakan jika ada gambar dan vidio baru". User pilih: umur hanya di kampanye "9 hari januari"; lokasi Allif diganti ke 26 kota.
+- Kampanye "9 hari januari" (Hanif 120255264478490427, Allif 120252729590680228, CBO Rp150rb): 3 ad set "new" → "9 Hari Januari 25-34 / 35-44 / 55-65+" (Advantage+ audience OFF supaya umur ketat), 26 kota default, penempatan default. Isi tiap ad set: Desain 11 #1-4 (upload Cloudinary 7 Nov 20:03).
+  - Hanif: 120255264478520427 (25-34), 120255264478510427 (35-44), 120255264478500427 (55-65+).
+  - Allif: 120252729590710228 (25-34), 120252729590700228 (35-44), 120252729590690228 (55-65+).
+- Kampanye "new" (Hanif 120255264471460427, Allif 120252729584050228, CBO Rp150rb): umur 25-65, 26 kota, penempatan default.
+  - 12 Hari Januari: video "Iklan 12 Hari 43,5jt" #1-4 (baru).
+  - 9 Hari Januari: video "Iklan Reguler 37,9jt" (Hanif #2-5, Allif #6-9).
+  - Ramadhan: tidak ada materi baru → desain Ramadhan Cloudinary yang paling jarang dipakai (Hanif D2#3, D2#4, D3#1, D3#3; Allif D2#1, D3#1, D2#2, D2#3).
+- Total 48 iklan baru (24 per akun), nama "... | baru", semua PAUSED. Teks dari primary-texts.md, headline 7000+ / Tiket Sudah Confirm berselang, template WA sama dengan iklan sebelumnya, fitur otomatis Meta semua OPT_OUT. Materi diupload langsung dari URL Cloudinary.
+- Hanif dikerjakan lewat token bot (Graph API). Allif: token bot ditolak "Permissions error 2490591", jadi dikerjakan lewat connector Meta (MCP).
+- Tertunda: aktivasi iklan menunggu perintah user. Catatan: jadwal pagi 04:00 akan menyalakan ad set ini (campaign ACTIVE), tapi iklannya tetap PAUSED jadi tidak tayang.

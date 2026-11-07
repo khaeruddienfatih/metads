@@ -4100,3 +4100,10 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
 ### 2026-11-07 11:45 — cek 15 menit (cloud)
 - A: tidak ada. B: tidak ada. D: tidak ada.
 - C: Hanif (482252744648260) iklan 120255213944420427 "12 Hari Januari | Desain 3 12H #1 | baru" (campaign Sales, ad set 12 Hari Januari) — spend sepanjang waktu Rp35.101, 0 chat → PAUSED, terverifikasi PAUSED.
+
+### 2026-11-07 12:05 — cek 15 menit (cloud)
+- A (nyala ad set): tidak ada.
+- B (pause ad set): AIni 814396810761205 · ad set 120253660020020019 "Indonesia" (campaign Ramadhan) — spend hari ini Rp25.298, 0 chat (> Rp25rb & 0 chat) → PAUSED, terverifikasi.
+- C (pause iklan): Allif 4678183395742010 · iklan 120252682691320228 "Ramadhan | Desain 2 Ramadhan #2 | baru" (adset Ramadhan, campaign Traffic (baru) - Salin) — lifetime Rp51.779 / 1 chat (CPR Rp51.779 > Rp50rb) → PAUSED, terverifikasi.
+- D (nyala iklan): tidak ada.
+- Haji 2 (1032468828178224) dilewati (sengaja dimatikan user).

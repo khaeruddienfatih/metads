@@ -4235,3 +4235,9 @@ Riwayat permintaan dan hasilnya, dari yang paling lama ke yang terbaru.
   - Tidak ada data 18-24 (target selama ini mulai 25).
 - Usulan: Umroh 25-34 / 35-44 / 45-65+; Haji 25-34 / 35-54 / 55-65+.
 - Tertunda: user pilih Umroh/Haji, akun/CS, anggaran, materi.
+
+### 2026-11-07 — rekomendasi 3 ad set umur untuk Umroh
+- Diminta: "rekomen untuk 3 adset untuk umroh". Berdasarkan data 30 hari (entri sebelumnya).
+- Rekomendasi: A 25-34 (CPR 41,6rb) · B 35-44 (47,8rb, chat terbanyak) · C 55-65+ (gabungan ~40,7rb). 45-54 dilewati (termahal 50,9rb, rawan kena aturan B ≥Rp45rb & <2 chat).
+- Anggaran per ad set (ABO), sama rata, supaya tiap umur dapat porsi adil.
+- Tertunda: akun/CS, anggaran, paket/materi; dibuat dalam keadaan mati.
